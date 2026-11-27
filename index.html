@@ -535,12 +535,12 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      min-width: 620px;
+      min-width: 560px;
     }
 
     .topic-row {
       display: grid;
-      grid-template-columns: 200px repeat(5, minmax(92px, 1fr));
+      grid-template-columns: 170px repeat(5, minmax(76px, 1fr));
       gap: 8px;
       align-items: stretch;
     }
@@ -551,7 +551,7 @@
       border-radius: 10px;
       padding: 10px;
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 0.88rem;
       display: flex;
       align-items: center;
     }
@@ -559,11 +559,12 @@
     .q-btn {
       width: 100%;
       min-height: 54px;
+      padding: 8px 6px;
       background: linear-gradient(180deg, #1d3b66 0%, #132744 100%);
       border: 1px solid rgba(56, 189, 248, 0.35);
       border-radius: 10px;
       font-weight: 800;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: #e0f2fe;
       display: flex;
       flex-direction: column;
@@ -573,7 +574,7 @@
     }
 
     .q-btn span.pts {
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       color: #7dd3fc;
       font-weight: 600;
     }
@@ -1290,6 +1291,12 @@
       if (Array.isArray(bankList) && bankList.length > 0) {
         return bankList;
       }
+
+      const revTopics = REVISION_BANK[state.selectedYear]?.[subjectId]?.topics;
+      if (Array.isArray(revTopics) && revTopics.length > 0) {
+        return revTopics;
+      }
+
       return buildStarterTopicsForSubject(subjObj ? subjObj.label : "Subject");
     }
 
