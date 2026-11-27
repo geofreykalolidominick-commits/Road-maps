@@ -1227,6 +1227,14 @@
     };
 
     let QUESTION_BANK = {};
+    // REVISION_BANK[year][subjectId] -> array of { name, questions: [...] }
+    let REVISION_BANK = {
+      MD1: {},
+      MD2: {},
+      MD3: {},
+      MD4: {},
+      MD5: {}
+    };
 
     function buildStarterTopicsForSubject(subjectLabel) {
       const pointLevels = [10, 20, 30, 40, 50];
@@ -1255,6 +1263,29 @@
         return bankList;
       }
       return buildStarterTopicsForSubject(subjObj ? subjObj.label : "Subject");
+    }
+
+    function getRevisionSubjectsForYear(yearCode) {
+      const mapped = REVISION_BANK[yearCode] || {};
+      const mappedKeys = Object.keys(mapped);
+      if (mappedKeys.length > 0) {
+        return mappedKeys.map((id) => {
+          const found = SUBJECTS.find((s) => s.id === id);
+          return {
+            id,
+            label: mapped[id]?.label || found?.label || id.replace(/_/g, " ").replace(/\b\w/g, (c) => c.toUpperCase())
+          };
+        });
+      }
+      return getSubjectsForYear(yearCode);
+    }
+
+    function getRevisionTopics(yearCode, subjectId) {
+      const revSubj = REVISION_BANK[yearCode]?.[subjectId];
+      if (revSubj && Array.isArray(revSubj.topics) && revSubj.topics.length > 0) {
+        return revSubj.topics;
+      }
+      return getTopicsForSubject(subjectId);
     }
 
     function makePlayers(count, existingPlayers = []) {
@@ -1422,7 +1453,7 @@
     }
 
     function getSubjectLabel(id) {
-      return SUBJECTS.find((s) => s.id === id)?.label || "Subject";
+      return SUBJECTS.find((s) => s.id === id)?.label || id || "Subject";
     }
 
     function getSubjectsForYear(yearCode) {
@@ -2044,7 +2075,7 @@
         });
       } else if (revState.step === "subject") {
         els.revBreadcrumb.textContent = `${revState.year} → Choose Subject`;
-        const subs = getSubjectsForYear(revState.year);
+        const subs = getRevisionSubjectsForYear(revState.year);
         els.revSubjectGrid.innerHTML = "";
         if (subs.length === 0) {
           els.revSubjectGrid.innerHTML = `<div class="status-line">No subjects configured for ${revState.year} yet. Select MD5 to study available subjects.</div>`;
@@ -2053,7 +2084,8 @@
             const btn = document.createElement("button");
             btn.type = "button";
             btn.className = "subject-tile";
-            btn.innerHTML = `<span class="subject-tile-name">${s.label}</span><span class="subject-tile-sub">Tap to select topics</span>`;
+            const topicCount = getRevisionTopics(revState.year, s.id).length;
+            btn.innerHTML = `<span class="subject-tile-name">${s.label}</span><span class="subject-tile-sub">${topicCount} topics available</span>`;
             btn.addEventListener("click", () => {
               revState.subjectId = s.id;
               revState.topicIndex = null;
@@ -2066,7 +2098,7 @@
       } else if (revState.step === "topic") {
         const subjName = getSubjectLabel(revState.subjectId);
         els.revBreadcrumb.textContent = `${revState.year} → ${subjName} → Choose Topic`;
-        const topics = getTopicsForSubject(revState.subjectId);
+        const topics = getRevisionTopics(revState.year, revState.subjectId);
         els.revTopicList.innerHTML = "";
         els.revConfirmStartBtn.disabled = revState.topicIndex === null;
 
@@ -2083,7 +2115,7 @@
           els.revTopicList.appendChild(btn);
         });
       } else if (revState.step === "quiz") {
-        const topics = getTopicsForSubject(revState.subjectId);
+        const topics = getRevisionTopics(revState.year, revState.subjectId);
         const topicObj = topics[revState.topicIndex] || topics[0];
         const qs = revState.questions || [];
         const total = Math.max(1, qs.length);
@@ -2553,7 +2585,7 @@
 
     els.revConfirmStartBtn.addEventListener("click", () => {
       if (revState.topicIndex === null) return;
-      const topics = getTopicsForSubject(revState.subjectId);
+      const topics = getRevisionTopics(revState.year, revState.subjectId);
       const topicObj = topics[revState.topicIndex];
       revState.questions = Array.isArray(topicObj?.questions) ? topicObj.questions : [];
       revState.currentIndex = 0;
@@ -2632,10 +2664,77 @@
       );
     }
 
+    async function loadRevisionManifestAndFiles() {
+      try {
+        const res = await fetch("./revision/revision_map.json", { cache: "no-store" });
+        if (!res.ok) return;
+        const mapData = await res.json();
+        if (!mapData || typeof mapData !== "object") return;
+
+        const years = ["MD1", "MD2", "MD3", "MD4", "MD5"];
+        await Promise.all(
+          years.map(async (yr) => {
+            const entries = Array.isArray(mapData[yr]) ? mapData[yr] : [];
+            if (entries.length === 0) return;
+
+            if (!YEAR_SUBJECT_MAP[yr] || YEAR_SUBJECT_MAP[yr].length === 0) {
+              YEAR_SUBJECT_MAP[yr] = entries.map((e) => ({
+                id: e.id,
+                label: e.label || e.id
+              }));
+            }
+
+            await Promise.all(
+              entries.map(async (entry) => {
+                if (!entry || !entry.id) return;
+                const topicsCollected = [];
+
+                if (Array.isArray(entry.files) && entry.files.length > 0) {
+                  for (const filePath of entry.files) {
+                    try {
+                      const fRes = await fetch(`./${filePath.replace(/^\.\//, "")}`, { cache: "no-store" });
+                      if (fRes.ok) {
+                        const fJson = await fRes.json();
+                        if (Array.isArray(fJson)) {
+                          topicsCollected.push(...fJson);
+                        } else if (fJson && Array.isArray(fJson.topics)) {
+                          topicsCollected.push(...fJson.topics);
+                        }
+                      }
+                    } catch (_) {}
+                  }
+                } else if (entry.file) {
+                  try {
+                    const fRes = await fetch(`./${entry.file.replace(/^\.\//, "")}`, { cache: "no-store" });
+                    if (fRes.ok) {
+                      const fJson = await fRes.json();
+                      if (Array.isArray(fJson)) {
+                        topicsCollected.push(...fJson);
+                      } else if (fJson && Array.isArray(fJson.topics)) {
+                        topicsCollected.push(...fJson.topics);
+                      }
+                    }
+                  } catch (_) {}
+                }
+
+                if (topicsCollected.length > 0) {
+                  REVISION_BANK[yr][entry.id] = {
+                    label: entry.label || getSubjectLabel(entry.id),
+                    topics: topicsCollected
+                  };
+                }
+              })
+            );
+          })
+        );
+      } catch (_) {}
+    }
+
     async function initGame() {
       restoreLocalSession();
       await loadSubjectsManifest();
       await loadAllSubjectQuestionFiles();
+      await loadRevisionManifestAndFiles();
       updateUI();
     }
 
