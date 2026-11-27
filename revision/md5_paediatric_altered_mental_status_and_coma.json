@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Altered Mental Status and Coma",
+    "questions": [
+      {
+        "q": "How is Altered Mental Status (AMS) defined in pediatric clinical practice?",
+        "options": [
+          "A) Primary loss of motor function with intact verbal response",
+          "B) Failure to respond to verbal or physical stimulation appropriate to the child's developmental level",
+          "C) Isolated loss of memory occurring after minor trauma",
+          "D) Transient focal muscle weakness without loss of consciousness"
+        ],
+        "correct": 1,
+        "hint": "Think about a failure to respond appropriately to verbal or physical stimuli for the child's age and developmental stage.",
+        "explanation": "Altered mental status represents a failure to respond appropriately to verbal or physical stimuli according to the child's age and developmental level. It is not a standalone disease, but a neurological emergency secondary to an underlying pathology."
+      },
+      {
+        "q": "What is the primary aim of emergency treatment in a child presenting with altered mental status?",
+        "options": [
+          "A) To prevent secondary systemic hypertension",
+          "B) To sustain life and prevent irreversible brain damage",
+          "C) To induce therapeutic hypothermia in all cases",
+          "D) To delay diagnostic testing until full recovery"
+        ],
+        "correct": 1,
+        "hint": "Immediate stabilization aims to keep the child alive and protect the brain from permanent injury.",
+        "explanation": "Altered mental status requires simultaneous stabilization, diagnosis, and treatment. The ultimate goal of emergency intervention is to sustain vital functions and prevent secondary cerebral insults that lead to permanent brain damage or death."
+      },
+      {
+        "q": "What does the Greek root word 'Koma' mean, from which the word 'Coma' is derived?",
+        "options": [
+          "A) Deep sleep",
+          "B) Mental paralysis",
+          "C) Loss of vision",
+          "D) Brain swelling"
+        ],
+        "correct": 0,
+        "hint": "The root word translates to a two-word state of rest.",
+        "explanation": "The word 'Coma' is derived from the Greek word 'Koma,' which translates literally to 'deep sleep'."
+      },
+      {
+        "q": "How is Coma defined in summary within pediatric neurology?",
+        "options": [
+          "A) A state of drowsiness where the patient can be easily awakened by speech",
+          "B) A state of deep, unarousable unconsciousness where a child cannot be awakened by verbal, tactile, or noxious stimuli, characterized by total loss of wakefulness and awareness",
+          "C) A condition where the patient has intact cognition but cannot move",
+          "D) A transient state of confusion following an epileptic seizure"
+        ],
+        "correct": 1,
+        "hint": "Coma means unarousable unconsciousness with loss of both wakefulness (arousal) and awareness.",
+        "explanation": "Coma represents the most profound impairment of consciousness, involving complete loss of both major components of consciousness: arousal (wakefulness) and awareness."
+      },
+      {
+        "q": "Which level of consciousness describes a patient who appears drowsy, opens their eyes to stimuli or questions, but falls back asleep when stimuli cease?",
+        "options": [
+          "A) Lethargy",
+          "B) Obtundation",
+          "C) Stupor",
+          "D) Coma"
+        ],
+        "correct": 0,
+        "hint": "The child wakes briefly to stimulation and drifts right back to sleep once left alone.",
+        "explanation": "Lethargy is characterized by drowsiness where the patient opens their eyes and responds to stimuli or questions, but quickly lapses back to sleep once the interaction ends."
+      },
+      {
+        "q": "How is the state of 'Obtundation' differentiated from lethargy?",
+        "options": [
+          "A) The patient is completely unarousable even to painful stimuli",
+          "B) The patient opens their eyes and looks at you, but responds slowly, is somewhat confused, and has decreased alertness/interest in the environment",
+          "C) The patient exhibits rapid, clear verbal responses",
+          "D) The patient has clear sleep-wake cycles with no cognition"
+        ],
+        "correct": 1,
+        "hint": "Look for slowed, mildly confused responses and reduced alertness/interest in surroundings.",
+        "explanation": "In obtundation, alertness and environmental interest are noticeably reduced; the child opens their eyes but demonstrates delayed, confused responses."
+      },
+      {
+        "q": "Which clinical state describes a child who can ONLY be aroused from sleep after painful (noxious) stimuli, has slow or absent verbal responses, and lapses into unresponsiveness when stimuli stop?",
+        "options": [
+          "A) Lethargy",
+          "B) Stupor",
+          "C) Delirium",
+          "D) Vegetative state"
+        ],
+        "correct": 1,
+        "hint": "Arousal requires noxious/painful stimulation, with minimal or absent speech.",
+        "explanation": "Stupor is a state of severe somnolence where arousal occurs exclusively in response to painful stimuli, with minimal or absent self-awareness."
+      },
+      {
+        "q": "How is a 'Vegetative State' defined in comparison to coma?",
+        "options": [
+          "A) A state of acute agitation and confusion",
+          "B) A chronic state with clear sleep/wake cycles but no signs of cognition",
+          "C) Complete loss of brainstem reflexes with intact speech",
+          "D) A temporary postictal state lasting under 1 hour"
+        ],
+        "correct": 1,
+        "hint": "Sleep-wake cycles return/persist, but there is no cognitive awareness.",
+        "explanation": "Patients in a vegetative state display preserved sleep-wake cycles and autonomic functions, but completely lack cognitive awareness or voluntary interaction."
+      },
+      {
+        "q": "What key feature distinguishes 'Locked-in Syndrome' from true coma?",
+        "options": [
+          "A) Absence of all eye movements",
+          "B) Cognitive functions are intact, although the patient may appear unconscious due to total motor paralysis",
+          "C) Presence of decerebrate posturing",
+          "D) Loss of all brainstem reflexes"
+        ],
+        "correct": 1,
+        "hint": "Awareness and cognition are preserved inside despite profound motor paralysis.",
+        "explanation": "In locked-in syndrome, awareness and higher cognitive functions remain fully preserved despite severe motor paralysis, making it essential to distinguish it from coma."
+      },
+      {
+        "q": "What state of altered consciousness is characterized by confusion, agitation, and fragmented attention, concentration, and memory?",
+        "options": [
+          "A) Delirium",
+          "B) Stupor",
+          "C) Coma",
+          "D) Lethargy"
+        ],
+        "correct": 0,
+        "hint": "Think of an acute confusional state with agitation and disrupted attention and memory.",
+        "explanation": "Delirium presents as an acute confusional state marked by agitation, restlessness, and severe disruption of attention and memory."
+      },
+      {
+        "q": "In the diagnostic mnemonic 'AEIOU TIPS' for altered mental status, what do the letters 'A' and 'E' stand for?",
+        "options": [
+          "A) Asthma and Emphysema",
+          "B) Alcohol / Arrhythmias / Acidosis / Anoxia (hypoxia), and Epilepsy / Encephalopathy / Endocrine disorders / Electrolyte abnormalities",
+          "C) Anemia and Esophagitis",
+          "D) Appendicitis and Enteritis"
+        ],
+        "correct": 1,
+        "hint": "'A' includes anoxia/acidosis/arrhythmias/alcohol; 'E' includes epilepsy, encephalopathy, endocrine, and electrolytes.",
+        "explanation": "Under the AEIOU TIPS diagnostic tool, 'A' covers Alcohol, Arrhythmias, Acidosis, and Anoxia; 'E' covers Epilepsy (postictal/status), Encephalopathy, Endocrine disorders, and Electrolyte disturbances (such as sodium and calcium)."
+      },
+      {
+        "q": "In the mnemonic 'AEIOU TIPS', what etiologies are represented by the letter 'I'?",
+        "options": [
+          "A) Infection, Intracerebral vascular events, Intussusception, Insulin (Hypoglycemia/DKA), and Inborn errors of metabolism",
+          "B) Isolated fever and Impetigo",
+          "C) Ischemic heart disease and Iatrogenic rash",
+          "D) Intestinal malrotation and Ileus"
+        ],
+        "correct": 0,
+        "hint": "Think of insulin (hypoglycemia/DKA), inborn errors of metabolism, infections, intracranial vascular events, and intussusception.",
+        "explanation": "The letter 'I' in AEIOU TIPS stands for Insulin (hypoglycemia or DKA), Inborn errors of metabolism, Infections (meningitis, sepsis), Intracerebral vascular events, and Intussusception (which can present with severe lethargy)."
+      },
+      {
+        "q": "What do the letters 'U' and 'P' represent in the 'AEIOU TIPS' mnemonic?",
+        "options": [
+          "A) Uremia (Renal failure), and Poisoning / Psychogenic",
+          "B) Ulcer and Pneumonia",
+          "C) Urticaria and Peritonitis",
+          "D) Uncal herniation and Pancreatitis"
+        ],
+        "correct": 0,
+        "hint": "'U' relates to renal failure (uremia), and 'P' relates to poisoning or psychogenic causes.",
+        "explanation": "'U' represents Uremia (renal failure), while 'P' represents Poisoning and Psychogenic unresponsiveness."
+      },
+      {
+        "q": "Which structural intracranial pathologies are listed as causes of altered mental status in pediatric patients?",
+        "options": [
+          "A) Cerebrovascular accident, cerebral vein thrombosis, hydrocephalus, intracerebral tumor, subdural empyema, and trauma (hemorrhage, cerebral swelling, shaken baby syndrome)",
+          "B) Simple febrile seizures and mild gastroenteritis",
+          "C) Hypoglycemia and acute hyponatremia",
+          "D) Opioid ingestion and uremia"
+        ],
+        "correct": 0,
+        "hint": "Look for mass/structural causes: strokes/thrombosis, hydrocephalus, tumors, empyema, and head trauma.",
+        "explanation": "Structural causes involve physical disruption or mass effect within the cranium, including vascular accidents, thrombosis, tumors, hydrocephalus, empyema, and head trauma."
+      },
+      {
+        "q": "On the Modified Glasgow Coma Scale (GCS) for Infants, what is the maximum score (5 points) for Verbal Response?",
+        "options": [
+          "A) Oriented, appropriate",
+          "B) Coos and babbles",
+          "C) Cries to pain",
+          "D) Smiles to touch"
+        ],
+        "correct": 1,
+        "hint": "An infant's normal vocalization score of 5 is cooing and babbling.",
+        "explanation": "On the infant GCS, normal verbal response is adapted to developmental capability, where a score of 5 corresponds to cooing and babbling."
+      },
+      {
+        "q": "What score is assigned on the Modified GCS when an infant or child exhibits Decorticate Posturing (abnormal flexion) in response to pain?",
+        "options": [
+          "A) Score of 4",
+          "B) Score of 3",
+          "C) Score of 2",
+          "D) Score of 1"
+        ],
+        "correct": 1,
+        "hint": "Abnormal flexion (decorticate) is a motor score of 3.",
+        "explanation": "Decorticate posturing (abnormal flexion to pain) receives a score of 3 on the motor response section of the GCS."
+      },
+      {
+        "q": "What score is assigned on the Modified GCS when a patient responds to pain with Decerebrate Posturing (abnormal extension)?",
+        "options": [
+          "A) Score of 4",
+          "B) Score of 3",
+          "C) Score of 2",
+          "D) Score of 1"
+        ],
+        "correct": 2,
+        "hint": "Abnormal extension (decerebrate) is a motor score of 2.",
+        "explanation": "Decerebrate posturing (abnormal extension to pain) receives a motor score of 2 on the Modified GCS."
+      },
+      {
+        "q": "How are total GCS scores categorized into head injury severity levels?",
+        "options": [
+          "A) 13 to 15: Mild; 9 to 12: Moderate; 8 or below: Severe (Coma)",
+          "B) 10 to 12: Mild; 6 to 9: Moderate; 5 or below: Severe",
+          "C) 14 to 15: Normal; 11 to 13: Mild; 10 or below: Severe",
+          "D) 12 to 15: Moderate; 8 or below: Mild"
+        ],
+        "correct": 0,
+        "hint": "Remember GCS ≤ 8 defines severe injury/coma, 9–12 moderate, and 13–15 mild.",
+        "explanation": "Total GCS scores of 13–15 indicate mild head injury or normal consciousness, 9–12 indicates moderate injury, and 8 or below indicates severe brain injury (coma)."
+      },
+      {
+        "q": "If a pediatric patient with altered mental status is intubated, unconscious, or preverbal, which component of the Glasgow Coma Scale is most critical to evaluate?",
+        "options": [
+          "A) Eye opening score",
+          "B) Verbal response score",
+          "C) Motor response score",
+          "D) Respiratory rate score"
+        ],
+        "correct": 2,
+        "hint": "When verbal response is limited by intubation, coma, or age, motor response is key.",
+        "explanation": "In intubated, unconscious, or preverbal children, the verbal component cannot be accurately tested; thus, the motor response score represents the single most important part of the scale."
+      },
+      {
+        "q": "What are the four individual categories assessed in the 16-point FOUR (Full Outline of Unresponsiveness) score?",
+        "options": [
+          "A) Heart Rate, Blood Pressure, Respiratory Rate, and Temperature",
+          "B) Eye response (E), Motor response (M), Brainstem Reflexes (B), and Respiration pattern (R)",
+          "C) Flexion, Extension, Orientation, and Speech",
+          "D) Pupil size, Corneal reflex, Gag reflex, and Cough reflex"
+        ],
+        "correct": 1,
+        "hint": "FOUR stands for Eye, Motor, Brainstem reflexes, and Respiration.",
+        "explanation": "The FOUR score evaluates Eye response, Motor response, Brainstem reflexes, and Respiration pattern, with each category scored from 0 to 4 (total 16 points)."
+      },
+      {
+        "q": "Physiologically, what brain structures are responsible for maintaining Consciousness, Arousal, and Awareness?",
+        "options": [
+          "A) Arousal depends on intact communication between the Ascending Reticular Activating System (ARAS) in the brainstem and the hypothalamus, thalamus, and cerebral cortex; Awareness depends on distributed cortical and subcortical networks",
+          "B) Arousal is controlled exclusively by the cerebellum",
+          "C) Awareness is localized entirely within the basal ganglia",
+          "D) Consciousness depends solely on spinal cord reflexes"
+        ],
+        "correct": 0,
+        "hint": "Arousal involves the brainstem ARAS projecting upward; awareness relies on cortical and subcortical networks.",
+        "explanation": "Arousal (wakefulness) is modulated by the ARAS network within the brainstem projecting to the thalamus/cortex, while awareness requires complex interaction between cerebral hemispheres and subcortical structures."
+      },
+      {
+        "q": "How can structural or global pathological processes abolish consciousness and produce coma?",
+        "options": [
+          "A) By isolated damage to the peripheral somatic nerves",
+          "B) Through direct dysfunction of the brainstem ARAS, widespread bilateral impairment of both cerebral hemispheres, or global metabolic/toxic depression of neuronal activity",
+          "C) By selective injury to the spinal cord below L2",
+          "D) Through localized inflammation of cranial nerve I"
+        ],
+        "correct": 1,
+        "hint": "Think of brainstem ARAS failure, bilateral hemisphere dysfunction, or global metabolic/toxic depression.",
+        "explanation": "Coma requires either brainstem ARAS destruction, diffuse bilateral cortical dysfunction, or systemic metabolic/toxic suppression of overall neuronal excitability."
+      },
+      {
+        "q": "Can a UNILATERAL cerebral lesion cause coma?",
+        "options": [
+          "A) No, unilateral lesions never affect consciousness",
+          "B) Yes, if the unilateral mass lesion compresses or injures the contralateral hemisphere or brainstem structures",
+          "C) Yes, but only if the lesion is located in the occipital lobe",
+          "D) No, unless accompanied by severe spinal cord trauma"
+        ],
+        "correct": 1,
+        "hint": "A one-sided mass can cause coma if swelling/shift compresses the other side or the brainstem.",
+        "explanation": "A focal unilateral mass (such as a hematoma or tumor) can cause coma if it exerts mass effect, causing midline shift or herniation that compresses the contralateral cortex or underlying brainstem."
+      },
+      {
+        "q": "On pupillary examination of a comatose child, what etiology is typically associated with pupils that are normal in size, equal, and reactive to light?",
+        "options": [
+          "A) Brainstem herniation syndrome",
+          "B) Metabolic encephalopathies",
+          "C) Pontine infarction",
+          "D) Unilateral midbrain destruction"
+        ],
+        "correct": 1,
+        "hint": "Preserved pupillary light reflexes in coma often point toward metabolic/toxic causes.",
+        "explanation": "Intact, equal, and light-reactive pupils in a comatose patient strongly suggest a metabolic or toxic encephalopathy rather than a structural brainstem lesion."
+      },
+      {
+        "q": "What clinical pathologies are indicated by a UNILATERAL enlarged (dilated) pupil in a child with altered mental status?",
+        "options": [
+          "A) Pontine infarction",
+          "B) Herniation syndrome, unilateral midbrain lesion, or Horner's syndrome of the contralateral side",
+          "C) Opiate overdose",
+          "D) Normal metabolic state"
+        ],
+        "correct": 1,
+        "hint": "One dilated pupil warns of herniation/third-nerve compression or a unilateral midbrain lesion.",
+        "explanation": "A unilaterally enlarged, sluggish, or fixed pupil indicates focal third nerve compression from uncal herniation, a unilateral midbrain lesion, or contralateral Horner's syndrome."
+      },
+      {
+        "q": "What specific anatomical lesion is classically associated with PINPOINT pupils?",
+        "options": [
+          "A) Midbrain destruction",
+          "B) Pontine infarction",
+          "C) Uncal herniation",
+          "D) Cortical contusion"
+        ],
+        "correct": 1,
+        "hint": "Pontine lesions disrupt descending sympathetic pathways, producing pinpoint pupils.",
+        "explanation": "Pinpoint pupils result from damage to the sympathetic pathways in the pons, making pontine lesions or infarction the classic anatomic cause."
+      },
+      {
+        "q": "What anatomical emergency is indicated by BILATERALLY enlarged, unreactive pupils in an unarousable child?",
+        "options": [
+          "A) Reversible hypoglycemia",
+          "B) Severe brainstem herniation syndrome or midbrain destruction",
+          "C) Isolated metabolic acidosis",
+          "D) Postictal state following a simple seizure"
+        ],
+        "correct": 1,
+        "hint": "Both pupils dilated and fixed signals severe brainstem herniation or midbrain injury.",
+        "explanation": "Bilaterally dilated and fixed pupils represent a critical sign of severe brainstem herniation or central midbrain destruction."
+      },
+      {
+        "q": "What physical posture is characterized by rigid, extended legs, pointed/turned-in toes, arms flexed toward the center of the body, and curled wrists with balled hands against the chest?",
+        "options": [
+          "A) Decerebrate posturing",
+          "B) Decorticate posturing (abnormal flexion)",
+          "C) Opisthotonos",
+          "D) Hypotonia"
+        ],
+        "correct": 1,
+        "hint": "Arms flexed toward the chest ('to the cord') with extended legs is decorticate posturing.",
+        "explanation": "Decorticate posturing consists of upper extremity flexion (arms bent to chest, clenched fists) combined with lower extremity extension."
+      },
+      {
+        "q": "What physical posture is characterized by rigid extended legs, flexed wrists, curled fingers, and straight, tense arms held parallel to the body?",
+        "options": [
+          "A) Decorticate posturing",
+          "B) Decerebrate posturing (abnormal extension)",
+          "C) Normal motor tone",
+          "D) Focal chorea"
+        ],
+        "correct": 1,
+        "hint": "Rigid extension of both arms and legs is decerebrate posturing.",
+        "explanation": "Decerebrate posturing features rigid extension of both upper and lower extremities, with internal rotation and pronation of arms."
+      },
+      {
+        "q": "Pathophysiologically, how do decorticate and decerebrate posturing differ in terms of the level of central nervous system disruption?",
+        "options": [
+          "A) Decorticate posturing indicates brainstem destruction; decerebrate indicates mild cortical sedation",
+          "B) Decorticate posturing indicates damage above the red nucleus (corticospinal tract disruption); decerebrate posturing indicates more severe disruption below the red nucleus (midbrain/brainstem level)",
+          "C) Decerebrate posturing is fully reversible with oral analgesics",
+          "D) Decorticate posturing only occurs in spinal shock"
+        ],
+        "correct": 1,
+        "hint": "Compare lesions above vs. below the red nucleus in the midbrain.",
+        "explanation": "Decorticate posturing reflects cerebral hemispheric or internal capsule lesions sparing the brainstem, whereas decerebrate posturing signifies deeper functional brainstem involvement below the red nucleus."
+      },
+      {
+        "q": "What total score threshold on the FOUR score indicates a severe change in mental status, signaling high risk for morbidity, potential ICU admission, or the need to evaluate for emergency intracranial herniation?",
+        "options": [
+          "A) Score of 16",
+          "B) Total score ≤ 10 (or declining scores)",
+          "C) Score of 15",
+          "D) Score of 12 to 14"
+        ],
+        "correct": 1,
+        "hint": "A FOUR score of 10 or below signals severe neurological compromise.",
+        "explanation": "A FOUR score of 10 or less indicates severe neurological compromise, requiring urgent evaluation for raised ICP or ICU admission."
+      },
+      {
+        "q": "What clinical significance is attached to a total FOUR score of 4 or less, and a score of 0, respectively?",
+        "options": [
+          "A) Score ≤ 4 predicts high in-hospital mortality; score of 0 indicates complete unresponsiveness, absent brainstem function, and no native respiratory drive (prompting brain death protocols)",
+          "B) Score ≤ 4 indicates mild concussion; score of 0 indicates deep sleep",
+          "C) Score ≤ 4 indicates normal baseline; score of 0 indicates opioid intoxication",
+          "D) Score ≤ 4 requires outpatient management"
+        ],
+        "correct": 0,
+        "hint": "≤ 4 carries high mortality risk; 0 means absent brainstem reflexes and no spontaneous breathing.",
+        "explanation": "A FOUR score ≤ 4 strongly correlates with high mortality, while a score of 0 represents absent brainstem and respiratory function, requiring immediate brain death assessment."
+      },
+      {
+        "q": "What comprehensive laboratory investigations are recommended in the workup of a child with unexplained altered mental status?",
+        "options": [
+          "A) CBC, electrolytes (including Mg and P), LFTs, RFTs (BUN/creatinine), ABG, Blood Glucose, MrDT, toxicology screen, blood culture, viral/coagulation/thyroid studies, and carboxyhemoglobin levels",
+          "B) Serum cholesterol and stool culture only",
+          "C) Hemoglobin level only",
+          "D) Sweat chloride test alone"
+        ],
+        "correct": 0,
+        "hint": "Think broad: blood counts, electrolytes, organ/blood gas/glucose/malaria/toxicology/infection panels.",
+        "explanation": "Laboratory evaluation must be thorough to identify toxic, infectious, metabolic, or systemic causes of AMS."
+      },
+      {
+        "q": "What is the core clinical guideline regarding Lumbar Puncture (LP) in a child presenting with altered mental status?",
+        "options": [
+          "A) Perform LP on every patient immediately without checking vitals or fundi",
+          "B) Obtain LP on every child with AMS and concern for infection AFTER ruling out contraindications like increased ICP",
+          "C) Never perform an LP under any circumstances",
+          "D) Perform LP only if blood glucose is normal"
+        ],
+        "correct": 1,
+        "hint": "LP is important for suspected CNS infection, but only after excluding raised ICP contraindications.",
+        "explanation": "Lumbar puncture is essential to diagnose CNS infections (meningitis/encephalitis) but must be deferred if signs of raised ICP or focal deficits are present until neuroimaging is completed."
+      },
+      {
+        "q": "In patients with UNDIFFERENTIATED altered mental status or high suspicion of intracranial pathology, what is the recommended imaging sequence prior to LP?",
+        "options": [
+          "A) Perform LP first, then perform ultrasound 24 hours later",
+          "B) It is generally recommended to obtain a Cranial CT scan PRIOR to LP to rule out raised ICP and brain herniation",
+          "C) Perform skull X-rays only",
+          "D) Withhold all imaging and antibiotics"
+        ],
+        "correct": 1,
+        "hint": "Do a cranial CT before LP when raised ICP or herniation risk is a concern.",
+        "explanation": "Obtaining CSF in the presence of an occult mass or severe swelling can trigger fatal transtentorial herniation; thus, a non-contrast CT must precede LP in undifferentiated AMS."
+      },
+      {
+        "q": "How is Cranial CT scan positioned in the neuroimaging strategy for pediatric AMS?",
+        "options": [
+          "A) It is considered the best initial neuroimaging study for unexplained AMS",
+          "B) It is used only after 7 days of hospitalization",
+          "C) It is contraindicated in head trauma",
+          "D) It cannot detect intracranial hemorrhage"
+        ],
+        "correct": 0,
+        "hint": "Rapid and widely available for acute bleed, edema, mass, or hydrocephalus—best initial scan.",
+        "explanation": "Non-contrast cranial CT is rapid, widely available, and highly sensitive for acute hemorrhage, hydrocephalus, mass lesions, and cerebral edema, making it the best initial imaging modality."
+      },
+      {
+        "q": "When is Magnetic Resonance Imaging (MRI) indicated in the evaluation of a comatose or AMS patient?",
+        "options": [
+          "A) In unstable patients during active CPR",
+          "B) In stable patients as initial imaging, or within 48 hours when the cause of AMS continues to be uncertain after CT",
+          "C) Exclusively for acute skull fractures",
+          "D) MRI is never used in pediatric neurology"
+        ],
+        "correct": 1,
+        "hint": "MRI suits stable patients or cases where the cause remains unclear within 48 hours after CT.",
+        "explanation": "MRI provides superior tissue resolution for ischemia, encephalitis, white matter disease, and early tumors, serving as a secondary tool in stable patients or when CT is non-diagnostic."
+      },
+      {
+        "q": "What historical details are vital when evaluating a child with altered consciousness?",
+        "options": [
+          "A) Prodromal events (trauma, infectious exposure, recent illness), home medications, immunization, milestones, social environment (abuse/neglect), and family history",
+          "B) Favorite school subjects only",
+          "C) Shoe size history",
+          "D) Distance traveled on vacation"
+        ],
+        "correct": 0,
+        "hint": "Cover prodrome/trauma/infection, meds, immunizations, development, home/abuse safety, and family history.",
+        "explanation": "Taking a detailed history focusing on ingestions, trauma, infectious exposures, and social risk factors is essential to narrow the differential diagnosis."
+      },
+      {
+        "q": "Which medical causes of altered mental status are classified under TOXIC-INFECTIOUS-METABOLIC etiologies?",
+        "options": [
+          "A) Anoxia, DKA, electrolyte abnormalities, encephalopathy, hypoglycemia, hypothermia/hyperthermia, sepsis, inborn errors of metabolism, intussusception, meningitis, postictal state, toxins, and uremia",
+          "B) Epidural hematoma and skull fractures",
+          "C) Brain tumors and hydrocephalus",
+          "D) Cerebral vein thrombosis alone"
+        ],
+        "correct": 0,
+        "hint": "Look for systemic/metabolic/infectious/toxic causes like hypoglycemia, DKA, sepsis, meningitis, toxins, and uremia.",
+        "explanation": "Toxic, infectious, and metabolic encephalopathies represent systemic conditions affecting brain function without primary structural displacement."
+      },
+      {
+        "q": "Why can Intussusception present as a medical cause of altered mental status in young infants?",
+        "options": [
+          "A) It causes direct traumatic brain injury",
+          "B) Severe pain, fluid shifts, or metabolic disturbances can manifest uniquely as pronounced lethargy or episodic unresponsiveness",
+          "C) It produces acute structural hydrocephalus",
+          "D) It releases neurotoxins that destroy the pons"
+        ],
+        "correct": 1,
+        "hint": "In infants, gut ischemia/pain and fluid/metabolic shifts can show up primarily as lethargy.",
+        "explanation": "In infants, intussusception frequently presents atypical neurological symptoms, including profound lethargy or coma, even before overt abdominal signs appear."
+      },
+      {
+        "q": "What is the correct immediate management sequence for a child arriving in a comatose state before taking a detailed history or full exam?",
+        "options": [
+          "A) Obtain a complete past medical history from relatives for 30 minutes",
+          "B) Resuscitate immediately: secure clear airway, maintain breathing with oxygen, restore circulation with IV fluids, and check point-of-care blood glucose",
+          "C) Transport directly to MRI scanner",
+          "D) Administer oral sedatives"
+        ],
+        "correct": 1,
+        "hint": "Airway, breathing/oxygen, circulation/IV fluids, and immediate blood glucose check come first.",
+        "explanation": "Emergency resuscitation of ABCs and immediate glucose check take absolute priority over comprehensive history-taking to prevent irreversible brain hypoxia and hypoglycemia."
+      },
+      {
+        "q": "How should the airway be managed in an unresponsive comatose child to maintain patency and prevent aspiration?",
+        "options": [
+          "A) Place the patient in a prone position with head flexed",
+          "B) Position with head extended, clear secretions/vomitus by suctioning, insert an oral airway/throat tube, and perform endotracheal intubation if GCS ≤ 8",
+          "C) Give oral liquids to clear the pharynx",
+          "D) Place tight restraints around the neck"
+        ],
+        "correct": 1,
+        "hint": "Position, suction secretions, use an airway adjunct, and intubate if GCS ≤ 8.",
+        "explanation": "Airway management involves positioning, suctioning, adjunct insertion, and prompt intubation when protective airway reflexes are lost (GCS ≤ 8)."
+      },
+      {
+        "q": "What emergency pharmacological reversals must be considered immediately in specific sub-types of comatose patients?",
+        "options": [
+          "A) Concentrated Dextrose for Hypoglycemia, and Naloxone for suspected Opioid Overdose",
+          "B) Oral aspirin for all fevers",
+          "C) High-dose insulin for all comatose patients",
+          "D) Continuous heparin infusion"
+        ],
+        "correct": 0,
+        "hint": "Think of dextrose for low blood sugar and naloxone for opioids.",
+        "explanation": "Hypoglycemia and opioid toxicity represent rapidly reversible metabolic/toxic causes of coma that require immediate administration of IV dextrose and naloxone respectively."
+      },
+      {
+        "q": "What medical interventions are used to manage acutely Raised Intracranial Pressure (ICP) in a comatose child?",
+        "options": [
+          "A) Head elevation, osmotic therapy (mannitol or hypertonic saline), CSF drainage if obstructive hydrocephalus is present, and targeted ventilation",
+          "B) Trendelenburg position (head down) and high-volume normal saline boluses",
+          "C) Vigorous physical movement and loud auditory stimulation",
+          "D) Administration of oral rehydration fluids"
+        ],
+        "correct": 0,
+        "hint": "Head elevation, mannitol or hypertonic saline, CSF drainage when indicated, and ventilation support.",
+        "explanation": "Managing raised ICP involves positioning (elevating head of bed), osmotic agents (mannitol/hypertonic saline) to draw edema out of brain tissue, CSF diversion, and hyperventilation when indicated."
+      },
+      {
+        "q": "Why is a Nasogastric (NG) Tube routinely inserted during emergency stabilization of a comatose child?",
+        "options": [
+          "A) To measure central venous pressure",
+          "B) To remove stomach contents, preventing aspiration and relieving gastric distension",
+          "C) To administer rapid high-calorie solid foods",
+          "D) To prevent airway obstruction in the larynx"
+        ],
+        "correct": 1,
+        "hint": "Decompressing the stomach prevents vomiting/aspiration and relieves gastric distension.",
+        "explanation": "Comatose children have delayed gastric emptying and lost airway protective reflexes; decompressing the stomach via an NG tube reduces the risk of vomiting and fatal aspiration."
+      },
+      {
+        "q": "What supportive measures should be implemented to minimize secondary cerebral insult from environmental disturbances?",
+        "options": [
+          "A) Expose the child to loud noises and bright lights continuously",
+          "B) Reduce fever, avoid pain, prevent sudden movements, and minimize strong lights, loud noises, and noxious environmental stimuli",
+          "C) Restrict IV fluids completely for 72 hours",
+          "D) Perform frequent unnecessary physical turnings"
+        ],
+        "correct": 1,
+        "hint": "Control fever and pain, avoid abrupt handling, and keep light and noise low.",
+        "explanation": "Environmental disturbances, fever, and pain spike metabolic demand and intracranial pressure; creating a quiet, normothermic environment preserves brain tissue."
+      },
+      {
+        "q": "Which acute systemic complications can develop during prolonged coma in pediatric ICU settings?",
+        "options": [
+          "A) Isolated hyperthyroidism",
+          "B) Pressure sores, urinary tract infections, deep vein thrombosis / blood clots, pneumonia, and progression to vegetative state or death",
+          "C) Congenital heart defects",
+          "D) Hypertrophic cardiomyopathy"
+        ],
+        "correct": 1,
+        "hint": "Think of immobility and airway/catheter risks: pressure ulcers, UTIs, DVT, pneumonia.",
+        "explanation": "Immobility and loss of protective reflexes predispose comatose patients to decubitus ulcers, UTIs, venous thromboembolism, pulmonary complications, and death."
+      },
+      {
+        "q": "What pharmacological strategy is mandated if active seizures occur in a child with altered mental status?",
+        "options": [
+          "A) Administer benzodiazepines (e.g., Lorazepam, Diazepam, Midazolam) followed by second-line anticonvulsants if seizures persist",
+          "B) Withhold all anti-seizure medications until an EEG is completed",
+          "C) Administer oral paracetamol only",
+          "D) Induce hypothermia without drugs"
+        ],
+        "correct": 0,
+        "hint": "Start with a benzodiazepine (lorazepam, diazepam, or midazolam), escalating if needed.",
+        "explanation": "Ongoing seizure activity drastically worsens cerebral hypoxia and intracranial pressure; immediate abortive therapy with IV/rectal/buccal benzodiazepines is required."
+      },
+      {
+        "q": "In a child with suspected infectious encephalitis/meningitis presenting in coma, what empiric antimicrobial protocol should be executed after blood cultures are drawn?",
+        "options": [
+          "A) Defer all therapy for 48 hours awaiting CSF culture results",
+          "B) Administer empiric intravenous broad-spectrum antibiotics and antivirals (e.g., Acyclovir) immediately",
+          "C) Give oral antifungal syrups only",
+          "D) Administer high-dose oral steroids alone"
+        ],
+        "correct": 1,
+        "hint": "Do not delay—give empiric IV broad-spectrum antibiotics plus acyclovir promptly.",
+        "explanation": "Suspected bacterial or viral (HSV) CNS infections are rapidly fatal; empiric IV antibiotics and acyclovir must be initiated promptly."
+      },
+      {
+        "q": "A 4-year-old boy is brought to the emergency room with fever, severe lethargy, and a focal seizure lasting 10 minutes. On exam: HR 135 bpm, BP 95/60 mmHg, GCS score is 7 (E1, V2, M4), pupils are sluggish, and he exhibits decorticate posturing to painful stimuli. Classify GCS severity, airway decision, and LP/CT sequence.",
+        "options": [
+          "A) Mild (GCS 7); No airway intervention; Perform LP immediately without CT scan",
+          "B) Severe Head Injury/Coma (GCS ≤ 8); Perform immediate endotracheal intubation; Stabilize ABCs, administer IV broad-spectrum antibiotics/acyclovir, abort seizure with benzodiazepine, and obtain cranial CT BEFORE LP to rule out herniation",
+          "C) Moderate (GCS 7); Discharge home with oral antibiotics",
+          "D) Normal (GCS 7); Perform MRI brain immediately"
+        ],
+        "correct": 1,
+        "hint": "GCS 7 is ≤ 8 (intubate), and coma with focal/pupillary signs calls for CT before LP plus seizure and infection therapy.",
+        "explanation": "1) GCS 7 is ≤ 8, indicating severe brain injury/coma. 2) Immediate endotracheal intubation is indicated for airway protection. 3) Stabilize ABCs, treat the seizure with a benzodiazepine, start IV antibiotics/acyclovir for suspected CNS infection, and get a cranial CT prior to LP to rule out herniation."
+      }
+    ]
+  }
+]
