@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Low Birth Weight (LBW) Infants",
+    "questions": [
+      {
+        "q": "According to the World Health Organization (WHO), what is the definitive weight threshold for a Low Birth Weight (LBW) infant measured within the first hour of life?",
+        "options": [
+          "A) Less than 1000 grams",
+          "B) Less than 1500 grams",
+          "C) Less than 2500 grams",
+          "D) Less than 3000 grams"
+        ],
+        "correct": 2,
+        "hint": "Less than 2500 g within the first hour of life.",
+        "explanation": "WHO defines a Low Birth Weight (LBW) baby as one with a birth weight of less than 2500 g (irrespective of gestational age), measured within the first hour of life before significant weight loss occurs."
+      },
+      {
+        "q": "How does WHO classify an infant with a birth weight of less than 1000 grams?",
+        "options": [
+          "A) Low Birth Weight (LBW)",
+          "B) Extremely Low Birth Weight (ELBW)",
+          "C) Very Low Birth Weight (VLBW)",
+          "D) Small for Gestational Age (SGA)"
+        ],
+        "correct": 1,
+        "hint": "Birth weight < 1000 g is Extremely Low Birth Weight (ELBW).",
+        "explanation": "An infant born weighing less than 1000 g is categorized as Extremely Low Birth Weight (ELBW), whereas VLBW is 1000 g to <1500 g."
+      },
+      {
+        "q": "What proportion of all low birth weight neonates worldwide is accounted for by Small for Date / Intrauterine Growth Restricted (SGA/IUGR) infants?",
+        "options": [
+          "A) One-third (1/3)",
+          "B) One-half (1/2)",
+          "C) Two-thirds (2/3)",
+          "D) Three-quarters (3/4)"
+        ],
+        "correct": 2,
+        "hint": "Two-thirds (2/3) of LBW infants globally are SGA/IUGR.",
+        "explanation": "Preterm birth accounts for approximately 1/3 of LBW infants, while intrauterine growth restriction (SGA/IUGR) accounts for 2/3 of LBW neonates globally."
+      },
+      {
+        "q": "What is the defining gestational age limit for a Preterm infant according to WHO guidelines?",
+        "options": [
+          "A) Delivery prior to 34 completed weeks of gestation",
+          "B) Delivery prior to 37 completed weeks of gestation",
+          "C) Delivery prior to 38 completed weeks of gestation",
+          "D) Delivery prior to 40 completed weeks of gestation"
+        ],
+        "correct": 1,
+        "hint": "Prior to 37 completed weeks (<37 weeks).",
+        "explanation": "Prematurity is defined by gestational age at birth as any delivery occurring prior to 37 completed weeks (<37 weeks) of gestation."
+      },
+      {
+        "q": "According to global WHO estimates, approximately how many Low Birth Weight babies are born each year, and what percentage of these births occurs in developing countries?",
+        "options": [
+          "A) 5 million babies; 50% in developing countries",
+          "B) 10 million babies; 75% in developing countries",
+          "C) 25 million babies; nearly 95% in developing countries",
+          "D) 50 million babies; 30% in developing countries"
+        ],
+        "correct": 2,
+        "hint": "About 25 million annually, with nearly 95% in developing countries.",
+        "explanation": "Global WHO estimates indicate ~25 million LBW babies are born annually (17% of all births), with nearly 95% born in developing countries."
+      },
+      {
+        "q": "How is Small for Gestational Age (SGA) defined clinically on neonatal growth charts?",
+        "options": [
+          "A) Birth weight below the 5th percentile for gestational age",
+          "B) Birth weight below the 10th percentile (or >2 SDs below the mean) for gestational age",
+          "C) Birth weight below the 25th percentile for gestational age",
+          "D) Birth weight below 2000 g regardless of percentile"
+        ],
+        "correct": 1,
+        "hint": "Below the 10th percentile (or >2 SD below the mean) for gestational age.",
+        "explanation": "SGA is defined as an infant whose birth weight is less than the 10th percentile for gestational age or more than 2 standard deviations below the mean."
+      },
+      {
+        "q": "What is the distinction between the terms 'Small for Gestational Age' (SGA) and 'Intrauterine Growth Restriction' (IUGR)?",
+        "options": [
+          "A) SGA describes growth over time; IUGR describes weight at delivery",
+          "B) SGA is an obstetrician's ultrasound finding; IUGR is a pediatrician's birth label",
+          "C) SGA is used by pediatricians for a single point on a growth curve; IUGR is used by obstetricians for a pattern of growth over time",
+          "D) SGA applies only to post-term infants; IUGR applies only to preterms"
+        ],
+        "correct": 2,
+        "hint": "SGA = single point on growth curve; IUGR = pattern of growth over time.",
+        "explanation": "SGA describes a static measurement at birth (<10th percentile), whereas IUGR describes a dynamic fetal growth restriction pattern observed over time in utero."
+      },
+      {
+        "q": "What is the defining birth weight threshold for Macrosomia in a full-term infant?",
+        "options": [
+          "A) Greater than 3500 g",
+          "B) Greater than 3800 g",
+          "C) Greater than 4000 g",
+          "D) Greater than 4500 g"
+        ],
+        "correct": 2,
+        "hint": "Greater than 4000 g.",
+        "explanation": "Macrosomia is explicitly defined as a birth weight of greater than 4000 g in a term infant."
+      },
+      {
+        "q": "What percentile threshold categorizes an infant as Large for Gestational Age (LGA)?",
+        "options": [
+          "A) Weight > 75th percentile for gestational age",
+          "B) Weight > 80th percentile for gestational age",
+          "C) Weight > 90th percentile for gestational age",
+          "D) Weight > 95th percentile for gestational age"
+        ],
+        "correct": 2,
+        "hint": "Above the 90th percentile for gestational age.",
+        "explanation": "LGA is defined as an infant whose birth weight is greater than the 90th percentile for their specific gestational age."
+      },
+      {
+        "q": "Compared to normal birth weight infants, how much higher is the overall mortality rate in Low Birth Weight infants?",
+        "options": [
+          "A) 2 times higher",
+          "B) 5 times higher",
+          "C) 10 times higher",
+          "D) 20 times higher"
+        ],
+        "correct": 3,
+        "hint": "20 times higher mortality rate.",
+        "explanation": "Mortality in low birth weight infants is reported to be 20 times higher than that of normal birth weight neonates."
+      },
+      {
+        "q": "Under the WHO sub-classification of prematurity, how is an infant born at 29 weeks of gestation categorized?",
+        "options": [
+          "A) Extremely preterm (<28 weeks)",
+          "B) Very preterm (28 0/7 to 31 6/7 weeks)",
+          "C) Moderate preterm (32 0/7 to 33 6/7 weeks)",
+          "D) Late preterm (34 0/7 to 36 6/7 weeks)"
+        ],
+        "correct": 1,
+        "hint": "28 to 31 6/7 weeks is very preterm.",
+        "explanation": "WHO classifies preterm infants as Extremely preterm (<28 wks), Very preterm (28 to 31 6/7 wks), Moderate preterm (32 to 33 6/7 wks), and Late preterm (34 to 36 6/7 wks)."
+      },
+      {
+        "q": "What is the single highest risk factor in a patient's past obstetric history for spontaneous preterm delivery in a current pregnancy?",
+        "options": [
+          "A) Prior cervical conization procedure",
+          "B) Prior dilation and curettage (D&C)",
+          "C) Prior preterm birth",
+          "D) History of uterine fibroids"
+        ],
+        "correct": 2,
+        "hint": "A prior preterm birth is the strongest obstetric risk factor.",
+        "explanation": "A history of prior preterm birth is listed as the single highest risk factor for subsequent spontaneous premature delivery."
+      },
+      {
+        "q": "Symmetric Intrauterine Growth Restriction (IUGR) typically begins early in gestation (1st trimester) during which cellular growth stage?",
+        "options": [
+          "A) Stage I (Hyperplasia: rapid mitosis and increased DNA content)",
+          "B) Stage II (Hypertrophy alone)",
+          "C) Stage III (Fat and connective tissue accumulation)",
+          "D) Stage IV (Placental involution)"
+        ],
+        "correct": 0,
+        "hint": "Stage I (hyperplasia) early in gestation.",
+        "explanation": "Symmetric IUGR results from early insult during Stage I (hyperplasia, 4–20 weeks), leading to an undersized fetus with fewer total cells of all types."
+      },
+      {
+        "q": "Which clinical pattern distinguishes Asymmetric IUGR from Symmetric IUGR?",
+        "options": [
+          "A) Weight, length, and head circumference are all equally reduced",
+          "B) Weight is predominantly reduced, with relative sparing of brain growth, head circumference, and long bones",
+          "C) Head circumference is severely reduced while body weight is completely preserved",
+          "D) Length is reduced while weight and head size are above the 90th percentile"
+        ],
+        "correct": 1,
+        "hint": "Weight is mainly reduced while head circumference and length are relatively spared.",
+        "explanation": "Asymmetric growth restriction manifests late in gestation (2nd/3rd trimester), causing a reduction in cell size and fetal weight while relative brain growth and head circumference are spared."
+      },
+      {
+        "q": "What maternal vascular condition is the most common cause of Asymmetric IUGR due to placental insufficiency in the third trimester?",
+        "options": [
+          "A) First-trimester Cytomegalovirus infection",
+          "B) Maternal Preeclampsia / Hypertension",
+          "C) Chromosomal trisomy 21",
+          "D) Maternal hypothyroidism"
+        ],
+        "correct": 1,
+        "hint": "Maternal preeclampsia or hypertension.",
+        "explanation": "Asymmetric IUGR typically arises late in pregnancy from uteroplacental insufficiency caused by maternal vascular diseases such as preeclampsia, hypertension, or long-standing diabetes."
+      },
+      {
+        "q": "What classic congenital overgrowth syndrome presents with Macrosomia, Omphalocele, Macroglossia, ear creases, hemihypertrophy, and neonatal hypoglycemia?",
+        "options": [
+          "A) WAGR syndrome",
+          "B) Silver-Russell syndrome",
+          "C) Denys-Drash syndrome",
+          "D) Beckwith-Wiedemann syndrome"
+        ],
+        "correct": 3,
+        "hint": "Macrosomia, omphalocele, macroglossia, and hypoglycemia = Beckwith-Wiedemann.",
+        "explanation": "Beckwith-Wiedemann syndrome is a rare cause of macrosomia/LGA characterized by the classic presentation of macrosomia, omphalocele, macroglossia, and neonatal hypoglycemia."
+      },
+      {
+        "q": "What is the primary pathophysiological driver of fetal Macrosomia in an infant born to a diabetic mother?",
+        "options": [
+          "A) Excess maternal thyroid hormone crossing the placenta",
+          "B) Anabolic effects of high fetal insulin levels produced in response to excessive maternal blood glucose",
+          "C) Fetal growth hormone hypersecretion triggered by maternal anemia",
+          "D) Placental synthesis of excessive glucagon"
+        ],
+        "correct": 1,
+        "hint": "Fetal hyperinsulinemia driven by high maternal glucose.",
+        "explanation": "Maternal hyperglycemia leads to excessive fetal glucose transfer, inducing fetal pancreatic beta-cell hyperplasia and hyperinsulinism; fetal insulin acts as a potent anabolic growth hormone."
+      },
+      {
+        "q": "Which anatomical structural birth defect is 2 to 3 times more likely to occur in infants of diabetic mothers due to delayed clearance of fetal lung fluid?",
+        "options": [
+          "A) Tracheoesophageal fistula",
+          "B) Congenital diaphragmatic hernia",
+          "C) Transient Tachypnea of the Newborn (TTN)",
+          "D) Pulmonary sequestration"
+        ],
+        "correct": 2,
+        "hint": "Transient tachypnea of the newborn (TTN).",
+        "explanation": "Transient tachypnea of the newborn is 2 to 3 times more common in infants of diabetic mothers because maternal hyperinsulinemia delays fetal lung fluid clearance."
+      },
+      {
+        "q": "What specific skeletal structural defect is uniquely associated with maternal diabetes during early organogenesis?",
+        "options": [
+          "A) Achondroplasia",
+          "B) Caudal Regression Syndrome (sacral agenesis)",
+          "C) Osteogenesis imperfecta",
+          "D) Radial ray aplasia"
+        ],
+        "correct": 1,
+        "hint": "Caudal regression syndrome (sacral agenesis).",
+        "explanation": "Maternal hyperglycemia during organogenesis increases the risk of specific congenital anomalies, including Caudal Regression Syndrome, spina bifida, and heart defects."
+      },
+      {
+        "q": "During what timeframe after delivery can the New Ballard Score be utilized to assess physical and neuromuscular gestational age maturity in a newborn?",
+        "options": [
+          "A) Only within the first 15 minutes of life",
+          "B) Up to 4 days after birth (most practically used in the first 24 hours)",
+          "C) Between 7 and 14 days post-delivery",
+          "D) At 1 month of age"
+        ],
+        "correct": 1,
+        "hint": "Up to 4 days after birth (commonly in the first 24 hours).",
+        "explanation": "The New Ballard Score evaluates neuromuscular and physical maturity parameters and can be validly performed up to 4 days after birth, though standard clinical practice applies it within the first 24 hours."
+      },
+      {
+        "q": "What physical skin and neurological features are characteristic of a premature infant (<37 weeks) on physical examination?",
+        "options": [
+          "A) Thick, leathery, cracked skin with prominent flexed posture",
+          "B) Thin, shiny, pink skin with easily visible underlying veins, minimal subcutaneous fat, and reduced spontaneous muscle tone",
+          "C) Deep plantar creases covering the entire sole with rigid recoil",
+          "D) Abundant ear cartilage with instant recoil and full nipple buds"
+        ],
+        "correct": 1,
+        "hint": "Thin, shiny, pink skin with visible veins, little fat, and reduced tone.",
+        "explanation": "Preterm infants have thin, translucent, pink skin revealing underlying subcutaneous vessels, scarce fat/hair, soft ear pinnae, and hypotonic, extended posture."
+      },
+      {
+        "q": "At what gestational age does the Moro reflex first appear, and when does it become fully established in the neonate?",
+        "options": [
+          "A) Appears at 20 weeks; established at 24 weeks",
+          "B) Appears at 28 to 32 weeks; well established by 37 weeks",
+          "C) Appears at 35 weeks; established at 42 weeks",
+          "D) Appears only after term delivery"
+        ],
+        "correct": 1,
+        "hint": "Starts around 28–32 weeks and is well established by 37 weeks.",
+        "explanation": "The Moro reflex begins between 28 and 32 weeks of gestation and becomes established by 37 weeks. Palmar grasp begins at 28 weeks (established at 32 weeks)."
+      },
+      {
+        "q": "Why are preterm infants exceptionally vulnerable to Hypothermia?",
+        "options": [
+          "A) Excessive subcutaneous fat accumulation",
+          "B) High metabolic rate with shivering thermogenesis",
+          "C) Large body surface area to volume ratio, inadequate glycogen and fat stores, and poor muscle tone",
+          "D) Hyperkeratosis of the epidermis preventing heat transfer"
+        ],
+        "correct": 2,
+        "hint": "High surface-area-to-volume ratio, low fat/glycogen stores, and poor tone.",
+        "explanation": "Preterm infants have a very high surface-area-to-mass ratio, thin skin, lack of insulating brown fat/glycogen, and poor flexion posture, accelerating radiant and evaporative heat loss."
+      },
+      {
+        "q": "In the grading system for Intraventricular Hemorrhage (IVH) in preterm infants, what defines Grade IV IVH?",
+        "options": [
+          "A) Hemorrhage confined strictly to the germinal matrix",
+          "B) Intraventricular hemorrhage without ventricular dilatation",
+          "C) Intraventricular hemorrhage with ventricular dilatation",
+          "D) Intraventricular hemorrhage with direct extension into the brain parenchyma"
+        ],
+        "correct": 3,
+        "hint": "Extension of hemorrhage into the brain parenchyma.",
+        "explanation": "IVH grading: Grade I = germinal matrix alone; Grade II = IVH without dilatation; Grade III = IVH with ventricular dilatation; Grade IV = IVH extending into parenchymal tissue."
+      },
+      {
+        "q": "What gestational age limit defines the threshold below which infants lack adequate coordination of sucking and swallowing reflexes, necessitating feeding via gavage or intravenously?",
+        "options": [
+          "A) Born prior to 34 weeks of gestation",
+          "B) Born prior to 36 weeks of gestation",
+          "C) Born prior to 38 weeks of gestation",
+          "D) Born prior to 40 weeks of gestation"
+        ],
+        "correct": 0,
+        "hint": "Before 34 weeks of gestation.",
+        "explanation": "Sucking and swallowing coordination is immature before 34 weeks of gestation; infants born <34 weeks require nasogastric/gavage or IV nutritional support."
+      },
+      {
+        "q": "What classic triadic clinical presentation signals the onset of Necrotizing Enterocolitis (NEC), the most common surgical emergency in preterm infants?",
+        "options": [
+          "A) High fever, bilious vomiting, and diarrhea",
+          "B) Bloody stools, feeding intolerance, and a distended, tender abdomen",
+          "C) Jaundice, hepatomegaly, and acholic stools",
+          "D) Scaphoid abdomen, cyanosis, and hematemesis"
+        ],
+        "correct": 1,
+        "hint": "Feeding intolerance, distended/tender abdomen, and bloody stools.",
+        "explanation": "NEC classically manifests with feeding intolerance, abdominal distension/tenderness, and gross or microscopic blood in the stool, risking bowel perforation."
+      },
+      {
+        "q": "What is the incidence rate of Patent Ductus Arteriosus (PDA) in preterm infants weighing less than 1000 grams at birth?",
+        "options": [
+          "A) Approximately 10%",
+          "B) Approximately 25%",
+          "C) Approximately 50%",
+          "D) Approximately 80%"
+        ],
+        "correct": 3,
+        "hint": "Around 80% in infants <1000 g.",
+        "explanation": "The incidence of PDA increases with degree of prematurity; it occurs in ~50% of infants <1750 g and approximately 80% of infants weighing <1000 g."
+      },
+      {
+        "q": "Why are sick, small preterm infants at risk for Chronic Bilirubin Encephalopathy (Kernicterus) at serum bilirubin levels as low as 10 mg/dL (170 µmol/L)?",
+        "options": [
+          "A) Increased serum albumin binding capacity",
+          "B) Enhanced blood-brain barrier tightness",
+          "C) Immature liver conjugation, reduced serum albumin binding, and increased blood-brain barrier permeability",
+          "D) Absence of enterohepatic circulation"
+        ],
+        "correct": 2,
+        "hint": "Immature conjugation, lower albumin binding, and more permeable blood-brain barrier.",
+        "explanation": "Preterm infants have lower albumin levels, weaker albumin binding, and an immature blood-brain barrier, predisposing them to bilirubin toxicity at lower thresholds (e.g., 10 mg/dL)."
+      },
+      {
+        "q": "Why is routine L-thyroxine treatment NOT recommended for Transient Hypothyroxinemia of Prematurity in extremely preterm infants?",
+        "options": [
+          "A) Because TSH is markedly elevated >100 mIU/L",
+          "B) Because transient hypothyroxinemia features low T4 with normal TSH due to immature hypothalamic-pituitary axis and thyroid hormone replacement has proven not beneficial",
+          "C) Because L-thyroxine causes immediate closure of the fontanelle",
+          "D) Because it causes severe renal sodium retention"
+        ],
+        "correct": 1,
+        "hint": "Low T4 with normal TSH; replacement has not shown clinical benefit.",
+        "explanation": "Extremely preterm infants frequently exhibit low T4 with normal TSH (transient hypothyroxinemia); clinical trials show L-thyroxine supplementation provides no therapeutic benefit."
+      },
+      {
+        "q": "What major intrapartum mechanical complication causes high rates of Perinatal Asphyxia in SGA/IUGR fetuses during labor?",
+        "options": [
+          "A) Rupture of the fetal membranes at 20 weeks",
+          "B) Compression of maternal spiral arteries during uterine contractions causing transient cessation of marginally adequate placental blood flow",
+          "C) Rapid expansion of the fetal head",
+          "D) Sudden closure of the ductus venosus"
+        ],
+        "correct": 1,
+        "hint": "Contractions compress spiral arteries, further reducing marginal placental flow.",
+        "explanation": "SGA fetuses with chronic placental insufficiency have minimal respiratory reserve; each uterine contraction compresses spiral arteries, further reducing blood flow and precipitating asphyxia."
+      },
+      {
+        "q": "What is the target normal core body temperature range that must be maintained during thermal regulation of a Low Birth Weight infant?",
+        "options": [
+          "A) 35.0°C to 36.0°C",
+          "B) 36.0°C to 37.0°C",
+          "C) 36.5°C to 37.5°C",
+          "D) 37.5°C to 38.5°C"
+        ],
+        "correct": 2,
+        "hint": "36.5°C to 37.5°C.",
+        "explanation": "Non-pharmacological thermal management requires maintaining the neonate's body temperature strictly between 36.5°C and 37.5°C."
+      },
+      {
+        "q": "Where should the skin temperature probe of a servo-controlled radiant warmer be positioned on a low birth weight neonate?",
+        "options": [
+          "A) Over the interscapular brown fat area",
+          "B) Over the right upper abdomen, approximately 3 cm below the right costal margin",
+          "C) Over the anterior mid-thigh",
+          "D) Over the left parietal bone of the skull"
+        ],
+        "correct": 1,
+        "hint": "Right upper abdomen, ~3 cm below the right costal margin.",
+        "explanation": "Guidelines state that the temperature probe for servo-mode radiant warmers must be placed over the right side of the abdomen, ~3 cm below the right costal margin."
+      },
+      {
+        "q": "At what controlled rate should a hypothermic low birth weight neonate be rewarmed to prevent rewarming-induced complications such as apnea or hypotension?",
+        "options": [
+          "A) 0.1°C per hour",
+          "B) 0.5°C per hour",
+          "C) 2.0°C per hour",
+          "D) 5.0°C per hour"
+        ],
+        "correct": 1,
+        "hint": "0.5°C per hour.",
+        "explanation": "Hypothermic neonates must be rewarmed slowly at a rate of 0.5°C per hour to avoid rapid vasodilation, hypotension, and apnea."
+      },
+      {
+        "q": "What ambient nursery room temperature range is recommended to support thermal balance for low birth weight infants?",
+        "options": [
+          "A) 18°C to 20°C",
+          "B) 21°C to 24°C",
+          "C) 25°C to 28°C",
+          "D) 30°C to 35°C"
+        ],
+        "correct": 2,
+        "hint": "25°C to 28°C.",
+        "explanation": "Room temperature for LBW infant care areas should be maintained between 25°C and 28°C."
+      },
+      {
+        "q": "What initial enteral feeding strategy is recommended to prime the immature gut in stable low birth weight neonates?",
+        "options": [
+          "A) High-volume full-strength formula on Day 1",
+          "B) Minimal Enteral Feeding (MEF / trophic feeds)",
+          "C) Hypertonic dextrose via bolus",
+          "D) Complete enteral starvation for 14 days"
+        ],
+        "correct": 1,
+        "hint": "Minimal enteral feeding (MEF / trophic feeds).",
+        "explanation": "Non-pharmacological feeding protocols initiate Minimal Enteral Feeding (MEF or trophic feeds) to stimulate gut maturation before gradually advancing fluid volumes."
+      },
+      {
+        "q": "What daily caloric requirement and expected daily weight gain are targeted for growing preterm infants?",
+        "options": [
+          "A) 80 kcal/kg/day; expected weight gain 5 g/day",
+          "B) 120 kcal/kg/day; expected weight gain 10 to 30 g/day",
+          "C) 180 kcal/kg/day; expected weight gain 50 g/day",
+          "D) 200 kcal/kg/day; expected weight gain 100 g/day"
+        ],
+        "correct": 1,
+        "hint": "120 kcal/kg/day and 10–30 g/day weight gain.",
+        "explanation": "Nutritional targets for preterm management require a caloric intake of 120 kcal/kg/day, aiming for an average weight gain of 10 to 30 g/day."
+      },
+      {
+        "q": "What standard empirical intravenous antibiotic regimen is recommended for suspected neonatal sepsis in low birth weight infants, and what is its typical duration?",
+        "options": [
+          "A) Ceftriaxone + Vancomycin for 14 days",
+          "B) Ampicillin + Gentamicin for 5 to 7 days",
+          "C) Ciprofloxacin + Metronidazole for 10 days",
+          "D) Erythromycin monotherapy for 3 days"
+        ],
+        "correct": 1,
+        "hint": "Ampicillin + gentamicin for 5 to 7 days.",
+        "explanation": "Empirical pharmacological treatment for suspected early neonatal sepsis consists of Ampicillin plus Gentamicin for 5 to 7 days, adjusted by clinical response and cultures."
+      },
+      {
+        "q": "Why must unfortified human breast milk be fortified with multicomponent human milk fortifier when fed to growing VLBW/ELBW infants?",
+        "options": [
+          "A) Human milk lacks sufficient protein, calcium, and phosphorus to meet high metabolic demands and prevent Osteopenia of Prematurity",
+          "B) Human milk causes severe hypernatremia",
+          "C) Human milk contains excessive vitamin D that inhibits gut absorption",
+          "D) Human milk prevents gastric emptying"
+        ],
+        "correct": 0,
+        "hint": "Needs extra protein, calcium, and phosphorus to support growth and bone mineralization.",
+        "explanation": "Human milk provides inadequate calcium, phosphorus, and protein for very low birth weight infants; fortification is essential to support bone mineralization and prevent osteopenia."
+      },
+      {
+        "q": "Why does Polycythemia develop in SGA infants affected by chronic in utero hypoxia from placental insufficiency?",
+        "options": [
+          "A) Decreased fetal renal breakdown of hemoglobin",
+          "B) Chronic hypoxemia stimulates fetal erythropoietin release, driving increased erythrocyte production",
+          "C) Hyperinsulinemia directly inhibits red cell destruction in the spleen",
+          "D) Maternal red cells cross the placenta into the fetal circulation"
+        ],
+        "correct": 1,
+        "hint": "Chronic hypoxia increases fetal erythropoietin production.",
+        "explanation": "Placental insufficiency causes chronic mild fetal hypoxia, which triggers erythropoietin surge and polycythemia (hyperviscosity), presenting at birth as a ruddy appearance."
+      },
+      {
+        "q": "At what serum calcium threshold (or clinical presentation) is active medical intervention required for neonatal hypocalcemia?",
+        "options": [
+          "A) Calcium < 3.0 mmol/L in all infants",
+          "B) Symptomatic Hypocalcemia or total serum calcium < 7 mg/dL (<1.75 mmol/L) / ionized calcium < 4 mg/dL (<1 mmol/L)",
+          "C) Calcium < 2.5 mmol/L with normal glucose",
+          "D) Calcium > 12 mg/dL only"
+        ],
+        "correct": 1,
+        "hint": "Symptomatic or total Ca < 7 mg/dL (<1.75 mmol/L) / ionized Ca < 4 mg/dL (<1 mmol/L).",
+        "explanation": "Hypocalcemia treatment (IV calcium gluconate) is indicated if clinical symptoms (jitteriness, seizures, apnea) occur or total calcium drops <7 mg/dL (ionized <4 mg/dL / <1 mmol/L)."
+      },
+      {
+        "q": "A neonate born at 26 weeks (birth weight 850 g) has grunting, retractions, cyanosis, and nasal flaring at 15 minutes, with a reticulogranular ('ground-glass') chest X-ray and air bronchograms. Identify the pulmonary condition, biochemical deficiency, and definitive therapy.",
+        "options": [
+          "A) Meconium Aspiration Syndrome; Lack of alveolar macrophages; Endotracheal suctioning alone",
+          "B) Respiratory Distress Syndrome (RDS); Deficiency of alveolar Surfactant leading to alveolar collapse; Administer exogenous surfactant via endotracheal tube and provide CPAP/assisted ventilation",
+          "C) Transient Tachypnea of the Newborn; Delayed fluid clearance; Diuretics",
+          "D) Congenital Pneumonia; Group B Streptococcus; Inhaled nitric oxide alone"
+        ],
+        "correct": 1,
+        "hint": "Extreme prematurity + ground-glass CXR = RDS (surfactant deficiency); treat with surfactant and CPAP/ventilation.",
+        "explanation": "Prematurity (<28 wks) with ground-glass CXR indicates RDS caused by surfactant deficiency. Treatment requires exogenous surfactant replacement and mechanical ventilation/CPAP."
+      },
+      {
+        "q": "A 2-day-old preterm infant (1100 g) on enteral feeds develops abdominal distension, lethargy, temperature instability, gross bloody stool, and pneumatosis intestinalis on X-ray. What is the diagnosis, main surgical risk, and immediate management?",
+        "options": [
+          "A) Intussusception; Bowel gangrene; Perform air enema reduction",
+          "B) Hirschsprung's disease; Toxic megacolon; Rectal biopsy",
+          "C) Necrotizing Enterocolitis (NEC); Intestinal perforation with pneumoperitoneum; Stop enteral feeds (NPO), insert NG tube for decompression, start broad-spectrum IV antibiotics, and obtain surgical consult",
+          "D) Meconium Ileus; Volvulus; Administer N-acetylcysteine enema"
+        ],
+        "correct": 2,
+        "hint": "Pneumatosis intestinalis + bloody stools + distension = NEC; watch for perforation; NPO, NG decompression, IV antibiotics, surgery consult.",
+        "explanation": "Abdominal distension, bloody stools, and pneumatosis intestinalis define NEC. Key risk is bowel perforation. Management includes NPO, NG decompression, broad-spectrum IV antibiotics, and surgical evaluation."
+      },
+      {
+        "q": "A term neonate (4600 g) born after difficult delivery to a mother with poorly controlled gestational diabetes is listless, ruddy, and jittery at 2 hours with blood glucose 1.2 mmol/L. Diagnose the metabolic problem, why it happened after birth, and what birth trauma to check for.",
+        "options": [
+          "A) Congenital Hypothyroidism; Absence of thyroid stimulation; Check for congenital dislocation of hip",
+          "B) Neonatal Hypoglycemia secondary to hyperinsulinemia; Sudden termination of maternal glucose delivery upon cord clamping while fetal insulin levels remain high; Examine for clavicular fracture and brachial plexus injury (shoulder dystocia)",
+          "C) Hypocalcemia; Calcitonin surge; Check for skull fracture",
+          "D) Galactosemia; Enzyme defect; Check for cataract"
+        ],
+        "correct": 1,
+        "hint": "Maternal DM + macrosomia + low glucose after cord clamping = hyperinsulinemic hypoglycemia; check clavicle/brachial plexus.",
+        "explanation": "Maternal DM causes fetal hyperinsulinemia, which rapidly drives down glucose when maternal supply ends at cord clamping (hypoglycemia). Macrosomia causes shoulder dystocia, risking clavicular fracture or Erb's palsy."
+      },
+      {
+        "q": "An infant born at 38 weeks weighs 1800 g (<3rd percentile) with a disproportionately large head, wizened facies, loose skin, thin cord, and length/head circumference at the 35th percentile. Classify the IUGR pattern, timing/cause, and expected birth complications.",
+        "options": [
+          "A) Symmetric IUGR; 1st trimester TORCH infection; Thrombocytopenia and hypercalcemia",
+          "B) Asymmetric IUGR; 3rd trimester placental insufficiency (e.g., preeclampsia); Hypoglycemia (depleted glycogen stores) and Polycythemia (chronic hypoxia)",
+          "C) Normal term infant; Genetic dwarfism; Leukocytosis",
+          "D) Large for Gestational Age; Maternal diabetes; Hyperglycemia"
+        ],
+        "correct": 1,
+        "hint": "Head/length spared + low weight = asymmetric IUGR (late placental insufficiency); watch for hypoglycemia and polycythemia.",
+        "explanation": "Disproportionate weight reduction with head/length sparing indicates Asymmetric IUGR from late placental insufficiency. Complications include hypoglycemia (low glycogen) and polycythemia (EPO surge from hypoxia)."
+      },
+      {
+        "q": "A 28-week preterm infant on a ventilator suddenly drops hematocrit at day 4 with a bulging fontanelle, apnea, and bradycardia; cranial ultrasound shows lateral ventricular blood, ventricular dilation, and parenchymal extension. Diagnose and grade it, name the source of bleeding, and state the long-term risk.",
+        "options": [
+          "A) Subdural hematoma; Sagittal sinus; Microcephaly",
+          "B) Intraventricular Hemorrhage (Grade IV); Delicate unsupported capillaries of the Germinal Matrix; Cerebral palsy and neurodevelopmental delay",
+          "C) Epidural hematoma; Middle meningeal artery; Hydrocephalus alone",
+          "D) Subarachnoid hemorrhage; Circle of Willis; Complete recovery without sequelae"
+        ],
+        "correct": 1,
+        "hint": "IVH with parenchymal extension = Grade IV from germinal matrix capillaries; risk of cerebral palsy.",
+        "explanation": "Sudden drop in Hct, bulging fontanelle, and parenchymal extension define Grade IV IVH, arising from rupture of fragile germinal matrix capillaries. White matter injury predisposes to cerebral palsy."
+      },
+      {
+        "q": "A 39-week infant of a preeclamptic mother passes thick meconium during distressed labor and is limp, cyanotic, and gasping at birth. What caused in utero meconium passage/gasping, what syndrome is likely, and why is it worse in SGA/IUGR?",
+        "options": [
+          "A) Fetal hyperinsulinemia; TTN; Reduced chest wall compliance",
+          "B) Intrapartum Perinatal Asphyxia; Meconium Aspiration Syndrome (MAS); Meconium is suspended in a smaller, oligohydramnic volume of amniotic fluid, making it highly concentrated",
+          "C) Congenital sepsis; RDS; Absence of alveolar surfactant",
+          "D) Diaphragmatic hernia; Pneumothorax; Hypoplastic lungs"
+        ],
+        "correct": 1,
+        "hint": "Intrapartum asphyxia -> MAS; more concentrated in reduced amniotic fluid.",
+        "explanation": "Intrapartum asphyxia triggers gasping and meconium passage; aspiration causes MAS. MAS is severe in IUGR because meconium is concentrated in reduced amniotic fluid."
+      },
+      {
+        "q": "A 37-week infant of a diabetic mother has jitteriness, twitching, and apnea at 18 hours with normal glucose (3.8 mmol/L), total Ca 1.4 mmol/L, and Mg 0.4 mmol/L; IV calcium infusion fails to stop twitching. Why did calcium fail, and what must be corrected first?",
+        "options": [
+          "A) Calcium was inactivated by glucose; Give oral Vitamin D",
+          "B) Hypomagnesemia impairs Parathyroid Hormone (PTH) secretion and organ responsiveness; Hypomagnesemia must be corrected first for hypocalcemia to resolve",
+          "C) Calcium was excreted by the liver; Give IV furosemide",
+          "D) High insulin blocked calcium uptake; Give IV glucagon"
+        ],
+        "correct": 1,
+        "hint": "Low magnesium impairs PTH secretion/response; correct hypomagnesemia first.",
+        "explanation": "Hypomagnesemia impairs PTH secretion and action; recalcitrant hypocalcemia in infants of diabetic mothers will not respond to calcium until magnesium is corrected."
+      },
+      {
+        "q": "A 30-week preterm infant (1250 g) on unfortified breast milk and chronic furosemide has craniotabes, rib beading, high alkaline phosphatase, and bone thinning at 8 weeks. What condition is this, what are the dietary/drug causes, and how is it prevented?",
+        "options": [
+          "A) Osteoperosis; Excessive vitamin A; Give high-dose calcitonin",
+          "B) Osteopenia of Prematurity (Metabolic Bone Disease); Inadequate intake of Calcium/Phosphorus/Vit D in unfortified human milk, exacerbated by renal calcium loss from Furosemide; Fortify human milk and provide Vitamin D supplementation",
+          "C) Osteopetrosis; High calcium intake; Stop all milk feeds",
+          "D) Achondroplasia; Genetic mutation; Surgical alignment"
+        ],
+        "correct": 1,
+        "hint": "Osteopenia of prematurity from Ca/PO4/Vit D deficiency + furosemide; prevent with milk fortification and vitamin D.",
+        "explanation": "High alk phos and bone thinning indicate Osteopenia of Prematurity from calcium/phosphorus deficiency in unfortified milk, aggravated by loop diuretics. Prevention requires milk fortification and vitamin D."
+      },
+      {
+        "q": "Comparing a Preterm LBW infant vs a Term SGA infant: which is mainly at risk for immaturity complications (RDS, IVH, ROP, NEC, hyperbilirubinemia, PDA), and which is mainly at risk for chronic in utero hypoxia complications (asphyxia, MAS, polycythemia, hypoglycemia)?",
+        "options": [
+          "A) 1. Term SGA infant; 2. Preterm LBW infant",
+          "B) 1. Preterm LBW infant; 2. Term SGA / IUGR infant",
+          "C) 1. LGA infant; 2. Preterm LBW infant",
+          "D) Both infants have identical complication profiles"
+        ],
+        "correct": 1,
+        "hint": "1. Preterm LBW infant; 2. Term SGA / IUGR infant.",
+        "explanation": "Preterm infants suffer complications of organ system immaturity (RDS, IVH, NEC, ROP, PDA). Term SGA infants suffer complications of intrauterine stress/hypoxia (asphyxia, MAS, polycythemia, hypoglycemia)."
+      },
+      {
+        "q": "For a 1200 g VLBW infant in the NICU: what immediate thermal/non-drug care is needed, what screening tests are mandatory, and what empirical antibiotics cover suspected sepsis?",
+        "options": [
+          "A) 1. Place in open crib; 2. Gastric lavage; 3. Oral erythromycin",
+          "B) 1. Servo-controlled radiant warmer/incubator (target temp 36.5–37.5°C), Minimal Enteral Feeding, KMC; 2. Pulse oximetry, blood gas/lactate, Bilirubin, Cranial Ultrasound (for IVH), ROP eye exam (at 31–33 wks), Screening for Osteopenia (Ca/Phos/AlkPhos); 3. IV Ampicillin + Gentamicin for 5–7 days",
+          "C) 1. Cold bath to reduce metabolism; 2. CT scan of abdomen; 3. IV Vancomycin alone",
+          "D) 1. Immediate discharge home; 2. No testing needed; 3. No antibiotics"
+        ],
+        "correct": 1,
+        "hint": "Warmer/incubator (36.5–37.5°C) + MEF/KMC; cranial US, ROP, osteopenia screen; ampicillin + gentamicin.",
+        "explanation": "Comprehensive management of VLBW neonates involves strict thermoregulation (36.5–37.5°C) and minimal enteral feeds, routine screening for IVH (cranial US), ROP, and osteopenia, and empirical Ampicillin + Gentamicin for suspected sepsis."
+      }
+    ]
+  }
+]
