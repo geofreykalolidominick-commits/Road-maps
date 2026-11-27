@@ -1,0 +1,679 @@
+[
+  {
+    "topic": "Pediatric Lymphomas",
+    "questions": [
+      {
+        "q": "Approximately what percentage of all childhood malignancies is accounted for by lymphoma?",
+        "options": [
+          "A. 6%",
+          "B. 14%",
+          "C. 30%",
+          "D. 60%"
+        ],
+        "correct": 1,
+        "hint": "Think about the total proportion of childhood cancers represented by lymphoma in the opening overview.",
+        "explanation": "Lymphoma accounts for about 14% of childhood malignancies; 6% is the share for Hodgkin lymphoma, 30% is approximately leukemia, and 60% is NHL's share of lymphomas rather than all childhood cancers."
+      },
+      {
+        "q": "Which structures are listed as part of the lymphatic system in the opening lymphoma overview?",
+        "options": [
+          "A. Lymph nodes, tonsils and adenoids (Waldeyer's Ring), and spleen",
+          "B. Lymph nodes, liver, and gallbladder",
+          "C. Spleen, thymus, and appendix",
+          "D. Tonsils, bone marrow, and thyroid"
+        ],
+        "correct": 0,
+        "hint": "Look at the bulleted list directly beneath \"Cancer of the lymphatic system\" on the first slide.",
+        "explanation": "The opening slide lists lymph nodes, tonsils and adenoids (Waldeyer's Ring), and the spleen as lymphatic structures. Confusing liver/gallbladder or other organs reflects mixing unrelated anatomy with the slide's list."
+      },
+      {
+        "q": "How does the relative split between Hodgkin lymphoma (HL) and non-Hodgkin lymphoma (NHL) differ between children and adults?",
+        "options": [
+          "A. Children are roughly 50% HL and 50% NHL, while adults are roughly 10% HL and 90% NHL",
+          "B. Children are roughly 90% HL and 10% NHL, while adults are roughly 50% HL and 50% NHL",
+          "C. Both children and adults are roughly 50% HL and 50% NHL",
+          "D. Both children and adults are roughly 10% HL and 90% NHL"
+        ],
+        "correct": 0,
+        "hint": "Recall which group has an even split between HL and NHL and which group is overwhelmingly NHL.",
+        "explanation": "The notes state that children have roughly a 50% HL / 50% NHL split, whereas adults have roughly 10% HL and 90% NHL. Reversing or equating the two groups misreads the pediatric-versus-adult comparison."
+      },
+      {
+        "q": "Which statement best contrasts childhood non-Hodgkin lymphoma with adult non-Hodgkin lymphoma?",
+        "options": [
+          "A. Childhood NHL is often very aggressive and widely spread to non-lymphatic tissues like bone marrow and CNS, whereas adult NHL is more often indolent",
+          "B. Childhood NHL is usually indolent and slow-growing, whereas adult NHL is almost always aggressive",
+          "C. Both childhood and adult NHL remain strictly confined to peripheral lymph nodes",
+          "D. Adult NHL spreads to bone marrow and CNS more frequently than childhood NHL"
+        ],
+        "correct": 0,
+        "hint": "Compare the \"Adult NHL\" and \"Child NHL\" boxes in the opening overview.",
+        "explanation": "The overview notes that adult NHL is often indolent, slow-growing, and non-aggressive, while childhood NHL is often very aggressive and widely disseminated to sites like bone marrow and CNS. Reversing these traits confuses adult and pediatric NHL behavior."
+      },
+      {
+        "q": "Approximately what percentage of childhood cancers is accounted for by Hodgkin lymphoma?",
+        "options": [
+          "A. 6%",
+          "B. 14%",
+          "C. 25%",
+          "D. 50%"
+        ],
+        "correct": 0,
+        "hint": "Check the introductory bullet under the \"HODGKIN LYMPHOMA\" heading.",
+        "explanation": "Hodgkin lymphoma constitutes 6% of childhood cancers in the notes; 14% is all lymphoma among childhood malignancies, and 50% reflects the HL-to-NHL proportion within childhood lymphomas."
+      },
+      {
+        "q": "In developing countries, when does the early age peak of Hodgkin lymphoma typically occur?",
+        "options": [
+          "A. Before adolescence",
+          "B. Around age 25",
+          "C. In the mid-thirties",
+          "D. After age 60"
+        ],
+        "correct": 0,
+        "hint": "Look at the age-peak note specifically mentioning developing countries under Hodgkin lymphoma.",
+        "explanation": "The notes state that in developing countries, the early peak of Hodgkin lymphoma occurs before adolescence. Selecting young-adult or older peaks confuses developing-country timing with other age patterns."
+      },
+      {
+        "q": "Which sex pattern is noted for Hodgkin lymphoma in the pediatric lymphoma material?",
+        "options": [
+          "A. Male: female predominance",
+          "B. Equal male and female incidence",
+          "C. Female: male predominance",
+          "D. Exclusively male incidence"
+        ],
+        "correct": 0,
+        "hint": "Look at the short demographic bullet under Hodgkin lymphoma.",
+        "explanation": "The notes list male sex / male: female predominance under Hodgkin lymphoma. Choosing female predominance or strict equality misses the sex pattern stated in the notes."
+      },
+      {
+        "q": "Under the Rye classification system in the notes, which subtype makes up the largest proportion (46%)?",
+        "options": [
+          "A. Nodular sclerosing (NS)",
+          "B. Mixed cellularity (MC)",
+          "C. Lymphocyte predominant (LP)",
+          "D. Lymphocyte depleted (LD)"
+        ],
+        "correct": 0,
+        "hint": "Recall which Rye subtype has the highest percentage in the notes' breakdown.",
+        "explanation": "Nodular sclerosing (NS) is the largest Rye subtype at 46% in the notes. Selecting MC, LP, or LD confuses smaller Rye categories with the predominant subtype."
+      },
+      {
+        "q": "Which subtype has the smallest percentage (7%) in the Rye classification listed in the notes?",
+        "options": [
+          "A. Lymphocyte depleted (LD)",
+          "B. Nodular sclerosing (NS)",
+          "C. Mixed cellularity (MC)",
+          "D. Lymphocyte predominant (LP)"
+        ],
+        "correct": 0,
+        "hint": "Look for the rarest subtype percentage listed under the Rye classification.",
+        "explanation": "Lymphocyte depleted (LD) accounts for 7%—the smallest share listed in the notes' Rye classification. Choosing NS, MC, or LP misidentifies the lowest-frequency subtype."
+      },
+      {
+        "q": "What is the hallmark cell of Hodgkin lymphoma described in the notes?",
+        "options": [
+          "A. Reed-Sternberg cells",
+          "B. Lymphoblasts",
+          "C. Plasma cells",
+          "D. Megakaryoblasts"
+        ],
+        "correct": 0,
+        "hint": "Think of the classic diagnostic cell associated with Hodgkin lymphoma.",
+        "explanation": "Reed-Sternberg cells are the hallmark cell of Hodgkin lymphoma in the notes; lymphoblasts and megakaryoblasts relate to leukemias, while plasma cells are not the hallmark HL cell."
+      },
+      {
+        "q": "Which combination chemotherapy regimen is listed in the notes for advanced or unfavorable pediatric Hodgkin lymphoma?",
+        "options": [
+          "A. COPP/ABV",
+          "B. CHOP-R",
+          "C. R-EPOCH",
+          "D. VAD"
+        ],
+        "correct": 0,
+        "hint": "Look at the first of the three regimens listed for advanced or unfavorable pediatric HL.",
+        "explanation": "COPP/ABV is explicitly listed among the regimens for advanced or unfavorable pediatric Hodgkin lymphoma. Choosing adult or unrelated regimens like CHOP-R, R-EPOCH, or VAD confuses protocols outside that list."
+      },
+      {
+        "q": "Which alternating regimen is included among the three approaches for advanced or unfavorable pediatric Hodgkin lymphoma?",
+        "options": [
+          "A. VAMP/COP",
+          "B. ABVD-only",
+          "C. BEACOPP-esc",
+          "D. CVP"
+        ],
+        "correct": 0,
+        "hint": "Recall the second regimen listed alongside COPP/ABV and Stanford V for advanced/unfavorable pediatric HL.",
+        "explanation": "VAMP/COP is one of the three regimens specified for advanced or unfavorable pediatric Hodgkin lymphoma. Selecting ABVD-only, BEACOPP-esc, or CVP picks regimens not listed in that set."
+      },
+      {
+        "q": "Which regimen in the notes includes doxorubicin (Adriamycin), vinblastine, mechlorethamine, vincristine, bleomycin, etoposide, and prednisone?",
+        "options": [
+          "A. Stanford V",
+          "B. OPPA",
+          "C. MOPP",
+          "D. ICE"
+        ],
+        "correct": 0,
+        "hint": "Look for the multi-drug regimen named after a university program that includes bleomycin and etoposide.",
+        "explanation": "Stanford V is listed with that exact combination of agents for advanced or unfavorable pediatric Hodgkin lymphoma. Choosing OPPA, MOPP, or ICE misattributes the drug list to another regimen."
+      },
+      {
+        "q": "For which disease stages are COPP/ABV, VAMP/COP, and Stanford V specifically noted in the pediatric Hodgkin lymphoma treatment section?",
+        "options": [
+          "A. Advanced or unfavorable disease (stages IIB, IIIB, or IV)",
+          "B. Localized stage IA only",
+          "C. Relapsed refractory disease after transplant",
+          "D. Asymptomatic stage I nodular LP disease alone"
+        ],
+        "correct": 0,
+        "hint": "Check the stage specification attached to the COPP/ABV, VAMP/COP, and Stanford V list.",
+        "explanation": "Those regimens are specified for advanced or unfavorable disease (stages IIB, IIIB, or IV) rather than early localized disease alone. Confusing stage groups misapplies risk-adapted therapy."
+      },
+      {
+        "q": "Which monoclonal antibodies are noted for treating high-risk, refractory, or recurrent childhood Hodgkin lymphoma?",
+        "options": [
+          "A. Rituximab or brentuximab",
+          "B. Trastuzumab or pertuzumab",
+          "C. Cetuximab or panitumumab",
+          "D. Bevacizumab or ramucirumab"
+        ],
+        "correct": 0,
+        "hint": "Look for targeted antibodies mentioned in the pediatric HL treatment notes rather than solid-tumor antibodies.",
+        "explanation": "Rituximab and brentuximab are the monoclonal antibodies noted for high-risk, refractory, or recurrent childhood Hodgkin lymphoma. Selecting HER2, EGFR, or VEGF antibodies applies solid-tumor biologics to lymphoma."
+      },
+      {
+        "q": "How does proteasome inhibitor therapy work according to the notes, and which agent is named?",
+        "options": [
+          "A. It blocks proteasomes so unneeded proteins accumulate and may trigger cancer cell death; bortezomib is used for refractory or recurrent disease",
+          "B. It blocks PD-1 receptors on T cells; pembrolizumab is the proteasome inhibitor",
+          "C. It alkylates DNA strands directly; cyclophosphamide is the proteasome inhibitor",
+          "D. It inhibits topoisomerase II; etoposide is the proteasome inhibitor"
+        ],
+        "correct": 0,
+        "hint": "Focus on protein breakdown inside cells and the named proteasome inhibitor.",
+        "explanation": "The notes explain that blocking proteasomes causes unneeded proteins to build up and potentially trigger cell death, naming bortezomib for refractory or recurrent disease. Confusing this mechanism with checkpoint inhibition, alkylation, or topoisomerase inhibition misstates how the drug acts."
+      },
+      {
+        "q": "Which PD-1 inhibitors are listed as immunotherapy for relapsed childhood Hodgkin lymphoma?",
+        "options": [
+          "A. Pembrolizumab and nivolumab",
+          "B. Ipilimumab and tremelimumab",
+          "C. Durvalumab and atezolizumab",
+          "D. Blinatumomab and inotuzumab"
+        ],
+        "correct": 0,
+        "hint": "Think of the two checkpoint inhibitors targeting PD-1 mentioned for relapsed pediatric HL.",
+        "explanation": "Pembrolizumab and nivolumab are the PD-1 inhibitors listed for relapsed childhood Hodgkin lymphoma. CTLA-4, PD-L1, or bispecific/ADC agents belong to different classes or settings."
+      },
+      {
+        "q": "In which setting is surgery mentioned as a treatment option for pediatric Hodgkin lymphoma?",
+        "options": [
+          "A. Removing as much tumor as possible in localized nodular lymphocyte-predominant Hodgkin lymphoma",
+          "B. Replacing chemotherapy in all stage IV cases",
+          "C. Debulking bulky mediastinal disease in every patient",
+          "D. Treating all relapsed disease without systemic therapy"
+        ],
+        "correct": 0,
+        "hint": "Look for the specific localized HL subtype paired with surgery in the notes.",
+        "explanation": "Surgery is noted for removing as much tumor as possible in localized nodular lymphocyte-predominant Hodgkin lymphoma. Claiming surgery replaces systemic therapy across stages or bulky disease overstates its role."
+      },
+      {
+        "q": "What advantage of proton beam radiation therapy is highlighted for pediatric Hodgkin lymphoma?",
+        "options": [
+          "A. It uses positively charged proton streams that can reduce radiation damage to nearby healthy tissues like the breast, heart, and lungs",
+          "B. It eliminates the need for any dose planning or tissue sparing",
+          "C. It works only on bone marrow and avoids thoracic organs completely",
+          "D. It uses negatively charged electrons that increase dose beyond the target"
+        ],
+        "correct": 0,
+        "hint": "Recall what \"protons\" are and which nearby chest organs are named in the notes.",
+        "explanation": "Proton beam radiation uses streams of positively charged protons and can reduce damage to nearby healthy structures such as the breast, heart, and lungs. Misstating charge or claiming zero tissue consideration contradicts the notes."
+      },
+      {
+        "q": "Which thoracic emergency/finding is specifically called out by title in the transition toward non-Hodgkin lymphoma?",
+        "options": [
+          "A. Mediastinal Mass",
+          "B. Tension pneumothorax",
+          "C. Pulmonary embolism",
+          "D. Flail chest"
+        ],
+        "correct": 0,
+        "hint": "Look right after the Hodgkin lymphoma case/prognosis section for a two-word chest mass heading.",
+        "explanation": "\"Mediastinal Mass\" appears as a standalone heading right before the NHL section. The other options are trauma or vascular/pleural emergencies not featured there."
+      },
+      {
+        "q": "Approximately what share of all lymphomas in children and adolescents is non-Hodgkin lymphoma?",
+        "options": [
+          "A. About 60%",
+          "B. About 14%",
+          "C. About 6%",
+          "D. About 90%"
+        ],
+        "correct": 0,
+        "hint": "Check the first bullet under \"NON-HODGKIN LYMPHOMA (NHL)\".",
+        "explanation": "NHL accounts for approximately 60% of all lymphomas in children and adolescents; 14% is all lymphoma among childhood cancers, and 6% is HL among childhood cancers."
+      },
+      {
+        "q": "What survival rates are given in the opening NHL slide for localized versus advanced disease?",
+        "options": [
+          "A. 90–95% for localized disease and 60–90% with advanced disease",
+          "B. 30–40% for localized disease and 10–20% with advanced disease",
+          "C. 50–60% for localized disease and 50–60% with advanced disease",
+          "D. 99–100% for both localized and advanced disease"
+        ],
+        "correct": 0,
+        "hint": "Compare the two percentage ranges on the opening NHL overview slide.",
+        "explanation": "The opening NHL slide lists 90–95% for localized disease and 60–90% for advanced disease. Choosing much lower or identical ranges misreads the slide's numbers."
+      },
+      {
+        "q": "Under the lineage chart in the notes, which lymphomas are grouped under B-cell lineage NHL?",
+        "options": [
+          "A. B lymphoblastic lymphoma (immature B cell), Burkitt lymphoma (mature B cell), and DLBCL (mature B cell)",
+          "B. T lymphoblastic lymphoma, ALCL (immature T cell), and peripheral T-cell lymphoma (mature T cell)",
+          "C. Hodgkin lymphoma and nodular lymphocyte-predominant HL only",
+          "D. Follicular lymphoma and mantle cell lymphoma only"
+        ],
+        "correct": 0,
+        "hint": "Look at the left branch (\"B cell lineage\") and its immature vs. mature sub-branches.",
+        "explanation": "The B-cell lineage branch lists B lymphoblastic lymphoma (immature B cell) and Burkitt lymphoma and DLBCL (mature B cell). The T-cell branch holds T lymphoblastic lymphoma, ALCL, and peripheral T-cell lymphoma."
+      },
+      {
+        "q": "Under the T-cell lineage branch in the NHL chart, which entities are listed?",
+        "options": [
+          "A. T lymphoblastic lymphoma, ALCL (immature T cell), and peripheral T-cell lymphoma (mature T cell)",
+          "B. B lymphoblastic lymphoma, Burkitt lymphoma, and DLBCL",
+          "C. Classical Hodgkin lymphoma and Burkitt lymphoma",
+          "D. Marginal zone lymphoma and hairy cell leukemia"
+        ],
+        "correct": 0,
+        "hint": "Check the right branch (\"T cell lineage\") in the NHL classification chart.",
+        "explanation": "The T-cell lineage branch includes T lymphoblastic lymphoma, ALCL (immature T cell), and peripheral T-cell lymphoma (mature T cell). Selecting B-cell entities or unrelated neoplasms confuses the branches."
+      },
+      {
+        "q": "Which three NHL subgroups are listed at the bottom of the NHL classification slide?",
+        "options": [
+          "A. Burkitt lymphoma (BL), lymphoblastic lymphoma (LL), and diffuse large B-cell lymphoma (DLBCL)",
+          "B. Nodular sclerosis, mixed cellularity, and lymphocyte depletion",
+          "C. Wilms tumor, neuroblastoma, and rhabdomyosarcoma",
+          "D. ALL, AML, and CML"
+        ],
+        "correct": 0,
+        "hint": "Look at the \"Subgroups\" list at the bottom of the NHL classification slide.",
+        "explanation": "The slide lists Burkitt lymphoma (BL), lymphoblastic lymphoma (LL), and diffuse large B-cell lymphoma (DLBCL) as the three subgroups. The other options are HL subtypes, other pediatric solid tumors, or leukemias."
+      },
+      {
+        "q": "According to the St. Jude staging table for pediatric NHL, what defines Stage I?",
+        "options": [
+          "A. A single tumor or nodal area of involvement outside the abdomen and mediastinum",
+          "B. Any primary intrathoracic or extensive intraabdominal disease",
+          "C. Bone marrow or CNS involvement regardless of other sites",
+          "D. Tumors or nodal areas on both sides of the diaphragm"
+        ],
+        "correct": 0,
+        "hint": "Stage I is the most limited presentation and excludes the abdomen and mediastinum.",
+        "explanation": "St. Jude Stage I is a single tumor or nodal area outside the abdomen and mediastinum. Intrathoracic/extensive intraabdominal/bilateral diaphragmatic disease are Stage III, and marrow/CNS disease is Stage IV."
+      },
+      {
+        "q": "Which presentation is included under St. Jude Stage II for pediatric NHL?",
+        "options": [
+          "A. A single tumor with regional node involvement, two or more tumors/nodal areas on one side of the diaphragm, or a resected primary GI tract tumor with or without regional node involvement",
+          "B. Any paraspinal or epidural tumor",
+          "C. CNS disease confirmed on CSF",
+          "D. Bone marrow involvement"
+        ],
+        "correct": 0,
+        "hint": "Look at the Stage II row—it stays on one side of the diaphragm and can include a resected primary GI tumor.",
+        "explanation": "Stage II covers a single tumor with regional nodes, multiple tumors/nodes on one side of the diaphragm, or a resected primary GI tract tumor with or without regional nodes. Paraspinal/epidural tumors are Stage III, and marrow/CNS involvement is Stage IV."
+      },
+      {
+        "q": "Which finding places a child with NHL in St. Jude Stage III?",
+        "options": [
+          "A. Tumors or nodal areas on both sides of the diaphragm, any primary intrathoracic or extensive intraabdominal disease, or any paraspinal or epidural tumors",
+          "B. A single extranodal/nodal site outside the abdomen and mediastinum",
+          "C. Isolated bone marrow involvement without other sites",
+          "D. A single tumor limited to regional lymph nodes on one side of the diaphragm"
+        ],
+        "correct": 0,
+        "hint": "Check the Stage III row for cross-diaphragm, intrathoracic, extensive intraabdominal, or paraspinal/epidural disease.",
+        "explanation": "St. Jude Stage III includes disease on both sides of the diaphragm, any primary intrathoracic or extensive intraabdominal disease, and any paraspinal or epidural tumors. Single localized sites are Stage I or II, while marrow/CNS disease is Stage IV."
+      },
+      {
+        "q": "Which finding defines St. Jude Stage IV in pediatric NHL regardless of other sites of involvement?",
+        "options": [
+          "A. Bone marrow disease or CNS disease",
+          "B. A resected primary GI tract tumor",
+          "C. Involvement of two nodal regions above the diaphragm",
+          "D. A single mediastinal mass without marrow or CNS spread"
+        ],
+        "correct": 0,
+        "hint": "Look at the bottom row of the St. Jude staging table.",
+        "explanation": "In the St. Jude staging table, Stage IV is defined by bone marrow disease or CNS disease regardless of other sites of involvement. The other findings belong to lower stages."
+      },
+      {
+        "q": "What is the primary treatment modality for childhood and adolescent non-Hodgkin lymphoma?",
+        "options": [
+          "A. Multiagent systemic chemotherapy and intrathecal chemotherapy",
+          "B. Complete surgical resection alone",
+          "C. High-dose mantle radiation alone",
+          "D. Watchful waiting without systemic therapy"
+        ],
+        "correct": 0,
+        "hint": "Look at the capitalized primary treatment line under NHL \"Treatment\".",
+        "explanation": "The primary treatment for childhood and adolescent NHL is multiagent systemic chemotherapy together with intrathecal chemotherapy. Surgery and radiation play limited or specialized roles rather than serving as primary therapy."
+      },
+      {
+        "q": "How are surgery and radiation therapy used in childhood and adolescent NHL according to the treatment slide?",
+        "options": [
+          "A. Surgery is mainly for diagnostic/biologic specimens and staging (rarely debulking); radiation is rarely used except in special settings such as CNS involvement in LL or occasionally BL, acute SVC, and acute paraplegias",
+          "B. Surgery is used to debulk every large mass first, and radiation is given routinely to all stages",
+          "C. Neither surgery nor radiation is ever used in NHL",
+          "D. Radiation is the first-line cure for localized NHL, and surgery is used only at relapse"
+        ],
+        "correct": 0,
+        "hint": "Check the \"SURGERY\" and \"RADIATION THERAPY\" bullets right below the primary chemotherapy line.",
+        "explanation": "The treatment slide specifies that surgery is mainly for diagnostic/biologic specimens and staging (rarely debulking large masses), while radiation is rarely used except in specific settings like CNS involvement in LL or occasionally BL, acute SVC, and acute paraplegias. Treating them as routine primary modalities misstates the slide."
+      },
+      {
+        "q": "What survival ranges are stated on the NHL prognosis slide for localized versus advanced disease?",
+        "options": [
+          "A. 90–100% for localized disease and 60–95% for advanced disease",
+          "B. 20–30% for localized disease and 5–10% for advanced disease",
+          "C. 50–60% for localized disease and 20–30% for advanced disease",
+          "D. 70–75% for localized disease and 70–75% for advanced disease"
+        ],
+        "correct": 0,
+        "hint": "Check the survival percentages printed on the NHL prognosis slide.",
+        "explanation": "The NHL prognosis slide lists 90–100% survival for localized disease and 60–95% for advanced disease. Selecting lower or identical figures misreads the prognosis slide."
+      },
+      {
+        "q": "Which infectious and environmental associations are listed under the etiology of Burkitt lymphoma?",
+        "options": [
+          "A. Associated with Epstein-Barr virus (EBV) and prevalent in malaria-endemic areas (while overall etiology is noted as unknown)",
+          "B. Caused exclusively by HPV and asbestos exposure",
+          "C. Linked to Helicobacter pylori and high-salt diet",
+          "D. Caused by HTLV-1 and radon exposure"
+        ],
+        "correct": 0,
+        "hint": "Think of the classic virus and tropical infection linked to Burkitt lymphoma in the notes.",
+        "explanation": "The Burkitt lymphoma etiology notes cite an association with Epstein-Barr virus (EBV) and prevalence in malaria-endemic areas, alongside noting that the overall etiology is unknown. HPV, H. pylori, and HTLV-1 do not match the Burkitt notes."
+      },
+      {
+        "q": "How do sporadic and endemic Burkitt lymphoma differ in geographic distribution and typical presentation in the notes?",
+        "options": [
+          "A. Sporadic is commonly seen in North America and presents with abdominal pain; endemic is commonly seen in Africa, has a strong EBV association, and frequently presents with jaw tumors",
+          "B. Sporadic is common in Africa with jaw tumors; endemic is common in North America with leg rash",
+          "C. Both sporadic and endemic forms present exclusively with mediastinal masses in adolescents",
+          "D. Endemic Burkitt lymphoma occurs only in adults over age 60 in Europe"
+        ],
+        "correct": 0,
+        "hint": "Contrast North America/abdomen with Africa/EBV/jaw in the Burkitt notes.",
+        "explanation": "The notes state that sporadic Burkitt lymphoma is common in North America and often presents with abdominal pain, whereas endemic Burkitt lymphoma is common in Africa, strongly associated with EBV, and frequently presents with jaw tumors. Swapping the regions or presentations reverses the two forms."
+      },
+      {
+        "q": "What is noted as the commonest site of presentation in Burkitt lymphoma pathology, and how are peripheral lymph nodes affected?",
+        "options": [
+          "A. Maxilla or mandible tumor causing facial swelling/deformity is commonest, while peripheral lymph nodes are rarely affected",
+          "B. Cervical and axillary lymph nodes are always the first and only site involved",
+          "C. Peripheral lymph nodes enlarge slowly over years without facial or abdominal involvement",
+          "D. Bone marrow is the commonest presenting site while jaws are never involved"
+        ],
+        "correct": 0,
+        "hint": "Look at the opening pathology bullets for Burkitt lymphoma.",
+        "explanation": "The Burkitt pathology notes state that a maxilla or mandible tumor causing facial swelling/deformity is the commonest presentation, while peripheral lymph nodes are rarely affected. Claiming peripheral nodes are always first or jaws are never involved contradicts the notes."
+      },
+      {
+        "q": "Which additional anatomical sites and complications are listed under Burkitt lymphoma pathology?",
+        "options": [
+          "A. Abdomen, kidneys, ovaries, para-aortic lymph nodes, CNS (meningitis), and bone marrow in advanced stages",
+          "B. Thyroid gland, prostate, and vocal cords only",
+          "C. Lung apex, pleura, and brachial plexus only",
+          "D. Gallbladder, pancreas, and spleen capsule only"
+        ],
+        "correct": 0,
+        "hint": "Scan the remaining organs and CNS/marrow sites listed under Burkitt lymphoma pathology.",
+        "explanation": "The pathology notes list involvement of the abdomen, kidneys, ovaries, para-aortic lymph nodes, CNS (meningitis), and bone marrow in advanced stages. The other organ sets do not match the slide."
+      },
+      {
+        "q": "Which age range and HIV association are noted under symptoms and signs of Burkitt lymphoma?",
+        "options": [
+          "A. Mainly children aged 4–7 years (also affects adults) and is more common in HIV-infected than non-HIV-infected individuals",
+          "B. Mainly infants under 6 months and less common in HIV infection",
+          "C. Only children aged 15–18 years with no link to HIV",
+          "D. Only elderly patients over 70 years"
+        ],
+        "correct": 0,
+        "hint": "Look at the age bracket and HIV comparison under Burkitt symptoms and signs.",
+        "explanation": "The notes state that Burkitt lymphoma occurs mainly in children aged 4–7 years (while also affecting adults) and is more common in HIV-infected than non-HIV-infected individuals. Selecting infants, older teens only, or lower HIV risk contradicts the notes."
+      },
+      {
+        "q": "What microscopic pattern is illustrated in the Burkitt lymphoma image in the notes?",
+        "options": [
+          "A. Starry sky pattern",
+          "B. Onion-skin lamellation",
+          "C. Herringbone fascicles",
+          "D. Rosette pseudopalisading"
+        ],
+        "correct": 0,
+        "hint": "Think of the classic histologic description paired with the Burkitt microscopy figure.",
+        "explanation": "The Burkitt lymphoma image in the notes shows the classic \"starry sky\" microscopic pattern. The other histologic patterns belong to different conditions."
+      },
+      {
+        "q": "Which general and vital-sign findings are listed in the opening childhood malignancies examination notes?",
+        "options": [
+          "A. Pallor, wasting, petechiae, bruises, jaundice, edema, lymph nodes, skin, fever, tachycardia, tachypnea, BP, and weight",
+          "B. Hearing loss, visual acuity chart, and tendon reflexes only",
+          "C. Joint range of motion, gait speed, and spine curvature only",
+          "D. Skin turgor, capillary refill, and bowel sounds only"
+        ],
+        "correct": 0,
+        "hint": "Check the \"General:\" and \"Vitals:\" lines on the first examination slide.",
+        "explanation": "The examination slide lists pallor, wasting, petechiae, bruises, jaundice, edema, lymph nodes, and skin under General, along with fever, tachycardia, tachypnea, BP, and weight under Vitals. Narrowing to a single system misses the full list."
+      },
+      {
+        "q": "Which characteristics are specifically prompted when examining lymph nodes in a child with suspected malignancy?",
+        "options": [
+          "A. All regions, size, consistency, tender?, matted?, mobile?",
+          "B. Color, transillumination, and pulse amplitude",
+          "C. Percussion note, vocal fremitus, and breath sounds",
+          "D. Capillary refill, warmth, and skin fold thickness"
+        ],
+        "correct": 0,
+        "hint": "Look at the \"Lymph nodes:\" line on the examination slide.",
+        "explanation": "The examination notes prompt checking all regions, size, consistency, and whether nodes are tender, matted, or mobile. Transillumination or auscultation terms do not apply to lymph node palpation here."
+      },
+      {
+        "q": "How is the abdominal examination specified in the childhood malignancies examination notes?",
+        "options": [
+          "A. Mass, size, consistency, cross midline?, liver, spleen — measure in cm",
+          "B. Bowel sounds in four quadrants and shifting dullness only",
+          "C. McBurney point tenderness and psoas sign only",
+          "D. Umbilical hernia reduction and femoral pulse check only"
+        ],
+        "correct": 0,
+        "hint": "Check the \"Abdomen:\" line for midline crossing and centimeter measurements.",
+        "explanation": "The examination slide specifies assessing any mass, its size and consistency, whether it crosses the midline, and the liver and spleen measured in centimeters. The other choices describe unrelated abdominal maneuvers."
+      },
+      {
+        "q": "Which eye, CNS, and musculoskeletal findings are listed in the second examination slide?",
+        "options": [
+          "A. Eye: white reflex, proptosis, periorbital bruising; CNS: headache, cranial nerves, papilledema; Bones/Joints: tenderness, swelling, limp",
+          "B. Eye: cataracts only; CNS: Babinski sign only; Bones/Joints: scoliosis only",
+          "C. Eye: ptosis only; CNS: nystagmus only; Bones/Joints: clubfoot only",
+          "D. Eye: corneal arcus; CNS: aphasia only; Bones/Joints: hemarthrosis only"
+        ],
+        "correct": 0,
+        "hint": "Read the three lines (\"Eye:\", \"CNS:\", and \"Bones / Joints:\") on the second examination slide.",
+        "explanation": "The second examination slide lists white reflex, proptosis, and periorbital bruising for the eye; headache, cranial nerves, and papilledema for CNS; and tenderness, swelling, and limp for bones/joints. Partial or unrelated lists miss key findings."
+      },
+      {
+        "q": "Which classic four-part clinical cluster appears on the vertical 'EXAMINATION' slide?",
+        "options": [
+          "A. Pallor + Fever not responding + Bleeding + Bone pain",
+          "B. Cough + Weight gain + Rash + Bradycardia",
+          "C. Dysuria + Edema + Hypertension + Hematuria",
+          "D. Jaundice + Pruritus + Ascites + Spider angiomas"
+        ],
+        "correct": 0,
+        "hint": "Look at the four plus-joined terms on the vertical \"EXAMINATION\" slide.",
+        "explanation": "The vertical \"EXAMINATION\" slide highlights Pallor + Fever not responding + Bleeding + Bone pain. The other clusters describe different organ syndromes."
+      },
+      {
+        "q": "In which malignancies is LDH noted as high in the diagnostic workup notes?",
+        "options": [
+          "A. Burkitt, leukemia, and neuroblastoma",
+          "B. Wilms tumor and retinoblastoma only",
+          "C. Osteosarcoma and Ewing sarcoma only",
+          "D. Hodgkin lymphoma and thyroid cancer only"
+        ],
+        "correct": 0,
+        "hint": "Look at the \"LDH:\" line under \"INVESTIGATIONS\".",
+        "explanation": "The investigations slide notes LDH as high in Burkitt, leukemia, and neuroblastoma. Selecting other malignancies misreads the \"LDH:\" bullet."
+      },
+      {
+        "q": "Why are renal function, liver function, uric acid, and calcium checked in the diagnostic workup notes?",
+        "options": [
+          "A. Tumor lysis risk",
+          "B. Diagnosing iron-deficiency anemia",
+          "C. Screening for congenital hypothyroidism",
+          "D. Measuring blood type and crossmatch"
+        ],
+        "correct": 0,
+        "hint": "Look at the label to the right of \"Renal + Liver function, Uric acid, Calcium:\".",
+        "explanation": "Those tests are listed alongside \"Tumor lysis risk\" on the investigations slide. The other options correspond to different lab evaluations."
+      },
+      {
+        "q": "Which infectious and tropical tests are listed on the diagnostic workup slide?",
+        "options": [
+          "A. HIV, Hepatitis B/C, TB screen, Malaria test",
+          "B. CMV, HSV, Toxoplasma, and Rubella only",
+          "C. Influenza, RSV, COVID-19, and Strep throat",
+          "D. Syphilis, Chlamydia, Gonorrhea, and Zika"
+        ],
+        "correct": 0,
+        "hint": "Check the standalone infection/tropical testing line under \"INVESTIGATIONS\".",
+        "explanation": "The diagnostic workup slide lists HIV, Hepatitis B/C, TB screen, and Malaria test. Choosing other pathogen panels does not match the slide."
+      },
+      {
+        "q": "Which imaging studies are listed for staging in the diagnostic workup notes?",
+        "options": [
+          "A. Chest X-ray, Ultrasound abdomen, CT neck / chest / abdomen — staging",
+          "B. MRI brain and spine angiography only",
+          "C. Bone scan and DEXA scan only",
+          "D. Mammogram and pelvic ultrasound only"
+        ],
+        "correct": 0,
+        "hint": "Look at the \"Imaging:\" line under \"INVESTIGATIONS\".",
+        "explanation": "The investigations slide lists Chest X-ray, Ultrasound abdomen, and CT neck / chest / abdomen for staging. The other imaging combinations do not match the slide."
+      },
+      {
+        "q": "For which purposes is bone marrow aspirate listed on the diagnostic workup slide?",
+        "options": [
+          "A. Leukemia, neuroblastoma metastasis, lymphoma staging",
+          "B. Renal stone analysis and urine culture",
+          "C. Pulmonary function and echocardiography",
+          "D. Skin patch testing and allergy panels"
+        ],
+        "correct": 0,
+        "hint": "Check the \"Bone marrow aspirate:\" line under \"INVESTIGATIONS\".",
+        "explanation": "Bone marrow aspirate is listed for leukemia, neuroblastoma metastasis, and lymphoma staging. The other options are unrelated tests."
+      },
+      {
+        "q": "What does 'Biopsy + Histopathology' provide according to the diagnostic workup slide?",
+        "options": [
+          "A. Definitive for solid tumors — Wilms, lymphoma, neuroblastoma",
+          "B. A bedside screening test for all anemias",
+          "C. A replacement for vital signs and physical exam",
+          "D. A measure of daily fluid intake and output"
+        ],
+        "correct": 0,
+        "hint": "Look at the final line under \"INVESTIGATIONS\".",
+        "explanation": "The slide states that \"Biopsy + Histopathology\" is definitive for solid tumors—specifically Wilms, lymphoma, and neuroblastoma. The other choices are unrelated to tissue histopathology."
+      },
+      {
+        "q": "Because childhood cancer is generally not preventable, what is stated as the most effective strategy to reduce its burden and improve outcomes?",
+        "options": [
+          "A. Focus on a prompt, correct diagnosis followed by effective, evidence-based therapy with tailored supportive care",
+          "B. Mass population screening of all newborns with whole-body CT",
+          "C. Avoiding all medical interventions until symptoms resolve on their own",
+          "D. Relying solely on dietary supplements without cancer therapy"
+        ],
+        "correct": 0,
+        "hint": "Read the \"IMPROVING OUTCOMES OF CHILDHOOD CANCER\" statement carefully.",
+        "explanation": "The notes state that because childhood cancer is generally not preventable, the most effective strategy is a prompt, correct diagnosis followed by effective, evidence-based therapy with tailored supportive care. Unproven or non-evidence-based approaches contradict that guidance."
+      },
+      {
+        "q": "Which standard therapies and multidisciplinary needs are highlighted on the 'Improving Outcomes of Childhood Cancer' slide?",
+        "options": [
+          "A. Chemotherapy, surgery, and/or radiotherapy, plus attention to continued physical and cognitive growth and nutritional status via a multidisciplinary team",
+          "B. Stem cell transplantation alone for every child",
+          "C. Homeopathic remedies and bed rest only",
+          "D. Surgery alone without follow-up care"
+        ],
+        "correct": 0,
+        "hint": "Look for the modalities and child-development/nutrition goals in the outcomes notes.",
+        "explanation": "The notes highlight chemotherapy, surgery, and/or radiotherapy along with attention to continued physical and cognitive growth and nutritional status through a multidisciplinary team. Narrowing to a single modality or ignoring growth/nutrition misses key elements."
+      },
+      {
+        "q": "What does the 'Treatment' slide in the childhood malignancies section note about global access to care?",
+        "options": [
+          "A. Access to effective diagnosis, essential medicines, pathology, blood products, radiation therapy, technology, and psychosocial/supportive care is variable and inequitable around the world",
+          "B. Every country has identical access to all cancer therapies and technologies",
+          "C. Blood products and pathology are no longer needed for childhood cancer treatment",
+          "D. Access is limited only in high-income countries"
+        ],
+        "correct": 0,
+        "hint": "Think about global disparities in diagnostics, medicines, blood products, radiation, and supportive care.",
+        "explanation": "The treatment notes emphasize that access to effective diagnosis, essential medicines, pathology, blood products, radiation therapy, technology, and psychosocial/supportive care varies and is inequitable globally. Claiming uniform global access overlooks real-world disparities."
+      },
+      {
+        "q": "What ongoing care is needed after a child completes cancer treatment according to the treatment notes?",
+        "options": [
+          "A. Ongoing care to monitor for cancer recurrence and manage any possible long-term impact of treatment",
+          "B. No follow-up once initial therapy ends",
+          "C. Stopping all medical visits after 30 days",
+          "D. Treating only acute infections without checking for recurrence or late effects"
+        ],
+        "correct": 0,
+        "hint": "Focus on post-treatment surveillance for recurrence and late treatment effects.",
+        "explanation": "The treatment notes state that ongoing care is needed after treatment to monitor for recurrence and manage potential long-term impacts of therapy. Ending follow-up early misses recurrence and late-effect monitoring."
+      },
+      {
+        "q": "Which general non-Hodgkin lymphoma symptom/sign category includes nasal stuffiness in the pediatric lymphoma overview?",
+        "options": [
+          "A. Head, neck, or musculoskeletal manifestations",
+          "B. Renal failure syndromes",
+          "C. Peripheral neuropathy",
+          "D. Cutaneous blistering disorders"
+        ],
+        "correct": 0,
+        "hint": "Match \"Nasal stuffiness\" to its anatomical symptom group in the NHL overview.",
+        "explanation": "In the NHL overview, nasal stuffiness falls under head, neck, or musculoskeletal manifestations. The other choices are unrelated symptom categories."
+      },
+      {
+        "q": "Which acute or site-specific NHL complications are noted when rapid tumor growth affects thoracic, GI, or pharyngeal structures?",
+        "options": [
+          "A. Superior vena cava (SVC) syndrome, intussusception-like symptoms, and tonsil enlargement",
+          "B. Cataracts, glaucoma, and retinal detachment",
+          "C. Nephrolithiasis, cystitis, and hydronephrosis",
+          "D. Osteoarthritis, gout, and bunions"
+        ],
+        "correct": 0,
+        "hint": "Look for thoracic vessel compression, GI intussusception-like presentation, and pharyngeal lymphoid enlargement.",
+        "explanation": "The NHL overview lists superior vena cava (SVC) syndrome, intussusception-like symptoms, and tonsil enlargement among clinical presentations/complications. The other options belong to unrelated organ systems."
+      },
+      {
+        "q": "How do the diagnostic tests on the childhood malignancies workup slide support clinical management of suspected lymphoma?",
+        "options": [
+          "A. Biopsy/histopathology and marrow/imaging studies establish diagnosis and staging, while labs and infection screens assess tumor lysis risk and comorbidities before therapy",
+          "B. Labs alone replace biopsy and staging in every case",
+          "C. Imaging is performed only after treatment is finished",
+          "D. Infection screens are unnecessary before starting therapy"
+        ],
+        "correct": 0,
+        "hint": "Synthesize how tissue/marrow/imaging findings and lab/infection panels work together during workup.",
+        "explanation": "Together, biopsy/histopathology, bone marrow aspirate, and imaging define diagnosis and staging, while chemistry/organ labs (including uric acid, calcium, and LDH) and infection screens evaluate tumor lysis risk and co-infections to guide safe management. Skipping tissue diagnosis or pre-treatment risk checks would compromise care."
+      }
+    ]
+  }
+]
