@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Childhood Malignancies",
+    "questions": [
+      {
+        "q": "According to the World Health Organization (WHO), how is Cancer broadly defined?",
+        "options": [
+          "A) A non-communicable metabolic disorder caused by acute vitamin deficiencies",
+          "B) A benign hypertrophy of connective tissue restricted to aging populations",
+          "C) A large group of diseases that can start in almost any organ or tissue when abnormal cells grow uncontrollably, go beyond usual boundaries to invade adjoining body parts, and/or spread to other organs",
+          "D) An infectious granulomatous process secondary to bacterial translocation"
+        ],
+        "correct": 2,
+        "hint": "Uncontrolled abnormal cell growth that invades adjoining tissues and/or spreads to other organs.",
+        "explanation": "WHO defines cancer as a broad group of conditions characterized by rapid, uncontrolled cell proliferation that breaks normal anatomical boundaries to invade adjacent structures and metastasize."
+      },
+      {
+        "q": "What is the fundamental difference in the etiology of childhood cancers compared to adult cancers?",
+        "options": [
+          "A) Childhood cancers are almost exclusively caused by dietary habits and physical inactivity",
+          "B) Adult cancers stem from embryonic gene alterations, whereas childhood cancers are driven by tobacco exposure",
+          "C) Childhood cancers are often the result of DNA changes in cells that take place very early in life (sometimes before birth), whereas adult cancers are strongly linked to lifestyle or environmental risk factors",
+          "D) Childhood cancers are universally caused by acute viral epidemics"
+        ],
+        "correct": 2,
+        "hint": "Childhood cancers often stem from early DNA changes (sometimes before birth); adult cancers link more to lifestyle/environment.",
+        "explanation": "Unlike adult malignancies which accumulate over decades due to environmental and lifestyle exposures, pediatric cancers stem primarily from early genomic alterations or inherited genetic predispositions."
+      },
+      {
+        "q": "Approximately how many children and adolescents aged 0 to 19 years are diagnosed with cancer globally each year?",
+        "options": [
+          "A) 10,000 children",
+          "B) 50,000 children",
+          "C) 300,000 children",
+          "D) 1,500,000 children"
+        ],
+        "correct": 2,
+        "hint": "About 300,000 children and adolescents (0–19 years) globally per year.",
+        "explanation": "Global epidemiological estimates indicate that approximately 300,000 children and adolescents (ages 0–19) receive a new cancer diagnosis each year."
+      },
+      {
+        "q": "In many countries, what is the public health ranking of childhood cancer as a cause of mortality among children over 1 year of age?",
+        "options": [
+          "A) It is the least common cause of death",
+          "B) It is a leading cause of death in children >1 year",
+          "C) It accounts for less than 0.01% of pediatric deaths",
+          "D) It causes death only in neonates under 28 days"
+        ],
+        "correct": 1,
+        "hint": "Leading cause of death in children over 1 year in many countries.",
+        "explanation": "Although relatively rare compared to adult incidence, childhood cancer represents a major leading cause of mortality in children over 1 year of age worldwide."
+      },
+      {
+        "q": "What stark disparity exists in childhood cancer cure rates between High-Income Countries (HICs) and Low- and Middle-Income Countries (LMICs)?",
+        "options": [
+          "A) Over 80% are cured in HICs, compared to only about 20% cured in LMICs",
+          "B) HICs have a 20% cure rate, while LMICs have a 95% cure rate",
+          "C) Both HICs and LMICs share an identical 50% cure rate",
+          "D) Childhood cancer is completely incurable worldwide"
+        ],
+        "correct": 0,
+        "hint": "Over 80% cured in HICs vs. about 20% in LMICs.",
+        "explanation": "Access to early diagnosis, multimodal therapy, and supportive care enables >80% survival in high-income settings, whereas resource constraints leave survival at ~20% in LMICs."
+      },
+      {
+        "q": "What are the three broad major categories of childhood cancers presented in the source breakdown?",
+        "options": [
+          "A) Carcinomas, Melanomas, and Teratomas",
+          "B) Hematological Malignancies, Solid Tumors, and Brain Tumors",
+          "C) Cutaneous, Endocrine, and Gastrointestinal cancers",
+          "D) Congenital, Occupational, and Degenerative cancers"
+        ],
+        "correct": 1,
+        "hint": "Hematological malignancies, solid tumors, and brain tumors.",
+        "explanation": "Pediatric malignancies are broadly divided into hematological cancers (leukemias/lymphomas), solid organ tumors (e.g., Wilms, neuroblastoma, sarcomas), and central nervous system (brain) tumors."
+      },
+      {
+        "q": "What process describes the mechanism by which abnormal cancer cells spread to distant parts of the body via blood or lymphatic vessels?",
+        "options": [
+          "A) Hyperplasia",
+          "B) Apoptosis",
+          "C) Metastasis",
+          "D) Encapsulation"
+        ],
+        "correct": 2,
+        "hint": "Metastasis.",
+        "explanation": "Metastasis is the dissemination of malignant cells from a primary site through vascular or lymphatic channels to colonize distant tissues."
+      },
+      {
+        "q": "What is the consensus regarding primary prevention and population screening for childhood cancer?",
+        "options": [
+          "A) Childhood cancer can easily be prevented by dietary adjustments and routine blood screening",
+          "B) Childhood cancer generally cannot be prevented or screened",
+          "C) Annual mammography and colonoscopy are effective screening tools in toddlers",
+          "D) Childhood cancer is entirely preventable by routine childhood vaccination"
+        ],
+        "correct": 1,
+        "hint": "Generally cannot be prevented or screened.",
+        "explanation": "Because pediatric cancers develop from early genomic events rather than modifiable lifestyle factors, population-wide screening or lifestyle prevention is generally ineffective."
+      },
+      {
+        "q": "What are the three standard therapeutic modalities utilized in evidence-based pediatric oncology treatment?",
+        "options": [
+          "A) Herbal remedies, blood transfusions, and isolation",
+          "B) Chemotherapy, Surgery, and/or Radiotherapy",
+          "C) High-dose vitamins, physical therapy, and cautery",
+          "D) Intravenous hydration, antibiotics, and bed rest"
+        ],
+        "correct": 1,
+        "hint": "Chemotherapy, surgery, and/or radiotherapy.",
+        "explanation": "Standard anti-cancer treatment regimens for pediatric malignancies rely on combination chemotherapy, surgical resection, and targeted radiotherapy."
+      },
+      {
+        "q": "According to clinical guidelines, when should Paediatric Palliative Care be initiated for a child diagnosed with cancer?",
+        "options": [
+          "A) Only in the final 24 hours of life when all curative options have failed",
+          "B) Starting when the disease is diagnosed and continuing throughout treatment and care, regardless of whether a child receives treatment with curative intent",
+          "C) Only if the family explicitly declines chemotherapy at presentation",
+          "D) Palliative care is prohibited in pediatric patients"
+        ],
+        "correct": 1,
+        "hint": "Starts at diagnosis and continues throughout care, whether curative or not.",
+        "explanation": "Pediatric palliative care is a core component of comprehensive care that begins at diagnosis to relieve physical and psychosocial suffering alongside curative therapies."
+      },
+      {
+        "q": "Which disease category represents the single most common childhood cancer (accounting for ~30% of pediatric malignancies)?",
+        "options": [
+          "A) Brain tumors",
+          "B) Blood cancers (Leukemias)",
+          "C) Bone sarcomas",
+          "D) Retinoblastoma"
+        ],
+        "correct": 1,
+        "hint": "Blood cancers (leukemias) make up ~30%.",
+        "explanation": "Leukemias constitute approximately 30% of all childhood cancers, making them the most prevalent category of pediatric malignancy."
+      },
+      {
+        "q": "From which anatomical organ site does Retinoblastoma originate?",
+        "options": [
+          "A) Kidney",
+          "B) Adrenal medulla",
+          "C) Eye",
+          "D) Cerebellum"
+        ],
+        "correct": 2,
+        "hint": "Retina of the eye.",
+        "explanation": "Retinoblastoma is an embryonal malignant tumor of the retina, presenting as an intra-ocular tumor in infants and young children."
+      },
+      {
+        "q": "What tissue of origin gives rise to Rhabdomyosarcoma in children?",
+        "options": [
+          "A) Smooth muscle of the intestine",
+          "B) Skeletal muscle",
+          "C) Metanephric blastema",
+          "D) Cortical bone matrix"
+        ],
+        "correct": 1,
+        "hint": "Skeletal muscle.",
+        "explanation": "Rhabdomyosarcoma is a soft tissue sarcoma that originates from primitive skeletal muscle progenitor cells."
+      },
+      {
+        "q": "Which primary malignancies represent the major pediatric malignant bone tumors?",
+        "options": [
+          "A) Wilms tumor and Neuroblastoma",
+          "B) Osteosarcoma and Ewing sarcoma",
+          "C) Medulloblastoma and Astrocytoma",
+          "D) Burkitt lymphoma and Hodgkin lymphoma"
+        ],
+        "correct": 1,
+        "hint": "Osteosarcoma and Ewing sarcoma.",
+        "explanation": "Osteosarcoma and Ewing sarcoma are the predominant primary malignant bone tumors occurring in children and adolescents."
+      },
+      {
+        "q": "Why do children presenting with cancer in low-resource settings such as Tanzania frequently suffer diagnostic delays?",
+        "options": [
+          "A) Pediatric cancer does not cause any physical symptoms",
+          "B) Symptoms are commonly confused with endemic illnesses like Malaria, Tuberculosis, Malnutrition, or routine infections",
+          "C) Parents refuse medical care in over 90% of cases",
+          "D) Diagnostic imaging tools are forbidden for children under 5 years"
+        ],
+        "correct": 1,
+        "hint": "Often mistaken for malaria, TB, malnutrition, or common infections.",
+        "explanation": "Non-specific constitutional symptoms of childhood cancer (fever, pallor, weight loss, lymphadenopathy) overlap with prevalent tropical diseases, leading to initial misdiagnosis and late presentation."
+      },
+      {
+        "q": "What global target survival rate was established by the WHO Global Initiative for Childhood Cancer to be achieved by the year 2030?",
+        "options": [
+          "A) At least 30% survival",
+          "B) At least 60% survival for all children with cancer",
+          "C) 100% cure for every stage IV solid tumor",
+          "D) 45% survival in high-income countries only"
+        ],
+        "correct": 1,
+        "hint": "At least 60% survival by 2030.",
+        "explanation": "Launched in 2018 with St. Jude Children’s Research Hospital, the WHO Global Initiative aims to reach at least a 60% global survival rate for pediatric cancer by 2030."
+      },
+      {
+        "q": "What global platform was launched in December 2021 by WHO and St. Jude Children's Research Hospital to support cancer care in developing nations?",
+        "options": [
+          "A) Global Platform for Access to Childhood Cancer Medicines",
+          "B) International Surgical Robotics Fund",
+          "C) Global Pediatric Radiation Network",
+          "D) Universal Vaccine Access Taskforce"
+        ],
+        "correct": 0,
+        "hint": "Global Platform for Access to Childhood Cancer Medicines.",
+        "explanation": "The Global Platform ensures an uninterrupted supply of quality-assured childhood cancer medications to low- and middle-income countries to improve cure rates."
+      },
+      {
+        "q": "From which tissue origin does Nephroblastoma (Wilms tumor) develop within the abdomen?",
+        "options": [
+          "A) Adrenal cortex",
+          "B) Metanephric blastema of the Kidney",
+          "C) Sympathetic chain ganglia",
+          "D) Peritoneal mesothelium"
+        ],
+        "correct": 1,
+        "hint": "Metanephric blastema of the kidney.",
+        "explanation": "Nephroblastoma arises from dysplastic persistent embryonal renal tissue known as metanephric blastema within the kidney."
+      },
+      {
+        "q": "From which embryological structure does Neuroblastoma arise?",
+        "options": [
+          "A) Neural crest cells of the peripheral sympathetic nervous system and adrenal medulla",
+          "B) Glial precursor cells of the cerebral cortex",
+          "C) Endothelial cells of retroperitoneal lymphatics",
+          "D) Transitional cell epithelium of the bladder"
+        ],
+        "correct": 0,
+        "hint": "Neural crest cells of the sympathetic nervous system and adrenal medulla.",
+        "explanation": "Neuroblastoma is an embryonal tumor originating from primordial neural crest cells that form the sympathetic ganglia and adrenal medulla."
+      },
+      {
+        "q": "What biological feature allows children's bodies to tolerate intensive anti-cancer therapy differently than adults?",
+        "options": [
+          "A) Children's bodies cannot tolerate chemotherapy and require half-dosing",
+          "B) Children's bodies can handle chemotherapy better than adults, though treatment carries risk of long-term side effects requiring lifelong follow-up",
+          "C) Children do not experience any side effects from chemotherapy or radiation",
+          "D) Children require higher doses of radiation than adults to achieve any response"
+        ],
+        "correct": 1,
+        "hint": "Children often tolerate chemotherapy well, but need long-term follow-up for late side effects.",
+        "explanation": "Pediatric patients generally tolerate higher relative doses of cytotoxic chemotherapy than adults, but their developing organ systems remain vulnerable to late toxicities requiring long-term survivorship monitoring."
+      },
+      {
+        "q": "What four-part clinical sign combination is listed as a major Red Flag cluster for suspected pediatric leukemia?",
+        "options": [
+          "A) Jaundice + Pruritus + Ascites + Tremor",
+          "B) Pallor + Fever not responding + Bleeding + Bone pain",
+          "C) Cough + Weight gain + Hypertension + Bradycardia",
+          "D) Polyuria + Polydipsia + Polyphagia + Cataracts"
+        ],
+        "correct": 1,
+        "hint": "Pallor, non-responding fever, bleeding, and bone pain.",
+        "explanation": "The clinical combination of pallor (anemia), unexplainable or non-responsive fever (neutropenia/leukemia), mucosal/skin bleeding (thrombocytopenia), and bone pain reflects bone marrow failure."
+      },
+      {
+        "q": "What specific lymph node physical examination findings represent a Red Flag for underlying malignancy?",
+        "options": [
+          "A) Soft, tender node <1 cm that resolves within 3 days",
+          "B) Lymph node >2 cm, hard, non-tender, and not resolving in 2 to 4 weeks",
+          "C) Mobile, warm, fluctuant node associated with acute tonsillitis",
+          "D) Bilateral small shotty inguinal nodes in a toddler"
+        ],
+        "correct": 1,
+        "hint": ">2 cm, hard, non-tender, and persisting for 2–4 weeks.",
+        "explanation": "Lymphadenopathy characterized by large size (>2 cm), hard consistency, lack of tenderness, matting/fixation, and persistence >2–4 weeks is suspicious for lymphoma or metastatic disease."
+      },
+      {
+        "q": "What abnormal eye reflex finding on physical examination serves as a critical Red Flag for Retinoblastoma?",
+        "options": [
+          "A) Red reflex present bilaterally",
+          "B) White reflex in the eye (Leukocoria)",
+          "C) Kayser-Fleischer ring",
+          "D) Subconjunctival hemorrhage"
+        ],
+        "correct": 1,
+        "hint": "White reflex in the eye (leukocoria).",
+        "explanation": "Leukocoria (an abnormal white pupillary reflex replacing the normal red reflex) is the classic presenting sign of intra-ocular retinoblastoma."
+      },
+      {
+        "q": "What general rule is emphasized for evaluating any persistent, unexplained physical symptom or fast-growing mass in a child?",
+        "options": [
+          "A) Observe for at least 6 months before taking action",
+          "B) Any fast-growing mass, or any persistent unexplained symptom lasting >2 weeks requires mandatory investigation",
+          "C) Immediately prescribe high-dose oral steroids without testing",
+          "D) Reassure parents that pediatric masses are always benign"
+        ],
+        "correct": 1,
+        "hint": "Any fast-growing mass or unexplained symptom lasting >2 weeks needs investigation.",
+        "explanation": "Due to the aggressive growth tempo of pediatric tumors, any unexplained mass or constitutional symptom persisting >2 weeks warrants diagnostic evaluation."
+      },
+      {
+        "q": "What physical parameters must be systematically documented during examination of an abdominal mass in a child?",
+        "options": [
+          "A) Auscultation of bowel motility alone",
+          "B) Presence of mass, size, consistency, whether it crosses the midline, and liver/spleen enlargement measured in centimeters",
+          "C) Skin turgor over the chest wall only",
+          "D) Subcutaneous fat thickness alone"
+        ],
+        "correct": 1,
+        "hint": "Size, consistency, crossing the midline, and liver/spleen size in cm.",
+        "explanation": "Abdominal exam for childhood tumors requires assessing mass consistency, exact dimensions, anatomical origin, organomegaly in cm, and whether it crosses the midline (differentiating Wilms from Neuroblastoma)."
+      },
+      {
+        "q": "Which central nervous system examination findings serve as Red Flags for an intracranial space-occupying lesion (brain tumor)?",
+        "options": [
+          "A) Transient dizziness after exercise",
+          "B) Persistent headache, morning vomiting, squint (cranial nerve palsy), loss of balance, or papilledema",
+          "C) Sudden loss of taste without headache",
+          "D) Isolated night terrors in a preschooler"
+        ],
+        "correct": 1,
+        "hint": "Persistent headache, morning vomiting, squint, loss of balance, or papilledema.",
+        "explanation": "Signs of increased intracranial pressure or focal neurological deficits (persistent headache, projectile vomiting, ataxia, papilledema) indicate potential CNS malignancies."
+      },
+      {
+        "q": "What physical finding in the head and neck area is flagged as a rapidly growing Red Flag presentation for Burkitt Lymphoma?",
+        "options": [
+          "A) Slow parotid enlargement over 5 years",
+          "B) Rapidly growing jaw swelling",
+          "C) Bilateral submandibular sialolithiasis",
+          "D) Painless dental caries"
+        ],
+        "correct": 1,
+        "hint": "Rapidly growing jaw swelling.",
+        "explanation": "Rapidly progressive jaw deformity or maxillary/mandibular tumor mass is a classic presentation of endemic Burkitt lymphoma."
+      },
+      {
+        "q": "What musculoskeletal symptoms should alert a clinician to examine for bone marrow infiltration or primary bone tumors?",
+        "options": [
+          "A) Transient joint stiffness after sleeping",
+          "B) Severe bone pain, limping, refusal to walk, or localized limb swelling",
+          "C) Asymmetrical leg length present since birth",
+          "D) Hypermobility of finger joints"
+        ],
+        "correct": 1,
+        "hint": "Bone pain, limping, refusal to walk, or limb swelling.",
+        "explanation": "Persistent bone or joint pain, limping, or refusal to bear weight results from leukemic marrow expansion or primary bone sarcomas (Osteosarcoma/Ewing)."
+      },
+      {
+        "q": "What constitutional B-symptoms require urgent investigation for occult lymphoma or solid tumor?",
+        "options": [
+          "A) Mild fatigue after sports activity",
+          "B) Unexplained fever >2 weeks, drenching night sweats, and significant unexplained weight loss",
+          "C) Increased appetite with height gain",
+          "D) Transient heat intolerance in summer"
+        ],
+        "correct": 1,
+        "hint": "Unexplained fever >2 weeks, night sweats, and unexplained weight loss.",
+        "explanation": "Systemic B-symptoms (prolonged unexplained fever, night sweats, weight loss) reflect cytokine release from high-burden lymphoma or disseminated solid tumors."
+      },
+      {
+        "q": "What eye physical signs (besides leukocoria) can signal metastatic neuroblastoma or orbital leukemic infiltration?",
+        "options": [
+          "A) Bilateral cataracts",
+          "B) Proptosis and periorbital bruising ('raccoon eyes')",
+          "C) Kayser-Fleischer rings",
+          "D) Isolated myopia"
+        ],
+        "correct": 1,
+        "hint": "Proptosis and periorbital bruising ('raccoon eyes').",
+        "explanation": "Periorbital ecchymosis and proptosis ('raccoon eyes') result from metastatic neuroblastoma infiltration into retrobulbar orbital bones."
+      },
+      {
+        "q": "What is the essential first-line blood investigation ordered to evaluate for suspected leukemia, severe anemia, or thrombocytopenia?",
+        "options": [
+          "A) Serum ferritin level",
+          "B) Full Blood Count (FBC) PLUS Peripheral Blood Film",
+          "C) Erythrocyte sedimentation rate alone",
+          "D) Direct Coombs test"
+        ],
+        "correct": 1,
+        "hint": "Full blood count (FBC) plus peripheral blood film.",
+        "explanation": "An FBC with manual peripheral blood film review provides immediate evaluation of cytopenias and identifies circulating leukemic blast cells."
+      },
+      {
+        "q": "Why is Serum Lactate Dehydrogenase (LDH) routinely measured during initial workup of suspected pediatric malignancies?",
+        "options": [
+          "A) LDH measures cardiac valve function",
+          "B) Elevated LDH serves as a marker of high cellular turnover and tumor burden (notably high in Burkitt lymphoma, leukemia, and neuroblastoma)",
+          "C) LDH confirms viral hepatitis",
+          "D) LDH measures bone density"
+        ],
+        "correct": 1,
+        "hint": "Marker of high cell turnover and tumor burden.",
+        "explanation": "Serum LDH reflects rapid tumor cell proliferation and metabolic turnover, rising significantly in high-burden hematological and embryonal malignancies."
+      },
+      {
+        "q": "What diagnostic panel is mandatory prior to initiating chemotherapy to evaluate for Tumor Lysis Syndrome (TLS) risk?",
+        "options": [
+          "A) Serum lipid panel and HbA1c",
+          "B) Renal function (BUN/Creatinine), Liver function, Uric acid, Electrolytes, and Calcium",
+          "C) Coagulation screen and blood group only",
+          "D) Thyroid hormone panel"
+        ],
+        "correct": 1,
+        "hint": "Renal/liver function, uric acid, electrolytes, and calcium.",
+        "explanation": "Rapid cell breakdown releases intracellular potassium, phosphate, and nucleic acids (uric acid), risking renal failure; baseline uric acid, calcium, electrolytes, and renal function monitor TLS risk."
+      },
+      {
+        "q": "What diagnostic procedure provides the definitive confirmation for pediatric solid tumors (e.g., Wilms tumor, Neuroblastoma, Lymphoma)?",
+        "options": [
+          "A) Plain abdominal X-ray",
+          "B) Biopsy PLUS Histopathology examination",
+          "C) Urine dipstick analysis",
+          "D) Stool culture"
+        ],
+        "correct": 1,
+        "hint": "Biopsy plus histopathology.",
+        "explanation": "Tissue biopsy with microscopic histopathological and immunohistochemical evaluation provides the definitive diagnostic confirmation for solid neoplasms."
+      },
+      {
+        "q": "For what clinical diagnostic indications is Bone Marrow Aspiration performed in pediatric oncology?",
+        "options": [
+          "A) Evaluating isolated bone fractures",
+          "B) Primary diagnosis of Leukemia, staging of Lymphoma, and detecting bone marrow metastasis in Neuroblastoma",
+          "C) Routine screening for viral infections",
+          "D) Assessment of renal failure"
+        ],
+        "correct": 1,
+        "hint": "Diagnosing leukemia, staging lymphoma, and checking marrow spread in neuroblastoma.",
+        "explanation": "Bone marrow aspirate/biopsy evaluates blast counts in leukemia and determines marrow involvement/staging in lymphomas and neuroblastomas."
+      },
+      {
+        "q": "What baseline infectious disease screening is recommended prior to initiating immunosuppressive anti-cancer therapy?",
+        "options": [
+          "A) HIV, Hepatitis B/C, Tuberculosis screen, and Malaria testing",
+          "B) Influenza swab only",
+          "C) Fungal skin scraping only",
+          "D) No infection screening is needed"
+        ],
+        "correct": 0,
+        "hint": "HIV, hepatitis B/C, TB screen, and malaria testing.",
+        "explanation": "Cytotoxic chemotherapy induces severe immunosuppression; baseline screening for chronic or endemic co-infections (HIV, Hep B/C, TB, Malaria) prevents fulminant reactivation."
+      },
+      {
+        "q": "What anatomical imaging modalities are standard for staging pediatric solid tumors and lymphomas?",
+        "options": [
+          "A) Single extremity radiography",
+          "B) Chest X-ray, Abdominal Ultrasound, and CT of neck/chest/abdomen",
+          "C) Barium swallow alone",
+          "D) Echocardiogram alone"
+        ],
+        "correct": 1,
+        "hint": "Chest X-ray, abdominal ultrasound, and CT of neck/chest/abdomen.",
+        "explanation": "Staging requires anatomical imaging (X-ray, Ultrasound, contrast CT/MRI) to define primary tumor dimensions, nodal spread, and distant metastases."
+      },
+      {
+        "q": "Why is a dedicated Multi-Disciplinary Team (MDT) required for the care of children undergoing cancer treatment?",
+        "options": [
+          "A) To fulfill administrative paperwork requirements",
+          "B) Because children require specialized attention to their continued physical, cognitive growth, and nutritional status alongside cancer therapy",
+          "C) MDTs are only needed for adult geriatric patients",
+          "D) MDTs replace the need for pediatric oncologists"
+        ],
+        "correct": 1,
+        "hint": "Children need support for ongoing physical/cognitive growth and nutrition during therapy.",
+        "explanation": "Comprehensive pediatric oncology care demands oncologists, surgeons, radiologists, specialized nurses, nutritionists, and psychologists to support ongoing development."
+      },
+      {
+        "q": "What is the rationale for Early Diagnosis in childhood cancer management?",
+        "options": [
+          "A) Early diagnosis allows treatment with surgery alone in 100% of cases",
+          "B) When identified early, cancer is more likely to respond to effective treatment, resulting in higher survival, less suffering, and less expensive/intensive treatment",
+          "C) Early diagnosis prevents genetic mutations from occurring",
+          "D) Early diagnosis eliminates the need for supportive care"
+        ],
+        "correct": 1,
+        "hint": "Higher survival, less suffering, and less intensive/expensive treatment.",
+        "explanation": "Detecting tumors at lower stages minimizes treatment intensity, reduces organ toxicity, lowers healthcare costs, and maximizes cure probability."
+      },
+      {
+        "q": "What post-treatment requirement is essential for all children who successfully complete anti-cancer therapy?",
+        "options": [
+          "A) Immediate discharge without future medical contact",
+          "B) Ongoing long-term follow-up care to monitor for cancer recurrence and manage potential treatment-related late side effects",
+          "C) Annual repeat biopsy of all previous tumor sites",
+          "D) Permanent restriction from physical activity"
+        ],
+        "correct": 1,
+        "hint": "Ongoing long-term follow-up for recurrence and late side effects.",
+        "explanation": "Survivors require lifelong surveillance to detect late organ toxicities (cardiac, endocrine, neurocognitive) and secondary malignancies."
+      },
+      {
+        "q": "A 4-year-old girl has 3 weeks of fever unresponsive to antimalarials/antibiotics, progressive lethargy, leg petechiae, severe leg pain crying when walking, marked pallor, and mild hepatosplenomegaly. Identify the Red Flag cluster, first blood test, and confirmatory test if blasts are suspected.",
+        "options": [
+          "A) Acute Rheumatic Fever; Order ASOT; Perform throat culture",
+          "B) Suspected Pediatric Leukemia (Pallor + Unresponsive Fever + Bleeding + Bone pain); Order FBC and Peripheral Blood Film; Perform Bone Marrow Aspiration",
+          "C) Severe Malaria; Order thick film; Perform lumbar puncture",
+          "D) Idiopathic Thrombocytopenic Purpura; Order platelet count; Perform skin biopsy"
+        ],
+        "correct": 1,
+        "hint": "Pallor + unresponsive fever + bleeding + bone pain = leukemia red flags -> FBC/blood film -> bone marrow aspirate.",
+        "explanation": "The constellation of Pallor + Unresponsive Fever + Petechiae (Bleeding) + Bone Pain is the classic red flag for Leukemia. Immediate evaluation requires FBC/blood film followed by bone marrow aspirate."
+      },
+      {
+        "q": "A 3-year-old boy has a smooth, firm, non-tender left flank mass that stays on the left and does NOT cross the midline, and looks otherwise well. What is the top differential, key exam precaution, and confirmatory imaging/tissue workup?",
+        "options": [
+          "A) Neuroblastoma; Palpate forcefully; Plain abdominal radiograph",
+          "B) Nephroblastoma (Wilms tumor); Gentle abdominal palpation (avoid rough handling to prevent capsule rupture); Abdominal Ultrasound/CT and Biopsy/Histopathology",
+          "C) Splenomegaly; Deep palpation; Liver function tests",
+          "D) Intussusception; Perform air enema; Stool examination"
+        ],
+        "correct": 1,
+        "hint": "Smooth unilateral flank mass not crossing midline = Wilms tumor; gentle palpation; US/CT + biopsy/histopathology.",
+        "explanation": "A smooth, firm flank mass that does not cross the midline in a healthy-appearing 3-year-old is classic for Wilms tumor. Exam requires gentle handling to avoid capsule rupture, followed by CT and histopathology."
+      },
+      {
+        "q": "A 5-year-old boy in a tropical area has rapidly expanding right mandible swelling causing facial distortion and loose teeth over 2 weeks, with markedly elevated LDH. Identify the suspected malignancy, classic cytology pattern, and key treatment metabolic risk.",
+        "options": [
+          "A) Osteosarcoma; Sunburst pattern; Hypercalcemia",
+          "B) Endemic Burkitt Lymphoma; 'Starry sky' pattern of macrophages ingesting apoptotic debris; Acute Tumor Lysis Syndrome (TLS)",
+          "C) Tuberculous lymphadenitis; Caseating granuloma; Hypoglycemia",
+          "D) Rhabdomyosarcoma; Cross-striations; Hypokalemia"
+        ],
+        "correct": 1,
+        "hint": "Rapid jaw swelling + high LDH = endemic Burkitt lymphoma ('starry sky' pattern); watch for tumor lysis syndrome.",
+        "explanation": "A rapidly growing jaw tumor in a 5-year-old is classic for endemic Burkitt Lymphoma. Microscopy reveals the 'starry sky' pattern. Rapid tumor destruction during treatment carries high risk of Tumor Lysis Syndrome."
+      },
+      {
+        "q": "A 14-month-old infant has a white reflection in the right eye on flash photos and leukocoria on exam without acute inflammation. What malignancy must be ruled out, what is its organ of origin, and how is this finding classified?",
+        "options": [
+          "A) Congenital Cataract; Lens; Benign finding",
+          "B) Retinoblastoma; Retina of the eye; Absolute Red Flag requiring urgent ophthalmological oncology referral",
+          "C) Ocular Toxoplasmosis; Choroid; Infectious emergency",
+          "D) Glaucoma; Anterior chamber; Routine follow-up"
+        ],
+        "correct": 1,
+        "hint": "Leukocoria = retinoblastoma (retina) -> urgent red flag referral.",
+        "explanation": "Leukocoria (white pupil) is the cardinal presentation of Retinoblastoma arising from the retina, representing an absolute red flag requiring urgent oncology referral."
+      },
+      {
+        "q": "A 6-year-old boy has a firm, non-tender 2.5 cm right cervical lymph node for 4 weeks despite 10 days of oral amoxicillin. Does it meet Red Flag criteria, what distinguishes it from reactive nodes, and what is the next workup?",
+        "options": [
+          "A) No; it is normal; Continue observation for 6 months",
+          "B) Yes; size >2 cm, hard/firm, non-tender, and persistent >2–4 weeks without response to antibiotics; Proceed with Chest X-ray, Ultrasound/CT, and Lymph Node Biopsy",
+          "C) No; switch to oral erythromycin for another 4 weeks",
+          "D) Yes; perform immediate total neck dissection without imaging"
+        ],
+        "correct": 1,
+        "hint": ">2 cm, hard, non-tender, persistent >2–4 weeks despite antibiotics = red flag -> CXR, US/CT, lymph node biopsy.",
+        "explanation": "A node >2 cm, non-tender, persistent >2–4 weeks, and unresponsive to antibiotics meets Red Flag criteria, requiring staging imaging and excisional biopsy."
+      },
+      {
+        "q": "A 3-year-old with high-burden abdominal Burkitt lymphoma starts induction chemotherapy and develops oliguria within 24 hours with high uric acid, high potassium, high phosphorus, and low calcium. Diagnose the emergency, explain why it happens, and state prevention/management.",
+        "options": [
+          "A) Acute Renal Failure from dehydration; Fluid restriction",
+          "B) Acute Tumor Lysis Syndrome (TLS); Rapid breakdown of massive malignant cell numbers releasing intracellular ions into circulation; Prophylactic Allopurinol (10 mg/kg/day), hyperhydration, and monitoring",
+          "C) Septic Shock; Give IV vasopressors alone",
+          "D) Nephrotic syndrome; Give IV albumin"
+        ],
+        "correct": 1,
+        "hint": "High uric acid/K+/PO4 and low Ca2+ after starting chemo = TLS; allopurinol (10 mg/kg/day) and hyperhydration.",
+        "explanation": "Massive lysis of Burkitt cells releases nucleic acids, potassium, and phosphate into blood (Tumor Lysis Syndrome). Guidelines require Allopurinol (10 mg/kg) and hyperhydration."
+      },
+      {
+        "q": "Comparing adult vs. pediatric cancers: (1) what drives cancer development in each group, and (2) why can children generally achieve higher cure rates (>80% in HICs)?",
+        "options": [
+          "A) Adults: genomic events before birth; Children: lifestyle exposures; Adults tolerate therapy better",
+          "B) Children: early DNA changes/genetic risk (sometimes in utero); Adults: accumulation of lifestyle/environmental risk factors; Children’s bodies handle chemotherapy better and pediatric tumors are highly chemosensitive",
+          "C) Both age groups have identical etiologies and cure rates",
+          "D) Childhood cancer is 100% preventable by lifestyle changes"
+        ],
+        "correct": 1,
+        "hint": "Children: early DNA changes (sometimes before birth); Adults: lifestyle/environment; children tolerate chemo well and tumors are chemosensitive.",
+        "explanation": "Pediatric cancers stem from early developmental genomic events, whereas adult cancers accumulate lifestyle/environmental damage. High pediatric cure rates reflect chemosensitivity and physiological tolerance to intensive regimens."
+      },
+      {
+        "q": "A 7-year-old boy completes 2 years of multi-agent chemotherapy for precursor B-ALL in complete continuous remission. Is medical care complete, and what long-term risks require survivorship monitoring?",
+        "options": [
+          "A) Yes; discharge permanently with no follow-up needed",
+          "B) No; ongoing long-term follow-up is required to monitor for disease recurrence and manage potential treatment-related late side effects (cardiotoxicity, neurocognitive impacts, growth/endocrine dysfunction, secondary cancers)",
+          "C) No; the child must remain on low-dose chemotherapy for life",
+          "D) Yes; return only if severe fever occurs"
+        ],
+        "correct": 1,
+        "hint": "Not complete; needs long-term follow-up for relapse and late side effects.",
+        "explanation": "Survivorship care requires ongoing monitoring for late toxicities (anthracycline cardiotoxicity, cranial irradiation neuro-endocrine effects) and relapse surveillance."
+      },
+      {
+        "q": "A 5-year-old child with widespread metastatic solid tumor has bone pain and nausea while receiving palliative chemotherapy. What is the fundamental goal of Paediatric Palliative Care, and must active anti-cancer treatment stop?",
+        "options": [
+          "A) Prolong life at all costs without analgesia; Yes, anti-cancer treatment must be stopped",
+          "B) Relieve physical, psychological, and social suffering to improve quality of life for patients and families; No, palliative care starts at diagnosis and continues alongside active care regardless of curative intent",
+          "C) Provide euthanasia; Yes, care is restricted to the final 2 hours",
+          "D) Hasten death; No treatment is permitted"
+        ],
+        "correct": 1,
+        "hint": "Relieve suffering and improve quality of life; starts at diagnosis alongside active care.",
+        "explanation": "Palliative care focuses on symptom relief and quality of life; it is integrated from diagnosis alongside disease-directed therapies."
+      },
+      {
+        "q": "Formulate the global strategy to improve childhood cancer survival under the WHO Global Initiative: (1) primary pillar to reduce mortality, (2) 2030 global survival target, and (3) how the Global Platform helps LMICs.",
+        "options": [
+          "A) 1. Mass newborn screening; 2. 100% survival; 3. Supplying radiation machines only",
+          "B) 1. Prompt, correct diagnosis followed by evidence-based therapy and tailored supportive care; 2. Achieve at least 60% global survival by 2030; 3. Providing an uninterrupted supply of quality-assured childhood cancer medicines",
+          "C) 1. Dietary modification; 2. 40% survival; 3. Funding adult cancer hospitals",
+          "D) 1. Isolation; 2. 10% survival; 3. Distributing antibiotics"
+        ],
+        "correct": 1,
+        "hint": "1. Prompt diagnosis + evidence-based therapy & supportive care; 2. ≥60% survival by 2030; 3. Steady supply of quality-assured medicines.",
+        "explanation": "Because pediatric cancer cannot be prevented, reducing mortality relies on prompt, accurate diagnosis and evidence-based treatment. The WHO Global Initiative targets ≥60% global survival by 2030, supported by the Global Platform for guaranteed drug delivery."
+      }
+    ]
+  }
+]
