@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Cardiopulmonary Resuscitation (CPR)",
+    "questions": [
+      {
+        "q": "How is Cardiopulmonary Resuscitation (CPR) defined in the provided source?",
+        "options": [
+          "A) An elective surgical procedure to restore sinus rhythm",
+          "B) A basic emergency procedure for life support consisting of artificial respiration and manual cardiac massage.",
+          "C) The administration of intravenous fluid boluses in hypovolemic shock.",
+          "D) Continuous mechanical ventilation in an intensive care setting."
+        ],
+        "correct": 1,
+        "hint": "Think about a basic emergency life support procedure combining artificial respiration and manual cardiac compressions.",
+        "explanation": "CPR is explicitly defined as a basic emergency life support procedure involving artificial respiration and manual cardiac compressions to maintain vital organ perfusion."
+      },
+      {
+        "q": "What is the reported out-of-hospital mortality rate for pediatric cardiac arrest despite the use of CPR?",
+        "options": [
+          "A) Approximately 10%.",
+          "B) Approximately 50%.",
+          "C) Approximately 90% for infants and children.",
+          "D) 100% in all settings."
+        ],
+        "correct": 2,
+        "hint": "Out-of-hospital pediatric cardiac arrest carries a mortality rate around 90%.",
+        "explanation": "Out-of-hospital cardiac arrest in pediatric populations carries a high mortality rate of approximately 90% for infants and children."
+      },
+      {
+        "q": "According to pediatric resuscitation guidelines, what age and developmental criteria define an infant versus a child?",
+        "options": [
+          "A) Infant: <6 months; Child: 6 months to 10 years.",
+          "B) Infant: <1 year of age; Child: 1 year up to 55 kg or presence of pubertal signs.",
+          "C) Infant: <2 years; Child: 2 years to 18 years.",
+          "D) Infant: <1 month; Child: 1 month to 12 years."
+        ],
+        "correct": 1,
+        "hint": "Infant is <1 year; child is 1 year up to 55 kg or signs of puberty.",
+        "explanation": "Infant guidelines apply to those under 1 year of age, whereas child protocols are utilized from 1 year of age up to 55 kg or until signs of puberty appear (defined as breast development in females and axillary hair in males)."
+      },
+      {
+        "q": "What survival rate is associated with rapid bystander CPR in children presenting with respiratory arrest?",
+        "options": [
+          "A) >10% survival rate.",
+          "B) >30% survival rate.",
+          "C) >70% survival rate.",
+          "D) 100% survival rate."
+        ],
+        "correct": 2,
+        "hint": "Prompt bystander CPR in primary respiratory arrest yields >70% survival.",
+        "explanation": "Prompt bystander CPR in children experiencing primary respiratory arrest yields a favorable survival rate of greater than 70%."
+      },
+      {
+        "q": "What is the reported survival rate for pediatric cardiac arrest presenting with Ventricular Fibrillation (VF)?",
+        "options": [
+          "A) 5% survival rate.",
+          "B) 30% survival rate.",
+          "C) 70% survival rate.",
+          "D) 90% survival rate."
+        ],
+        "correct": 1,
+        "hint": "Pediatric VF arrest has a reported survival rate of ~30%.",
+        "explanation": "Pediatric cardiac arrest secondary to ventricular fibrillation carries a survival rate of approximately 30%."
+      },
+      {
+        "q": "What primary sequence of resuscitation actions is recommended to decrease time to initiation of chest compressions?",
+        "options": [
+          "A) A-B-C (Airway, Breathing, Compressions).",
+          "B) C-A-B (Compressions, Airway, Breathing).",
+          "C) B-A-C (Breathing, Airway, Compressions).",
+          "D) C-B-A (Compressions, Breathing, Airway)."
+        ],
+        "correct": 1,
+        "hint": "Compressions first: C-A-B.",
+        "explanation": "Resuscitation guidelines advocate the C-A-B sequence over A-B-C to reduce the 'no blood flow' time by initiating chest compressions immediately."
+      },
+      {
+        "q": "By approximately how many seconds is the first ventilation delayed when using the C-A-B sequence instead of A-B-C?",
+        "options": [
+          "A) 2 seconds.",
+          "B) 6 seconds.",
+          "C) 30 seconds.",
+          "D) 60 seconds."
+        ],
+        "correct": 1,
+        "hint": "Starting with C-A-B delays the first breath by only about 6 seconds.",
+        "explanation": "Transitioning from A-B-C to C-A-B delays the delivery of the first ventilation by only approximately 6 seconds while ensuring rapid blood flow delivery."
+      },
+      {
+        "q": "What are the primary aims of Cardiopulmonary Resuscitation?",
+        "options": [
+          "A) To administer high-dose steroids and induce deep sedation.",
+          "B) To provide oxygen to vital organs (heart, brain, lung) until normal circulation is restored, establish an airway, initiate breathing, and maintain proper circulation.",
+          "C) To replace circulating volume with colloid fluids.",
+          "D) To evaluate long-term cognitive development."
+        ],
+        "correct": 1,
+        "hint": "Oxygenate vital organs (heart, brain, lungs), establish airway, start breathing, and support circulation.",
+        "explanation": "The fundamental objectives of CPR are oxygen delivery to the heart, brain, and lungs, airway establishment, breathing initiation, and circulation maintenance."
+      },
+      {
+        "q": "Which non-traumatic environmental or medical conditions are listed as causes of pediatric cardiopulmonary arrest?",
+        "options": [
+          "A) Allergic reactions, asphyxia, choking, drowning, drug reactions/overdoses, and electric shock.",
+          "B) Isolated hypercalcemia and mild viral colds.",
+          "C) Congenital cataracts and hypertrophic skin lesions.",
+          "D) Essential hypertension and mild asthma."
+        ],
+        "correct": 0,
+        "hint": "Think of allergic reactions, asphyxia, choking, drowning, drug overdoses, and electric shock.",
+        "explanation": "Common triggers for pediatric arrest include severe allergic reactions, asphyxiation, foreign body choking, submersion drowning, toxic drug overdoses, and electrical injury."
+      },
+      {
+        "q": "What clinical signs confirm the presence of cardiac arrest at the patient's bedside?",
+        "options": [
+          "A) Absence of movement, absence of breathing, no response to rescue breaths, no pulse, or an arrest rhythm on a monitor.",
+          "B) Isolated fever with a bounding pulse.",
+          "C) Tachypnea with normal capillary refill.",
+          "D) Hypertension and decorticate posturing."
+        ],
+        "correct": 0,
+        "hint": "No movement, no normal breathing, no pulse, or an arrest rhythm on the monitor.",
+        "explanation": "Cardiac arrest is diagnosed clinically by unresponsiveness, lack of spontaneous respiration/gasping, absence of palpable central pulse within 10 seconds, or visible arrest rhythms on ECG."
+      },
+      {
+        "q": "What is the recommended compression-to-ventilation ratio for SINGLE-RESCUER pediatric CPR?",
+        "options": [
+          "A) 15:2.",
+          "B) 30:2.",
+          "C) 5:1.",
+          "D) 20:2."
+        ],
+        "correct": 1,
+        "hint": "A single rescuer uses 30 compressions to 2 breaths.",
+        "explanation": "For a single rescuer performing CPR on an infant or child, the standard compression-to-ventilation ratio is 30 compressions to 2 breaths."
+      },
+      {
+        "q": "What is the recommended compression-to-ventilation ratio for TWO OR MORE RESCUERS performing pediatric CPR?",
+        "options": [
+          "A) 30:2.",
+          "B) 15:2.",
+          "C) 5:1.",
+          "D) 10:1."
+        ],
+        "correct": 1,
+        "hint": "Two or more rescuers use 15 compressions to 2 breaths in pediatrics.",
+        "explanation": "When two or more healthcare providers or trained rescuers are present, the pediatric compression-to-ventilation ratio changes to 15 compressions to 2 breaths."
+      },
+      {
+        "q": "What is the target chest compression rate for pediatric CPR across all age groups?",
+        "options": [
+          "A) 60 to 80 compressions per minute.",
+          "B) 80 to 100 compressions per minute.",
+          "C) 100 to 120 compressions per minute.",
+          "D) 140 to 160 compressions per minute."
+        ],
+        "correct": 2,
+        "hint": "Target 100 to 120 compressions per minute.",
+        "explanation": "Chest compressions in infants, children, and adolescents must be delivered at a rate of 100 to 120 compressions per minute."
+      },
+      {
+        "q": "What is the maximum allowable time for assessing both breathing and pulse simultaneously before starting compressions?",
+        "options": [
+          "A) 5 seconds.",
+          "B) No more than 10 seconds.",
+          "C) 30 seconds.",
+          "D) 60 seconds."
+        ],
+        "correct": 1,
+        "hint": "Take no longer than 10 seconds to check breathing and pulse.",
+        "explanation": "Pulse and breathing assessment must occur simultaneously and take no longer than 10 seconds to avoid delaying chest compressions."
+      },
+      {
+        "q": "If a pediatric victim has a palpable pulse BUT is not breathing normally (respiratory arrest), what is the correct rescue breathing rate?",
+        "options": [
+          "A) 1 breath every 5 to 6 seconds (10 to 12 breaths/min).",
+          "B) 1 breath every 2 to 3 seconds (20 to 30 breaths/min).",
+          "C) 1 breath every 10 seconds (6 breaths/min).",
+          "D) 10 breaths every 5 seconds."
+        ],
+        "correct": 1,
+        "hint": "Deliver 1 breath every 2 to 3 seconds (20–30 breaths/min) for rescue breathing with a pulse.",
+        "explanation": "Updated CPR guidelines mandate delivering 1 rescue breath every 2 to 3 seconds (20 to 30 breaths/min) for infants and children with a pulse who require ventilatory support."
+      },
+      {
+        "q": "In a non-breathing infant or child with a pulse, at what heart rate threshold with poor perfusion must chest compressions be added to rescue breathing?",
+        "options": [
+          "A) Pulse ≤100 beats/min.",
+          "B) Pulse ≤60 beats/min with signs of poor perfusion.",
+          "C) Pulse ≤40 beats/min.",
+          "D) Compressions are added only when pulse is 0."
+        ],
+        "correct": 1,
+        "hint": "Start compressions if heart rate is ≤60/min with signs of poor perfusion.",
+        "explanation": "If an infant or child has a heart rate of 60 beats/min or less with evidence of poor systemic perfusion despite oxygenation and ventilation, chest compressions must be initiated immediately."
+      },
+      {
+        "q": "Where should a rescuer palpate for a central pulse in an INFANT (<1 year of age)?",
+        "options": [
+          "A) Carotid artery.",
+          "B) Brachial artery on the inside of the upper arm midway between elbow and shoulder.",
+          "C) Radial artery at the wrist.",
+          "D) Popliteal artery behind the knee."
+        ],
+        "correct": 1,
+        "hint": "Check the brachial artery on the inner upper arm in infants.",
+        "explanation": "In infants (<1 year), the central pulse is assessed at the brachial artery using 2–3 fingers placed on the inner upper arm."
+      },
+      {
+        "q": "Where should a rescuer assess for a pulse in a CHILD (1 year to puberty)?",
+        "options": [
+          "A) Brachial artery only.",
+          "B) Carotid or Femoral pulse.",
+          "C) Radial pulse only.",
+          "D) Temporal artery."
+        ],
+        "correct": 1,
+        "hint": "Check the carotid or femoral artery in children.",
+        "explanation": "In children over 1 year of age, the rescuer assesses the carotid artery in the neck groove or the femoral artery in the inner groin."
+      },
+      {
+        "q": "What anatomical landmark is used to locate the Femoral Pulse during pediatric resuscitation?",
+        "options": [
+          "A) Radial styloid process.",
+          "B) 2–3 fingers in the inner thigh between the hip bone and pubic bone.",
+          "C) Upper margin of the clavicle.",
+          "D) Lateral malleolus."
+        ],
+        "correct": 1,
+        "hint": "2–3 fingers in the inner thigh between the hip bone and pubic bone.",
+        "explanation": "The femoral pulse is located by placing 2–3 fingers in the anterior inner thigh, midway between the anterior superior iliac spine (hip) and pubic symphysis."
+      },
+      {
+        "q": "What key step must be performed FIRST before assessing unresponsiveness or initiating CPR?",
+        "options": [
+          "A) Connect an electrocardiogram monitor.",
+          "B) Verify scene safety.",
+          "C) Administer IV epinephrine.",
+          "D) Perform endotracheal intubation."
+        ],
+        "correct": 1,
+        "hint": "Always make sure the scene is safe first.",
+        "explanation": "The absolute first step in any resuscitation attempt is verifying that the environment is safe for both rescuers and the victim."
+      },
+      {
+        "q": "What is the recommended chest compression depth for INFANTS (<1 year of age)?",
+        "options": [
+          "A) 2 cm (0.75 inches).",
+          "B) At least one-third the AP diameter of the chest, approximately 4 cm (1.5 inches).",
+          "C) 6 cm (2.4 inches).",
+          "D) 1 cm (0.5 inches)."
+        ],
+        "correct": 1,
+        "hint": "At least 1/3 AP chest diameter, about 4 cm (1.5 inches) in infants.",
+        "explanation": "In infants, compressions must depress the sternum at least one-third the anteroposterior chest diameter, corresponding to approximately 4 cm (1.5 inches)."
+      },
+      {
+        "q": "What is the recommended chest compression depth for CHILDREN (1 year to puberty)?",
+        "options": [
+          "A) 2 cm (0.75 inches).",
+          "B) At least one-third the AP diameter of the chest, approximately 5 cm (2 inches).",
+          "C) 8 cm (3.2 inches).",
+          "D) 1 cm (0.5 inches)."
+        ],
+        "correct": 1,
+        "hint": "At least 1/3 AP chest diameter, about 5 cm (2 inches) in children.",
+        "explanation": "In children, compression depth should be one-third the AP diameter of the chest, or approximately 5 cm (2 inches)."
+      },
+      {
+        "q": "What is the recommended chest compression depth for ADOLESCENTS during CPR?",
+        "options": [
+          "A) 3 cm (1.2 inches).",
+          "B) At least 5 cm (2 inches) but not greater than 6 cm (2.4 inches).",
+          "C) 7 to 9 cm.",
+          "D) 2 cm maximum."
+        ],
+        "correct": 1,
+        "hint": "At least 5 cm (2 inches) and no more than 6 cm (2.4 inches) in adolescents.",
+        "explanation": "For adolescents, chest compressions should reach a depth of at least 5 cm (2 inches) while avoiding excessive depths greater than 6 cm (2.4 inches)."
+      },
+      {
+        "q": "Which manual technique is recommended for single-rescuer chest compressions in an INFANT?",
+        "options": [
+          "A) Two-thumb encircling-hands technique.",
+          "B) Two-finger technique (using index and middle fingers placed on the lower half of the sternum).",
+          "C) Two-hand interlocked technique.",
+          "D) Palm heel compression on the abdomen."
+        ],
+        "correct": 1,
+        "hint": "Single rescuer on an infant uses two fingers on the lower half of the sternum.",
+        "explanation": "Single rescuers compress an infant's chest using the two-finger technique placed on the lower half of the sternum."
+      },
+      {
+        "q": "Which compression technique is preferred for NEWBORNS or when TWO RESCUERS are performing infant CPR?",
+        "options": [
+          "A) Two-finger technique.",
+          "B) Two-thumb encircling-hands technique.",
+          "C) One-hand palm technique.",
+          "D) Back blows only."
+        ],
+        "correct": 1,
+        "hint": "Two-thumb encircling-hands technique for newborns and two-rescuer infant CPR.",
+        "explanation": "The two-thumb encircling-hands technique is recommended for newborns and two-rescuer infant CPR because it generates superior coronary perfusion pressure."
+      },
+      {
+        "q": "What compression hand techniques are used for a YOUNG CHILD versus an OLDER CHILD/ADOLESCENT?",
+        "options": [
+          "A) Young child: Two fingers; Older child: Two thumbs.",
+          "B) Young child: One-hand technique (heel of one hand); Older child: Two-hands technique (interlocked hands).",
+          "C) Young child: Two hands; Older child: One finger.",
+          "D) Both receive two-thumb encircling compressions."
+        ],
+        "correct": 1,
+        "hint": "One hand for a small young child; two interlocked hands for an older child/adolescent.",
+        "explanation": "Rescuers may use a one-hand technique (heel of one hand) for small young children, and a two-hand interlocked technique for older children and adolescents."
+      },
+      {
+        "q": "Where precisely on the anatomical chest wall must chest compressions be delivered?",
+        "options": [
+          "A) Over the xiphoid process.",
+          "B) Over the lower half of the sternum.",
+          "C) Over the upper third of the sternum.",
+          "D) Over the left rib cage directly above the apex."
+        ],
+        "correct": 1,
+        "hint": "Lower half of the sternum, avoiding the xiphoid.",
+        "explanation": "Compressions must be performed over the lower half of the sternum, avoiding the xiphoid tip."
+      },
+      {
+        "q": "Why must compressions directly over the Xiphoid Process be strictly avoided?",
+        "options": [
+          "A) It prevents adequate chest recoil.",
+          "B) Compression of the xiphoid process can cause mechanical trauma to underlying internal organs like the liver, spleen, or stomach.",
+          "C) It causes immediate ventricular fibrillation.",
+          "D) It reduces artificial tidal volume."
+        ],
+        "correct": 1,
+        "hint": "Compressing the xiphoid can injure underlying organs such as the liver, spleen, or stomach.",
+        "explanation": "Compressing the xiphoid process risks fracturing the tip and lacerating underlying abdominal viscera such as the liver, spleen, or stomach."
+      },
+      {
+        "q": "Why is allowing FULL CHEST RECOIL between compressions a critical quality component of CPR?",
+        "options": [
+          "A) It allows time for rescue breaths to be delivered.",
+          "B) It permits complete cardiac refill during diastole, optimizing coronary and systemic perfusion pressure.",
+          "C) It reduces rib fracture incidence.",
+          "D) It prevents gastric inflation."
+        ],
+        "correct": 1,
+        "hint": "Full recoil lets the heart refill with blood during diastole.",
+        "explanation": "Allowing the chest wall to fully recoil after each compression enables venous return and ventricular refill during diastole, preserving cardiac output."
+      },
+      {
+        "q": "What are the four core pillars defining HIGH-QUALITY CPR according to international guidelines?",
+        "options": [
+          "A) 1. Adequate compression rate (100–120/min) and depth, 2. Minimizing interruptions in compressions, 3. Allowing full chest recoil, and 4. Avoiding excessive ventilation.",
+          "B) 1. Continuous IV fluids, 2. High-dose epinephrine, 3. Immediate intubation, and 4. Ice baths.",
+          "C) 1. Rapid transport, 2. Atropine push, 3. Abdominal thrusts, and 4. Hyperventilation.",
+          "D) 1. Preload elevation, 2. SVR expansion, 3. Defibrillation for all, and 4. Oxygen restriction."
+        ],
+        "correct": 0,
+        "hint": "Rate/depth, minimal pauses, full chest recoil, and no excessive ventilation.",
+        "explanation": "High-quality CPR demands correct rate/depth, complete chest recoil, minimal pauses, and avoiding hyperventilation."
+      },
+      {
+        "q": "Which four cardiac arrest rhythms are recognized, and how are they categorized?",
+        "options": [
+          "A) Asystole & PEA (Non-shockable); VF & Pulseless VT (Shockable).",
+          "B) Sinus Bradycardia & SVT (Shockable); Asystole & AF (Non-shockable).",
+          "C) Atrial Fibrillation & Flutter (Non-shockable); Ventricular ectopics (Shockable).",
+          "D) All 4 rhythms are shockable."
+        ],
+        "correct": 0,
+        "hint": "Asystole and PEA are non-shockable; VF and pulseless VT are shockable.",
+        "explanation": "Cardiac arrest rhythms are divided into Non-shockable (Asystole and Pulseless Electrical Activity) and Shockable (Ventricular Fibrillation and Pulseless Ventricular Tachycardia)."
+      },
+      {
+        "q": "For NON-SHOCKABLE rhythms (Asystole and PEA), what is the drug of choice, route, dose, and administration frequency?",
+        "options": [
+          "A) Epinephrine 0.01 mg/kg IV/IO given as soon as possible, repeated every 3 to 5 minutes.",
+          "B) Amiodarone 10 mg/kg IV push given once.",
+          "C) Atropine 0.02 mg/kg IV given every 2 minutes.",
+          "D) Epinephrine 1 mg/kg IV push given every 10 minutes."
+        ],
+        "correct": 0,
+        "hint": "Epinephrine 0.01 mg/kg IV/IO ASAP, then every 3–5 minutes.",
+        "explanation": "In non-shockable rhythms, Epinephrine (0.01 mg/kg IV/IO) should be administered as early as possible after arrest recognition and repeated every 3 to 5 minutes during ongoing CPR."
+      },
+      {
+        "q": "What are the recommended initial and subsequent manual Defibrillation energy doses for shockable rhythms (VF/pVT)?",
+        "options": [
+          "A) Initial: 10 J/kg; Subsequent: 20 J/kg.",
+          "B) Initial: 2 Joules/kg; Subsequent: 4 Joules/kg (up to maximum 10 J/kg).",
+          "C) Initial: 50 Joules fixed for all ages.",
+          "D) Initial: 0.5 J/kg; Subsequent: 1 J/kg."
+        ],
+        "correct": 1,
+        "hint": "Start at 2 J/kg, then 4 J/kg, up to a max of 10 J/kg.",
+        "explanation": "Manual defibrillation energy setting is 2 J/kg for the first shock, increasing to 4 J/kg for subsequent shocks, with a maximum ceiling of 10 J/kg."
+      },
+      {
+        "q": "During resuscitation for SHOCKABLE rhythms (VF/pVT), when is Epinephrine administered according to algorithmic timing?",
+        "options": [
+          "A) Before delivering the first shock.",
+          "B) After the 3rd shock (if VF/pVT persists) and then every alternate shock cycle (every 3–5 minutes).",
+          "C) Epinephrine is contraindicated in shockable rhythms.",
+          "D) Continuous IV infusion at 1 mg/kg/min."
+        ],
+        "correct": 1,
+        "hint": "In shockable rhythms, give epinephrine after the 3rd shock and every 3–5 minutes thereafter.",
+        "explanation": "In refractory VF/pVT, epinephrine (0.01 mg/kg IV/IO) is administered after the 3rd shock and repeated every 3–5 minutes."
+      },
+      {
+        "q": "What antiarrhythmic agent is indicated for refractory VF/pVT, and what is its dosage and timing?",
+        "options": [
+          "A) Lidocaine 50 mg/kg single bolus.",
+          "B) Amiodarone 5 mg/kg IV/IO bolus given after the 3rd shock, which may be repeated up to 2 times (total 3 doses) for refractory VF/pVT.",
+          "C) Procainamide 15 mg/kg IV over 1 hour.",
+          "D) Adenosine 0.1 mg/kg rapid push."
+        ],
+        "correct": 1,
+        "hint": "Amiodarone 5 mg/kg IV/IO after the 3rd shock for refractory VF/pVT.",
+        "explanation": "Amiodarone (5 mg/kg IV/IO) is indicated for shock-refractory VF/pVT after the 3rd and 5th shocks."
+      },
+      {
+        "q": "If Amiodarone is unavailable during resuscitation for refractory VF/pVT, what alternative antiarrhythmic regimen can be administered?",
+        "options": [
+          "A) High-dose Calcium Gluconate IV.",
+          "B) Lidocaine at a loading dose of 1 mg/kg IV, followed by a maintenance infusion of 20 to 50 mcg/kg/minute.",
+          "C) Sodium Bicarbonate 10 mEq/kg.",
+          "D) Esmolol infusion 500 mcg/kg."
+        ],
+        "correct": 1,
+        "hint": "Lidocaine 1 mg/kg IV loading bolus, then 20–50 mcg/kg/min infusion.",
+        "explanation": "Lidocaine serves as the alternative antiarrhythmic, dosed at 1 mg/kg IV loading bolus followed by a 20–50 mcg/kg/min infusion."
+      },
+      {
+        "q": "What is the recommendation regarding the use of Atropine and Pacing in pediatric Asystole?",
+        "options": [
+          "A) Atropine is mandatory every 2 minutes.",
+          "B) Atropine and transcutaneous pacing are NOT used/recommended for Asystole.",
+          "C) Pacing is the first-line treatment for Asystole.",
+          "D) High-dose atropine replaces epinephrine."
+        ],
+        "correct": 1,
+        "hint": "Neither atropine nor pacing is recommended for pediatric asystole.",
+        "explanation": "Current resuscitation guidelines state that routine atropine and cardiac pacing are not used for pediatric asystole."
+      },
+      {
+        "q": "What proportion of pediatric cardiac arrests present with Shockable Rhythms (VF/pVT)?",
+        "options": [
+          "A) 1 to 2%.",
+          "B) 15 to 20%.",
+          "C) 50 to 60%.",
+          "D) 85 to 90%."
+        ],
+        "correct": 1,
+        "hint": "About 15–20% of pediatric arrests present with shockable rhythms.",
+        "explanation": "Shockable rhythms (VF and pulseless VT) account for approximately 15% to 20% of initial pediatric cardiac arrest presentations."
+      },
+      {
+        "q": "What is the recommendation regarding Automated External Defibrillator (AED) usage in children up to 8 years of age?",
+        "options": [
+          "A) AEDs are strictly prohibited in children under 8 years.",
+          "B) An AED equipped with pediatric cables/attenuator (delivering a maximum biphasic shock of 50 Joules) is preferred, but a standard adult AED may be used if a pediatric attenuator is unavailable.",
+          "C) Adult AEDs must never be attached under any circumstances.",
+          "D) AEDs must deliver a minimum of 200 Joules to children."
+        ],
+        "correct": 1,
+        "hint": "Pediatric attenuator (~50 J) is preferred under 8 years, though a standard AED can be used if unavailable.",
+        "explanation": "Pediatric attenuator cables (limiting dose to ~50 J) are preferred up to 8 years of age, though standard AEDs can be used if pediatric cables are absent."
+      },
+      {
+        "q": "Immediately after delivering a manual shock or AED shock, what action must rescuers perform?",
+        "options": [
+          "A) Pause compressions for 2 minutes to evaluate the radial pulse.",
+          "B) Resume high-quality CPR immediately (starting with chest compressions) for 2 minutes before re-checking rhythm or pulse.",
+          "C) Deliver a second shock immediately.",
+          "D) Administer IV bolus of normal saline."
+        ],
+        "correct": 1,
+        "hint": "Resume chest compressions right away for 2 minutes after a shock.",
+        "explanation": "Rescuers must resume chest compressions immediately after shock delivery without delaying for pulse checks, completing a 2-minute cycle of CPR first."
+      },
+      {
+        "q": "What reversible etiologies must be systematically evaluated and treated during cardiac arrest resuscitation, summarized as the '4 Hs and 4 Ts'?",
+        "options": [
+          "A) 4 Hs: Hypoxia, Hypovolemia, Hyperkalemia, Hypothermia; 4 Ts: Tension pneumothorax, Tamponade (cardiac), Toxic substances, Thromboembolic phenomena.",
+          "B) 4 Hs: Hypertension, Hyperglycemia, Hepatitis, Hydrocephalus; 4 Ts: Trauma, Tumor, Tuberculosis, Typhoid.",
+          "C) 4 Hs: Hyponatremia, Hypocalcemia, Heparin, Herpes; 4 Ts: Tetany, Tetanus, Trachoma, Tonsillitis.",
+          "D) 4 Hs: Heart failure, Headache, Hemorrhage, Hemolysis; 4 Ts: Tachycardia, Tachypnea, Thrombosis, Toxicity."
+        ],
+        "correct": 0,
+        "hint": "Hypoxia, Hypovolemia, Hyperkalemia, Hypothermia; Tension pneumothorax, Tamponade, Toxins, Thromboembolism.",
+        "explanation": "Reversible causes of arrest are grouped into 4 Hs (Hypoxia, Hypovolemia, Hyperkalemia, Hypothermia) and 4 Ts (Tension pneumothorax, Cardiac tamponade, Toxins, Thromboembolism)."
+      },
+      {
+        "q": "Why are infants and young children particularly susceptible to rapid hypothermia during resuscitation attempts?",
+        "options": [
+          "A) They have excessive subcutaneous brown fat.",
+          "B) They have a large surface area relative to body mass and minimal subcutaneous adipose tissue.",
+          "C) Their metabolic rate is zero during resuscitation.",
+          "D) They lack sweat glands."
+        ],
+        "correct": 1,
+        "hint": "High body surface area-to-mass ratio and thin subcutaneous fat.",
+        "explanation": "High body surface area-to-mass ratio and thin subcutaneous insulation cause rapid body heat loss in pediatric patients."
+      },
+      {
+        "q": "What physiological effect does severe Hypothermia (core temperature < 35°C) have on the resuscitation process?",
+        "options": [
+          "A) It improves cardiac contractility.",
+          "B) It makes resuscitation significantly more difficult by increasing metabolic demands, worsening acidosis, and impairing drug metabolism.",
+          "C) It eliminates the risk of dysrhythmias.",
+          "D) It automatically restores spontaneous circulation."
+        ],
+        "correct": 1,
+        "hint": "Hypothermia (<35°C) complicates resuscitation, worsens acidosis, and alters metabolism.",
+        "explanation": "Core hypothermia (<35°C) refractory to environmental warming impairs cardiac responsiveness, exacerbates acidosis, and complicates resuscitation."
+      },
+      {
+        "q": "In post-cardiac arrest care following Return of Spontaneous Circulation (ROSC), what interventions are indicated for comatose children?",
+        "options": [
+          "A) Immediate discharge home.",
+          "B) Targeted Temperature Management (TTM) and continuous electroencephalography (EEG) monitoring.",
+          "C) High-dose corticosteroids and forced hyperventilation.",
+          "D) Induction of severe hyperthermia."
+        ],
+        "correct": 1,
+        "hint": "Targeted Temperature Management (TTM) and continuous EEG monitoring.",
+        "explanation": "Post-ROSC care for non-alert children includes targeted temperature regulation (preventing fever/maintaining normothermia) and continuous EEG monitoring to detect subclinical seizures."
+      },
+      {
+        "q": "What physiological parameters must be strictly controlled during post-cardiac arrest management to prevent secondary brain injury?",
+        "options": [
+          "A) Prevention and treatment of Hypotension, Hyperoxia or Hypoxia, and Hypercapnia or Hypocapnia.",
+          "B) Maintenance of blood pressure below 50 mmHg.",
+          "C) Target SpO2 of 100% using hyperbaric oxygen.",
+          "D) Inducing hypercapnia to increase cerebral flow."
+        ],
+        "correct": 0,
+        "hint": "Avoid hypotension, hypoxia/hyperoxia, and hypocapnia/hypercapnia.",
+        "explanation": "Neuroprotective post-arrest care requires strict arterial blood gas and blood pressure control to avoid ischemia or reperfusion injury from hypoxia, hyperoxia, hypotension, or hypocapnia/hypercapnia."
+      },
+      {
+        "q": "What ventilation strategy should be used once an Advanced Airway (endotracheal tube or supraglottic airway) is placed during CPR?",
+        "options": [
+          "A) Pause compressions for 2 seconds every 15 compressions to deliver 2 breaths.",
+          "B) Deliver 1 breath every 2 to 3 seconds (20 to 30 breaths/minute) continuously WITHOUT pausing chest compressions.",
+          "C) Deliver 50 breaths per minute with hyperventilation.",
+          "D) Stop ventilations completely."
+        ],
+        "correct": 1,
+        "hint": "Continuous compressions with 1 breath every 2–3 seconds (20–30/min).",
+        "explanation": "With an advanced airway in place, chest compressions are given continuously at 100–120/min without pauses, while 1 ventilation is delivered every 2–3 seconds (20–30 breaths/min)."
+      },
+      {
+        "q": "Which mechanical traumatic complications can occur as a direct result of chest compressions during CPR?",
+        "options": [
+          "A) Rib and sternal fractures, pneumothorax, pericardial tamponade, pulmonary contusion, aspiration, and aortic laceration.",
+          "B) Isolated retinal detachment.",
+          "C) Intracranial calcifications.",
+          "D) Femoral artery thrombosis."
+        ],
+        "correct": 0,
+        "hint": "Rib/sternal fractures, pneumothorax, tamponade, pulmonary contusion, aspiration, aortic injury.",
+        "explanation": "Complications of high-quality CPR include thoracic skeletal trauma (rib/sternal fractures), pleural/cardiac injury (pneumothorax, tamponade, contusion, aortic laceration), and gastric contents aspiration."
+      },
+      {
+        "q": "What is the relationship between the timing of initial Epinephrine administration and survival in non-shockable pediatric cardiac arrest?",
+        "options": [
+          "A) Delayed administration improves survival.",
+          "B) The earlier epinephrine is administered after CPR initiation, the higher the likelihood of ROSC and intact survival.",
+          "C) Timing has no impact on survival.",
+          "D) Epinephrine should only be given after 20 minutes of CPR."
+        ],
+        "correct": 1,
+        "hint": "Earlier epinephrine in non-shockable arrest is linked to higher ROSC and survival.",
+        "explanation": "Clinical trial data demonstrate that early administration of epinephrine in non-shockable rhythms directly correlates with increased ROSC and survival rates."
+      },
+      {
+        "q": "What are the components of the Pediatric Chain of Survival?",
+        "options": [
+          "A) Prevention and preparedness, Activation of emergency response system, High-quality CPR (including early defibrillation), Advanced resuscitation interventions, Post-cardiac arrest care, and Recovery.",
+          "B) Intubation, Antibiotics, Surgery, Rehabilitation.",
+          "C) Triage, Isolation, Dialysis, Transfer.",
+          "D) Oxygenation, Cooling, Steroids, Discharge."
+        ],
+        "correct": 0,
+        "hint": "Prevention/preparedness, EMS activation, high-quality CPR/defibrillation, advanced care, post-arrest care, recovery.",
+        "explanation": "The AHA Chain of Survival comprises 6 linked steps: Prevention/preparedness, EMS activation, high-quality CPR/defibrillation, advanced life support, post-arrest care, and long-term recovery."
+      },
+      {
+        "q": "A 9-month-old infant (weight 8 kg) is brought to the emergency department in collapse. Assessment shows no spontaneous breathing and a brachial pulse of 40 beats/min with cold cyanotic extremities. Two healthcare providers are present. What initial BLS action and ratio are needed, what compression technique/rate/depth apply, and what is the priority drug protocol for Asystole?",
+        "options": [
+          "A) Give rescue breaths only at 10 breaths/min; No compressions; Epinephrine 1 mg IV once.",
+          "B) 1. Initiate immediate CPR (compressions + ventilation) due to HR <60/min with poor perfusion; Ratio = 15:2 (two rescuers). 2. Technique = Two-thumb encircling-hands technique; Rate = 100–120/min; Depth = 1/3 AP diameter (~4 cm). 3. Rhythm = Asystole (Non-shockable); Administer Epinephrine 0.01 mg/kg IV/IO (0.08 mg) immediately and repeat every 3 to 5 minutes during ongoing 2-minute CPR cycles.",
+          "C) Perform 30:2 CPR using 1 hand to depth of 6 cm; Defibrillate at 50 Joules.",
+          "D) Give atropine 0.5 mg IV and place transcutaneous pacing pads."
+        ],
+        "correct": 1,
+        "hint": "HR <60 with poor perfusion + 2 rescuers = 15:2 two-thumb encircling CPR (100–120/min, ~4 cm); Asystole gets Epinephrine 0.01 mg/kg (0.08 mg) IV/IO q3–5min.",
+        "explanation": "1) Bradycardia <60 bpm with poor perfusion requires immediate CPR; two rescuers use a 15:2 ratio. 2) Two-rescuer infant compressions use the two-thumb encircling-hands technique at 100–120/min to ~4 cm (1/3 AP diameter). 3) Asystole is non-shockable, so give Epinephrine 0.01 mg/kg IV/IO (0.08 mg for 8 kg) immediately and repeat every 3–5 minutes."
+      }
+    ]
+  }
+]
