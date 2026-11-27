@@ -1227,7 +1227,6 @@
     };
 
     let QUESTION_BANK = {};
-    // REVISION_BANK[year][subjectId] -> array of { name, questions: [...] }
     let REVISION_BANK = {
       MD1: {},
       MD2: {},
@@ -1236,9 +1235,14 @@
       MD5: {}
     };
 
+    function getTopicTitle(topicObj, fallbackIndex = 0) {
+      return topicObj?.topic || topicObj?.name || `Topic ${fallbackIndex + 1}`;
+    }
+
     function buildStarterTopicsForSubject(subjectLabel) {
       const pointLevels = [10, 20, 30, 40, 50];
       return [1, 2, 3, 4].map((tNum) => ({
+        topic: `${subjectLabel} — Topic ${tNum}`,
         name: `${subjectLabel} — Topic ${tNum}`,
         questions: pointLevels.map((pts) => ({
           pts,
@@ -1301,11 +1305,11 @@
     }
 
     const state = {
-      page: "setup", // "setup" | "board" | "revision"
+      page: "setup",
       selectedYear: "MD5",
       selectedSubject: "surgery",
       pendingSubject: null,
-      mode: "1p", // "1p" | "multi"
+      mode: "1p",
       players: makePlayers(MIN_MULTI_PLAYERS),
       hostSeat: 1,
       allowOthersToAdd: false,
@@ -1329,7 +1333,7 @@
     const channel = typeof BroadcastChannel !== "undefined" ? new BroadcastChannel("sixseven-game-room") : null;
 
     const revState = {
-      step: "year", // "year" | "subject" | "topic" | "quiz"
+      step: "year",
       year: "MD5",
       subjectId: null,
       topicIndex: null,
@@ -1634,7 +1638,7 @@
 
         const label = document.createElement("div");
         label.className = "topic-label";
-        label.textContent = topic.name;
+        label.textContent = getTopicTitle(topic, rIdx);
         row.appendChild(label);
 
         (topic.questions || []).forEach((item, cIdx) => {
@@ -1741,7 +1745,7 @@
       const countdownFinished = elapsedSec >= QUESTION_DURATION_SECONDS;
       const resolvedState = Boolean(answerSubmitted) || countdownFinished;
 
-      els.qModalTitle.textContent = `${topic.name} • ${item.pts} Marks`;
+      els.qModalTitle.textContent = `${getTopicTitle(topic, rIdx)} • ${item.pts} Marks`;
       els.qModalTurnInfo.textContent = countdownFinished && !answerSubmitted
         ? `Time's up! Any player can click "Continue to Next Turn" to proceed.`
         : (canControl
@@ -2107,7 +2111,7 @@
           const btn = document.createElement("button");
           btn.type = "button";
           btn.className = `rev-topic-item${revState.topicIndex === idx ? " active-topic" : ""}`;
-          btn.innerHTML = `<span>${t.name}</span><span class="rev-count-badge">${qCount} Qs</span>`;
+          btn.innerHTML = `<span>${getTopicTitle(t, idx)}</span><span class="rev-count-badge">${qCount} Qs</span>`;
           btn.addEventListener("click", () => {
             revState.topicIndex = idx;
             renderRevisionView();
@@ -2133,7 +2137,7 @@
         });
 
         const pct = Math.round(((idx + 1) / total) * 100);
-        els.revBreadcrumb.textContent = `${revState.year} • ${topicObj ? topicObj.name : "Quiz"}`;
+        els.revBreadcrumb.textContent = `${revState.year} • ${topicObj ? getTopicTitle(topicObj, revState.topicIndex || 0) : "Quiz"}`;
         els.revProgressFill.style.width = `${pct}%`;
         els.revScrubberDot.style.left = `${pct}%`;
         els.revCounterText.textContent = `${idx + 1} / ${total}`;
@@ -2357,7 +2361,6 @@
       syncOut();
     }
 
-    // Drawer & Navigation Events
     els.openDrawerBtn.addEventListener("click", () => setDrawerOpen(true));
     els.closeDrawerBtn.addEventListener("click", () => setDrawerOpen(false));
     els.drawerBackdrop.addEventListener("click", () => setDrawerOpen(false));
@@ -2427,7 +2430,6 @@
       syncOut();
     });
 
-    // MD1 - MD5 Selection & Confirmation Modal
     els.mdYearButtons.addEventListener("click", (e) => {
       const btn = e.target.closest("button[data-md]");
       if (!btn) return;
@@ -2456,7 +2458,6 @@
       els.subjectConfirmModal.classList.remove("open");
     });
 
-    // Roster, Room & Turn Limit Events
     els.allowAddToggleBtn.addEventListener("click", () => {
       if (!isHostOnThisDevice()) return;
       state.allowOthersToAdd = !state.allowOthersToAdd;
@@ -2540,7 +2541,6 @@
       els.roomCodeInput.value = normalizeCode(els.roomCodeInput.value);
     });
 
-    // Question Modal Events
     els.hintBtn.addEventListener("click", () => {
       if (!state.activeLock || !isActivePlayerOnThisDevice()) return;
       state.activeLock.hintShown = true;
@@ -2556,7 +2556,6 @@
       els.winnerModal.classList.remove("open");
     });
 
-    // Deep Revision Mode Events
     els.revExitToHomeBtn.addEventListener("click", () => {
       state.page = "setup";
       updateUI();
@@ -2666,9 +2665,16 @@
 
     async function loadRevisionManifestAndFiles() {
       try {
-        const res = await fetch("./revision/revision_map.json", { cache: "no-store" });
-        if (!res.ok) return;
-        const mapData = await res.json();
+        let mapData = null;
+        const mapRes = await fetch("./revision/revision_map.json", { cache: "no-store" });
+        if (mapRes.ok) {
+          mapData = await mapRes.json();
+        } else {
+          const fallbackRes = await fetch("./revision/index.json", { cache: "no-store" });
+          if (fallbackRes.ok) {
+            mapData = await fallbackRes.json();
+          }
+        }
         if (!mapData || typeof mapData !== "object") return;
 
         const years = ["MD1", "MD2", "MD3", "MD4", "MD5"];
@@ -2688,24 +2694,14 @@
               entries.map(async (entry) => {
                 if (!entry || !entry.id) return;
                 const topicsCollected = [];
+                const fileList = Array.isArray(entry.files) && entry.files.length > 0
+                  ? entry.files
+                  : (entry.file ? [entry.file] : []);
 
-                if (Array.isArray(entry.files) && entry.files.length > 0) {
-                  for (const filePath of entry.files) {
-                    try {
-                      const fRes = await fetch(`./${filePath.replace(/^\.\//, "")}`, { cache: "no-store" });
-                      if (fRes.ok) {
-                        const fJson = await fRes.json();
-                        if (Array.isArray(fJson)) {
-                          topicsCollected.push(...fJson);
-                        } else if (fJson && Array.isArray(fJson.topics)) {
-                          topicsCollected.push(...fJson.topics);
-                        }
-                      }
-                    } catch (_) {}
-                  }
-                } else if (entry.file) {
+                for (const filePath of fileList) {
                   try {
-                    const fRes = await fetch(`./${entry.file.replace(/^\.\//, "")}`, { cache: "no-store" });
+                    const cleanPath = String(filePath).replace(/^\.\//, "");
+                    const fRes = await fetch(`./${cleanPath}`, { cache: "no-store" });
                     if (fRes.ok) {
                       const fJson = await fRes.json();
                       if (Array.isArray(fJson)) {
