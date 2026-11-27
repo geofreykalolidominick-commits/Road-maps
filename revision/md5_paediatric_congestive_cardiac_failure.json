@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Congestive Cardiac Failure (CCF)",
+    "questions": [
+      {
+        "q": "According to the uploaded presentation, how is Congestive Heart Failure (CHF) defined in pediatric medicine?",
+        "options": [
+          "A) Primary electrical conduction block leading to ventricular standstill",
+          "B) A clinical syndrome in which the heart is unable to provide the output required to meet the metabolic demands of the body, unable to dispose of systemic or pulmonary venous return adequately, or a combination of both",
+          "C) Isolated peripheral arterial vasodilation causing relative hypovolemia",
+          "D) Transient coronary vasospasm following exercise"
+        ],
+        "correct": 1,
+        "hint": "Think about failure of the heart to meet metabolic output demands, handle systemic/pulmonary venous return, or both.",
+        "explanation": "Congestive Heart Failure is defined as a clinical syndrome where cardiac output fails to meet metabolic demands, fails to adequately process venous return, or both."
+      },
+      {
+        "q": "What is the basic physiological equation for Cardiac Output (CO)?",
+        "options": [
+          "A) CO = Mean Arterial Pressure ÷ Systemic Vascular Resistance",
+          "B) CO = Heart Rate (HR) × Stroke Volume (SV)",
+          "C) CO = Preload ÷ Afterload",
+          "D) CO = Systolic Blood Pressure - Diastolic Blood Pressure"
+        ],
+        "correct": 1,
+        "hint": "Cardiac output is heart rate multiplied by stroke volume.",
+        "explanation": "Cardiac output is the product of Heart Rate (HR) and Stroke Volume (SV)."
+      },
+      {
+        "q": "What three primary factors determine Stroke Volume (SV)?",
+        "options": [
+          "A) Hemoglobin level, arterial blood gas, and serum sodium",
+          "B) Preload, Afterload, and Contractility",
+          "C) Respiratory rate, tidal volume, and dead space",
+          "D) Body temperature, blood viscosity, and venous oxygen saturation"
+        ],
+        "correct": 1,
+        "hint": "Stroke volume depends on preload, afterload, and myocardial contractility.",
+        "explanation": "Stroke volume is directly governed by three variables: Preload, Afterload, and Myocardial Contractility."
+      },
+      {
+        "q": "How are Preload and Afterload conceptually described in the source slides?",
+        "options": [
+          "A) Preload is squeeze; Afterload is stretch",
+          "B) Preload is stretch (volume of blood received by the heart); Afterload is squeeze (resistance the heart must overcome to eject blood)",
+          "C) Preload is arterial pressure; Afterload is venous capacity",
+          "D) Preload is heart rate; Afterload is ejection fraction"
+        ],
+        "correct": 1,
+        "hint": "Preload = stretch (filling volume); Afterload = squeeze (resistance to ejection).",
+        "explanation": "Preload represents cardiac stretch (end-diastolic volume), while Afterload represents cardiac squeeze (resistance against ventricular ejection)."
+      },
+      {
+        "q": "What is the SINGLE MOST COMMON cause of Congestive Heart Failure in children?",
+        "options": [
+          "A) Primary myocardial infarction",
+          "B) Volume overload",
+          "C) Severe systemic hypertension",
+          "D) Isolated mitral valve prolapse"
+        ],
+        "correct": 1,
+        "hint": "Excessive volume load on the heart is the leading cause of pediatric CHF.",
+        "explanation": "Volume overload is explicitly stated as the single most common cause of CHF in pediatric practice."
+      },
+      {
+        "q": "Which structural lesions are classic examples of volume overload causing pediatric heart failure?",
+        "options": [
+          "A) Aortic stenosis and Pulmonary stenosis",
+          "B) Ventricular Septal Defect (VSD) and Valvular Insufficiency",
+          "C) Coarctation of the Aorta",
+          "D) Hypertrophic cardiomyopathy"
+        ],
+        "correct": 1,
+        "hint": "Left-to-right shunts like VSD and regurgitant/insufficient valves increase volume load.",
+        "explanation": "Left-to-right shunts like VSD and valvular insufficiencies cause excessive volume load returning to the heart chambers."
+      },
+      {
+        "q": "Which structural anomalies cause pediatric heart failure via INCREASED AFTERLOAD (pressure overload)?",
+        "options": [
+          "A) Ventricular Septal Defect (VSD) and Patent Ductus Arteriosus (PDA)",
+          "B) Aortic stenosis, Pulmonary stenosis, and Coarctation of the Aorta (CoA)",
+          "C) Anemia and AV Fistula",
+          "D) Atrial Septal Defect (ASD)"
+        ],
+        "correct": 1,
+        "hint": "Outflow obstructions like aortic stenosis, pulmonary stenosis, and coarctation raise afterload.",
+        "explanation": "Obstructive lesions such as aortic stenosis, pulmonary stenosis, and coarctation of the aorta force the ventricle to pump against high resistance (increased afterload)."
+      },
+      {
+        "q": "How is Myocardial Contractility defined in cardiac mechanics?",
+        "options": [
+          "A) The volume of blood in the atrium prior to systole",
+          "B) Cardiac performance independent of Preload or Afterload",
+          "C) The resistance offered by the systemic vascular bed",
+          "D) The ratio of diastolic time to systolic time"
+        ],
+        "correct": 1,
+        "hint": "Intrinsic pumping strength independent of preload and afterload.",
+        "explanation": "Myocardial contractility refers to the intrinsic inotropic force generated by the myocardium, independent of loading conditions (preload/afterload)."
+      },
+      {
+        "q": "What three main physiological categories of compensatory mechanisms are recruited in CHF?",
+        "options": [
+          "A) Cortical, Subcortical, and Autonomic compensation",
+          "B) Cardiac compensation, Systemic compensation, and Neurohormonal compensation",
+          "C) Renal, Hepatic, and Splenic compensation",
+          "D) Pulmonary, Gastrointestinal, and Hematologic compensation"
+        ],
+        "correct": 1,
+        "hint": "Cardiac, systemic, and neurohormonal mechanisms respond to failing output.",
+        "explanation": "The body responds to failing cardiac output via Cardiac (tachycardia, dilatation, hypertrophy), Systemic (blood redistribution, increased oxygen extraction), and Neurohormonal mechanisms (Sympathetic, RAAS, ANP)."
+      },
+      {
+        "q": "What defines Systolic Dysfunction in heart failure?",
+        "options": [
+          "A) Stiff ventricles filling with reduced blood volume during diastole",
+          "B) Diminished ventricular contractility resulting in an impaired ability to increase stroke volume to meet systemic demands",
+          "C) Normal ejection fraction with isolated pulmonary venous obstruction",
+          "D) High cardiac output caused by systemic arteriovenous malformation"
+        ],
+        "correct": 1,
+        "hint": "Reduced ventricular contractility/pumping force during systole.",
+        "explanation": "Systolic dysfunction is characterized by impaired myocardial contractility, reducing ventricular emptying and ejection fraction."
+      },
+      {
+        "q": "What pathophysiological state defines Diastolic Dysfunction in pediatric CHF?",
+        "options": [
+          "A) Impaired cardiac muscle shortening during systole",
+          "B) Decreased ventricular compliance, necessitating an increase in venous pressure to maintain adequate ventricular filling",
+          "C) Excessive left-to-right intracardiac shunting",
+          "D) Systemic arteriolar vasodilation"
+        ],
+        "correct": 1,
+        "hint": "Reduced ventricular compliance (stiffness) requires higher venous filling pressure.",
+        "explanation": "Diastolic dysfunction occurs when the ventricles are stiff or non-compliant, requiring higher filling (venous) pressures to achieve normal end-diastolic volume."
+      },
+      {
+        "q": "What mnemonic represents the common causes of High-Output Heart Failure in children?",
+        "options": [
+          "A) The '3A' (Anemia, Arrhythmia, AV Fistula)",
+          "B) The '3D' (Digoxin, Diuretics, Dilators)",
+          "C) The '3C' (Captopril, Coarctation, Cyanosis)",
+          "D) The '3V' (VSD, Volume, Ventricle)"
+        ],
+        "correct": 0,
+        "hint": "Recall the '3A' causes: Anemia, Arrhythmia, and AV Fistula.",
+        "explanation": "High-output heart failure occurs when overall cardiac output is elevated but still insufficient to meet peripheral demands, classically summarized as '3A': Anemia, Arrhythmia, and Arteriovenous (AV) Fistula."
+      },
+      {
+        "q": "How is Heart Failure classified according to anatomical location?",
+        "options": [
+          "A) Anterior, Posterior, and Superior failure",
+          "B) Left-sided heart failure (LHF), Right-sided heart failure (RHF), and Biventricular failure (whole heart failure)",
+          "C) Apical, Basal, and Septal failure",
+          "D) Valvular, Pericardial, and Endocardial failure"
+        ],
+        "correct": 1,
+        "hint": "Left-sided, right-sided, or biventricular (whole heart) failure.",
+        "explanation": "Anatomically, heart failure is classified into left-sided, right-sided, or biventricular (global) failure."
+      },
+      {
+        "q": "What distinguishes Compensated CHF from Decompensated CHF?",
+        "options": [
+          "A) In Compensated CHF, cardiac output is zero; in Decompensated CHF, cardiac output is normal",
+          "B) In Compensated CHF, mechanisms (increased HR and stroke volume) successfully maintain cardiac output; in Decompensated CHF, contractility falls, cardiac output decreases, leading to venous congestion and edema",
+          "C) Compensated CHF requires urgent intubation; Decompensated CHF requires no therapy",
+          "D) Compensated CHF causes severe hepatomegaly; Decompensated CHF presents without physical signs"
+        ],
+        "correct": 1,
+        "hint": "Compensated maintains output via adaptations; decompensated shows falling contractility/output and venous congestion.",
+        "explanation": "Compensated failure maintains adequate forward output via compensatory mechanisms; when these mechanisms fail, decompensated failure occurs with low output and fluid congestion."
+      },
+      {
+        "q": "What are the primary causes of heart failure in PREMATURE NEONATES?",
+        "options": [
+          "A) Rheumatic fever and Thyrotoxicosis",
+          "B) Fluid overload, Patent Ductus Arteriosus (PDA), and Ventricular Septal Defect (VSD)",
+          "C) Acute glomerulonephritis and Kawasaki disease",
+          "D) Cor pulmonale secondary to cystic fibrosis"
+        ],
+        "correct": 1,
+        "hint": "Fluid overload, PDA, and VSD are key drivers in premature neonates.",
+        "explanation": "In premature infants, fluid excess, persistent PDA, and VSD are the main triggers of acute heart failure."
+      },
+      {
+        "q": "Which conditions are major causes of heart failure in FULL-TERM NEONATES?",
+        "options": [
+          "A) Asphyxial cardiomyopathy, Left-sided obstructive lesions (Coarctation of Aorta), Transposition of Great Arteries, Viral Myocarditis, Anemia, SVT, and Complete Heart Block",
+          "B) Isolated malnutrition and vitamin D deficiency",
+          "C) Chronic asthma and foreign body aspiration",
+          "D) Rheumatic valvulitis"
+        ],
+        "correct": 0,
+        "hint": "Think of birth asphyxia, CoA, TGA, viral myocarditis, anemia, SVT, and complete heart block.",
+        "explanation": "Full-term neonates develop heart failure secondary to birth asphyxia, duct-dependent structural lesions (CoA, TGA), viral infections, acute anemia, or severe dysrhythmias."
+      },
+      {
+        "q": "What are the key causes of heart failure in the INFANT-TODDLER age group?",
+        "options": [
+          "A) Left-to-right cardiac shunts (VSD), Metabolic Cardiomyopathy, Acute hypertension (Hemolytic-Uremic Syndrome), SVT, and Kawasaki disease",
+          "B) Isolated congenital rubella syndrome",
+          "C) Primary pulmonary hypertension alone",
+          "D) High-dose opioid toxicity"
+        ],
+        "correct": 0,
+        "hint": "Left-to-right shunts like VSD, metabolic cardiomyopathy, HUS hypertension, SVT, and Kawasaki disease.",
+        "explanation": "Infants and toddlers present with heart failure due to large left-to-right shunts (VSD), metabolic disorders, acute hypertension (HUS), SVT, or coronary arteritis in Kawasaki disease."
+      },
+      {
+        "q": "Which etiologies dominate the cause of heart failure in CHILDREN and ADOLESCENTS?",
+        "options": [
+          "A) Prematurity and PDA",
+          "B) Rheumatic fever, Acute hypertension (glomerulonephritis), Viral myocarditis, Thyrotoxicosis, Endocarditis, Arrhythmias, Cardiomyopathy, and Cor pulmonale (cystic fibrosis / upper airway obstruction)",
+          "C) Asphyxial cardiomyopathy",
+          "D) Ductal-dependent coarctation"
+        ],
+        "correct": 1,
+        "hint": "Rheumatic fever, glomerulonephritis/hypertension, myocarditis, thyrotoxicosis, endocarditis, arrhythmias, cardiomyopathy, cor pulmonale.",
+        "explanation": "In older children/adolescents, acquired heart diseases like acute rheumatic fever, post-streptococcal glomerulonephritis, viral myocarditis, infective endocarditis, and chronic pulmonary disease (cor pulmonale) predominate."
+      },
+      {
+        "q": "What classic historical features characterize heart failure in NEONATES and INFANTS?",
+        "options": [
+          "A) Severe crushing chest pain radiating to the left arm",
+          "B) Poor feeding, tachypnea worsening during feeding, cold sweat on forehead, and poor weight gain (failure to thrive)",
+          "C) Isolated nocturnal leg cramps",
+          "D) Polyphagia and rapid weight gain"
+        ],
+        "correct": 1,
+        "hint": "Feeding fatigue/tachypnea, forehead sweating, and poor weight gain.",
+        "explanation": "Infants with heart failure experience dyspnea during feeding, diaphoresis (forehead sweating), and inadequate caloric intake leading to poor weight gain."
+      },
+      {
+        "q": "What historical symptoms are typically reported by OLDER CHILDREN presenting with heart failure?",
+        "options": [
+          "A) Asymptomatic presentation with high fever",
+          "B) Fatigue, exercise intolerance, dyspnea, puffy eyes and pedal edema, and growth failure",
+          "C) Sudden severe memory loss",
+          "D) Isolated joint hypermobility"
+        ],
+        "correct": 1,
+        "hint": "Fatigue, reduced exercise tolerance, shortness of breath, edema, and growth failure.",
+        "explanation": "Older children report exercise limitation, exertional shortness of breath, fatigue, periorbital/pedal swelling, and growth failure."
+      },
+      {
+        "q": "Which physical examination signs are common to BOTH right-sided and left-sided heart failure?",
+        "options": [
+          "A) Isolated microcephaly",
+          "B) Tachycardia, a gallop rhythm (S3/S4), and thready pulses",
+          "C) Bounding peripheral pulses and hypertension",
+          "D) Focal hyperreflexia"
+        ],
+        "correct": 1,
+        "hint": "Tachycardia, gallop rhythm, and thready pulses reflect general cardiac compromise.",
+        "explanation": "Tachycardia, gallop rhythm, and diminished/thready pulses reflect compromised overall systemic perfusion present in both left and right heart failure."
+      },
+      {
+        "q": "Which physical signs specifically indicate RIGHT-SIDED venous congestion?",
+        "options": [
+          "A) Tachypnea, nasal flaring, and pulmonary edema",
+          "B) Hepatomegaly, Ascites, Pleural effusion, Peripheral Edema, and Jugular Venous Distension",
+          "C) Stridor and subglottic retractions",
+          "D) Hemoptysis and bronchial breathing"
+        ],
+        "correct": 1,
+        "hint": "Systemic venous congestion shows up as hepatomegaly, ascites, pleural effusion, peripheral edema, and JVD.",
+        "explanation": "Right-sided failure leads to systemic venous backing up into the liver (hepatomegaly), abdominal cavity (ascites), systemic veins (JVD), and peripheral tissues (edema)."
+      },
+      {
+        "q": "Which physical examination findings specifically indicate LEFT-SIDED venous congestion?",
+        "options": [
+          "A) Hepatomegaly and ascites",
+          "B) Tachypnea, nasal flaring or grunting, intercostal retractions, and pulmonary edema (crackles)",
+          "C) Splenomegaly and jaundice",
+          "D) Distended neck veins"
+        ],
+        "correct": 1,
+        "hint": "Pulmonary congestion causes tachypnea, flaring/grunting, retractions, and crackles.",
+        "explanation": "Left-sided failure causes pulmonary venous hypertension, resulting in respiratory distress, retractions, grunting, and pulmonary congestion."
+      },
+      {
+        "q": "Which standardized clinical classification system is used to assess functional impairment and symptoms relative to daily activities in pediatric CHF?",
+        "options": [
+          "A) Phoenix Score",
+          "B) New York Heart Association (NYHA) Classification (including NYHA for Infants)",
+          "C) Modified Glasgow Coma Scale",
+          "D) New Ballard Score"
+        ],
+        "correct": 1,
+        "hint": "NYHA functional classification (including modified infant NYHA).",
+        "explanation": "Functional severity and activity intolerance in heart failure are graded using the NYHA functional classification."
+      },
+      {
+        "q": "What is the FIRST PRIORITY in the management of Congestive Heart Failure?",
+        "options": [
+          "A) Administering high-dose intravenous diuretics before physical exam",
+          "B) Acquiring a good understanding of the underlying cause (etiology)",
+          "C) Immediate surgical intervention in all cases",
+          "D) Restricting oxygen delivery"
+        ],
+        "correct": 1,
+        "hint": "Identify the underlying etiology first so treatment targets the true driver safely.",
+        "explanation": "Management of CHF can be difficult or hazardous without knowing the cause; thus, defining the underlying etiology is the first priority."
+      },
+      {
+        "q": "What are the five key medical therapy goals in managing pediatric CHF?",
+        "options": [
+          "A) 1. Reducing preload, 2. Enhancing cardiac contractility, 3. Reducing afterload, 4. Improving oxygen delivery, 5. Enhancing nutrition",
+          "B) 1. Increasing afterload, 2. Restricting calories, 3. Giving sedation, 4. Inducing hypothermia, 5. Withholding fluids",
+          "C) 1. Promoting weight loss, 2. Administering anticoagulants, 3. Giving aspirin, 4. Performing surgery, 5. Dialysis",
+          "D) 1. Increasing preload, 2. Suppressing heart rate, 3. Reducing oxygen, 4. Giving iron, 5. Bed rest"
+        ],
+        "correct": 0,
+        "hint": "Lower preload, boost contractility, lower afterload, optimize oxygen delivery, and support nutrition.",
+        "explanation": "Medical goals focus on hemodynamic optimization (preload, contractility, afterload), oxygenation, and nutritional support."
+      },
+      {
+        "q": "What mnemonic summarizing treatment principles ('4 D's') is highlighted in the text?",
+        "options": [
+          "A) Drugs, Diagnosis, Diet, Dosage",
+          "B) Defects correction, Diet (low salt, high calories), Digitalis (improve contractility), Diuretics (reduce preload), Dilators (reduce afterload)",
+          "C) Dopamine, Dobutamine, Digoxin, Dextrose",
+          "D) Dilatation, Dysfunction, Dyspnea, Decompensation"
+        ],
+        "correct": 1,
+        "hint": "Defects, Diet, Digitalis, Diuretics, and Dilators.",
+        "explanation": "The '4 D's' treatment framework includes: Defects (surgical correction), Diet (low salt/high calorie), Digitalis (inotropes), Diuretics (preload reduction), and Dilators (afterload reduction)."
+      },
+      {
+        "q": "What baseline laboratory investigations are required when evaluating a child with CHF?",
+        "options": [
+          "A) CBC, Serum Electrolytes, Calcium level, BUN, Creatinine, Liver Function Tests, Thyroid Function, and Arterial Blood Gases (ABG)",
+          "B) Serum uric acid and urine drug screen only",
+          "C) Blood glucose only",
+          "D) Stool culture and skin prick testing"
+        ],
+        "correct": 0,
+        "hint": "CBC, electrolytes, calcium, BUN/creatinine, LFTs, thyroid function, and ABG.",
+        "explanation": "Laboratory workup evaluates anemia, electrolyte/renal function (BUN/creatinine), liver congestion, metabolic/gas status, and thyroid disorders."
+      },
+      {
+        "q": "What diagnostic information is provided by a 12-lead Electrocardiogram (ECG) in pediatric CHF?",
+        "options": [
+          "A) Calculation of exact stroke volume",
+          "B) Detection of chamber hypertrophy (ventricular enlargement) and cardiac arrhythmias",
+          "C) Direct visualization of VSD defect size",
+          "D) Assessment of pulmonary capillary wedge pressure"
+        ],
+        "correct": 1,
+        "hint": "ECG helps spot chamber hypertrophy and arrhythmias.",
+        "explanation": "A 12-lead ECG identifies atrial/ventricular hypertrophy, axis deviation, and underlying dysrhythmias (e.g., SVT, heart block)."
+      },
+      {
+        "q": "What classic abnormalities are seen on a Chest X-ray of a child in congestive heart failure?",
+        "options": [
+          "A) Normal heart size with hyperinflated clear lung fields",
+          "B) Increased Cardiothoracic (C/T) ratio (Cardiomegaly), increased pulmonary blood flow, and pulmonary venous congestion",
+          "C) Pneumoperitoneum and subdiaphragmatic air",
+          "D) Lytic bone lesions of the ribs"
+        ],
+        "correct": 1,
+        "hint": "Elevated cardiothoracic ratio (cardiomegaly) plus increased pulmonary blood flow/venous congestion.",
+        "explanation": "Chest radiography demonstrates enlarged cardiac silhouette (cardiomegaly) and pulmonary vascular congestion."
+      },
+      {
+        "q": "What is the primary mechanism and therapeutic role of Furosemide in heart failure management?",
+        "options": [
+          "A) Direct arterial vasodilation to lower afterload",
+          "B) Loop diuretic that promotes sodium and water excretion at the ascending loop of Henle, reducing intravascular volume and PRELOAD",
+          "C) Positive inotrope that increases intracellular calcium",
+          "D) Aldosterone receptor agonist"
+        ],
+        "correct": 1,
+        "hint": "Ascending loop of Henle diuretic that decreases intravascular volume and preload.",
+        "explanation": "Furosemide acts on the ascending limb of the loop of Henle to induce diuresis, lowering venous pressures and preload."
+      },
+      {
+        "q": "What is the recommended IV/IM dosing regimen for Furosemide in pediatric CHF?",
+        "options": [
+          "A) 10 mg/kg IV push every hour",
+          "B) 1–2 mg/kg/dose IV/IM every 6 to 8 hours (can be increased by 1–2 mg/kg/dose up to a maximum of 6 mg/kg/dose); or IV Infusion 0.1–0.4 mg/kg/hour",
+          "C) 0.01 mg/kg single dose",
+          "D) 50 mg/kg oral daily"
+        ],
+        "correct": 1,
+        "hint": "1–2 mg/kg/dose IV/IM q6–8h (up to max 6 mg/kg/dose), or 0.1–0.4 mg/kg/hr IV infusion.",
+        "explanation": "Furosemide is dosed at 1–2 mg/kg/dose q6–8h (max 6 mg/kg/dose) or via continuous infusion at 0.1–0.4 mg/kg/hr."
+      },
+      {
+        "q": "What is the mechanism and oral dosage of Spironolactone in pediatric heart failure?",
+        "options": [
+          "A) Loop diuretic; 10 mg/kg daily",
+          "B) Potassium-sparing diuretic (aldosterone antagonist); PO 1–3 mg/kg/day divided 12-hourly",
+          "C) ACE inhibitor; 0.1 mg/kg daily",
+          "D) Direct arteriolar dilator; 5 mg/kg daily"
+        ],
+        "correct": 1,
+        "hint": "Potassium-sparing diuretic given orally at 1–3 mg/kg/day divided twice daily.",
+        "explanation": "Spironolactone is a potassium-sparing diuretic dosed orally at 1–3 mg/kg/day divided twice daily."
+      },
+      {
+        "q": "What is the primary cellular mechanism of action of Digitalis (Digoxin)?",
+        "options": [
+          "A) Inhibits Angiotensin-Converting Enzyme",
+          "B) Inhibits membrane Na+,K+-ATPase, increasing intracellular Ca2+ to enhance myocardial contractility",
+          "C) Selective beta-2 receptor antagonist",
+          "D) Direct stimulation of nitric oxide synthase"
+        ],
+        "correct": 1,
+        "hint": "Inhibits Na+,K+-ATPase, raising intracellular calcium to increase contractility.",
+        "explanation": "Digitalis blocks the Na+,K+-ATPase pump, elevating intracellular calcium and strengthening myocardial contraction."
+      },
+      {
+        "q": "What unique hemodynamic mechanism does Dopamine exhibit at low infusion rates?",
+        "options": [
+          "A) Causes profound peripheral vasoconstriction",
+          "B) Releases myocardial norepinephrine plus directly stimulates beta-receptors; at low rates, it dilates the renal artery, facilitating diuresis",
+          "C) Inhibits renal blood flow",
+          "D) Blocks alpha-1 adrenergic receptors"
+        ],
+        "correct": 1,
+        "hint": "Beta stimulation/norepinephrine release plus low-dose renal artery vasodilation aiding diuresis.",
+        "explanation": "Dopamine stimulates beta-1 receptors and releases norepinephrine, while low doses cause renal vasodilation to maintain renal perfusion and diuresis."
+      },
+      {
+        "q": "How is the intravenous infusion rate of Dopamine stratified according to its clinical effects?",
+        "options": [
+          "A) 0.01 mcg/kg/min for all indications",
+          "B) 3–5 mcg/kg/min: Inotropic (β+); >5 mcg/kg/min: Inotropic (β+) and Vasopressor (α+)",
+          "C) 50–100 mcg/kg/min",
+          "D) 1–2 mg/kg/min"
+        ],
+        "correct": 1,
+        "hint": "3–5 mcg/kg/min is primarily inotropic; >5 mcg/kg/min adds alpha vasopressor effects.",
+        "explanation": "Dopamine acts primarily as a positive inotrope at 3–5 mcg/kg/min (beta-effect) and adds vasopressor activity at rates >5 mcg/kg/min (alpha-effect)."
+      },
+      {
+        "q": "What is the recommended continuous infusion rate for Dobutamine in pediatric heart failure?",
+        "options": [
+          "A) 0.05–0.5 mcg/kg/min",
+          "B) 2–20 mcg/kg/min (No bolus dose required)",
+          "C) 50–100 mcg/kg/min",
+          "D) 0.02–0.04 units/min"
+        ],
+        "correct": 1,
+        "hint": "2–20 mcg/kg/min continuous infusion without a bolus.",
+        "explanation": "Dobutamine is infused continuously at 2–20 mcg/kg/min without a bolus dose."
+      },
+      {
+        "q": "What is the standard oral maintenance dosing regimen for Digoxin in pediatric patients?",
+        "options": [
+          "A) 1–2 mg/kg/day single dose",
+          "B) PO 10–15 mcg/kg/day divided 12-hourly",
+          "C) 100 mcg/kg IV push",
+          "D) 0.5 mg/kg every 6 hours"
+        ],
+        "correct": 1,
+        "hint": "Oral maintenance digoxin is 10–15 mcg/kg/day divided every 12 hours.",
+        "explanation": "Oral maintenance Digoxin is administered at 10–15 mcg/kg/day divided into two equal doses (12-hourly)."
+      },
+      {
+        "q": "What is the oral dosing regimen for the beta-blocker Carvedilol in pediatric heart failure?",
+        "options": [
+          "A) PO 5 mg/kg/dose 6-hourly",
+          "B) PO 0.03–0.08 mg/kg/dose given 12-hourly",
+          "C) PO 10 mg/kg daily",
+          "D) IV 1 mg/kg push"
+        ],
+        "correct": 1,
+        "hint": "Start low: 0.03–0.08 mg/kg/dose orally every 12 hours.",
+        "explanation": "Carvedilol is started at low doses: 0.03–0.08 mg/kg/dose orally twice daily."
+      },
+      {
+        "q": "Which pharmacological agents act as DILATORS to reduce AFTERLOAD in pediatric CHF?",
+        "options": [
+          "A) Furosemide and Spironolactone",
+          "B) Hydralazine (arteriolar dilator), Nitroprusside (arterial/venous dilator), and Captopril / Enalapril (ACE inhibitors)",
+          "C) Digoxin and Dopamine",
+          "D) Heparin and Warfarin"
+        ],
+        "correct": 1,
+        "hint": "Hydralazine, nitroprusside, and ACE inhibitors like captopril or enalapril.",
+        "explanation": "Vasodilators that decrease systemic vascular resistance (afterload) include direct vasodilators (hydralazine, nitroprusside) and ACE inhibitors (captopril, enalapril)."
+      },
+      {
+        "q": "What are the oral and intravenous dosing specifications for Hydralazine in pediatric heart failure?",
+        "options": [
+          "A) Oral: 10 mg/kg daily; IV: 5 mg/kg push",
+          "B) Oral: 0.75–3 mg/kg/day divided 6–12 hours; IV: 0.1–0.5 mg/kg/dose IV q6–8h (maximum 2 mg/kg/dose)",
+          "C) Oral: 0.01 mg/kg daily; IV: 0.02 mg/kg daily",
+          "D) Continuous IV infusion at 50 mg/hour"
+        ],
+        "correct": 1,
+        "hint": "PO 0.75–3 mg/kg/day divided q6–12h; IV 0.1–0.5 mg/kg/dose (max 2 mg/kg/dose).",
+        "explanation": "Hydralazine is given orally at 0.75–3 mg/kg/day (divided q6–12h) or intravenously at 0.1–0.5 mg/kg/dose (max 2 mg/kg/dose)."
+      },
+      {
+        "q": "What is the oral dosing regimen and maximum daily limit for the ACE inhibitor Captopril?",
+        "options": [
+          "A) PO 0.3–0.6 mg/kg/dose every 6–12 hours (maximum 6 mg/kg/day)",
+          "B) PO 5 mg/kg/dose 4-hourly (max 50 mg/day)",
+          "C) PO 0.01 mg/kg/day single dose",
+          "D) PO 20 mg/kg/day divided 8-hourly"
+        ],
+        "correct": 0,
+        "hint": "PO 0.3–0.6 mg/kg/dose every 6–12 hours, up to max 6 mg/kg/day.",
+        "explanation": "Captopril is administered orally at 0.3–0.6 mg/kg/dose every 6 to 12 hours, with a maximum daily ceiling of 6 mg/kg/day."
+      },
+      {
+        "q": "What are the oral dosing regimens for Enalapril and Lisinopril in pediatric heart failure?",
+        "options": [
+          "A) Enalapril PO: 0.08 mg/kg/day once or divided 12-hourly (max 5 mg); Lisinopril PO: 0.07 mg/kg/day (max 5 mg/day)",
+          "B) Enalapril PO: 10 mg/kg daily; Lisinopril PO: 20 mg/kg daily",
+          "C) Enalapril PO: 1 mg/kg 6-hourly; Lisinopril PO: 2 mg/kg 6-hourly",
+          "D) Both are given as IV boluses at 5 mg/kg"
+        ],
+        "correct": 0,
+        "hint": "Enalapril PO 0.08 mg/kg/day (max 5 mg); Lisinopril PO 0.07 mg/kg/day (max 5 mg/day).",
+        "explanation": "Enalapril is dosed at 0.08 mg/kg/day (max 5 mg), and Lisinopril is dosed at 0.07 mg/kg/day (max 5 mg/day)."
+      },
+      {
+        "q": "Why is Thrombo-Embolism Prophylaxis recommended in pediatric heart failure, and what agent is preferred?",
+        "options": [
+          "A) To prevent cardiac arrest; Aspirin is preferred",
+          "B) To reduce the risk of deep venous thrombosis (DVT) and pulmonary embolism (PE) in non-anticoagulated patients; Low Molecular Weight Heparin (LMWH) is recommended",
+          "C) To improve coronary perfusion; Streptokinase is preferred",
+          "D) To prevent systemic bleeding; Vitamin K is recommended"
+        ],
+        "correct": 1,
+        "hint": "Prevents DVT/PE in eligible patients; LMWH is recommended.",
+        "explanation": "Stasis in heart failure increases thromboembolic risk; LMWH is recommended for DVT/PE prophylaxis in patients without contraindications."
+      },
+      {
+        "q": "What is the dosing protocol for Unfractionated Heparin when used for thrombo-embolism management?",
+        "options": [
+          "A) IV Bolus: 50–100 IU/kg, followed by IV Infusion of 20 IU/kg/hour",
+          "B) IV Bolus: 1000 IU/kg single dose",
+          "C) Oral tablets 500 IU daily",
+          "D) Subcutaneous injection of 5 IU/kg weekly"
+        ],
+        "correct": 0,
+        "hint": "IV bolus of 50–100 IU/kg followed by 20 IU/kg/hr infusion.",
+        "explanation": "Unfractionated heparin protocol requires an IV bolus of 50–100 IU/kg followed by a continuous infusion of 20 IU/kg/hr."
+      },
+      {
+        "q": "What are the age-stratified subcutaneous prophylactic doses for Low Molecular Weight Heparin (LMWH)?",
+        "options": [
+          "A) <2 months: 0.75 mg/kg SC every 12 hours; ≥2 months: 0.5 mg/kg SC every 12 hours",
+          "B) <2 months: 5 mg/kg SC daily; ≥2 months: 10 mg/kg SC daily",
+          "C) All ages: 2 mg/kg SC single dose",
+          "D) <2 months: 0.1 mg/kg SC weekly"
+        ],
+        "correct": 0,
+        "hint": "0.75 mg/kg SC q12h under 2 months; 0.5 mg/kg SC q12h at 2 months and older.",
+        "explanation": "LMWH prophylactic dosing is 0.75 mg/kg SC q12h in infants <2 months, and 0.5 mg/kg SC q12h in children ≥2 months."
+      },
+      {
+        "q": "How does Echocardiography categorize Left Ventricular Ejection Fraction (LVEF) to differentiate Systolic from Diastolic Dysfunction?",
+        "options": [
+          "A) Systolic dysfunction: LVEF >70%; Diastolic dysfunction: LVEF <20%",
+          "B) Systolic dysfunction: LVEF <40%; Diastolic dysfunction: LVEF >40%",
+          "C) Systolic dysfunction: LVEF = 50%; Diastolic dysfunction: LVEF = 50%",
+          "D) Echocardiogram cannot measure ejection fraction"
+        ],
+        "correct": 1,
+        "hint": "LVEF <40% indicates systolic dysfunction; LVEF >40% indicates diastolic dysfunction.",
+        "explanation": "Echocardiography defines systolic dysfunction as an LVEF <40%, whereas diastolic dysfunction occurs with preserved ejection fraction (LVEF >40%)."
+      },
+      {
+        "q": "What dietary modifications are essential components of general supportive care in pediatric heart failure?",
+        "options": [
+          "A) High salt and fluid-restricted diet",
+          "B) Low salt and high calorie diet",
+          "C) Zero protein and low calorie diet",
+          "D) High sodium and low fat diet"
+        ],
+        "correct": 1,
+        "hint": "Low salt to limit fluid retention, high calorie to support growth and energy demands.",
+        "explanation": "Dietary management requires sodium restriction (to minimize fluid retention) alongside high caloric density (to combat failure to thrive and metabolic demands)."
+      },
+      {
+        "q": "What is the infusion dose and pharmacological class of Milrinone as listed in the inotrope reference table?",
+        "options": [
+          "A) Bolus of 10 mg/kg; Loop diuretic",
+          "B) Continuous IV infusion: 0.25–0.75 mcg/kg/min (No bolus dose required); Inodilator / Phosphodiesterase inhibitor",
+          "C) 5 mcg/kg/min; Alpha-blocker",
+          "D) 100 mcg/kg/min; Beta-agonist"
+        ],
+        "correct": 1,
+        "hint": "0.25–0.75 mcg/kg/min continuous IV infusion with no bolus required.",
+        "explanation": "Milrinone is infused continuously at 0.25–0.75 mcg/kg/min without a bolus dose."
+      },
+      {
+        "q": "A 3-month-old infant girl (weight 5 kg) with a large Ventricular Septal Defect (VSD) presents with severe feeding intolerance, forehead sweating, HR 165 bpm, RR 68 breaths/min, hepatomegaly 4 cm below the costal margin, gallop rhythm, and poor weight gain. Echocardiography confirms severe volume overload with LVEF of 35%. Identify the primary pathophysiological driver and formulate the '4D' management regimen.",
+        "options": [
+          "A) Primary driver: Pressure overload; Treatment: High-dose fluid bolus and surgical repair only",
+          "B) Primary driver: Volume overload (left-to-right shunt) causing systolic dysfunction; Treatment ('4D'): Defect — Plan surgical/catheter VSD closure; Diet — High calorie, low salt enteral feeding; Digitalis — Oral Digoxin 10–15 mcg/kg/day divided 12-hourly; Diuretics (Preload reduction) — IV/PO Furosemide 1–2 mg/kg q6–8h + PO Spironolactone 1–3 mg/kg/day divided 12-hourly; Dilators (Afterload reduction) — Oral Captopril 0.3–0.6 mg/kg/dose q6–12h",
+          "C) Primary driver: Primary diastolic stiffness; Treatment: Propranolol alone",
+          "D) Primary driver: Cor pulmonale; Treatment: Inhaled nitric oxide alone"
+        ],
+        "correct": 1,
+        "hint": "Large VSD = volume overload (LVEF 35% = systolic dysfunction); apply Defects, Diet, Digitalis, Diuretics, and Dilators.",
+        "explanation": "1) A large VSD causes severe left-to-right shunting, leading to pulmonary hyperperfusion, volume overload, and impaired systolic function (LVEF 35%). 2) Medical optimization uses the complete 4D framework: Defects (surgical planning), Diet (high calorie, low salt), Digitalis (oral Digoxin 10–15 mcg/kg/day divided BID), Diuretics (Furosemide 1–2 mg/kg + Spironolactone 1–3 mg/kg/day), and Dilators (Captopril 0.3–0.6 mg/kg/dose)."
+      }
+    ]
+  }
+]
