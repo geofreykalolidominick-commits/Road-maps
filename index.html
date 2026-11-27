@@ -654,9 +654,10 @@
       flex: 1;
       min-width: 150px;
       position: relative;
-      height: 18px;
+      height: 28px;
       display: flex;
       align-items: center;
+      touch-action: none;
     }
 
     .rev-progress-track {
@@ -665,26 +666,40 @@
       background: #262c36;
       border-radius: 999px;
       overflow: hidden;
+      pointer-events: none;
     }
 
     .rev-progress-fill {
       height: 100%;
       background: #e2e8f0;
       width: 0%;
-      transition: width 0.2s ease;
+      transition: width 0.08s linear;
     }
 
     .rev-scrubber-dot {
       position: absolute;
       left: 0%;
       transform: translateX(-50%);
-      width: 15px;
-      height: 15px;
+      width: 16px;
+      height: 16px;
       border-radius: 50%;
       background: #0d1117;
       border: 2.5px solid #e2e8f0;
-      transition: left 0.2s ease;
+      transition: left 0.08s linear;
       pointer-events: none;
+      box-shadow: 0 0 0 3px rgba(13, 17, 23, 0.55);
+    }
+
+    .rev-scrubber-input {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      opacity: 0;
+      cursor: pointer;
+      z-index: 2;
+      touch-action: none;
     }
 
     .rev-counter-text {
@@ -1113,6 +1128,15 @@
                 <div id="revProgressFill" class="rev-progress-fill"></div>
               </div>
               <div id="revScrubberDot" class="rev-scrubber-dot"></div>
+              <input
+                id="revScrubberInput"
+                class="rev-scrubber-input"
+                type="range"
+                min="1"
+                max="1"
+                value="1"
+                aria-label="Jump to question number"
+              />
             </div>
             <span id="revCounterText" class="rev-counter-text">1 / 1</span>
             <span id="revWrongPill" class="rev-pill-wrong">✕ 0</span>
@@ -1430,6 +1454,7 @@
       revBackToSubjectBtn: document.getElementById("revBackToSubjectBtn"),
       revProgressFill: document.getElementById("revProgressFill"),
       revScrubberDot: document.getElementById("revScrubberDot"),
+      revScrubberInput: document.getElementById("revScrubberInput"),
       revCounterText: document.getElementById("revCounterText"),
       revWrongPill: document.getElementById("revWrongPill"),
       revRightPill: document.getElementById("revRightPill"),
@@ -2136,11 +2161,14 @@
           }
         });
 
-        const pct = Math.round(((idx + 1) / total) * 100);
+        const pct = qs.length > 1 ? Math.round((idx / (qs.length - 1)) * 100) : 100;
         els.revBreadcrumb.textContent = `${revState.year} • ${topicObj ? getTopicTitle(topicObj, revState.topicIndex || 0) : "Quiz"}`;
         els.revProgressFill.style.width = `${pct}%`;
         els.revScrubberDot.style.left = `${pct}%`;
-        els.revCounterText.textContent = `${idx + 1} / ${total}`;
+        els.revScrubberInput.min = "1";
+        els.revScrubberInput.max = String(total);
+        els.revScrubberInput.value = String(idx + 1);
+        els.revCounterText.textContent = `${idx + 1} / ${qs.length}`;
         els.revWrongPill.textContent = `✕ ${wrongCount}`;
         els.revRightPill.textContent = `✓ ${rightCount}`;
 
@@ -2592,6 +2620,17 @@
       revState.hintOpen = false;
       revState.step = "quiz";
       renderRevisionView();
+    });
+
+    els.revScrubberInput.addEventListener("input", () => {
+      if (revState.step !== "quiz" || !revState.questions.length) return;
+      const targetNum = Number(els.revScrubberInput.value);
+      const clampedIdx = Math.min(Math.max(0, targetNum - 1), revState.questions.length - 1);
+      if (clampedIdx !== revState.currentIndex) {
+        revState.currentIndex = clampedIdx;
+        revState.hintOpen = false;
+        renderRevisionView();
+      }
     });
 
     els.revHintToggleBtn.addEventListener("click", () => {
