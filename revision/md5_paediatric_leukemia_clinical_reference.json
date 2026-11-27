@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Pediatric Leukemia Clinical Reference",
+    "questions": [
+      {
+        "q": "What is the peak age of incidence for Acute Lymphoblastic Leukemia (ALL) in pediatric patients?",
+        "options": [
+          "A) 2 to 5 years of age",
+          "B) Under 6 months of age",
+          "C) 10 to 14 years of age",
+          "D) 15 to 18 years of age"
+        ],
+        "correct": 0,
+        "hint": "Early childhood peak between 2 and 5 years of age.",
+        "explanation": "Pediatric Acute Lymphoblastic Leukemia (ALL) displays a prominent early childhood peak, presenting most frequently between 2 and 5 years of age."
+      },
+      {
+        "q": "What proportion of all pediatric leukemia cases is represented by Acute Lymphoblastic Leukemia (ALL)?",
+        "options": [
+          "A) 15% to 20%",
+          "B) 75% to 80%",
+          "C) 40% to 50%",
+          "D) Less than 5%"
+        ],
+        "correct": 1,
+        "hint": "ALL accounts for 75% to 80% of childhood leukemias.",
+        "explanation": "ALL is the single most common childhood malignancy, accounting for 75% to 80% of all pediatric leukemia cases."
+      },
+      {
+        "q": "According to WHO diagnostic criteria, what minimum percentage of blast cells in the bone marrow or peripheral blood is required to diagnose Acute Leukemia?",
+        "options": [
+          "A) ≥5%",
+          "B) ≥10%",
+          "C) ≥20%",
+          "D) ≥50%"
+        ],
+        "correct": 2,
+        "hint": "WHO criteria require ≥20% blasts.",
+        "explanation": "The World Health Organization (WHO) defines acute leukemia by the demonstration of 20% or more immature lymphoblasts or myeloblasts in the bone marrow or peripheral blood."
+      },
+      {
+        "q": "Which cell lineage accounts for approximately 85% of childhood Acute Lymphoblastic Leukemia cases?",
+        "options": [
+          "A) Plasmacytoid dendritic cells",
+          "B) Natural Killer (NK) cells",
+          "C) T-lymphocyte lineage",
+          "D) Precursor B-lymphocyte lineage (B-ALL)"
+        ],
+        "correct": 3,
+        "hint": "Precursor B-cell ALL (B-ALL) makes up ~85% of ALL.",
+        "explanation": "Precursor B-cell ALL (B-ALL) comprises approximately 85% of pediatric ALL cases, whereas T-cell ALL (T-ALL) accounts for the remaining 15%."
+      },
+      {
+        "q": "What classic clinical triad results directly from bone marrow failure due to leukemic blast overcrowding?",
+        "options": [
+          "A) Anemia (pallor/fatigue), Thrombocytopenia (bleeding/petechiae), and Neutropenia (fever/infections)",
+          "B) Polycythemia, thrombocytosis, and leukocytosis",
+          "C) Jaundice, splenomegaly, and gallstones",
+          "D) Hypertension, proteinuria, and edema"
+        ],
+        "correct": 0,
+        "hint": "Anemia, thrombocytopenia, and neutropenia from marrow replacement.",
+        "explanation": "Replacement of normal marrow elements by proliferating leukemic blasts impairs hematopoiesis, presenting as anemia, thrombocytopenic bleeding, and neutropenic fever."
+      },
+      {
+        "q": "Which diagnostic surface antigen marker is expressed on B-lymphoblasts and historically designated as CALLA (Common ALL Antigen)?",
+        "options": [
+          "A) CD3",
+          "B) CD10",
+          "C) CD13",
+          "D) CD33"
+        ],
+        "correct": 1,
+        "hint": "CD10 is CALLA.",
+        "explanation": "CD10 is known as the Common Acute Lymphoblastic Leukemia Antigen (CALLA) and is expressed on the majority of precursor B-ALL lymphoblasts."
+      },
+      {
+        "q": "What percentage of pediatric leukemia cases is represented by Acute Myeloid Leukemia (AML)?",
+        "options": [
+          "A) 75% to 80%",
+          "B) 50% to 60%",
+          "C) 15% to 20%",
+          "D) Less than 1%"
+        ],
+        "correct": 2,
+        "hint": "AML accounts for ~15% to 20% of pediatric leukemias.",
+        "explanation": "Acute Myeloid Leukemia (AML) constitutes approximately 15% to 20% of childhood leukemias but carries a higher proportion of leukemia-related mortality."
+      },
+      {
+        "q": "Which enzyme marker, detected by immunohistochemistry or flow cytometry, confirms myeloid lineage in Acute Myeloid Leukemia?",
+        "options": [
+          "A) Terminal deoxynucleotidyl transferase (TdT)",
+          "B) Alkaline phosphatase",
+          "C) Lactate dehydrogenase (LDH)",
+          "D) Myeloperoxidase (MPO)"
+        ],
+        "correct": 3,
+        "hint": "Myeloperoxidase (MPO) confirms myeloid lineage.",
+        "explanation": "Myeloperoxidase (MPO) is an enzyme specific to the myeloid lineage; its positivity distinguishes AML from ALL."
+      },
+      {
+        "q": "Which sub-type of ALL typically presents in older adolescent males with a rapidly enlarging anterior mediastinal mass and high leukocyte counts?",
+        "options": [
+          "A) T-cell Acute Lymphoblastic Leukemia (T-ALL)",
+          "B) Precursor B-ALL",
+          "C) Hyperdiploid B-ALL",
+          "D) Congenital leukemia"
+        ],
+        "correct": 0,
+        "hint": "T-ALL often presents in adolescent boys with a mediastinal mass and high WBC.",
+        "explanation": "T-ALL predominantly affects older adolescent boys, classically presenting with hyperleukocytosis and an anterior mediastinal mass causing airway or superior vena cava compression."
+      },
+      {
+        "q": "What is the gold standard diagnostic procedure required to confirm pediatric leukemia and perform lineage immunophenotyping?",
+        "options": [
+          "A) Peripheral blood film examination only",
+          "B) Bone marrow aspiration and biopsy",
+          "C) Lymph node excision",
+          "D) Lumbar puncture"
+        ],
+        "correct": 1,
+        "hint": "Bone marrow aspiration and biopsy.",
+        "explanation": "Although peripheral blood may show circulating blasts, definitive diagnosis, cytogenetic risk stratification, and flow cytometry require a bone marrow aspirate and biopsy."
+      },
+      {
+        "q": "Which chromosomal cytogenetic abnormality represents the single most common favorable genetic alteration in pediatric B-ALL, present in 25–30% of cases?",
+        "options": [
+          "A) Hypodiploidy (<44 chromosomes)",
+          "B) KMT2A (MLL) gene rearrangement",
+          "C) High Hyperdiploidy (>50 chromosomes, often with trisomies 4, 10, and 17)",
+          "D) Philadelphia chromosome t(9;22)"
+        ],
+        "correct": 2,
+        "hint": "High hyperdiploidy (>50 chromosomes) is a common favorable B-ALL finding.",
+        "explanation": "High hyperdiploidy (>50 chromosomes per leukemic cell) carries an excellent treatment response and favorable prognosis, accounting for nearly one-third of B-ALL cases."
+      },
+      {
+        "q": "Which translocation fusion gene, present in 20–25% of pediatric B-ALL cases, confers a highly favorable prognosis and high cure rates with standard chemotherapy?",
+        "options": [
+          "A) BCR::ABL1 t(9;22)",
+          "B) TCF3::PBX1 t(1;19)",
+          "C) KMT2A::AFF1 t(4;11)",
+          "D) ETV6::RUNX1 t(12;21) [formerly TEL-AML1]"
+        ],
+        "correct": 3,
+        "hint": "ETV6::RUNX1 [t(12;21)] is favorable in B-ALL.",
+        "explanation": "The ETV6::RUNX1 cryptic translocation [t(12;21)(p13;q22)] is the most frequent structural rearrangement in childhood B-ALL and is associated with superior event-free survival."
+      },
+      {
+        "q": "Which cytogenetic abnormality defines the Philadelphia chromosome (Ph+) in ALL and mandates the addition of a Tyrosine Kinase Inhibitor (TKI) to chemotherapy?",
+        "options": [
+          "A) Translocation t(9;22)(q34;q11.2) creating the BCR::ABL1 fusion gene",
+          "B) Inversion inv(16)(p13q22)",
+          "C) Translocation t(15;17)(q22;q12)",
+          "D) Deletion del(5q)"
+        ],
+        "correct": 0,
+        "hint": "t(9;22) / BCR::ABL1 = Philadelphia chromosome; treat with a TKI.",
+        "explanation": "The Philadelphia chromosome t(9;22) generates the constitutively active BCR::ABL1 tyrosine kinase driver, requiring targeted TKI therapy (Imatinib or Dasatinib)."
+      },
+      {
+        "q": "What specific chromosomal rearrangement is uniquely characteristic of infant leukemia (<1 year of age) and carries a high risk of induction failure and early relapse?",
+        "options": [
+          "A) ETV6::RUNX1 fusion",
+          "B) KMT2A (MLL) gene rearrangements at chromosome 11q23",
+          "C) Trisomy 21",
+          "D) Hyperdiploidy >50"
+        ],
+        "correct": 1,
+        "hint": "KMT2A (MLL) rearrangements at 11q23 in infants <1 year.",
+        "explanation": "Rearrangements of the KMT2A (MLL) gene at 11q23 occur in >70–80% of infant ALL cases, representing an aggressive, chemoresistant leukemia subtype."
+      },
+      {
+        "q": "Which acute leukemia subtype presents with severe disseminated intravascular coagulation (DIC) due to the release of pro-coagulant tissue factors from leukemic promyelocytes?",
+        "options": [
+          "A) T-cell ALL",
+          "B) Pre-B ALL",
+          "C) Acute Promyelocytic Leukemia (APL, AML M3) with t(15;17) PML::RARA",
+          "D) Juvenile Myelomonocytic Leukemia (JMML)"
+        ],
+        "correct": 2,
+        "hint": "APL (AML M3) with t(15;17) PML::RARA causes severe DIC.",
+        "explanation": "APL (AML M3) is characterized by abnormal promyelocytes packed with Auer rods that trigger life-threatening DIC, requiring immediate start of All-Trans Retinoic Acid (ATRA)."
+      },
+      {
+        "q": "What underlying constitutional genetic disorder carries a 10- to 20-fold increased risk of developing childhood acute leukemia, including a unique predisposition to Acute Megakaryoblastic Leukemia (AML M7)?",
+        "options": [
+          "A) Neurofibromatosis Type 1",
+          "B) Fanconi Anemia",
+          "C) Ataxia-Telangiectasia",
+          "D) Down Syndrome (Trisomy 21)"
+        ],
+        "correct": 3,
+        "hint": "Down syndrome (trisomy 21).",
+        "explanation": "Children with Down syndrome have a markedly increased risk of ALL and a specific predisposition to Transient Myeloproliferative Disorder (TMD) and Acute Megakaryoblastic Leukemia (AML M7) in early infancy."
+      },
+      {
+        "q": "Which immunophenotypic marker profile specifically establishes the diagnosis of precursor T-cell ALL (T-ALL)?",
+        "options": [
+          "A) Cytoplasmic or surface CD3, CD7, CD2, and CD5",
+          "B) CD19, CD10, CD22, and CD79a",
+          "C) CD13, CD33, CD117, and MPO",
+          "D) CD14, CD64, and lysozyme"
+        ],
+        "correct": 0,
+        "hint": "CD3 (cytoplasmic or surface) plus CD7, CD2, and CD5.",
+        "explanation": "T-ALL lymphoblasts express pan-T-cell markers, with cytoplasmic or surface CD3 being the definitive lineage-specific marker, alongside CD7, CD2, and CD5."
+      },
+      {
+        "q": "What is a Myeloid Sarcoma (Chloroma)?",
+        "options": [
+          "A) A benign vascular tumor of the liver",
+          "B) An extramedullary tumor mass composed of leukemic myeloid blasts occurring in soft tissues, bone, or orbits",
+          "C) A fungal infection occurring during neutropenia",
+          "D) A primary brain tumor originating in astrocytes"
+        ],
+        "correct": 1,
+        "hint": "Extramedullary mass of myeloid blasts (chloroma).",
+        "explanation": "A myeloid sarcoma (chloroma) is a localized extramedullary tumor mass of immature myeloid blasts that may precede or accompany marrow involvement in AML."
+      },
+      {
+        "q": "What structural cytogenetic rearrangements in AML belong to the 'Core-Binding Factor' (CBF) category and confer a favorable outcome?",
+        "options": [
+          "A) Complex karyotype (>5 abnormalities)",
+          "B) Monosomy 7 (-7) and del(5q)",
+          "C) Translocation t(8;21)(q22;q22) [RUNX1::RUNX1T1] and Inversion inv(16)(p13q22) [CBFB::MYH11]",
+          "D) FLT3-ITD mutation with high allelic ratio"
+        ],
+        "correct": 2,
+        "hint": "t(8;21) and inv(16) are core-binding factor AMLs with favorable prognosis.",
+        "explanation": "Core-binding factor (CBF) AMLs, involving t(8;21) or inv(16), disrupt transcription factor complexes and carry a favorable prognosis in pediatric AML."
+      },
+      {
+        "q": "How is Central Nervous System (CNS) status classified as 'CNS-3' (CNS leukemia) upon diagnostic lumbar puncture?",
+        "options": [
+          "A) Absence of blasts in CSF with WBC < 5/µL",
+          "B) Presence of cytospin-positive blasts with WBC < 5/µL (CNS-2)",
+          "C) Traumatic lumbar puncture with blood contamination",
+          "D) Demonstration of cytospin-positive leukemic blasts in CSF with a CSF WBC count ≥ 5/µL, or clinical cranial nerve palsy"
+        ],
+        "correct": 3,
+        "hint": "CSF WBC ≥ 5/µL with blasts present, or cranial nerve palsy.",
+        "explanation": "CNS-3 (active CNS leukemia) is defined by ≥ 5 WBCs/µL in CSF with positive blast cytology, or the presence of a leukemic cranial nerve palsy."
+      },
+      {
+        "q": "What characteristic skeletal symptom in young children with ALL often leads to initial misdiagnosis as juvenile idiopathic arthritis or osteomyelitis?",
+        "options": [
+          "A) Severe bone pain, nocturnal leg pain, limping, or refusal to bear weight due to leukemic marrow expansion",
+          "B) Painless hyperostosis of the calvarium",
+          "C) Symmetrical bowing of the tibiae",
+          "D) Acute pathologic joint dislocation"
+        ],
+        "correct": 0,
+        "hint": "Bone pain, night pain, or limping from marrow expansion.",
+        "explanation": "Leukemic expansion within the medullary cavity and periosteal infiltration cause intense bone and joint pain, frequently presenting as limping or refusal to walk."
+      },
+      {
+        "q": "What physical examination finding defines extramedullary leukemic relapse or sanctuary site involvement in male patients with B-ALL?",
+        "options": [
+          "A) Acute unilateral testicular torsion",
+          "B) Painless, hard, asymmetrical enlargement of one or both testes",
+          "C) Bilateral hydrocele formation",
+          "D) Inguinal hernia incarceration"
+        ],
+        "correct": 1,
+        "hint": "Painless, firm enlargement of a testis.",
+        "explanation": "The testes serve as an anatomical sanctuary site for leukemic cells due to the blood-testis barrier; involvement presents as painless, firm testicular enlargement."
+      },
+      {
+        "q": "What is Minimal Residual Disease (MRD), and why is it measured during acute leukemia therapy?",
+        "options": [
+          "A) The persistent presence of physical symptoms after 1 year",
+          "B) The size of the spleen measured on ultrasound",
+          "C) Sub-microscopic leukemic cell persistence (below morphological detection) measured by flow cytometry or molecular methods, serving as the single strongest predictor of relapse risk",
+          "D) The count of mature neutrophils remaining in blood"
+        ],
+        "correct": 2,
+        "hint": "Sub-microscopic residual blasts; strongest predictor of relapse risk.",
+        "explanation": "MRD quantifies residual leukemic blasts down to 10⁻⁴ (0.01%) or lower at key treatment milestones (e.g., end of induction), guiding risk-directed treatment escalation."
+      },
+      {
+        "q": "What threshold of End-of-Induction Minimal Residual Disease (MRD) by flow cytometry is universally used to define MRD-positivity requiring treatment intensification?",
+        "options": [
+          "A) ≥5.0%",
+          "B) ≥1.0%",
+          "C) ≥0.1%",
+          "D) ≥0.01% (1 leukemic cell per 10,000 normal cells)"
+        ],
+        "correct": 3,
+        "hint": "≥0.01% (10⁻⁴).",
+        "explanation": "An end-of-induction MRD level ≥ 0.01% (0.0001) identifies patients with high risk of relapse who require treatment intensification or stem cell transplantation."
+      },
+      {
+        "q": "Which oncological emergency manifests in pediatric ALL with hyperleukocytosis (WBC > 100,000/µL) causing microvascular sludging, neurological deficits, and respiratory distress?",
+        "options": [
+          "A) Leukostasis syndrome",
+          "B) Tumor Lysis Syndrome",
+          "C) Anaphylactic shock",
+          "D) Neutropenic enterocolitis"
+        ],
+        "correct": 0,
+        "hint": "Hyperleukocytosis (>100,000/µL) causing microvascular sludging = leukostasis.",
+        "explanation": "Extremely high circulating blast counts (>100,000/µL) increase blood viscosity, leading to microvascular leukostasis, hypoxia, CNS hemorrhage, and respiratory failure."
+      },
+      {
+        "q": "What metabolic derangements constitute the classic biochemical diagnostic tetrad of Acute Tumor Lysis Syndrome (TLS)?",
+        "options": [
+          "A) Hyponatremia, hypokalemia, hypophosphatemia, and hypercalcemia",
+          "B) Hyperkalemia, Hyperphosphatemia, Hyperuricemia, and Hypocalcemia",
+          "C) Hypernatremia, hyperglycemia, hypercalcemia, and hypokalemia",
+          "D) Hypoglycemia, hypophosphatemia, hypercalcemia, and hyponatremia"
+        ],
+        "correct": 1,
+        "hint": "High K+, high PO4, high uric acid, and low Ca2+.",
+        "explanation": "TLS results from rapid release of intracellular contents from lysed malignant cells, causing high potassium, phosphate, and uric acid, which secondarily precipitates serum calcium (hypocalcemia)."
+      },
+      {
+        "q": "Which pharmacological agent is a recombinant urate oxidase enzyme that rapidly breaks down uric acid into soluble allantoin to prevent acute renal failure in severe Tumor Lysis Syndrome?",
+        "options": [
+          "A) Allopurinol",
+          "B) Furosemide",
+          "C) Rasburicase",
+          "D) Sodium bicarbonate"
+        ],
+        "correct": 2,
+        "hint": "Rasburicase is recombinant urate oxidase.",
+        "explanation": "Rasburicase (recombinant urate oxidase) directly degrades existing uric acid into highly soluble allantoin, providing rapid clearance in patients with high TLS risk or established hyperuricemia."
+      },
+      {
+        "q": "What initial diagnostic imaging study is mandatory in any child presenting with suspected T-ALL or severe leukocytosis before performing sedation or procedures?",
+        "options": [
+          "A) Abdominal CT scan",
+          "B) Skeletal survey",
+          "C) Brain MRI",
+          "D) Upright Chest X-ray (to rule out a mediastinal mass and airway compression)"
+        ],
+        "correct": 3,
+        "hint": "Upright chest X-ray to check for an anterior mediastinal mass.",
+        "explanation": "An upright chest X-ray must be obtained immediately to detect anterior mediastinal mass expansion, which risks fatal airway collapse or cardiac arrest under sedation."
+      },
+      {
+        "q": "What cutaneous physical manifestation of leukemia occurs predominantly in congenital or infant leukemia, presenting as firm, violaceous dermal papules and nodules?",
+        "options": [
+          "A) 'Blueberry muffin' lesions (Leukemia cutis)",
+          "B) Erythema multiforme",
+          "C) Ecthyma gangrenosum",
+          "D) Urticaria pigmentosa"
+        ],
+        "correct": 0,
+        "hint": "'Blueberry muffin' lesions (leukemia cutis).",
+        "explanation": "Infiltration of leukemic blasts into the skin of neonates and infants produces characteristic dark blue/purple dermal nodules, known as 'blueberry muffin' lesions."
+      },
+      {
+        "q": "What specific clinical risk factors categorize a child with B-ALL as 'High Risk' under National Cancer Institute (NCI) criteria at diagnosis?",
+        "options": [
+          "A) Age < 1 year or > 10 years, OR initial White Blood Cell (WBC) count ≥ 50,000/µL",
+          "B) Age 2 to 5 years with initial WBC < 10,000/µL",
+          "C) Female sex with isolated anemia",
+          "D) Normal cytogenetics with negative MRD"
+        ],
+        "correct": 1,
+        "hint": "Age <1 or ≥10 years, or WBC ≥ 50,000/µL.",
+        "explanation": "NCI risk stratification for B-ALL defines High Risk as age <1 year or ≥10 years, or an initial WBC count ≥ 50,000/µL at presentation."
+      },
+      {
+        "q": "What are the standard chemotherapy drugs that comprise the 3- or 4-drug Induction regimen for pediatric B-ALL?",
+        "options": [
+          "A) Cisplatin, Etoposide, and Bleomycin",
+          "B) Cyclophosphamide, Doxorubicin, and Fluorouracil",
+          "C) Vincristine, a Corticosteroid (Dexamethasone or Prednisone), L-Asparaginase (Pegaspargase), +/- an Anthracycline (Daunorubicin)",
+          "D) Hydroxyurea and Cytarabine alone"
+        ],
+        "correct": 2,
+        "hint": "Vincristine, corticosteroid, L-asparaginase/pegaspargase, +/- daunorubicin.",
+        "explanation": "Standard ALL Induction utilizes Vincristine, Dexamethasone/Prednisone, and Pegaspargase (with Daunorubicin added for NCI High-Risk cases) to achieve complete morphologic remission."
+      },
+      {
+        "q": "What is the primary goal of the INDUCTION phase of chemotherapy in pediatric ALL treatment?",
+        "options": [
+          "A) Eradication of late relapsed clones after 3 years",
+          "B) Prevention of osteopenia",
+          "C) Elimination of mature red blood cells",
+          "D) Achievement of Complete Morphologic Remission (defined as <5% leukemic blasts in bone marrow with restoration of normal hematopoiesis)"
+        ],
+        "correct": 3,
+        "hint": "Complete morphologic remission (<5% marrow blasts and recovery of normal hematopoiesis).",
+        "explanation": "The Induction phase aims to clear >99% of initial systemic leukemic burden and restore normal hematopoiesis, defined by <5% marrow blasts."
+      },
+      {
+        "q": "Which targeted monoclonal antibody is a Bispecific T-cell Engager (BiTE) that binds CD19 on B-ALL lymphoblasts and CD3 on T-cells, approved for relapsed or MRD-positive B-ALL?",
+        "options": [
+          "A) Blinatumomab",
+          "B) Rituximab",
+          "C) Infliximab",
+          "D) Alemtuzumab"
+        ],
+        "correct": 0,
+        "hint": "Blinatumomab engages CD3 T-cells against CD19 B-ALL blasts.",
+        "explanation": "Blinatumomab engages autologous cytotoxic T-cells (via CD3) to lyse CD19-positive B-ALL blasts, proving highly effective in clearing resistant MRD and relapsed B-ALL."
+      },
+      {
+        "q": "What central maintenance chemotherapy regimen is administered orally over a duration of 2 to 3 years to maintain long-term remission in pediatric ALL?",
+        "options": [
+          "A) Daily IV Cytarabine and weekly IV Cisplatin",
+          "B) Daily oral 6-Mercaptopurine (6-MP) and weekly oral Methotrexate, supplemented with periodic pulses of Vincristine and Corticosteroids",
+          "C) Daily oral Hydroxyurea alone",
+          "D) Monthly IV Cyclophosphamide"
+        ],
+        "correct": 1,
+        "hint": "Daily oral 6-MP and weekly oral methotrexate (plus vincristine/steroid pulses).",
+        "explanation": "ALL Maintenance therapy relies on backbone anti-metabolite therapy with daily oral 6-MP and weekly oral Methotrexate over a total treatment duration of 2 to 3 years."
+      },
+      {
+        "q": "What pharmacogenomic enzyme deficiency impairs the metabolism of 6-Mercaptopurine (6-MP), predisposing patients to life-threatening myelosuppression unless the dose is drastically reduced?",
+        "options": [
+          "A) G6PD deficiency",
+          "B) UGT1A1 deficiency",
+          "C) Thiopurine S-methyltransferase (TPMT) or NUDT15 deficiency",
+          "D) CYP2D6 poor metabolizer"
+        ],
+        "correct": 2,
+        "hint": "TPMT or NUDT15 deficiency.",
+        "explanation": "TPMT and NUDT15 enzymes metabolize thiopurines (6-MP); inherited deficiencies cause accumulation of toxic thioguanine nucleotides, requiring dose reductions."
+      },
+      {
+        "q": "Which therapy is indicated for treatment of Acute Promyelocytic Leukemia (APL, t(15;17)) to induce terminal differentiation of promyelocytic blasts without causing cell lysis?",
+        "options": [
+          "A) High-dose Methotrexate and Cytarabine",
+          "B) Imidazole carboxamide",
+          "C) Monoclonal anti-CD20",
+          "D) All-Trans Retinoic Acid (ATRA) combined with Arsenic Trioxide (ATO)"
+        ],
+        "correct": 3,
+        "hint": "ATRA plus arsenic trioxide (ATO).",
+        "explanation": "ATRA and ATO target the PML::RARA fusion protein, driving malignant promyelocytes to differentiate into mature granulocytes and achieving cure rates >90%."
+      },
+      {
+        "q": "What targeted Chimeric Antigen Receptor (CAR) T-cell cellular therapy is FDA-approved for pediatric patients with relapsed or refractory B-ALL up to age 25?",
+        "options": [
+          "A) Tisagenlecleucel (anti-CD19 CAR-T)",
+          "B) Brentuximab vedotin",
+          "C) Ibrutinib",
+          "D) Venetoclax"
+        ],
+        "correct": 0,
+        "hint": "Tisagenlecleucel (anti-CD19 CAR-T).",
+        "explanation": "Tisagenlecleucel uses autologous T-cells genetically engineered with an anti-CD19 CAR to target refractory/relapsed B-ALL, inducing durable remissions."
+      },
+      {
+        "q": "Why is Intrathecal Chemotherapy (e.g., Intrathecal Methotrexate, Cytarabine, and Hydrocortisone) administered to ALL patients across all phases of treatment?",
+        "options": [
+          "A) To prevent local systemic skin toxicity",
+          "B) To provide CNS prophylaxis and eradicate sanctuary leukemic cells behind the blood-brain barrier",
+          "C) To stimulate endogenous bone marrow recovery",
+          "D) To prevent renal calculus formation"
+        ],
+        "correct": 1,
+        "hint": "CNS prophylaxis across the blood-brain barrier.",
+        "explanation": "Systemic chemotherapy poorly penetrates the blood-brain barrier; routine intrathecal injections prevent central nervous system relapse."
+      },
+      {
+        "q": "What toxic side effect is uniquely associated with L-Asparaginase (or Pegaspargase) therapy in pediatric ALL protocols?",
+        "options": [
+          "A) Acute renal tubular necrosis",
+          "B) Irreversible pulmonary fibrosis",
+          "C) Pancreatitis, thrombosis/coagulopathy (due to antithrombin III depletion), and hypersensitivity reactions",
+          "D) Cardiomyopathy with left ventricular failure"
+        ],
+        "correct": 2,
+        "hint": "Pancreatitis, thrombosis/coagulopathy, and hypersensitivity.",
+        "explanation": "Asparaginase depletes systemic asparagine and hepatic protein synthesis, predisposing patients to acute pancreatitis, hypofibrinogenemia, thrombosis, and allergic reactions."
+      },
+      {
+        "q": "What empirical intravenous antibiotic therapy must be initiated within 1 hour in a pediatric leukemia patient presenting with Febrile Neutropenia (Fever ≥ 38.3°C and Absolute Neutrophil Count < 500/µL)?",
+        "options": [
+          "A) Oral Amoxicillin at home",
+          "B) Intravenous Vancomycin monotherapy",
+          "C) Intravenous Metronidazole alone",
+          "D) Monotherapy with an antipseudomonal beta-lactam (e.g., Cefepime, Piperacillin-Tazobactam, or Meropenem)"
+        ],
+        "correct": 3,
+        "hint": "Prompt antipseudomonal beta-lactam (cefepime, piperacillin-tazobactam, or meropenem).",
+        "explanation": "Febrile neutropenia is a life-threatening emergency; immediate empiric broad-spectrum coverage against Pseudomonas aeruginosa and Gram-negative bacilli is required."
+      },
+      {
+        "q": "A 4-year-old girl presents with 3 weeks of fatigue, pallor, petechiae, nocturnal leg pain, lymphadenopathy, hepatosplenomegaly, Hb 6.5 g/dL, platelets 14,000/µL, WBC 42,000/µL, and 55% circulating lymphoblasts. Identify the diagnosis, bone marrow blast cutoff, and the four sequential chemotherapy phases.",
+        "options": [
+          "A) Acute Lymphoblastic Leukemia (ALL); ≥20% bone marrow blasts; Induction, Consolidation/Intensification, Interim Maintenance, and Maintenance",
+          "B) Aplastic Anemia; 0% blasts; Antithymocyte globulin, Cyclosporine, Steroids, and Transfusion",
+          "C) Infectious Mononucleosis; <5% blasts; Rest, Hydration, Analgesics, and Steroids",
+          "D) Idiopathic Thrombocytopenic Purpura (ITP); Normal marrow; IVIG alone"
+        ],
+        "correct": 0,
+        "hint": "Cytopenias + bone pain + lymphoblasts = ALL (≥20% blasts); 4 phases: induction, consolidation, interim maintenance, maintenance.",
+        "explanation": "Bone marrow failure + bone pain + circulating blasts indicates ALL. Confirmation requires ≥20% blasts on bone marrow evaluation. Standard management proceeds through Induction, Consolidation, Interim Maintenance, and Maintenance."
+      },
+      {
+        "q": "A 13-year-old boy presents with severe dyspnea, orthopnea, facial swelling, distended neck veins, stridor, a massive anterior mediastinal mass on CXR, and WBC 148,000/µL with 80% CD3+/CD7+ blasts. Diagnose the subtype, acute emergency, and critical sedation/procedure precaution.",
+        "options": [
+          "A) Precursor B-ALL; Tumor Lysis Syndrome; Perform immediate spinal anesthesia",
+          "B) T-cell Acute Lymphoblastic Leukemia (T-ALL); Superior Vena Cava (SVC) Syndrome and Airway Compression; Avoid deep sedation or general anesthesia due to risk of fatal airway collapse",
+          "C) Acute Myeloid Leukemia; Leukostasis; Perform immediate sternotomy",
+          "D) Hodgkin Lymphoma; Cardiac tamponade; Administer high-dose IV fluid boluses"
+        ],
+        "correct": 1,
+        "hint": "CD3+/CD7+ + mediastinal mass + SVC/airway signs = T-ALL; avoid sedation/anesthesia due to airway collapse risk.",
+        "explanation": "T-ALL in adolescent boys classically presents with mediastinal mass causing SVC syndrome and tracheal compression. Muscle relaxation during sedation causes loss of chest wall tone and fatal airway obstruction; procedures must be delayed until steroid/chemo shrinkage."
+      },
+      {
+        "q": "A 5-year-old boy with B-ALL on Day 3 of Induction has oliguria, K+ 6.4 mmol/L, uric acid 12.8 mg/dL, phosphorus 8.5 mg/dL, and ionized calcium 0.85 mmol/L. Identify the emergency, pathophysiological trigger, and immediate management.",
+        "options": [
+          "A) Acute Glomerulonephritis; Immune complex deposition; Give IV corticosteroids",
+          "B) Diabetic Ketoacidosis; Insulin deficiency; Start insulin infusion",
+          "C) Laboratory Tumor Lysis Syndrome (TLS); Massive rapid release of intracellular electrolytes and nucleic acids from lysed blasts; Administer aggressive IV hydration, Rasburicase (or Allopurinol), and manage hyperkalemia",
+          "D) Adrenal insufficiency; Adrenal hemorrhage; Give stress-dose hydrocortisone"
+        ],
+        "correct": 2,
+        "hint": "High K+, high PO4, high uric acid, low Ca2+ = TLS; treat with hydration, rasburicase/allopurinol, and hyperkalemia care.",
+        "explanation": "Hyperkalemia, hyperphosphatemia, hyperuricemia, and hypocalcemia define Tumor Lysis Syndrome. Management mandates hyperhydration without potassium, Rasburicase to clear uric acid, and cardiac monitoring."
+      },
+      {
+        "q": "A 2-year-old girl with NCI standard-risk B-ALL has 1.5% morphologic marrow blasts at end of Induction, but flow cytometry MRD is 0.4%. Interpret the MRD result, how it changes risk/therapy, and what targeted immunotherapy applies.",
+        "options": [
+          "A) MRD is negative; Stop chemotherapy early",
+          "B) MRD is invalid; Repeat bone marrow in 1 year",
+          "C) Patient has relapsed; Switch to end-of-life palliative care",
+          "D) Patient is MRD-positive (≥0.01%), indicating high risk of relapse; Therapy must be intensified (re-stratified to High-Risk protocol) and Blinatumomab or CAR-T considered"
+        ],
+        "correct": 3,
+        "hint": "MRD ≥0.01% predicts relapse; intensify therapy and consider blinatumomab or CAR-T.",
+        "explanation": "An end-of-induction MRD ≥ 0.01% (here 0.4%) is the strongest predictor of relapse. Morphologic remission alone is insufficient; the patient must be re-stratified to intensified chemotherapy and evaluated for Blinatumomab or CAR T-cell therapy."
+      },
+      {
+        "q": "An 8-year-old child has severe bleeding, hypergranular promyelocytes with Auer rods ('faggot cells'), PT 24s, fibrinogen 80 mg/dL, high D-dimer, and t(15;17)(q22;q12). Diagnose the subtype, hematological emergency, and immediate targeted agent.",
+        "options": [
+          "A) Acute Promyelocytic Leukemia (APL, AML M3); Disseminated Intravascular Coagulation (DIC); All-Trans Retinoic Acid (ATRA)",
+          "B) Pre-B ALL; Immune Thrombocytopenia; High-dose IVIG",
+          "C) Chronic Myeloid Leukemia; Blast crisis; Imatinib mesylate",
+          "D) T-ALL; Thrombotic Thrombocytopenic Purpura; Plasma exchange"
+        ],
+        "correct": 0,
+        "hint": "Auer rods/faggot cells + t(15;17) + coagulopathy = APL with DIC; start ATRA immediately.",
+        "explanation": "Promyelocytes with Auer rods and t(15;17) define APL (AML M3). Granule release causes severe DIC. Immediate administration of ATRA promotes promyelocyte differentiation and resolves coagulopathy."
+      },
+      {
+        "q": "A 6-year-old boy in remission on Maintenance B-ALL therapy for 18 months develops painless, firm 3 cm left testicular enlargement. What is the primary suspicion, why does the testis act this way, and what confirms diagnosis?",
+        "options": [
+          "A) Hydrocele; Fluid accumulation; Transillumination test",
+          "B) Extramedullary Testicular Relapse of B-ALL; The blood-testis barrier acts as an anatomical sanctuary site shielding blasts from systemic chemotherapy; Bilateral testicular wedge biopsy",
+          "C) Epididymitis; Bacterial infection; Urine culture",
+          "D) Testicular torsion; Vascular occlusion; Emergency Doppler ultrasound"
+        ],
+        "correct": 1,
+        "hint": "Painless firm testicular enlargement in ALL = testicular relapse (blood-testis sanctuary); confirm with biopsy.",
+        "explanation": "Painless firm testicular swelling during or after ALL therapy indicates isolated testicular relapse. The blood-testis barrier shields blasts from systemically administered drugs. Diagnosis is confirmed by testicular biopsy."
+      },
+      {
+        "q": "A 3-month-old infant has hepatosplenomegaly, 'blueberry muffin' skin lesions, WBC 180,000/µL with 75% lymphoblasts, and KMT2A (MLL) translocation t(4;11)(q21;q23). Classify the presentation, KMT2A prognosis in infants, and consolidation modality.",
+        "options": [
+          "A) Standard-Risk Infant B-ALL; Favorable prognosis; Maintenance therapy alone",
+          "B) Transient Myeloproliferative Disorder; Self-limiting; Observation only",
+          "C) High-Risk Infant ALL with KMT2A rearrangement; Highly aggressive with poor prognosis and high relapse rates; Allogeneic Hematopoietic Stem Cell Transplantation (HSCT)",
+          "D) Congenital CMV infection; Excellent prognosis; Oral ganciclovir"
+        ],
+        "correct": 2,
+        "hint": "Infant <1 year + KMT2A rearrangement = high-risk, poor prognosis; often needs allogeneic HSCT.",
+        "explanation": "Infant ALL (<1 year) with KMT2A (MLL) rearrangement represents an exceptionally high-risk entity characterized by hyperleukocytosis, extramedullary disease, and chemoresistance, often requiring allogeneic HSCT."
+      },
+      {
+        "q": "Comparing pediatric B-ALL vs pediatric AML: which accounts for ~80% of cases with >90% cure rates using 2–3 years of maintenance-based therapy, and which accounts for 15–20% with MPO/Auer rods and ~65–70% survival?",
+        "options": [
+          "A) 1. AML; 2. B-ALL",
+          "B) 1. CML; 2. JMML",
+          "C) 1. T-ALL; 2. B-ALL",
+          "D) 1. Precursor B-ALL; 2. Acute Myeloid Leukemia (AML)"
+        ],
+        "correct": 3,
+        "hint": "1. Precursor B-ALL; 2. Acute Myeloid Leukemia (AML).",
+        "explanation": "B-ALL comprises 80% of pediatric leukemias with cure rates >90% using 2-3 years of maintenance-based chemotherapy. AML accounts for 15-20% of cases, features MPO/Auer rods, requires intense myeloablative cycles, and has survival rates around 65-70%."
+      },
+      {
+        "q": "A 7-year-old on 6-MP and weekly methotrexate Maintenance develops severe prolonged pancytopenia (ANC < 100/µL, platelets 10,000/µL) and mucositis with a hypocellular marrow. What pharmacogenomic defect explains this, what test is done, and how is 6-MP adjusted?",
+        "options": [
+          "A) Homozygous Thiopurine S-methyltransferase (TPMT) or NUDT15 deficiency; Genotypic/phenotypic TPMT testing; Reduce 6-MP dose by 90% (to 10% of standard dose)",
+          "B) G6PD deficiency; Fluorescent spot test; Stop Methotrexate",
+          "C) DPD deficiency; Plasma uracil test; Double the 6-MP dose",
+          "D) Factor V Leiden; Activated protein C ratio; Give IV heparin"
+        ],
+        "correct": 0,
+        "hint": "Homozygous TPMT or NUDT15 deficiency -> test TPMT/NUDT15 and cut 6-MP dose by ~90%.",
+        "explanation": "Patients with homozygous TPMT or NUDT15 deficiency cannot metabolize 6-MP, leading to toxic accumulation of 6-thioguanine nucleotides and severe marrow aplasia. Dose must be reduced by ~90%."
+      },
+      {
+        "q": "For a 6-year-old with fever, pallor, petechiae, and peripheral lymphoblasts: what initial labs/imaging are needed, what bone marrow panels are mandatory, and what CNS procedure is performed?",
+        "options": [
+          "A) 1. Stool culture, abdominal X-ray; 2. Hemoglobin electrophoresis; 3. Brain CT",
+          "B) 1. Complete Blood Count with differential, peripheral blood film, blood chemistry (uric acid, K, Phos, Ca, LDH), and Chest X-ray; 2. Bone marrow aspirate/biopsy for Morphology, Flow Cytometry (immunophenotyping), Karyotype, and FISH/molecular genetics; 3. Diagnostic Lumbar Puncture with CSF cytospin cytology",
+          "C) 1. Urinalysis, renal ultrasound; 2. Skin biopsy; 3. Electroencephalogram",
+          "D) 1. Sputum smear, Mantoux test; 2. Lymph node aspiration; 3. Otoscopy"
+        ],
+        "correct": 1,
+        "hint": "CBC/film/TLS chemistry/CXR; bone marrow morphology, flow cytometry, karyotype, FISH/molecular; lumbar puncture.",
+        "explanation": "Diagnostic evaluation of acute leukemia requires CBC, chemistry panel for TLS, and Chest X-ray, bone marrow aspirate/biopsy (morphology, flow cytometry, cytogenetics, FISH), and lumbar puncture with CSF cytology for CNS staging."
+      }
+    ]
+  }
+]
