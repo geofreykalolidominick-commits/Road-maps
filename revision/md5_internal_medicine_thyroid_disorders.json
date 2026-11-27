@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Thyroid Disorders",
+    "questions": [
+      {
+        "q": "Which physiological mechanism regulates the hypothalamic–pituitary–thyroid axis by suppressing the release of Thyrotropin-Releasing Hormone (TRH) and Thyroid-Stimulating Hormone (TSH)?",
+        "options": [
+          "A) Positive feedback exerted by elevated serum calcium levels",
+          "B) Direct stimulation of pituitary somatotrophs by circulating free T4",
+          "C) Negative feedback exerted by circulating free T4 and free T3",
+          "D) Neural inhibition mediated by adrenal catecholamines"
+        ],
+        "correct": 2,
+        "hint": "Circulating free T4 and free T3 inhibit TRH and TSH release.",
+        "explanation": "Circulating free thyroid hormones (FT4 and FT3) exert negative feedback on both the hypothalamus and anterior pituitary gland, suppressing TRH and TSH secretion to maintain hormonal homeostasis."
+      },
+      {
+        "q": "What is the most sensitive first-line laboratory test for screening primary thyroid gland dysfunction in stable outpatients?",
+        "options": [
+          "A) Free Triiodothyronine (FT3)",
+          "B) Total Thyroxine (TT4)",
+          "C) Thyroid-Stimulating Hormone (TSH)",
+          "D) Serum Thyroglobulin (Tg)"
+        ],
+        "correct": 2,
+        "hint": "Small changes in free thyroid hormones cause large inverse shifts in this pituitary hormone.",
+        "explanation": "Serum TSH is the most sensitive first-line test for evaluating primary thyroid dysfunction because minute changes in circulating free thyroid hormones produce exponential inverse changes in pituitary TSH secretion."
+      },
+      {
+        "q": "Which statement correctly distinguishes thyrotoxicosis from hyperthyroidism?",
+        "options": [
+          "A) Thyrotoxicosis specifically refers to follicular inflammation, whereas hyperthyroidism refers to exogenous hormone excess",
+          "B) Thyrotoxicosis is defined by low free T4, whereas hyperthyroidism is defined by low serum TSH",
+          "C) Thyrotoxicosis is the state of thyroid hormone excess from any source, whereas hyperthyroidism specifically refers to excess resulting from increased de novo thyroid gland synthesis",
+          "D) Thyrotoxicosis requires surgical thyroidectomy, whereas hyperthyroidism is managed exclusively with Levothyroxine"
+        ],
+        "correct": 2,
+        "hint": "Hyperthyroidism = increased de novo synthesis by the thyroid; thyrotoxicosis = excess from any cause.",
+        "explanation": "Thyrotoxicosis encompasses any condition producing excess circulating thyroid hormone action (including hormone leakage or exogenous intake), whereas hyperthyroidism specifically denotes hyperfunction and increased de novo synthesis by the thyroid gland itself."
+      },
+      {
+        "q": "During a neck examination, why does the thyroid gland characteristically move upward upon swallowing?",
+        "options": [
+          "A) It is encapsulated within the carotid sheath",
+          "B) It is anatomically attached to the larynx and trachea",
+          "C) It is suspended directly from the hyoid bone by the thiamin ligament",
+          "D) It is compressed by contraction of the sternocleidomastoid muscles"
+        ],
+        "correct": 1,
+        "hint": "Pretracheal fascia links it to the airway/larynx.",
+        "explanation": "The thyroid gland is enclosed by pretracheal fascia, attaching it to the larynx and trachea; consequently, a thyroid mass or swelling typically moves vertically during deglutition."
+      },
+      {
+        "q": "What is the single most common cause of primary hypothyroidism in iodine-sufficient populations?",
+        "options": [
+          "A) Subacute (de Quervain) thyroiditis",
+          "B) Toxic multinodular goitre",
+          "C) Graves' disease",
+          "D) Hashimoto thyroiditis"
+        ],
+        "correct": 3,
+        "hint": "Chronic autoimmune lymphocytic thyroiditis.",
+        "explanation": "Hashimoto thyroiditis is a chronic autoimmune thyroiditis characterized by lymphocytic infiltration and progressive follicular destruction; it represents the primary cause of hypothyroidism in iodine-replete regions."
+      },
+      {
+        "q": "Which autoantibody is specifically responsible for driving hyperthyroidism in Graves' disease?",
+        "options": [
+          "A) Thyroid Peroxidase Antibodies (TPOAb)",
+          "B) TSH Receptor Stimulating Antibodies (TRAb)",
+          "C) Antithyroglobulin Antibodies (TgAb)",
+          "D) Anti-C-cell Calcitonin Antibodies"
+        ],
+        "correct": 1,
+        "hint": "Stimulating antibodies that bind and activate the TSH receptor.",
+        "explanation": "Graves' disease is caused by autoantibodies directed against the TSH receptor (TRAb / TSI) that continuously stimulate the receptor, triggering autonomous thyroid hormone synthesis and gland growth."
+      },
+      {
+        "q": "Which biochemical profile defines overt primary hypothyroidism?",
+        "options": [
+          "A) Elevated TSH with low Free T4",
+          "B) Suppressed TSH with elevated Free T4",
+          "C) Normal TSH with low Free T4",
+          "D) Suppressed TSH with normal Free T4"
+        ],
+        "correct": 0,
+        "hint": "Low thyroid hormone output with compensatory pituitary stimulation.",
+        "explanation": "Overt primary hypothyroidism occurs when intrinsic thyroid gland failure leads to decreased circulating Free T4, driving a compensatory elevation in serum TSH via loss of negative feedback."
+      },
+      {
+        "q": "Which laboratory pattern defines overt primary thyrotoxicosis?",
+        "options": [
+          "A) Raised TSH with low Free T4",
+          "B) Suppressed TSH with raised Free T4 and/or Free T3",
+          "C) Suppressed TSH with normal Free T4 and Free T3",
+          "D) Elevated TSH with elevated Free T4"
+        ],
+        "correct": 1,
+        "hint": "High free thyroid hormones suppress pituitary TSH.",
+        "explanation": "Overt primary thyrotoxicosis is defined by pituitary TSH suppression (<0.01 mIU/L) resulting from negative feedback driven by abnormally high circulating Free T4 and/or Free T3."
+      },
+      {
+        "q": "What is the biochemical definition of subclinical hypothyroidism?",
+        "options": [
+          "A) Low TSH with low Free T4",
+          "B) Raised TSH with normal Free T4",
+          "C) Raised TSH with low Free T4",
+          "D) Normal TSH with elevated Free T3"
+        ],
+        "correct": 1,
+        "hint": "TSH is high, but FT4 is still within the normal reference range.",
+        "explanation": "Subclinical hypothyroidism is defined biochemically as an elevated serum TSH level while circulating Free T4 remains within normal laboratory reference ranges."
+      },
+      {
+        "q": "What is the biochemical definition of subclinical hyperthyroidism?",
+        "options": [
+          "A) Elevated TSH with normal Free T4",
+          "B) Low or suppressed TSH with Free T4 and Free T3 within reference ranges",
+          "C) Suppressed TSH with elevated Free T3",
+          "D) Normal TSH with suppressed Free T4"
+        ],
+        "correct": 1,
+        "hint": "TSH is low/suppressed while FT4 and FT3 remain normal.",
+        "explanation": "Subclinical hyperthyroidism is characterized by a persistently suppressed TSH level in the setting of normal circulating Free T4 and Free T3 concentrations."
+      },
+      {
+        "q": "Which of the following disorders represents a destructive release etiology of thyrotoxicosis rather than true hyperthyroidism?",
+        "options": [
+          "A) Toxic adenoma",
+          "B) Subacute (de Quervain) thyroiditis",
+          "C) Graves' disease",
+          "D) Toxic multinodular goitre"
+        ],
+        "correct": 1,
+        "hint": "Inflammatory damage releases pre-formed hormone without increased new synthesis.",
+        "explanation": "Subacute thyroiditis causes inflammatory tissue destruction and passive leakage of pre-stored thyroid hormone into the circulation; it does not involve increased de novo hormone synthesis."
+      },
+      {
+        "q": "In endemic iodine deficiency, what physiological mechanism drives goitre formation?",
+        "options": [
+          "A) Direct follicular cell lysis caused by excessive intracellular iodine accumulation",
+          "B) Stimulating immunoglobulins binding to TSH receptors",
+          "C) Decreased efficiency of thyroid hormone synthesis leading to sustained TSH elevation",
+          "D) Infiltration of the gland by malignant C-cells"
+        ],
+        "correct": 2,
+        "hint": "Reduced hormone synthesis raises TSH, stimulating thyroid growth.",
+        "explanation": "Lack of iodine impairs thyroid hormone synthesis, causing serum T4/T3 to decline. The resulting persistent surge in TSH continuously stimulates glandular hypertrophy and diffuse goitre formation."
+      },
+      {
+        "q": "Which clinical finding specifically distinguishes a thyroglossal duct cyst from a primary thyroid gland goitre on physical examination?",
+        "options": [
+          "A) A thyroglossal duct cyst moves upward with tongue protrusion as well as swallowing",
+          "B) A thyroglossal duct cyst exhibits a loud continuous vascular bruit",
+          "C) A thyroglossal duct cyst is fixed firmly to the clavicle",
+          "D) A thyroglossal duct cyst moves downward when the patient takes a deep breath"
+        ],
+        "correct": 0,
+        "hint": "Embryological tract to the base of the tongue.",
+        "explanation": "Because of its embryological attachment to the base of the tongue via the tract running to the foramen cecum, a thyroglossal duct cyst characteristically moves upward during tongue protrusion as well as swallowing."
+      },
+      {
+        "q": "Which modifiable lifestyle factor is most strongly associated with the development and worsening of Graves' orbitopathy?",
+        "options": [
+          "A) Alcohol consumption",
+          "B) Cigarette smoking",
+          "C) High dietary sodium intake",
+          "D) Sedentary physical lifestyle"
+        ],
+        "correct": 1,
+        "hint": "A major modifiable risk factor for eye disease in Graves' disease.",
+        "explanation": "Cigarette smoking is a major independent risk factor that significantly increases the risk of developing Graves' orbitopathy and accelerates its clinical progression."
+      },
+      {
+        "q": "Which condition represents a secondary (central) cause of hypothyroidism?",
+        "options": [
+          "A) External neck irradiation for lymphoma",
+          "B) Pituitary macroadenoma compressing thyrotroph cells",
+          "C) Hashimoto thyroiditis",
+          "D) Chronic high-dose iodine ingestion"
+        ],
+        "correct": 1,
+        "hint": "Pituitary pathology impairing TSH production.",
+        "explanation": "Secondary (central) hypothyroidism is caused by pituitary or hypothalamic pathology—such as pituitary tumors, surgery, or radiation—leading to deficient TSH secretion despite a normal thyroid gland."
+      },
+      {
+        "q": "Which etiology of thyrotoxicosis typically displays low radioactive iodine uptake (RAIU) on radionuclide scanning?",
+        "options": [
+          "A) Graves' disease",
+          "B) Silent (painless) postpartum thyroiditis",
+          "C) Toxic adenoma",
+          "D) Toxic multinodular goitre"
+        ],
+        "correct": 1,
+        "hint": "Destructive thyroiditis impairs iodine trapping.",
+        "explanation": "Destructive thyroiditis syndromes (silent, postpartum, or subacute thyroiditis) damage follicular cells, preventing iodine trapping and resulting in suppressed/low radioactive iodine uptake."
+      },
+      {
+        "q": "Which clinical feature of a thyroid nodule represents an immediate red flag for underlying thyroid malignancy?",
+        "options": [
+          "A) Soft, fluctuating cystic consistency",
+          "B) Smooth movement of a bilateral goitre on swallowing",
+          "C) Hard, fixed consistency with associated cervical lymphadenopathy",
+          "D) Diffuse gland tenderness following a viral upper respiratory infection"
+        ],
+        "correct": 2,
+        "hint": "Hard, fixed mass or enlarged regional neck nodes.",
+        "explanation": "Red flag signs indicating high risk for thyroid carcinoma include a hard, firm, or fixed nodule, fixation to surrounding neck structures, vocal cord paralysis/hoarseness, and cervical lymphadenopathy."
+      },
+      {
+        "q": "Which subtype of differentiated thyroid carcinoma metastasizes primarily via lymphatic pathways to regional cervical lymph nodes?",
+        "options": [
+          "A) Follicular carcinoma",
+          "B) Papillary thyroid carcinoma",
+          "C) Medullary thyroid carcinoma",
+          "D) Anaplastic thyroid carcinoma"
+        ],
+        "correct": 1,
+        "hint": "The most common thyroid cancer, typically spreading through lymphatics.",
+        "explanation": "Papillary thyroid carcinoma is the most common form of thyroid cancer and characteristically spreads via lymphatic channels to regional neck lymph nodes."
+      },
+      {
+        "q": "Which of the following acute physiological stressors is a well-recognized trigger for precipitating thyroid storm in a thyrotoxic patient?",
+        "options": [
+          "A) Initiating Levothyroxine monotherapy",
+          "B) Systemic infection, trauma, or abrupt cessation of antithyroid medication",
+          "C) High-dose oral calcium supplementation",
+          "D) Prolonged fasting and hypoglycemia"
+        ],
+        "correct": 1,
+        "hint": "Acute stress (like infection or surgery) or stopping antithyroid drugs.",
+        "explanation": "Thyroid storm is usually precipitated by acute intercurrent events such as systemic infection, surgery, trauma, childbirth, MI, stroke, or abrupt discontinuation of thionamide therapy in poorly controlled hyperthyroidism."
+      },
+      {
+        "q": "Which medication class can precipitate myxoedema coma when administered to a patient with severe, uncorrected hypothyroidism?",
+        "options": [
+          "A) Thiazide diuretics",
+          "B) Sedatives and opioids",
+          "C) Beta-2 adrenergic agonists",
+          "D) Histamine H2-receptor antagonists"
+        ],
+        "correct": 1,
+        "hint": "CNS depressants that can worsen hypoventilation and coma.",
+        "explanation": "Central nervous system depressants—such as sedatives, hypnotics, and opioids—can precipitate hypoventilation, hypercapnia, and profound neurological decompensation leading to myxoedema coma in severe hypothyroidism."
+      },
+      {
+        "q": "Which set of neuromuscular and dermatological signs is characteristic of primary overt hypothyroidism?",
+        "options": [
+          "A) Warm moist skin, hyperreflexia, and fine distal muscle tremor",
+          "B) Dry coarse skin, hair loss, brittle nails, and delayed reflex relaxation",
+          "C) Pretibial papules, brisk reflexes, and palmar erythema",
+          "D) Hyperpigmentation of palmar creases and rapid muscle fasciculations"
+        ],
+        "correct": 1,
+        "hint": "Slowed metabolism causes dry skin, hair/nail changes, and slow ('hung-up') reflexes.",
+        "explanation": "Hypothyroidism slows systemic metabolism and cutaneous cell turnover, leading to dry coarse skin, hair thinning, brittle nails, facial puffiness, and delayed relaxation of deep tendon reflexes ('hung-up' reflexes)."
+      },
+      {
+        "q": "Which physical feature is an extrathyroidal manifestation unique to Graves' disease that is not seen in other causes of hyperthyroidism?",
+        "options": [
+          "A) Sinus tachycardia",
+          "B) Pretibial dermopathy (myxedema)",
+          "C) Fine action tremor of the outstretched hands",
+          "D) Frequent loose stools"
+        ],
+        "correct": 1,
+        "hint": "An autoimmune skin sign over the shins specific to Graves' disease.",
+        "explanation": "Pretibial dermopathy and thyroid acropachy are specific autoimmune extrathyroidal manifestations of Graves' disease resulting from autoantibody action in peripheral tissues; they do not occur in toxic nodular goitre or thyroiditis."
+      },
+      {
+        "q": "A patient presents with a painful, markedly tender thyroid gland, low-grade fever, and an elevated Erythrocyte Sedimentation Rate (ESR) following a viral URI. What is the expected radionuclide uptake scan pattern?",
+        "options": [
+          "A) Diffusely high homogeneous radioactive iodine uptake",
+          "B) Low or suppressed radioactive iodine uptake",
+          "C) Solitary 'hot' nodule with complete suppression of surrounding lobes",
+          "D) Multiple patchy areas of intense focal uptake"
+        ],
+        "correct": 1,
+        "hint": "Painful subacute thyroiditis damages follicles and reduces iodine uptake.",
+        "explanation": "Subacute (de Quervain) thyroiditis causes granulomatous inflammation and follicular disruption, leading to thyroid hormone leakage. The inflamed, damaged gland is unable to trap iodine, producing low radioiodine uptake."
+      },
+      {
+        "q": "In a patient with suppressed TSH and normal Free T4, which additional blood test is required to evaluate for T3-toxicosis?",
+        "options": [
+          "A) Total Reverse T3",
+          "B) Thyroid Peroxidase Antibodies",
+          "C) Free Triiodothyronine (FT3)",
+          "D) Serum Thyroglobulin"
+        ],
+        "correct": 2,
+        "hint": "Check the active hormone elevated in T3-toxicosis.",
+        "explanation": "T3-toxicosis presents with suppressed TSH and normal FT4, but isolated elevation of FT3; measuring FT3 is essential to establish the diagnosis."
+      },
+      {
+        "q": "What is the significance of detecting positive Thyroid Peroxidase (TPO) antibodies in a patient with hypothyroidism?",
+        "options": [
+          "A) It dictates the exact daily Levothyroxine milligram dosage",
+          "B) It confirms an underlying autoimmune etiology (Hashimoto thyroiditis)",
+          "C) It indicates immediate necessity for total surgical thyroidectomy",
+          "D) It proves the presence of underlying follicular thyroid carcinoma"
+        ],
+        "correct": 1,
+        "hint": "Points to autoimmune thyroiditis, not the dose.",
+        "explanation": "Positive TPO antibodies confirm autoimmune thyroiditis (Hashimoto disease). However, antibody titers are not used to titrate or monitor Levothyroxine therapy."
+      },
+      {
+        "q": "What ultrasound characteristics of a thyroid nodule raise suspicious concern for malignancy?",
+        "options": [
+          "A) Pure cystic composition with smooth, thin walls",
+          "B) Isoechoic structure with a complete hypoechoic peripheral halo",
+          "C) Marked hypoechogenicity, microcalcifications, and irregular margins",
+          "D) Smooth avascular acoustic enhancement"
+        ],
+        "correct": 2,
+        "hint": "Dark echogenicity, tiny calcifications, and irregular borders.",
+        "explanation": "High-risk ultrasound features for thyroid cancer include marked hypoechogenicity, microcalcifications, irregular or microlobulated margins, and a taller-than-wide shape."
+      },
+      {
+        "q": "A patient with symptoms of central hypothyroidism displays a low Free T4. What is the typical serum TSH concentration finding?",
+        "options": [
+          "A) Markedly elevated (>50 mIU/L)",
+          "B) Low or inappropriately normal",
+          "C) Always completely undetectable (<0.001 mIU/L)",
+          "D) Fluctuating between low and markedly elevated every 24 hours"
+        ],
+        "correct": 1,
+        "hint": "Pituitary/hypothalamic failure means TSH isn't high despite low FT4.",
+        "explanation": "In central (pituitary/hypothalamic) hypothyroidism, TSH is low or inappropriately normal in the setting of a low FT4, demonstrating a failure of pituitary response."
+      },
+      {
+        "q": "Medullary thyroid carcinoma originates from which specialized cells of the thyroid gland?",
+        "options": [
+          "A) Thyroid follicular epithelial cells",
+          "B) Parafollicular C-cells",
+          "C) Stromal fibroblasts",
+          "D) Hurthle cells"
+        ],
+        "correct": 1,
+        "hint": "Calcitonin-producing neuroendocrine cells.",
+        "explanation": "Medullary thyroid carcinoma arises from neuroendocrine parafollicular C-cells that secrete calcitonin; it can occur sporadically or as part of MEN2 syndromes."
+      },
+      {
+        "q": "Which systemic cardiovascular complication is specifically associated with chronic overt hyperthyroidism?",
+        "options": [
+          "A) Severe pericardial constriction",
+          "B) Atrial fibrillation",
+          "C) Mobitz Type II AV block",
+          "D) Low-voltage QRS complexes"
+        ],
+        "correct": 1,
+        "hint": "A common tachyarrhythmia linked to excess thyroid hormone.",
+        "explanation": "Hyperthyroidism increases cardiac beta-adrenergic sensitivity and chronotropy, commonly precipitating sinus tachycardia, supraventricular arrhythmias, and atrial fibrillation."
+      },
+      {
+        "q": "In evaluating a patient with a solitary thyroid nodule, what is the initial step in the diagnostic pathway?",
+        "options": [
+          "A) Immediate fine-needle aspiration biopsy (FNAB) of the nodule",
+          "B) Measurement of serum TSH",
+          "C) PET-CT scan of the head and neck",
+          "D) Empirical administration of Levothyroxine suppression therapy"
+        ],
+        "correct": 1,
+        "hint": "Start with the standard first-line thyroid function test.",
+        "explanation": "Diagnostic evaluation of a thyroid nodule begins with measuring serum TSH. If TSH is suppressed, a radionuclide scan is performed to look for a hyperfunctioning ('hot') nodule; if normal or raised, neck ultrasound is performed to guide FNAB decisions."
+      },
+      {
+        "q": "Which antithyroid drug (thionamide) is preferred during the first trimester of pregnancy to minimize teratogenic risks?",
+        "options": [
+          "A) Carbimazole",
+          "B) Methimazole",
+          "C) Propylthiouracil (PTU)",
+          "D) Radioactive Iodine-131"
+        ],
+        "correct": 2,
+        "hint": "Preferred during the first trimester over methimazole/carbimazole.",
+        "explanation": "PTU is preferred in the first trimester of pregnancy because methimazole and carbimazole carry higher risks of specific congenital malformations (e.g., aplasia cutis, choanal atresia)."
+      },
+      {
+        "q": "What urgent instruction must be given to any patient started on thionamide therapy (carbimazole or PTU)?",
+        "options": [
+          "A) Stop the medication if mild weight gain occurs",
+          "B) Report immediately for a full blood count if they develop a sore throat or unexplained fever",
+          "C) Avoid drinking milk or dairy products within 6 hours of taking the pill",
+          "D) Restrict fluid intake to less than 1 L daily"
+        ],
+        "correct": 1,
+        "hint": "Watch for signs of agranulocytosis/infection and check a CBC right away.",
+        "explanation": "Thionamides can cause agranulocytosis (a rare, severe drop in granulocytes). Patients must be warned to stop the drug and obtain an immediate full blood count if fever, sore throat, or stomatitis develops."
+      },
+      {
+        "q": "In the acute management of thyroid storm, what is the required timing sequence between administering a thionamide (PTU/MMI) and inorganic iodine?",
+        "options": [
+          "A) Give inorganic iodine 2 hours before the thionamide",
+          "B) Give thionamide at least 1 hour BEFORE initiating inorganic iodine therapy",
+          "C) Administer both medications simultaneously mixed in intravenous fluids",
+          "D) Withhold thionamides entirely until 24 hours after inorganic iodine administration"
+        ],
+        "correct": 1,
+        "hint": "Block new hormone synthesis first before adding iodine.",
+        "explanation": "Thionamides must be administered at least 1 hour prior to inorganic iodine. This blocks new hormone synthesis within the gland before iodine is introduced; giving iodine first can supply substrate for synthesis, worsening thyrotoxicosis."
+      },
+      {
+        "q": "Why is aspirin strictly contraindicated for managing hyperpyrexia in a patient experiencing thyroid storm?",
+        "options": [
+          "A) Aspirin inhibits peripheral conversion of T4 to T3",
+          "B) Aspirin displaces thyroid hormones from serum binding proteins, increasing free hormone levels",
+          "C) Aspirin triggers acute agranulocytosis when combined with PTU",
+          "D) Aspirin induces severe thyroid follicular necrosis"
+        ],
+        "correct": 1,
+        "hint": "It frees bound T4/T3 from carrier proteins, raising free hormone levels.",
+        "explanation": "Aspirin displaces T4 and T3 from thyroid-binding globulin (TBG) and albumin, raising circulating free hormone levels and worsening toxicity. Paracetamol and active cooling are used instead."
+      },
+      {
+        "q": "What is the rationale for administering intravenous hydrocortisone during thyroid storm management?",
+        "options": [
+          "A) It directly blocks TSH receptor stimulating antibodies",
+          "B) It inhibits peripheral T4-to-T3 conversion and covers potential relative adrenal insufficiency",
+          "C) It increases renal clearance of thyroid-binding globulin",
+          "D) It acts as a selective beta-1 adrenergic agonist"
+        ],
+        "correct": 1,
+        "hint": "Reduces T4-to-T3 conversion and supports adrenal reserve.",
+        "explanation": "Hydrocortisone inhibits 5'-deiodinase (blocking conversion of T4 to active T3) and provides steroid cover for hypermetabolic adrenal insufficiency during thyroid storm."
+      },
+      {
+        "q": "What is the core rewarming principle for managing profound hypothermia in myxoedema coma?",
+        "options": [
+          "A) Aggressive active peripheral warming with electric heating blankets",
+          "B) Passive rewarming using extra blankets in a warm room",
+          "C) Rapid immersion in hot water baths",
+          "D) Infusion of core fluids heated to 45°C"
+        ],
+        "correct": 1,
+        "hint": "Avoid active external warming that causes vasodilation and hypotension.",
+        "explanation": "Hypothermia in myxoedema coma must be treated with passive rewarming. Active peripheral warming causes rapid peripheral vasodilation, precipitating hypotension and cardiovascular collapse."
+      },
+      {
+        "q": "In myxoedema coma, why must stress-dose intravenous hydrocortisone be administered before or concurrently with IV Levothyroxine?",
+        "options": [
+          "A) Levothyroxine increases cortisol clearance and tissue metabolic demand, which can precipitate an acute adrenal crisis",
+          "B) Hydrocortisone prevents Levothyroxine from binding to cardiac beta-receptors",
+          "C) Hydrocortisone prevents severe hepatic encephalopathy caused by thyroxine",
+          "D) Levothyroxine degrades rapidly unless bound to hydrocortisone in serum"
+        ],
+        "correct": 0,
+        "hint": "Thyroid hormone speeds cortisol clearance and can trigger adrenal crisis if cortisol is low.",
+        "explanation": "Administering thyroid hormone accelerates metabolic rate and hepatic steroid clearance. If co-existing primary or central adrenal insufficiency is present, giving thyroxine alone can precipitate a fatal adrenal crisis; steroid cover must be given first."
+      },
+      {
+        "q": "How is Levothyroxine therapy titrated in a patient with overt primary hypothyroidism?",
+        "options": [
+          "A) Titrated based on serum TPO antibody concentrations",
+          "B) Titrated by monitoring serum TSH levels every 6–8 weeks until euthyroid",
+          "C) Titrated to maintain an undetectable serum TSH level",
+          "D) Titrated based on daily basal body temperature measurements"
+        ],
+        "correct": 1,
+        "hint": "Recheck TSH after roughly 6–8 weeks to allow steady state.",
+        "explanation": "Levothyroxine dosing in primary hypothyroidism is adjusted based on serum TSH values (targeting the normal reference range) measured 6–8 weeks after dose changes."
+      },
+      {
+        "q": "Which clinical scenario represents an absolute contraindication to radioactive iodine (I-131) therapy?",
+        "options": [
+          "A) Toxic multinodular goitre in a 65-year-old",
+          "B) Pregnancy or breastfeeding",
+          "C) Mild hyperthyroidism managed with beta-blockers",
+          "D) Recurrent Graves' disease after thionamide therapy"
+        ],
+        "correct": 1,
+        "hint": "Radioiodine can harm the fetal or infant thyroid.",
+        "explanation": "Radioactive iodine is strictly contraindicated during pregnancy and breastfeeding because I-131 crosses the placenta and enters breast milk, destroying the fetal or infant thyroid gland."
+      },
+      {
+        "q": "When initiating Levothyroxine replacement in an elderly patient with underlying ischemic heart disease, what dosing protocol should be followed?",
+        "options": [
+          "A) Start with a full weight-based loading dose (1.6 mcg/kg/day)",
+          "B) Start with a low initial dose (e.g., 12.5–25 mcg daily) and titrate slowly",
+          "C) Administer IV bolus levothyroxine combined with high-dose aspirin",
+          "D) Withhold treatment until coronary artery bypass grafting is completed"
+        ],
+        "correct": 1,
+        "hint": "Start low and go slow to avoid worsening myocardial ischemia.",
+        "explanation": "Rapid restoration of thyroid hormone levels increases myocardial oxygen demand and can precipitate angina, MI, or arrhythmias. Elderly patients or those with cardiac disease require low starting doses with cautious titration."
+      },
+      {
+        "q": "A 28-year-old woman, 4 months postpartum, presents with palpitations, heat intolerance, and nervousness. Examination reveals a non-tender, non-enlarged thyroid gland. Lab testing shows TSH <0.01 mIU/L and FT4 32 pmol/L (elevated). TRAb is negative. A 24-hour radioactive iodine uptake scan demonstrates 0.5% uptake (markedly low). What is the diagnosis and appropriate management plan?",
+        "options": [
+          "A) Graves' disease; start high-dose Methimazole and arrange radioiodine ablation",
+          "B) Postpartum painless thyroiditis; provide symptomatic treatment with a beta-blocker and monitor TFTs",
+          "C) Toxic adenoma; schedule urgent unilateral lobectomy",
+          "D) Acute suppurative thyroiditis; initiate IV Ceftriaxone and surgical drainage"
+        ],
+        "correct": 1,
+        "hint": "Painless postpartum thyrotoxicosis + low RAIU + negative TRAb = destructive thyroiditis (symptomatic beta-blocker + monitor TFTs).",
+        "explanation": "The clinical picture of painless postpartum thyrotoxicosis with negative TRAb and suppressed radioiodine uptake indicates destructive postpartum thyroiditis. Because hormone excess results from leakage rather than new synthesis, thionamides are ineffective. Treatment is supportive (e.g., propranolol) with serial TFT monitoring to anticipate a potential subsequent hypothyroid phase."
+      },
+      {
+        "q": "A 35-year-old woman with untreated hyperthyroidism is brought to the ICU with a temperature of 40.1°C, profound agitation, confusion, marked tachycardia (HR 165 bpm, atrial fibrillation), and mild jaundice. What is the immediate pharmacological intervention sequence?",
+        "options": [
+          "A) Administer IV Levothyroxine, apply heating blankets, and give high-dose aspirin",
+          "B) Administer Propylthiouracil (PTU), followed ≥1 hour later by inorganic iodine, along with IV Hydrocortisone, Propranolol/Esmolol, and Paracetamol",
+          "C) Administer inorganic iodine immediately, followed by high-dose Methimazole 6 hours later, and apply active heating lamps",
+          "D) Perform emergency total thyroidectomy within 2 hours of presentation"
+        ],
+        "correct": 1,
+        "hint": "Thyroid storm: PTU first, then iodine ≥1 hr later, plus hydrocortisone, beta-blocker, and paracetamol (no aspirin).",
+        "explanation": "This patient is in thyroid storm. Management requires immediate thionamide therapy (PTU preferred) to block synthesis, followed at least 1 hour later by inorganic iodine to block stored hormone release. Intravenous hydrocortisone (blocks conversion and covers adrenal status), beta-blockade (controls sympathomimetic tone), and paracetamol/cooling (avoids aspirin) are essential."
+      },
+      {
+        "q": "An 80-year-old woman is found lethargic in her unheated apartment during winter. In the ED, she is obtunded with a core temperature of 31.2°C, BP 82/50 mmHg, HR 42 bpm, and hypoventilation. Lab tests show TSH 68 mIU/L, FT4 2.1 pmol/L (low), and serum glucose 2.9 mmol/L. What is the correct initial critical care approach?",
+        "options": [
+          "A) Apply active heating blankets, administer high-dose IV Levothyroxine bolus alone, and restrict IV fluids",
+          "B) Provide passive rewarming, administer IV Hydrocortisone prior to IV Levothyroxine, correct hypoglycemia, and provide ventilatory support",
+          "C) Administer IV fluids warmed to 45°C, give high-dose oral PTU, and withhold steroid therapy",
+          "D) Perform emergency hemodialysis to clear circulating TSH"
+        ],
+        "correct": 1,
+        "hint": "Myxoedema coma: passive rewarming, hydrocortisone before/with IV levothyroxine, glucose, and airway/ventilation support.",
+        "explanation": "The patient has myxoedema coma. Key steps are: passive rewarming (avoids active warming collapse), IV hydrocortisone before or with IV Levothyroxine (prevents acute adrenal crisis), cautious glucose/electrolyte correction, and supportive airway management."
+      },
+      {
+        "q": "A 42-year-old man presents with severe anterior neck pain radiating to his ears, fever, and fatigue. On palpation, his thyroid gland is exquisitely tender and moderately enlarged. ESR is 95 mm/h. TSH is <0.01 mIU/L and FT4 is elevated. What is the diagnosis and initial medical treatment?",
+        "options": [
+          "A) Acute suppurative thyroiditis; start IV vancomycin",
+          "B) Subacute (de Quervain) thyroiditis; initiate high-dose NSAIDs (or oral glucocorticoids if severe) and Propranolol for symptoms",
+          "C) Graves' disease; start Methimazole 40 mg daily",
+          "D) Anaplastic thyroid carcinoma; schedule urgent tracheostomy"
+        ],
+        "correct": 1,
+        "hint": "Tender thyroid + high ESR + transient thyrotoxicosis = subacute thyroiditis -> NSAIDs/steroids + beta-blocker.",
+        "explanation": "Severe anterior neck tenderness, post-viral onset, markedly elevated ESR, and transient thyrotoxicosis define subacute granulomatous (de Quervain) thyroiditis. Treatment involves NSAIDs (or prednisone for severe pain) and beta-blockers for thyrotoxic symptoms."
+      },
+      {
+        "q": "A 62-year-old patient taking Amiodarone for ventricular arrhythmias develops thyrotoxicosis. Ultrasound shows an enlarged hypervascular gland, and TRAb is positive. How is this drug-induced toxicity categorized and treated?",
+        "options": [
+          "A) Type 1 Amiodarone-Induced Thyrotoxicosis (iodine-induced hyperthyroidism); treat with thionamides",
+          "B) Type 2 Amiodarone-Induced Thyrotoxicosis (destructive thyroiditis); treat with lithium",
+          "C) Amiodarone-induced myxoedema; treat with levothyroxine",
+          "D) Subacute suppurative thyroiditis; perform immediate incision and drainage"
+        ],
+        "correct": 0,
+        "hint": "Hypervascular gland + positive TRAb = Type 1 (iodine-induced hyperthyroidism) -> thionamides.",
+        "explanation": "Type 1 amiodarone-induced thyrotoxicosis is true hyperthyroidism triggered by the heavy iodine load in patients with underlying thyroid autonomy or Graves' disease (increased vascularity, positive TRAb). It responds to antithyroid drug therapy."
+      },
+      {
+        "q": "A 68-year-old woman with a 20-year history of Hashimoto thyroiditis presents with a rapidly enlarging, painless neck mass causing progressive dyspnoea and stridor over 3 weeks. Examination shows a firm, fixed goitre with cervical lymphadenopathy. What underlying pathology should be strongly suspected?",
+        "options": [
+          "A) Toxic multinodular goitre outbreak",
+          "B) Primary thyroid lymphoma",
+          "C) De Quervain thyroiditis flare",
+          "D) Subclinical hypothyroidism decompensation"
+        ],
+        "correct": 1,
+        "hint": "Rapidly enlarging goitre with compressive symptoms in long-standing Hashimoto thyroiditis.",
+        "explanation": "Primary thyroid lymphoma is a rare malignancy that typically presents as a rapidly enlarging goitre causing compressive symptoms, classically arising against a background of long-standing Hashimoto thyroiditis."
+      },
+      {
+        "q": "A 50-year-old asymptomatic woman is found to have a 2.2 cm solitary thyroid nodule on physical exam. TSH is 0.05 mIU/L (suppressed). What is the next most appropriate diagnostic step?",
+        "options": [
+          "A) Immediate fine-needle aspiration biopsy (FNAB)",
+          "B) Radionuclide thyroid uptake scan (scintigraphy)",
+          "C) Total thyroidectomy",
+          "D) PET-CT scan of the chest"
+        ],
+        "correct": 1,
+        "hint": "Low TSH with a nodule calls for a scan to check if it's a 'hot' nodule.",
+        "explanation": "When a thyroid nodule is accompanied by a suppressed TSH, a radionuclide scan is indicated to determine if the nodule is hyperfunctioning ('hot'). Hyperfunctioning nodules are almost always benign, avoiding unnecessary FNAB."
+      },
+      {
+        "q": "Routine lab testing in an asymptomatic 55-year-old woman reveals TSH 12.5 mIU/L (elevated; confirmed on repeat testing) and FT4 14 pmol/L (normal reference 10–22). TPO antibodies are strongly positive. What is the recommended management strategy?",
+        "options": [
+          "A) Reassure and discharge without follow-up",
+          "B) Initiate Levothyroxine therapy because TSH is persistently ≥10 mIU/L",
+          "C) Perform emergency radioactive iodine ablation",
+          "D) Prescribe Methimazole 10 mg daily"
+        ],
+        "correct": 1,
+        "hint": "Subclinical hypothyroidism with persistent TSH ≥10 mIU/L warrants levothyroxine.",
+        "explanation": "In subclinical hypothyroidism, persistent TSH elevation ≥10 mIU/L is a standard indication to initiate Levothyroxine replacement, regardless of symptoms, to prevent progression to overt hypothyroidism and reduce adverse cardiometabolic effects."
+      },
+      {
+        "q": "A 26-year-old woman with Graves' hyperthyroidism controlled on Methimazole discovers she is 5 weeks pregnant. What medication change is required?",
+        "options": [
+          "A) Continue Methimazole at double the dose",
+          "B) Switch from Methimazole to Propylthiouracil (PTU) for the duration of the first trimester",
+          "C) Stop all antithyroid drugs and administer Radioactive Iodine-131",
+          "D) Switch immediately to high-dose Levothyroxine monotherapy"
+        ],
+        "correct": 1,
+        "hint": "First trimester switch from methimazole to PTU.",
+        "explanation": "Because methimazole carries embryopathic risks during organogenesis (first trimester), pregnant women with hyperthyroidism are switched to PTU during the first trimester, after which they may be switched back to methimazole."
+      },
+      {
+        "q": "A 45-year-old man presents with fatigue and low libido. Lab evaluation shows FT4 6.0 pmol/L (low) and TSH 1.8 mIU/L (normal reference range). A morning serum cortisol is 80 nmol/L (low). How should hormone replacement be safely ordered for this patient?",
+        "options": [
+          "A) Start oral Levothyroxine 100 mcg daily immediately; re-evaluate cortisol in 6 months",
+          "B) Administer glucocorticoid replacement (hydrocortisone) FIRST, followed by Levothyroxine replacement",
+          "C) Initiate high-dose Methimazole and mineralocorticoids",
+          "D) Administer Radioactive Iodine ablation followed by surgical hypophysectomy"
+        ],
+        "correct": 1,
+        "hint": "Treat low cortisol with hydrocortisone before starting levothyroxine.",
+        "explanation": "The patient has central hypothyroidism combined with secondary adrenal insufficiency (hypopituitarism). Hydrocortisone must be started before Levothyroxine therapy; starting thyroxine first accelerates metabolic clearance of remaining endogenous cortisol, precipitating acute adrenal crisis."
+      }
+    ]
+  }
+]
