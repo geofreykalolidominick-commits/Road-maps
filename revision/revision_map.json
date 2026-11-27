@@ -8,7 +8,21 @@
       "id": "paediatric",
       "label": "Paediatric",
       "files": [
-        "revision/md5_paediatric_lymphomas.json"
+        "revision/md5_paediatric_shock.json",
+        "revision/md5_paediatric_altered_mental_status_and_coma.json",
+        "revision/md5_paediatric_acute_seizures.json",
+        "revision/md5_paediatric_congestive_cardiac_failure.json",
+        "revision/md5_paediatric_cardiopulmonary_resuscitation.json",
+        "revision/md5_paediatric_intrauterine_torch_infections.json",
+        "revision/md5_paediatric_immunization.json",
+        "revision/md5_paediatric_immunological_disorders.json",
+        "revision/md5_paediatric_low_birth_weight_infants.json",
+        "revision/md5_paediatric_sepsis_and_septic_shock.json",
+        "revision/md5_paediatric_childhood_malignancies.json",
+        "revision/md5_paediatric_nephroblastoma_and_neuroblastoma.json",
+        "revision/md5_paediatric_lymphomas.json",
+        "revision/md5_paediatric_leukemia.json",
+        "revision/md5_paediatric_severe_acute_malnutrition.json"
       ]
     }
   ]
