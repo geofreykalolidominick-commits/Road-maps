@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Steps in Malnutrition Management",
+    "questions": [
+      {
+        "q": "Into how many total sequential steps does the World Health Organization (WHO) divide the inpatient management of Severe Acute Malnutrition (SAM)?",
+        "options": [
+          "A) 5 steps",
+          "B) 7 steps",
+          "C) 10 steps",
+          "D) 12 steps"
+        ],
+        "correct": 2,
+        "hint": "10 sequential steps across two phases.",
+        "explanation": "The WHO inpatient management protocol for Severe Acute Malnutrition (SAM) is organized into 10 sequential steps divided across two main phases: Stabilization and Rehabilitation."
+      },
+      {
+        "q": "What are the two primary clinical phases of inpatient management for Severe Acute Malnutrition?",
+        "options": [
+          "A) Acute Phase and Chronic Phase",
+          "B) Stabilization Phase and Rehabilitation Phase",
+          "C) Induction Phase and Maintenance Phase",
+          "D) Resuscitation Phase and Curative Phase"
+        ],
+        "correct": 1,
+        "hint": "Stabilization Phase and Rehabilitation Phase.",
+        "explanation": "Inpatient SAM management consists of an initial Stabilization Phase (Days 1–7) focused on life-saving medical stabilization, followed by a Rehabilitation Phase focused on catch-up growth and developmental support."
+      },
+      {
+        "q": "What starter therapeutic formula is specifically used during Step 7 (Start Cautious Feeding) of the Stabilization Phase?",
+        "options": [
+          "A) F-100",
+          "B) F-75",
+          "C) Ready-to-Use Therapeutic Food (RUTF)",
+          "D) Full-strength cow's milk"
+        ],
+        "correct": 1,
+        "hint": "F-75 (75 kcal/100 mL).",
+        "explanation": "F-75 (containing 75 kcal/100 mL) is the starter formula designed to support metabolic recovery without overwhelming the child's physiological systems during initial stabilization."
+      },
+      {
+        "q": "Which therapeutic food or formula is introduced during the Rehabilitation Phase to promote rapid 'catch-up' tissue growth?",
+        "options": [
+          "A) F-75",
+          "B) ReSoMal",
+          "C) F-100 or Ready-to-Use Therapeutic Food (RUTF)",
+          "D) Clear glucose water alone"
+        ],
+        "correct": 2,
+        "hint": "F-100 or Ready-to-Use Therapeutic Food (RUTF).",
+        "explanation": "F-100 (100 kcal/100 mL) or RUTF is introduced in the Rehabilitation Phase once appetite returns and edema resolves to supply high calories and protein for catch-up growth."
+      },
+      {
+        "q": "What specialized oral rehydration solution is recommended for treating dehydration in children with Severe Acute Malnutrition?",
+        "options": [
+          "A) Standard World Health Organization Oral Rehydration Solution (WHO-ORS)",
+          "B) ReSoMal (Rehydration Solution for Malnutrition)",
+          "C) Hypertonic 3% Saline",
+          "D) Plain tap water with table salt"
+        ],
+        "correct": 1,
+        "hint": "ReSoMal (Rehydration Solution for Malnutrition).",
+        "explanation": "ReSoMal is specifically formulated with lower sodium content and higher potassium and sugar levels to meet the altered electrolyte needs of severely malnourished children."
+      },
+      {
+        "q": "What is the core mnemonic introduced in the source to remember the 10 WHO steps of inpatient malnutrition management?",
+        "options": [
+          "A) AEIOU TIPS",
+          "B) ABCDE-SAM",
+          "C) GHENT-MIF",
+          "D) PALS-SAM"
+        ],
+        "correct": 2,
+        "hint": "GHENT-MIF.",
+        "explanation": "'GHENT-MIF' is the memory aid used to recall the 10 WHO steps: Glucose, Heat, Electrolytes & Dehydration, Nutrition (starter), Treat Infection, Micronutrients, Increase Feeding, and Follow-up & Sensory Stimulation."
+      },
+      {
+        "q": "What fundamental safety rule applies to Iron administration during the initial Stabilization Phase of SAM management?",
+        "options": [
+          "A) Give high-dose IV iron on Day 1",
+          "B) Delay iron supplementation until the child is stabilized, edema has resolved, and weight gain has begun",
+          "C) Give oral iron together with starter formula F-75 from the first feed",
+          "D) Iron is completely contraindicated permanently in malnourished children"
+        ],
+        "correct": 1,
+        "hint": "Delay iron until stabilized, edema is resolving, and weight gain has started.",
+        "explanation": "Iron must be withheld during the initial Stabilization Phase because unabsorbed free iron promotes bacterial proliferation and oxidative tissue damage; iron is added only during the Rehabilitation Phase."
+      },
+      {
+        "q": "What critical restriction applies to routine Intravenous (IV) fluids during the management of dehydration in SAM?",
+        "options": [
+          "A) IV fluids are mandatory for all children with SAM on admission",
+          "B) Routine IV fluids should be strictly avoided unless the child exhibits clinical signs of frank shock",
+          "C) Give 60 mL/kg normal saline boluses immediately to all edematous children",
+          "D) IV fluids should be given continuously over 48 hours to correct low blood pressure"
+        ],
+        "correct": 1,
+        "hint": "Avoid routine IV fluids unless the child has signs of frank shock.",
+        "explanation": "Children with SAM have compromised myocardial function and expanded intracellular sodium; routine IV fluids easily trigger fatal volume overload and heart failure unless true shock is present."
+      },
+      {
+        "q": "What assumption must be made regarding infections in a child presenting with Severe Acute Malnutrition?",
+        "options": [
+          "A) Infections are absent if the child has no fever",
+          "B) Serious underlying bacterial infection must be assumed present even if classic signs like fever are absent, requiring prompt broad-spectrum antibiotics",
+          "C) Antibiotics should be withheld until blood culture results are returned after 5 days",
+          "D) Antibiotics are required only if white blood cell count is >20,000/µL"
+        ],
+        "correct": 1,
+        "hint": "Assume serious bacterial infection is present even without fever; start broad-spectrum antibiotics.",
+        "explanation": "Severely malnourished children have impaired inflammatory responses and often fail to produce fever; systemic infections must be presumed and treated empirically with broad-spectrum antimicrobials."
+      },
+      {
+        "q": "How does Severe Acute Malnutrition impact the immune system?",
+        "options": [
+          "A) It causes primary genetic immunodeficiency",
+          "B) It causes a form of Secondary Immunodeficiency, increasing vulnerability to severe infections and sepsis",
+          "C) It enhances T-lymphocyte function",
+          "D) It has no effect on immunity"
+        ],
+        "correct": 1,
+        "hint": "Causes secondary immunodeficiency and higher risk of severe infections/sepsis.",
+        "explanation": "Malnutrition impairs both cellular and humoral immunity, serving as a leading cause of secondary immunodeficiency that predisposes children to overwhelming sepsis."
+      },
+      {
+        "q": "Under the WHO 10-step protocol, which steps are performed strictly during the initial Stabilization Phase (Days 1–7)?",
+        "options": [
+          "A) Steps 1 to 7 (Hypoglycemia, Hypothermia, Dehydration, Electrolytes, Infection, Micronutrients, Starter Feeding)",
+          "B) Steps 8 to 10 only",
+          "C) Steps 1, 5, and 10 only",
+          "D) All 10 steps are performed simultaneously on Day 1"
+        ],
+        "correct": 0,
+        "hint": "Steps 1 to 7 cover initial stabilization.",
+        "explanation": "Steps 1 through 7 constitute the Stabilization Phase aimed at life-saving stabilization, while Steps 8 through 10 constitute the Rehabilitation Phase."
+      },
+      {
+        "q": "How frequently should small feeds (F-75) be administered to a severely malnourished child during the first few days of the Stabilization Phase?",
+        "options": [
+          "A) Once every 6 hours",
+          "B) Every 2 to 3 hours, day and night",
+          "C) Only when the child cries for food",
+          "D) Twice daily after morning rounds"
+        ],
+        "correct": 1,
+        "hint": "Every 2 to 3 hours, day and night.",
+        "explanation": "To prevent hypoglycemia and metabolic collapse, feeds must be given in small, precise volumes every 2 to 3 hours throughout both day and night."
+      },
+      {
+        "q": "What specific electrolyte changes are characteristic of Severe Acute Malnutrition, requiring targeted correction in Step 4?",
+        "options": [
+          "A) High intracellular potassium and low body sodium",
+          "B) Total body potassium and magnesium depletion, with excess intracellular sodium",
+          "C) Severe hyperkalemia and hypernatremia",
+          "D) Hypercalcemia and hyperphosphatemia"
+        ],
+        "correct": 1,
+        "hint": "Low potassium and magnesium, with excess intracellular sodium.",
+        "explanation": "Malnutrition causes sodium-pump dysfunction leading to intracellular sodium accumulation, while total body stores of potassium and magnesium are markedly depleted."
+      },
+      {
+        "q": "Why are standard loop diuretics (e.g., Furosemide) contraindicated for managing nutritional edema in Kwashiorkor?",
+        "options": [
+          "A) Diuretics cause acute lung damage",
+          "B) Diuretics worsen electrolyte collapse and intravascular hypovolemia, risking fatal circulatory shock",
+          "C) Diuretics neutralize the effect of antibiotics",
+          "D) Diuretics convert kwashiorkor into marasmus"
+        ],
+        "correct": 1,
+        "hint": "They worsen electrolyte imbalance and intravascular hypovolemia/shock.",
+        "explanation": "Edema in SAM results from capillary leak and hypoalbuminemia, not fluid overload; diuretics dangerously deplete intravascular volume and cause cardiovascular collapse."
+      },
+      {
+        "q": "What clinical criteria signal that a child with SAM is ready to transition from the Stabilization Phase to the Rehabilitation Phase (Step 8)?",
+        "options": [
+          "A) Return of appetite (eagerly taking feeds) and initiation of edema resolution",
+          "B) Complete 30-day stay in hospital regardless of appetite",
+          "C) Immediate doubling of body weight on Day 2",
+          "D) Ability to walk independently"
+        ],
+        "correct": 0,
+        "hint": "Return of appetite and starting resolution of edema.",
+        "explanation": "The key indicators of stabilization are a restored appetite (passing the appetite test) and reduction or resolution of nutritional edema."
+      },
+      {
+        "q": "What essential role does Step 9 (Provide sensory stimulation and emotional support) play in the WHO 10-step protocol?",
+        "options": [
+          "A) It is optional and only used if nursing staff have extra time",
+          "B) It prevents long-term neurodevelopmental delay and emotional trauma through structured play, loving care, and caregiver involvement",
+          "C) It replaces the need for starter formula F-75",
+          "D) It reduces the required antibiotic dosage"
+        ],
+        "correct": 1,
+        "hint": "Prevents neurodevelopmental delay and emotional trauma through play and caregiver care.",
+        "explanation": "Malnutrition severely affects cognitive development; sensory stimulation and emotional bonding are essential components of holistic recovery."
+      },
+      {
+        "q": "What micronutrients should be routinely administered during Step 6 of the Stabilization Phase?",
+        "options": [
+          "A) Iron and Calcium only",
+          "B) High-dose Vitamin A, Folic Acid, Zinc, and Copper (with iron delayed)",
+          "C) Vitamin D and Vitamin K only",
+          "D) Intravenous Vitamin C alone"
+        ],
+        "correct": 1,
+        "hint": "Vitamin A, folic acid, zinc, and copper (hold iron early).",
+        "explanation": "Baseline micronutrient replenishment requires Vitamin A, folic acid, zinc, and copper to restore cellular function and mucosal repair, while iron is held."
+      },
+      {
+        "q": "In the GHENT-MIF mnemonic, what does the letter 'H' represent?",
+        "options": [
+          "A) Hemoglobin optimization",
+          "B) Heat (Treat or prevent hypothermia)",
+          "C) Hydration with hypertonic saline",
+          "D) Hepatic enzyme monitoring"
+        ],
+        "correct": 1,
+        "hint": "Heat (prevent/treat hypothermia).",
+        "explanation": "In GHENT-MIF, 'H' stands for Heat, representing Step 2 of the WHO protocol: treating and preventing hypothermia through thermal care."
+      },
+      {
+        "q": "How is uncomplicated Severe Acute Malnutrition managed in community health settings according to standard guidelines?",
+        "options": [
+          "A) Immediate admission for 6 weeks of IV fluids",
+          "B) Outpatient care using Ready-to-Use Therapeutic Food (RUTF) and routine oral antibiotics",
+          "C) Complete fluid restriction without feeding",
+          "D) High-dose steroid therapy at home"
+        ],
+        "correct": 1,
+        "hint": "Outpatient care with RUTF and routine oral antibiotics.",
+        "explanation": "Uncomplicated SAM (children with good appetite and no severe medical complications) is managed safely in outpatient community settings using RUTF."
+      },
+      {
+        "q": "What is the rationale for continuing breastfeeding during the management of Severe Acute Malnutrition in infants?",
+        "options": [
+          "A) Breastfeeding provides essential immunological protection, hydration, and comfort alongside therapeutic feeds",
+          "B) Breastfeeding should be stopped to allow full uptake of F-75",
+          "C) Breast milk causes severe lactose intolerance in SAM",
+          "D) Breastfeeding is permitted only after 3 months of rehabilitation"
+        ],
+        "correct": 0,
+        "hint": "Provides immune protection, hydration, and comfort alongside therapeutic feeds.",
+        "explanation": "Breastfeeding should always be continued on demand in malnourished infants alongside therapeutic starter feeds."
+      },
+      {
+        "q": "What temperature threshold defines Hypothermia in a child evaluated for Severe Acute Malnutrition?",
+        "options": [
+          "A) Axillary temperature < 35.0°C or Rectal temperature < 35.5°C",
+          "B) Axillary temperature < 36.5°C",
+          "C) Temperature < 37.0°C",
+          "D) Temperature < 33.0°C only"
+        ],
+        "correct": 0,
+        "hint": "Axillary < 35.0°C or rectal < 35.5°C.",
+        "explanation": "Hypothermia in SAM is defined as an axillary temperature under 35.0°C (or rectal under 35.5°C), reflecting impaired thermogenesis and high risk of mortality."
+      },
+      {
+        "q": "What blood glucose level defines Hypoglycemia in a child with Severe Acute Malnutrition?",
+        "options": [
+          "A) Blood glucose < 3.0 mmol/L (< 54 mg/dL)",
+          "B) Blood glucose < 4.0 mmol/L",
+          "C) Blood glucose < 5.0 mmol/L",
+          "D) Blood glucose < 1.5 mmol/L only"
+        ],
+        "correct": 0,
+        "hint": "Blood glucose < 3.0 mmol/L (< 54 mg/dL).",
+        "explanation": "In SAM, hypoglycemia is defined as blood glucose < 3.0 mmol/L (or < 54 mg/dL), a lower threshold than in healthy children due to depleted glycogen reserves."
+      },
+      {
+        "q": "What non-pharmacological interventions are essential to prevent and manage hypothermia in a hospitalized child with SAM?",
+        "options": [
+          "A) Cold water sponge bathing",
+          "B) Keeping the room warm (25–28°C), avoiding drafts, utilizing Kangaroo Mother Care (skin-to-skin contact), and capping/wrapping the head",
+          "C) Continuous fan ventilation",
+          "D) Rapid infusion of ice-cold IV saline"
+        ],
+        "correct": 1,
+        "hint": "Warm room (25–28°C), avoid drafts, Kangaroo care, and cover head.",
+        "explanation": "Prevention of radiant and convective heat loss via warm environment, clothing, head coverage, and skin-to-skin contact is critical for maintaining body temperature."
+      },
+      {
+        "q": "Why is assessing dehydration by skin turgor alone unreliable in children with Marasmus or Kwashiorkor?",
+        "options": [
+          "A) Because skin turgor is always normal in SAM",
+          "B) In Marasmus, loss of subcutaneous fat causes skin tenting without true dehydration; in Kwashiorkor, edema masks skin turgor loss",
+          "C) Because skin turgor cannot be performed on pediatric limbs",
+          "D) Because dehydration does not occur in malnourished children"
+        ],
+        "correct": 1,
+        "hint": "Marasmus loses fat (false tenting); kwashiorkor has edema (masks signs).",
+        "explanation": "Subcutaneous fat loss in marasmus produces false-positive skin tenting, while nutritional edema in kwashiorkor obscures fluid status, making standard physical signs of dehydration unreliable."
+      },
+      {
+        "q": "What signs should be closely monitored to detect Fluid Overload during rehydration or feeding of a child with SAM?",
+        "options": [
+          "A) Increased urine output alone",
+          "B) Rising respiratory rate, worsening tachypnea, chest retractions, neck vein engorgement, and increasing liver enlargement",
+          "C) Falling heart rate and warm extremities",
+          "D) Dry mucous membranes"
+        ],
+        "correct": 1,
+        "hint": "Rising respiratory rate/retractions, neck vein distension, and enlarging liver.",
+        "explanation": "Overhydration in SAM leads to rapid cardiac decompensation; serial monitoring of respiratory rate, effort, jugular venous pressure, and liver size detects early pulmonary edema."
+      },
+      {
+        "q": "What metabolic composition renders ReSoMal superior to standard WHO-ORS for dehydrating SAM patients?",
+        "options": [
+          "A) ReSoMal has higher sodium and lower potassium",
+          "B) ReSoMal has reduced sodium (~45 mmol/L), increased potassium (~40 mmol/L), increased magnesium, and added sugar",
+          "C) ReSoMal contains 0% glucose",
+          "D) ReSoMal is identical to normal saline"
+        ],
+        "correct": 1,
+        "hint": "Lower sodium, higher potassium/magnesium, and added sugar.",
+        "explanation": "ReSoMal contains less sodium to prevent hypernatremic fluid overload, and higher potassium/magnesium to replace intracellular electrolyte deficits."
+      },
+      {
+        "q": "What initial management is indicated if a child with SAM presents with confirmed Hypoglycemia (blood glucose < 3.0 mmol/L) and is conscious?",
+        "options": [
+          "A) Give 50 mL of 10% glucose or sucrose solution orally or by nasogastric tube immediately, followed by early feeding",
+          "B) Administer 50 mL of 50% dextrose IV bolus",
+          "C) Withhold all food for 12 hours",
+          "D) Give cold plain water"
+        ],
+        "correct": 0,
+        "hint": "50 mL of 10% glucose/sucrose orally or by NG tube, then start feeding.",
+        "explanation": "Conscious hypoglycemic SAM children should receive 50 mL of 10% glucose/sucrose orally or via NG tube, with immediate continuation of small frequent feeds."
+      },
+      {
+        "q": "What clinical indication permits the cautious administration of Intravenous Fluids in a child with SAM?",
+        "options": [
+          "A) Presence of mild diarrhea without lethargy",
+          "B) Clear clinical signs of Septic or Hypovolemic Shock (lethargy/unconsciousness, weak/absent pulse, cold extremities, and delayed CRT)",
+          "C) Presence of Grade +3 nutritional edema",
+          "D) Routine admission requirement"
+        ],
+        "correct": 1,
+        "hint": "Only with clear signs of shock.",
+        "explanation": "IV fluids are strictly reserved for severe shock with circulatory collapse due to the high risk of iatrogenic heart failure."
+      },
+      {
+        "q": "Why is extra Potassium provided throughout the management of Severe Acute Malnutrition?",
+        "options": [
+          "A) To increase blood pressure",
+          "B) To correct total body potassium depletion, restore cellular membrane potentials, and prevent cardiac arrhythmias",
+          "C) To induce vomiting",
+          "D) To prevent iron absorption"
+        ],
+        "correct": 1,
+        "hint": "Corrects total body potassium depletion and supports cardiac/cellular function.",
+        "explanation": "Severe intracellular potassium depletion affects cardiac, intestinal, and skeletal muscle function; potassium supplementation (3–4 mmol/kg/day) is essential."
+      },
+      {
+        "q": "In the GHENT-MIF mnemonic, what does the letter 'E' highlight regarding clinical management?",
+        "options": [
+          "A) Early Emergency Intubation",
+          "B) Electrolytes (correct imbalances) & Dehydration management (prefer ReSoMal, restrict sodium)",
+          "C) Exercise therapy",
+          "D) Enema administration"
+        ],
+        "correct": 1,
+        "hint": "Electrolytes and dehydration management.",
+        "explanation": "'E' in GHENT-MIF stands for Electrolyte correction and cautious Dehydration management without routine IV fluids."
+      },
+      {
+        "q": "What is the caloric density and main therapeutic objective of starter formula F-75?",
+        "options": [
+          "A) 100 kcal/100 mL; intended for rapid weight gain",
+          "B) 75 kcal/100 mL; intended to restore cellular function and metabolic stability without overloading cardiac or renal capacity",
+          "C) 150 kcal/100 mL; intended for muscle hypertrophy",
+          "D) 50 kcal/100 mL; intended for fluid restriction"
+        ],
+        "correct": 1,
+        "hint": "75 kcal/100 mL to stabilize metabolism without overloading heart/kidneys.",
+        "explanation": "F-75 provides 75 kcal per 100 mL; its reduced protein and calorie composition prevents refeeding syndrome and cardiac failure during initial stabilization."
+      },
+      {
+        "q": "What is the caloric density of F-100 formula used during the Rehabilitation Phase?",
+        "options": [
+          "A) 75 kcal/100 mL",
+          "B) 100 kcal/100 mL",
+          "C) 200 kcal/100 mL",
+          "D) 500 kcal/100 mL"
+        ],
+        "correct": 1,
+        "hint": "100 kcal/100 mL.",
+        "explanation": "F-100 formula provides 100 kcal per 100 mL, supplying the high energy density required for rapid tissue catch-up growth."
+      },
+      {
+        "q": "Why is broad-spectrum antimicrobial therapy routinely administered to ALL children admitted with SAM, even in the absence of fever?",
+        "options": [
+          "A) To satisfy hospital billing protocols",
+          "B) Because severely malnourished children have defective immune systems that fail to produce localized signs or fever despite severe, life-threatening bacterial infections",
+          "C) Antibiotics act as anabolic growth stimulants",
+          "D) Antibiotics increase appetite directly"
+        ],
+        "correct": 1,
+        "hint": "Immunocompromised SAM children often lack fever despite serious bacterial infection.",
+        "explanation": "Immunocompromise in SAM dampens fever and inflammatory signs; occult bacteremia and infections are present in nearly all admitted SAM patients."
+      },
+      {
+        "q": "What specific physiological danger is triggered if high-dose Iron is administered during the first 2 days of SAM stabilization?",
+        "options": [
+          "A) Iron induces severe hypoglycemia",
+          "B) Free unbound iron promotes rapid bacterial replication and generates harmful free radicals, increasing early mortality",
+          "C) Iron destroys vitamin A in the gut",
+          "D) Iron causes immediate renal stones"
+        ],
+        "correct": 1,
+        "hint": "Free iron can fuel bacterial growth and cause oxidative free-radical damage.",
+        "explanation": "Malnourished children have low transferrin levels; early iron remains free in blood, feeding pathogenic bacteria and causing oxidative tissue destruction."
+      },
+      {
+        "q": "When should Iron supplementation finally be initiated in a child treated for SAM?",
+        "options": [
+          "A) On admission Day 1",
+          "B) During the Rehabilitation Phase (Step 8) once the child demonstrates active weight gain and good appetite",
+          "C) Only after 1 year of discharge",
+          "D) Iron is never given"
+        ],
+        "correct": 1,
+        "hint": "In the rehabilitation phase when appetite returns and weight gain begins.",
+        "explanation": "Iron is safely added to feeds during the Rehabilitation Phase when protein synthesis and erythropoiesis are actively occurring."
+      },
+      {
+        "q": "What initial empirical antibiotic strategy is recommended for uncomplicated SAM vs. severe complicated SAM?",
+        "options": [
+          "A) Uncomplicated: Oral Amoxicillin; Complicated: IV Ampicillin + Gentamicin",
+          "B) Uncomplicated: IV Vancomycin; Complicated: Oral Nystatin",
+          "C) Uncomplicated: No antibiotics; Complicated: Oral Metronidazole alone",
+          "D) Uncomplicated: IV Ciprofloxacin; Complicated: Oral Paracetamol"
+        ],
+        "correct": 0,
+        "hint": "Oral amoxicillin for uncomplicated; IV ampicillin + gentamicin for complicated.",
+        "explanation": "Outpatient uncomplicated SAM receives routine oral Amoxicillin; inpatient complicated SAM requires parenteral broad-spectrum coverage (IV Ampicillin + Gentamicin)."
+      },
+      {
+        "q": "What essential role does Zinc supplementation play during the recovery phase of SAM?",
+        "options": [
+          "A) Zinc lowers serum potassium",
+          "B) Zinc promotes mucosal healing, restores immune function, and supports enzymatic growth pathways",
+          "C) Zinc replaces the need for F-75",
+          "D) Zinc prevents hypothermia"
+        ],
+        "correct": 1,
+        "hint": "Supports mucosal repair, immunity, and growth pathways.",
+        "explanation": "Zinc is a critical cofactor for protein synthesis, cell division, gut mucosal integrity, and immune reconstitution."
+      },
+      {
+        "q": "In the GHENT-MIF mnemonic, what does the letter 'N' represent?",
+        "options": [
+          "A) Neurological examination",
+          "B) Nutrition (Starter feeding with F-75)",
+          "C) Normal saline bolus",
+          "D) Niacin high-dose therapy"
+        ],
+        "correct": 1,
+        "hint": "Nutrition (starter feeding with F-75).",
+        "explanation": "'N' in GHENT-MIF stands for starting cautious Nutrition using F-75 starter formula (Step 7)."
+      },
+      {
+        "q": "In the GHENT-MIF mnemonic, what does the letter 'M' represent?",
+        "options": [
+          "A) Muscle biopsy",
+          "B) Micronutrient supplementation (with iron delayed)",
+          "C) Mantoux testing",
+          "D) Morphine administration"
+        ],
+        "correct": 1,
+        "hint": "Micronutrients (delaying iron early).",
+        "explanation": "'M' in GHENT-MIF stands for Micronutrients (Vitamin A, zinc, copper, folic acid), reminding clinicians to hold iron early."
+      },
+      {
+        "q": "In the GHENT-MIF mnemonic, what does the letter 'I' represent?",
+        "options": [
+          "A) Intravenous hydration",
+          "B) Increase feeding for catch-up growth (transition to F-100 / RUTF)",
+          "C) Insulin infusion",
+          "D) Isolation precautions"
+        ],
+        "correct": 1,
+        "hint": "Increase feeding for catch-up growth (F-100 or RUTF).",
+        "explanation": "'I' in GHENT-MIF stands for Increase feeding (Step 8: catch-up growth with F-100 or RUTF)."
+      },
+      {
+        "q": "A 2-year-old boy with severe marasmus is admitted to the stabilization ward with axillary temperature 34.8°C and blood glucose 2.2 mmol/L, lethargic but conscious. Identify the emergencies, immediate 30-minute management, and GHENT-MIF letters.",
+        "options": [
+          "A) Severe Anemia and Sepsis; Give IV blood transfusion; Letters A & B",
+          "B) Hypothermia (< 35.0°C) and Hypoglycemia (< 3.0 mmol/L); Administer 50 mL of 10% oral/NG glucose solution, provide immediate warm re-feeding (F-75), wrap head, and apply skin-to-skin care; Letters G (Glucose) & H (Heat)",
+          "C) Hyperglycemia and Dehydration; Give IV insulin and IV normal saline; Letters I & D",
+          "D) Kwashiorkor; Give oral furosemide; Letter F"
+        ],
+        "correct": 1,
+        "hint": "Hypoglycemia + hypothermia (G & H) -> 10% glucose, warmth/Kangaroo care, F-75.",
+        "explanation": "Blood glucose < 3.0 mmol/L and temp < 35.0°C represent Hypoglycemia and Hypothermia (Steps 1 & 2 / G & H). Management requires 10% glucose, F-75, and thermal care."
+      },
+      {
+        "q": "An 18-month-old girl with Kwashiorkor (+3 pitting edema) has lethargy and watery diarrhea; a resident orders 20 mL/kg IV normal saline and 40 mg IV furosemide. Critique the plan, note complications, and state proper Step 3/4 care.",
+        "options": [
+          "A) The plan is correct and evidence-based.",
+          "B) The plan is dangerous; routine IV fluids cause fatal heart failure/pulmonary edema, and diuretics exacerbate electrolyte collapse/shock; manage with oral/NG ReSoMal, extra potassium/magnesium, and restrict sodium without diuretics",
+          "C) Give double-dose furosemide with hypertonic saline",
+          "D) Administer high-dose albumin IV bolus"
+        ],
+        "correct": 1,
+        "hint": "Avoid routine IV fluids and diuretics; use ReSoMal + potassium/magnesium and restrict sodium.",
+        "explanation": "Routine IV fluids and diuretics are major pitfalls in SAM. IV fluids trigger heart failure, while diuretics trigger hypovolemic shock. Dehydration requires ReSoMal, potassium, and sodium restriction (E in GHENT-MIF)."
+      },
+      {
+        "q": "A 3-year-old child with severe marasmic-kwashiorkor is on F-75 on Day 2 when oral iron is added for pallor. Why is early iron risky, what is the rule, and when is iron started under GHENT-MIF?",
+        "options": [
+          "A) Iron causes severe diarrhea; Give iron IV instead",
+          "B) Early iron provides free unbound iron that promotes bacterial overgrowth, sepsis, and oxidative free-radical damage; Iron must be delayed until Step 8 (Rehabilitation Phase / Letter I) when edema resolves and weight gain begins",
+          "C) Iron prevents vitamin A absorption; Give iron at 5 years of age",
+          "D) Iron is completely safe at all times"
+        ],
+        "correct": 1,
+        "hint": "Free iron fuels bacteria and free radicals; delay until rehabilitation/catch-up growth (Letter I).",
+        "explanation": "Early iron administration is a critical pitfall. Unbound iron fuels bacterial proliferation and causes free radical injury. Iron is given only during catch-up growth (M & I in GHENT-MIF)."
+      },
+      {
+        "q": "A 15-month-old with SAM has temp 36.6°C and no cough, but is lethargic, hypopneic, and hypocirculatory. Does lack of fever rule out infection, which step/letter applies, and what antibiotics are given?",
+        "options": [
+          "A) Yes; infection is ruled out; Withhold antibiotics",
+          "B) No; SAM children cannot generate fever due to immunosuppression; Step 5 (Treat Infection / Letter T) mandates starting broad-spectrum antibiotics (e.g., IV Ampicillin + Gentamicin) immediately",
+          "C) Give oral antipyretics only",
+          "D) Perform lumbar puncture and wait 7 days before starting therapy"
+        ],
+        "correct": 1,
+        "hint": "No fever does not rule out infection in SAM (Letter T) -> start broad-spectrum antibiotics.",
+        "explanation": "Absence of fever does NOT rule out infection in SAM due to secondary immunodeficiency. Step 5 (T in GHENT-MIF) mandates empirical broad-spectrum antibiotics."
+      },
+      {
+        "q": "A 2-year-old with SAM has completed 5 days on F-75; edema is gone, appetite is strong, and all F-75 feeds are finished. What milestone is met, what is the feeding transition (Step 8 / Letter I), and what is the catch-up feed?",
+        "options": [
+          "A) Patient has failed treatment; Re-start stabilization with ReSoMal",
+          "B) Patient has achieved stabilization and is ready for the Rehabilitation Phase; transition gradually from F-75 to F-100 (or RUTF) over 48 hours to rebuild wasted tissues",
+          "C) Discharge home immediately without further feeding",
+          "D) Switch to low-calorie clear broths"
+        ],
+        "correct": 1,
+        "hint": "Stabilized -> transition from F-75 to F-100 or RUTF for catch-up growth.",
+        "explanation": "Restored appetite and resolved edema signal readiness for Rehabilitation (Step 8 / Letter I). Feeding is transitioned from F-75 to F-100/RUTF to achieve catch-up growth."
+      },
+      {
+        "q": "During oral ReSoMal rehydration of a malnourished child, respiratory rate rises from 30 to 55/min, lung base crackles appear, and liver enlarges by 3 cm. Identify the complication and immediate action.",
+        "options": [
+          "A) Dehydration is worsening; Increase ReSoMal rate",
+          "B) Fluid Overload and Early Pulmonary Edema; Stop ReSoMal/IV fluids immediately, assess airway, and monitor closely",
+          "C) Pneumothorax; Perform chest tube drainage",
+          "D) Hypoglycemia; Give 50% dextrose IV"
+        ],
+        "correct": 1,
+        "hint": "Tachypnea, crackles, and enlarging liver = fluid overload/pulmonary edema -> stop fluids immediately.",
+        "explanation": "Tachypnea, basal lung crackles, and liver enlargement indicate fluid overload and incipient heart failure. All fluids must be stopped immediately."
+      },
+      {
+        "q": "Match each letter of GHENT-MIF to its clinical meaning in SAM management.",
+        "options": [
+          "A) G=Glucose, H=Heat, E=Electrolytes/Dehydration, N=Nutrition (F-75), T=Treat Infection, M=Micronutrients (no early iron), I=Increase Feeding (F-100/RUTF), F=Follow-up & Sensory Stimulation",
+          "B) G=Gastric lavage, H=Heparin, E=Epinephrine, N=Niacin, T=Tetanus, M=Morphine, I=Insulin, F=Furosemide",
+          "C) G=Gentamicin, H=Hydrocortisone, E=Erythromycin, N=Neostigmine, T=Theophylline, M=Mannitol, I=Ibuprofen, F=Fluid bolus",
+          "D) G=Growth hormone, H=Haloperidol, E=Enalapril, N=Nifedipine, T=Thyroxine, M=Metformin, I=Iodine, F=Folic acid"
+        ],
+        "correct": 0,
+        "hint": "Glucose, Heat, Electrolytes/Dehydration, Nutrition, Treat infection, Micronutrients, Increase feeding, Follow-up & stimulation.",
+        "explanation": "GHENT-MIF summarizes the 10 WHO steps in exact sequence: Glucose, Heat, Electrolytes/Dehydration, Nutrition, Treat Infection, Micronutrients, Increase Feeding, Follow-up & Sensory Stimulation."
+      },
+      {
+        "q": "Why is standard WHO-ORS high in sodium (75 mmol/L) unsafe for routine rehydration in SAM patients without shock?",
+        "options": [
+          "A) It causes severe diarrhea",
+          "B) Malnourished children have excess intracellular sodium due to Na+/K+ ATPase pump failure; high-sodium fluids cause fluid retention, hypernatremia, and acute heart failure",
+          "C) High sodium neutralizes F-75",
+          "D) It causes hypothermia"
+        ],
+        "correct": 1,
+        "hint": "Excess intracellular sodium from pump failure + extra sodium = water retention and heart failure.",
+        "explanation": "In SAM, cellular pump failure traps sodium inside cells. Giving high-sodium ORS causes water retention, expansion of intravascular volume, and fatal heart failure."
+      },
+      {
+        "q": "What discharge planning and follow-up measures comprise Step 10 (Letter F in GHENT-MIF)?",
+        "options": [
+          "A) Discontinue all follow-up visits upon discharge",
+          "B) Caregiver education on appropriate feeding, hygiene, and danger signs; provision of RUTF; linkage to community health facilities; and scheduled outpatient follow-up",
+          "C) Permanent hospitalization until 18 years of age",
+          "D) Oral steroid maintenance at home"
+        ],
+        "correct": 1,
+        "hint": "Caregiver education, RUTF supply, community linkage, and outpatient follow-up.",
+        "explanation": "Step 10 (F in GHENT-MIF) focuses on caregiver empowerment, hygiene/nutrition education, RUTF supply, and establishing outpatient follow-up to prevent relapse."
+      },
+      {
+        "q": "Outline the master stabilization and recovery sequence for a 1-year-old with severe SAM, hypothermia, lethargy, and loose stools: (1) first 2 hours, (2) Days 1–7, and (3) Rehabilitation Phase.",
+        "options": [
+          "A) 1. High-dose IV fluids, IV furosemide, oral iron; 2. Discharge home; 3. Readmit after 1 month",
+          "B) 1. Check blood glucose and temperature; give 10% glucose solution, provide thermal care (Kangaroo care/warm blankets), start F-75 starter feed every 2–3 hours; 2. Provide ReSoMal for diarrhea, give broad-spectrum antibiotics, supplement potassium/magnesium and micronutrients (hold iron); 3. Transition to F-100/RUTF for catch-up growth, provide sensory stimulation, and prepare for discharge (GHENT-MIF protocol)",
+          "C) 1. Give IV normal saline 60 mL/kg bolus; 2. Give oral iron; 3. Stop feeding",
+          "D) 1. Cold water bath; 2. Fasting for 7 days; 3. IV amino acids"
+        ],
+        "correct": 1,
+        "hint": "0–2h: glucose, warmth, F-75; Days 1–7: ReSoMal, antibiotics, K+/Mg2+/micronutrients (no early iron); Rehab: F-100/RUTF, stimulation, follow-up.",
+        "explanation": "Master management follows GHENT-MIF: immediate glucose/heat/starter F-75 (0–2h), ReSoMal/potassium/antibiotics/micronutrients (Days 1–7), followed by F-100/RUTF catch-up growth, stimulation, and discharge planning."
+      }
+    ]
+  }
+]
