@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Acute Seizures",
+    "questions": [
+      {
+        "q": "According to the sources, how is an acute seizure defined in pediatric medicine?",
+        "options": [
+          "A) A primary structural lesion of the brainstem causing decerebrate posturing",
+          "B) A sudden, involuntary, time-limited alteration in behavior, motor activity, autonomic function, consciousness, or sensation, accompanied by an abnormal electrical discharge in the brain",
+          "C) An irreversible ischemic injury to cortical neurons",
+          "D) A chronic neurodegenerative state resulting in progressive motor regression"
+        ],
+        "correct": 1,
+        "hint": "Think about a sudden, temporary change in motor, sensory, autonomic, or cognitive function from abnormal brain electrical activity.",
+        "explanation": "An acute seizure is defined as a sudden, involuntary, time-limited disturbance in neurological function (motor, sensory, autonomic, or cognitive) caused by excessive, abnormal electrical activity in brain neurons."
+      },
+      {
+        "q": "What proportion of children will experience a seizure of some form during childhood?",
+        "options": [
+          "A) 1 in 100 (1%)",
+          "B) 1 in 50 (2%)",
+          "C) 1 in 20 (5%)",
+          "D) 1 in 5 (20%)"
+        ],
+        "correct": 2,
+        "hint": "Recall the 1-in-20 (5%) childhood seizure proportion.",
+        "explanation": "Seizures are a common pediatric presentation, with approximately 1 in 20 (5%) children experiencing a seizure during childhood."
+      },
+      {
+        "q": "What is the natural course of most acute pediatric seizures, and at what duration threshold should immediate medical treatment be initiated?",
+        "options": [
+          "A) Most last over 30 minutes; treat immediately if over 1 minute",
+          "B) Most are brief and self-limiting, ceasing within 5 minutes; treat immediately if seizure duration exceeds 5 minutes or duration is unknown",
+          "C) Most last 15 to 20 minutes; treat only if seizure lasts over 1 hour",
+          "D) Most cease within 30 seconds; treat immediately with oral antipyretics"
+        ],
+        "correct": 1,
+        "hint": "Most stop within 5 minutes on their own; treat promptly if >5 minutes or duration is unknown.",
+        "explanation": "Most pediatric seizures self-terminate within 5 minutes. Active pharmacological treatment is indicated if a seizure lasts longer than 5 minutes, if the duration is unknown, or if cardiorespiratory compromise is present."
+      },
+      {
+        "q": "What is the single most common cause of acute seizures in pediatric patients worldwide?",
+        "options": [
+          "A) Brain tumors",
+          "B) Febrile seizures",
+          "C) Head trauma",
+          "D) Inborn errors of metabolism"
+        ],
+        "correct": 1,
+        "hint": "Fever-associated seizures are the most frequent acute seizure cause in children worldwide.",
+        "explanation": "Worldwide, febrile seizures represent the most frequent type of acute seizure in children, typically associated with viral or bacterial infections and carrying a generally favorable prognosis."
+      },
+      {
+        "q": "How is a Febrile Seizure defined clinically?",
+        "options": [
+          "A) Any seizure occurring with a temperature of 37.0°C in an epileptic child",
+          "B) A seizure associated with fever in a child without intracranial infection, metabolic disturbance, or a history of prior afebrile seizures",
+          "C) A focal seizure caused by pyogenic bacterial meningitis",
+          "D) A chronic seizure disorder triggered exclusively by hot baths"
+        ],
+        "correct": 1,
+        "hint": "Fever-related seizure without CNS infection, metabolic cause, or prior afebrile seizures.",
+        "explanation": "A febrile seizure occurs in the setting of fever (≥38°C) in children aged 6 months to 5 years who have no evidence of CNS infection, acute metabolic derangement, or prior afebrile seizures."
+      },
+      {
+        "q": "What is the classic age range for simple febrile seizures in children?",
+        "options": [
+          "A) Birth to 2 months",
+          "B) 6 months to 5 years",
+          "C) 5 years to 12 years",
+          "D) 12 years to 18 years"
+        ],
+        "correct": 1,
+        "hint": "Simple febrile seizures typically occur between 6 months and 5 years of age.",
+        "explanation": "Simple febrile seizures occur within the specific developmental window of 6 months to 5 years of age, peaking between 12 and 18 months."
+      },
+      {
+        "q": "What temperature threshold is required to meet the clinical definition of a febrile seizure?",
+        "options": [
+          "A) 37.2°C or higher",
+          "B) 37.5°C or higher",
+          "C) 38.0°C or higher",
+          "D) 40.0°C or higher"
+        ],
+        "correct": 2,
+        "hint": "The standard fever cutoff is 38.0°C (100.4°F) or higher.",
+        "explanation": "By diagnostic definition, a febrile seizure requires a documented core temperature of 38.0°C (100.4°F) or higher."
+      },
+      {
+        "q": "What is the estimated incidence of febrile seizures among young children?",
+        "options": [
+          "A) 0.1–0.5%",
+          "B) 3–4%",
+          "C) 10–15%",
+          "D) 25–30%"
+        ],
+        "correct": 1,
+        "hint": "Look for the 3–4% incidence range in young children.",
+        "explanation": "Febrile seizures are the most common childhood seizure disorder, affecting approximately 3% to 4% of young children."
+      },
+      {
+        "q": "How is Febrile Status Epilepticus defined by seizure duration?",
+        "options": [
+          "A) A febrile seizure lasting longer than 5 minutes",
+          "B) A febrile seizure lasting longer than 15 minutes",
+          "C) A febrile seizure lasting longer than 30 minutes",
+          "D) Recurrent seizures occurring over 72 hours"
+        ],
+        "correct": 2,
+        "hint": "Status epilepticus duration threshold is longer than 30 minutes.",
+        "explanation": "Febrile status epilepticus is classified as a continuous febrile seizure or intermittent seizures without recovery of consciousness lasting longer than 30 minutes."
+      },
+      {
+        "q": "What is the primary first-line pharmacological class used to terminate an active acute seizure?",
+        "options": [
+          "A) Antihistamines",
+          "B) Benzodiazepines (e.g., Diazepam, Midazolam, Lorazepam)",
+          "C) Barbiturates",
+          "D) Loop diuretics"
+        ],
+        "correct": 1,
+        "hint": "Benzodiazepines (diazepam, midazolam, lorazepam) are first-line to stop active seizures.",
+        "explanation": "Benzodiazepines are the rapid-acting first-line medications of choice to abort active acute seizures."
+      },
+      {
+        "q": "Which metabolic derangements are recognized causes of acute AFEBRILE seizures in children?",
+        "options": [
+          "A) Isolated hyperuricemia",
+          "B) Hypoglycemia, hyperglycemia, hypocalcemia, hyperkalemia, hypomagnesemia, hyponatremia, hypernatremia, and elevated urea/creatinine",
+          "C) Mild hyperbilirubinemia",
+          "D) Hypcholesterolemia"
+        ],
+        "correct": 1,
+        "hint": "Think of blood sugar shifts, electrolyte imbalances (Ca, Mg, Na, K), and renal impairment.",
+        "explanation": "Acute afebrile seizures can be triggered by acute metabolic disturbances including glucose derangements, electrolyte imbalances (calcium, magnesium, sodium, potassium), and renal impairment."
+      },
+      {
+        "q": "Which specific prescription medications are explicitly listed as potential pharmacological triggers for acute seizures in children?",
+        "options": [
+          "A) Paracetamol, ibuprofen, and amoxicillin",
+          "B) Pentazocine, Aminophylline, and Insulin",
+          "C) Cetirizine and ranitidine",
+          "D) Oral rehydration salts"
+        ],
+        "correct": 1,
+        "hint": "Look for pentazocine, aminophylline, and insulin.",
+        "explanation": "Medication-induced seizures can result from accidental overdose or toxicity of agents such as pentazocine, aminophylline, or insulin (causing iatrogenic hypoglycemia)."
+      },
+      {
+        "q": "What non-epileptic paroxysmal event typically occurs when a child is crying vigorously, leading to transient apnea and cyanosis?",
+        "options": [
+          "A) Vasovagal syncope",
+          "B) Breath-holding spell",
+          "C) Absence seizure",
+          "D) Benign sleep myoclonus"
+        ],
+        "correct": 1,
+        "hint": "Triggered by crying with brief apnea and cyanosis—a breath-holding spell.",
+        "explanation": "Breath-holding spells are non-epileptic paroxysmal events that occur specifically during crying episodes, resulting in brief apnea, color change, and occasionally involuntary anoxic jerking."
+      },
+      {
+        "q": "How is Vasovagal Syncope with an anoxic seizure differentiated from an epileptic seizure in the clinical history?",
+        "options": [
+          "A) It occurs exclusively during deep sleep",
+          "B) It is associated with sudden postural changes, preceded by lightheadedness/dizziness and nausea, followed by brief loss of consciousness",
+          "C) It causes prolonged post-ictal confusion lasting 4 hours",
+          "D) It presents with focal motor twitching of one thumb for 20 minutes"
+        ],
+        "correct": 1,
+        "hint": "Postural triggers, dizziness/nausea prodrome, and rapid recovery point to vasovagal syncope.",
+        "explanation": "Vasovagal syncope is triggered by postural changes or emotional stress, displays prodromal symptoms (dizziness, nausea, pallor), and results in rapid recovery without prolonged post-ictal states."
+      },
+      {
+        "q": "An infant under 6 months of age presenting with intractable acute seizures should raise immediate clinical suspicion for which treatable metabolic/genetic condition?",
+        "options": [
+          "A) Pyridoxine (Vitamin B6)-dependent seizures",
+          "B) Dravet syndrome",
+          "C) Absence epilepsy",
+          "D) Juvenile myoclonic epilepsy"
+        ],
+        "correct": 0,
+        "hint": "Think of Vitamin B6 (pyridoxine)-dependent seizures in young infants with refractory seizures.",
+        "explanation": "In infants under 6 months with unexplained or refractory seizures, clinicians must consider pyridoxine-dependent seizures, which respond specifically to Vitamin B6 administration."
+      },
+      {
+        "q": "Which clinical history or examination finding represents a critical 'Red Flag' in a child presenting with a seizure?",
+        "options": [
+          "A) Return to normal baseline mental status within 15 minutes",
+          "B) Head injury with delayed seizure, pre-seizure headache, focal signs, hypertension, or features of a toxidrome",
+          "C) Temperature of 38.2°C during an upper respiratory infection",
+          "D) Single generalized seizure lasting 2 minutes"
+        ],
+        "correct": 1,
+        "hint": "Delayed post-traumatic seizure, headache beforehand, focal deficits, high BP, or toxidrome signs are red flags.",
+        "explanation": "Red flags signaling potential intracranial structural lesions, raised ICP, or toxic exposures include delayed post-traumatic seizures, severe preceding headache, focal neurological deficits, hypertension, bleeding disorders, and toxidromes."
+      },
+      {
+        "q": "What physical examination findings constitute features of a Toxidrome in a child presenting with seizures?",
+        "options": [
+          "A) Bradycardia, hypothermia, and dry skin",
+          "B) Tachycardia, tachypnea, hypertension, hyperthermia, diaphoresis, hyperreflexia, tremors, or diarrhea",
+          "C) Isolated pallor without vital sign changes",
+          "D) Normal skin turgor and clear lungs"
+        ],
+        "correct": 1,
+        "hint": "Look for autonomic/neuromuscular signs like tachycardia, hypertension, fever, sweating, or hyperreflexia.",
+        "explanation": "Toxic ingestions presenting with seizures often exhibit toxidrome signs, including sympathetic or anticholinergic hyperarousal (tachycardia, hypertension, fever, diaphoresis, hyperreflexia)."
+      },
+      {
+        "q": "What is the expected duration of post-ictal drowsiness in a simple febrile seizure before the child returns to their normal neurological baseline?",
+        "options": [
+          "A) Less than 1 hour",
+          "B) 6 to 12 hours",
+          "C) 24 to 48 hours",
+          "D) 7 days"
+        ],
+        "correct": 0,
+        "hint": "Recovery after a simple febrile seizure usually happens within an hour.",
+        "explanation": "Following a simple febrile seizure, post-ictal drowsiness is brief, and the child typically returns to their normal baseline behavior and neurological status within 1 hour."
+      },
+      {
+        "q": "Which infectious etiologies are common underlying sources of fever triggering febrile seizures in young children?",
+        "options": [
+          "A) Otitis media, Human Herpesvirus 6 (HHV-6), and Shigella infections",
+          "B) Isolated fungal tinea capitis",
+          "C) Chronic hepatitis C",
+          "D) Subacute bacterial endocarditis"
+        ],
+        "correct": 0,
+        "hint": "Ear infections, HHV-6, and Shigella are classic fever triggers listed.",
+        "explanation": "Evaluation of a child with febrile seizures focuses on identifying the fever source; acute otitis media, viral roseola (HHV-6), and gastrointestinal infections like Shigella are frequent culprits."
+      },
+      {
+        "q": "What physical examination signs strongly suggest Bacterial Meningitis rather than a simple febrile seizure?",
+        "options": [
+          "A) Clear tympanic membranes and normal fontanelle",
+          "B) Bulging anterior fontanelle, neck stiffness, non-blanching purpuric rash, or persistent altered consciousness",
+          "C) Rapid return to play within 20 minutes",
+          "D) Symmetrical brisk knee reflexes"
+        ],
+        "correct": 1,
+        "hint": "Bulging fontanelle, neck stiffness, purpuric rash, or lingering altered mental status point to meningitis.",
+        "explanation": "Meningeal signs (nuchal rigidity, Kernig/Brudzinski signs), a bulging fontanelle in infants, petechial/purpuric skin lesions, and prolonged coma indicate central nervous system infection rather than a benign febrile seizure."
+      },
+      {
+        "q": "What three core clinical criteria define a Simple Febrile Seizure?",
+        "options": [
+          "A) Focal onset, duration >15 minutes, and multiple episodes in 24 hours",
+          "B) Generalized onset (non-focal), duration <15 minutes, and occurs only once in a 24-hour period in a developmentally normal child",
+          "C) Occurs in infants <2 months, features hemiplegia, and lasts 45 minutes",
+          "D) Associated with chronic epilepsy and afebrile spikes"
+        ],
+        "correct": 1,
+        "hint": "Generalized, <15 minutes, and single episode in 24 hours in a developmentally normal child.",
+        "explanation": "A simple febrile seizure is strictly defined as a generalized motor seizure lasting less than 15 minutes that does not recur within 24 hours in a child without prior neurological deficits."
+      },
+      {
+        "q": "Which features classify a febrile seizure as a COMPLEX Febrile Seizure?",
+        "options": [
+          "A) Generalized tonic-clonic activity lasting 3 minutes",
+          "B) Focal features at onset or during seizure, duration >15 minutes, or recurrence >1 time within a 24-hour period",
+          "C) Occurrence in a 3-year-old child with otitis media",
+          "D) Complete recovery within 30 minutes"
+        ],
+        "correct": 1,
+        "hint": "Any one of: focal features, >15 minutes duration, or >1 seizure in 24 hours.",
+        "explanation": "A febrile seizure is classified as complex if it exhibits focal motor signs, lasts longer than 15 minutes, or occurs more than once within a 24-hour period."
+      },
+      {
+        "q": "How is a Symptomatic Febrile Seizure categorized?",
+        "options": [
+          "A) A seizure occurring in a child with a known pre-existing neurological abnormality or developmental delay in the setting of fever",
+          "B) Any seizure caused by an accidental aspirin overdose",
+          "C) A seizure occurring without a fever",
+          "D) A simple seizure lasting 1 minute"
+        ],
+        "correct": 0,
+        "hint": "Occurs with fever in a child who already has a neurological abnormality or developmental delay.",
+        "explanation": "Symptomatic febrile seizures occur in children who have pre-existing brain structural lesions, static encephalopathies, or developmental delay prior to the febrile illness."
+      },
+      {
+        "q": "According to clinical guidelines, what are the recommendations for performing a Lumbar Puncture (LP) in children presenting with febrile seizures?",
+        "options": [
+          "A) Perform LP routinely on every child regardless of age or symptoms",
+          "B) Strongly consider LP in children <12 months (meningitis signs may be subtle/absent); consider in ages 12–18 months based on clinical judgment; perform in ages >18 months ONLY if meningeal signs or CNS infection are suspected",
+          "C) Never perform an LP under any circumstances",
+          "D) Perform LP only if the child has a normal temperature"
+        ],
+        "correct": 1,
+        "hint": "Strong consideration under 12 months, clinical judgment 12–18 months, and only if CNS infection is suspected over 18 months.",
+        "explanation": "Because infants under 12 months may lack classical meningeal signs, LP should be strongly considered in this age group, whereas older children require LP only when clinical signs of CNS infection are present."
+      },
+      {
+        "q": "Are routine blood tests (CBC, CRP, Blood Glucose) indicated for a simple febrile seizure in a well-appearing child?",
+        "options": [
+          "A) Yes, full septic workup is mandatory for every simple febrile seizure",
+          "B) No, blood tests are NOT routine for simple febrile seizures unless the source of fever is unclear, the child is unwell, or there is prolonged post-ictal obtundation/fasting",
+          "C) Blood tests should only be drawn after 7 days",
+          "D) Only serum cholesterol is required"
+        ],
+        "correct": 1,
+        "hint": "Not routine in a well child with a clear fever source who recovers promptly.",
+        "explanation": "Routine blood investigations are unnecessary for simple febrile seizures when a clear viral/bacterial source is identified and the child recovers completely."
+      },
+      {
+        "q": "What is the recommendation regarding routine Neuroimaging (CT or MRI) for simple febrile seizures?",
+        "options": [
+          "A) Routine CT scan must be performed immediately",
+          "B) Routine MRI is required for all first episodes",
+          "C) Neuroimaging is NOT routine and is indicated only if focal seizures, persistent neurological abnormalities, elevated ICP, or structural lesions are suspected",
+          "D) Neuroimaging is recommended only in children over 10 years"
+        ],
+        "correct": 2,
+        "hint": "Not routine for simple febrile seizures; reserve for focal signs, persistent deficits, trauma, or raised ICP.",
+        "explanation": "Neuroimaging is unnecessary in simple febrile seizures because brain structural abnormalities are absent; imaging is reserved for focal events, trauma, or persistent deficits."
+      },
+      {
+        "q": "Is an Electroencephalogram (EEG) indicated following a simple febrile seizure?",
+        "options": [
+          "A) Yes, an EEG must be performed within 24 hours to rule out epilepsy",
+          "B) No, EEG is NOT indicated for simple febrile seizures because an abnormal EEG does NOT predict seizure recurrence or future epilepsy",
+          "C) EEG is required only if the fever was >39°C",
+          "D) EEG is performed continuously for 1 month"
+        ],
+        "correct": 1,
+        "hint": "EEG does not predict recurrence or future epilepsy after simple febrile seizures.",
+        "explanation": "EEG has no predictive value for recurrence or epilepsy development following simple febrile seizures and should not be routinely performed."
+      },
+      {
+        "q": "What is the overall risk of febrile seizure recurrence after a child's FIRST simple febrile seizure, and after a SECOND episode?",
+        "options": [
+          "A) ~5% after first; ~10% after second",
+          "B) ~30% after first; ~50% after second",
+          "C) 100% recurrence in all cases",
+          "D) 0% risk of recurrence"
+        ],
+        "correct": 1,
+        "hint": "Roughly 30% after the first episode and ~50% after a second.",
+        "explanation": "The risk of recurrence is approximately 30% after a first febrile seizure, increasing to approximately 50% after a second episode."
+      },
+      {
+        "q": "How does the risk of developing subsequent Epilepsy in a child with simple febrile seizures compare to the general population?",
+        "options": [
+          "A) 50% risk vs 50% in general population",
+          "B) Slightly increased at 2–5% vs 1% in the general population",
+          "C) 0% risk of epilepsy",
+          "D) 90% risk of epilepsy"
+        ],
+        "correct": 1,
+        "hint": "Only a modest increase: ~2–5% compared to ~1% in the general population.",
+        "explanation": "Simple febrile seizures carry an excellent long-term prognosis; the risk of developing epilepsy is only slightly elevated (2–5%) compared to the baseline risk in the general population (~1%)."
+      },
+      {
+        "q": "Do antipyretic medications (such as Paracetamol or Ibuprofen) prevent the recurrence of febrile seizures during a febrile illness?",
+        "options": [
+          "A) Yes, high-dose paracetamol prevents 100% of febrile seizures",
+          "B) No, antipyretics provide patient comfort but do NOT prevent febrile seizures",
+          "C) Ibuprofen given every 2 hours guarantees seizure prevention",
+          "D) Antipyretics trigger status epilepticus"
+        ],
+        "correct": 1,
+        "hint": "Antipyretics help comfort but do not prevent febrile seizures.",
+        "explanation": "Antipyretics improve child comfort during fever but clinical trials demonstrate that they do NOT reduce the incidence or recurrence rate of febrile seizures."
+      },
+      {
+        "q": "What non-pharmacological position must a seizing child be placed in during the initial stabilization phase (0–5 minutes) to prevent aspiration?",
+        "options": [
+          "A) Prone position with head down",
+          "B) Flat on back (supine) with head flexed forward",
+          "C) Turned on their side (recovery position) with clothing around the neck loosened",
+          "D) Upright sitting position tied to a chair"
+        ],
+        "correct": 2,
+        "hint": "Side-lying recovery position with loose neck clothing helps prevent aspiration.",
+        "explanation": "During initial stabilization, the child is placed on their side in the recovery position, airway cleared, and neck clothing loosened to prevent tongue obstruction and emesis aspiration."
+      },
+      {
+        "q": "What is the maximum total number of benzodiazepine doses (including pre-hospital doses administered by parents or paramedics) allowed before escalating to second-line anticonvulsants?",
+        "options": [
+          "A) 1 dose",
+          "B) Maximum of 2 doses",
+          "C) 4 doses",
+          "D) Unlimited doses until seizure stops"
+        ],
+        "correct": 1,
+        "hint": "Cap benzodiazepines at a maximum of 2 doses total before moving to second-line therapy.",
+        "explanation": "Seizure protocols strictly limit benzodiazepine administration to a maximum of 2 appropriate doses (combining pre-hospital and in-hospital doses) to avoid profound respiratory depression and hypoventilation."
+      },
+      {
+        "q": "What are the recommended primary routes and dosages for emergency FIRST-LINE Benzodiazepine administration in pediatric acute seizures?",
+        "options": [
+          "A) Rectal Diazepam 0.2–0.5 mg/kg (max 20 mg), IV Diazepam 0.15–0.2 mg/kg (max 10 mg), IM Midazolam (10 mg if >40 kg, 5 mg if 13–40 kg, or 0.2 mg/kg), Buccal Midazolam 0.3 mg/kg (max 10 mg), or IV Lorazepam 0.1 mg/kg",
+          "B) Oral Diazepam tablets 50 mg",
+          "C) Subcutaneous Midazolam 10 mg/kg",
+          "D) Continuous IV Phenobarbital infusion"
+        ],
+        "correct": 0,
+        "hint": "Rectal/IV diazepam, IM/buccal midazolam, or IV lorazepam with standard weight-based doses.",
+        "explanation": "First-line seizure rescue options include Rectal Diazepam (0.2–0.5 mg/kg), IV Diazepam (0.15–0.2 mg/kg), Buccal/IN/IM Midazolam, or IV Lorazepam (0.1 mg/kg)."
+      },
+      {
+        "q": "What are the loading dose, infusion rate limit, and vital monitoring requirements for IV Phenytoin when used as a second-line anticonvulsant?",
+        "options": [
+          "A) Loading dose: 18 mg/kg IV/IO (max 2 g); max infusion rate 1 mg/kg/min (max 50 mg/min); requires continuous cardiac monitoring",
+          "B) Loading dose: 100 mg/kg IV push over 10 seconds; no monitoring needed",
+          "C) Loading dose: 2 mg/kg oral syrup",
+          "D) Continuous IV infusion at 500 mg/hour without dilution"
+        ],
+        "correct": 0,
+        "hint": "18 mg/kg IV/IO load, max 1 mg/kg/min (max 50 mg/min), with continuous cardiac monitoring.",
+        "explanation": "IV Phenytoin is administered at a loading dose of 18 mg/kg IV/IO (max 2 g) at a rate not exceeding 1 mg/kg/min (or 50 mg/min) under continuous ECG/cardiac monitoring due to risks of dysrhythmias and severe hypotension."
+      },
+      {
+        "q": "Why must IV Phenytoin be administered through a verified, well-functioning intravenous line?",
+        "options": [
+          "A) Phenytoin causes rapid hypoglycemia if given IM",
+          "B) Phenytoin is highly caustic and causes severe local tissue damage/necrosis if it extravasates into surrounding tissue",
+          "C) Phenytoin evaporates when exposed to plastic tubing",
+          "D) Phenytoin causes immediate blindness if infused in small veins"
+        ],
+        "correct": 1,
+        "hint": "Extravasation of caustic phenytoin can cause severe local tissue injury/necrosis.",
+        "explanation": "Phenytoin has an alkaline pH and is highly caustic; extravasation into soft tissues causes severe chemical thrombophlebitis, tissue necrosis, and purple glove syndrome."
+      },
+      {
+        "q": "Which second-line intravenous anticonvulsant is explicitly CONTRAINDICATED in children diagnosed with Dravet Syndrome (Severe Myoclonic Epilepsy of Infancy)?",
+        "options": [
+          "A) Levetiracetam",
+          "B) Phenytoin",
+          "C) Phenobarbitone",
+          "D) Sodium Valproate"
+        ],
+        "correct": 1,
+        "hint": "Sodium-channel-blocking phenytoin can worsen seizures in Dravet syndrome.",
+        "explanation": "Phenytoin (a sodium channel blocker) exacerbates seizure frequency and causes severe neurological worsening in Dravet syndrome (SCN1A mutation), making it strictly contraindicated."
+      },
+      {
+        "q": "What is the recommended dosing and administration protocol for IV Levetiracetam as a second-line agent?",
+        "options": [
+          "A) Dose: 40–60 mg/kg IV/IO (max 4500 mg/dose), diluted to 50 mg/mL and infused over 5 minutes",
+          "B) Dose: 5 mg/kg IV push over 1 second",
+          "C) Dose: 500 mg/kg IM single bolus",
+          "D) Dose: 1 mg/kg orally every 24 hours"
+        ],
+        "correct": 0,
+        "hint": "40–60 mg/kg IV/IO (max 4500 mg), diluted to 50 mg/mL, infused over 5 minutes.",
+        "explanation": "Levetiracetam is infused at 40–60 mg/kg IV/IO (maximum 4500 mg/dose), diluted to 50 mg/mL, over a 5-minute period."
+      },
+      {
+        "q": "In which pediatric age group is Sodium Valproate NOT recommended due to a high risk of fatal hepatotoxicity?",
+        "options": [
+          "A) Children under 3 years of age",
+          "B) Adolescents aged 12 to 18 years",
+          "C) Neonates receiving phototherapy",
+          "D) Children over 10 years of age"
+        ],
+        "correct": 0,
+        "hint": "Avoid valproate in children under 3 years due to severe hepatotoxicity risk.",
+        "explanation": "Sodium Valproate carries a boxed warning and is not recommended in children under 3 years of age due to an unacceptably high risk of severe or fatal hepatotoxicity and metabolic crisis."
+      },
+      {
+        "q": "Under what clinical circumstances must Sodium Valproate infusion be STOPPED immediately?",
+        "options": [
+          "A) Development of mild drowsiness",
+          "B) Occurrence of skin reaction/hypersensitivity, signs of hepatotoxicity, or acute pancreatitis",
+          "C) Transient rise in heart rate by 5 bpm",
+          "D) Normalization of blood glucose"
+        ],
+        "correct": 1,
+        "hint": "Stop immediately for hypersensitivity/rash, liver toxicity signs, or pancreatitis.",
+        "explanation": "Sodium Valproate must be terminated immediately if the child displays hypersensitivity/skin reactions, clinical signs of liver toxicity, or acute pancreatitis."
+      },
+      {
+        "q": "What is the standard loading dose and infusion protocol for IV Phenobarbitone, and in which specific age group is it most commonly utilized?",
+        "options": [
+          "A) Loading dose: 15–20 mg/kg IV/IO at 50–75 mg/min; most commonly used in neonatal seizures",
+          "B) Loading dose: 100 mg/kg IV push; used in adolescents",
+          "C) Loading dose: 1 mg/kg oral solution; used in school-aged children",
+          "D) Continuous infusion of 50 mg/kg/min in adults"
+        ],
+        "correct": 0,
+        "hint": "15–20 mg/kg IV/IO loading dose, widely used for neonatal seizures.",
+        "explanation": "Phenobarbitone is administered at a loading dose of 15–20 mg/kg IV/IO (at 50–75 mg/min, max rate 1 mg/kg/min) under cardiac monitoring, serving as the classic first-line agent for neonatal seizures."
+      },
+      {
+        "q": "What sequence of steps must be executed during the 0 to 5-minute STABILIZATION PHASE of a child arriving with an active convulsion?",
+        "options": [
+          "A) Administer high-dose oral valproate, perform skull X-rays, and keep room cold",
+          "B) Assess ABCs (clear oral cavity, maintain patent airway), turn child on side to prevent aspiration, loosen neck clothing, measure vitals (RR, BP, Temp, SpO2), administer 2 L/min O2 via cannula/mask, insert IV line, and check Point-of-Care Blood Glucose",
+          "C) Induce general anesthesia immediately",
+          "D) Perform lumbar puncture while the child is actively convulsing"
+        ],
+        "correct": 1,
+        "hint": "ABCs, recovery position, loosen neck clothing, vitals, oxygen, IV access, and blood glucose check.",
+        "explanation": "Initial resuscitation requires ABC stabilization, oxygenation, positioning in the recovery position, establishing IV access, drawing bloods, and immediately ruling out hypoglycemia."
+      },
+      {
+        "q": "A 3-year-old girl is brought to the ED having a generalized tonic-clonic seizure that started 10 minutes ago. Her mother administered 1 dose of rectal diazepam at home 8 minutes ago. In the ED, she receives O2, her airway is clear, and Blood Glucose is 5.2 mmol/L. The seizure continues. What is the correct next pharmacological step?",
+        "options": [
+          "A) Administer a second dose of benzodiazepine (e.g., IV Lorazepam 0.1 mg/kg, IV Diazepam 0.15–0.2 mg/kg, or Buccal/IN Midazolam)",
+          "B) Administer 5 more doses of rectal diazepam simultaneously",
+          "C) Discharge home immediately",
+          "D) Initiate oral paracetamol syrup"
+        ],
+        "correct": 0,
+        "hint": "She has had 1 dose so far—give the 2nd benzodiazepine dose.",
+        "explanation": "The child has received 1 pre-hospital benzodiazepine dose. According to the protocol, a 2nd benzodiazepine dose must be administered; if the seizure persists 5 minutes after this 2nd dose, second-line non-benzodiazepine agents are indicated."
+      },
+      {
+        "q": "In the active seizure algorithm, if a child continues to seize 5 minutes AFTER receiving their 2nd dose of benzodiazepine, what second-line intravenous agents should be administered?",
+        "options": [
+          "A) Repeat benzodiazepine for a 3rd and 4th time",
+          "B) Infuse IV Levetiracetam (40–60 mg/kg) OR IV Phenytoin (18 mg/kg)",
+          "C) Administer oral chloral hydrate",
+          "D) Give subcutaneous insulin"
+        ],
+        "correct": 1,
+        "hint": "After 2 benzodiazepine doses fail, move to IV levetiracetam (40–60 mg/kg) or IV phenytoin (18 mg/kg).",
+        "explanation": "When seizures persist despite 2 appropriate doses of benzodiazepine, second-line therapy must be initiated immediately with either IV Levetiracetam or IV Phenytoin."
+      },
+      {
+        "q": "If a child's seizure continues 5 minutes after completing the infusion of the FIRST second-line agent (e.g., Levetiracetam), what is the next algorithmic step?",
+        "options": [
+          "A) Administer the alternative second-line agent (Phenytoin; or Phenobarbitone if Phenytoin was given first) and prepare for endotracheal intubation",
+          "B) Stop all treatments and observe for 2 hours",
+          "C) Administer oral paracetamol",
+          "D) Give IV normal saline bolus only"
+        ],
+        "correct": 0,
+        "hint": "Try the alternative second-line agent and prepare airway/intubation support.",
+        "explanation": "If the first 2nd-line agent fails to abort the seizure, the protocol mandates administering the alternative 2nd-line agent (or Phenobarbitone if Phenytoin was already used) while preparing senior staff and intubation equipment."
+      },
+      {
+        "q": "If convulsions persist despite 2 doses of benzodiazepines and 2 second-line anticonvulsants (Refractory Status Epilepticus), where and how must the patient be managed?",
+        "options": [
+          "A) In the outpatient clinic with oral antiepileptics",
+          "B) In the Intensive Care Unit (ICU) under General Anesthesia (e.g., Thiopental IV 2–5 mg/kg loading dose, continuous Midazolam infusion, or Propofol infusion) with endotracheal intubation and mechanical ventilation",
+          "C) In the general ward without airway support",
+          "D) At home with cold compresses"
+        ],
+        "correct": 1,
+        "hint": "Refractory status epilepticus needs ICU care, intubation/ventilation, and continuous anesthetic infusions.",
+        "explanation": "Refractory status epilepticus requires transfer to the ICU, endotracheal intubation, mechanical ventilation, and continuous intravenous anesthetic infusions such as Thiopental (2–5 mg/kg load), Midazolam infusion, or Propofol."
+      },
+      {
+        "q": "What secondary continuous infusion dosing regimens are specified for Midazolam and Propofol in refractory status epilepticus?",
+        "options": [
+          "A) Midazolam: 0.1 mg/kg loading dose followed by 0.06–0.4 mg/kg/hour infusion; Propofol: 3 mg/kg loading dose followed by 7.5–18 mg/kg/hour infusion",
+          "B) Midazolam: 50 mg/kg/hour; Propofol: 100 mg/kg single dose",
+          "C) Midazolam: 1 mg/kg oral daily; Propofol: 0.1 mg/kg weekly",
+          "D) Continuous IV saline without active drugs"
+        ],
+        "correct": 0,
+        "hint": "Midazolam 0.1 mg/kg load then 0.06–0.4 mg/kg/hr; Propofol 3 mg/kg load then 7.5–18 mg/kg/hr.",
+        "explanation": "ICU management of refractory status epilepticus utilizes Midazolam (0.1 mg/kg load then 0.06–0.4 mg/kg/hr) or Propofol (3 mg/kg load then 7.5–18 mg/kg/hr) under strict continuous monitoring."
+      },
+      {
+        "q": "Under what specific clinical conditions is emergency Blood Testing (electrolytes, calcium, venous blood gas) MANDATORY in a child with an acute seizure?",
+        "options": [
+          "A) Every simple febrile seizure lasting 1 minute",
+          "B) Any seizure requiring a second-line agent, children <12 months of age, presence of medical comorbidities (metabolic disorder, diabetes, dehydration, toxidrome), or failure to return to baseline",
+          "C) Only if the child is over 15 years old",
+          "D) Only after 48 hours of seizure freedom"
+        ],
+        "correct": 1,
+        "hint": "Needed when second-line drugs are required, age <12 months, comorbidities exist, or recovery is delayed.",
+        "explanation": "Laboratory workup (electrolytes, calcium, VBG) is selectively required for prolonged/refractory seizures requiring 2nd-line drugs, infants under 12 months, known metabolic/diabetic comorbidity, or delayed post-ictal recovery."
+      },
+      {
+        "q": "Under what specific clinical circumstances are emergency Brain Imaging Studies (CT or MRI) indicated in a child with an acute seizure?",
+        "options": [
+          "A) Evidence of trauma, focal seizure, requirement of a 3rd-line agent, age <6 months, signs of elevated ICP, new focal deficits/stroke symptoms, bleeding disorder, or failure to return to baseline",
+          "B) Simple febrile seizure lasting 3 minutes in a 2-year-old",
+          "C) Isolated fever of 38.5°C with a clear otitis media",
+          "D) Breath-holding spell in a 1-year-old"
+        ],
+        "correct": 0,
+        "hint": "Trauma, focal onset, 3rd-line therapy, age <6 months, raised ICP, focal deficits, bleeding risk, or delayed recovery.",
+        "explanation": "Urgent neuroimaging is indicated for structural or surgical etiologies, focal onset, infants <6 months, head trauma, signs of raised ICP, bleeding diatheses, or refractory status epilepticus."
+      },
+      {
+        "q": "What guidance should healthcare providers provide to parents regarding the long-term management and education of a child after a simple febrile seizure?",
+        "options": [
+          "A) Reassure parents that simple febrile seizures are common, benign, do not cause brain damage or intellectual disability, teach seizure first aid (recovery position, do not put items in mouth), advise calling emergency services if seizure lasts >5 minutes, and clarify that antipyretics do not prevent seizures",
+          "B) Inform parents that the child has severe epilepsy requiring lifelong daily anticonvulsants",
+          "C) Instruct parents to give oral spoon restraints during future seizures",
+          "D) Advise strict bed rest for 6 months"
+        ],
+        "correct": 0,
+        "hint": "Reassure that simple febrile seizures are benign, teach safe first aid, note >5 min emergency care, and clarify antipyretics don't prevent them.",
+        "explanation": "Parental counseling emphasizes the benign nature of simple febrile seizures (no brain injury/learning disability), teaches basic seizure first aid, advises when to seek emergency help (>5 min), and explains that antipyretics do not prevent recurrences."
+      },
+      {
+        "q": "A 4-year-old boy with no prior medical history is brought to the ED with an ongoing focal seizure involving his right arm and face that started 20 minutes ago. He has a fever of 38.8°C. At home, his parents gave 1 dose of rectal diazepam 15 minutes ago. In the ED, his ABCs are supported, O2 is applied, BGL is 5.6 mmol/L, but focal right-sided twitching continues. Classify the episode, outline the drug sequence, and identify needed investigations.",
+        "options": [
+          "A) Simple febrile seizure; Give oral paracetamol only; Discharge home",
+          "B) Complex Febrile Seizure / Febrile Status Epilepticus (focal and >15 min); Administer 2nd benzodiazepine dose (e.g., IV Lorazepam 0.1 mg/kg or IV Diazepam); if seizing after 5 minutes, infuse IV Levetiracetam (40–60 mg/kg) or IV Phenytoin (18 mg/kg); obtain Bloods (CBC, electrolytes, VBG), consider LP after stabilization, and arrange Cranial Imaging (CT/MRI) due to focal features and prolonged duration",
+          "C) Symptomatic Afebrile Epilepsy; Give oral valproate only",
+          "D) Normal presentation; No treatment required"
+        ],
+        "correct": 1,
+        "hint": "Focal + >15 min = complex/status; give 2nd benzo then 2nd-line IV drug; check bloods, LP (when stable), and CT/MRI.",
+        "explanation": "1) Focal features and duration >15 minutes indicate a complex febrile seizure / febrile status epilepticus. 2) After 1 home diazepam dose, give a 2nd benzodiazepine dose, escalating to IV levetiracetam or phenytoin if seizures persist after 5 minutes. 3) Obtain bloods (electrolytes/VBG), consider LP after stabilization, and get cranial imaging (CT/MRI) for focal and prolonged features."
+      }
+    ]
+  }
+]
