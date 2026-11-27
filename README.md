@@ -1,2 +1,2 @@
-# Road-maps
-Easy studying with roadmap lecture notes
+# sixseven-game
+Easy studying with gamefied lecture notes
