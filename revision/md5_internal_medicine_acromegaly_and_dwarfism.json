@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Acromegaly and Dwarfism",
+    "questions": [
+      {
+        "q": "Which anterior pituitary cell type constitutes more than half of all anterior pituitary cells and is specifically responsible for synthesizing and secreting Growth Hormone (Somatotropin)?",
+        "options": [
+          "A) Lactotrophs",
+          "B) Somatotrophs",
+          "C) Corticotrophs",
+          "D) Thyrotrophs"
+        ],
+        "correct": 1,
+        "hint": "More than 50% of anterior pituitary cells; secretes somatotropin.",
+        "explanation": "Somatotrophs make up more than 50% of anterior pituitary parenchymal cells and are dedicated to producing and secreting Growth Hormone (somatotropin)."
+      },
+      {
+        "q": "What primary physiological mediator, produced mainly by the liver under the direct influence of Growth Hormone, is responsible for indirectly promoting systemic tissue growth and cellular differentiation?",
+        "options": [
+          "A) Somatostatin (SRIF)",
+          "B) Insulin-like Growth Factor 1 (IGF-1)",
+          "C) Corticotropin-Releasing Hormone (CRH)",
+          "D) Fibroblast Growth Factor 23 (FGF-23)"
+        ],
+        "correct": 1,
+        "hint": "Hepatic growth factor induced by GH.",
+        "explanation": "Growth Hormone exerts its indirect trophic actions by triggering the synthesis and release of Insulin-like Growth Factor 1 (IGF-1) from the liver and peripheral target tissues."
+      },
+      {
+        "q": "What fundamental skeletal landmark dictates whether chronic Growth Hormone excess manifests as gigantism versus acromegaly?",
+        "options": [
+          "A) Calcification of the hyoid bone",
+          "B) Closure of the cranial diploic sutures",
+          "C) Epiphyseal growth plate fusion",
+          "D) Involution of the pubic symphysis"
+        ],
+        "correct": 2,
+        "hint": "Whether growth plates have fused or remain open.",
+        "explanation": "Growth hormone excess occurring before epiphyseal fusion leads to increased linear bone growth (gigantism). After epiphyseal closure, long bones can no longer lengthen, resulting in acromegaly (acral, facial, and soft-tissue overgrowth)."
+      },
+      {
+        "q": "How is 'short stature' defined auxologically in clinical practice?",
+        "options": [
+          "A) Height below −1 standard deviation (SD) for age and sex",
+          "B) Height below −2 standard deviations (SD) for age and sex, or below the expected reference population range",
+          "C) Sitting height ratio greater than 90% of total stature",
+          "D) Arm span exceeding total standing height by more than 10 cm"
+        ],
+        "correct": 1,
+        "hint": "Below −2 SD for age and sex.",
+        "explanation": "Short stature is a descriptive auxological finding defined as a standing height below −2 standard deviations (−2 SD) for age and sex relative to standard population growth charts."
+      },
+      {
+        "q": "Which statement accurately describes the normal physiological secretion pattern of Growth Hormone?",
+        "options": [
+          "A) Steady, continuous baseline secretion with peak levels during mid-afternoon",
+          "B) Pulsatile secretion, with the highest peak levels occurring during sleep",
+          "C) Monophasic secretion triggered exclusively by high postprandial glucose levels",
+          "D) Tonic release that steadily increases after adolescence and peaks in old age"
+        ],
+        "correct": 1,
+        "hint": "Pulsatile release, peaking during sleep.",
+        "explanation": "Growth Hormone secretion is characteristically pulsatile, displaying its highest physiological secretory pulses during deep sleep. Secretion levels naturally begin to decline after adolescence."
+      },
+      {
+        "q": "Which hypothalamic hormone acts directly on anterior pituitary somatotrophs to inhibit Growth Hormone release?",
+        "options": [
+          "A) Growth Hormone-Releasing Hormone (GHRH)",
+          "B) Somatostatin (Somatotropin Release-Inhibiting Factor, SRIF)",
+          "C) Thyrotropin-Releasing Hormone (TRH)",
+          "D) Dopamine"
+        ],
+        "correct": 1,
+        "hint": "Somatotropin release-inhibiting factor.",
+        "explanation": "Somatostatin (SRIF), synthesized in the hypothalamus, acts on somatotroph cell surface receptors to inhibit the synthesis and release of Growth Hormone."
+      },
+      {
+        "q": "What type of genetic disorder is achondroplasia, the most common form of disproportionate short stature?",
+        "options": [
+          "A) Autosomal recessive metabolic defect",
+          "B) Autosomal dominant skeletal dysplasia",
+          "C) X-linked recessive chromosomal deletion",
+          "D) Mitochondrial DNA mutation"
+        ],
+        "correct": 1,
+        "hint": "Autosomal dominant skeletal dysplasia.",
+        "explanation": "Achondroplasia is an autosomal dominant genetic skeletal dysplasia resulting from an activating mutation in the FGFR3 gene, leading to impaired endochondral ossification."
+      },
+      {
+        "q": "In children presenting with severe short stature, what height centile threshold represents a red flag requiring prompt specialist endocrine referral?",
+        "options": [
+          "A) Height below −1 SD",
+          "B) Height below −3 SD",
+          "C) Height below the 25th percentile",
+          "D) Height matching mid-parental target height"
+        ],
+        "correct": 1,
+        "hint": "Below −3 SD is a major red flag.",
+        "explanation": "A standing height below −3 standard deviations (−3 SD), rapid drop across centile lines, or height markedly below target mid-parental height represents a major red flag warranting urgent specialist assessment."
+      },
+      {
+        "q": "Which anatomical portion of the long bones displays disproportionate rhizomelic shortening in patients with achondroplasia?",
+        "options": [
+          "A) Distal limbs (hands and feet)",
+          "B) Proximal limbs (humerus and femur)",
+          "C) Medial limbs (radius and tibia)",
+          "D) Axial spine exclusively"
+        ],
+        "correct": 1,
+        "hint": "Rhizomelic = proximal segments (humerus and femur).",
+        "explanation": "'Rhizomelic' shortening specifically refers to disproportionate shortening of the proximal limb segments—the humerus in the upper extremity and the femur in the lower extremity."
+      },
+      {
+        "q": "What is the underlying pathological etiology in the vast majority of patients diagnosed with acromegaly?",
+        "options": [
+          "A) Ectopic GHRH production by small cell lung carcinoma",
+          "B) Primary adrenocortical hyperplasia",
+          "C) GH-secreting pituitary somatotroph adenoma",
+          "D) Autoimmune destruction of somatotroph cells"
+        ],
+        "correct": 2,
+        "hint": "GH-secreting pituitary adenoma (>95% of cases).",
+        "explanation": "Over 95% of acromegaly cases are caused by a benign monoclonal pituitary somatotroph adenoma (frequently a macroadenoma ≥10 mm) that autonomously secretes excess Growth Hormone."
+      },
+      {
+        "q": "How are growth disorders causing short stature broadly categorized based on physical body segment proportions?",
+        "options": [
+          "A) Microcephalic versus Macrocephalic",
+          "B) Proportionate versus Disproportionate short stature",
+          "C) Hypermetabolic versus Hypometabolic growth failure",
+          "D) Symmetric versus Asymmetric cranial dysplasia"
+        ],
+        "correct": 1,
+        "hint": "Proportionate vs. disproportionate.",
+        "explanation": "Short stature is classified clinically into proportionate (trunk and limbs reduced in equal proportion, as in GHD or chronic systemic disease) and disproportionate (limbs or trunk disproportionately short, as in skeletal dysplasias)."
+      },
+      {
+        "q": "Which of the following conditions represents a cause of proportionate short stature?",
+        "options": [
+          "A) Achondroplasia",
+          "B) Growth Hormone Deficiency (GHD)",
+          "C) Spondyloepiphyseal dysplasia",
+          "D) Thanatophoric dysplasia"
+        ],
+        "correct": 1,
+        "hint": "GHD causes proportionate growth failure.",
+        "explanation": "Growth Hormone Deficiency (GHD), chronic systemic illnesses (e.g., celiac disease, CKD), hypothyroidism, and constitutional delay of growth produce proportionate short stature, where limb and trunk lengths remain appropriate relative to one another."
+      },
+      {
+        "q": "Which non-endocrine chronic systemic disease can cause growth faltering and proportionate short stature in children?",
+        "options": [
+          "A) Achondroplasia",
+          "B) Celiac disease",
+          "C) Osteogenesis imperfecta",
+          "D) Hypochondroplasia"
+        ],
+        "correct": 1,
+        "hint": "A chronic GI/malabsorptive condition.",
+        "explanation": "Chronic systemic conditions—including celiac disease, inflammatory bowel disease, malnutrition, chronic kidney disease, and severe asthma—cause nutrient malabsorption or systemic inflammation that leads to proportionate growth failure."
+      },
+      {
+        "q": "Which rare extra-pituitary tumors can cause ectopic Growth Hormone (GH) or GHRH secretion leading to acromegaly?",
+        "options": [
+          "A) Pancreatic neuroendocrine tumors, ovarian, lung, or bronchial carcinoid tumors",
+          "B) Glioblastoma multiforme",
+          "C) Papillary thyroid carcinoma",
+          "D) Adrenocortical adenoma"
+        ],
+        "correct": 0,
+        "hint": "Neuroendocrine/carcinoid tumors (lung, pancreas, GI, ovary).",
+        "explanation": "Rare ectopic causes of acromegaly include GHRH-secreting or GH-secreting neuroendocrine tumors originating in the lung, pancreas, gastrointestinal tract, or ovary."
+      },
+      {
+        "q": "What specific chromosomal analysis is recommended for any girl presenting with unexplained short stature?",
+        "options": [
+          "A) 21-hydroxylase gene sequencing",
+          "B) Peripheral blood karyotype to evaluate for Turner syndrome (45,X)",
+          "C) FGFR3 mutation screening",
+          "D) HLA-DR3/DR4 typing"
+        ],
+        "correct": 1,
+        "hint": "Karyotype to rule out Turner syndrome.",
+        "explanation": "Unexplained short stature or delayed puberty in females requires a karyotype analysis to rule out Turner syndrome (45,X or mosaic variants), even in the absence of classic dysmorphic stigmata."
+      },
+      {
+        "q": "Which gene variant is responsible for causing classic achondroplasia?",
+        "options": [
+          "A) Loss-of-function mutation in the GH1 gene",
+          "B) Activating missense mutation in the Fibroblast Growth Factor Receptor 3 (FGFR3) gene",
+          "C) Inactivating mutation in the IGF1R gene",
+          "D) Translocation of the RET proto-oncogene"
+        ],
+        "correct": 1,
+        "hint": "Gain-of-function/activating mutation in FGFR3.",
+        "explanation": "Achondroplasia is caused by a gain-of-function (activating) mutation in the FGFR3 gene, which excessively inhibits chondrocyte proliferation and endochondral ossification at the growth plate."
+      },
+      {
+        "q": "What non-pathological growth pattern represents a normal variant characterized by delayed bone age, normal growth velocity in late childhood, and eventual normal adult height?",
+        "options": [
+          "A) Isolated Growth Hormone Deficiency",
+          "B) Constitutional Delay of Growth and Puberty (CDGP)",
+          "C) Laron dwarfism",
+          "D) Psychosocial short stature"
+        ],
+        "correct": 1,
+        "hint": "Constitutional delay of growth and puberty.",
+        "explanation": "Constitutional delay of growth and puberty is a common normal variant of growth. It features temporary growth deceleration, delayed skeletal maturation (bone age), delayed pubertal onset, but a late growth spurt resulting in normal adult target height."
+      },
+      {
+        "q": "Which neonatal clinical sign strongly suggests underlying congenital hypopituitarism or Growth Hormone Deficiency in a newborn male?",
+        "options": [
+          "A) Rhizomelic limb shortening and macrocephaly",
+          "B) Hypoglycemia, prolonged jaundice, micropenis, and midline facial defects",
+          "C) Excessive linear growth velocity and wide interdental spacing",
+          "D) Hyperkalemia, hyperpigmentation, and hypertension"
+        ],
+        "correct": 1,
+        "hint": "Hypoglycemia, prolonged jaundice, micropenis, or midline defects.",
+        "explanation": "Neonatal clues pointing toward congenital GHD or multiple pituitary hormone deficiencies include recurrent hypoglycemia (due to uninhibited insulin action), prolonged conjugated hyperbilirubinemia, micropenis (due to gonadotropin/GH deficiency), and optic septal dysplasia/midline defects."
+      },
+      {
+        "q": "Which cardiovascular complication is a major contributor to increased mortality in untreated acromegaly?",
+        "options": [
+          "A) Mitral valve stenosis",
+          "B) Left ventricular hypertrophy, cardiomyopathy, and hypertension",
+          "C) Aortic arch coarctation",
+          "D) Constrictive pericarditis"
+        ],
+        "correct": 1,
+        "hint": "LVH, cardiomyopathy, and hypertension.",
+        "explanation": "Chronic elevation of GH and IGF-1 induces myocyte hypertrophy, interstitial fibrosis, hypertension, left ventricular hypertrophy (LVH), biventricular cardiomyopathy, and cardiac arrhythmias, significantly elevating cardiovascular mortality."
+      },
+      {
+        "q": "What respiratory complication is highly prevalent in acromegaly due to soft tissue hypertrophy of the upper airway?",
+        "options": [
+          "A) Idiopathic pulmonary fibrosis",
+          "B) Obstructive Sleep Apnea (OSA)",
+          "C) Pulmonary alveolar proteinosis",
+          "D) Tension pneumothorax"
+        ],
+        "correct": 1,
+        "hint": "Obstructive sleep apnea from upper airway soft-tissue enlargement.",
+        "explanation": "Macroglossia, soft-tissue hypertrophy of the pharyngeal walls, and macrognathia alter upper airway anatomy, causing Obstructive Sleep Apnea (OSA) in a large proportion of patients with acromegaly."
+      },
+      {
+        "q": "Why is a single random serum Growth Hormone (GH) measurement unhelpful for screening or diagnosing acromegaly?",
+        "options": [
+          "A) GH is rapidly bound by serum glucose and cleared within 30 seconds",
+          "B) GH secretion is highly pulsatile, with low or undetectable nadir levels occurring normally between secretory pulses throughout the day",
+          "C) GH circulates exclusively in an inactive pro-hormone form",
+          "D) Random GH levels reflect hepatic glycogen stores rather than pituitary output"
+        ],
+        "correct": 1,
+        "hint": "Episodic pulses with low troughs in between.",
+        "explanation": "Because Growth Hormone is released in episodic pulses interspersed with periods of minimal secretion, random single GH levels overlap between healthy individuals and patients with acromegaly, rendering random measurements clinically unreliable."
+      },
+      {
+        "q": "What is the initial screening test of choice for establishing a biochemical diagnosis of acromegaly?",
+        "options": [
+          "A) 24-hour urinary GH excretion",
+          "B) Age- and sex-adjusted serum Insulin-like Growth Factor 1 (IGF-1) concentration",
+          "C) Fasting plasma GHRH level",
+          "D) Random serum prolactin concentration"
+        ],
+        "correct": 1,
+        "hint": "Age- and sex-adjusted serum IGF-1.",
+        "explanation": "Serum IGF-1 concentrations remain stable throughout the day without pulsatile fluctuations, integrating daily GH output. Measuring an age- and sex-matched serum IGF-1 level is the first-line screening test for acromegaly."
+      },
+      {
+        "q": "What is the gold-standard confirmatory dynamic test for acromegaly, and what response is observed in affected patients?",
+        "options": [
+          "A) Insulin tolerance test; failure of GH to rise above 10 mcg/L",
+          "B) 75-g oral glucose tolerance test (OGTT); failure of serum GH to suppress following documented hyperglycemia",
+          "C) High-dose dexamethasone suppression test; cortisol suppression <50%",
+          "D) Glucagon stimulation test; drop in serum IGF-1 concentration"
+        ],
+        "correct": 1,
+        "hint": "75-g OGTT showing failure of GH to suppress.",
+        "explanation": "In euthyroid healthy individuals, an oral glucose load (75 g) induces hyperglycemia that suppresses pituitary GH secretion. In acromegaly, autonomous GH production from an adenoma fails to suppress following glucose loading."
+      },
+      {
+        "q": "Which classic visual field defect occurs when a pituitary somatotroph macroadenoma expands superiorly to compress the optic chiasm?",
+        "options": [
+          "A) Homonymous hemianopia",
+          "B) Bitemporal hemianopia",
+          "C) Central scotoma",
+          "D) Ipsilateral monocular blindness"
+        ],
+        "correct": 1,
+        "hint": "Loss of outer temporal fields in both eyes.",
+        "explanation": "Superior expansion of a pituitary macroadenoma compresses the crossing nasal retinal fibers within the optic chiasm, resulting in loss of the outer temporal visual fields in both eyes (bitemporal hemianopia)."
+      },
+      {
+        "q": "Which set of physical facial and acral features is typical of long-standing acromegaly?",
+        "options": [
+          "A) Micrognathia, thin skin, narrow interdental spacing, and high-pitched voice",
+          "B) Coarse facial features, frontal bossing, prognathism, increased interdental spacing, enlarged hands/feet, and macroglossia",
+          "C) Moon facies, malar rash, blue sclerae, and arachnodactyly",
+          "D) Exophthalmos, lid retraction, dry coarse skin, and alopecia"
+        ],
+        "correct": 1,
+        "hint": "Coarse features, brow/jaw enlargement, spacing teeth, big hands/feet/tongue.",
+        "explanation": "Periosteal and soft-tissue proliferation in acromegaly leads to enlargement of hands and feet (ring/shoe size increase), coarse facial features, prominence of the supraorbital ridges (frontal bossing), jaw enlargement (prognathism), widening spaces between teeth, thickened skin, excessive sweating, and tongue enlargement (macroglossia) with a deep voice."
+      },
+      {
+        "q": "What physical examination finding characteristically distinguishes the hands of a child with achondroplasia?",
+        "options": [
+          "A) Arachnodactyly with hyperextensible interphalangeal joints",
+          "B) Trident hand configuration (short fingers with separation between the third and fourth digits)",
+          "C) Heberden and Bouchard nodes on distal joints",
+          "D) Polydactyly with palmar erythema"
+        ],
+        "correct": 1,
+        "hint": "Trident hand (gap between middle and ring fingers).",
+        "explanation": "In achondroplasia, short, broad fingers exhibit a characteristic 'trident hand' appearance, characterized by an inability to align the fingers in parallel due to a prominent gap between the middle (3rd) and ring (4th) fingers."
+      },
+      {
+        "q": "What imaging modality is mandatory to visualize the pituitary gland once acromegaly is biochemically confirmed?",
+        "options": [
+          "A) Skull X-ray",
+          "B) Contrast-enhanced pituitary Magnetic Resonance Imaging (MRI)",
+          "C) Whole-body PET-CT",
+          "D) Thyroid ultrasound"
+        ],
+        "correct": 1,
+        "hint": "Contrast-enhanced pituitary MRI.",
+        "explanation": "Once acromegaly is established biochemically (elevated IGF-1 and non-suppressible GH on OGTT), a dedicated contrast-enhanced pituitary MRI is performed to identify, locate, and measure the tumor and assess invasion into surrounding structures."
+      },
+      {
+        "q": "What radiological test is evaluated to compare chronological age with skeletal maturation in a child with short stature?",
+        "options": [
+          "A) Dual-energy X-ray absorptiometry (DEXA) scan of the femur",
+          "B) Radiograph of the left hand and wrist (Bone Age assessment)",
+          "C) Computed tomography of the lumbar spine",
+          "D) Ultrasound of the calcaneus"
+        ],
+        "correct": 1,
+        "hint": "Left hand and wrist X-ray for bone age.",
+        "explanation": "Skeletal maturation is evaluated by taking a plain radiograph of the left hand and wrist to determine 'bone age,' comparing epiphyseal ossification centers against standard age-matched pediatric atlases."
+      },
+      {
+        "q": "Which life-threatening neurological complication can occur in infants and young children with achondroplasia due to structural narrowing at the base of the skull?",
+        "options": [
+          "A) Aqueductal stenosis causing brain abscess",
+          "B) Foramen magnum stenosis leading to cervicomedullary compression and central apnea",
+          "C) Carotid artery dissection",
+          "D) Cavernous sinus thrombosis"
+        ],
+        "correct": 1,
+        "hint": "Narrowing at the foramen magnum compressing the brainstem/cord.",
+        "explanation": "Impaired endochondral bone formation at the cranial base in achondroplasia causes narrowing of the foramen magnum, putting infants at risk for cervicomedullary spinal cord compression, hyperreflexia, central sleep apnea, and sudden death."
+      },
+      {
+        "q": "Screening for which neoplastic gastrointestinal complication is routinely recommended for patients diagnosed with acromegaly?",
+        "options": [
+          "A) Gastric gastrointestinal stromal tumors (GIST)",
+          "B) Colonic adenomatous polyps and colorectal carcinoma",
+          "C) Esophageal squamous cell carcinoma",
+          "D) Hepatic angiosarcoma"
+        ],
+        "correct": 1,
+        "hint": "Colonic polyps and colorectal cancer.",
+        "explanation": "Chronic elevation of GH and IGF-1 exerts epithelial mitogenic effects, leading to an increased prevalence of adenomatous colonic polyps and a higher risk of colorectal malignancy. Screening colonoscopy is routinely performed."
+      },
+      {
+        "q": "What is the primary first-line treatment for most patients diagnosed with acromegaly caused by a resectable somatotroph macroadenoma?",
+        "options": [
+          "A) Primary stereotactic radiosurgery",
+          "B) Transsphenoidal pituitary surgery",
+          "C) High-dose oral Cabergoline monotherapy",
+          "D) Subcutaneous Pegvisomant injections"
+        ],
+        "correct": 1,
+        "hint": "Transsphenoidal surgical removal of the tumor.",
+        "explanation": "Surgical excision via transsphenoidal hypophysectomy is the first-line treatment of choice for acromegaly, providing immediate tumor debulking, relief of visual field compression, and high rates of cure or biochemical control in resectable lesions."
+      },
+      {
+        "q": "Which drug class represents the first-line medical therapy for acromegaly when surgery is incomplete, contraindicated, or unfeasible?",
+        "options": [
+          "A) Dopamine antagonists",
+          "B) Long-acting Somatostatin Receptor Ligands (SRLs, e.g., Octreotide or Lanreotide)",
+          "C) Recombinant human Growth Hormone",
+          "D) Aromatase inhibitors"
+        ],
+        "correct": 1,
+        "hint": "Long-acting somatostatin analogues (octreotide or lanreotide).",
+        "explanation": "Long-acting somatostatin receptor ligands (Octreotide LAR or Lanreotide) mimic endogenous somatostatin, binding to somatotroph SSTR2/SSTR5 receptors to suppress GH secretion and reduce tumor volume in patients with residual or unresectable disease."
+      },
+      {
+        "q": "What is the mechanism of action of Pegvisomant in the treatment of acromegaly?",
+        "options": [
+          "A) It binds to pituitary somatotrophs to induce tumor apoptosis",
+          "B) It acts as a selective Growth Hormone receptor antagonist in peripheral tissues, blocking peripheral IGF-1 production",
+          "C) It directly neutralizes circulating GHRH in the hypophyseal portal bloodstream",
+          "D) It stimulates central somatostatin release from the hypothalamus"
+        ],
+        "correct": 1,
+        "hint": "Blocks peripheral GH receptors to lower IGF-1.",
+        "explanation": "Pegvisomant is a genetically engineered GH analogue that acts as a competitive Growth Hormone receptor antagonist. It blocks GH binding to cell surface receptors in peripheral tissues (especially the liver), thereby preventing IGF-1 synthesis without reducing pituitary tumor size."
+      },
+      {
+        "q": "When monitoring biochemical efficacy in a patient receiving Pegvisomant therapy for acromegaly, which parameter must be measured?",
+        "options": [
+          "A) Serum Growth Hormone (GH) concentration",
+          "B) Serum IGF-1 concentration",
+          "C) 24-hour urinary free cortisol",
+          "D) Plasma ACTH concentration"
+        ],
+        "correct": 1,
+        "hint": "Monitor IGF-1, not GH.",
+        "explanation": "Because Pegvisomant blocks peripheral GH receptors without decreasing pituitary GH secretion (in fact, serum GH levels often rise due to loss of negative feedback), serum GH cannot be used to monitor therapy. Efficacy is monitored strictly using serum IGF-1 levels."
+      },
+      {
+        "q": "What is the principal indication for recombinant human Growth Hormone (rhGH) therapy in pediatric short stature?",
+        "options": [
+          "A) All children presenting with stature below the 10th percentile",
+          "B) Confirmed pediatric Growth Hormone Deficiency (GHD) under specialist supervision",
+          "C) Uncomplicated constitutional delay of growth and puberty",
+          "D) Achondroplasia monotherapy to correct limb disproportion"
+        ],
+        "correct": 1,
+        "hint": "Confirmed growth hormone deficiency.",
+        "explanation": "Recombinant human Growth Hormone (rhGH) is indicated for children with laboratory- and clinically-confirmed Growth Hormone Deficiency (GHD), administered as daily subcutaneous injections to normalize growth velocity and adult stature."
+      },
+      {
+        "q": "Which pharmacological agent (a C-type natriuretic peptide analogue) has been approved to increase linear growth velocity in eligible children with achondroplasia with open growth plates?",
+        "options": [
+          "A) Vosoritide",
+          "B) Pegvisomant",
+          "C) Octreotide",
+          "D) Mecasermin"
+        ],
+        "correct": 0,
+        "hint": "CNP analogue used in achondroplasia with open epiphyses.",
+        "explanation": "Vosoritide is a recombinant C-type natriuretic peptide (CNP) analogue that downregulates hyperactive FGFR3 signaling downstream, promoting endochondral bone growth and increasing growth velocity in children with achondroplasia whose epiphyses remain open."
+      },
+      {
+        "q": "What major long-term adverse effect is associated with pituitary radiation therapy used as adjuvant treatment for persistent acromegaly?",
+        "options": [
+          "A) Permanent hyperprolactinemia requiring surgery",
+          "B) Progressive hypopituitarism (deficiency of other anterior pituitary hormone axes) over subsequent years",
+          "C) Acute thyroid storm",
+          "D) Rapid malignant transformation of the adenoma"
+        ],
+        "correct": 1,
+        "hint": "Gradual loss of other pituitary hormones over time.",
+        "explanation": "Radiation therapy (conventional or stereotactic radiosurgery) effectively controls persistent GH secretion, but its effect is delayed over years and carries a high long-term risk of progressive panhypopituitarism, requiring lifelong hormonal surveillance."
+      },
+      {
+        "q": "In managing a child with short stature, what reversible non-endocrine condition must be identified and managed prior to considering hormone therapy?",
+        "options": [
+          "A) Primary celiac disease or severe malnutrition",
+          "B) Mild physiological hyperbilirubinemia",
+          "C) Constitutional freckling",
+          "D) Asymptomatic sinus bradycardia"
+        ],
+        "correct": 0,
+        "hint": "Treat underlying malabsorption/malnutrition first.",
+        "explanation": "Reversible underlying causes of growth failure—including celiac disease, malnutrition, chronic infection, hypothyroidism, or inflammatory bowel disease—must be diagnosed and treated first, as nutritional and systemic rehabilitation often restores normal growth velocity."
+      },
+      {
+        "q": "Under what clinical circumstance may the dopamine agonist Cabergoline be considered as adjuvant medical therapy in acromegaly?",
+        "options": [
+          "A) In patients with severe panhypopituitarism",
+          "B) In patients with mild residual acromegaly, particularly when co-secretion of prolactin by the pituitary tumor is present",
+          "C) As monotherapy for giant GH-secreting tumors with optic nerve destruction",
+          "D) To correct severe hypokalemia in adrenal crisis"
+        ],
+        "correct": 1,
+        "hint": "Mild residual disease, especially if prolactin is also elevated.",
+        "explanation": "Cabergoline is an oral dopamine D2-agonist that can suppress GH secretion in a subset of patients with mild acromegaly, particularly tumors that co-secrete prolactin and GH (mammosomatotroph adenomas)."
+      },
+      {
+        "q": "What parameter is routinely monitored to titrate safety and efficacy during recombinant human Growth Hormone (rhGH) therapy in children with GHD?",
+        "options": [
+          "A) Daily blood glucose log",
+          "B) Serum IGF-1 concentration and growth velocity on centile charts",
+          "C) Serial 24-hour urinary GHRH excretion",
+          "D) Plasma ACTH and cortisol levels"
+        ],
+        "correct": 1,
+        "hint": "Growth velocity and serum IGF-1 levels.",
+        "explanation": "Pediatric rhGH replacement is monitored by tracking linear height velocity plotted on growth centile charts and measuring serum IGF-1 levels to maintain them within the age-appropriate target range while avoiding supraphysiologic levels."
+      },
+      {
+        "q": "A 48-year-old man presents with a 5-year history of progressive coarsening of his facial features, an increase in shoe size from 10 to 12, excessive diaphoresis, and severe bitemporal headaches. Physical examination reveals prognathism, wide interdental spacing, macroglossia, and bitemporal visual field loss. Serum IGF-1 is 3.5 times the upper limit of normal for age. Following a 75-g OGTT, nadir serum GH remains elevated at 8.2 mcg/L. Contrast-enhanced pituitary MRI demonstrates a 2.2 cm sellar macroadenoma abutting the optic chiasm. What is the immediate first-line management step?",
+        "options": [
+          "A) Initiate high-dose oral Cabergoline monotherapy and re-image in 12 months",
+          "B) Refer for transsphenoidal pituitary surgery for surgical resection and optic chiasm decompression",
+          "C) Administer immediate external beam radiotherapy and initiate pegvisomant",
+          "D) Discharge with advice to perform daily visual field testing at home"
+        ],
+        "correct": 1,
+        "hint": "Macroadenoma with bitemporal visual loss -> transsphenoidal surgery.",
+        "explanation": "The patient has confirmed acromegaly caused by a pituitary macroadenoma with optic chiasm compression and bitemporal hemianopia. Transsphenoidal surgery is the first-line intervention to debulk the mass, decompress the optic nerve, and achieve biochemical control."
+      },
+      {
+        "q": "A 52-year-old woman undergoes transsphenoidal resection of a 1.8 cm GH-secreting pituitary adenoma. Three months postoperatively, she reports persistent joint pains and sweating. Repeat testing demonstrates a persistently elevated serum IGF-1 level and failure of GH to suppress below 1.0 mcg/L on 75-g OGTT. Pituitary MRI shows a 4 mm residual tumor mass in the cavernous sinus wall unsuitable for re-operation. What is the most appropriate next step in medical management?",
+        "options": [
+          "A) Initiate a long-acting Somatostatin Receptor Ligand (e.g., Octreotide LAR or Lanreotide)",
+          "B) Start recombinant human growth hormone injections",
+          "C) Perform bilateral total adrenalectomy",
+          "D) Prescribe high-dose glucocorticoid replacement"
+        ],
+        "correct": 0,
+        "hint": "Persistent acromegaly after surgery -> long-acting somatostatin analogue.",
+        "explanation": "For persistent or residual acromegaly post-surgery where repeat operation is unfeasible or contraindicated, medical therapy with a long-acting Somatostatin Receptor Ligand (octreotide LAR or lanreotide) is the recommended first-line medical intervention."
+      },
+      {
+        "q": "A 45-year-old man with acromegaly managed on max-dose Octreotide LAR achieves moderate reduction in serum GH, but his serum IGF-1 remains elevated above the age-adjusted target range. Tumor size on MRI is stable. He declines radiotherapy. What pharmacological agent can be added to block peripheral IGF-1 production by directly antagonizing the Growth Hormone receptor?",
+        "options": [
+          "A) Pegvisomant",
+          "B) Cabergoline",
+          "C) Pasireotide",
+          "D) Metformin"
+        ],
+        "correct": 0,
+        "hint": "GH receptor antagonist to lower IGF-1.",
+        "explanation": "Pegvisomant is a competitive GH receptor antagonist that prevents GH-induced hepatic IGF-1 synthesis. It is highly effective in normalizing serum IGF-1 when somatostatin receptor ligands fail to achieve biochemical control."
+      },
+      {
+        "q": "A 6-year-old boy is brought to the clinic due to severe short stature. Growth charts reveal a height centile of −3.2 SD with a growth velocity of 2.5 cm/year (markedly reduced). Physical examination reveals normal body proportions (arm span matches height, sitting height ratio appropriate for age), delayed pubertal development, and delayed skeletal age on left hand wrist radiograph (bone age 3.5 years). Systemic, GI, and renal workups are unrevealing. Thyroid function is normal. What sequence of investigations is required to establish the diagnosis?",
+        "options": [
+          "A) Perform an immediate skeletal dysplasia gene panel and muscle biopsy",
+          "B) Measure baseline serum IGF-1 and IGFBP-3, followed by dynamic Growth Hormone stimulation testing",
+          "C) Perform a 24-hour urinary free cortisol test and start high-dose steroids",
+          "D) Measure plasma metanephrines and perform abdominal CT"
+        ],
+        "correct": 1,
+        "hint": "Proportionate short stature + slow growth + delayed bone age -> IGF-1/IGFBP-3 then GH stimulation testing.",
+        "explanation": "The child presents with proportionate short stature, reduced growth velocity, and delayed bone age, pointing toward Growth Hormone Deficiency (GHD). Evaluation requires baseline screening with IGF-1/IGFBP-3 followed by formal dynamic GH stimulation tests (e.g., arginine, clonidine, or glucagon stimulation) to confirm GHD."
+      },
+      {
+        "q": "A 4-month-old infant girl with achondroplasia is brought to the emergency room by her parents because of poor feeding, irritability, episodes of witnessed cessation of breathing (apnea) during sleep, and brisk deep tendon reflexes in all four extremities. Cranial ultrasound shows normal ventricular size, but sagittal MRI reveals marked narrowing of the foramen magnum with compression of the cervicomedullary junction. What is the required urgent management approach?",
+        "options": [
+          "A) Immediate referral to pediatric neurosurgery for emergency foramen magnum decompression",
+          "B) Start recombinant human growth hormone therapy immediately",
+          "C) Administer high-dose IV dexamethasone and send home on nasal oxygen",
+          "D) Reassure parents that apnea is a normal transient variant in achondroplasia"
+        ],
+        "correct": 0,
+        "hint": "Cervicomedullary compression/apnea in achondroplasia -> urgent neurosurgical decompression.",
+        "explanation": "Foramen magnum stenosis with cervicomedullary cord compression in achondroplasia is a life-threatening neurosurgical emergency causing central apnea and hyperreflexia. Immediate neurosurgical decompression is required to prevent sudden infant death or permanent neurological deficit."
+      },
+      {
+        "q": "An 8-year-old girl is evaluated for severe short stature (height −2.8 SD). Physical examination shows normal intelligence, proportionate body segments, webbed neck (pterygium colli), low posterior hairline, broad chest with widely spaced nipples, and cubitus valgus. What diagnostic test should be performed immediately?",
+        "options": [
+          "A) 75-g oral glucose tolerance test",
+          "B) Peripheral blood karyotype to evaluate for Turner syndrome",
+          "C) Left hand radiograph for bone age only",
+          "D) Serum 17-hydroxyprogesterone"
+        ],
+        "correct": 1,
+        "hint": "Webbed neck, wide chest, cubitus valgus + short stature in a girl -> karyotype.",
+        "explanation": "The clinical features (short stature, webbed neck, broad shield chest, cubitus valgus) are classic for Turner syndrome (45,X). A peripheral blood karyotype is the definitive diagnostic test to establish monosomy X or mosaicism."
+      },
+      {
+        "q": "A 50-year-old man with long-standing untreated acromegaly presents with fatigue, dyspnea on exertion, orthopnea, and bilateral lower extremity edema. Blood pressure is 165/100 mmHg. ECG shows sinus rhythm with voltage criteria for left ventricular hypertrophy. Echocardiography demonstrates concentric left ventricular hypertrophy, impaired diastolic relaxation, and an ejection fraction of 42%. What underlying pathophysiological process explains these cardiovascular findings?",
+        "options": [
+          "A) Acute viral myocarditis",
+          "B) Acromegalic cardiomyopathy induced by chronic excess Growth Hormone and IGF-1",
+          "C) Isolated aldosterone deficiency",
+          "D) Rheumatic mitral stenosis"
+        ],
+        "correct": 1,
+        "hint": "Chronic GH/IGF-1 excess causing myocardial hypertrophy and dysfunction.",
+        "explanation": "Prolonged exposure to excess GH and IGF-1 induces specific acromegalic cardiomyopathy, characterized by biventricular hypertrophy, interstitial fibrosis, diastolic dysfunction, and eventual systolic heart failure, exacerbated by co-existing hypertension."
+      },
+      {
+        "q": "A 10-year-old boy presents with severe short stature. Physical examination reveals disproportionate short stature with marked rhizomelic shortening of the arms and legs, macrocephaly, prominent frontal bossing, midface hypoplasia, lumbar lordosis, and trident hand configuration. Neurological exam is normal. What is the most likely diagnosis, and what is the primary genetic etiology?",
+        "options": [
+          "A) Isolated GHD caused by a GH1 gene deletion",
+          "B) Achondroplasia caused by an activating mutation in the FGFR3 gene",
+          "C) Turner syndrome caused by 45,X chromosomal monosomy",
+          "D) Primary hypothyroidism caused by TSH receptor mutation"
+        ],
+        "correct": 1,
+        "hint": "Rhizomelic shortening + macrocephaly + trident hand = achondroplasia (FGFR3 activating mutation).",
+        "explanation": "Disproportionate rhizomelic short stature, macrocephaly, frontal bossing, midface retrusion, lumbar lordosis, and trident hands are pathognomonic for achondroplasia, caused by an activating mutation in the FGFR3 gene."
+      },
+      {
+        "q": "A 42-year-old woman presenting with classic clinical features of acromegaly has a confirmed elevated age-adjusted serum IGF-1 level and non-suppressible GH on 75-g OGTT (nadir GH 6.5 mcg/L). Pituitary MRI with contrast reveals a completely normal pituitary gland without any micro- or macroadenoma. What is the next diagnostic step to investigate the source of GH excess?",
+        "options": [
+          "A) Discharge patient as a false-positive laboratory result",
+          "B) Perform chest and abdominal CT/MRI imaging to search for an ectopic GHRH- or GH-secreting neuroendocrine tumor (e.g., bronchial or pancreatic carcinoid)",
+          "C) Perform immediate transsphenoidal blind hypophysectomy",
+          "D) Administer high-dose oral Levothyroxine"
+        ],
+        "correct": 1,
+        "hint": "Normal pituitary MRI with confirmed acromegaly -> look for an ectopic source in chest/abdomen.",
+        "explanation": "When acromegaly is biochemically proven but high-resolution pituitary MRI reveals no pituitary lesion, rare ectopic secretion of GHRH or GH by a peripheral neuroendocrine tumor (e.g., bronchial carcinoid, pancreatic neuroendocrine tumor) must be investigated using chest and abdominal imaging."
+      },
+      {
+        "q": "A 7-year-old boy with confirmed Growth Hormone Deficiency (GHD) has been receiving daily subcutaneous recombinant human Growth Hormone (rhGH) for 12 months. His growth velocity has increased from 3.0 cm/year to 8.5 cm/year. At his annual follow-up, routine serum IGF-1 monitoring demonstrates a value significantly above the upper limit of normal (+3.2 SDS) for his age and sex. What is the appropriate management adjustment?",
+        "options": [
+          "A) Increase the rhGH daily dose by 50%",
+          "B) Reduce the daily dose of rhGH to maintain serum IGF-1 within the age-matched target range and prevent supraphysiologic adverse effects",
+          "C) Stop rhGH permanently and start Octreotide LAR",
+          "D) Perform immediate transsphenoidal surgery"
+        ],
+        "correct": 1,
+        "hint": "IGF-1 above normal range on rhGH -> lower the rhGH dose.",
+        "explanation": "During pediatric rhGH therapy, serum IGF-1 concentrations should be maintained within the normal reference range for age and sex (+0 to +2 SDS). Elevating IGF-1 significantly above the reference range (>+2 SDS) requires reducing the rhGH dose to avoid supraphysiologic side effects and adverse metabolic risks."
+      }
+    ]
+  }
+]
