@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Shock",
+    "questions": [
+      {
+        "q": "How is Pediatric Shock defined in the source presentation?",
+        "options": [
+          "A) An acute life-threatening syndrome caused by systemic failure of the circulatory system to provide adequate oxygen and nutrients to meet the metabolic demands of vital organs.",
+          "B) An isolated neurological depression resulting from sudden hyperpyrexia without circulatory involvement.",
+          "C) A localized inflammatory reaction restricted strictly to the pulmonary alveoli during viral bronchitis.",
+          "D) An irreversible congenital defect characterized by primary arterial hypoplasia and renal agenesis."
+        ],
+        "correct": 0,
+        "hint": "Acute circulatory failure to deliver adequate oxygen and nutrients to vital organs.",
+        "explanation": "Shock is an acute, life-threatening syndrome resulting from the systemic failure of the circulatory system to adequately perfuse major organs with oxygen and nutrients, leading to cellular ischemia and multi-organ failure if uncorrected."
+      },
+      {
+        "q": "According to global epidemiological data presented in the text, approximately how many children die from shock annually worldwide?",
+        "options": [
+          "A) 100,000 children",
+          "B) Around 10 million children",
+          "C) 500,000 children",
+          "D) 50 million children"
+        ],
+        "correct": 1,
+        "hint": "Around 10 million children globally each year.",
+        "explanation": "Shock accounts for 2% of all pediatric casualty admissions globally, causing around 10 million deaths annually, with the highest mortality concentrated in under-5 children in developing countries."
+      },
+      {
+        "q": "What mathematical formula represents Mean Arterial Pressure (MAP) in cardiovascular physiology?",
+        "options": [
+          "A) MAP = Heart Rate (HR) × Stroke Volume (SV)",
+          "B) MAP = Systolic BP + Diastolic BP",
+          "C) MAP = Cardiac Output (CO) × Systemic Vascular Resistance (SVR)",
+          "D) MAP = Preload × Afterload"
+        ],
+        "correct": 2,
+        "hint": "MAP equals cardiac output multiplied by systemic vascular resistance.",
+        "explanation": "As defined in the cardiovascular physiology overview, Mean Arterial Pressure (MAP) is determined by the product of Cardiac Output (CO) and Systemic Vascular Resistance (SVR)."
+      },
+      {
+        "q": "Which physiological variable reflects a patient's volume status and is defined as the volume of blood present in the ventricle prior to contraction?",
+        "options": [
+          "A) Systemic Vascular Resistance",
+          "B) Transmural pressure",
+          "C) Afterload",
+          "D) Preload"
+        ],
+        "correct": 3,
+        "hint": "Ventricular volume prior to contraction reflects preload.",
+        "explanation": "Preload is the volume of blood present in the ventricle at the end of diastole before contraction occurs, directly reflecting the patient's intravascular volume status."
+      },
+      {
+        "q": "What is the single most sensitive early clinical symptom indicating developing shock in a pediatric patient?",
+        "options": [
+          "A) Change in mental state (agitation, restlessness, confusion, or reduced GCS)",
+          "B) Profound systemic hypotension",
+          "C) Cold, grey, or mottled extremities",
+          "D) Unrecordable blood pressure"
+        ],
+        "correct": 0,
+        "hint": "Altered mental state (agitation, restlessness, sedation, or confusion) is an early clue.",
+        "explanation": "The presentation notes that shock can develop very subtly, and the most sensitive early clinical symptom is an alteration in mental state, such as agitation, restlessness, sedation, or confusion."
+      },
+      {
+        "q": "What is the most common form of shock in pediatric patients worldwide?",
+        "options": [
+          "A) Cardiogenic shock",
+          "B) Hypovolemic shock",
+          "C) Neurogenic shock",
+          "D) Obstructive shock"
+        ],
+        "correct": 1,
+        "hint": "Inadequate circulating volume makes hypovolemic shock the most common globally.",
+        "explanation": "Hypovolemic shock, caused by an inadequate circulating blood volume, is explicitly highlighted as the most common form of shock in pediatric patients worldwide."
+      },
+      {
+        "q": "What clinical parameter can be easily estimated at the bedside by assessing peripheral pulse volume and end-organ perfusion (e.g., urine output and GCS)?",
+        "options": [
+          "A) Systemic Vascular Resistance (SVR)",
+          "B) Heart Rate (HR)",
+          "C) Stroke Volume (SV)",
+          "D) Transmural pressure"
+        ],
+        "correct": 2,
+        "hint": "Pulse volume and end-organ perfusion (urine output, GCS) estimate stroke volume.",
+        "explanation": "While Heart Rate and Mean Arterial Pressure are directly measured, Stroke Volume is clinically estimated by evaluating peripheral pulse volume and indicators of end-organ perfusion such as GCS and urine output."
+      },
+      {
+        "q": "In pediatric shock, what defines the stage of 'Compensated Shock'?",
+        "options": [
+          "A) Microvascular perfusion collapse with severe hypotension",
+          "B) Terminal bradycardia and unrecordable blood pressure",
+          "C) Complete absence of neural and hormonal reflex responses",
+          "D) State in which body compensatory mechanisms maintain normal blood pressure and vital organ function"
+        ],
+        "correct": 3,
+        "hint": "Compensatory mechanisms keep blood pressure normal during compensated shock.",
+        "explanation": "During compensated shock, endogenous neural and hormonal compensatory mechanisms preserve blood pressure within normal limits, maintaining vital organ function despite diminished total perfusion."
+      },
+      {
+        "q": "Which underlying condition is responsible for the majority (57%) of pediatric shock cases worldwide?",
+        "options": [
+          "A) Sepsis",
+          "B) Acute myocardial infarction",
+          "C) Tension pneumothorax",
+          "D) High spinal cord trauma"
+        ],
+        "correct": 0,
+        "hint": "Sepsis accounts for 57% of pediatric shock cases globally.",
+        "explanation": "Sepsis represents the underlying cause in 57% of all pediatric shock presentations globally."
+      },
+      {
+        "q": "What bedside assessment parameter is used to estimate Systemic Vascular Resistance (SVR)?",
+        "options": [
+          "A) Pupil reactivity",
+          "B) Peripheral skin temperature and Capillary Refill Time (CRT)",
+          "C) Heart rate variability",
+          "D) Deep tendon reflexes"
+        ],
+        "correct": 1,
+        "hint": "Skin temperature and capillary refill time (CRT) help estimate SVR.",
+        "explanation": "Systemic Vascular Resistance (SVR) is clinically estimated at the patient's bedside by evaluating peripheral extremity temperature and Capillary Refill Time (CRT)."
+      },
+      {
+        "q": "Which three major physiological mechanisms are triggered by the body during Compensated Shock to maintain blood pressure and organ perfusion?",
+        "options": [
+          "A) Bradycardia, systemic vasodilation, and hypoventilation",
+          "B) Decreased stroke volume, urinary loss, and hypothermia",
+          "C) Tachycardia, redistribution of blood flow (vasoconstriction/vasodilation), and tachypnea",
+          "D) Hyperglycemia, hepatic congestion, and respiratory depression"
+        ],
+        "correct": 2,
+        "hint": "Tachycardia, blood flow redistribution, and tachypnea.",
+        "explanation": "To compensate for decreasing organ perfusion, the body utilizes tachycardia (to boost cardiac output), blood flow redistribution to essential organs at the expense of non-essential tissues, and tachypnea (to offset metabolic lactic acidosis)."
+      },
+      {
+        "q": "How does Distributive Shock develop pathophysiologically despite a normal total intravascular blood volume?",
+        "options": [
+          "A) Sudden physical rupture of the ventricular septum",
+          "B) Severe fluid loss from gastrointestinal emesis",
+          "C) Massive mechanical obstruction of the vena cava",
+          "D) Systemic vasodilation causing maldistribution of blood volume away from vital organs"
+        ],
+        "correct": 3,
+        "hint": "Systemic vasodilation maldistributes blood flow away from vital organs.",
+        "explanation": "Distributive shock results from loss of vascular tone and systemic vasodilation, causing normal intravascular volume to be pooled inappropriately in peripheral vessels, leading to relative hypovolemia and reduced vital organ flow."
+      },
+      {
+        "q": "Which specific causes are listed as primary triggers for Distributive Shock?",
+        "options": [
+          "A) Anaphylaxis, bacterial sepsis (endotoxin/exotoxin release), drug toxicity, and high spinal cord injury above T4",
+          "B) Severe dehydration, thermal burns, and acute hemorrhage",
+          "C) Coarctation of the aorta, tension pneumothorax, and cardiac tamponade",
+          "D) Viral myocarditis, dilated cardiomyopathy, and heart block"
+        ],
+        "correct": 0,
+        "hint": "Anaphylaxis, sepsis, drug toxicity, and high spinal injury above T4.",
+        "explanation": "Distributive shock stems from neurogenic loss of vascular tone (spinal injury above T4), inflammatory cytokine release (sepsis, anaphylaxis), or vasoactive toxin/drug ingestion."
+      },
+      {
+        "q": "What pathophysiological mechanism explains 'Third Spacing' in hypovolemic shock during sepsis or anaphylaxis?",
+        "options": [
+          "A) Osmotic fluid shifts driven by severe hypernatremia",
+          "B) Inflammatory mediator-induced breakdown of vascular endothelium, causing capillary permeability and fluid extravasation into the interstitial space",
+          "C) Increased renal tubule reabsorption of free water",
+          "D) Direct loss of red blood cells through retroperitoneal tearing"
+        ],
+        "correct": 1,
+        "hint": "Increased capillary permeability lets fluid leak into the interstitial space.",
+        "explanation": "Release of inflammatory cytokines in sepsis and anaphylaxis increases capillary endothelial permeability, causing plasma fluid to shift out of the intravascular space into the extracellular/interstitial compartment (third spacing)."
+      },
+      {
+        "q": "A 2-year-old child presents with low blood pressure, severe respiratory distress, hepatomegaly, gallop rhythm, and pulmonary venous congestion on chest X-ray following a viral illness. What type of shock is present?",
+        "options": [
+          "A) Hypovolemic shock",
+          "B) Neurogenic shock",
+          "C) Cardiogenic shock",
+          "D) Anaphylactic shock"
+        ],
+        "correct": 2,
+        "hint": "Hepatomegaly, gallop rhythm, and pulmonary congestion point to cardiogenic shock.",
+        "explanation": "Failure of myocardial contractility leads to cardiogenic shock, characterized by inadequate cardiac output, persistent hypotension despite fluid trial, and signs of pulmonary venous overload (tachypnea, hepatomegaly, gallop rhythm, cardiomegaly on CXR)."
+      },
+      {
+        "q": "Which conditions represent mechanical causes of Obstructive Shock in pediatric patients?",
+        "options": [
+          "A) Severe diarrhea, burns, and DKA diuresis",
+          "B) Viral myocarditis and dilated cardiomyopathy",
+          "C) Anaphylaxis and spinal cord transection",
+          "D) Ductal-dependent congenital heart lesions (CoA, critical AS), tension pneumothorax, cardiac tamponade, and massive pulmonary embolism"
+        ],
+        "correct": 3,
+        "hint": "Mechanical barriers to inflow/outflow: tamponade, tension pneumothorax, PE, or ductal-dependent lesions.",
+        "explanation": "Obstructive shock is caused by mechanical barriers to blood inflow or outflow from the heart/great vessels, such as cardiac tamponade, tension pneumothorax, pulmonary embolus, or ductal-dependent cardiac lesions."
+      },
+      {
+        "q": "What anatomical level of spinal cord injury is specifically associated with Neurogenic Distributive Shock?",
+        "options": [
+          "A) Injury usually above the T4 spinal segment",
+          "B) Isolated L5-S1 lumbar disc disruption",
+          "C) Sacral plexus avulsion",
+          "D) Coccygeal dislocation"
+        ],
+        "correct": 0,
+        "hint": "Typically above the T4 spinal level.",
+        "explanation": "Neurogenic distributive shock occurs following severe spinal cord injury occurring typically above the T4 level, disrupting sympathetic outflow to the peripheral vasculature."
+      },
+      {
+        "q": "What is the prognostic significance of developing Hypotension in a pediatric patient with shock?",
+        "options": [
+          "A) It is an early benign finding that resolves spontaneously",
+          "B) It indicates that the child is on the brink of decompensation and impending cardiovascular collapse",
+          "C) It proves that systemic vascular resistance is abnormally elevated",
+          "D) It confirms that myocardial contractility is fully preserved"
+        ],
+        "correct": 1,
+        "hint": "Hypotension is a late sign signaling impending decompensation and collapse.",
+        "explanation": "Because children aggressively maintain normal blood pressure through vasoconstriction and tachycardia, hypotension is a late, ominous feature signaling that compensatory mechanisms have failed and cardiovascular collapse is imminent."
+      },
+      {
+        "q": "Which concealed sites of severe blood loss must be suspected in pediatric trauma presenting with Hemorrhagic Shock?",
+        "options": [
+          "A) Epidermal stratum corneum",
+          "B) Salivary glands and lacrimal ducts",
+          "C) Liver, Spleen, Intracranial cavity, Gastrointestinal tract, and Long bone fractures",
+          "D) Tympanic membrane and parotid gland"
+        ],
+        "correct": 2,
+        "hint": "Liver, spleen, intracranial cavity, GI tract, and long bone fractures.",
+        "explanation": "In pediatric hemorrhagic trauma, severe bleeding may be concealed internally within solid organs (liver, spleen), the retroperitoneum/GIT, cranium, or surrounding long bone fractures."
+      },
+      {
+        "q": "What is the epidemiological outlook for pediatric patients who develop Cardiogenic Shock secondary to viral myocarditis or cardiomyopathy?",
+        "options": [
+          "A) 100% cure rate within 24 hours of fluid boluses",
+          "B) Exclusively benign course requiring no specialized monitoring",
+          "C) Complete absence of mortality risk",
+          "D) Poor overall prognosis, with approximately one-third of affected children dying or requiring a heart transplant within one year"
+        ],
+        "correct": 3,
+        "hint": "Roughly one-third die or need a heart transplant within a year.",
+        "explanation": "Cardiogenic shock is relatively uncommon in pediatrics but carries a poor prognosis, with about one-third of affected children either dying or requiring heart transplantation within 12 months."
+      },
+      {
+        "q": "Which set of clinical parameters forms the diagnostic physical criteria for pediatric shock listed in the source text?",
+        "options": [
+          "A) Obtundation, Heart Rate > 100 bpm, Respiratory Rate > 22 bpm, Hypotension (SBP < 90 mmHg), and Urine output < 0.5 mL/kg/hour",
+          "B) Bradycardia < 40 bpm, Hypertension > 160 mmHg, Polyuria > 5 mL/kg/hour, and GCS 15",
+          "C) Normal CRT < 1 sec, bounding pulses, baseline blood pressure, and absence of tachypnea",
+          "D) High fever > 40°C with normal pulse pressure and hyperactive bowel sounds"
+        ],
+        "correct": 0,
+        "hint": "Obtundation, HR > 100, RR > 22, SBP < 90 mmHg, and urine output < 0.5 mL/kg/h.",
+        "explanation": "Specific diagnostic clinical criteria for pediatric shock include obtundation, age-adjusted tachycardia (>100 bpm), tachypnea (>22 breaths/min), SBP < 90 mmHg (or 30 mmHg drop), and oliguria (<0.5 mL/kg/h)."
+      },
+      {
+        "q": "What blood lactate threshold and blood gas finding support the laboratory diagnosis of pediatric shock?",
+        "options": [
+          "A) Blood lactate < 0.5 mmol/L and severe respiratory alkalosis",
+          "B) Blood lactate ≥ 2.0 mmol/L and metabolic acidosis with a base deficit worse than -4 mEq/L",
+          "C) Blood lactate 1.0 mmol/L and base excess +6 mEq/L",
+          "D) Serum uric acid 15 mg/dL and isolated hypocarbia"
+        ],
+        "correct": 1,
+        "hint": "Lactate ≥ 2.0 mmol/L and metabolic acidosis with base deficit worse than -4 mEq/L.",
+        "explanation": "Laboratory confirmation of tissue hypoperfusion in shock includes elevated blood lactate ≥ 2.0 mmol/L and anion gap metabolic acidosis with a base deficit worse than -4 mEq/L."
+      },
+      {
+        "q": "What target Central Venous Oxygen Saturation (ScvO2) level indicates adequate tissue oxygen delivery during perfusion-guided shock resuscitation?",
+        "options": [
+          "A) ScvO2 < 40%",
+          "B) ScvO2 = 50%",
+          "C) ScvO2 ≥ 70%",
+          "D) ScvO2 = 100%"
+        ],
+        "correct": 2,
+        "hint": "Target ScvO2 is ≥ 70%.",
+        "explanation": "An ScvO2 value below 70% indicates inadequate oxygen delivery or excessive tissue oxygen extraction; maintaining ScvO2 ≥ 70% is a key target in resuscitation."
+      },
+      {
+        "q": "Which clinical signs signify the transition from compensated shock to Uncompensated (Decompensated) Shock?",
+        "options": [
+          "A) Mild anxiety with normal blood pressure and CRT of 1.5 seconds",
+          "B) Normal urine output, warm flush skin, and strong peripheral pulses",
+          "C) Isolated sneezing and mild cutaneous papules",
+          "D) Hypotension, decreased oxygen saturation, weak/thready pulses, and cold, grey, or mottled skin"
+        ],
+        "correct": 3,
+        "hint": "Hypotension, low SpO2, weak/thready pulses, and cold, grey, or mottled skin.",
+        "explanation": "Uncompensated shock is defined by microvascular perfusion failure and tissue ischemia, presenting with hypotension, weak/thready pulses, cold mottled skin, hypothermia, and declining saturation."
+      },
+      {
+        "q": "What clinical signs indicate that a child has entered the terminal stage of Irreversible Shock?",
+        "options": [
+          "A) Unconsciousness, slow irregular pulse, unrecordable blood pressure, progressing to cardiac arrest",
+          "B) Tachycardia with preserved central pulses and mild irritability",
+          "C) Normal blood pressure with mild tachypnea",
+          "D) Bounding peripheral pulses with facial flushing"
+        ],
+        "correct": 0,
+        "hint": "Unconsciousness, slow irregular pulse, unrecordable BP, leading to cardiac arrest.",
+        "explanation": "Irreversible shock causes irreparable multi-organ damage; terminal signs include unconsciousness, agonal respiration, bradycardia/slow irregular pulse, unrecordable BP, and cardiac arrest."
+      },
+      {
+        "q": "In Distributive Shock (e.g., early septic shock), how do the peripheral extremities typically feel on palpation compared to hypovolemic shock?",
+        "options": [
+          "A) Extremely cold, grey, and cyanotic",
+          "B) Peripheries are likely to remain warm due to peripheral vasodilation",
+          "C) Rigid, hyperkeratotic, and dry",
+          "D) Completely anesthetic without capillary refill"
+        ],
+        "correct": 1,
+        "hint": "Vasodilation keeps extremities warm in distributive ('warm') shock.",
+        "explanation": "In distributive shock, systemic vasodilation causes peripheral pooling of blood, meaning extremities often remain warm ('warm shock') with flash capillary refill, unlike hypovolemic or cardiogenic shock."
+      },
+      {
+        "q": "What emergency bedside ultrasound tool (POCUS) application is recommended for evaluating pediatric shock?",
+        "options": [
+          "A) Assessing skull bone density",
+          "B) Measuring optic nerve sheath diameter for glaucoma",
+          "C) Assessing myocardial contractility, fluid responsiveness via inferior vena cava collapsibility, and ruling out obstructive causes",
+          "D) Screening for congenital duodenal atresia"
+        ],
+        "correct": 2,
+        "hint": "POCUS checks cardiac contractility, IVC collapsibility, and obstructive causes.",
+        "explanation": "Point-of-Care Ultrasound (POCUS) allows immediate bedside assessment of cardiac contractility, IVC collapsibility (volume responsiveness), and exclusion of obstructive lesions like pericardial tamponade."
+      },
+      {
+        "q": "Which acute secondary complications arising from tissue ischemia are explicitly listed as consequences of uncorrected shock?",
+        "options": [
+          "A) Central nervous system failure, ARDS, acute kidney injury, GI ischemia, DIC, and death",
+          "B) Hypertrophic pyloric stenosis and intussusception",
+          "C) Otitis media and tonsillar hypertrophy",
+          "D) Congenital cataracts and myopia"
+        ],
+        "correct": 0,
+        "hint": "CNS failure, ARDS, acute kidney injury, GI ischemia, DIC, and death.",
+        "explanation": "Severe systemic hypoperfusion leads to multi-organ failure, including encephalopathy, ARDS, acute renal failure, ischemic gut necrosis, DIC, and death."
+      },
+      {
+        "q": "Why should emergency clinical treatment for pediatric shock BE STARTED IMMEDIATELY before laboratory and imaging results return?",
+        "options": [
+          "A) Because laboratory tests invalidate clinical diagnoses",
+          "B) Because fluid resuscitation cannot be performed after lab draws",
+          "C) Because shock is a clinical emergency, and waiting for investigations delays life-saving interventions",
+          "D) Because blood tests automatically reverse metabolic acidosis"
+        ],
+        "correct": 2,
+        "hint": "Shock is a clinical emergency; do not wait for lab results to start resuscitation.",
+        "explanation": "The text strongly emphasizes that shock is a clinical emergency; clinicians must initiate resuscitation (ABCs, vascular access, fluids) immediately while simultaneously ordering supportive tests."
+      },
+      {
+        "q": "Which set of blood tests is recommended for investigating the severity, cause, and complications of pediatric shock?",
+        "options": [
+          "A) Isolated capillary blood glucose only",
+          "B) FBC, CRP, Coagulation panel (PT/PTT/Fibrinogen), Blood/Urine cultures, Electrolytes, BUN/Creatinine, LFTs, Lactate, and ABG/VBG",
+          "C) Serum growth hormone and TSH only",
+          "D) Stool microscopic examination for ova"
+        ],
+        "correct": 1,
+        "hint": "FBC, CRP, coagulopathy panel, cultures, electrolytes, renal/liver function, lactate, and blood gas.",
+        "explanation": "Complete laboratory evaluation of shock involves assessing hematology, inflammatory markers, end-organ function (renal/liver), coagulation status, infection sources, and metabolic acidosis."
+      },
+      {
+        "q": "What is the recommended initial fluid resuscitation protocol for a pediatric patient presenting with hypovolemic or distributive shock?",
+        "options": [
+          "A) 50 mL/kg hypertonic saline bolus over 1 minute",
+          "B) 5 mL/kg albumin solution over 2 hours",
+          "C) 10 to 20 mL/kg boluses of isotonic crystalloids administered rapidly",
+          "D) Continuous hypotonic 0.18% saline infusion at maintenance rate"
+        ],
+        "correct": 2,
+        "hint": "Rapid boluses of 10–20 mL/kg isotonic crystalloids.",
+        "explanation": "Initial fluid resuscitation for pediatric shock (excluding cardiogenic shock) centers on administering 10 to 20 mL/kg boluses of isotonic crystalloids, reassessing response after each bolus."
+      },
+      {
+        "q": "If an infant with shock responds to initial 10–20 mL/kg fluid boluses, up to what total cumulative volume of crystalloid resuscitation can be given before escalating to blood products or inotropes?",
+        "options": [
+          "A) Up to 10 mL/kg total",
+          "B) Up to 30 mL/kg total",
+          "C) Up to 100 mL/kg total",
+          "D) Up to 60 mL/kg total"
+        ],
+        "correct": 3,
+        "hint": "Up to 60 mL/kg total if responding.",
+        "explanation": "If the child demonstrates an adequate response, fluid resuscitation can be continued up to a cumulative 60 mL/kg; beyond this volume, escalation to inotropes/vasopressors and blood products is indicated."
+      },
+      {
+        "q": "How is fluid resuscitation MODIFIED for a child with suspected CARDIOGENIC Shock?",
+        "options": [
+          "A) Exercise extreme caution, start with smaller 5 mL/kg fluid boluses, and seek expert PICU help early",
+          "B) Administer 30 mL/kg boluses as rapidly as possible under pressure",
+          "C) Withhold all IV fluids and administer high-dose diuretics immediately",
+          "D) Administer 100 mL/kg of 10% Dextrose"
+        ],
+        "correct": 0,
+        "hint": "Smaller 5 mL/kg boluses with extreme caution and early PICU escalation.",
+        "explanation": "In cardiogenic shock, fluid overload can worsen heart failure and pulmonary edema; therefore, fluid boluses are reduced to 5 mL/kg with frequent reassessment."
+      },
+      {
+        "q": "When intravenous (IV) access cannot be established promptly in a child requiring emergency fluid resuscitation for shock, what immediate route must be established?",
+        "options": [
+          "A) Nasogastric tube fluid administration",
+          "B) Intra-osseous (IO) line insertion",
+          "C) Subcutaneous hypodermoclysis",
+          "D) Direct intracardiac injection"
+        ],
+        "correct": 1,
+        "hint": "Intra-osseous (IO) access when IV access is delayed.",
+        "explanation": "The guidelines specify that if IV access is difficult or delayed, clinicians must immediately insert an intra-osseous (IO) line to deliver fluids and emergency drugs without wasting time."
+      },
+      {
+        "q": "If a patient in shock remains hypotensive or fluid-refractory despite appropriate fluid boluses, what class of medications is initiated next?",
+        "options": [
+          "A) Systemic oral antihistamines",
+          "B) Inhaled bronchodilators",
+          "C) Vasoactive agents such as IV adrenaline (epinephrine) or dopamine",
+          "D) Intravenous loop diuretics"
+        ],
+        "correct": 2,
+        "hint": "Vasoactive drugs such as IV adrenaline or dopamine.",
+        "explanation": "In fluid-refractory shock, vasoactive and inotropic support (such as IV adrenaline or dopamine) is indicated to restore vascular tone and myocardial contractility."
+      },
+      {
+        "q": "What immediate positioning and oral intake precautions are recommended during first-aid management of a shocked pediatric patient?",
+        "options": [
+          "A) Keep the patient seated upright and provide hot oral fluids",
+          "B) Place the patient in a prone position and encourage oral feeding",
+          "C) Force oral rehydration salts by mouth immediately",
+          "D) Give nothing by mouth (NPO), keep warm, and turn head to one side to prevent aspiration if emesis occurs"
+        ],
+        "correct": 3,
+        "hint": "Keep warm, keep NPO, and turn the head to the side to prevent aspiration.",
+        "explanation": "First-aid measures mandate keeping the child warm, keeping them NPO to prevent aspiration, turning the head laterally in case of vomiting, and maintaining airway/breathing."
+      },
+      {
+        "q": "Which non-pharmacological interventions are employed to MINIMIZE CARDIAC WORK in a child with severe Cardiogenic Shock?",
+        "options": [
+          "A) Maintaining normal body temperature, providing sedation, intubation with mechanical ventilation, and correcting anemia",
+          "B) Inducing therapeutic hypothermia to 28°C and encouragement of active physical movement",
+          "C) Administering high-volume normal saline and total oral nutrition",
+          "D) Application of external heating blankets until core temp reaches 40°C"
+        ],
+        "correct": 0,
+        "hint": "Normothermia, sedation, mechanical ventilation, and correcting anemia.",
+        "explanation": "Minimizing myocardial oxygen demand in cardiogenic shock is achieved by controlling fever, providing sedation, placing on mechanical ventilation (to eliminate work of breathing), and correcting anemia."
+      },
+      {
+        "q": "In Hemorrhagic Shock due to severe trauma, what fluid choice should be administered as soon as it becomes available?",
+        "options": [
+          "A) 5% Dextrose in water",
+          "B) Blood products (type and crossmatched from first blood draw)",
+          "C) Hydroxyethyl starch solutions",
+          "D) Sterile water for injection"
+        ],
+        "correct": 1,
+        "hint": "Blood products as soon as available.",
+        "explanation": "While resuscitation begins with crystalloids, blood products must be transfused as soon as available to restore oxygen-carrying capacity in hemorrhagic shock."
+      },
+      {
+        "q": "Why is early endotracheal intubation and mechanical ventilation advantageous in severe pediatric shock?",
+        "options": [
+          "A) It eliminates the need for peripheral intravenous lines",
+          "B) It automatically corrects metabolic acidosis without fluids",
+          "C) It secures the airway and significantly decreases the patient's respiratory work of breathing and oxygen expenditure",
+          "D) It raises systemic vascular resistance to hypertensive levels"
+        ],
+        "correct": 2,
+        "hint": "Secures the airway and reduces work of breathing and oxygen demand.",
+        "explanation": "Intubation secures the airway and removes the massive metabolic workload of breathing (which can consume up to 40% of cardiac output in shock), redirecting oxygen delivery to vital organs."
+      },
+      {
+        "q": "What escalation pathway is indicated for a child in shock who is not responding to fluid boluses and initial vasoactive therapies?",
+        "options": [
+          "A) Immediate discharge to home care",
+          "B) Transfer to a general outpatient ward",
+          "C) Discontinuation of all monitoring equipment",
+          "D) Rapid escalation and transfer to a Pediatric Intensive Care Unit (PICU)"
+        ],
+        "correct": 3,
+        "hint": "Escalate to a Pediatric Intensive Care Unit (PICU).",
+        "explanation": "Children in fluid-refractory or complex shock require continuous invasive monitoring, advanced airway management, and vasoactive infusions in a PICU."
+      },
+      {
+        "q": "What is the formula for calculating the Shock Index (SI)?",
+        "options": [
+          "A) Shock Index = Heart Rate (bpm) / Systolic Blood Pressure (mmHg)",
+          "B) Shock Index = Systolic BP - Heart Rate",
+          "C) Shock Index = Mean Arterial Pressure / Heart Rate",
+          "D) Shock Index = Diastolic BP × Respiratory Rate"
+        ],
+        "correct": 0,
+        "hint": "Heart rate divided by systolic blood pressure.",
+        "explanation": "The Shock Index is calculated by dividing the patient's heart rate (in beats per minute) by their systolic blood pressure (in mmHg)."
+      },
+      {
+        "q": "Why does the traditional adult Shock Index threshold (>0.9) fail when applied to pediatric emergency patients?",
+        "options": [
+          "A) Because children have lower heart rates and higher blood pressures than adults",
+          "B) Because healthy children naturally have higher baseline heart rates and lower baseline blood pressures, causing adult standards to trigger false positives in almost all healthy children",
+          "C) Because children cannot develop tachycardia",
+          "D) Because pediatric systolic blood pressure is always above 120 mmHg"
+        ],
+        "correct": 1,
+        "hint": "Healthy children have higher baseline heart rates and lower blood pressures than adults.",
+        "explanation": "Applying the adult cut-off (>0.9) to children fails because normal pediatric physiology features higher heart rates and lower blood pressures, over-diagnosing shock in healthy pediatric patients."
+      },
+      {
+        "q": "How is SIPA (Shock Index Pediatric Age-Adjusted) defined, and what is its primary clinical utility in emergency triage?",
+        "options": [
+          "A) An age-adjusted score that evaluates vital sign limits across specific pediatric age groups to uncover early occult compensated shock",
+          "B) A static score measuring serum sodium levels",
+          "C) A radiologic classification used for grading long bone fractures",
+          "D) A neurological scale measuring pupil responsiveness"
+        ],
+        "correct": 0,
+        "hint": "Age-adjusted SI cutoffs to spot occult compensated shock.",
+        "explanation": "SIPA uses age-specific cutoffs for heart rate and SBP to identify occult shock in children who maintain normal blood pressure despite significant volume loss."
+      },
+      {
+        "q": "What are the specific abnormal SIPA threshold cutoffs for children aged 1–6 years, 7–12 years, and 13–16+ years?",
+        "options": [
+          "A) 1–6 yrs: >0.50; 7–12 yrs: >0.40; 13–16+ yrs: >0.30",
+          "B) 1–6 yrs: >2.00; 7–12 yrs: >1.80; 13–16+ yrs: >1.50",
+          "C) 1–6 yrs: >1.50; 7–12 yrs: >1.50; 13–16+ yrs: >1.20",
+          "D) 1–6 yrs: >1.22; 7–12 yrs: >1.00; 13–16+ yrs: >0.90"
+        ],
+        "correct": 3,
+        "hint": ">1.22 (1–6 yrs), >1.00 (7–12 yrs), and >0.90 (13–16+ yrs).",
+        "explanation": "Abnormal SIPA thresholds indicating high risk are >1.22 for ages 1–6, >1.00 for ages 7–12, and >0.90 for ages 13–16+."
+      },
+      {
+        "q": "An elevated SIPA score in a pediatric trauma patient is statistically associated with which clinical outcomes?",
+        "options": [
+          "A) Higher injury severity, need for blood transfusion within 24 hours, longer ICU/hospital stay, increased ventilator days, and higher mortality",
+          "B) Immediate resolution of all symptoms within 10 minutes",
+          "C) Lower risk of ICU admission and decreased length of stay",
+          "D) Reduced risk of requiring mechanical ventilation"
+        ],
+        "correct": 0,
+        "hint": "Higher injury severity, 24-hour transfusion need, longer ICU/ventilator time, and higher mortality.",
+        "explanation": "An elevated SIPA correlates with greater injury severity, urgent 24-hour transfusion requirement, longer ICU stay, prolonged mechanical ventilation, and increased mortality."
+      },
+      {
+        "q": "A 5-year-old child involved in a motor vehicle collision has HR 140 bpm and SBP 95 mmHg. Calculate the Shock Index, compare it against the SIPA threshold for a 5-year-old (>1.22), and interpret the result.",
+        "options": [
+          "A) SI = 0.67; Below threshold; No shock",
+          "B) SI = 1.47; Exceeds the >1.22 threshold; The child has occult compensated shock requiring immediate reassessment and aggressive resuscitation",
+          "C) SI = 2.50; Decompensated shock with cardiac arrest",
+          "D) SI = 0.90; Normal adult standard"
+        ],
+        "correct": 1,
+        "hint": "140 / 95 = 1.47, which is above >1.22 for ages 1–6.",
+        "explanation": "SI = 140 / 95 = 1.47. For a 5-year-old, the SIPA cutoff is >1.22. An SI of 1.47 exposes occult compensated shock despite the normotensive SBP (95 mmHg), mandating immediate resuscitation."
+      },
+      {
+        "q": "How much total blood volume can a pediatric patient lose while still maintaining a NORMAL blood pressure due to aggressive physiological compensation?",
+        "options": [
+          "A) Up to 5% of blood volume",
+          "B) Up to 10% of blood volume",
+          "C) Up to 30% of blood volume",
+          "D) Up to 60% of blood volume"
+        ],
+        "correct": 2,
+        "hint": "Up to 30% of blood volume can be lost before BP drops.",
+        "explanation": "Pediatric patients have robust compensatory mechanisms and can maintain a normal blood pressure despite losing up to 30% of their total blood volume, hiding occult shock."
+      },
+      {
+        "q": "A 3-year-old child with 3 days of severe viral gastroenteritis presents with lethargy, dry mucous membranes, absent tears, CRT 4 seconds, HR 165 bpm, RR 38 bpm, and BP 82/50 mmHg. Identify the shock type/stage and immediate fluid management.",
+        "options": [
+          "A) Cardiogenic shock; Give 50 mL/kg albumin",
+          "B) Obstructive shock; Perform needle thoracostomy",
+          "C) Distributive shock; Give high-dose dopamine infusion alone",
+          "D) Hypovolemic shock (dehydration); Compensated (normotensive for age); Administer rapid IV 10–20 mL/kg isotonic crystalloid boluses"
+        ],
+        "correct": 3,
+        "hint": "Dehydration + compensated shock -> rapid 10–20 mL/kg isotonic crystalloid boluses.",
+        "explanation": "Severe dehydration from gastroenteritis causes hypovolemic shock. With HR 165, prolonged CRT, and maintained BP, the child has compensated hypovolemic shock requiring rapid 10–20 mL/kg crystalloid boluses."
+      },
+      {
+        "q": "Which specific clinical risk factors predispose young children to developing severe Hypovolemic Shock from dehydration?",
+        "options": [
+          "A) Age < 6 months, warm weather, concurrent vomiting/diarrhea, diuretic usage, Cystic Fibrosis, and Hirschsprung's disease",
+          "B) History of systemic hypertension and hyperlipidemia",
+          "C) High altitude residence and polycythemia vera",
+          "D) Complete absence of viral exposure"
+        ],
+        "correct": 0,
+        "hint": "Age < 6 months, warm weather, vomiting/diarrhea, diuretics, cystic fibrosis, Hirschsprung's.",
+        "explanation": "Key risk factors for rapid hypovolemic dehydration include age <6 months, hot environment, gastrointestinal fluid loss, diuretics, Cystic Fibrosis, and Hirschsprung's enterocolitis."
+      },
+      {
+        "q": "For a 9-year-old child with fluid-refractory Septic Shock: what are the initial airway/fluid steps, what route is used if IV access fails, and what is the next step if hypotension persists after 60 mL/kg of crystalloids?",
+        "options": [
+          "A) 1. High-flow oxygen, consider intubation; start 10–20 mL/kg isotonic crystalloid boluses up to 60 mL/kg; 2. Insert intra-osseous (IO) needle if IV access fails; 3. Initiate IV vasoactive infusions (adrenaline or dopamine) and escalate to PICU",
+          "B) 1. Withhold oxygen; give 100 mL/kg hypotonic saline; 2. Subcutaneous needle; 3. Administer oral antibiotics at home",
+          "C) 1. Induce hypothermia; give IV furosemide; 2. Central line only; 3. Perform immediate splenectomy",
+          "D) 1. Keep room cold; give oral rehydration solution; 2. Nasogastric tube; 3. Wait 24 hours before re-evaluating"
+        ],
+        "correct": 0,
+        "hint": "O2/intubation + 10–20 mL/kg boluses up to 60 mL/kg; IO if IV fails; vasoactive infusion + PICU if refractory.",
+        "explanation": "Emergency protocol: 1. Secure ABCs with high-flow oxygen/intubation and rapid 10–20 mL/kg crystalloid boluses (up to 60 mL/kg); 2. Establish IO line if IV access is delayed; 3. Add IV vasoactive support (adrenaline/dopamine) for fluid-refractory shock and escalate to PICU."
+      }
+    ]
+  }
+]
