@@ -1264,6 +1264,14 @@
       return topicObj?.topic || topicObj?.name || `Topic ${fallbackIndex + 1}`;
     }
 
+    function getQuestionPoints(item, colIndex = 0) {
+      if (item && typeof item.pts === "number" && !Number.isNaN(item.pts)) {
+        return item.pts;
+      }
+      const defaults = [10, 20, 30, 40, 50];
+      return defaults[colIndex] ?? 10;
+    }
+
     function buildStarterTopicsForSubject(subjectLabel) {
       const pointLevels = [10, 20, 30, 40, 50];
       return [1, 2, 3, 4].map((tNum) => ({
@@ -1291,12 +1299,6 @@
       if (Array.isArray(bankList) && bankList.length > 0) {
         return bankList;
       }
-
-      const revTopics = REVISION_BANK[state.selectedYear]?.[subjectId]?.topics;
-      if (Array.isArray(revTopics) && revTopics.length > 0) {
-        return revTopics;
-      }
-
       return buildStarterTopicsForSubject(subjObj ? subjObj.label : "Subject");
     }
 
@@ -1674,13 +1676,14 @@
         row.appendChild(label);
 
         (topic.questions || []).forEach((item, cIdx) => {
+          const pts = getQuestionPoints(item, cIdx);
           const key = `${state.selectedSubject}_${rIdx}-${cIdx}`;
           const isUsed = Boolean(state.used[key]);
           const btn = document.createElement("button");
           btn.type = "button";
           btn.className = `q-btn${isUsed ? " used" : ""}`;
           btn.disabled = isUsed || !canPick;
-          btn.innerHTML = `<span>${item.pts} Marks</span><span class="pts">${isUsed ? "Used" : (canPick ? "Select" : "Locked")}</span>`;
+          btn.innerHTML = `<span>${pts} Marks</span><span class="pts">${isUsed ? "Used" : (canPick ? "Select" : "Locked")}</span>`;
           btn.addEventListener("click", () => openQuestion(rIdx, cIdx));
           row.appendChild(btn);
         });
@@ -1770,6 +1773,7 @@
       const item = topic?.questions?.[cIdx];
       if (!topic || !item) return;
 
+      const pts = getQuestionPoints(item, cIdx);
       const canControl = isActivePlayerOnThisDevice();
       const turnPlayer = getPlayerByIndex(player);
       const turnPlayerName = turnPlayer ? turnPlayer.name : `Player ${player}`;
@@ -1777,7 +1781,7 @@
       const countdownFinished = elapsedSec >= QUESTION_DURATION_SECONDS;
       const resolvedState = Boolean(answerSubmitted) || countdownFinished;
 
-      els.qModalTitle.textContent = `${getTopicTitle(topic, rIdx)} • ${item.pts} Marks`;
+      els.qModalTitle.textContent = `${getTopicTitle(topic, rIdx)} • ${pts} Marks`;
       els.qModalTurnInfo.textContent = countdownFinished && !answerSubmitted
         ? `Time's up! Any player can click "Continue to Next Turn" to proceed.`
         : (canControl
@@ -1823,7 +1827,7 @@
         const isCorrect = answerSubmitted && chosenOption === item.correct;
         const prefix = (!answerSubmitted || chosenOption === null || chosenOption === undefined)
           ? "Time expired! "
-          : (isCorrect ? `Correct (+${item.pts} pts)! ` : "Incorrect (0 pts). ");
+          : (isCorrect ? `Correct (+${pts} pts)! ` : "Incorrect (0 pts). ");
         els.qAnswerBox.textContent = `${prefix}Correct Answer: ${item.options[item.correct]} — ${item.explanation}`;
         els.qAnswerBox.classList.add("visible");
         els.submitMcqBtn.style.display = "none";
@@ -2057,6 +2061,7 @@
       const item = topics[state.activeLock.rIdx]?.questions?.[state.activeLock.cIdx];
       if (!item) return;
 
+      const pts = getQuestionPoints(item, state.activeLock.cIdx);
       stopTimer();
       state.activeLock.answerSubmitted = true;
       state.activeLock.chosenOption = chosen;
@@ -2065,7 +2070,7 @@
         const pIdx = state.activeLock.player || state.currentTurn;
         const target = state.players.find((p) => p.index === pIdx);
         if (target) {
-          target.score = (Number(target.score) || 0) + item.pts;
+          target.score = (Number(target.score) || 0) + pts;
         }
       }
 
