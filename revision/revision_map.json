@@ -5,6 +5,31 @@
   "MD4": [],
   "MD5": [
     {
+      "id": "surgery",
+      "label": "Surgery",
+      "files": []
+    },
+    {
+      "id": "orthopedic",
+      "label": "Orthopedic",
+      "files": []
+    },
+    {
+      "id": "obgy",
+      "label": "OBGY",
+      "files": []
+    },
+    {
+      "id": "internal_medicine",
+      "label": "Internal Medicine",
+      "files": [
+        "revision/md5_internal_medicine_thyroid_disorders.json",
+        "revision/md5_internal_medicine_adrenal_disorders.json",
+        "revision/md5_internal_medicine_acromegaly_and_dwarfism.json",
+        "revision/md5_internal_medicine_diabetes_mellitus.json"
+      ]
+    },
+    {
       "id": "paediatric",
       "label": "Paediatric",
       "files": [
