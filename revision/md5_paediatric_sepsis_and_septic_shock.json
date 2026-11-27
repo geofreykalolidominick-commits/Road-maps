@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Sepsis and Septic Shock",
+    "questions": [
+      {
+        "q": "Under the modern consensus guidelines presented in the source, how is Pediatric Sepsis defined?",
+        "options": [
+          "A) Presence of two or more Systemic Inflammatory Response Syndrome (SIRS) criteria with a fever.",
+          "B) Life-threatening organ dysfunction caused by a dysregulated host response to infection.",
+          "C) Any blood culture demonstrating bacterial or fungal invasion without systemic symptoms.",
+          "D) Isolated cardiovascular collapse resulting from acute blood loss."
+        ],
+        "correct": 1,
+        "hint": "Life-threatening organ dysfunction from a dysregulated host response to infection.",
+        "explanation": "Modern consensus criteria define sepsis as life-threatening organ dysfunction resulting from a dysregulated immune and physiological host response to an infection."
+      },
+      {
+        "q": "How is Septic Shock operationalized in pediatric patients under the Phoenix Pediatric Sepsis Criteria?",
+        "options": [
+          "A) Sepsis with at least 1 point in the cardiovascular system component of the Phoenix Sepsis Score.",
+          "B) Systemic hypertension with normal urine output and preserved GCS.",
+          "C) Isolated tachypnea with normal peripheral perfusion.",
+          "D) Complete absence of infection with primary myocardial infarction."
+        ],
+        "correct": 0,
+        "hint": "Sepsis with ≥ 1 cardiovascular point on the Phoenix Sepsis Score.",
+        "explanation": "Under the Phoenix criteria, Septic Shock is defined as sepsis with cardiovascular dysfunction, operationalized by ≥ 1 point in the cardiovascular subscore (severe hypotension, blood lactate > 5 mmol/L, or need for vasoactive medications)."
+      },
+      {
+        "q": "According to global epidemiological data in the text, approximately how many pediatric deaths occur annually due to sepsis worldwide?",
+        "options": [
+          "A) 100,000 deaths.",
+          "B) 1 million deaths.",
+          "C) 7.5 million deaths.",
+          "D) 50 million deaths."
+        ],
+        "correct": 2,
+        "hint": "About 7.5 million deaths annually.",
+        "explanation": "Pediatric sepsis remains a global emergency, causing an estimated 7.5 million deaths annually, with over 50% of fatalities occurring within the first 24 hours of presentation."
+      },
+      {
+        "q": "Which patient population is EXCLUDED from the application of the Phoenix Pediatric Sepsis Criteria?",
+        "options": [
+          "A) Adolescents aged 12 to 17 years.",
+          "B) Infants aged 1 to 11 months.",
+          "C) Children with known sickle cell disease.",
+          "D) Newborns during birth hospitalization or neonates with a post-conceptional age under 37 weeks."
+        ],
+        "correct": 3,
+        "hint": "Newborns in birth hospitalization or < 37 weeks post-conceptional age.",
+        "explanation": "The Phoenix Sepsis Criteria apply to children under 18 years of age but specifically exclude neonates during birth hospitalization or premature infants under 37 weeks post-conceptional age."
+      },
+      {
+        "q": "Why is the former diagnostic category of 'Severe Sepsis' no longer used in modern pediatric sepsis definitions?",
+        "options": [
+          "A) Because all pediatric infections are mild.",
+          "B) Because the current definition of sepsis already requires life-threatening organ dysfunction, making 'severe sepsis' redundant.",
+          "C) Because organ dysfunction cannot be measured in children.",
+          "D) Because fluid resuscitation has been removed from emergency care."
+        ],
+        "correct": 1,
+        "hint": "Sepsis already means life-threatening organ dysfunction, making 'severe sepsis' redundant.",
+        "explanation": "The term 'severe sepsis' was retired because the updated definition of sepsis inherently incorporates life-threatening organ dysfunction."
+      },
+      {
+        "q": "What are the four organ system components evaluated in the composite Phoenix Sepsis Score?",
+        "options": [
+          "A) Hepatic, Renal, Endocrine, and Skeletal.",
+          "B) Cardiovascular, Respiratory, Coagulation, and Neurological.",
+          "C) Gastrointestinal, Ocular, Dermatological, and Immunological.",
+          "D) Pulmonary, Renal, Metabolic, and Hematological."
+        ],
+        "correct": 1,
+        "hint": "Cardiovascular, respiratory, coagulation, and neurological.",
+        "explanation": "The Phoenix Sepsis Score is a 4-organ system model evaluating Cardiovascular, Respiratory, Coagulation, and Neurological parameters."
+      },
+      {
+        "q": "What total score threshold on the Phoenix Sepsis Score confirms a diagnosis of Sepsis in a child with a suspected or confirmed infection?",
+        "options": [
+          "A) ≥ 1 point.",
+          "B) ≥ 2 points.",
+          "C) ≥ 5 points.",
+          "D) ≥ 10 points."
+        ],
+        "correct": 1,
+        "hint": "Total Phoenix Sepsis Score ≥ 2 points.",
+        "explanation": "A child with a suspected or confirmed infection and a total Phoenix Sepsis Score of 2 points or more meets the clinical criteria for Sepsis."
+      },
+      {
+        "q": "Which major bacterial pathogens predominate in early-onset neonatal sepsis (infants < 2 months)?",
+        "options": [
+          "A) Pseudomonas aeruginosa and Staphylococcus aureus.",
+          "B) Escherichia coli, Group B Streptococcus (S. agalactiae), and Listeria monocytogenes.",
+          "C) Neisseria meningitidis and Mycoplasma pneumoniae.",
+          "D) Haemophilus influenzae type b alone."
+        ],
+        "correct": 1,
+        "hint": "E. coli, Group B Streptococcus, and Listeria monocytogenes.",
+        "explanation": "In neonates and infants under 2 months of age, the most frequent bacterial sepsis pathogens are E. coli, Group B Streptococcus, and Listeria monocytogenes."
+      },
+      {
+        "q": "What is the single most common presenting clinical symptom in children evaluated for systemic infection?",
+        "options": [
+          "A) Hypothermia.",
+          "B) Jaundice.",
+          "C) Fever.",
+          "D) Petechial rash."
+        ],
+        "correct": 2,
+        "hint": "Fever.",
+        "explanation": "Fever is the most common presenting symptom in pediatric systemic inflammatory responses and infections."
+      },
+      {
+        "q": "What clinical parameter distinguishes 'Warm Shock' from 'Cold Shock' on physical examination of a pediatric patient with septic shock?",
+        "options": [
+          "A) Warm shock features warm extremities, bounding pulses, and blushing/flash capillary refill, whereas Cold shock features cool, pale/mottled extremities with weak pulses.",
+          "B) Warm shock features severe bradycardia, while cold shock features normal heart rate.",
+          "C) Cold shock causes polyuria, while warm shock causes anuria.",
+          "D) Warm shock occurs exclusively in neonates, while cold shock occurs in adults."
+        ],
+        "correct": 0,
+        "hint": "Warm shock = warm skin, bounding pulses, flash CRT; Cold shock = cool/mottled skin, weak pulses.",
+        "explanation": "Warm shock presents with peripheral vasodilation (warm skin, bounding pulses, flash CRT), whereas Cold shock presents with peripheral vasoconstriction (cool mottled skin, diminished pulses, prolonged CRT)."
+      },
+      {
+        "q": "Which host immune and microvascular cascades are activated during the development of pediatric sepsis?",
+        "options": [
+          "A) Local histamine release without cellular involvement.",
+          "B) Influx of activated neutrophils and monocytes, cytokine release, microvascular endothelial damage, and activation of coagulation pathways.",
+          "C) Isolated renal tubular hypertrophy.",
+          "D) Primary suppression of red blood cell production in the spleen."
+        ],
+        "correct": 1,
+        "hint": "Activated neutrophils/monocytes, cytokines, endothelial injury, and coagulation activation.",
+        "explanation": "Sepsis pathophysiology involves widespread activation of leukocytes, release of pro-inflammatory cytokines, endothelial dysfunction, microcirculatory derangements, and coagulation cascade triggering."
+      },
+      {
+        "q": "How much higher is the risk of developing pneumococcal and Salmonella sepsis in children with Sickle Cell Disease compared to the general population?",
+        "options": [
+          "A) 2-fold increased risk.",
+          "B) 10-fold increased risk.",
+          "C) 50-fold increased risk.",
+          "D) 400-fold increased risk."
+        ],
+        "correct": 3,
+        "hint": "400-fold higher risk.",
+        "explanation": "Functional asplenia in children with Sickle Cell Disease confers a 400-fold increased risk of severe sepsis caused by encapsulated organisms like Streptococcus pneumoniae and Salmonella species."
+      },
+      {
+        "q": "What anatomical site represents the single most common primary source of infection leading to pediatric sepsis?",
+        "options": [
+          "A) Urinary tract.",
+          "B) Pneumonia (Respiratory tract).",
+          "C) Surgical wound.",
+          "D) Central nervous system."
+        ],
+        "correct": 1,
+        "hint": "Pneumonia (respiratory tract).",
+        "explanation": "Severe pneumonia is the leading primary site of infection and top WHO-reported cause of sepsis-related mortality in children."
+      },
+      {
+        "q": "Why are infants and young children physiologically more susceptible to rapid cardiovascular collapse during sepsis compared to adults?",
+        "options": [
+          "A) They have greater cardiac physiological reserve.",
+          "B) They maintain normal blood pressure longer via compensatory mechanisms, but have lesser physiological reserves, shortening the window for intervention before sudden collapse.",
+          "C) They do not develop tachycardia.",
+          "D) Their systemic vascular resistance is permanently low."
+        ],
+        "correct": 1,
+        "hint": "They compensate longer to keep BP normal, then decompensate rapidly with lower reserves.",
+        "explanation": "Young children aggressively compensate to maintain blood pressure, but possess limited cardiac reserve; once compensation fails, rapid organ deterioration and collapse occur."
+      },
+      {
+        "q": "Which non-bacterial pathogens can trigger dysregulated host responses leading to pediatric organ dysfunction and septic shock?",
+        "options": [
+          "A) Enteroviruses, Dengue virus, Plasmodium falciparum (malaria), and Influenza.",
+          "B) Dermatophytes and superficial tinea infections.",
+          "C) Commensal oral flora only.",
+          "D) Ascaris lumbricoides without systemic invasion."
+        ],
+        "correct": 0,
+        "hint": "Enteroviruses, dengue virus, P. falciparum malaria, and influenza.",
+        "explanation": "Severe viral infections (enterovirus, dengue shock) and severe malaria (P. falciparum) frequently cause systemic inflammatory dysregulation and organ failure in pediatrics."
+      },
+      {
+        "q": "What cardiovascular criteria earn 2 points on the Phoenix Sepsis Score subscore?",
+        "options": [
+          "A) Single fluid bolus requirement.",
+          "B) ≥ 2 vasoactive medications OR a blood lactate ≥ 11 mmol/L OR age-based MAP below severe threshold.",
+          "C) Heart rate > 100 bpm.",
+          "D) CRT of 2 seconds."
+        ],
+        "correct": 1,
+        "hint": "≥ 2 vasoactive drugs, lactate ≥ 11 mmol/L, or severe age-based hypotension.",
+        "explanation": "Under the Phoenix scoring system, cardiovascular points reach 2 points each for requirement of ≥ 2 vasoactive agents, lactate ≥ 11 mmol/L, or severe age-adjusted hypotension."
+      },
+      {
+        "q": "Which laboratory blood lactate level earns 1 point in the cardiovascular category of the Phoenix Sepsis Score?",
+        "options": [
+          "A) Lactate < 2.0 mmol/L.",
+          "B) Lactate 2.0 to 4.9 mmol/L.",
+          "C) Lactate 5.0 to 10.9 mmol/L.",
+          "D) Lactate > 20.0 mmol/L."
+        ],
+        "correct": 2,
+        "hint": "Lactate 5.0 to 10.9 mmol/L.",
+        "explanation": "A blood lactate value between 5.0 and 10.9 mmol/L receives 1 cardiovascular point on the Phoenix Sepsis Score."
+      },
+      {
+        "q": "What neurological parameters on the Phoenix Sepsis Score earn 1 point and 2 points, respectively?",
+        "options": [
+          "A) 1 point for GCS > 14; 2 points for GCS 12.",
+          "B) 1 point for Glasgow Coma Score ≤ 10; 2 points for bilaterally fixed pupils.",
+          "C) 1 point for irritability; 2 points for headache.",
+          "D) 1 point for photophobia; 2 points for neck stiffness."
+        ],
+        "correct": 1,
+        "hint": "1 point for GCS ≤ 10; 2 points for bilaterally fixed pupils.",
+        "explanation": "Neurological scoring awards 1 point for GCS ≤ 10 and 2 points for bilaterally fixed pupils."
+      },
+      {
+        "q": "What coagulation laboratory findings contribute to the coagulation subscore (1 point each, up to 2 points) on the Phoenix Sepsis Score?",
+        "options": [
+          "A) Platelets < 100 × 10³/µL, INR > 1.3, D-dimer > 2 mg/L FEU, or Fibrinogen < 100 mg/dL.",
+          "B) Hemoglobin < 10 g/dL.",
+          "C) White blood cell count > 20,000/µL.",
+          "D) Serum sodium < 130 mmol/L."
+        ],
+        "correct": 0,
+        "hint": "Platelets < 100k/µL, INR > 1.3, D-dimer > 2 mg/L FEU, or fibrinogen < 100 mg/dL.",
+        "explanation": "Coagulation dysfunction on the Phoenix score is defined by thrombocytopenia (<100×10³/µL), elevated INR (>1.3), elevated D-dimer (>2 mg/L FEU), or hypofibrinogenemia (<100 mg/dL)."
+      },
+      {
+        "q": "What respiratory parameters yield 3 points (maximum respiratory subscore) on the Phoenix Sepsis Score?",
+        "options": [
+          "A) Tachypnea without oxygen requirement.",
+          "B) PaO2:FiO2 < 100 or SpO2:FiO2 < 148 on invasive mechanical ventilation.",
+          "C) Mild nasal flaring.",
+          "D) Oxygen saturation 94% on room air."
+        ],
+        "correct": 1,
+        "hint": "PaO2:FiO2 < 100 or SpO2:FiO2 < 148 while on invasive mechanical ventilation.",
+        "explanation": "Severe oxygenation impairment with PaO2:FiO2 < 100 or SpO2:FiO2 < 148 while invasively ventilated receives 3 points."
+      },
+      {
+        "q": "In an infant under 3 months of age, how do clinical symptoms of developing sepsis typically present compared to older children?",
+        "options": [
+          "A) High fever with localized joint swelling.",
+          "B) Non-specific signs, such as irritability, mottled skin, poor feeding, or being afebrile/hypothermic.",
+          "C) Classic meningeal irritation with nuchal rigidity.",
+          "D) Bounding peripheral pulses with facial flushing."
+        ],
+        "correct": 1,
+        "hint": "Non-specific signs like irritability, mottling, poor feeding, or hypothermia/afebrile state.",
+        "explanation": "Neonates and young infants under 3 months frequently exhibit subtle, non-specific symptoms including temperature instability (hypothermia/afebrile), mottling, and poor feeding."
+      },
+      {
+        "q": "Why is Hypothermia in a septic pediatric patient often considered a more ominous sign than Fever?",
+        "options": [
+          "A) Hypothermia indicates superior immune clearance.",
+          "B) Hypothermia signals severe metabolic failure, exhaustion of thermoregulatory reserves, and impending circulatory collapse.",
+          "C) Hypothermia prevents bacterial replication.",
+          "D) Hypothermia confirms normal cardiac output."
+        ],
+        "correct": 1,
+        "hint": "Signals severe metabolic failure, depleted reserves, and impending collapse.",
+        "explanation": "In pediatric sepsis, hypothermia reflects severe systemic decompensation, energy depletion, and an impaired immune response, conferring a worse prognosis than fever."
+      },
+      {
+        "q": "What key diagnostic blood tests should be drawn immediately when evaluating a child with suspected septic shock?",
+        "options": [
+          "A) Full Blood Count, Blood Cultures, Electrolytes, Renal/Liver function, Coagulation profile, Blood Lactate, and Blood Gas Analysis.",
+          "B) Serum cholesterol and triglycerides only.",
+          "C) Stool reducing substances alone.",
+          "D) Serum growth hormone."
+        ],
+        "correct": 0,
+        "hint": "FBC, blood cultures, electrolytes, renal/liver tests, coagulopathy panel, lactate, and blood gas.",
+        "explanation": "Complete laboratory workup for sepsis includes hematology, microbiology (blood cultures), metabolic panels, end-organ monitoring, and tissue hypoperfusion markers (lactate/ABG)."
+      },
+      {
+        "q": "When should blood cultures ideally be obtained in a patient presenting with septic shock?",
+        "options": [
+          "A) After 48 hours of parenteral antibiotic therapy.",
+          "B) Prior to antibiotic administration, provided it does not cause significant delay in starting antimicrobials within the first hour.",
+          "C) Only if the patient remains febrile after 5 days.",
+          "D) Blood cultures are unnecessary in pediatric sepsis."
+        ],
+        "correct": 1,
+        "hint": "Before antibiotics if possible, without delaying antimicrobials past 1 hour.",
+        "explanation": "Microbiological cultures should be collected prior to initiating antibiotics whenever feasible, but blood culture collection must not delay empiric antimicrobial administration beyond 1 hour."
+      },
+      {
+        "q": "What physical skin lesion is classic for fulminant Neisseria meningitidis septicemia?",
+        "options": [
+          "A) Targetoid lesions.",
+          "B) Petechiae and rapidly spreading Purpura Fulminans.",
+          "C) Honey-colored impetigo crusts.",
+          "D) Urticarial wheals."
+        ],
+        "correct": 1,
+        "hint": "Petechiae and purpura fulminans.",
+        "explanation": "Meningococcemia classically presents with a petechial rash that rapidly coalesces into purpura fulminans due to microvascular thrombosis and DIC."
+      },
+      {
+        "q": "Under the Phoenix Sepsis Criteria, what threshold of blood lactate defines cardiovascular dysfunction indicative of Septic Shock?",
+        "options": [
+          "A) Lactate > 1.0 mmol/L.",
+          "B) Lactate > 2.0 mmol/L.",
+          "C) Venous or arterial blood lactate > 5.0 mmol/L.",
+          "D) Lactate > 15.0 mmol/L."
+        ],
+        "correct": 2,
+        "hint": "Lactate > 5.0 mmol/L.",
+        "explanation": "A lactate value > 5.0 mmol/L meets the Phoenix cardiovascular dysfunction criteria, confirming septic shock in a septic patient."
+      },
+      {
+        "q": "What imaging investigation must be performed to evaluate for a cardiac source of infection or vegetation in a child with persistent bacteremia?",
+        "options": [
+          "A) Plain abdominal radiograph.",
+          "B) Echocardiography.",
+          "C) Skull radiography.",
+          "D) Barium enema."
+        ],
+        "correct": 1,
+        "hint": "Echocardiography.",
+        "explanation": "Echocardiography is indicated to assess myocardial function, pericardial effusion, or infective endocarditis vegetations in pediatric sepsis."
+      },
+      {
+        "q": "What is the significance of monitoring Urine Output during septic shock resuscitation?",
+        "options": [
+          "A) Urine output reflects hepatic synthetic capacity.",
+          "B) Oliguria (< 0.5 to 1.0 mL/kg/h) serves as a sensitive real-time bedside clinical indicator of renal hypoperfusion and end-organ dysfunction.",
+          "C) Urine output measures pulmonary surfactant production.",
+          "D) Oliguria confirms fluid overload."
+        ],
+        "correct": 1,
+        "hint": "Tracks renal perfusion and end-organ response to resuscitation.",
+        "explanation": "Maintaining adequate urine output (≥ 1 mL/kg/h) tracks adequacy of renal perfusion during shock resuscitation."
+      },
+      {
+        "q": "Which acute inflammatory markers are routinely measured to support the diagnosis of bacterial sepsis and monitor treatment response?",
+        "options": [
+          "A) C-Reactive Protein (CRP) and Procalcitonin.",
+          "B) Serum bilirubin alone.",
+          "C) Alkaline phosphatase.",
+          "D) Amylase and lipase."
+        ],
+        "correct": 0,
+        "hint": "CRP and procalcitonin.",
+        "explanation": "CRP and Procalcitonin are acute-phase reactants that rise during systemic bacterial infections and help track response to antimicrobial therapy."
+      },
+      {
+        "q": "Why is lumbar puncture for CSF evaluation performed during pediatric sepsis evaluation, provided the child is hemodynamically stable?",
+        "options": [
+          "A) To measure intra-abdominal pressure.",
+          "B) To rule out co-existing bacterial or viral Meningitis.",
+          "C) To administer fluid resuscitation.",
+          "D) To evaluate bone marrow cellularity."
+        ],
+        "correct": 1,
+        "hint": "To rule out concurrent meningitis.",
+        "explanation": "Lumbar puncture is essential to exclude central nervous system infection/meningitis in septic infants, provided there are no contraindications such as severe instability or herniation risk."
+      },
+      {
+        "q": "What is the primary target timeframe for executing the initial Resuscitation and Antibiotic Bundle in pediatric Septic Shock?",
+        "options": [
+          "A) Within the first 6 hours.",
+          "B) Within the first 24 hours.",
+          "C) Within the first 1 hour (the 'Golden Hour') of recognition.",
+          "D) Within 3 days."
+        ],
+        "correct": 2,
+        "hint": "Within the first 1 hour ('Golden Hour').",
+        "explanation": "Guidelines mandate that initial fluid boluses, vascular access, and broad-spectrum antimicrobial administration be executed within the first hour of recognizing septic shock."
+      },
+      {
+        "q": "What is the initial IV crystalloid fluid resuscitation protocol for a child in Septic Shock?",
+        "options": [
+          "A) 5 mL/kg hypotonic saline over 2 hours.",
+          "B) 10 to 20 mL/kg boluses of isotonic crystalloid (0.9% Normal Saline or Ringer's Lactate) administered rapidly over 10–20 minutes.",
+          "C) 50 mL/kg of 10% Dextrose in water.",
+          "D) Continuous fluid restriction."
+        ],
+        "correct": 1,
+        "hint": "10–20 mL/kg rapid isotonic crystalloid boluses (NS or Ringer's lactate).",
+        "explanation": "Initial resuscitation consists of 10 to 20 mL/kg isotonic crystalloid (Normal Saline or Ringer's Lactate) boluses, reassessing after each aliquot."
+      },
+      {
+        "q": "What empirical broad-spectrum IV antibiotic regimen is recommended for newborns and infants in the first 6–8 weeks of life presenting with sepsis?",
+        "options": [
+          "A) Ciprofloxacin monotherapy.",
+          "B) Ampicillin PLUS Gentamicin (or Cefotaxime/Ceftriaxone).",
+          "C) Vancomycin monotherapy.",
+          "D) Oral Erythromycin."
+        ],
+        "correct": 1,
+        "hint": "Ampicillin + gentamicin (or cefotaxime/ceftriaxone).",
+        "explanation": "For neonates and infants under 6–8 weeks, empirical coverage requires Ampicillin (targeting Listeriosis and GBS) combined with Gentamicin or a 3rd-generation cephalosporin."
+      },
+      {
+        "q": "What standard initial empirical antimicrobial regimen is specified in the text for older infants and children with septic shock?",
+        "options": [
+          "A) Ampicillin (150–200 mg/kg/day) + Cloxacillin (50–100 mg/kg/day) + Gentamicin (7.5 mg/kg 24-hourly).",
+          "B) Oral Amoxicillin alone.",
+          "C) Metronidazole monotherapy.",
+          "D) Fluconazole monotherapy."
+        ],
+        "correct": 0,
+        "hint": "Ampicillin + cloxacillin + gentamicin.",
+        "explanation": "Standard initial broad-spectrum empirical therapy for pediatric septic shock includes IV Ampicillin + IV Cloxacillin + IV/IM Gentamicin."
+      },
+      {
+        "q": "If a patient in septic shock shows no improvement in clinical vital signs within 24 hours on initial antibiotics, how should antimicrobial therapy be escalated?",
+        "options": [
+          "A) Discontinue all antibiotics.",
+          "B) Escalate to IV Ceftriaxone (100 mg/kg/day) + Gentamicin, or Ceftriaxone-Sulbactam + Gentamicin, or Piperacillin-Tazobactam + Gentamicin.",
+          "C) Switch to oral penicillin.",
+          "D) Administer inhaled steroids."
+        ],
+        "correct": 1,
+        "hint": "Escalate to ceftriaxone + gentamicin or piperacillin-tazobactam + gentamicin.",
+        "explanation": "Non-response at 24 hours requires broadening coverage to 3rd-generation cephalosporins (Ceftriaxone) or antipseudomonal beta-lactamase combinations (Piperacillin-Tazobactam) plus Gentamicin."
+      },
+      {
+        "q": "When should Vasoactive Medications (e.g., Norepinephrine, Dobutamine, or Epinephrine) be initiated in pediatric septic shock?",
+        "options": [
+          "A) Only after 24 hours of IV fluid administration.",
+          "B) Within the first hour if the child remains hypotensive or fluid-refractory after initial fluid boluses (e.g., 30–40 mL/kg).",
+          "C) Before securing an airway.",
+          "D) Vasoactive drugs are contraindicated in children."
+        ],
+        "correct": 1,
+        "hint": "Within the first hour if hypotensive or fluid-refractory after initial boluses.",
+        "explanation": "Vasoactive infusions should be started within 1 hour of resuscitation if cardiovascular dysfunction or hypotension persists despite initial fluid boluses."
+      },
+      {
+        "q": "Which vasoactive agent is specifically recommended for fluid-refractory septic shock with poor cardiac output and impaired contractility?",
+        "options": [
+          "A) Dobutamine IV (2–20 mcg/kg/min).",
+          "B) Furosemide IV.",
+          "C) Sodium nitroprusside.",
+          "D) Insulin infusion."
+        ],
+        "correct": 0,
+        "hint": "Dobutamine (2–20 mcg/kg/min) for poor cardiac output/contractility.",
+        "explanation": "Dobutamine (2–20 mcg/kg/min) is indicated for myocardial dysfunction and poor cardiac output in septic shock."
+      },
+      {
+        "q": "Which vasoactive infusion is recommended for septic shock presenting with severe vasodilation and hypotension resistant to initial fluid boluses?",
+        "options": [
+          "A) Norepinephrine IV (3–5 mcg/min or titrated dose).",
+          "B) Oral propranolol.",
+          "C) Atropine IV.",
+          "D) Milrinone alone."
+        ],
+        "correct": 0,
+        "hint": "Norepinephrine for vasodilatory hypotension.",
+        "explanation": "Norepinephrine is a potent alpha-1 agonist vasopressor indicated to restore vascular tone and mean arterial pressure in vasodilatory septic shock."
+      },
+      {
+        "q": "What antibiotic addition is indicated if a co-existing intra-abdominal or pelvic Anaerobic infection is suspected in a septic child?",
+        "options": [
+          "A) IV Metronidazole (7.5 mg/kg 8-hourly) OR IV Clindamycin (15–25 mg/kg/day).",
+          "B) Oral Nystatin.",
+          "C) IV Acyclovir.",
+          "D) Oral Ciprofloxacin."
+        ],
+        "correct": 0,
+        "hint": "Metronidazole or clindamycin for anaerobes.",
+        "explanation": "Anaerobic coverage with Metronidazole or Clindamycin is added for intra-abdominal, necrotizing, or pelvic infection sources."
+      },
+      {
+        "q": "What is the recommended indication and target hemoglobin level for Blood Transfusion during active septic shock resuscitation?",
+        "options": [
+          "A) Transfuse Packed Red Blood Cells if Hemoglobin is < 7 g/dL, targeting a hemoglobin level of 10 g/dL during acute resuscitation.",
+          "B) Transfuse only when Hb drops below 3 g/dL.",
+          "C) Routine transfusion for all patients regardless of Hb.",
+          "D) Transfuse platelets to all non-bleeding patients."
+        ],
+        "correct": 0,
+        "hint": "Transfuse PRBCs if Hb < 7 g/dL, targeting ~10 g/dL during acute resuscitation.",
+        "explanation": "Blood transfusion is indicated when Hb is < 7 g/dL, aiming for a target Hb around 10 g/dL during active resuscitation to optimize oxygen delivery."
+      },
+      {
+        "q": "A 4-year-old child with high fever, lethargy, and a purpuric rash presents with HR 175 bpm, SBP 68 mmHg (severe hypotension), CRT 5 seconds, and blood lactate 7.2 mmol/L. Identify the Phoenix shock status and outline the first 60-minute emergency resuscitation protocol.",
+        "options": [
+          "A) Sepsis without shock; Give oral rehydration; Discontinue monitoring.",
+          "B) Septic Shock (≥ 2 Phoenix points with ≥ 1 cardiovascular point); Secure ABCs with high-flow oxygen, establish IV/IO access, administer 20 mL/kg rapid crystalloid boluses, start empiric IV broad-spectrum antibiotics within 1 hour, and initiate vasoactive support if fluid-refractory.",
+          "C) Cardiogenic shock; Give high-dose loop diuretics immediately.",
+          "D) Anaphylaxis; Give subcutaneous epinephrine alone and discharge home."
+        ],
+        "correct": 1,
+        "hint": "Severe hypotension + lactate 7.2 = septic shock; Golden Hour ABCs, 20 mL/kg boluses, 1-hr IV antibiotics, vasoactive drugs if refractory.",
+        "explanation": "Severe hypotension and lactate 7.2 mmol/L yield ≥ 1 cardiovascular point, confirming Septic Shock. Emergency management requires Golden Hour resuscitation: ABCs, rapid 20 mL/kg crystalloid boluses, IV antibiotics within 1 hour, and vasoactive agents if refractory."
+      },
+      {
+        "q": "A 2-week-old neonate has hypothermia (35.2°C), severe lethargy, jaundice, poor feeding, leukopenia (WBC 3,200/µL), and 25% band forms. Identify the likely diagnosis, probable bacterial pathogens, and immediate empiric antibiotic regimen.",
+        "options": [
+          "A) Early-onset/Late-onset Neonatal Sepsis; E. coli, Group B Streptococcus, and Listeria monocytogenes; IV Ampicillin + Gentamicin (or Cefotaxime).",
+          "B) Viral bronchiolitis; RSV; Inhaled hypertonic saline.",
+          "C) Physiological jaundice; None; Phototherapy alone.",
+          "D) Congenital hypothyroidism; None; L-thyroxine."
+        ],
+        "correct": 0,
+        "hint": "Neonatal sepsis (E. coli, GBS, Listeria) -> IV ampicillin + gentamicin.",
+        "explanation": "Hypothermia, leukopenia, and lethargy in a 2-week-old indicate Neonatal Sepsis caused by E. coli, GBS, or Listeria. Empiric treatment mandates IV Ampicillin + Gentamicin."
+      },
+      {
+        "q": "A 7-year-old on ALL chemotherapy has fever 38.9°C, rigors, ANC 150/µL, and a central venous catheter. Diagnose the presentation, pathogen coverage needed, and initial antibiotic strategy.",
+        "options": [
+          "A) Febrile Neutropenia with central line infection; Broad-spectrum Gram-negative coverage (e.g., Piperacillin-Tazobactam or Cefepime) PLUS Vancomycin (for MRSA/coagulase-negative Staph); Obtain blood cultures from both central line and peripheral vein.",
+          "B) Viral exanthem; Supportive care at home.",
+          "C) Retinopathy of prematurity; Local eye drops.",
+          "D) Malaria; Oral chloroquine alone."
+        ],
+        "correct": 0,
+        "hint": "Febrile neutropenia + central line -> antipseudomonal beta-lactam + vancomycin + paired line/peripheral cultures.",
+        "explanation": "Febrile neutropenia with a central line risks Gram-negative bacteremia and staphylococcal line infection. Management requires broad-spectrum antipseudomonal beta-lactam PLUS Vancomycin and paired blood cultures."
+      },
+      {
+        "q": "A 10-year-old girl with septic shock from ruptured appendicitis receives 60 mL/kg Ringer's lactate and norepinephrine, but has SpO2 86% on high-flow O2 with retractions and gasping. What complication occurred, when is intubation/ventilation indicated, and how does it help cardiac function?",
+        "options": [
+          "A) Acute Respiratory Distress Syndrome (ARDS) / Respiratory Failure; Indications include respiratory failure, altered GCS, fluid-refractory shock, and excessive work of breathing; Ventilation reduces respiratory muscle oxygen consumption (which can take up to 40% of CO) and secures the airway.",
+          "B) Asthma exacerbation; Give inhaled salbutamol alone.",
+          "C) Pneumothorax; Needle aspiration.",
+          "D) Upper airway obstruction; Intubation is contraindicated."
+        ],
+        "correct": 0,
+        "hint": "ARDS/respiratory failure; ventilation lowers work of breathing and oxygen demand.",
+        "explanation": "Septic shock with severe hypoxemia indicates ARDS/respiratory failure. Intubation reduces the metabolic workload of breathing, redirects oxygenated blood to vital organs, and improves survival."
+      },
+      {
+        "q": "A 6-year-old boy with septic shock after 40 mL/kg crystalloids is warm and flushed with bounding pulses, flash CRT (<1 s), BP 72/38 mmHg, HR 160 bpm, and urine output 0.3 mL/kg/h. Classify the shock subtype, primary vascular abnormality, and first-line vasoactive drug.",
+        "options": [
+          "A) Cold (Vasoconstricted) Shock; High systemic vascular resistance; Dobutamine.",
+          "B) Warm (Vasodilatory / Distributive) Septic Shock; Loss of vascular tone causing severe systemic vasodilation; Norepinephrine infusion.",
+          "C) Cardiogenic shock; Myocardial necrosis; IV furosemide.",
+          "D) Hypovolemic shock; Dehydration; Oral rehydration."
+        ],
+        "correct": 1,
+        "hint": "Warm peripheries + bounding pulses + flash CRT = warm vasodilatory shock -> norepinephrine.",
+        "explanation": "Warm peripheries, bounding pulses, and flash CRT define Warm (Vasodilatory) Shock. Pathophysiology centers on systemic vasodilation; the first-line vasopressor to restore tone is Norepinephrine."
+      },
+      {
+        "q": "A 3-year-old with pneumococcal septic shock remains hypotensive after 60 mL/kg fluids and norepinephrine, with cool pale skin, CRT 5 s, weak femoral pulses, and low cardiac index on POCUS. Classify the state, second vasoactive drug to add, and endocrine check if catecholamine-refractory.",
+        "options": [
+          "A) Cold (Low Cardiac Output / High SVR) Shock; Add Dobutamine (or Epinephrine); Screen for absolute or relative Adrenal Insufficiency (consider hydrocortisone).",
+          "B) Warm shock; Add high-dose atropine.",
+          "C) Anaphylaxis; Add oral cetirizine.",
+          "D) Neurogenic shock; Add spinal immobility."
+        ],
+        "correct": 0,
+        "hint": "Cool skin + low cardiac index = cold low-CO shock -> add dobutamine/epinephrine; check adrenal insufficiency.",
+        "explanation": "Cool extremities, prolonged CRT, and low cardiac index signify Cold Shock with poor cardiac output. Management requires adding an inotrope (Dobutamine or Epinephrine) and evaluating for adrenal insufficiency."
+      },
+      {
+        "q": "A 5-year-old in PICU with septic shock from necrotizing pancreatitis on broad-spectrum IV antibiotics for 8 days and central lines for 10 days develops new fever spikes, platelets 35 × 10³/µL, and yeast on blood culture. Identify the pathogen, risk factors, and antifungal treatment.",
+        "options": [
+          "A) Invasive Candida infection; Prolonged broad-spectrum antibiotics, indwelling central lines, immunocompromised state, and necrotizing pancreatitis; IV Fluconazole (6–12 mg/kg/day).",
+          "B) Aspergillus; Radiotherapy; Oral itraconazole.",
+          "C) Cryptococcus; Exposure to birds; Oral fluconazole.",
+          "D) Pneumocystis jirovecii; Prematurity; Cotrimoxazole."
+        ],
+        "correct": 0,
+        "hint": "Invasive Candida (central line + prolonged antibiotics/pancreatitis) -> IV fluconazole.",
+        "explanation": "Risk factors for Invasive Candidiasis include prolonged broad-spectrum antibiotics, indwelling vascular catheters, and necrotizing pancreatitis. Recommended antifungal therapy is IV Fluconazole (6–12 mg/kg/day)."
+      },
+      {
+        "q": "What is the recommended protocol for Source Control in a pediatric patient with septic shock secondary to a confirmed infected central venous catheter?",
+        "options": [
+          "A) Retain the catheter permanently and administer oral antibiotics.",
+          "B) Achieve emergent source control by removing the infected intravascular device as soon as alternative vascular access is secured.",
+          "C) Flush the catheter with normal saline every 24 hours without removal.",
+          "D) Apply topical alcohol wipes to the insertion site."
+        ],
+        "correct": 1,
+        "hint": "Remove the infected catheter once alternative vascular access is secured.",
+        "explanation": "Source control guidelines mandate prompt removal of infected indwelling lines once secondary vascular access is established to clear the nidus of infection."
+      },
+      {
+        "q": "What are the guidelines regarding Nutritional Support in a pediatric patient admitted to the PICU with septic shock?",
+        "options": [
+          "A) Commence early Enteral Nutrition within 48 hours of admission via gastric tube; withhold Parenteral Nutrition during the first 7 days of PICU stay if enteral feeding is tolerated.",
+          "B) Administer total parenteral nutrition immediately on Day 1.",
+          "C) Keep NPO for 14 days without any nutritional support.",
+          "D) Place a post-pyloric feeding tube routinely in all patients."
+        ],
+        "correct": 0,
+        "hint": "Early enteral nutrition within 48 hours; avoid early parenteral nutrition in the first 7 days.",
+        "explanation": "Guidelines favor early enteral nutrition within 48 hours via gastric tube, while withholding parenteral nutrition during the first 7 days to preserve gut mucosal integrity and prevent line sepsis."
+      },
+      {
+        "q": "Formulate the step-by-step 60-minute emergency bundle protocol for pediatric Septic Shock: (1) first 0–15 minutes, (2) 15–60 minutes, and (3) ongoing reassessments for PICU transfer.",
+        "options": [
+          "A) 1. Recognize shock, secure airway/oxygen, obtain IV/IO access, draw blood cultures and lactate; 2. Administer 10–20 mL/kg rapid isotonic crystalloid boluses (up to 40–60 mL/kg), start empiric broad-spectrum IV antibiotics within 1 hour, start vasoactive infusions if fluid-refractory; 3. Monitor clinical response (HR, BP, CRT, urine output, lactate) and transfer to PICU.",
+          "B) 1. Wait 2 hours; 2. Administer oral fluids; 3. Discharge home.",
+          "C) 1. Perform sternotomy; 2. Give oral paracetamol; 3. Transfer to general ward.",
+          "D) 1. Place in cold bath; 2. Administer IV diuretics; 3. Discontinue monitoring."
+        ],
+        "correct": 0,
+        "hint": "0–15 min: recognize, ABCs, IV/IO, cultures/lactate; 15–60 min: 10–20 mL/kg boluses, IV antibiotics ≤1 hr, vasoactive if refractory; monitor & PICU.",
+        "explanation": "The Golden Hour Septic Shock bundle requires rapid recognition and ABCs (0–15 min), fluid boluses, 1-hour empiric IV antibiotics, and vasoactive drugs for fluid-refractory shock (15–60 min), followed by continuous end-organ monitoring and PICU transfer."
+      }
+    ]
+  }
+]
