@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Diabetes Mellitus",
+    "questions": [
+      {
+        "q": "What is the fundamental pathophysiological defect responsible for the development of Type 1 Diabetes Mellitus?",
+        "options": [
+          "A) Progressive peripheral insulin resistance with compensatory hyperinsulinemia",
+          "B) Autoimmune destruction of pancreatic beta-cells leading to absolute insulin deficiency",
+          "C) Autonomous hypersecretion of glucagon by pancreatic alpha-cells",
+          "D) Inactivation of the sodium-glucose cotransporter 2 (SGLT2) in the renal tubules"
+        ],
+        "correct": 1,
+        "hint": "Autoimmune beta-cell destruction -> absolute insulin deficiency.",
+        "explanation": "Type 1 Diabetes Mellitus is characterized by T-cell-mediated autoimmune destruction of pancreatic beta-cells, leading to an absolute deficiency of insulin production, making patients ketosis-prone and dependent on exogenous insulin for survival."
+      },
+      {
+        "q": "According to established diagnostic criteria in non-pregnant adults, what fasting plasma glucose (FPG) threshold defines diabetes mellitus after at least 8 hours of no caloric intake?",
+        "options": [
+          "A) FPG ≥ 5.6 mmol/L (100 mg/dL)",
+          "B) FPG ≥ 6.1 mmol/L (110 mg/dL)",
+          "C) FPG ≥ 7.0 mmol/L (126 mg/dL)",
+          "D) FPG ≥ 11.1 mmol/L (200 mg/dL)"
+        ],
+        "correct": 2,
+        "hint": "FPG ≥ 7.0 mmol/L (126 mg/dL).",
+        "explanation": "In non-pregnant adults, diabetes mellitus is diagnosed by a fasting plasma glucose (FPG) level ≥7.0 mmol/L (≥126 mg/dL), where fasting is defined as no caloric intake for at least 8 hours."
+      },
+      {
+        "q": "What standardized laboratory Glycated Hemoglobin (HbA1c) threshold is diagnostic for diabetes mellitus in non-pregnant adults?",
+        "options": [
+          "A) HbA1c ≥ 5.7% (39 mmol/mol)",
+          "B) HbA1c ≥ 6.0% (42 mmol/mol)",
+          "C) HbA1c ≥ 6.5% (48 mmol/mol)",
+          "D) HbA1c ≥ 7.5% (58 mmol/mol)"
+        ],
+        "correct": 2,
+        "hint": "HbA1c ≥ 6.5% (48 mmol/mol).",
+        "explanation": "An HbA1c level ≥6.5% (≥48 mmol/mol), measured using an NGSP-certified and DCCT-standardized laboratory assay, is diagnostic for diabetes mellitus."
+      },
+      {
+        "q": "What is the standard general target Glycated Hemoglobin (HbA1c) for most non-pregnant adults with diabetes mellitus to minimize microvascular complications?",
+        "options": [
+          "A) HbA1c < 6.0% (<42 mmol/mol)",
+          "B) HbA1c < 7.0% (<48 mmol/mol)",
+          "C) HbA1c < 8.0% (<64 mmol/mol)",
+          "D) HbA1c < 9.0% (<75 mmol/mol)"
+        ],
+        "correct": 1,
+        "hint": "General target < 7.0% (< 48 mmol/mol).",
+        "explanation": "An HbA1c target of <7.0% (<48 mmol/mol) is a reasonable and evidence-based goal for most non-pregnant adults, balancing microvascular protection against the risk of hypoglycemia."
+      },
+      {
+        "q": "Which 2-hour post-75-g oral glucose tolerance test (OGTT) plasma glucose range defines Impaired Glucose Tolerance (IGT)?",
+        "options": [
+          "A) 5.6 to 6.9 mmol/L (100 to 125 mg/dL)",
+          "B) 6.1 to 6.9 mmol/L (110 to 125 mg/dL)",
+          "C) 7.8 to 11.0 mmol/L (140 to 199 mg/dL)",
+          "D) ≥ 11.1 mmol/L (200 mg/dL)"
+        ],
+        "correct": 2,
+        "hint": "2-hour OGTT between 7.8 and 11.0 mmol/L (140–199 mg/dL).",
+        "explanation": "Impaired Glucose Tolerance (IGT) is defined as a 2-hour plasma glucose level of 7.8 to 11.0 mmol/L (140 to 199 mg/dL) following a 75-g oral glucose load, with a fasting plasma glucose <7.0 mmol/L."
+      },
+      {
+        "q": "What blood glucose threshold defines clinically significant hypoglycemia requiring immediate treatment in patients taking insulin or secretagogues?",
+        "options": [
+          "A) Blood glucose < 5.0 mmol/L (90 mg/dL)",
+          "B) Blood glucose < 3.9 mmol/L (70 mg/dL)",
+          "C) Blood glucose < 2.5 mmol/L (45 mg/dL)",
+          "D) Blood glucose < 1.8 mmol/L (32 mg/dL)"
+        ],
+        "correct": 1,
+        "hint": "Level 1 hypoglycemia threshold: < 3.9 mmol/L (< 70 mg/dL).",
+        "explanation": "Hypoglycemia alert value (Level 1) is defined as a blood glucose concentration <3.9 mmol/L (<70 mg/dL), which requires fast-acting carbohydrate administration and treatment regimen review."
+      },
+      {
+        "q": "Which pharmacological agent is recommended as the first-line oral therapy for patients newly diagnosed with Type 2 Diabetes Mellitus without contraindications?",
+        "options": [
+          "A) Gliclazide (Sulfonylurea)",
+          "B) Metformin (Biguanide)",
+          "C) Pioglitazone (Thiazolidinedione)",
+          "D) Sitagliptin (DPP-4 inhibitor)"
+        ],
+        "correct": 1,
+        "hint": "Metformin (first-line biguanide).",
+        "explanation": "Metformin is the established first-line oral glucose-lowering therapy for Type 2 Diabetes Mellitus due to its high glycemic efficacy, weight neutrality, safety profile, low risk of hypoglycemia, and affordability."
+      },
+      {
+        "q": "Which biochemical triad defines Diabetic Ketoacidosis (DKA)?",
+        "options": [
+          "A) Hyperglycemia, hyperosmolality (>320 mOsm/kg), and normal serum pH",
+          "B) Hyperglycemia, ketonemia (β-hydroxybutyrate ≥ 3.0 mmol/L or heavy urine ketones), and metabolic acidosis (pH < 7.30 or bicarbonate < 18 mmol/L)",
+          "C) Hypoglycemia, metabolic alkalosis (pH > 7.45), and severe hyponatremia",
+          "D) Hyperglycemia, hyperkalemia (>6.5 mmol/L), and respiratory alkalosis"
+        ],
+        "correct": 1,
+        "hint": "Hyperglycemia, ketonemia/ketonuria, and metabolic acidosis.",
+        "explanation": "Diabetic Ketoacidosis (DKA) is defined by the biochemical triad of uncontrolled hyperglycemia (or euglycemia in SGLT2 inhibitor users), significant ketonemia/ketonuria, and high-anion-gap metabolic acidosis."
+      },
+      {
+        "q": "Which paired annual screening tests are recommended to detect early Diabetic Kidney Disease (DKD) in patients with diabetes?",
+        "options": [
+          "A) Serum uric acid and 24-hour urine volume",
+          "B) Estimated Glomerular Filtration Rate (eGFR) and Urine Albumin-to-Creatinine Ratio (UACR)",
+          "C) Renal duplex ultrasound and serum cystatin C",
+          "D) Urine dipstick protein and serum urea"
+        ],
+        "correct": 1,
+        "hint": "eGFR and Urine Albumin-to-Creatinine Ratio (UACR).",
+        "explanation": "Annual screening for diabetic kidney disease requires evaluating both kidney function (eGFR) and glomerular structural damage (spot Urine Albumin-to-Creatinine Ratio, UACR)."
+      },
+      {
+        "q": "What is the primary renal mechanism of action of Sodium-Glucose Cotransporter 2 (SGLT2) inhibitors such as dapagliflozin?",
+        "options": [
+          "A) Enhancing renal tubular secretion of creatinine",
+          "B) Inhibiting glucose reabsorption in the renal proximal convoluted tubule, promoting glycosuria",
+          "C) Stimulating renal erythropoietin synthesis",
+          "D) Blocking mineralocorticoid receptors in the distal collecting duct"
+        ],
+        "correct": 1,
+        "hint": "Blocks proximal tubule glucose reabsorption -> glycosuria.",
+        "explanation": "SGLT2 inhibitors block sodium and glucose reabsorption in the SGLT2 cotransporter of the renal proximal convoluted tubule, leading to urinary glucose excretion, mild osmotic diuresis, and blood pressure reduction."
+      },
+      {
+        "q": "Which human leukocyte antigen (HLA) gene alleles confer the strongest genetic susceptibility to Type 1 Diabetes Mellitus?",
+        "options": [
+          "A) HLA-B27",
+          "B) HLA-DR3 and HLA-DR4",
+          "C) HLA-A3",
+          "D) HLA-Cw6"
+        ],
+        "correct": 1,
+        "hint": "HLA-DR3 and HLA-DR4.",
+        "explanation": "The major genetic predisposition to autoimmune Type 1 Diabetes Mellitus resides within the Class II Major Histocompatibility Complex, specifically the HLA-DR3-DQ2 and HLA-DR4-DQ8 haplotypes."
+      },
+      {
+        "q": "What form of monogenic diabetes is characterized by autosomal dominant inheritance, onset typically before age 25, non-insulin dependence at presentation, and primary defects in beta-cell function?",
+        "options": [
+          "A) Latent Autoimmune Diabetes in Adults (LADA)",
+          "B) Maturity-Onset Diabetes of the Young (MODY)",
+          "C) Pancreatogenic Type 3c Diabetes",
+          "D) Gestational Diabetes Mellitus"
+        ],
+        "correct": 1,
+        "hint": "MODY (autosomal dominant, usually <25 years, beta-cell defect).",
+        "explanation": "MODY represents a group of monogenic forms of diabetes caused by single-gene mutations (e.g., HNF1A, GCK, HNF4A) inherited in an autosomal dominant pattern, resulting in beta-cell dysfunction."
+      },
+      {
+        "q": "Which statement correctly describes Latent Autoimmune Diabetes in Adults (LADA)?",
+        "options": [
+          "A) It is a non-autoimmune form of diabetes caused by acute necrotizing pancreatitis",
+          "B) It presents in adults initially mimicking Type 2 Diabetes, but features positive islet autoantibodies (e.g., anti-GAD) and progresses to insulin dependency",
+          "C) It is an autosomal dominant condition caused by glucokinase gene mutations",
+          "D) It occurs exclusively during the third trimester of pregnancy"
+        ],
+        "correct": 1,
+        "hint": "Adult-onset autoimmune diabetes with islet antibodies (e.g., anti-GAD) progressing to insulin need.",
+        "explanation": "LADA is a slow-onset autoimmune diabetes presenting in adulthood. Patients are often initially misdiagnosed with Type 2 Diabetes but test positive for circulating pancreatic autoantibodies (such as GAD65) and eventually require insulin therapy as beta-cell mass declines."
+      },
+      {
+        "q": "What primary physiological mechanism underlies the development of Gestational Diabetes Mellitus (GDM) during the second and third trimesters of pregnancy?",
+        "options": [
+          "A) Direct destruction of maternal beta-cells by human chorionic gonadotropin (hCG)",
+          "B) Placental hormone-mediated insulin resistance exceeding the compensatory capacity of maternal pancreatic beta-cells",
+          "C) Autoimmune destruction of fetal islet cells causing maternal hyperglycemia",
+          "D) Renal glycosuria caused by progesterone inhibition of SGLT2"
+        ],
+        "correct": 1,
+        "hint": "Placental hormones increase insulin resistance beyond beta-cell compensation.",
+        "explanation": "Placental hormones (such as human placental lactogen, cortisol, progesterone, and prolactin) induce progressive physiological maternal insulin resistance. GDM develops when maternal beta-cells fail to secrete sufficient compensatory insulin."
+      },
+      {
+        "q": "Which of the following is an established non-modifiable risk factor for Type 2 Diabetes Mellitus?",
+        "options": [
+          "A) High dietary fiber intake",
+          "B) High-risk ethnicity (e.g., African American, Asian American, Latino, Pacific Islander)",
+          "C) Active cigarette smoking",
+          "D) Sedentary physical lifestyle"
+        ],
+        "correct": 1,
+        "hint": "Ethnicity, age, family history, and prior GDM are non-modifiable.",
+        "explanation": "Non-modifiable risk factors for Type 2 Diabetes include increasing age, high-risk ethnicity, genetic predisposition/family history, and a history of gestational diabetes. Smoking and physical inactivity are modifiable risk factors."
+      },
+      {
+        "q": "Which underlying disease process leads to Pancreatogenic Diabetes Mellitus (Type 3c Diabetes)?",
+        "options": [
+          "A) Pituitary somatotroph macroadenoma",
+          "B) Chronic pancreatitis, pancreatic resection, or cystic fibrosis",
+          "C) Primary adrenocortical hyperplasia",
+          "D) Autoimmune thyroiditis"
+        ],
+        "correct": 1,
+        "hint": "Exocrine pancreatic disease/injury (e.g., chronic pancreatitis).",
+        "explanation": "Type 3c (pancreatogenic) diabetes results from exocrine pancreatic destruction or resection (e.g., chronic pancreatitis, pancreatic cancer, cystic fibrosis, hemochromatosis), impairing both insulin and glucagon secretion."
+      },
+      {
+        "q": "Which environmental viral infections have been implicated as potential triggers for autoimmune beta-cell destruction in susceptible individuals with Type 1 DM?",
+        "options": [
+          "A) Hepatitis B and Hepatitis C viruses",
+          "B) Coxsackievirus B, Epstein–Barr virus, Mumps, and Cytomegalovirus",
+          "C) Respiratory Syncytial Virus and Influenza A",
+          "D) Human Papillomavirus and Rotavirus"
+        ],
+        "correct": 1,
+        "hint": "Coxsackievirus B, EBV, mumps, CMV.",
+        "explanation": "Environmental factors—including viral infections (particularly Coxsackievirus B, EBV, CMV, mumps)—are thought to initiate or accelerate autoimmune beta-cell destruction via molecular mimicry or direct pancreatic bystander inflammation."
+      },
+      {
+        "q": "Which medication class is most commonly associated with drug-induced hyperglycemia and new-onset diabetes?",
+        "options": [
+          "A) Systemic Glucocorticoids",
+          "B) Angiotensin-Converting Enzyme (ACE) Inhibitors",
+          "C) Histamine H2-Receptor Antagonists",
+          "D) HMG-CoA Reductase Inhibitors (Statins) at low doses"
+        ],
+        "correct": 0,
+        "hint": "Systemic glucocorticoids (steroids).",
+        "explanation": "Systemic glucocorticoids impair peripheral insulin sensitivity, increase hepatic gluconeogenesis, and inhibit pancreatic insulin secretion, representing the single most frequent cause of drug-induced hyperglycemia."
+      },
+      {
+        "q": "Which biochemical criteria define Impaired Fasting Glucose (IFG)?",
+        "options": [
+          "A) Fasting plasma glucose 5.6 to 6.9 mmol/L (100 to 125 mg/dL) with 2-hour OGTT < 7.8 mmol/L",
+          "B) Fasting plasma glucose 6.1 to 6.9 mmol/L (110 to 125 mg/dL) with 2-hour OGTT < 7.8 mmol/L",
+          "C) Fasting plasma glucose ≥ 7.0 mmol/L with normal HbA1c",
+          "D) Fasting plasma glucose < 5.6 mmol/L with 2-hour OGTT ≥ 11.1 mmol/L"
+        ],
+        "correct": 1,
+        "hint": "WHO IFG: fasting 6.1–6.9 mmol/L (110–125 mg/dL) and 2-hr OGTT < 7.8 mmol/L.",
+        "explanation": "According to WHO criteria, Impaired Fasting Glucose (IFG) is defined as a fasting plasma glucose of 6.1 to 6.9 mmol/L (110 to 125 mg/dL) and a 2-hour post-OGTT plasma glucose <7.8 mmol/L. (ADA criteria use 5.6–6.9 mmol/L)."
+      },
+      {
+        "q": "What short-term maternal complication is directly increased in pregnancies complicated by uncontrolled Gestational Diabetes Mellitus?",
+        "options": [
+          "A) Maternal osteoporosis",
+          "B) Preeclampsia and operative (caesarean) delivery",
+          "C) Primary pulmonary hypertension",
+          "D) Autoimmune thyroiditis"
+        ],
+        "correct": 1,
+        "hint": "Preeclampsia and caesarean delivery.",
+        "explanation": "Uncontrolled GDM increases short-term maternal risks, including preeclampsia, gestational hypertension, polyhydramnios, preterm birth, and caesarean section (due to fetal macrosomia)."
+      },
+      {
+        "q": "Which classic symptom complex characterizes the acute onset of Type 1 Diabetes Mellitus in children and young adults?",
+        "options": [
+          "A) Weight gain, constipation, cold intolerance, and bradycardia",
+          "B) Polyuria, polydipsia, polyphagia, rapid unexplained weight loss, and fatigue",
+          "C) Postural hypotension, mucosal hyperpigmentation, and hyperkalemia",
+          "D) Episodic headache, profuse diaphoresis, and hypertension"
+        ],
+        "correct": 1,
+        "hint": "Polyuria, polydipsia, polyphagia, and weight loss.",
+        "explanation": "Absolute insulin deficiency causes severe osmotic diuresis (polyuria, polydipsia), tissue catabolism, energy loss (polyphagia, rapid weight loss), and lethargy."
+      },
+      {
+        "q": "Which combination of clinical and laboratory findings distinguishes Hyperosmolar Hyperglycaemic State (HHS) from Diabetic Ketoacidosis (DKA)?",
+        "options": [
+          "A) Severe acidosis (pH < 7.0), heavy ketonemia, and normal blood glucose",
+          "B) Profound hyperglycemia (often ≥ 33.3 mmol/L), severe hyperosmolality (>300 mOsm/kg), severe dehydration, and absence of significant ketoacidosis",
+          "C) Hypoglycemia, hyperkalemia, and high urinary ketones",
+          "D) Normal serum glucose, severe hyponatremia, and respiratory alkalosis"
+        ],
+        "correct": 1,
+        "hint": "Extreme glucose/osmolality and dehydration without significant ketoacidosis.",
+        "explanation": "HHS presents with extreme hyperglycemia, hyperosmolality, and profound dehydration in the absence of significant ketosis or metabolic acidosis, because residual insulin secretion in Type 2 DM is sufficient to suppress lipolysis and ketogenesis."
+      },
+      {
+        "q": "What is the recommended screening schedule for diabetic retinopathy in patients newly diagnosed with Type 2 Diabetes Mellitus?",
+        "options": [
+          "A) Initial eye exam deferred until 5 years after diagnosis",
+          "B) Dilated eye examination or validated retinal photography at the time of diagnosis, then annually",
+          "C) Visual field testing every 6 months starting at age 65",
+          "D) Screening is only required if the patient reports visual loss"
+        ],
+        "correct": 1,
+        "hint": "At diagnosis in Type 2 DM, then annually.",
+        "explanation": "Patients with Type 2 DM should have an initial dilated retinal examination at the time of diagnosis because retinopathy may have been present undetected for years. Patients with Type 1 DM should be screened within 5 years of diagnosis."
+      },
+      {
+        "q": "Which pattern of neurological deficit is typical of Distal Symmetric Polyneuropathy in diabetic patients?",
+        "options": [
+          "A) Asymmetric weakness confined to the proximal upper extremity muscles",
+          "B) Length-dependent sensory loss ('stocking-glove' distribution) beginning in the toes and feet, with reduced vibration sense and loss of 10-g monofilament perception",
+          "C) Sudden unilateral ptosis with lateral eye deviation",
+          "D) Isolated patch of numbness over the lateral thigh"
+        ],
+        "correct": 1,
+        "hint": "Length-dependent 'stocking-glove' loss starting in the feet.",
+        "explanation": "Distal symmetric polyneuropathy is length-dependent, affecting the longest nerve fibers first. It manifests as tingling, burning pain, or numbness starting in the toes and moving proximally in a stocking-glove distribution, with diminished 10-g monofilament perception and ankle reflexes."
+      },
+      {
+        "q": "What persistent Urine Albumin-to-Creatinine Ratio (UACR) threshold defines microalbuminuria / early diabetic kidney disease?",
+        "options": [
+          "A) UACR < 10 mg/g (<1 mg/mmol)",
+          "B) UACR ≥ 30 mg/g (≥3 mg/mmol)",
+          "C) UACR ≥ 300 mg/g (≥30 mg/mmol)",
+          "D) UACR ≥ 1000 mg/g (≥100 mg/mmol)"
+        ],
+        "correct": 1,
+        "hint": "UACR ≥ 30 mg/g (≥ 3 mg/mmol).",
+        "explanation": "Persistent albuminuria is defined as a UACR ≥30 mg/g (≥3.0 mg/mmol) measured on 2 of 3 spot urine samples over a 3- to 6-month period, indicating early diabetic nephropathy."
+      },
+      {
+        "q": "What unique laboratory presentation characterizes euglycemic DKA associated with SGLT2 inhibitor therapy?",
+        "options": [
+          "A) Severe metabolic alkalosis with blood glucose > 30 mmol/L",
+          "B) High-anion-gap metabolic acidosis (pH < 7.30, HCO3 < 18 mmol/L) and elevated serum ketones, but with near-normal or only mildly elevated blood glucose (< 14 mmol/L)",
+          "C) Profound hypoglycemia with negative urine ketones",
+          "D) Hyperosmolality > 350 mOsm/kg with normal serum pH"
+        ],
+        "correct": 1,
+        "hint": "Ketoacidosis with blood glucose < 14 mmol/L (< 250 mg/dL).",
+        "explanation": "SGLT2 inhibitor-associated DKA can present with near-normal blood glucose levels (<14 mmol/L / <250 mg/dL) due to ongoing glycosuria, delaying recognition. Ketonemia and high-anion-gap metabolic acidosis remain present."
+      },
+      {
+        "q": "What bedside physical examination test has high specificity for predicting underlying osteomyelitis in a patient presenting with a deep diabetic foot ulcer?",
+        "options": [
+          "A) 10-g monofilament sensory testing",
+          "B) Positive 'probe-to-bone' test (feeling hard bone with a sterile metallic probe)",
+          "C) Ankle-Brachial Index (ABI) > 1.3",
+          "D) Palpation of dorsalis pedis pulse"
+        ],
+        "correct": 1,
+        "hint": "Probe-to-bone test.",
+        "explanation": "In a patient with an infected or deep diabetic foot ulcer, a positive probe-to-bone test (gently probing the ulcer base and palpating bone) strongly raises the clinical probability of underlying osteomyelitis."
+      },
+      {
+        "q": "Which acute physiological stress state can cause transient stress hyperglycemia in a patient without pre-existing diabetes?",
+        "options": [
+          "A) Uncomplicated allergic rhinitis",
+          "B) Severe sepsis, acute myocardial infarction, major burn injury, or stroke",
+          "C) Mild iron deficiency anemia",
+          "D) Chronic osteoarthritis of the knee"
+        ],
+        "correct": 1,
+        "hint": "Severe illness/trauma like sepsis, MI, stroke, or major burns.",
+        "explanation": "Severe systemic illness, trauma, sepsis, stroke, or MI triggers massive counter-regulatory hormone release (cortisol, epinephrine, glucagon), causing transient stress hyperglycemia. A formal diagnosis of diabetes should not be made during acute stress without follow-up testing."
+      },
+      {
+        "q": "Which manifestation is a clinical feature of diabetic autonomic neuropathy?",
+        "options": [
+          "A) Resting tachycardia, orthostatic hypotension, and gastroparesis",
+          "B) Bitemporal hemianopia",
+          "C) Proximal myopathy of the hip girdle",
+          "D) Pretibial dermopathy"
+        ],
+        "correct": 0,
+        "hint": "Resting tachycardia, postural drop in BP, delayed gastric emptying.",
+        "explanation": "Diabetic autonomic neuropathy affects cardiovascular (resting tachycardia, orthostatic hypotension), gastrointestinal (gastroparesis, diabetic diarrhea), genitourinary (neurogenic bladder, erectile dysfunction), and sudomotor systems."
+      },
+      {
+        "q": "Which endocrinopathy can mimic diabetes symptoms by presenting with polyuria, weight loss, and secondary hyperglycemia?",
+        "options": [
+          "A) Primary Hypoparathyroidism",
+          "B) Cushing syndrome, Thyrotoxicosis, or Phaeochromocytoma",
+          "C) Hashimoto thyroiditis",
+          "D) Primary Adrenal Insufficiency"
+        ],
+        "correct": 1,
+        "hint": "Excess counter-regulatory hormones (cortisol, thyroid hormone, catecholamines, GH).",
+        "explanation": "Counter-regulatory hormone excess—such as hypercortisolism (Cushing), excess thyroid hormone (thyrotoxicosis), catecholamines (phaeochromocytoma), or GH (acromegaly)—causes secondary hyperglycemia and hypermetabolic symptoms mimicking primary diabetes."
+      },
+      {
+        "q": "At what estimated Glomerular Filtration Rate (eGFR) threshold is Metformin contraindicated and must be discontinued?",
+        "options": [
+          "A) eGFR < 60 mL/min/1.73 m²",
+          "B) eGFR < 45 mL/min/1.73 m²",
+          "C) eGFR < 30 mL/min/1.73 m²",
+          "D) eGFR < 15 mL/min/1.73 m²"
+        ],
+        "correct": 2,
+        "hint": "Stop metformin when eGFR < 30 mL/min/1.73 m².",
+        "explanation": "Metformin is cleared by the kidneys; when eGFR falls below 30 mL/min/1.73 m², the risk of metformin-associated lactic acidosis increases significantly. Metformin is contraindicated and must be stopped at eGFR <30 mL/min/1.73 m² (dose reduction recommended between 30–45 mL/min/1.73 m²)."
+      },
+      {
+        "q": "What is the mandatory protocol regarding serum potassium levels BEFORE starting intravenous regular insulin therapy in a patient with DKA?",
+        "options": [
+          "A) If serum potassium is < 5.0 mmol/L, administer IV insulin immediately and restrict fluids",
+          "B) If serum potassium is < 3.5 mmol/L, delay insulin therapy, give IV potassium replacement, and start insulin only after potassium is restored to ≥ 3.5 mmol/L",
+          "C) Administer IV insulin regardless of potassium level, as insulin increases serum potassium",
+          "D) Administer IV spironolactone prior to insulin"
+        ],
+        "correct": 1,
+        "hint": "If K+ < 3.5 mmol/L, replace K+ and hold insulin until K+ ≥ 3.5 mmol/L.",
+        "explanation": "Insulin drives potassium into cells. Administering insulin to a hypokalemic patient (K+ <3.5 mmol/L) can cause severe, fatal hypokalemia, triggering cardiac arrhythmias or respiratory muscle arrest. Potassium must be corrected first."
+      },
+      {
+        "q": "What is the standard acute management protocol ('Rule of 15') for a conscious patient experiencing mild-to-moderate hypoglycemia (glucose < 3.9 mmol/L)?",
+        "options": [
+          "A) Administer 100 units of regular insulin subcutaneously",
+          "B) Administer 15–20 g of fast-acting oral carbohydrate, recheck blood glucose in 15 minutes, and repeat if glucose remains < 3.9 mmol/L",
+          "C) Give a high-protein meal and encourage vigorous exercise",
+          "D) Administer IV 0.9% normal saline at 1 L/hour"
+        ],
+        "correct": 1,
+        "hint": "15–20 g fast-acting carb -> recheck in 15 min -> repeat if still < 3.9 mmol/L.",
+        "explanation": "Conscious patients with hypoglycemia should consume 15–20 g of fast-acting glucose (e.g., glucose tablets, fruit juice). Blood glucose is rechecked after 15 minutes; if still <3.9 mmol/L, the treatment is repeated."
+      },
+      {
+        "q": "How should severe hypoglycemia be managed in an unconscious patient with diabetes when intravenous access is unavailable?",
+        "options": [
+          "A) Force oral fruit juice into the patient's mouth",
+          "B) Administer 1 mg Intramuscular (IM) or Subcutaneous (SC) Glucagon",
+          "C) Administer regular insulin subcutaneously",
+          "D) Place cold water packs on the patient's chest"
+        ],
+        "correct": 1,
+        "hint": "1 mg IM or SC glucagon (do not give food/drink orally if unconscious).",
+        "explanation": "In an unconscious hypoglycemic patient without IV access, oral intake is strictly contraindicated due to aspiration risk. Intramuscular or subcutaneous glucagon (1 mg) should be administered immediately to mobilize hepatic glycogen stores."
+      },
+      {
+        "q": "Which pharmacological agent is recommended as a first-line option for managing painful diabetic peripheral neuropathy?",
+        "options": [
+          "A) High-dose Ibuprofen",
+          "B) Duloxetine, Pregabalin, or Gabapentin",
+          "C) Metformin",
+          "D) Acetaminophen"
+        ],
+        "correct": 1,
+        "hint": "Duloxetine, pregabalin, or gabapentin.",
+        "explanation": "First-line medications for painful diabetic neuropathy include Serotonin-Norepinephrine Reuptake Inhibitors (e.g., Duloxetine) or Calcium Channel alpha-2-delta ligands (e.g., Pregabalin, Gabapentin). NSAIDs are ineffective for neuropathic pain and carry renal risks."
+      },
+      {
+        "q": "In patients with Type 2 Diabetes Mellitus and established Chronic Kidney Disease (eGFR 30–60 mL/min/1.73 m² or UACR ≥ 30 mg/g), which drug class is specifically recommended to slow CKD progression and reduce cardiovascular events?",
+        "options": [
+          "A) Sulfonylureas",
+          "B) SGLT2 Inhibitors (e.g., Dapagliflozin, Empagliflozin)",
+          "C) DPP-4 Inhibitors",
+          "D) Thiazolidinediones"
+        ],
+        "correct": 1,
+        "hint": "SGLT2 inhibitors for renal and cardiovascular protection.",
+        "explanation": "SGLT2 inhibitors demonstrate renal and cardiovascular protection in patients with Type 2 DM and CKD, reducing progressive eGFR decline, end-stage kidney disease, heart failure hospitalizations, and cardiovascular death."
+      },
+      {
+        "q": "What is the first-line antihypertensive drug class of choice for a diabetic patient with hypertension and persistent microalbuminuria (UACR ≥ 30 mg/g)?",
+        "options": [
+          "A) Loop diuretics (Furosemide)",
+          "B) ACE Inhibitors (e.g., Lisinopril) or Angiotensin Receptor Blockers (ARBs, e.g., Losartan)",
+          "C) Beta-blockers (Atenolol)",
+          "D) Direct vasodilators (Hydralazine)"
+        ],
+        "correct": 1,
+        "hint": "ACE inhibitor or ARB.",
+        "explanation": "ACE inhibitors or ARBs are first-line therapy for hypertensive diabetic patients with albuminuria because they reduce intraglomerular pressure, slowing the progression of diabetic nephropathy beyond blood pressure control alone."
+      },
+      {
+        "q": "What starting daily total insulin dosing range is typically recommended when initiating intensive basal-bolus insulin therapy in a stable adult with newly diagnosed Type 1 DM?",
+        "options": [
+          "A) 0.1 to 0.2 units/kg/day",
+          "B) 0.4 to 0.6 units/kg/day",
+          "C) 1.5 to 2.0 units/kg/day",
+          "D) 5.0 units/kg/day"
+        ],
+        "correct": 1,
+        "hint": "Typically 0.4–0.6 units/kg/day total daily dose.",
+        "explanation": "The typical initial total daily insulin dose for adults with Type 1 DM is approximately 0.4 to 0.6 units/kg/day, divided as ~50% basal insulin and ~50% prandial (bolus) insulin distributed across meals."
+      },
+      {
+        "q": "Which key adverse effects are specifically associated with Sulfonylurea therapy (e.g., Gliclazide)?",
+        "options": [
+          "A) Lactic acidosis and diarrhea",
+          "B) Hypoglycemia and weight gain",
+          "C) Genital mycotic infections and euglycemic DKA",
+          "D) Peripheral edema and heart failure exacerbation"
+        ],
+        "correct": 1,
+        "hint": "Hypoglycemia and weight gain.",
+        "explanation": "Sulfonylureas stimulate secretagogue insulin release independent of ambient glucose levels, making hypoglycemia and weight gain their primary clinical adverse effects."
+      },
+      {
+        "q": "What essential rule governs antibiotic prescribing for a diabetic foot ulcer?",
+        "options": [
+          "A) All diabetic foot ulcers require immediate broad-spectrum oral antibiotics, even if non-infected",
+          "B) Antibiotics should only be prescribed for clinically infected ulcers; uninfected ulcers should NOT receive antibiotic therapy",
+          "C) Topical antibiotics are preferred over oral or IV therapy for deep bone infections",
+          "D) Antibiotics should be continued for 12 months minimum for superficial skin tears"
+        ],
+        "correct": 1,
+        "hint": "Use antibiotics only for clinically infected ulcers, not uninfected ones.",
+        "explanation": "Clinical guidelines emphasize that uninfected diabetic foot ulcers must not be treated with systemic or topical antibiotics. Antibiotic therapy is reserved strictly for clinically infected lesions (manifested by purulence, erythema, warmth, induration, or systemic signs)."
+      },
+      {
+        "q": "A 19-year-old college student presents to the ED with a 2-day history of nausea, vomiting, abdominal pain, and lethargy. Physical exam: BP 94/58 mmHg, HR 124 bpm, deep rapid respirations (Kussmaul breathing), and fruity breath odor. Laboratory results: capillary blood glucose 24.5 mmol/L, serum β-hydroxybutyrate 4.8 mmol/L, arterial pH 7.12, bicarbonate 10 mmol/L, serum sodium 132 mmol/L, and serum potassium 3.2 mmol/L. What is the mandatory immediate management sequence?",
+        "options": [
+          "A) Administer an immediate IV bolus of 10 units regular insulin, then start IV fluids",
+          "B) Initiate rapid IV isotonic 0.9% normal saline resuscitation, administer IV potassium replacement, and DELAY insulin therapy until potassium is restored to ≥ 3.5 mmol/L",
+          "C) Administer IV sodium bicarbonate bolus and give subcutaneous basal insulin immediately",
+          "D) Restrict fluid intake to 500 mL/day and give oral metformin"
+        ],
+        "correct": 1,
+        "hint": "DKA with K+ 3.2 mmol/L -> fluids and K+ first, delay insulin until K+ ≥ 3.5 mmol/L.",
+        "explanation": "The patient is in severe DKA with hypokalemia (K+ 3.2 mmol/L). The top priority is fluid resuscitation with isotonic saline and intravenous potassium replacement. Insulin must be delayed until K+ is ≥3.5 mmol/L to prevent precipitating fatal arrhythmias or cardiac arrest."
+      },
+      {
+        "q": "A 78-year-old nursing home resident with Type 2 DM is brought to the ED with severe confusion and lethargy following a 3-day history of fever and poor fluid intake. Vital signs: BP 86/50 mmHg, HR 118 bpm, core temp 38.5°C. Lab tests: plasma glucose 42.0 mmol/L, serum sodium 148 mmol/L, calculated effective serum osmolality 345 mOsm/kg, arterial pH 7.36, bicarbonate 22 mmol/L, and urine ketones trace. What is the diagnosis and primary resuscitation priority?",
+        "options": [
+          "A) Diabetic Ketoacidosis; administer immediate high-dose IV regular insulin bolus",
+          "B) Hyperosmolar Hyperglycaemic State (HHS); prioritize rapid isotonic fluid resuscitation and electrolyte correction before starting low-dose IV insulin",
+          "C) Euglycemic DKA; administer IV concentrated 50% dextrose",
+          "D) Hypoglycemic coma; administer IM glucagon 1 mg"
+        ],
+        "correct": 1,
+        "hint": "HHS -> isotonic fluid resuscitation and electrolytes before low-dose IV insulin.",
+        "explanation": "The clinical picture (profound hyperglycemia >33.3 mmol/L, hyperosmolality >300 mOsm/kg, dehydration, normal pH/bicarbonate, absent ketones) defines HHS. Treatment requires careful volume resuscitation with 0.9% saline to restore perfusion before initiating low-dose IV insulin."
+      },
+      {
+        "q": "A 58-year-old man with Type 2 DM (HbA1c 8.2% on Metformin 1000 mg BID) is evaluated in the clinic. Office BP is 138/86 mmHg. Lab work: eGFR 48 mL/min/1.73 m² and spot UACR 180 mg/g (persistent microalbuminuria). Serum potassium is 4.4 mmol/L. Which dual organ-protective regimen should be added to his treatment plan?",
+        "options": [
+          "A) Add Gliclazide and a thiazide diuretic",
+          "B) Add an ACE inhibitor (or ARB) for hypertension/albuminuria and an SGLT2 inhibitor (e.g., Dapagliflozin) for nephroprotection",
+          "C) Discontinue Metformin immediately and start insulin monotherapy",
+          "D) Add Pioglitazone and high-dose NSAIDs"
+        ],
+        "correct": 1,
+        "hint": "ACEi/ARB + SGLT2 inhibitor for CKD/albuminuria.",
+        "explanation": "The patient has diabetic kidney disease (reduced eGFR and persistent microalbuminuria). Guidelines recommend adding an ACE inhibitor or ARB for intraglomerular pressure reduction and adding an SGLT2 inhibitor with proven renal outcome benefits."
+      },
+      {
+        "q": "A 34-year-old woman taking Dapagliflozin for Type 2 DM presents to the ED with malaise, nausea, vomiting, and tachypnea. Blood pressure is 106/68 mmHg. Capillary blood glucose is 10.2 mmol/L (mildly elevated). Venous blood gas reveals pH 7.18, bicarbonate 12 mmol/L, serum anion gap 20 mmol/L, and serum β-hydroxybutyrate 4.2 mmol/L. What is the diagnosis and immediate management?",
+        "options": [
+          "A) Simple gastroenteritis; reassure and send home on dapagliflozin",
+          "B) Euglycemic DKA secondary to SGLT2 inhibitor therapy; stop Dapagliflozin, initiate IV fluid resuscitation, IV dextrose, and IV regular insulin",
+          "C) Hyperosmolar Hyperglycaemic State; withhold fluids and give oral sulfonylureas",
+          "D) Lactic acidosis from dapagliflozin toxicity; perform emergency hemodialysis"
+        ],
+        "correct": 1,
+        "hint": "Euglycemic DKA -> stop SGLT2 inhibitor, give IV fluids, dextrose, and insulin.",
+        "explanation": "Euglycemic DKA presents with ketoacidosis (pH <7.30, elevated ketones) but near-normal blood glucose (<14 mmol/L) in patients taking SGLT2 inhibitors. Management requires stopping the SGLT2 inhibitor, administering IV fluids, IV dextrose (to allow continued insulin administration), and IV regular insulin until acidosis resolves."
+      },
+      {
+        "q": "A 42-year-old woman diagnosed 2 years ago with Type 2 DM and treated with Metformin and Sitagliptin presents with progressive weight loss, fatigue, and persistent hyperglycemia (HbA1c 10.8%). Her BMI is 21.5 kg/m² (normal). She has no family history of diabetes. Repeat testing reveals positive Anti-GAD (glutamic acid decarboxylase) autoantibodies and a low fasting C-peptide. What is the underlying diagnosis and appropriate management transition?",
+        "options": [
+          "A) Severe Type 2 DM; add Gliclazide and Pioglitazone",
+          "B) Latent Autoimmune Diabetes in Adults (LADA); transition to a basal-bolus insulin regimen",
+          "C) Maturity-Onset Diabetes of the Young (MODY3); start low-dose sulfonylureas",
+          "D) Cushing syndrome; schedule adrenal CT scan"
+        ],
+        "correct": 1,
+        "hint": "Lean adult + positive anti-GAD + low C-peptide = LADA -> insulin therapy.",
+        "explanation": "The clinical picture of lean adult-onset diabetes progressing to treatment failure, accompanied by positive islet autoantibodies (anti-GAD) and low C-peptide, confirms LADA. Because beta-cell destruction is ongoing, patients require transition to subcutaneous insulin therapy."
+      },
+      {
+        "q": "A 62-year-old man with Type 2 DM presents with a 2 cm painless plantar ulcer over the 1st metatarsal head. Physical exam: warm foot, bounding pedal pulses, reduced 10-g monofilament sensation, purulent ulcer discharge, and surrounding erythema extending 3 cm. A sterile metallic probe gently inserted into the ulcer base strikes hard bone. Plain radiograph shows cortical erosion of the metatarsal head. What is the immediate management priority?",
+        "options": [
+          "A) Prescribe topical antibiotic ointment and allow unassisted walking",
+          "B) Obtain wound and deep tissue/bone cultures, initiate empiric systemic antibiotic therapy, offload weight from the foot, and refer to a multidisciplinary foot care team for surgical debridement/MRI evaluation",
+          "C) Perform immediate trans-femoral amputation without imaging",
+          "D) Apply tight compression bandages over the ulcer"
+        ],
+        "correct": 1,
+        "hint": "Infected ulcer + positive probe-to-bone/osteomyelitis -> cultures, systemic antibiotics, offloading, multidisciplinary/surgical care.",
+        "explanation": "The positive probe-to-bone test and radiographic erosion confirm diabetic foot osteomyelitis with cellulitis. Management requires wound cultures, empiric systemic antibiotics covering skin/soft-tissue pathogens, pressure offloading, and urgent multidisciplinary evaluation for debridement."
+      },
+      {
+        "q": "A 28-year-old pregnant woman (26 weeks gestation) undergoes a 75-g oral glucose tolerance test for GDM screening using the one-step strategy. Results: Fasting plasma glucose 5.4 mmol/L (97 mg/dL), 1-hour 10.2 mmol/L (184 mg/dL), and 2-hour 8.8 mmol/L (158 mg/dL). How should these results be interpreted, and what is the first-line treatment?",
+        "options": [
+          "A) Normal glucose tolerance; reassure patient",
+          "B) Diagnostic for Gestational Diabetes Mellitus (GDM); initiate medical nutrition therapy, physical activity, and daily blood glucose monitoring",
+          "C) Overt pre-existing Type 1 DM; start high-dose IV insulin infusion",
+          "D) Impaired Fasting Glucose only; retest post-delivery"
+        ],
+        "correct": 1,
+        "hint": "Meets GDM thresholds (FPG ≥5.1, 1h ≥10.0, 2h ≥8.5 mmol/L) -> nutrition, exercise, glucose monitoring.",
+        "explanation": "Under the one-step strategy, GDM is diagnosed if any single threshold is met or exceeded: Fasting ≥5.1 mmol/L, 1-hour ≥10.0 mmol/L, or 2-hour ≥8.5 mmol/L. All three values exceed the thresholds. First-line management is lifestyle modification (medical nutrition therapy and exercise) with self-monitoring."
+      },
+      {
+        "q": "A 65-year-old man with Type 2 DM and a past history of myocardial infarction 2 years ago has an HbA1c of 7.8% on Metformin 1000 mg BID. eGFR is 75 mL/min/1.73 m². Blood pressure is controlled. Which additional pharmacological class with proven secondary cardiovascular risk reduction should be added to his regimen?",
+        "options": [
+          "A) Sulfonylurea (Gliclazide)",
+          "B) GLP-1 Receptor Agonist (e.g., Semaglutide, Dulaglutide) or SGLT2 Inhibitor with proven ASCVD benefit",
+          "C) DPP-4 Inhibitor (Sitagliptin)",
+          "D) Alpha-glucosidase inhibitor (Acarbose)"
+        ],
+        "correct": 1,
+        "hint": "Established ASCVD -> GLP-1 RA or SGLT2 inhibitor with proven CV benefit.",
+        "explanation": "In patients with Type 2 DM and established Atherosclerotic Cardiovascular Disease (ASCVD), guidelines recommend adding a GLP-1 receptor agonist or SGLT2 inhibitor with demonstrated cardiovascular outcome benefits, independent of baseline HbA1c."
+      },
+      {
+        "q": "A 50-year-old renal transplant recipient on high-dose oral Prednisolone 30 mg daily (taken every morning) develops secondary steroid-induced hyperglycemia. Capillary blood glucose monitoring reveals normal fasting values (5.2 mmol/L) but severe late afternoon and evening hyperglycemia (16.8–20.4 mmol/L). What insulin strategy best matches this pharmacokinetic pattern?",
+        "options": [
+          "A) Give a high dose of long-acting basal insulin at bedtime",
+          "B) Administer intermediate-acting NPH insulin in the morning to peak concurrently with afternoon steroid-induced hyperglycemia, or mealtime rapid-acting insulin with lunch and dinner",
+          "C) Administer IV regular insulin infusion continuously overnight",
+          "D) Withhold all insulin and restrict fluids"
+        ],
+        "correct": 1,
+        "hint": "Morning steroids spike glucose in afternoon/evening -> morning NPH or lunch/dinner bolus insulin.",
+        "explanation": "Morning single-dose glucocorticoids typically cause blood glucose spikes in the late afternoon and evening while sparing fasting morning glucose. Administering morning NPH insulin (which peaks 4–8 hours later) or targeted prandial insulin matches the diurnal glycemic curve of steroid exposure."
+      },
+      {
+        "q": "A 68-year-old man with Type 2 DM managed on Metformin 1000 mg BID for 10 years presents with progressive bilateral foot numbness, burning pain, and mild gait ataxia. Laboratory evaluation: eGFR 68 mL/min/1.73 m², HbA1c 6.8%, and CBC shows a macrocytic anemia (MCV 104 fL). What drug-induced nutrient deficiency should be evaluated and treated?",
+        "options": [
+          "A) Thiamine (Vitamin B1) deficiency",
+          "B) Vitamin B12 (Cobalamin) deficiency induced by long-term Metformin therapy",
+          "C) Vitamin D toxicity",
+          "D) Folic acid deficiency caused by sulfonylureas"
+        ],
+        "correct": 1,
+        "hint": "Long-term metformin + neuropathy + macrocytic anemia -> Vitamin B12 deficiency.",
+        "explanation": "Long-term Metformin use is associated with biochemical Vitamin B12 deficiency (due to impaired calcium-dependent ileal absorption of the B12-intrinsic factor complex), which can present as macrocytic anemia, peripheral neuropathy, or cognitive decline. Serum B12 levels should be monitored periodically."
+      }
+    ]
+  }
+]
