@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Peptic Ulcer Disease & H. Pylori",
+    "questions": [
+      {
+        "q": "How is a peptic ulcer histologically defined and distinguished from a mucosal erosion?",
+        "options": [
+          "A) A peptic ulcer is confined to the surface epithelium, whereas an erosion extends into the muscularis propria",
+          "B) A peptic ulcer is a mucosal break that penetrates through the muscularis mucosae into the submucosa or deeper, whereas an erosion is limited to the mucosa",
+          "C) A peptic ulcer occurs exclusively in the esophagus, whereas an erosion occurs only in the colon",
+          "D) A peptic ulcer heals without scarring, whereas an erosion always leaves a permanent fibrotic scar"
+        ],
+        "correct": 1,
+        "hint": "Ulcer penetrates through the muscularis mucosae; erosion stays superficial in the mucosa.",
+        "explanation": "A peptic ulcer is defined as a disruption of the gastrointestinal mucosa exposed to acid and pepsin that extends through the muscularis mucosae into the submucosa or deeper layers. An erosion is a superficial break confined to the mucosa that does not penetrate the muscularis mucosae and heals without scar formation."
+      },
+      {
+        "q": "What is the most common anatomical site for peptic ulcer disease, and what is the typical ratio of duodenal to gastric ulcers?",
+        "options": [
+          "A) Gastric fundus; ratio 1:4",
+          "B) Duodenal bulb (first part of duodenum); ratio 4:1",
+          "C) Antrum near the pylorus; ratio 1:1",
+          "D) Meckel's diverticulum; ratio 10:1"
+        ],
+        "correct": 1,
+        "hint": "Duodenal bulb is most common; duodenal-to-gastric ratio is roughly 4:1.",
+        "explanation": "The duodenal bulb (first part of the duodenum) is the single most common site for peptic ulceration. Duodenal ulcers are approximately 4 times more common than gastric ulcers (ratio 4:1)."
+      },
+      {
+        "q": "What percentage of all peptic ulcers is attributable to either Helicobacter pylori infection or non-steroidal anti-inflammatory drug (NSAID) use?",
+        "options": [
+          "A) About 25%",
+          "B) About 50%",
+          "C) About 90%",
+          "D) Nearly 100%"
+        ],
+        "correct": 2,
+        "hint": "Around 90% are linked to H. pylori or NSAIDs/aspirin.",
+        "explanation": "Approximately 90% of all peptic ulcers are caused by either H. pylori infection or NSAID/aspirin use. The remaining 10% are driven by rare causes such as gastrinoma (Zollinger-Ellison syndrome), Crohn's disease, or stress."
+      },
+      {
+        "q": "Which microbiological features correctly describe Helicobacter pylori?",
+        "options": [
+          "A) Gram-positive, anaerobic, spore-forming bacillus",
+          "B) Gram-negative, spiral (helical), microaerophilic bacillus with 4 to 6 sheathed unipolar flagella",
+          "C) Acid-fast, intracellular coccus lacking flagella",
+          "D) Gram-negative, facultative anaerobic straight rod with peritrichous flagella"
+        ],
+        "correct": 1,
+        "hint": "Gram-negative, spiral/helical, microaerophilic, 4–6 sheathed unipolar flagella.",
+        "explanation": "H. pylori is a Gram-negative, spiral-shaped (helical), microaerophilic bacterium equipped with 4 to 6 sheathed unipolar flagella that allow it to corkscrew through viscous gastric mucus. It is strongly urease, catalase, and oxidase positive."
+      },
+      {
+        "q": "Which gastric cells secrete hydrochloric acid (HCl), where are they located, and what enzymatic pump mediates acid secretion?",
+        "options": [
+          "A) G cells in the antrum via the Na+/K+ ATPase pump",
+          "B) Parietal (oxyntic) cells in the body and fundus via the H+/K+ ATPase (proton) pump",
+          "C) Chief cells in the cardia via carbonic anhydrase",
+          "D) Enterochromaffin-like (ECL) cells in the pylorus via calcium channels"
+        ],
+        "correct": 1,
+        "hint": "Parietal cells in the body/fundus use the H+/K+ ATPase pump.",
+        "explanation": "Parietal cells, located in the glands of the gastric body and fundus, secrete hydrochloric acid through the membrane-bound H+/K+ ATPase (proton pump), which serves as the final common pathway for gastric acid secretion and the target of proton pump inhibitors (PPIs)."
+      },
+      {
+        "q": "What physiological 'brake' inhibits gastrin release from G cells when the antral luminal pH drops below 3?",
+        "options": [
+          "A) Secretin from S cells",
+          "B) Somatostatin from antral D cells",
+          "C) Histamine from ECL cells",
+          "D) Acetylcholine from vagal nerve endings"
+        ],
+        "correct": 1,
+        "hint": "Somatostatin from D cells turns off G-cell gastrin release.",
+        "explanation": "Somatostatin, secreted by antral D cells, acts as the primary physiological brake on acid secretion. When antral pH drops below ~3, D cells release somatostatin to shut off gastrin secretion from neighboring G cells. H. pylori antral infection selectively damages D cells, removing this inhibitory brake."
+      },
+      {
+        "q": "How does Helicobacter pylori neutralize the surrounding acidic environment within the gastric lumen?",
+        "options": [
+          "A) It secretes large amounts of sodium bicarbonate directly into parietal cells",
+          "B) It produces abundant urease, which splits urea into ammonia and carbon dioxide, forming a protective neutral cloud",
+          "C) It consumes hydrochloric acid as an energy substrate for ATP synthesis",
+          "D) It forms a thick calcified shell around its outer membrane"
+        ],
+        "correct": 1,
+        "hint": "Urease splits urea into ammonia and carbon dioxide to buffer acid.",
+        "explanation": "H. pylori produces high levels of the urease enzyme, which hydrolyzes endogenous urea into ammonia and carbon dioxide. The generated ammonia buffers stomach acid, creating a neutral microenvironment around the bacterium."
+      },
+      {
+        "q": "What is the dominant route of transmission for Helicobacter pylori, and during what stage of life is the infection typically acquired?",
+        "options": [
+          "A) Vector-borne transmission via mosquitoes in late adulthood",
+          "B) Gastro-oral (via vomitus) and oral-oral transmission within families during early childhood (under 5 to 10 years)",
+          "C) Airborne respiratory droplet spread in elderly care homes",
+          "D) Direct blood-borne transmission during surgical procedures"
+        ],
+        "correct": 1,
+        "hint": "Acquired in early childhood within families via gastro-oral / oral-oral routes.",
+        "explanation": "H. pylori is acquired mainly in early childhood (before 5 to 10 years of age) through close intra-familial contact, particularly from mother to child. Gastro-oral (via vomitus, where live bacteria are cultured in high numbers) and oral-oral routes represent the primary modes of transmission."
+      },
+      {
+        "q": "Among individuals chronically infected with Helicobacter pylori, what proportion will develop peptic ulcer disease versus gastric adenocarcinoma?",
+        "options": [
+          "A) 50% develop ulcers; 50% develop gastric cancer",
+          "B) 10% to 15% develop peptic ulcer disease; 1% to 3% develop gastric adenocarcinoma",
+          "C) 100% develop peptic ulcer disease; 0% develop gastric cancer",
+          "D) <0.1% develop peptic ulcer disease; 25% develop gastric cancer"
+        ],
+        "correct": 1,
+        "hint": "10%–15% develop peptic ulcers; 1%–3% develop gastric adenocarcinoma.",
+        "explanation": "Although 100% of infected individuals have chronic active gastritis, only 10% to 15% develop peptic ulcer disease, 1% to 3% develop gastric adenocarcinoma, and <0.1% develop gastric MALT lymphoma."
+      },
+      {
+        "q": "Where within the stomach does Helicobacter pylori predominantly reside?",
+        "options": [
+          "A) Intracellularly within deep parietal cell cytoplasm",
+          "B) Within the gastric mucus layer overlying gastric-type epithelium, without invading tissue",
+          "C) Embedded deep within the muscularis propria",
+          "D) Exclusively inside vascular endothelial cells of the submucosal plexus"
+        ],
+        "correct": 1,
+        "hint": "In the mucus layer over gastric-type epithelium (non-invasive).",
+        "explanation": "H. pylori lives within the mucus layer covering gastric-type epithelial cells, adhering to surface epithelial cells via specific adhesins (such as BabA). It rarely invades the underlying tissue cells."
+      },
+      {
+        "q": "Under the Johnson classification of gastric ulcers, where is a Type I gastric ulcer located, and what is its associated gastric acid output?",
+        "options": [
+          "A) Prepyloric region; high acid output",
+          "B) Lesser curve near the incisura angularis; normal or low acid output",
+          "C) Gastric body combined with a duodenal ulcer; high acid output",
+          "D) High on the lesser curve near the gastroesophageal junction; high acid output"
+        ],
+        "correct": 1,
+        "hint": "Type I = lesser curve near incisura angularis; normal/low acid.",
+        "explanation": "Johnson Type I gastric ulcers account for ~60% of gastric ulcers and are located on the lesser curve near the incisura angularis (the antrum-body junction). They are characterized by normal or low gastric acid secretion and impaired mucosal defense."
+      },
+      {
+        "q": "Which Johnson classification types of gastric ulcer are associated with high gastric acid output and behave clinically like duodenal ulcers?",
+        "options": [
+          "A) Type I and Type IV",
+          "B) Type II (body ulcer + duodenal ulcer) and Type III (prepyloric ulcer)",
+          "C) Type IV and Type V",
+          "D) Type I and Type V"
+        ],
+        "correct": 1,
+        "hint": "Type II (body + duodenal ulcer) and Type III (prepyloric).",
+        "explanation": "Johnson Type II (gastric body ulcer coexisting with a duodenal ulcer) and Type III (prepyloric ulcer, within 2–3 cm of the pylorus) are associated with high gastric acid output and behave pathophysiologically like duodenal ulcers. Elective surgery for these types requires adding a vagotomy."
+      },
+      {
+        "q": "How are Johnson Type IV and Type V gastric ulcers classified?",
+        "options": [
+          "A) Type IV occurs high on the lesser curve near the gastroesophageal junction; Type V is drug/NSAID-induced and can occur anywhere",
+          "B) Type IV is located in the pyloric canal; Type V is caused by Zollinger-Ellison syndrome",
+          "C) Type IV is malignant; Type V is congenital",
+          "D) Type IV is combined with gallstones; Type V occurs in Meckel's diverticulum"
+        ],
+        "correct": 0,
+        "hint": "Type IV = high lesser curve near GOJ; Type V = drug/NSAID-induced anywhere.",
+        "explanation": "Johnson Type IV ulcers occur high on the lesser curve near the gastroesophageal junction (low acid). Type V ulcers are drug-induced (caused by NSAIDs or aspirin) and can occur anywhere in the stomach, often presenting as multiple ulcers."
+      },
+      {
+        "q": "Which major virulence factor of Helicobacter pylori is injected directly into host epithelial cells via a Type IV secretion system to trigger severe interleukin-8 (IL-8) production and neutrophil recruitment?",
+        "options": [
+          "A) VacA",
+          "B) CagA (Cytotoxin-associated gene A)",
+          "C) Urease B subunit",
+          "D) BabA adhesin"
+        ],
+        "correct": 1,
+        "hint": "CagA injected via Type IV secretion system -> IL-8 and neutrophil recruitment.",
+        "explanation": "CagA is encoded on the cag pathogenicity island and injected into gastric epithelial cells via a syringe-like Type IV secretion system. Once inside, it undergoes phosphorylation, disrupts host cell signaling and tight junctions, and triggers massive IL-8 secretion, attracting neutrophils and increasing inflammation, ulceration, and cancer risk."
+      },
+      {
+        "q": "What is the primary systemic mechanism by which non-steroidal anti-inflammatory drugs (NSAIDs) induce gastric mucosal injury?",
+        "options": [
+          "A) Direct dissolution of the gastric muscular layer",
+          "B) Inhibition of COX-1, reducing mucosal synthesis of protective prostaglandins (PGE2 and PGI2)",
+          "C) Stimulation of parietal cell H+/K+ ATPase pumps",
+          "D) Blockade of histamine H2 receptors on ECL cells"
+        ],
+        "correct": 1,
+        "hint": "COX-1 inhibition lowers protective prostaglandins (PGE2, PGI2).",
+        "explanation": "Systemic COX-1 inhibition by NSAIDs deprives the gastric mucosa of prostaglandins (PGE2, PGI2), which normally stimulate mucus and bicarbonate secretion, maintain mucosal blood flow, and promote epithelial cell renewal. COX-1 inhibition also blocks platelet thromboxane A2, compounding mucosal injury with bleeding."
+      },
+      {
+        "q": "What is the risk of developing peptic ulcer disease when Helicobacter pylori infection and NSAID use are present simultaneously, compared to either factor alone?",
+        "options": [
+          "A) The risk is additive (18x + 19x = 37x)",
+          "B) The risk is multiplied, rising to 61 times higher than in uninfected non-users",
+          "C) NSAID use abolishes the risk of H. pylori ulcers",
+          "D) The risk is reduced to baseline"
+        ],
+        "correct": 1,
+        "hint": "Synergistic multiplication up to ~61x.",
+        "explanation": "H. pylori infection alone increases peptic ulcer risk 18-fold, and NSAID use alone increases risk 19-fold. When both factors are present simultaneously, they act synergistically, multiplying the risk to 61-fold."
+      },
+      {
+        "q": "Which of the following represents the single strongest clinical risk factor for NSAID-induced ulcer complications?",
+        "options": [
+          "A) Young age (<30 years)",
+          "B) History of a previous peptic ulcer or gastrointestinal bleeding",
+          "C) Concurrent intake of vitamin C supplements",
+          "D) Short-term use of low-dose paracetamol"
+        ],
+        "correct": 1,
+        "hint": "Prior peptic ulcer or GI bleed is the strongest risk factor.",
+        "explanation": "A history of a previous peptic ulcer or upper GI bleeding is the single strongest risk factor for developing NSAID-induced ulcer complications (increasing risk up to 13-fold). Other major risk factors include age >60–65, high doses, dual NSAIDs, and concurrent anticoagulant/corticosteroid use."
+      },
+      {
+        "q": "Zollinger-Ellison syndrome (ZES) is caused by a gastrin-secreting tumor (gastrinoma). Which clinical features distinguish ZES from typical peptic ulcer disease?",
+        "options": [
+          "A) Single shallow ulcer in the gastric antrum that heals rapidly on antacids",
+          "B) Multiple, refractory, post-bulbar or jejunal ulcers accompanied by chronic diarrhea and fasting gastrin levels >10 times normal",
+          "C) Hypogastrinemia with achlorhydria",
+          "D) Ulcers confined to the distal esophagus with normal gastrin"
+        ],
+        "correct": 1,
+        "hint": "Multiple/refractory distal or jejunal ulcers + diarrhea + fasting gastrin >10x normal.",
+        "explanation": "ZES is caused by hypergastrinemia from a gastrinoma (often in the gastrinoma triangle or pancreas). It presents with multiple, severe, refractory ulcers located in atypical sites (distal duodenum, jejunum) accompanied by secretory diarrhea, unsuppressed gastric acid secretion (pH <2), and fasting gastrin >10 times normal. About 20% to 25% occur as part of MEN 1."
+      },
+      {
+        "q": "Stress-related mucosal erosions occurring specifically in patients with major severe burn injuries are known by which eponym?",
+        "options": [
+          "A) Cushing's ulcers",
+          "B) Curling's ulcers",
+          "C) Cameron lesions",
+          "D) Dieulafoy's lesions"
+        ],
+        "correct": 1,
+        "hint": "Curling's = burns; Cushing's = head injury/increased ICP.",
+        "explanation": "Stress ulcers arising in the setting of severe extensive thermal burns are called Curling's ulcers (caused by severe hypovolemia and mucosal ischemia). Stress ulcers occurring in severe traumatic brain injury or elevated intracranial pressure are called Cushing's ulcers (caused by vagal stimulation leading to hyperacid secretion)."
+      },
+      {
+        "q": "What are Cameron lesions?",
+        "options": [
+          "A) Malignant ulcers of the pylorus",
+          "B) Linear mucosal erosions or ulcers located at the diaphragmatic impression in patients with large hiatus hernias",
+          "C) Stress ulcers occurring post-cardiopulmonary bypass",
+          "D) Fungal ulcers caused by Candida albicans"
+        ],
+        "correct": 1,
+        "hint": "Linear erosions/ulcers at the diaphragmatic pinch in large hiatus hernias.",
+        "explanation": "Cameron lesions are linear erosions or ulcers found on the mucosal folds of a large hiatus hernia where it crosses the diaphragmatic crus. They are caused by mechanical trauma and ischemia during respiration and frequently present with chronic iron-deficiency anemia."
+      },
+      {
+        "q": "Why does H. pylori-induced antral-predominant gastritis cause duodenal ulceration, whereas corpus-predominant pangastritis causes gastric ulceration and gastric cancer risk?",
+        "options": [
+          "A) Antral gastritis destroys parietal cells directly, increasing acid; corpus gastritis increases somatostatin",
+          "B) Antral gastritis destroys somatostatin-producing D cells, elevating gastrin and parietal acid output to induce duodenal metaplasia; corpus gastritis destroys parietal cells, leading to low acid, gastric atrophy, and the Correa cancer cascade",
+          "C) Antral gastritis causes bile reflux; corpus gastritis causes acid hypersecretion",
+          "D) Antral gastritis is non-inflammatory; corpus gastritis is driven by NSAIDs"
+        ],
+        "correct": 1,
+        "hint": "Antral -> low somatostatin, high acid, duodenal ulcers; corpus -> low acid, atrophy, cancer risk.",
+        "explanation": "Antral-predominant gastritis destroys D cells, lowering somatostatin and driving hypergastrinemia. The un-inflamed body parietal cell mass produces high acid, leading to gastric metaplasia in the duodenal bulb, colonisation by H. pylori, and duodenal ulceration. Conversely, corpus-predominant pangastritis damages parietal cells, resulting in low acid output, gastric ulcers at the incisura, mucosal atrophy, intestinal metaplasia, and gastric cancer (Correa cascade)."
+      },
+      {
+        "q": "How do pain patterns classically differ between a duodenal ulcer and a gastric ulcer?",
+        "options": [
+          "A) Duodenal ulcer pain is worsened by food and causes weight loss; gastric ulcer pain is relieved by food and causes weight gain",
+          "B) Duodenal ulcer pain occurs 2 to 3 hours after meals, is relieved by food/antacids, and wakes the patient at 1 to 2 AM; gastric ulcer pain is precipitated or worsened by food, causing fear of eating and weight loss",
+          "C) Both ulcer types present with painless jaundice",
+          "D) Duodenal ulcer pain radiates to the left shoulder; gastric ulcer pain radiates to the right thigh"
+        ],
+        "correct": 1,
+        "hint": "Duodenal: 2–3h post-meal / 1–2 AM, relieved by food; Gastric: worsened by food -> weight loss.",
+        "explanation": "Duodenal ulcer pain classically occurs when the stomach is empty (2–3 hours post-meal) and at night (1–2 AM) when acid secretion is unbuffered, and is relieved by food or antacids (patients maintain or gain weight). Gastric ulcer pain is provoked by eating as food enters the stomach, leading to anorexia and weight loss."
+      },
+      {
+        "q": "Under the Forrest classification of endoscopic stigmata of ulcer hemorrhage, which finding describes a non-bleeding visible vessel carrying an untreated rebleeding risk of 40% to 50%?",
+        "options": [
+          "A) Forrest Ia",
+          "B) Forrest Ib",
+          "C) Forrest IIa",
+          "D) Forrest III"
+        ],
+        "correct": 2,
+        "hint": "Forrest IIa = non-bleeding visible vessel (~40%–50% rebleed risk).",
+        "explanation": "Forrest classification: Ia = spurting arterial hemorrhage; Ib = oozing hemorrhage; IIa = non-bleeding visible vessel (40–50% rebleed risk untreated); IIb = adherent clot; IIc = flat pigmented spot (hematin spot); III = clean ulcer base. Grades Ia, Ib, IIa, and IIb require endoscopic therapy."
+      },
+      {
+        "q": "Why is serology (anti-H. pylori IgG) unsuitable for confirming Helicobacter pylori eradication 4 weeks post-treatment?",
+        "options": [
+          "A) Serology requires invasive gastric biopsies",
+          "B) Circulating anti-H. pylori IgG antibodies persist long after bacterial eradication, making serology unable to distinguish active from resolved infection",
+          "C) PPI therapy causes false-positive serology",
+          "D) Serology detects only CagA-negative strains"
+        ],
+        "correct": 1,
+        "hint": "IgG antibodies stay positive long after clearance.",
+        "explanation": "Serology measures historical host immune response (IgG). Antibodies remain positive for months to years after successful bacterial clearance. Thus, serology cannot differentiate active from past infection and cannot be used to confirm eradication; active tests (urea breath test or stool antigen) must be used instead."
+      },
+      {
+        "q": "To prevent false-negative results during active H. pylori testing (Urea Breath Test, Stool Antigen Test, or Rapid Urease CLO test), for how long must PPIs and antibiotics/bismuth be stopped prior to testing?",
+        "options": [
+          "A) PPIs for 24 hours; antibiotics for 48 hours",
+          "B) PPIs for at least 2 weeks; antibiotics and bismuth for at least 4 weeks",
+          "C) PPIs for 3 months; antibiotics for 6 months",
+          "D) No medication stoppage is required"
+        ],
+        "correct": 1,
+        "hint": "Stop PPIs ≥2 weeks; stop antibiotics and bismuth ≥4 weeks.",
+        "explanation": "PPIs suppress bacterial density and urease activity, while antibiotics and bismuth temporarily inhibit or clear the organism. To avoid false-negative results, PPIs must be discontinued for at least 2 weeks, and antibiotics/bismuth for at least 4 weeks, before performing UBT, SAT, or rapid urease biopsy tests. (H2 blockers can be substituted)."
+      },
+      {
+        "q": "What is the mechanism of the Rapid Urease Test (CLO test) performed on gastric mucosal biopsies during upper endoscopy?",
+        "options": [
+          "A) Biopsy tissue is cultured on agar plates for 5 days to observe bacterial colonies",
+          "B) The biopsy is placed in a medium containing urea and a pH indicator; bacterial urease splits urea into ammonia, raising pH and changing color from yellow to pink/red",
+          "C) Fluorescent antibodies bind CagA protein under ultraviolet light",
+          "D) Polymerase chain reaction amplifies H. pylori DNA within 30 seconds"
+        ],
+        "correct": 1,
+        "hint": "Urease splits urea -> ammonia raises pH -> color change (yellow to pink/red).",
+        "explanation": "The rapid urease test (CLO test) detects active H. pylori urease in a gastric biopsy specimen. Preformed bacterial urease hydrolyzes urea in the test medium into ammonia, increasing the pH and triggering a color change (typically from yellow to magenta/pink/red)."
+      },
+      {
+        "q": "Why is it mandatory to take 6 to 8 biopsies from all four quadrants of any gastric ulcer edge during endoscopy, and re-scope to document complete healing at 6 to 8 weeks?",
+        "options": [
+          "A) Gastric ulcers are always caused by tuberculosis",
+          "B) Gastric ulceration may represent an ulcerated gastric carcinoma, and malignant ulcers can temporarily heal partially on PPI therapy, mimicking benign disease",
+          "C) Duodenal ulcers frequently transform into gastric ulcers",
+          "D) Biopsies are required to measure gastric acid pH"
+        ],
+        "correct": 1,
+        "hint": "Rule out gastric cancer and confirm complete healing at 6–8 weeks.",
+        "explanation": "Unlike duodenal ulcers (which are virtually never malignant), gastric ulcers can be primary ulcerated adenocarcinomas. Biopsies must be taken from the ulcer margins (not the necrotic base). Repeat endoscopy at 6–8 weeks is essential to confirm complete healing; a non-healing gastric ulcer must be re-biopsied or resected to rule out cancer."
+      },
+      {
+        "q": "Which extragastric hematological condition is an established formal indication for testing and eradicating Helicobacter pylori?",
+        "options": [
+          "A) Sickle cell trait",
+          "B) Unexplained iron-deficiency anemia, Immune Thrombocytopenia (ITP), and Vitamin B12 deficiency",
+          "C) Acute lymphocytic leukemia",
+          "D) Hemophilia A"
+        ],
+        "correct": 1,
+        "hint": "Unexplained iron-deficiency anemia, ITP, and B12 deficiency.",
+        "explanation": "Per international consensus (Maastricht VI), testing and eradicating H. pylori is indicated in extragastric conditions including unexplained iron-deficiency anemia, immune thrombocytopenia (ITP), and vitamin B12 deficiency, as eradication significantly improves hemoglobin and platelet counts in affected patients."
+      },
+      {
+        "q": "What physiological mechanism accounts for 'paradoxical aciduria' in a patient with long-standing gastric outlet obstruction caused by a chronic duodenal ulcer?",
+        "options": [
+          "A) Direct bacterial secretion of hydrochloric acid into the renal pelvis",
+          "B) Severe vomiting causes hypochloraemic, hypokalaemic metabolic alkalosis; volume depletion triggers aldosterone-mediated Na+ reabsorption in the kidney, and once K+ stores are depleted, renal tubules reabsorb Na+ in exchange for H+, making urine acidic",
+          "C) Lactic acidosis from hyperemesis overwhelms urinary bicarbonate buffers",
+          "D) Parietal cell destruction releases gastric acid into the systemic circulation"
+        ],
+        "correct": 1,
+        "hint": "Severe K+ depletion forces distal renal Na+/H+ exchange despite systemic alkalosis.",
+        "explanation": "Repeated vomiting of HCl causes hypochloraemic metabolic alkalosis and severe dehydration, activating aldosterone to retain Na+. Initially, Na+ is reabsorbed in exchange for K+. As hypokalemia becomes profound, the renal distal tubules are forced to swap Na+ for H+ instead of K+. Excreting H+ into urine creates 'paradoxical aciduria' in the setting of severe systemic alkalosis."
+      },
+      {
+        "q": "What clinical complication occurs when a chronic posterior duodenal ulcer penetrates retroperitoneally?",
+        "options": [
+          "A) Perforation into the peritoneal cavity causing pneumoperitoneum",
+          "B) Penetration into the head/body of the pancreas, causing constant back pain, loss of meal periodicity, and elevated serum amylase",
+          "C) Erosion into the portal vein causing fatal hematemesis",
+          "D) Development of a gastrocolic fistula with feculent vomiting"
+        ],
+        "correct": 1,
+        "hint": "Posterior duodenal ulcer penetrates into the pancreas -> constant back pain.",
+        "explanation": "Posterior duodenal ulcers erode retroperitoneally into the adjacent pancreas. Penetration alters the pain character: it becomes constant, radiates straight through to the back, loses its typical meal relationship, and may elevate serum amylase. (Anterior duodenal ulcers perforate into the peritoneal cavity)."
+      },
+      {
+        "q": "What is the recommended first-line 14-day Bismuth Quadruple Eradication Regimen for Helicobacter pylori in regions with high or unknown clarithromycin resistance?",
+        "options": [
+          "A) PPI twice daily + Amoxicillin 1g twice daily for 7 days",
+          "B) PPI twice daily + Bismuth subsalicylate/subcitrate + Tetracycline 500mg four times daily + Metronidazole 400–500mg three to four times daily for 14 days",
+          "C) PPI once daily + Clarithromycin 500mg once daily for 5 days",
+          "D) Ciprofloxacin + Cefuroxime + Metronidazole for 21 days"
+        ],
+        "correct": 1,
+        "hint": "PPI + Bismuth + Tetracycline + Metronidazole for 14 days.",
+        "explanation": "Bismuth quadruple therapy (PPI twice daily + bismuth subsalicylate/subcitrate + tetracycline 500mg qds + metronidazole 400–500mg tds/qds for 14 days) is the preferred first-line regimen in areas where clarithromycin resistance exceeds 15% or is unknown, and in patients with penicillin allergy."
+      },
+      {
+        "q": "Under what specific condition is 14-day Clarithromycin Triple Therapy (PPI + Amoxicillin 1g bd + Clarithromycin 500mg bd) recommended as first-line treatment for H. pylori?",
+        "options": [
+          "A) In all patients worldwide regardless of resistance",
+          "B) Only in regions where local H. pylori clarithromycin resistance is documented to be below 15%",
+          "C) Only in patients taking high-dose NSAIDs",
+          "D) In patients with severe penicillin allergy"
+        ],
+        "correct": 1,
+        "hint": "Only where local clarithromycin resistance is <15%.",
+        "explanation": "Clarithromycin triple therapy (PPI + amoxicillin 1g bd + clarithromycin 500mg bd for 14 days) should only be prescribed if local clarithromycin resistance is known to be <15%. Where resistance exceeds 15%, treatment failure rates are unacceptably high."
+      },
+      {
+        "q": "What is Non-Bismuth Quadruple (Concomitant) Therapy, used when bismuth is unavailable in high-clarithromycin resistance areas?",
+        "options": [
+          "A) PPI + Amoxicillin + Ciprofloxacin + Doxycycline",
+          "B) PPI twice daily + Amoxicillin 1g twice daily + Clarithromycin 500mg twice daily + Metronidazole 500mg twice daily for 14 days",
+          "C) PPI + Metronidazole + Vancomycin + Gentamicin",
+          "D) PPI + Erythromycin + Levofloxacin + Rifaximin"
+        ],
+        "correct": 1,
+        "hint": "PPI + Amoxicillin + Clarithromycin + Metronidazole for 14 days.",
+        "explanation": "Concomitant (non-bismuth quadruple) therapy consists of a PPI, amoxicillin 1g bd, clarithromycin 500mg bd, and metronidazole 500mg bd given simultaneously for 14 days. It is used as an alternative first-line regimen when bismuth is unavailable."
+      },
+      {
+        "q": "How and when should confirmation of Helicobacter pylori eradication be routinely performed following completion of therapy?",
+        "options": [
+          "A) Perform serology immediately on the final day of antibiotics",
+          "B) Perform a Urea Breath Test or Stool Antigen Test at least 4 weeks after completing eradication therapy (and at least 2 weeks off PPI)",
+          "C) Perform a CT scan of the abdomen at 6 months",
+          "D) No confirmation of cure is necessary if symptoms improve"
+        ],
+        "correct": 1,
+        "hint": "Urea breath test or stool antigen ≥4 weeks post-therapy (≥2 weeks off PPI).",
+        "explanation": "Eradication must be routinely confirmed in all patients at least 4 weeks after finishing antibiotic therapy (and at least 2 weeks after stopping PPI) using a non-invasive active test (Urea Breath Test or Stool Antigen Test)."
+      },
+      {
+        "q": "What is the standard duration of initial proton pump inhibitor (PPI) therapy for healing an uncomplicated duodenal ulcer versus an uncomplicated gastric ulcer?",
+        "options": [
+          "A) 1 week for DU; 2 weeks for GU",
+          "B) 4 weeks for DU; 8 weeks for GU (followed by repeat endoscopy)",
+          "C) 6 months for DU; 12 months for GU",
+          "D) 3 days for both"
+        ],
+        "correct": 1,
+        "hint": "4 weeks for duodenal ulcer; 8 weeks for gastric ulcer + repeat endoscopy.",
+        "explanation": "Uncomplicated duodenal ulcers require 4 weeks of full-dose PPI therapy to achieve complete mucosal healing. Gastric ulcers require 8 weeks of PPI therapy, followed by mandatory repeat upper GI endoscopy and biopsy to verify complete healing and exclude occult gastric cancer."
+      },
+      {
+        "q": "In a patient presenting with acute peptic ulcer bleeding, what is the initial resuscitation protocol and recommended timing for diagnostic endoscopy?",
+        "options": [
+          "A) Immediate emergency surgery without fluid resuscitation",
+          "B) Two large-bore IV cannulae, restrictive blood transfusion (target Hb 7 to 8 g/dL), IV PPI, and upper endoscopy within 24 hours of presentation",
+          "C) Liberal blood transfusion to target Hb >14 g/dL, oral antacids, and endoscopy after 7 days",
+          "D) Barium swallow within 2 hours followed by IV antibiotics"
+        ],
+        "correct": 1,
+        "hint": "Resuscitation, restrictive transfusion (Hb 7–8 g/dL), IV PPI, and endoscopy within 24 hours.",
+        "explanation": "Acute upper GI hemorrhage protocols dictate ABC resuscitation with dual large-bore IV access, restrictive blood transfusion (maintaining Hb 7–8 g/dL unless active cardiac disease exists), IV PPI therapy, and diagnostic/therapeutic endoscopy within 24 hours."
+      },
+      {
+        "q": "What constitutes standard endoscopic dual therapy for a high-risk bleeding peptic ulcer (Forrest Ia, Ib, IIa)?",
+        "options": [
+          "A) Endoscopic topical alcohol spraying alone",
+          "B) Epinephrine (adrenaline) local injection combined with a second modal therapy (either thermal coagulation or mechanical endoclips)",
+          "C) High-dose oral antacid administration during endoscopy",
+          "D) Laser therapy combined with argon plasma coagulation alone"
+        ],
+        "correct": 1,
+        "hint": "Epinephrine injection + thermal coagulation or mechanical endoclips.",
+        "explanation": "Epinephrine injection provides transient vasoconstriction and tamponade, but must NEVER be used as monotherapy. Standard endoscopic dual therapy combines epinephrine injection with a second mechanical (endoclips) or thermal (bipolar electrocautery/heater probe) modality."
+      },
+      {
+        "q": "If an arthritis patient requiring long-term NSAID therapy develops a peptic ulcer, what is the primary medical management strategy?",
+        "options": [
+          "A) Continue the NSAID without acid suppression",
+          "B) Discontinue the NSAID if possible; if essential, eradicate H. pylori, heal the ulcer with a PPI, and co-prescribe a daily PPI or switch to a selective COX-2 inhibitor plus PPI",
+          "C) Switch to high-dose oral aspirin",
+          "D) Administer daily oral corticosteroids"
+        ],
+        "correct": 1,
+        "hint": "Stop NSAID if possible; if needed, eradicate H. pylori, heal with PPI, and use COX-2 + PPI.",
+        "explanation": "The offending NSAID should be stopped. If ongoing anti-inflammatory therapy is essential, H. pylori must be eradicated, the ulcer healed with PPIs, and the patient maintained on a selective COX-2 inhibitor combined with a daily PPI to minimize recurrent ulcer risk."
+      },
+      {
+        "q": "Under what specific conditions can non-operative (conservative) management of a perforated duodenal ulcer (Taylor's method) be safely considered?",
+        "options": [
+          "A) In all patients presenting with fecal peritonitis and septic shock",
+          "B) In hemodynamically stable patients presenting late with localized symptoms, where a contrast study confirms that the perforation has completely sealed",
+          "C) In pregnant patients with free gas on chest X-ray",
+          "D) Conservative management is never permitted under any circumstance"
+        ],
+        "correct": 1,
+        "hint": "Stable patient, localized signs, contrast study shows leak is sealed.",
+        "explanation": "Taylor's conservative method (continuous NG tube suction, NPO, IV fluids, IV PPI, IV broad-spectrum antibiotics, and close monitoring) is reserved strictly for stable patients without peritonism or shock, in whom a water-soluble contrast swallow demonstrates a self-sealed leak."
+      },
+      {
+        "q": "What is the intravenous fluid of choice for initial metabolic resuscitation of a patient with gastric outlet obstruction presenting with hypochloraemic, hypokalaemic metabolic alkalosis?",
+        "options": [
+          "A) 5% Dextrose in water",
+          "B) 0.9% Normal Saline supplemented with Potassium Chloride (KCl)",
+          "C) Lactated Ringer's solution",
+          "D) 8.4% Sodium Bicarbonate solution"
+        ],
+        "correct": 1,
+        "hint": "0.9% Normal Saline + KCl.",
+        "explanation": "Resuscitation of gastric outlet obstruction requires replacing lost chloride, sodium, and potassium to correct the metabolic alkalosis and renal paradoxical aciduria. Intravenous 0.9% Normal Saline (providing high chloride) supplemented with KCl is the fluid of choice. Sodium bicarbonate is strictly contraindicated."
+      },
+      {
+        "q": "A 55-year-old male presents with a 4-hour history of severe hematemesis and melaena. On arrival: pulse 116 bpm, BP 92/58 mmHg. Resuscitation is initiated. Emergency upper GI endoscopy reveals a deep ulcer on the posterior wall of the duodenal bulb with a non-bleeding visible vessel (Forrest IIa). What blood vessel is eroded by this ulcer, what is the initial endoscopic management, and what is indicated if dual endoscopic therapy fails to control rebleeding?",
+        "options": [
+          "A) Left gastric artery; balloon dilation; immediate total gastrectomy",
+          "B) Gastroduodenal artery (GDA); dual endoscopic therapy (epinephrine injection plus mechanical clips or thermal cautery); if endoscopic therapy fails, arrange transcatheter arterial embolization (TAE) or emergency duodenotomy with ulcer underrunning",
+          "C) Splenic artery; injection of sclerosant alone; laparoscopic Nissen fundoplication",
+          "D) Superior mesenteric artery; clip application alone; administration of oral tranexamic acid"
+        ],
+        "correct": 1,
+        "hint": "Posterior duodenal ulcer -> gastroduodenal artery; dual therapy first, then TAE or duodenotomy/underrunning.",
+        "explanation": "Posterior duodenal ulcers erode the gastroduodenal artery (GDA), running directly behind the first part of the duodenum. Forrest IIa lesions require dual endoscopic therapy. If rebleeding occurs despite repeat endoscopic intervention, catheter angiography with GDA embolization or emergency surgery (longitudinal duodenotomy with 3-point stitch ligation of the GDA) is indicated."
+      },
+      {
+        "q": "A 42-year-old man presents 4 hours after the sudden onset of severe, excruciating epigastric pain that rapidly spread across his entire abdomen. He lies completely motionless. Examination reveals abdominal rigidity and absent bowel sounds. Erect chest X-ray shows free air under both hemidiaphragms. What process is present, what resuscitation/interventions are required in the first hour, and what is the definitive surgical procedure?",
+        "options": [
+          "A) Acute pancreatitis; IV fluid bolus only; perform emergency distal gastrectomy",
+          "B) Perforated anterior duodenal ulcer with generalized peritonitis; first hour: oxygen, 2 large-bore IVs, IV fluids, IV opioids, NG tube decompression, urinary catheter, IV broad-spectrum antibiotics within 1 hour; urgent laparoscopy/laparotomy for Graham omental patch repair and peritoneal lavage",
+          "C) Acute cholecystitis; perform immediate open cholecystectomy",
+          "D) Strangulated groin hernia; perform bedside reduction under local anesthesia"
+        ],
+        "correct": 1,
+        "hint": "Perforated anterior duodenal ulcer -> full 1st-hour resuscitation/IV antibiotics + Graham omental patch & lavage.",
+        "explanation": "Sudden onset severe pain with rigidity and pneumoperitoneum indicates a perforated viscus (anterior duodenal ulcer). First-hour protocol requires ABC resuscitation, IV analgesia, NG decompression, urinary catheterization, and IV broad-spectrum antibiotics within 1 hour. Surgery (NCEPOD Urgent) consists of primary closure plicated with a vascularized pedicle of omentum (Graham patch) and abdominal lavage, followed by post-op H. pylori eradication."
+      },
+      {
+        "q": "A 60-year-old male with a 15-year history of episodic dyspepsia presents with a 3-week history of persistent, non-bilious projectile vomiting of food eaten 24 to 48 hours earlier, weight loss, and anorexia. On exam: dehydrated, epigastric distension, and a succussion splash is heard 4 hours after his last oral intake. Arterial blood gas: pH 7.52, Na+ 134 mEq/L, K+ 2.8 mEq/L, Cl- 84 mEq/L, HCO3- 35 mEq/L. Urinalysis reveals an acidic pH (5.0). What is the diagnosis, how is the urine finding explained, and what is the management strategy?",
+        "options": [
+          "A) Small bowel obstruction; metabolic acidosis; perform immediate right hemicolectomy",
+          "B) Gastric outlet obstruction (pyloric stenosis); hypochloraemic hypokalaemic metabolic alkalosis with paradoxical aciduria; management: NG tube decompression/lavage, IV 0.9% saline + KCl resuscitation, endoscopy with biopsy to rule out cancer, followed by balloon dilation or surgical gastrojejunostomy",
+          "C) Diabetic ketoacidosis; ketoacidosis; administer IV insulin drip",
+          "D) Acute paralytic ileus; normal electrolytes; prescribe oral prokinetics"
+        ],
+        "correct": 1,
+        "hint": "Gastric outlet obstruction + hypochloraemic hypokalaemic alkalosis + paradoxical aciduria -> NG, 0.9% saline + KCl, endoscopy/biopsy.",
+        "explanation": "Persistent non-bilious projectile vomiting of stale food with a succussion splash indicates gastric outlet obstruction. Loss of HCl causes hypochloraemic, hypokalaemic metabolic alkalosis with paradoxical aciduria (aldosterone-driven distal renal Na+/H+ exchange due to severe K+ depletion). Resuscitation requires NG decompression and IV 0.9% saline + KCl. Endoscopy with biopsy is mandatory because adult GOO is more commonly caused by antral cancer than benign ulcer scarring."
+      },
+      {
+        "q": "A 68-year-old female taking high-dose prescription naproxen for knee osteoarthritis undergoes endoscopy for epigastric discomfort. Endoscopy reveals a 2.5 cm ulcerative lesion on the lesser curve at the incisura angularis (Johnson Type I). What mandatory tissue sampling protocol must be followed, what initial medical management is indicated, and what follow-up is required?",
+        "options": [
+          "A) Take 1 biopsy from the base; continue naproxen; discharge without follow-up",
+          "B) Take 6 to 8 biopsies from all four quadrants of the ulcer margin; discontinue naproxen; prescribe 8 weeks of full-dose PPI; test and treat H. pylori; repeat endoscopy at 8 weeks to document complete healing and re-biopsy if unhealed",
+          "C) Perform immediate laparoscopic total gastrectomy",
+          "D) Perform endoscopic cautery of the ulcer edges without biopsy"
+        ],
+        "correct": 1,
+        "hint": "Gastric ulcer -> 6–8 margin biopsies, stop NSAID, 8-week PPI, test/treat H. pylori, repeat scope at 8 weeks.",
+        "explanation": "Johnson Type I gastric ulcers carry a risk of being ulcerated gastric cancers. Biopsies (6–8) must be taken from the raised ulcer edges. Management requires stopping the NSAID, 8 weeks of PPI therapy, and eradicating H. pylori. Repeat endoscopy at 8 weeks is mandatory to prove complete healing; non-healing ulcers require repeat biopsy or resection."
+      },
+      {
+        "q": "A 48-year-old male with a history of duodenal ulcer disease completes a 14-day course of Clarithromycin Triple Therapy. A Urea Breath Test performed 5 weeks post-treatment is positive, confirming eradication failure. What is the correct rescue management protocol?",
+        "options": [
+          "A) Repeat the 14-day Clarithromycin Triple Therapy at double the dose",
+          "B) Never repeat clarithromycin or levofloxacin after treatment failure; switch to a 14-day Bismuth Quadruple Therapy regimen (PPI + Bismuth + Tetracycline + Metronidazole) and confirm cure with a repeat breath test 4 weeks later",
+          "C) Refer immediately for elective truncal vagotomy and pyloroplasty",
+          "D) Prescribe life-long oral amoxicillin monotherapy"
+        ],
+        "correct": 1,
+        "hint": "Do not repeat clarithromycin after failure; switch to 14-day Bismuth Quadruple and re-test in ≥4 weeks.",
+        "explanation": "Key rule of H. pylori eradication: never repeat clarithromycin or levofloxacin if a treatment regimen containing them has failed, due to acquired secondary resistance. The patient should be switched to a 14-day Bismuth Quadruple regimen (or levofloxacin triple if bismuth is unavailable) and re-tested at 4 weeks."
+      },
+      {
+        "q": "A 50-year-old male with massive upper GI bleeding from a posterior duodenal ulcer undergoes emergency laparotomy after failing dual endoscopic therapy. The surgeon performs a longitudinal duodenotomy. What specific 3-point suture ligation technique is performed in the ulcer base to secure definitive hemostasis of the gastroduodenal artery (GDA)?",
+        "options": [
+          "A) Single central tie around the bile duct",
+          "B) Three-point ligation: placing a stitch above the bleeding point, a stitch below the bleeding point, and a U-stitch to control the transverse pancreatic arterial branch",
+          "C) Circumferential ligation of the portal vein",
+          "D) Suture closure of the esophagus"
+        ],
+        "correct": 1,
+        "hint": "Stitches above and below the bleeding point + U-stitch for the transverse pancreatic branch.",
+        "explanation": "Under-running a bleeding posterior duodenal ulcer requires a 3-point ligation technique within the ulcer bed to stop GDA flow: one stitch proximal (above) the bleeding point, one stitch distal (below) the bleeding point, and a third U-stitch medially to capture the transverse pancreatic branch. The incision is closed as a pyloroplasty."
+      },
+      {
+        "q": "A 35-year-old male presents with recurrent, refractory peptic ulcers located in the distal duodenum and jejunum, accompanied by severe watery diarrhea. He has no history of NSAID use, and H. pylori testing is negative. Fasting serum gastrin is 1200 pg/mL (normal <100 pg/mL) with a gastric pH of 1.4. Serum calcium is elevated at 2.85 mmol/L. What syndrome is present, what endocrine screening is mandated, and how is the primary lesion localized?",
+        "options": [
+          "A) Cushing's syndrome; screen for thyroid cancer; CT chest",
+          "B) Zollinger-Ellison syndrome (gastrinoma) associated with MEN 1; screen for primary hyperparathyroidism (serum calcium/PTH) and pituitary adenomas; localize gastrinoma using Somatostatin Receptor Scintigraphy (SRS) or 68Ga-DOTATATE PET-CT / EUS",
+          "C) Carcinoid syndrome; screen for adrenal tumors; urinary 5-HIAA",
+          "D) Plummer-Vinson syndrome; screen for esophageal webs; barium swallow"
+        ],
+        "correct": 1,
+        "hint": "ZES + hypercalcemia = MEN 1; screen parathyroid/pituitary and localize with 68Ga-DOTATATE PET-CT / SRS / EUS.",
+        "explanation": "Refractory distal/jejunal ulcers, diarrhea, hypergastrinemia (>10x upper limit), and acid hypersecretion (pH <2) define Zollinger-Ellison syndrome. Elevated serum calcium indicates coexisting primary hyperparathyroidism, pointing to Multiple Endocrine Neoplasia Type 1 (MEN 1: parathyroid, pancreas/gastrinoma, pituitary). Localization requires 68Ga-DOTATATE PET-CT, SRS, or EUS."
+      },
+      {
+        "q": "A 58-year-old male with chronic recurrent duodenal ulcers resistant to medical management undergoes an elective Highly Selective Vagotomy (parietal cell vagotomy). What anatomical structure is selectively divided, what structures are preserved, and why is a drainage procedure (pyloroplasty) omitted?",
+        "options": [
+          "A) Main vagal trunks are divided; gastric antrum is resected",
+          "B) Vagal branches supplying the acid-secreting body and fundus are selectively divided; the main anterior/posterior trunks and the nerves of Latarjet ('crow's foot') to the antrum are preserved, maintaining pyloric motor function so no drainage procedure is needed",
+          "C) Celiac ganglion is excised; pyloric sphincter is sutured closed",
+          "D) Sympathetic trunk is divided at T10–L2; gastrojejunostomy is required"
+        ],
+        "correct": 1,
+        "hint": "Divides body/fundus vagal branches; preserves Latarjet/'crow's foot' to antrum so drainage isn't needed.",
+        "explanation": "Highly Selective Vagotomy divides only the small vagal branches innervating the parietal cell mass of the body and fundus. Preserving the principal nerves of Latarjet and their terminal 'crow's foot' innervation to the antrum maintains normal antral motility and pyloric emptying, making a formal drainage procedure (pyloroplasty or gastroenterostomy) unnecessary."
+      },
+      {
+        "q": "A 52-year-old male who underwent a distal gastrectomy with Billroth II (Polya) reconstruction 10 years ago for peptic ulcer disease presents with recurrent, severe epigastric pain that builds after meals and is dramatically relieved by the sudden bilious vomiting of clear fluid without food. What post-gastrectomy complication is present, and what surgical conversion corrects it?",
+        "options": [
+          "A) Early dumping syndrome; treated with high-carbohydrate diet",
+          "B) Afferent loop syndrome (partial obstruction of the afferent jejunal limb); treated by surgical conversion from Billroth II to a Roux-en-Y reconstruction",
+          "C) Gastric remnant carcinoma; treated with emergency total colectomy",
+          "D) Post-vagotomy diarrhea; treated with oral codeine phosphate"
+        ],
+        "correct": 1,
+        "hint": "Post-meal epigastric pain relieved by sudden bilious vomiting without food = afferent loop syndrome -> Roux-en-Y.",
+        "explanation": "Afferent loop syndrome occurs after Billroth II reconstruction when the afferent jejunal limb becomes partially obstructed. Bile and pancreatic secretions accumulate under pressure, causing distension and epigastric pain, which is suddenly relieved when the limb unkinks and spurts bilious fluid into the gastric remnant, triggering bilious vomiting. Conversion to a Roux-en-Y gastrojejunostomy diverts bile away and resolves the syndrome."
+      },
+      {
+        "q": "A 62-year-old female patient 3 weeks post-Billroth II gastrectomy experiences epigastric fullness, abdominal cramping, diaphoresis, palpitations, and flushing 15 to 30 minutes after eating a meal rich in simple carbohydrates. What condition is present, what is its physiological mechanism, and how is it initially managed?",
+        "options": [
+          "A) Late dumping syndrome; reactive hypoglycaemia from insulin surge; treat with oral glucose tablets during meals",
+          "B) Early dumping syndrome; rapid delivery of hyperosmolar chyme into the jejunum causes fluid shift from intravascular space into the bowel lumen plus gut hormone release; managed with small, low-carbohydrate, dry meals with fluids taken between meals",
+          "C) Acute duodenal stump blowout; emergency re-laparotomy",
+          "D) Alkaline reflux gastritis; convert to Billroth I"
+        ],
+        "correct": 1,
+        "hint": "15–30 min post-meal vasomotor + GI symptoms = early dumping -> small low-carb dry meals, fluids between meals.",
+        "explanation": "Early dumping syndrome occurs 15–30 minutes post-prandially due to rapid gastric emptying of hyperosmolar chyme into the jejunum. This draws plasma fluid into the intestinal lumen (causing hypovolemia, cramps, and diarrhea) and releases vasoactive gut peptides (causing flushing and palpitations). First-line management involves dietary modification: small, frequent, low-carbohydrate meals, separating solid food from liquids."
+      }
+    ]
+  }
+]
