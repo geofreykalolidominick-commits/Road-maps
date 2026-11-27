@@ -139,122 +139,6 @@
       background: rgba(127, 29, 29, 0.28);
     }
 
-    /* Floating Top Chatbox */
-    .floating-chat {
-      position: sticky;
-      top: 10px;
-      z-index: 40;
-      width: 100%;
-      max-width: 540px;
-      margin: 0 auto 14px;
-      background: rgba(10, 23, 42, 0.96);
-      border: 1px solid rgba(56, 189, 248, 0.4);
-      border-radius: 14px;
-      box-shadow: 0 12px 28px rgba(2, 6, 23, 0.65);
-      overflow: hidden;
-      backdrop-filter: blur(8px);
-    }
-
-    .chat-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 8px;
-      padding: 9px 12px;
-      background: rgba(21, 41, 70, 0.95);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .chat-title-wrap {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-weight: 700;
-      font-size: 0.9rem;
-    }
-
-    .chat-badge {
-      font-size: 0.75rem;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: rgba(56, 189, 248, 0.16);
-      color: #bae6fd;
-      border: 1px solid rgba(56, 189, 248, 0.35);
-    }
-
-    .chat-toggle-btn {
-      padding: 4px 10px;
-      font-size: 0.8rem;
-      border-radius: 8px;
-    }
-
-    .chat-body {
-      padding: 10px 12px;
-    }
-
-    .floating-chat.minimized .chat-body {
-      display: none;
-    }
-
-    .floating-chat.minimized .chat-header {
-      border-bottom: none;
-    }
-
-    .chat-messages {
-      max-height: 150px;
-      overflow-y: auto;
-      display: flex;
-      flex-direction: column;
-      gap: 6px;
-      padding-right: 4px;
-      margin-bottom: 8px;
-    }
-
-    .chat-msg {
-      background: rgba(21, 41, 70, 0.75);
-      border: 1px solid rgba(148, 163, 184, 0.16);
-      border-radius: 9px;
-      padding: 6px 9px;
-      font-size: 0.85rem;
-      line-height: 1.35;
-      word-break: break-word;
-    }
-
-    .chat-msg-meta {
-      font-size: 0.74rem;
-      color: var(--accent);
-      font-weight: 700;
-      margin-bottom: 2px;
-    }
-
-    .chat-empty {
-      color: var(--muted);
-      font-size: 0.82rem;
-      text-align: center;
-      padding: 8px 4px;
-    }
-
-    .chat-form {
-      display: flex;
-      gap: 6px;
-      align-items: center;
-    }
-
-    .chat-input {
-      flex: 1;
-      min-width: 0;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      border-radius: 9px;
-      padding: 8px 10px;
-      font-size: 0.86rem;
-    }
-
-    .chat-input:focus {
-      outline: none;
-      border-color: var(--accent);
-    }
-
     header {
       background: rgba(14, 30, 52, 0.92);
       border: 1px solid var(--border);
@@ -358,13 +242,6 @@
       margin-bottom: 14px;
     }
 
-    .card {
-      background: rgba(14, 30, 52, 0.9);
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 14px;
-    }
-
     .card-title {
       font-size: 0.8rem;
       text-transform: uppercase;
@@ -438,7 +315,7 @@
       font-weight: 500;
     }
 
-    .mode-row, .turns-row, .room-row {
+    .turns-row, .room-row {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
@@ -712,7 +589,7 @@
       color: #475569;
     }
 
-    /* Deep Revision Mode (Dark Distraction-Free Mobile Quiz View) */
+    /* Deep Revision Mode */
     .revision-shell {
       max-width: 680px;
       margin: 0 auto;
@@ -754,6 +631,15 @@
     .rev-topic-item.active-topic {
       border-color: var(--accent);
       background: rgba(56, 189, 248, 0.14);
+    }
+
+    .rev-count-badge {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.16);
+      color: #bae6fd;
+      border: 1px solid rgba(56, 189, 248, 0.35);
     }
 
     .rev-top-hud {
@@ -1127,33 +1013,6 @@
   </nav>
 
   <div class="app">
-    <!-- Floating Top Chatbox -->
-    <aside id="floatingChat" class="floating-chat" aria-label="Room Chat">
-      <div class="chat-header">
-        <div class="chat-title-wrap">
-          <span>Player Chat</span>
-          <span id="chatCountBadge" class="chat-badge">0 msgs</span>
-        </div>
-        <button id="toggleChatBtn" class="chat-toggle-btn" type="button" aria-expanded="true">Minimize</button>
-      </div>
-      <div id="chatBody" class="chat-body">
-        <div id="chatMessages" class="chat-messages">
-          <div class="chat-empty">No messages yet. Send a quick note to players in the room!</div>
-        </div>
-        <form id="chatForm" class="chat-form">
-          <input
-            id="chatInput"
-            class="chat-input"
-            type="text"
-            maxlength="240"
-            placeholder="Write a message to everyone..."
-            aria-label="Chat message"
-          />
-          <button type="submit" class="primary" style="padding: 8px 12px;">Send</button>
-        </form>
-      </div>
-    </aside>
-
     <header>
       <div class="header-left">
         <button id="openDrawerBtn" class="hamburger-btn" type="button" aria-label="Open menu">☰</button>
@@ -1427,12 +1286,10 @@
       roomCode: "",
       gameOver: false,
       activeLock: null,
-      lastAdvancedLockId: null,
-      chatMessages: []
+      lastAdvancedLockId: null
     };
 
     let mySeat = 1;
-    let chatMinimized = false;
     let timerInterval = null;
     let secondsLeft = QUESTION_DURATION_SECONDS;
     let db = null;
@@ -1440,7 +1297,6 @@
     let suppressBroadcast = false;
     const channel = typeof BroadcastChannel !== "undefined" ? new BroadcastChannel("sixseven-game-room") : null;
 
-    // Deep Revision local quiz state
     const revState = {
       step: "year", // "year" | "subject" | "topic" | "quiz"
       year: "MD5",
@@ -1471,12 +1327,6 @@
       menuEndNowBtn: document.getElementById("menuEndNowBtn"),
       menuResetBtn: document.getElementById("menuResetBtn"),
       menuQuitBtn: document.getElementById("menuQuitBtn"),
-      floatingChat: document.getElementById("floatingChat"),
-      toggleChatBtn: document.getElementById("toggleChatBtn"),
-      chatCountBadge: document.getElementById("chatCountBadge"),
-      chatMessages: document.getElementById("chatMessages"),
-      chatForm: document.getElementById("chatForm"),
-      chatInput: document.getElementById("chatInput"),
       headerSubtitle: document.getElementById("headerSubtitle"),
       activeTurnBadge: document.getElementById("activeTurnBadge"),
       backToHomeBtn: document.getElementById("backToHomeBtn"),
@@ -1532,7 +1382,6 @@
       finalBreakdownText: document.getElementById("finalBreakdownText"),
       playAgainBtn: document.getElementById("playAgainBtn"),
       closeWinnerBtn: document.getElementById("closeWinnerBtn"),
-      // Revision elements
       revBreadcrumb: document.getElementById("revBreadcrumb"),
       revExitToHomeBtn: document.getElementById("revExitToHomeBtn"),
       revStepYear: document.getElementById("revStepYear"),
@@ -1610,19 +1459,10 @@
       return playerIndex === mySeat;
     }
 
-    function getSenderName() {
-      if (state.mode === "1p") {
-        return getActiveRoster()[0]?.name || "Player 1";
-      }
-      const seatPlayer = getPlayerByIndex(mySeat);
-      return seatPlayer ? seatPlayer.name : `Player ${mySeat}`;
-    }
-
     function persistLocalSession() {
       try {
         const payload = {
           mySeat,
-          chatMinimized,
           snapshot: getSnapshot()
         };
         localStorage.setItem(LOCAL_SESSION_KEY, JSON.stringify(payload));
@@ -1639,12 +1479,6 @@
         if (typeof parsed.mySeat === "number" && parsed.mySeat >= 1 && parsed.mySeat <= MAX_MULTI_PLAYERS) {
           mySeat = parsed.mySeat;
         }
-        if (typeof parsed.chatMinimized === "boolean") {
-          chatMinimized = parsed.chatMinimized;
-          els.floatingChat.classList.toggle("minimized", chatMinimized);
-          els.toggleChatBtn.textContent = chatMinimized ? "Expand" : "Minimize";
-          els.toggleChatBtn.setAttribute("aria-expanded", String(!chatMinimized));
-        }
 
         applyRemoteState(parsed.snapshot, { skipSync: true });
         if (state.mode === "multi" && state.roomCode && state.roomCode.length === 4) {
@@ -1654,35 +1488,6 @@
       } catch (_) {
         return false;
       }
-    }
-
-    function renderChat() {
-      const msgs = Array.isArray(state.chatMessages) ? state.chatMessages : [];
-      els.chatCountBadge.textContent = `${msgs.length} ${msgs.length === 1 ? "msg" : "msgs"}`;
-
-      if (msgs.length === 0) {
-        els.chatMessages.innerHTML = `<div class="chat-empty">No messages yet. Send a quick note to players in the room!</div>`;
-        return;
-      }
-
-      els.chatMessages.innerHTML = "";
-      msgs.slice(-40).forEach((m) => {
-        const box = document.createElement("div");
-        box.className = "chat-msg";
-
-        const meta = document.createElement("div");
-        meta.className = "chat-msg-meta";
-        meta.textContent = `${m.sender || "Player"} • ${m.time || ""}`;
-
-        const text = document.createElement("div");
-        text.textContent = m.text || "";
-
-        box.appendChild(meta);
-        box.appendChild(text);
-        els.chatMessages.appendChild(box);
-      });
-
-      els.chatMessages.scrollTop = els.chatMessages.scrollHeight;
     }
 
     function renderLandingYearsAndSubjects() {
@@ -2102,7 +1907,6 @@
         els.boardBannerRule.textContent = "Your Turn";
       }
 
-      renderChat();
       renderLandingYearsAndSubjects();
       renderScoresGrid();
       renderBoard();
@@ -2225,7 +2029,6 @@
       forceAdvanceStuckTurn();
     }
 
-    // Deep Revision Mode Logic
     function renderRevisionView() {
       if (state.page !== "revision") return;
 
@@ -2272,7 +2075,7 @@
           const btn = document.createElement("button");
           btn.type = "button";
           btn.className = `rev-topic-item${revState.topicIndex === idx ? " active-topic" : ""}`;
-          btn.innerHTML = `<span>${t.name}</span><span class="chat-badge">${qCount} Qs</span>`;
+          btn.innerHTML = `<span>${t.name}</span><span class="rev-count-badge">${qCount} Qs</span>`;
           btn.addEventListener("click", () => {
             revState.topicIndex = idx;
             renderRevisionView();
@@ -2387,10 +2190,6 @@
         ? { ...incoming.activeLock }
         : null;
 
-      if (Array.isArray(incoming.chatMessages)) {
-        state.chatMessages = incoming.chatMessages.slice(-40);
-      }
-
       updateUI();
       if (state.gameOver) {
         showWinnerModal();
@@ -2419,7 +2218,6 @@
         gameOver: state.gameOver,
         lastAdvancedLockId: state.lastAdvancedLockId,
         activeLock: state.activeLock ? { ...state.activeLock } : null,
-        chatMessages: Array.isArray(state.chatMessages) ? state.chatMessages.slice(-40) : [],
         updatedAt: Date.now()
       };
     }
@@ -2624,34 +2422,6 @@
 
     els.cancelSubjectModalBtn.addEventListener("click", () => {
       els.subjectConfirmModal.classList.remove("open");
-    });
-
-    // Chat Events
-    els.toggleChatBtn.addEventListener("click", () => {
-      chatMinimized = !chatMinimized;
-      els.floatingChat.classList.toggle("minimized", chatMinimized);
-      els.toggleChatBtn.textContent = chatMinimized ? "Expand" : "Minimize";
-      els.toggleChatBtn.setAttribute("aria-expanded", String(!chatMinimized));
-      persistLocalSession();
-    });
-
-    els.chatForm.addEventListener("submit", (e) => {
-      e.preventDefault();
-      const text = els.chatInput.value.trim();
-      if (!text) return;
-
-      const now = new Date();
-      const timeLabel = now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
-      state.chatMessages.push({
-        id: `${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
-        sender: getSenderName(),
-        text,
-        time: timeLabel
-      });
-      state.chatMessages = state.chatMessages.slice(-40);
-      els.chatInput.value = "";
-      renderChat();
-      syncOut();
     });
 
     // Roster, Room & Turn Limit Events
