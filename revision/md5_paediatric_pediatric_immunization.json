@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Pediatric Immunization",
+    "questions": [
+      {
+        "q": "How is Immunization defined in the uploaded presentation?",
+        "options": [
+          "A) The process of inducing immunity by stimulating the immune system through antigens to protect against disease",
+          "B) The passive transfer of maternal T-lymphocytes during the third trimester",
+          "C) The surgical removal of lymphoid tissue to prevent autoimmune reactivity",
+          "D) The administration of broad-spectrum systemic antibiotics prior to viral exposure"
+        ],
+        "correct": 0,
+        "hint": "Inducing immunity by introducing antigens to stimulate the immune system against disease.",
+        "explanation": "Immunization is defined as the process of inducing immunity by introducing antigens to stimulate an active immune response, serving as a cost-effective public health tool that averts an estimated 4.4 million deaths annually."
+      },
+      {
+        "q": "Global coverage of the third dose of DTP (DTP3) vaccine is frequently used as a benchmark for what public health metric?",
+        "options": [
+          "A) The global prevalence of congenital primary immunodeficiencies",
+          "B) The rate of hospital-acquired surgical site infections",
+          "C) How well countries are providing routine childhood immunization services",
+          "D) The effectiveness of vector control programs against malaria"
+        ],
+        "correct": 2,
+        "hint": "DTP3 coverage reflects how well routine childhood immunization services are delivered.",
+        "explanation": "DTP3 coverage is used worldwide as a key indicator marker for assessing how effectively national routine immunization services reach pediatric populations."
+      },
+      {
+        "q": "Which type of vaccine utilizes a weakened form of the wild pathogen to generate an immune response?",
+        "options": [
+          "A) Inactivated vaccine",
+          "B) Live-attenuated vaccine",
+          "C) Toxoid vaccine",
+          "D) Subunit/Conjugate vaccine"
+        ],
+        "correct": 1,
+        "hint": "A live-attenuated vaccine uses a weakened form of the living pathogen.",
+        "explanation": "Live-attenuated vaccines incorporate a weakened form of the living germ that replicates harmlessly to trigger robust humoral and cellular memory without causing severe disease in healthy hosts."
+      },
+      {
+        "q": "What type of vaccine is formulated using a harmful protein product produced by a bacterium rather than the bacterium itself?",
+        "options": [
+          "A) mRNA vaccine",
+          "B) Viral vector vaccine",
+          "C) Inactivated vaccine",
+          "D) Toxoid vaccine"
+        ],
+        "correct": 3,
+        "hint": "Toxoid vaccines use inactivated bacterial toxins.",
+        "explanation": "Toxoid vaccines (such as tetanus or diphtheria toxoids) utilize inactivated bacterial toxins (toxoids) to elicit neutralizing antibodies against toxin-mediated pathogenesis."
+      },
+      {
+        "q": "In what year was the Expanded Programme on Immunization (EPI) originally launched globally by the WHO?",
+        "options": [
+          "A) 1974",
+          "B) 1985",
+          "C) 1998",
+          "D) 2005"
+        ],
+        "correct": 0,
+        "hint": "WHO launched EPI globally in 1974.",
+        "explanation": "The WHO officially launched the Expanded Programme on Immunization (EPI) in 1974 to ensure universal access to life-saving vaccines for children in all nations."
+      },
+      {
+        "q": "In Tanzania, what national name is given to the initiative established in 1975 to manage public immunization services?",
+        "options": [
+          "A) The Expanded Child Survival Network (ECSN)",
+          "B) The National Vaccine Safety Bureau (NVSB)",
+          "C) The Immunization and Vaccine Development (IVD) program",
+          "D) The Pediatric Infectious Disease Prevention Agency (PIDPA)"
+        ],
+        "correct": 2,
+        "hint": "Immunization and Vaccine Development (IVD) program.",
+        "explanation": "The national immunization initiative in Tanzania is officially named the Immunization and Vaccine Development (IVD) program, established in 1975."
+      },
+      {
+        "q": "According to the national schedule, which vaccines are administered at BIRTH?",
+        "options": [
+          "A) Pentavalent 1 and PCV 1",
+          "B) BCG and OPV 0 (up to 14 days)",
+          "C) Measles-Rubella 1 (MR 1) and Rotavac 1",
+          "D) IPV and HPV 1"
+        ],
+        "correct": 1,
+        "hint": "BCG and OPV 0 (within 14 days).",
+        "explanation": "At birth, infants receive intradermal BCG (0.05 mL in the right upper arm) and oral OPV 0 (2 drops in the mouth, given within the first 14 days of life)."
+      },
+      {
+        "q": "At what age is the first dose of Measles-Rubella (MR 1) vaccine administered in the routine schedule?",
+        "options": [
+          "A) 6 weeks",
+          "B) 14 weeks",
+          "C) 6 months",
+          "D) 9 months"
+        ],
+        "correct": 3,
+        "hint": "MR 1 is given at 9 months of age.",
+        "explanation": "The first dose of Measles-Rubella (MR 1) is administered at 9 months of age as a 0.5 mL subcutaneous injection in the left upper arm."
+      },
+      {
+        "q": "What is the single UNIVERSAL contraindication to any routine immunization procedure?",
+        "options": [
+          "A) A personal history of a severe allergic reaction (anaphylaxis) to a vaccine component or previous dose",
+          "B) Mild upper respiratory tract infection without fever",
+          "C) A family history of sudden infant death syndrome (SIDS)",
+          "D) Concomitant administration of topical dermatological steroids"
+        ],
+        "correct": 0,
+        "hint": "Severe allergic reaction (anaphylaxis) to a vaccine component or prior dose.",
+        "explanation": "The sole universal contraindication across all vaccines is a proven history of severe anaphylactic reaction to a prior dose or a specific component of that vaccine."
+      },
+      {
+        "q": "How does the WHO define a Missed Opportunity for Vaccination (MOV)?",
+        "options": [
+          "A) Refusal of a parent to allow any vaccination due to personal beliefs",
+          "B) Expiry of a vaccine vial while stored in a health facility refrigerator",
+          "C) Any contact with health services by an eligible individual that does not result in receiving overdue vaccine doses",
+          "D) Occurrence of a mild fever following routine DTP injection"
+        ],
+        "correct": 2,
+        "hint": "Any health service contact by an eligible person where overdue vaccine doses are not given.",
+        "explanation": "An MOV occurs whenever an individual eligible for vaccination attends a healthcare facility for any reason but fails to receive the eligible vaccine doses despite having no valid contraindications."
+      },
+      {
+        "q": "What is the exact anatomical site and route prescribed for administering the BCG vaccine in neonates?",
+        "options": [
+          "A) Antero-lateral aspect of left thigh; Intramuscular",
+          "B) Right upper arm; Intradermal (0.05 mL)",
+          "C) Left upper arm; Subcutaneous",
+          "D) Gluteal region; Deep intramuscular"
+        ],
+        "correct": 1,
+        "hint": "Right upper arm, intradermal, 0.05 mL.",
+        "explanation": "BCG is administered strictly via the intradermal route into the right upper arm at a precise volume of 0.05 mL."
+      },
+      {
+        "q": "Which five antigens are combined within the Pentavalent vaccine formulation?",
+        "options": [
+          "A) Measles, Mumps, Rubella, Varicella, and Polio",
+          "B) Bacillus Calmette-Guérin, Rotavirus, Pneumococcus, Polio, and HPV",
+          "C) Tetanus, Diphtheria, Pertussis, Influenza, and Hepatitis A",
+          "D) Diphtheria, Pertussis, Tetanus, Hepatitis B, and Haemophilus influenzae type b (DPT-HepB-Hib)"
+        ],
+        "correct": 3,
+        "hint": "DPT-HepB-Hib: Diphtheria, Pertussis, Tetanus, Hepatitis B, and Hib.",
+        "explanation": "The Pentavalent vaccine protects against five diseases: Diphtheria, Pertussis, Tetanus, Hepatitis B, and Hib."
+      },
+      {
+        "q": "At what specific infant ages are the primary three doses of Pentavalent, PCV, and Rotavac vaccines scheduled?",
+        "options": [
+          "A) 6 weeks, 10 weeks, and 14 weeks",
+          "B) 1 month, 2 months, and 3 months",
+          "C) 2 months, 4 months, and 6 months",
+          "D) 6 weeks, 9 months, and 18 months"
+        ],
+        "correct": 0,
+        "hint": "6, 10, and 14 weeks.",
+        "explanation": "Routine primary infant immunization rounds occur at 6 weeks (dose 1), 10 weeks (dose 2), and 14 weeks (dose 3)."
+      },
+      {
+        "q": "At week 14 of the schedule, which injectable polio vaccine dose is added alongside OPV 3, Pentavalent 3, PCV 3, and Rotavac 3?",
+        "options": [
+          "A) Oral Polio Booster",
+          "B) Subcutaneous Yellow Fever",
+          "C) Inactivated Polio Vaccine (IPV) via injection",
+          "D) Intradermal BCG booster"
+        ],
+        "correct": 2,
+        "hint": "Injectable Inactivated Polio Vaccine (IPV) is added at 14 weeks.",
+        "explanation": "At 14 weeks of age, one dose of injectable Inactivated Polio Vaccine (IPV) is administered alongside OPV 3 and other 14-week vaccines."
+      },
+      {
+        "q": "What is the correct dose and volume for Rotavac oral vaccine at each administration?",
+        "options": [
+          "A) 2 drops",
+          "B) 5 drops (0.5 mL)",
+          "C) 10 drops (1.0 mL)",
+          "D) 1 drop"
+        ],
+        "correct": 1,
+        "hint": "5 drops (0.5 mL) orally.",
+        "explanation": "Rotavac is administered orally as 5 drops (0.5 mL) per dose at weeks 6, 10, and 14."
+      },
+      {
+        "q": "Where are Pentavalent and PCV vaccines injected relative to each other during a 6-week immunization visit?",
+        "options": [
+          "A) Both are injected into the left upper arm",
+          "B) Both are given as a single combined oral solution",
+          "C) Pentavalent into the left arm; PCV into the right arm",
+          "D) Pentavalent into the antero-lateral aspect of the left thigh; PCV into the antero-lateral aspect of the right thigh"
+        ],
+        "correct": 3,
+        "hint": "Pentavalent in the left anterolateral thigh; PCV in the right anterolateral thigh.",
+        "explanation": "To prevent local confusion, Pentavalent (0.5 mL IM) is injected into the left anterolateral thigh, while PCV (0.5 mL IM) is injected into the right anterolateral thigh."
+      },
+      {
+        "q": "What integrated Deworming regimen (Mebendazole) is prescribed for children aged 12–23 months versus children 24 months and above?",
+        "options": [
+          "A) 12–23 months: 1 tablet (500 mg) single dose; 24 months+: 1 tablet (500 mg) every 6 months",
+          "B) 12–23 months: 200 mg syrup daily for 5 days; 24 months+: 1000 mg single dose",
+          "C) 12–23 months: Albendazole 400 mg; 24 months+: Mebendazole is contraindicated",
+          "D) 12–23 months: No deworming allowed; 24 months+: 1 tablet yearly"
+        ],
+        "correct": 0,
+        "hint": "500 mg once for 12–23 months; 500 mg every 6 months from 24 months onward.",
+        "explanation": "Integrated EPI services specify 1 tablet of Mebendazole (500 mg) once for children 12–23 months, and 1 tablet (500 mg) every 6 months for children 24 months and older."
+      },
+      {
+        "q": "According to integrated Vitamin A supplementation guidelines, what dose is administered to non-breastfed infants aged 0–5 months (6th week), at 6 complete months, and to children 12–59 months?",
+        "options": [
+          "A) All ages receive a uniform dose of 100,000 IU",
+          "B) 0–5 months: 10,000 IU; 6 months: 50,000 IU; 12–59 months: 100,000 IU",
+          "C) 0–5 months: 50,000 IU (once); 6 months: 100,000 IU (once); 12–59 months: 200,000 IU (every 6 months)",
+          "D) Vitamin A is administered only after 5 years of age"
+        ],
+        "correct": 2,
+        "hint": "50,000 IU at 6 weeks (non-breastfed), 100,000 IU at 6 months, and 200,000 IU every 6 months from 12–59 months.",
+        "explanation": "Vitamin A schedule specifies: 50,000 IU at 6 weeks for non-breastfed infants, 100,000 IU at 6 months, and 200,000 IU every 6 months for ages 12–59 months."
+      },
+      {
+        "q": "What delivery strategy is utilized by the national IVD program to reach nomadic and distant hard-to-reach communities requiring overnight stays?",
+        "options": [
+          "A) Fixed facility delivery",
+          "B) Mobile clinics",
+          "C) School-based health visits",
+          "D) Direct mail delivery"
+        ],
+        "correct": 1,
+        "hint": "Mobile clinics reach remote or nomadic communities with overnight trips.",
+        "explanation": "To access remote or nomadic populations, IVD employs mobile clinics using vehicles that carry equipment and health teams for overnight field trips."
+      },
+      {
+        "q": "What target group receives the HPV vaccine in the national schedule, and at what dosage/route?",
+        "options": [
+          "A) Pregnant women; 1.0 mL Subcutaneous",
+          "B) Adolescent boys aged 10 years; Oral drops",
+          "C) Infants at 9 months; 0.05 mL Intradermal",
+          "D) Girls aged 9–14 years; 0.5 mL Intramuscular in the left upper arm"
+        ],
+        "correct": 3,
+        "hint": "Girls aged 9–14 years; 0.5 mL IM in the left upper arm.",
+        "explanation": "Human Papillomavirus (HPV) vaccine is targeted at young girls (ages 9–14) as a 0.5 mL IM injection in the left upper arm."
+      },
+      {
+        "q": "Which of the following conditions is an ABSOLUTE CONTRAINDICATION to administering live-attenuated vaccines (e.g., BCG, OPV, Rotavirus, MR)?",
+        "options": [
+          "A) Severe immunocompromised state (e.g., symptomatic HIV, active leukemia/lymphoma, or receiving chemotherapy/radiotherapy)",
+          "B) Presence of a mild common cold without fever",
+          "C) Current dermatological nappy rash",
+          "D) Exclusive breastfeeding"
+        ],
+        "correct": 0,
+        "hint": "Severe immunocompromise (such as symptomatic HIV, leukemia/lymphoma, or chemotherapy).",
+        "explanation": "Live vaccines are strictly contraindicated in severely immunocompromised children because impaired cellular immunity allows uncontrolled replication of the attenuated vaccine virus."
+      },
+      {
+        "q": "Which clinical scenario represents a TRUE contraindication to a second dose of the SAME vaccine?",
+        "options": [
+          "A) Mild localized swelling (<2 cm) at the injection site resolving in 24 hours",
+          "B) Temperature of 37.8°C recorded 6 hours post-injection",
+          "C) Occurrence of an anaphylactic reaction, convulsion, or encephalopathy/altered consciousness within 72 hours of the previous dose",
+          "D) History of physiological jaundice during the neonatal period"
+        ],
+        "correct": 2,
+        "hint": "Anaphylaxis, convulsion, or encephalopathy/altered consciousness within 72 hours of a prior dose.",
+        "explanation": "Severe systemic adverse events (anaphylaxis, seizures, altered GCS) within 72 hours of vaccination represent absolute contraindications to subsequent doses of that specific vaccine product."
+      },
+      {
+        "q": "Which of the following conditions is FALSELY considered a contraindication and SHOULD NOT delay routine vaccination?",
+        "options": [
+          "A) Active untreated pulmonary tuberculosis",
+          "B) Mild upper respiratory tract infection (common cold) without significant fever, or minor local reaction to a previous dose",
+          "C) High-dose systemic chemotherapy for acute leukemia",
+          "D) Severe acute febrile illness requiring inpatient hospitalization"
+        ],
+        "correct": 1,
+        "hint": "A mild cold without significant fever or a minor prior local reaction does not delay vaccination.",
+        "explanation": "Mild illnesses (colds, mild diarrhea without fever), previous minor local redness, breastfeeding, and completed antibiotic courses are false contraindications; vaccination should proceed normally."
+      },
+      {
+        "q": "Why are chronic chest diseases (e.g., Cystic Fibrosis) and Congenital Heart Disease considered IMPORTANT INDICATIONS rather than contraindications for immunization?",
+        "options": [
+          "A) They accelerate vaccine metabolism in the liver",
+          "B) Vaccines cure the underlying structural heart defect",
+          "C) These children have no active B-lymphocytes",
+          "D) These underlying conditions place children at significantly higher risk for severe morbidity and mortality from vaccine-preventable respiratory infections"
+        ],
+        "correct": 3,
+        "hint": "They increase risk of severe complications from vaccine-preventable infections.",
+        "explanation": "Children with chronic cardiac or pulmonary compromise suffer disproportionately severe complications if infected with pathogens like measles, pertussis, or pneumococcus, making timely vaccination vital."
+      },
+      {
+        "q": "How is an Adverse Event Following Immunization (AEFI) defined in public health monitoring?",
+        "options": [
+          "A) Any untoward medical occurrence following immunization that does not necessarily have a causal relationship with the usage of the vaccine",
+          "B) A proven toxic manufacturing error present in every batch of a vaccine",
+          "C) A legal claim filed by a patient against a healthcare worker",
+          "D) An immediate allergic skin reaction occurring exclusively within 60 seconds of injection"
+        ],
+        "correct": 0,
+        "hint": "Any untoward medical event after immunization, regardless of proven causality.",
+        "explanation": "An AEFI is any untoward medical event occurring after vaccination, regardless of whether a direct causal connection to the vaccine product exists."
+      },
+      {
+        "q": "What three reporting categories are used to classify AEFIs based on clinical severity?",
+        "options": [
+          "A) Transient, Permanent, and Terminal",
+          "B) Immediate, Delayed, and Late-onset",
+          "C) Minor, Severe, and Serious",
+          "D) Local, Regional, and Systemic"
+        ],
+        "correct": 2,
+        "hint": "Minor, severe, and serious.",
+        "explanation": "For public health reporting, AEFIs are categorized into Minor, Severe, and Serious reactions."
+      },
+      {
+        "q": "What features characterize MINOR vaccine reactions?",
+        "options": [
+          "A) High risk of permanent paralysis and brain damage",
+          "B) Common, self-limiting reactions occurring within a few hours (e.g., pain, mild swelling, redness at injection site, low-grade fever, irritability) that pose little danger",
+          "C) Mandatory requirement for inpatient ICU admission",
+          "D) Occurrence exclusively after 6 months from vaccination"
+        ],
+        "correct": 1,
+        "hint": "Common, mild, self-limiting reactions like soreness, minor swelling, or low fever.",
+        "explanation": "Minor AEFI reactions are brief, localized or mild systemic responses (injection site soreness, low fever) triggered by normal immune activation."
+      },
+      {
+        "q": "What criteria classify an AEFI as a SERIOUS Adverse Event?",
+        "options": [
+          "A) Minor local itching lasting 10 minutes",
+          "B) Mild fever of 38.1°C that responds to paracetamol",
+          "C) Temporary fussiness lasting 1 hour",
+          "D) Event resulting in death, inpatient hospitalization, persistent/significant disability, an AEFI cluster, or evoking significant community concern"
+        ],
+        "correct": 3,
+        "hint": "Death, hospitalization, persistent disability, cluster event, or major community concern.",
+        "explanation": "A serious AEFI meets severe outcome thresholds: fatality, hospitalization, permanent disability, congenital anomaly, or cluster events causing public panic."
+      },
+      {
+        "q": "Which of the five WHO cause-specific categories describes an AEFI caused by an inherent property of the vaccine product itself?",
+        "options": [
+          "A) Vaccine product-related reaction",
+          "B) Vaccine quality defect-related reaction",
+          "C) Immunization error-related reaction",
+          "D) Coincidental event"
+        ],
+        "correct": 0,
+        "hint": "Due to an inherent property of the vaccine product itself.",
+        "explanation": "A vaccine product-related reaction stems directly from an inherent pharmacological/immunological property of the properly manufactured vaccine (e.g., extensive arm swelling following DTP)."
+      },
+      {
+        "q": "An outbreak of staphylococcal abscesses occurring at a health facility due to the reuse of a single contaminated multi-dose vaccine vial is classified under which AEFI category?",
+        "options": [
+          "A) Vaccine product-related reaction",
+          "B) Immunization anxiety-related reaction",
+          "C) Immunization error-related reaction",
+          "D) Coincidental event"
+        ],
+        "correct": 2,
+        "hint": "Contamination or improper handling/technique is an immunization error-related reaction.",
+        "explanation": "Infections or injuries caused by improper handling, reconstitution, storage, or administration technique (e.g., contaminated vials) are immunization error-related reactions."
+      },
+      {
+        "q": "A case of paralytic poliomyelitis occurring because a manufacturer failed to completely inactivate a lot of Inactivated Polio Vaccine (IPV) represents which AEFI cause category?",
+        "options": [
+          "A) Vaccine product-related reaction",
+          "B) Vaccine quality defect-related reaction",
+          "C) Immunization anxiety-related reaction",
+          "D) Coincidental event"
+        ],
+        "correct": 1,
+        "hint": "A manufacturing/inactivation flaw is a vaccine quality defect-related reaction.",
+        "explanation": "Flaws arising from manufacturing errors, inadequate inactivation, or device failure fall under vaccine quality defect-related reactions."
+      },
+      {
+        "q": "An adolescent girl experiences vasovagal syncope (fainting) immediately following HPV vaccination due to fear of the needle. How is this AEFI classified?",
+        "options": [
+          "A) Vaccine product-related reaction",
+          "B) Vaccine quality defect-related reaction",
+          "C) Coincidental event",
+          "D) Immunization anxiety-related reaction"
+        ],
+        "correct": 3,
+        "hint": "Fainting from needle fear is an immunization anxiety-related reaction.",
+        "explanation": "Vasovagal syncope, hyperventilation, or panic-induced symptoms surrounding the injection process represent immunization anxiety-related reactions."
+      },
+      {
+        "q": "An infant develops a high fever and is diagnosed with acute Plasmodium falciparum malaria 4 hours after receiving routine 10-week vaccinations. What type of AEFI is this?",
+        "options": [
+          "A) Coincidental event",
+          "B) Vaccine product-related reaction",
+          "C) Immunization error-related reaction",
+          "D) Vaccine quality defect"
+        ],
+        "correct": 0,
+        "hint": "An unrelated illness occurring by chance around vaccination time is a coincidental event.",
+        "explanation": "A coincidental AEFI occurs when an underlying illness (such as malaria) manifests at the time of vaccination purely by temporal association, unrelated to the vaccine."
+      },
+      {
+        "q": "How is an 'AEFI Cluster' defined in epidemiology?",
+        "options": [
+          "A) A single patient experiencing 5 different side effects simultaneously",
+          "B) A national increase in vaccine costs over 5 years",
+          "C) Two or more cases of the same adverse event related in time, place, or vaccine administered",
+          "D) The routine co-administration of Pentavalent and PCV vaccines"
+        ],
+        "correct": 2,
+        "hint": "Two or more cases of the same adverse event linked by time, place, or vaccine.",
+        "explanation": "An AEFI cluster involves 2 or more similar adverse events grouped by location, time frame, specific healthcare provider, or shared vaccine lot/vial."
+      },
+      {
+        "q": "What operational mechanism is defined as 'Catch-Up Vaccination'?",
+        "options": [
+          "A) Administering double doses of vaccines to accelerate growth",
+          "B) Vaccinating an individual who is overdue or missing routine vaccine doses for which they are eligible per the national schedule",
+          "C) Vaccinating elderly grandparents alongside infants",
+          "D) Substituting oral vaccines for injectable vaccines during epidemics"
+        ],
+        "correct": 1,
+        "hint": "Giving overdue or missed routine vaccine doses to eligible individuals.",
+        "explanation": "Catch-up vaccination strategies focus on identifying and immunizing individuals who missed scheduled doses, restoring population coverage."
+      },
+      {
+        "q": "According to the WHO MOV strategy, what four-step framework guides health facilities to eliminate missed opportunities?",
+        "options": [
+          "A) Pre-screen, Quarantine, Inject, Report",
+          "B) Isolate, Sanitize, Vaccinate, Discharge",
+          "C) Audit, Fine, Suspend, Retrain",
+          "D) Assessment, Analysis, Action, and Impact"
+        ],
+        "correct": 3,
+        "hint": "Assessment, Analysis, Action, and Impact.",
+        "explanation": "The WHO MOV strategy uses a four-phase methodology: Assessment (quantifying MOVs), Analysis (identifying root causes), Action (revising workflows), and Impact (measuring coverage improvement)."
+      },
+      {
+        "q": "What operational strategy can health facilities use to monitor monthly immunization coverage and detect drop-outs?",
+        "options": [
+          "A) Standard monthly monitoring charts tracking coverage and doses administered",
+          "B) Annual door-to-door census surveys only",
+          "C) Measuring infant weight every 2 weeks",
+          "D) Testing serum IgG levels in every child at every visit"
+        ],
+        "correct": 0,
+        "hint": "Monthly monitoring charts tracking doses and coverage.",
+        "explanation": "Microplanning and routine monitoring rely on visual monthly tracking charts displayed in facilities to monitor coverage targets and drop-out rates."
+      },
+      {
+        "q": "What is the recommended schedule for Tetanus-diphtheria (Td) vaccination in women of childbearing age (15–49 years)?",
+        "options": [
+          "A) Single dose at age 15 only",
+          "B) Annual injections for 20 years",
+          "C) 5-dose sequence: Td-1 at first contact, Td-2 at 1 month, Td-3 at 6 months, Td-4 at 1 year, and Td-5 at 1 year after Td-4",
+          "D) Td is given only during active labor"
+        ],
+        "correct": 2,
+        "hint": "5 doses: Td-1 at first contact, Td-2 at +1 mo, Td-3 at +6 mos, Td-4 at +1 yr, Td-5 at +1 yr.",
+        "explanation": "The Td schedule for women of reproductive age consists of 5 doses (Td-1 at 1st visit, Td-2 +1mo, Td-3 +6mo, Td-4 +1yr, Td-5 +1yr) to establish lifelong protection against maternal and neonatal tetanus."
+      },
+      {
+        "q": "Which of the following describes an AEFI cluster caused by improper cold chain management?",
+        "options": [
+          "A) Anaphylaxis in a single child with egg allergy",
+          "B) Multiple infants developing severe local sterile abscesses or loss of potency after receiving vaccines that were accidentally frozen during transport",
+          "C) A child developing a runny nose 3 weeks after OPV",
+          "D) Fainting in 10 adults receiving yellow fever vaccine"
+        ],
+        "correct": 1,
+        "hint": "Freezing freeze-sensitive vaccines can cause sterile abscesses or loss of potency.",
+        "explanation": "Freezing aluminum-adjuvanted vaccines alters physical stability, predisposing to localized sterile abscess clusters or treatment failure."
+      },
+      {
+        "q": "Is an infant who recently completed a course of oral antibiotics for a mild skin infection eligible for routine 6-week vaccinations?",
+        "options": [
+          "A) No, antibiotics neutralize all live and inactivated vaccines",
+          "B) No, vaccination must be delayed for 6 months after antibiotics",
+          "C) Yes, but only if given via the intradermal route",
+          "D) Yes, a recently completed antibiotic course is NOT a contraindication"
+        ],
+        "correct": 3,
+        "hint": "Recent or completed antibiotic therapy does not contraindicate routine vaccines.",
+        "explanation": "Antibiotic usage does not interfere with the antibody response to routine pediatric vaccines and is not a reason to withhold immunization."
+      },
+      {
+        "q": "A mother brings her 10-week-old infant to the clinic for a routine weight check. The health worker notes that the child received BCG and OPV 0 at birth, but missed the 6-week vaccines. The child has no fever or acute illness. What is the correct clinical action?",
+        "options": [
+          "A) Administer OPV 1, Pentavalent 1, PCV 1, and Rotavac 1 immediately at this visit (avoiding a Missed Opportunity for Vaccination)",
+          "B) Turn the mother away and tell her to return exactly when the child is 6 months old",
+          "C) Restart the entire vaccination schedule from birth by re-injecting BCG",
+          "D) Administer only oral Vitamin A and withhold all vaccines"
+        ],
+        "correct": 0,
+        "hint": "Give the missed 6-week vaccines right away without restarting the schedule.",
+        "explanation": "Under catch-up guidelines and MOV elimination protocols, any eligible child attending a facility should receive overdue doses immediately without restarting the series or turning them away."
+      },
+      {
+        "q": "A 14-week-old infant receives OPV 3, Pentavalent 3, PCV 3, Rotavac 3, and IPV 1. Six hours later, the infant develops a temperature of 38.2°C, mild fussiness, and redness (1 cm) at the thigh injection site. How is this AEFI classified by severity, what is the cause category, and what is the appropriate management?",
+        "options": [
+          "A) Serious AEFI; Immunization error; Hospitalize in ICU immediately",
+          "B) Severe AEFI; Quality defect; Administer high-dose IV corticosteroids",
+          "C) Minor AEFI; Vaccine product-related reaction; Reassure the mother, advise supportive care/paracetamol, and emphasize that this is a normal self-limiting immune response",
+          "D) Coincidental AEFI; Anxiety-related; Permanent contraindication to future vaccines"
+        ],
+        "correct": 2,
+        "hint": "Low fever and minor local redness = minor vaccine product-related reaction; reassure and give supportive care.",
+        "explanation": "Low fever and minor local inflammation within hours of DPT/Pentavalent vaccination represent a typical minor vaccine product-related reaction requiring symptomatic care and parental reassurance."
+      },
+      {
+        "q": "A 12-month-old child with known acute lymphoblastic leukemia currently receiving high-dose systemic chemotherapy presents to the clinic. The mother requests the 9-month Measles-Rubella (MR 1) vaccine, which was missed earlier. What is the correct management decision?",
+        "options": [
+          "A) Administer MR 1 immediately because measles is dangerous",
+          "B) Contraindicate MR 1 at this time because live-attenuated vaccines (MR) are strictly contraindicated during severe immunosuppressive chemotherapy",
+          "C) Administer a double dose of MR 1 subcutaneously",
+          "D) Substitute MR 1 with oral polio vaccine"
+        ],
+        "correct": 1,
+        "hint": "Live vaccines like MR are contraindicated during active immunosuppressive chemotherapy.",
+        "explanation": "Active malignancy and immunosuppressive chemotherapy are absolute contraindications to live vaccines (MR, BCG, OPV) due to the risk of severe vaccine-derived disease; live vaccines are deferred until immune recovery."
+      },
+      {
+        "q": "Why are Albendazole tablets NOT recommended for deworming in infants aged 12–23 months under the integrated EPI schedule?",
+        "options": [
+          "A) Albendazole neutralizes Measles-Rubella antibodies",
+          "B) Albendazole causes severe hyperkalemia in infants",
+          "C) Mebendazole is the preferred first-line agent for 12–23 months; Albendazole (400 mg) is approved as second-line therapy only for children 24 months and older",
+          "D) Albendazole is an injectable vaccine"
+        ],
+        "correct": 2,
+        "hint": "Mebendazole is used for 12–23 months; albendazole (400 mg) is second-line for ≥24 months.",
+        "explanation": "Integrated service protocols specify Mebendazole (500 mg) for ages 12–23 months, reserving Albendazole (400 mg) as second-line deworming for age 24 months and above."
+      },
+      {
+        "q": "A health facility reports 5 cases of deep tissue abscesses at the left thigh injection site among different infants who all received Pentavalent 1 on the same morning from the same healthcare worker. What epidemiological entity is this, what is the likely cause category, and what immediate action is needed?",
+        "options": [
+          "A) AEFI Cluster; Immunization error-related reaction (unsterile technique or contaminated multidose vial); Halt use of the specific open vial, investigate operational practices, and audit cold chain/injection safety",
+          "B) Coincidental cluster; Vaccine product-related; No action needed",
+          "C) Minor AEFI; Anxiety-related; Ban all pentavalent vaccinations nationally",
+          "D) Normal expected reaction; Quality defect; Discharge patients without care"
+        ],
+        "correct": 0,
+        "hint": "Multiple similar local abscesses from one session = AEFI cluster due to immunization error; stop the vial and investigate.",
+        "explanation": "Multiple identical local bacterial infections arising from a single clinic session define an AEFI cluster caused by programmatic/administration errors (contamination), requiring immediate field investigation and practice audit."
+      },
+      {
+        "q": "How does the WHO define 'Zero-Dose Children' in global immunization tracking?",
+        "options": [
+          "A) Children who have received all routine vaccines but no booster shots",
+          "B) Children who experience zero side effects after vaccination",
+          "C) Children who have not received any routine vaccines (specifically measured as lacking the first dose of DTP/Pentavalent)",
+          "D) Infants born with zero detectable serum antibodies"
+        ],
+        "correct": 2,
+        "hint": "Children missing routine vaccines, tracked by lacking DTP1/Pentavalent 1.",
+        "explanation": "'Zero-dose children' is an epidemiological term referring to children who have received no routine vaccinations, operationally measured by failure to receive DTP1/Pentavalent 1."
+      },
+      {
+        "q": "Which of the following children SHOULD receive routine vaccinations today without delay?",
+        "options": [
+          "A) A child with an active anaphylactic reaction to egg protein receiving flu vaccine",
+          "B) A child with a mild runny nose, temperature of 37.1°C, who is alert, playing, and eating well",
+          "C) A child in septic shock with a GCS of 6 in the ICU",
+          "D) A child with active untreated fulminant tuberculosis"
+        ],
+        "correct": 1,
+        "hint": "An alert, well child with a mild runny nose and normal temperature has no valid contraindication.",
+        "explanation": "Minor afebrile upper respiratory symptoms are false contraindications; withholding vaccines in this setting creates unnecessary missed opportunities."
+      },
+      {
+        "q": "When administering Td vaccine to a 25-year-old pregnant woman attending her first antenatal visit (with no prior documented tetanus vaccination history), what is the correct schedule?",
+        "options": [
+          "A) Give 1 dose at delivery",
+          "B) Give Td-1 today, Td-2 after 5 years",
+          "C) Td is contraindicated in pregnancy",
+          "D) Administer Td-1 today at first contact, Td-2 one month later (at least 2 weeks before delivery), and Td-3 six months later"
+        ],
+        "correct": 3,
+        "hint": "Td-1 at first contact, Td-2 one month later, and Td-3 six months later.",
+        "explanation": "Maternal tetanus protection requires Td-1 at first ANC contact, Td-2 1 month later (providing acute protection for delivery), followed by Td-3 at 6 months to build long-term immunity."
+      },
+      {
+        "q": "What is the rationale behind administering Hepatitis B vaccine as part of the Pentavalent formulation at 6, 10, and 14 weeks of age?",
+        "options": [
+          "A) To establish early active immunity against chronic Hepatitis B virus infection and prevent childhood cirrhosis and hepatocellular carcinoma",
+          "B) To treat acute hepatitis A gastroenteritis",
+          "C) To replace the need for BCG vaccination",
+          "D) To prevent acute rotavirus diarrhea"
+        ],
+        "correct": 0,
+        "hint": "Prevents chronic Hepatitis B infection and long-term liver cirrhosis or hepatocellular carcinoma.",
+        "explanation": "Infant Hepatitis B vaccination induces early protective antibody levels, preventing chronic carrier states, liver cirrhosis, and long-term risk of hepatocellular carcinoma."
+      },
+      {
+        "q": "In evaluating an AEFI case, how is a 'Vaccine Quality Defect-Related Reaction' distinguished from an 'Immunization Error-Related Reaction'?",
+        "options": [
+          "A) Quality defects affect only adult vaccines; errors affect only infant vaccines",
+          "B) Quality defects cause fever; errors cause pain",
+          "C) Quality defects arise from manufacturing or device flaws provided by the producer; errors arise from improper handling, storage, or administration by healthcare staff",
+          "D) Quality defects are always coincidental; errors are always product-related"
+        ],
+        "correct": 2,
+        "hint": "Quality defect = manufacturer/device flaw; immunization error = improper handling, storage, or administration.",
+        "explanation": "Quality defects reflect flaws originating from the manufacturer (e.g., inadequate inactivation), whereas immunization errors result from human operational failures in cold chain maintenance, preparation, or injection technique."
+      }
+    ]
+  }
+]
