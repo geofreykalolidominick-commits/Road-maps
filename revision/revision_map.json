@@ -7,7 +7,12 @@
     {
       "id": "surgery",
       "label": "Surgery",
-      "files": []
+      "files": [
+        "revision/md5_surgery_acute_abdomen_general_overview.json",
+        "revision/md5_surgery_dysphagia_esophageal_motility_and_esophageal_cancer.json",
+        "revision/md5_surgery_peptic_ulcer_disease_and_h_pylori.json",
+        "revision/md5_surgery_gastric_malignancies.json"
+      ]
     },
     {
       "id": "orthopedic",
