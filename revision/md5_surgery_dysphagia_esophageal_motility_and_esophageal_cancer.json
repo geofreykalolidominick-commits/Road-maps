@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Dysphagia, Esophageal Motility & Esophageal Cancer",
+    "questions": [
+      {
+        "q": "How is dysphagia defined clinically, and how is it distinguished from globus and aphagia?",
+        "options": [
+          "A) Dysphagia is pain on swallowing, whereas globus is the complete inability to swallow saliva",
+          "B) Dysphagia is the sensation of food or fluid sticking during transit from mouth to stomach, whereas globus is a persistent lump sensation without true swallowing difficulty, and aphagia is complete inability to swallow",
+          "C) Dysphagia refers exclusively to oropharyngeal muscle weakness, whereas globus is caused by esophageal cancer",
+          "D) Dysphagia is a definitive disease diagnosis, while globus and aphagia are physiological reflexes"
+        ],
+        "correct": 1,
+        "hint": "Dysphagia = sticking sensation; globus = lump without true difficulty; aphagia = complete inability to swallow.",
+        "explanation": "Dysphagia is a symptom (never a diagnosis) defined as difficulty in swallowing where food or fluid sticks on its way from mouth to stomach. Odynophagia is pain on swallowing. Globus is a persistent lump in the throat without true difficulty, while aphagia is the complete inability to swallow even saliva (a medical emergency)."
+      },
+      {
+        "q": "During upper GI endoscopy, at what distance from the incisors is the first anatomical narrowing (cricopharyngeus muscle / upper esophageal sphincter) located?",
+        "options": [
+          "A) 10 cm",
+          "B) 15 cm",
+          "C) 25 cm",
+          "D) 40 cm"
+        ],
+        "correct": 1,
+        "hint": "15 cm from the incisors (common site of instrumental perforation and foreign body impaction).",
+        "explanation": "The esophagus has three major anatomical narrowings measured from the incisors: the cricopharyngeus muscle (upper sphincter) at 15 cm (the commonest site of instrumental perforation and foreign body impaction), the aortic arch/left main bronchus crossing at 25 cm, and the diaphragmatic hiatus/lower esophageal sphincter at 40 cm."
+      },
+      {
+        "q": "Which histological feature of the esophageal wall explains why esophageal malignancies and anastomotic leaks spread rapidly into the mediastinum?",
+        "options": [
+          "A) Absence of the mucosal epithelial layer",
+          "B) Absence of a serosal layer",
+          "C) Absence of submucosal blood vessels",
+          "D) Absence of smooth muscle in the lower two-thirds"
+        ],
+        "correct": 1,
+        "hint": "No serosal layer—only adventitia.",
+        "explanation": "The esophagus is a 25 cm muscular tube that lacks a serosa (having only adventitia). The absence of a protective serosal layer allows esophageal tumors and transmural perforations or leaks to spread rapidly into the surrounding mediastinal tissue."
+      },
+      {
+        "q": "Dysphagia to solid foods typically becomes clinically apparent only when the esophageal lumen is narrowed to what extent?",
+        "options": [
+          "A) 10% occlusion",
+          "B) 25% occlusion",
+          "C) Approximately two-thirds (66%) occlusion (lumen <13 mm)",
+          "D) 95% occlusion"
+        ],
+        "correct": 2,
+        "hint": "About two-thirds (66%) occlusion or lumen <13 mm.",
+        "explanation": "Solid food dysphagia usually manifests only when approximately two-thirds of the lumen is occluded or narrowed to about 13 mm or less. This high functional reserve is why esophageal cancer presents late in its clinical course."
+      },
+      {
+        "q": "Which of the three phases of swallowing is under voluntary motor control?",
+        "options": [
+          "A) Oral phase",
+          "B) Pharyngeal phase",
+          "C) Esophageal phase",
+          "D) Gastric phase"
+        ],
+        "correct": 0,
+        "hint": "The oral phase (~1 second).",
+        "explanation": "Swallowing consists of three phases: the voluntary oral phase (lasting about 1 second, where chewing and bolus formation occur), followed by the involuntary reflex pharyngeal phase (under 1 second) and esophageal phase (8 to 10 seconds)."
+      },
+      {
+        "q": "Which neurotransmitters are released by inhibitory postganglionic neurons in the myenteric plexus to relax the lower esophageal sphincter (LOS)?",
+        "options": [
+          "A) Acetylcholine and Substance P",
+          "B) Nitric oxide and Vasoactive Intestinal Peptide (VIP)",
+          "C) Histamine and Dopamine",
+          "D) Serotonin and Norepinephrine"
+        ],
+        "correct": 1,
+        "hint": "Nitric oxide and VIP.",
+        "explanation": "In the myenteric (Auerbach's) plexus, excitatory neurons release acetylcholine to cause muscle contraction, while inhibitory neurons release nitric oxide and VIP to mediate sphincter relaxation and deglutitive inhibition."
+      },
+      {
+        "q": "What is the core underlying pathophysiological lesion in primary achalasia?",
+        "options": [
+          "A) Hypertrophy of the cricopharyngeus muscle",
+          "B) Selective loss of inhibitory postganglionic neurons (nitric oxide / VIP) in the myenteric plexus",
+          "C) Overproduction of gastric acid causing lower esophageal stricture",
+          "D) Fibrotic replacement of smooth muscle in scleroderma"
+        ],
+        "correct": 1,
+        "hint": "Loss of inhibitory (nitric oxide / VIP) neurons in the myenteric plexus.",
+        "explanation": "Primary achalasia is caused by the degeneration and loss of inhibitory neurons releasing nitric oxide and VIP in the myenteric plexus. Because excitatory cholinergic input is preserved, the lower esophageal sphincter fails to relax and peristalsis in the esophageal body is lost."
+      },
+      {
+        "q": "In high-resolution manometry, which parameter measures esophagogastric junction (EGJ) relaxation, where a value above ~15 mmHg is considered abnormal?",
+        "options": [
+          "A) Distal Contractile Integral (DCI)",
+          "B) Integrated Relaxation Pressure (IRP)",
+          "C) Distal Latency (DL)",
+          "D) Bolus Entry Time (BET)"
+        ],
+        "correct": 1,
+        "hint": "Integrated Relaxation Pressure (IRP).",
+        "explanation": "The Integrated Relaxation Pressure (IRP) measures the average pressure across the esophagogastric junction during swallow-induced relaxation. An elevated IRP (typically >15 mmHg) indicates impaired lower sphincter relaxation, a key diagnostic criterion for achalasia and EGJ outflow obstruction."
+      },
+      {
+        "q": "Zenker's diverticulum is pathologically categorized as which type of anatomical pouch?",
+        "options": [
+          "A) True traction diverticulum involving all wall layers",
+          "B) False pulsion mucosal diverticulum protruding through Killian's dehiscence",
+          "C) Congenital duplication cyst of the lower esophagus",
+          "D) Epiphrenic diverticulum of the distal esophagus"
+        ],
+        "correct": 1,
+        "hint": "False pulsion diverticulum through Killian's dehiscence.",
+        "explanation": "Zenker's diverticulum is a false (pulsion) diverticulum consisting of mucosa and submucosa herniating posteriorly through Killian's dehiscence—a weak triangular area between the thyropharyngeus and cricopharyngeus muscles—caused by high intraglottic pressure from a non-relaxing cricopharyngeus."
+      },
+      {
+        "q": "What percentage of esophageal cancers worldwide is accounted for by squamous cell carcinoma (SCC)?",
+        "options": [
+          "A) 15%",
+          "B) 50%",
+          "C) 85%",
+          "D) 99%"
+        ],
+        "correct": 2,
+        "hint": "Around 85% worldwide.",
+        "explanation": "Worldwide, about 85% of esophageal cancers are squamous cell carcinoma (SCC), which predominates in low-income settings and high-incidence zones like the East African corridor. Adenocarcinoma accounts for the remaining proportion and is predominant in Western populations."
+      },
+      {
+        "q": "A patient complaining of difficulty initiating a swallow, accompanied by immediate coughing, choking, and nasal regurgitation, is presenting with which category of dysphagia?",
+        "options": [
+          "A) Oropharyngeal (transfer) dysphagia",
+          "B) Esophageal (transport) mechanical dysphagia",
+          "C) Esophageal motility dysphagia",
+          "D) Functional globus sensation"
+        ],
+        "correct": 0,
+        "hint": "Oropharyngeal (transfer) dysphagia.",
+        "explanation": "Difficulty initiating a swallow combined with coughing, choking, dysarthria, or nasal regurgitation signifies oropharyngeal (transfer) dysphagia, typically caused by neurological conditions (stroke, ALS, Parkinson's, myasthenia) or pharyngeal pouches. It is initially evaluated by speech therapy and videofluoroscopy."
+      },
+      {
+        "q": "Dysphagia that affects solids initially and progresses over weeks to semisolids and liquids points to which underlying process?",
+        "options": [
+          "A) Primary esophageal motility disorder",
+          "B) Mechanical luminal obstruction (e.g., esophageal carcinoma or stricture)",
+          "C) Cricopharyngeal dysfunction",
+          "D) Scleroderma esophagus"
+        ],
+        "correct": 1,
+        "hint": "Progressive solids-to-liquids dysphagia indicates mechanical obstruction.",
+        "explanation": "Solids-only dysphagia that is progressive indicates a mechanical obstruction (carcinoma if short history with weight loss; peptic stricture if long reflux history). Motility disorders (like achalasia) typically cause dysphagia to both solids and liquids from the onset."
+      },
+      {
+        "q": "According to the Mellow-Pinkas (Atkinson) clinical scoring system for dysphagia, a patient who can swallow liquids only receives which numerical score?",
+        "options": [
+          "A) Score 0",
+          "B) Score 1",
+          "C) Score 3",
+          "D) Score 4"
+        ],
+        "correct": 2,
+        "hint": "Score 3 = liquids only (Score 4 = nothing/complete dysphagia).",
+        "explanation": "In the Mellow-Pinkas scale (0 to 4): 0 = normal diet; 1 = most solids; 2 = semisolids only; 3 = liquids only; 4 = nothing (complete dysphagia / inability to swallow saliva)."
+      },
+      {
+        "q": "Killian's dehiscence, the anatomical site of Zenker's diverticulum formation, is bounded by which two muscle structures?",
+        "options": [
+          "A) Superior and middle pharyngeal constrictors",
+          "B) Oblique fibers of thyropharyngeus and transverse fibers of cricopharyngeus",
+          "C) Cricopharyngeus and longitudinal esophageal muscle",
+          "D) Stylopharyngeus and palatopharyngeus muscles"
+        ],
+        "correct": 1,
+        "hint": "Thyropharyngeus (oblique) and cricopharyngeus (transverse) fibers.",
+        "explanation": "Killian's triangle (dehiscence) is a weak anatomical space in the posterior pharyngeal wall situated between the upper oblique fibers of the thyropharyngeus muscle and the lower transverse fibers of the cricopharyngeus muscle."
+      },
+      {
+        "q": "Which of the following is an established major risk factor for esophageal squamous cell carcinoma (SCC)?",
+        "options": [
+          "A) Central obesity and chronic GERD",
+          "B) Tobacco smoking, alcohol consumption, and very hot beverages",
+          "C) High dietary fiber intake",
+          "D) Helicobacter pylori infection"
+        ],
+        "correct": 1,
+        "hint": "Tobacco, alcohol, and very hot drinks.",
+        "explanation": "Esophageal SCC risk factors include tobacco and alcohol (which multiply each other's effects), thermal injury from very hot drinks, diets poor in fresh fruit/vegetables, wood smoke, achalasia, caustic strictures, and Plummer-Vinson syndrome. GERD and obesity drive adenocarcinoma."
+      },
+      {
+        "q": "What is the primary recognized precursor lesion for distal esophageal adenocarcinoma?",
+        "options": [
+          "A) Squamous dysplasia",
+          "B) Barrett's esophagus (columnar intestinal metaplasia)",
+          "C) Achalasia-associated stasis esophagitis",
+          "D) Gastric heterotopia"
+        ],
+        "correct": 1,
+        "hint": "Barrett's esophagus (columnar intestinal metaplasia).",
+        "explanation": "Barrett's esophagus—defined as columnar intestinal metaplasia extending ≥ 1 cm above the gastroesophageal junction—is the key premalignant precursor for distal esophageal adenocarcinoma, carrying a 0.1% to 0.3% annual risk of malignant transformation."
+      },
+      {
+        "q": "Under the Chicago classification v4.0, Type II achalasia is defined by which manometric pattern?",
+        "options": [
+          "A) 100% failed peristalsis with no pressurisation of the esophageal body",
+          "B) 100% failed peristalsis with panoesophageal pressurisation in ≥ 20% of swallows",
+          "C) Premature (spastic) contractions in ≥ 20% of swallows",
+          "D) Normal IRP with hypercontractile waves"
+        ],
+        "correct": 1,
+        "hint": "Failed peristalsis + panoesophageal pressurisation in ≥ 20% of swallows.",
+        "explanation": "Chicago classification v4.0 divides achalasia into three types (all with elevated IRP): Type I (classic, flaccid body, 100% failed peristalsis, no pressurisation); Type II (panoesophageal pressurisation in ≥ 20% of swallows; best treatment response); and Type III (spastic, premature contractions in ≥ 20% of swallows)."
+      },
+      {
+        "q": "Which condition carries up to a 1000-fold increased risk of esophageal squamous cell carcinoma 20 to 40 years after initial exposure?",
+        "options": [
+          "A) Caustic (lye) ingestion stricture",
+          "B) Hiatus hernia",
+          "C) Candida esophagitis",
+          "D) Schatzki ring"
+        ],
+        "correct": 0,
+        "hint": "Caustic (lye) stricture.",
+        "explanation": "Ingestion of caustic agents (lye) causes severe scarring and chronic tissue turnover, increasing the risk of esophageal SCC by up to 1000 times. Carcinoma typically develops 20 to 40 years after the initial injury."
+      },
+      {
+        "q": "Plummer-Vinson (Paterson-Brown-Kelly) syndrome is characterized by which clinical triad?",
+        "options": [
+          "A) Obesity, heartburn, and distal adenocarcinoma",
+          "B) Iron deficiency anemia, dysphagia, and a post-cricoid esophageal web",
+          "C) Halitosis, neck mass, and coughing",
+          "D) Palmar hyperkeratosis, oral leukoplakia, and squamous cell carcinoma"
+        ],
+        "correct": 1,
+        "hint": "Iron deficiency anemia, dysphagia, and a post-cricoid web.",
+        "explanation": "Plummer-Vinson syndrome classically affects middle-aged women and consists of iron deficiency anemia, upper dysphagia, and a post-cricoid web. It is a premalignant condition for post-cricoid squamous cell carcinoma."
+      },
+      {
+        "q": "According to the Siewert classification of esophagogastric junction (EGJ) tumors, a carcinoma whose center sits between 1 cm above and 2 cm below the anatomical cardia is classified as which type?",
+        "options": [
+          "A) Siewert Type I",
+          "B) Siewert Type II",
+          "C) Siewert Type III",
+          "D) Siewert Type IV"
+        ],
+        "correct": 1,
+        "hint": "Siewert Type II (center 1 cm above to 2 cm below the GOJ).",
+        "explanation": "Siewert Type I tumors have their center 1 to 5 cm above the GOJ (distal esophageal adenocarcinoma); Siewert Type II centers from 1 cm above to 2 cm below (true carcinoma of the cardia); Siewert Type III centers 2 to 5 cm below the GOJ (subcardial gastric cancer)."
+      },
+      {
+        "q": "What physiological mechanism explains why a normal esophageal peristaltic wave moves sequentially in a proximal-to-distal direction?",
+        "options": [
+          "A) Gravity pulling the bolus down faster than circular muscle contractions",
+          "B) Deglutitive inhibition with a gradient of latency (inhibition lasts longer in distal segments than in proximal segments)",
+          "C) Constant high-pressure tonic contraction of the entire esophageal body",
+          "D) Retrograde contraction of longitudinal smooth muscle fibers"
+        ],
+        "correct": 1,
+        "hint": "Deglutitive inhibition with a distal latency gradient.",
+        "explanation": "Swallowing triggers deglutitive inhibition throughout the esophageal body. Inhibitory duration displays a latency gradient (shorter proximally, longer distally). As inhibition wears off sequentially from top to bottom, excitatory cholinergic contraction follows, creating sequential peristalsis."
+      },
+      {
+        "q": "What classic radiologic appearance on a barium swallow is characteristic of achalasia?",
+        "options": [
+          "A) Irregular 'apple-core' stricture with shouldered margins",
+          "B) Smooth, symmetrical tapering at the lower esophageal sphincter ('bird's beak') with proximal lumen dilatation",
+          "C) Multiple sacculations along the anterior esophageal wall",
+          "D) Extraluminal contrast extravasation into the left pleural space"
+        ],
+        "correct": 1,
+        "hint": "'Bird's beak' tapering at the LES with proximal dilatation.",
+        "explanation": "Barium swallow in achalasia demonstrates a dilated esophagus (sometimes tortuous/sigmoid in late stages), retained food/fluid, and a smooth, symmetrical tapering at the non-relaxing lower sphincter, classically described as a 'bird's beak'."
+      },
+      {
+        "q": "Which diagnostic investigation is considered the diagnostic gold standard for evaluating esophageal motility disorders?",
+        "options": [
+          "A) Barium swallow",
+          "B) Upper GI endoscopy",
+          "C) High-resolution manometry (HRM)",
+          "D) 24-hour pH-impedance testing"
+        ],
+        "correct": 2,
+        "hint": "High-resolution manometry (HRM).",
+        "explanation": "High-resolution manometry is the diagnostic gold standard for motility disorders. It evaluates esophageal body peristalsis and lower sphincter relaxation parameters (IRP), allowing definitive classification under the Chicago classification v4.0. Endoscopy is mandatory first to exclude mechanical obstruction."
+      },
+      {
+        "q": "In a patient with a large Zenker's diverticulum, what physical exam sign is elicited by compressing the neck swelling to produce a gurgling sound and emptying of the pouch?",
+        "options": [
+          "A) Carnett's sign",
+          "B) Boyce's sign",
+          "C) Boas sign",
+          "D) Troisier's sign"
+        ],
+        "correct": 1,
+        "hint": "Boyce's sign.",
+        "explanation": "Boyce's sign is the presence of a palpable left cervical mass that gurgles and empties when external pressure is applied, caused by compression of a fluid- and gas-filled Zenker's diverticulum."
+      },
+      {
+        "q": "Which imaging modality is the primary initial tool for staging local tumor extent (T4 invasion), mediastinal nodes, and distant visceral metastases (M stage) in esophageal cancer?",
+        "options": [
+          "A) Plain chest radiograph",
+          "B) Transabdominal ultrasound",
+          "C) Contrast-enhanced Computed Tomography (CT) scan of chest and abdomen",
+          "D) Barium swallow"
+        ],
+        "correct": 2,
+        "hint": "Contrast-enhanced CT of chest and abdomen.",
+        "explanation": "CT scan of the chest and abdomen with IV contrast is the initial staging investigation. It assesses esophageal wall thickening (>5 mm), invasion into adjacent structures (aorta, trachea, pericardium), mediastinal/abdominal lymphadenopathy, and distant liver/lung metastases."
+      },
+      {
+        "q": "During upper GI endoscopy, what application of Lugol's iodine solution helps detect early, subtle squamous dysplastic lesions?",
+        "options": [
+          "A) Dysplastic cells turn deep blue, while normal cells remain unstained",
+          "B) Normal glycogen-rich squamous mucosa stains dark brown, while dysplastic or malignant areas remain unstained (pale/pink)",
+          "C) Lugol's iodine fluoresces bright red under ultraviolet light",
+          "D) It selectively stains columnar Barrett's mucosa green"
+        ],
+        "correct": 1,
+        "hint": "Normal glycogen-rich squamous epithelium stains brown; dysplastic/malignant areas don't stain.",
+        "explanation": "Normal non-keratinized squamous epithelium contains abundant glycogen and stains dark brown with Lugol's iodine. Dysplastic or malignant cells lose glycogen and remain unstained (the 'pink color sign'), highlighting early mucosal lesions for targeted biopsy."
+      },
+      {
+        "q": "According to the AJCC 8th edition TNM staging for esophageal cancer, a tumor invading into the submucosa is categorized as which T stage?",
+        "options": [
+          "A) Tis",
+          "B) T1a",
+          "C) T1b",
+          "D) T2"
+        ],
+        "correct": 2,
+        "hint": "T1b = submucosa (T1a = lamina propria/muscularis mucosae).",
+        "explanation": "In esophageal TNM staging: Tis = high-grade dysplasia; T1a = tumor invades lamina propria or muscularis mucosae; T1b = tumor invades submucosa; T2 = tumor invades muscularis propria; T3 = tumor invades adventitia; T4a = resectable invasion (pleura, pericardium, diaphragm); T4b = unresectable invasion (aorta, trachea, vertebral body)."
+      },
+      {
+        "q": "Under the AJCC 8th edition N-staging for esophageal carcinoma, how many regional lymph nodes must contain metastases for an N2 classification?",
+        "options": [
+          "A) 1 to 2 nodes",
+          "B) 3 to 6 nodes",
+          "C) 7 or more nodes",
+          "D) 15 or more nodes"
+        ],
+        "correct": 1,
+        "hint": "3 to 6 regional lymph nodes = N2.",
+        "explanation": "Regional lymph node staging follows the '2, 6, 7' rule: N0 = 0 nodes; N1 = 1 to 2 regional nodes; N2 = 3 to 6 regional nodes; N3 = 7 or more regional nodes."
+      },
+      {
+        "q": "Which clinical scenario represents an absolute red flag requiring urgent upper GI endoscopy within 2 weeks?",
+        "options": [
+          "A) Intermittent heartburn for 5 years relieved by antacids in a 25-year-old",
+          "B) New progressive solid food dysphagia accompanied by unintentional weight loss in an adult",
+          "C) Transient globus sensation occurring only during emotional stress",
+          "D) Mild regurgitation of sour fluid after heavy meals"
+        ],
+        "correct": 1,
+        "hint": "New progressive dysphagia + unintentional weight loss.",
+        "explanation": "Progressive dysphagia, unintentional weight loss, onset age >55, iron deficiency anemia, hematemesis, hoarseness, or coughing on drinking are sinister alarm red flags mandating urgent endoscopy within 2 weeks to rule out esophageal cancer."
+      },
+      {
+        "q": "On high-resolution manometry, how is Distal Esophageal Spasm (DES) differentiated from Hypercontractile (Jackhammer) Esophagus?",
+        "options": [
+          "A) DES shows elevated IRP, whereas Jackhammer shows absent lower sphincter pressure",
+          "B) DES is characterized by premature (spastic) contractions with reduced distal latency (<4.5 s), whereas Jackhammer features hypercontractile, extremely high-amplitude waves (DCI >8000 mmHg·s·cm) with normal latency",
+          "C) DES occurs only in the upper third, whereas Jackhammer affects the stomach",
+          "D) DES has absent peristalsis, whereas Jackhammer has flaccid peristalsis"
+        ],
+        "correct": 1,
+        "hint": "DES = premature contractions (DL <4.5 s); Jackhammer = DCI >8000 mmHg·s·cm.",
+        "explanation": "Distal Esophageal Spasm is defined on manometry by premature contractions (distal latency <4.5 seconds in ≥ 20% of swallows). Jackhammer esophagus exhibits hypercontractile swallows with a Distal Contractile Integral (DCI) exceeding 8000 mmHg·s·cm in ≥ 20% of swallows."
+      },
+      {
+        "q": "Which modern therapeutic option for achalasia utilizes an endoscopic submucosal tunnel to perform a tailored myotomy of the lower esophageal sphincter, providing optimal outcomes for Type III (spastic) achalasia?",
+        "options": [
+          "A) Laparoscopic Nissen fundoplication",
+          "B) Peroral Endoscopic Myotomy (POEM)",
+          "C) Endoscopic radiofrequency ablation",
+          "D) Rigid pneumatic balloon dilatation"
+        ],
+        "correct": 1,
+        "hint": "POEM (Peroral Endoscopic Myotomy).",
+        "explanation": "POEM creates an endoscopic submucosal tunnel down the esophagus to perform a precise myotomy of the circular muscle layer and lower sphincter. It is as effective as Heller myotomy and offers superior outcomes for Type III (spastic) achalasia because the length of the myotomy can be tailored proximally."
+      },
+      {
+        "q": "For an elderly, frail achalasia patient who is unfit for pneumatic dilatation or myotomy, which temporary pharmacological intervention can be delivered endoscopically?",
+        "options": [
+          "A) Endoscopic subepithelial steroid injection",
+          "B) Endoscopic botulinum toxin injection into the lower esophageal sphincter",
+          "C) Topical application of silver nitrate",
+          "D) Intramuscular metoclopramide injections"
+        ],
+        "correct": 1,
+        "hint": "Endoscopic botulinum toxin injection.",
+        "explanation": "Botulinum toxin injected endoscopically into the lower sphincter blocks acetylcholine release, relaxing the sphincter. It provides temporary relief for 6 to 12 months and is reserved for elderly or unfit patients (as secondary scarring makes subsequent surgical myotomy more difficult)."
+      },
+      {
+        "q": "What mandatory procedure must always accompany open or endoscopic diverticulotomy/excision of a Zenker's diverticulum to prevent recurrence?",
+        "options": [
+          "A) Total esophagectomy",
+          "B) Cricopharyngeal myotomy",
+          "C) Nissen fundoplication",
+          "D) Truncal vagotomy"
+        ],
+        "correct": 1,
+        "hint": "Cricopharyngeal myotomy.",
+        "explanation": "The primary underlying cause of Zenker's diverticulum is failure of the cricopharyngeus muscle to relax properly. Therefore, cricopharyngeal myotomy is mandatory during surgical or endoscopic repair to divide the hypertonic sphincter and treat the root cause."
+      },
+      {
+        "q": "What is the recommended definitive management for very early esophageal mucosal carcinoma (Tis or T1a N0)?",
+        "options": [
+          "A) Total esophagectomy with 3-field lymphadenectomy",
+          "B) Definitive chemoradiotherapy alone",
+          "C) Endoscopic mucosal resection (EMR) or endoscopic submucosal dissection (ESD) ± ablation",
+          "D) High-dose oral proton pump inhibitors for 6 months"
+        ],
+        "correct": 2,
+        "hint": "Endoscopic resection (EMR or ESD) ± ablation.",
+        "explanation": "Cancers confined to the mucosa (Tis, T1a N0) carry a near-zero risk of lymph node metastasis (<1–3%). They are effectively treated with organ-preserving endoscopic resection (EMR or ESD), followed by ablation of any residual Barrett's segment."
+      },
+      {
+        "q": "For locally advanced resectable esophageal adenocarcinoma (T3–T4a or N+), which perioperative chemotherapy regimen demonstrated superior survival over neoadjuvant chemoradiotherapy in recent trial evidence (ESOPEC)?",
+        "options": [
+          "A) Single-agent oral capecitabine",
+          "B) Perioperative FLOT (5-fluorouracil, leucovorin, oxaliplatin, docetaxel)",
+          "C) Intravenous cyclophosphamide and vincristine",
+          "D) Gemcitabine plus cisplatin"
+        ],
+        "correct": 1,
+        "hint": "Perioperative FLOT.",
+        "explanation": "Perioperative FLOT chemotherapy (4 cycles before and 4 cycles after surgery) is standard of care for resectable gastric and gastroesophageal junction adenocarcinomas, demonstrating superior overall survival compared to neoadjuvant chemoradiotherapy (CROSS) in the ESOPEC trial."
+      },
+      {
+        "q": "Which surgical technique for subtotal esophagectomy involves a two-stage approach utilizing a laparotomy and a right thoracotomy, creating an intrathoracic anastomosis?",
+        "options": [
+          "A) McKeown (three-stage) esophagectomy",
+          "B) Ivor Lewis esophagectomy",
+          "C) Transhiatal (Orringer) esophagectomy",
+          "D) Hartmann's procedure"
+        ],
+        "correct": 1,
+        "hint": "Ivor Lewis (laparotomy + right thoracotomy, intrathoracic anastomosis).",
+        "explanation": "The Ivor Lewis esophagectomy is a two-stage procedure (laparotomy and right thoracotomy) used for middle and lower third tumors, with an intrathoracic anastomosis. McKeown uses three incisions (chest, abdomen, neck) with a cervical anastomosis. Transhiatal avoids thoracotomy entirely."
+      },
+      {
+        "q": "Following subtotal esophagectomy, what organ is most commonly reconstructed into a gastric conduit to restore alimentary continuity, and upon which blood vessel is it arterialized?",
+        "options": [
+          "A) Colon based on the middle colic artery",
+          "B) Gastric tube based on the right gastroepiploic artery",
+          "C) Free jejunal graft based on the left gastric artery",
+          "D) Ileal pouch based on the superior mesenteric artery"
+        ],
+        "correct": 1,
+        "hint": "Gastric tube supplied by the right gastroepiploic artery.",
+        "explanation": "The primary conduit for esophageal reconstruction is a tubularized gastric conduit derived from the greater curvature, vascularized by the intact right gastroepiploic artery arcade."
+      },
+      {
+        "q": "What is the immediate palliative procedure of choice for a patient with advanced unresectable esophageal cancer (T4b) who presents with severe dysphagia and a malignant tracheo-esophageal fistula?",
+        "options": [
+          "A) Open bypass esophagojejunostomy",
+          "B) Insertion of a covered self-expanding metal stent (SEMS)",
+          "C) External beam radiotherapy alone",
+          "D) High-dose oral steroids"
+        ],
+        "correct": 1,
+        "hint": "Covered self-expanding metal stent (SEMS).",
+        "explanation": "Placement of a covered self-expanding metal stent (SEMS) provides immediate relief of mechanical obstruction and simultaneously seals off a malignant tracheo-esophageal fistula, preventing ongoing bronchial contamination and aspiration."
+      },
+      {
+        "q": "On the Eckardt symptom score (range 0 to 12) used to assess treatment efficacy in achalasia, what score indicates treatment failure post-intervention?",
+        "options": [
+          "A) Score 0",
+          "B) Score 1",
+          "C) Score greater than 3",
+          "D) Score 2"
+        ],
+        "correct": 2,
+        "hint": "Eckardt score > 3 indicates treatment failure.",
+        "explanation": "The Eckardt score evaluates dysphagia, regurgitation, retrosternal pain, and weight loss (each scored 0 to 3). An Eckardt score >3 following treatment (dilatation, Heller myotomy, or POEM) indicates therapeutic failure and requires re-investigation."
+      },
+      {
+        "q": "What is the standard management strategy for confirmed Barrett's esophagus with high-grade dysplasia (HGD)?",
+        "options": [
+          "A) Immediate total esophagectomy in all cases",
+          "B) Endoscopic mucosal resection (EMR) of any visible mucosal lesions, followed by ablation (e.g., radiofrequency ablation) of the remaining Barrett's segment",
+          "C) Observation with repeat endoscopy in 5 years",
+          "D) Oral H2-receptor antagonists only"
+        ],
+        "correct": 1,
+        "hint": "EMR of visible lesions + ablation (e.g., RFA) of remaining Barrett's mucosa.",
+        "explanation": "Barrett's esophagus with confirmed high-grade dysplasia is managed endoscopically: visible nodules/lesions are resected via EMR for staging and mucosal control, followed by radiofrequency ablation (RFA) to eradicate remaining flat metaplastic epithelium."
+      },
+      {
+        "q": "A 72-year-old man presents with a 6-week history of rapidly progressive dysphagia to both solids and liquids, accompanied by a 14 kg weight loss. Barium swallow shows a dilated esophagus tapering smoothly to a 'bird's beak' appearance at the lower sphincter. Upper GI endoscopy shows retained food and a cardia that opens with mild pressure. Manometry confirms an elevated IRP and aperistalsis. What is the most critical next step before recommending achalasia treatment?",
+        "options": [
+          "A) Proceed immediately to pneumatic dilatation",
+          "B) Perform retroflexed endoscopic examination of the gastric cardia with deep biopsies, and consider CT/EUS to rule out pseudoachalasia from gastric cardia adenocarcinoma",
+          "C) Discharge on oral nifedipine",
+          "D) Perform emergency laparoscopic Nissen fundoplication"
+        ],
+        "correct": 1,
+        "hint": "Older patient + short history + rapid weight loss -> rule out pseudoachalasia (cardia cancer) first.",
+        "explanation": "In an older patient presenting with a short history (weeks to months) and rapid weight loss, pseudoachalasia (malignant infiltration of the myenteric plexus at the gastroesophageal junction by cardia adenocarcinoma) must be rigorously excluded before initiating achalasia therapy. Endoscopy with retroflexion, mucosal biopsies, or CT/EUS is mandatory."
+      },
+      {
+        "q": "An 81-year-old male presents with a 2-year history of high cervical dysphagia, halitosis, and regurgitation of undigested food eaten hours earlier. Exam reveals a soft left neck swelling that gurgles when compressed (Boyce's sign). His physician plans an urgent upper GI endoscopy. Why is a diagnostic barium swallow preferred over blind upper GI endoscopy as the initial diagnostic test?",
+        "options": [
+          "A) Barium swallow is cheaper and requires no radiation",
+          "B) Blind insertion of an endoscope carries a high risk of entering the diverticular pouch and causing esophageal perforation; barium swallow safely defines pouch anatomy first",
+          "C) Endoscopy cannot visualize pharyngeal mucosa",
+          "D) Barium swallow cures the diverticulum during administration"
+        ],
+        "correct": 1,
+        "hint": "Avoid blind endoscopy in Zenker's diverticulum due to pouch perforation risk; do barium swallow first.",
+        "explanation": "In suspected Zenker's diverticulum, the pouch lumen lies in direct alignment with the hypopharynx. Blind insertion of an endoscope easily enters the thin-walled pouch rather than the true esophageal lumen, creating a high risk of iatrogenic perforation. A barium swallow safely confirms the diagnosis and defines pouch geometry prior to any instrumentation."
+      },
+      {
+        "q": "A 52-year-old female from Tanzania undergoes upper GI endoscopy for progressive dysphagia. Biopsy confirms squamous cell carcinoma. Endoscopic ultrasound (EUS) demonstrates tumor invasion through the muscularis mucosae into the submucosa (T1b), with no regional lymph node involvement (N0). Why is endoscopic mucosal resection (EMR) inadequate, and what definitive treatment is indicated?",
+        "options": [
+          "A) Submucosal invasion (T1b) carries a 20% to 45% risk of occult lymph node metastasis due to dense submucosal lymphatics, necessitating subtotal esophagectomy with lymphadenectomy",
+          "B) EMR is technically impossible in the esophagus",
+          "C) T1b lesions must be treated with oral chemotherapy alone",
+          "D) Submucosal tumors always regress spontaneously"
+        ],
+        "correct": 0,
+        "hint": "T1b invades submucosa (20–45% nodal metastasis risk) -> esophagectomy with lymphadenectomy.",
+        "explanation": "While mucosal cancers (T1a) have a <1–3% nodal risk and can be managed endoscopically, invasion into the rich submucosal lymphatic plexus (T1b) causes the risk of nodal metastases to jump to 20–45%. Therefore, T1b tumors require formal surgical resection (esophagectomy with lymphadenectomy) rather than local endoscopic resection."
+      },
+      {
+        "q": "A 64-year-old male with known mid-thoracic esophageal squamous cell carcinoma presents to the emergency room with severe coughing fits and choking every time he swallows liquids. Chest X-ray reveals right lower lobe consolidation. What is the underlying diagnosis, what diagnostic contrast media must be strictly avoided, and what is the definitive palliative intervention?",
+        "options": [
+          "A) Peptic stricture; avoid barium; treat with balloon dilatation",
+          "B) Tracheo-esophageal fistula (TEF); avoid Gastrografin (ionic contrast) as aspiration causes severe pulmonary edema; manage with placement of a covered self-expanding metal stent (SEMS)",
+          "C) Achalasia; avoid iodine; treat with botulinum toxin",
+          "D) Zenker's diverticulum; avoid water; treat with open excision"
+        ],
+        "correct": 1,
+        "hint": "TEF with aspiration -> avoid hyperosmolar Gastrografin; place a covered SEMS.",
+        "explanation": "Direct extension of esophageal cancer into the airway causes a tracheo-esophageal fistula (TEF), leading to aspiration pneumonia. Hyperosmolar ionic water-soluble contrast (Gastrografin) is strictly contraindicated because aspiration into the lungs induces life-threatening chemical pulmonary edema. Palliation requires insertion of a covered SEMS to seal the fistula."
+      },
+      {
+        "q": "A 58-year-old male is diagnosed with adenocarcinoma located at the gastroesophageal junction, centered 0.5 cm below the anatomical cardia. CT scan shows no distant metastases (M0). According to the Siewert classification and AJCC 8th edition staging rules, how is this tumor classified and managed?",
+        "options": [
+          "A) Siewert Type I; staged as gastric cancer; treated with distal gastrectomy",
+          "B) Siewert Type II (true cardia carcinoma); staged as an esophageal cancer (epicenter within 2 cm of GOJ); treated with extended total gastrectomy or subtotal esophagectomy",
+          "C) Siewert Type III; staged as colon cancer; treated with right hemicolectomy",
+          "D) Siewert Type IV; staged as lung cancer; treated with lobectomy"
+        ],
+        "correct": 1,
+        "hint": "Center 0.5 cm below cardia = Siewert Type II; staged as esophageal cancer (within 2 cm of GOJ).",
+        "explanation": "A tumor centered 0.5 cm below the cardia is a Siewert Type II (true cardia) carcinoma. Per AJCC 8th edition, any junctional tumor centered within 2 cm of the GOJ that involves the junction is staged and classified as an esophageal cancer. Surgical options include extended total gastrectomy with distal esophagectomy or subtotal esophagectomy."
+      },
+      {
+        "q": "A 60-year-old male undergoes an Ivor Lewis esophagectomy for lower third esophageal adenocarcinoma. On post-operative day 5, he suddenly develops new-onset atrial fibrillation with a heart rate of 135 bpm, low-grade pyrexia (38.2 °C), and leukocytosis. His abdominal examination is unremarkable. What critical surgical complication must be suspected first, and what diagnostic step is required?",
+        "options": [
+          "A) Normal post-operative recovery; administer beta-blockers and observe",
+          "B) Intrathoracic anastomotic leak; perform urgent CT scan of chest and abdomen with oral and IV contrast",
+          "C) Pulmonary embolism; perform emergency leg venogram",
+          "D) Wound infection; open the abdominal incision at the bedside"
+        ],
+        "correct": 1,
+        "hint": "New AF / tachycardia post-esophagectomy + fever -> suspect anastomotic leak; urgent contrast CT.",
+        "explanation": "New-onset atrial fibrillation or unexplained tachycardia post-esophagectomy is a classic early warning sign of an anastomotic leak or mediastinal collection. Attributing AF simply to primary cardiac disease is dangerous. Immediate contrast CT of the chest and abdomen is mandatory."
+      },
+      {
+        "q": "A 46-year-old woman presents with upper dysphagia to solid foods, severe fatigue, and brittle nails. Examination reveals angular cheilitis, koilonychia, and pallor. Laboratory testing demonstrates Hb 7.2 g/dL with microcytic indices. Barium swallow shows a smooth thin membrane projecting from the anterior wall of the post-cricoid esophagus. What syndrome is present, what malignancy does it predispose to, and how is it managed?",
+        "options": [
+          "A) Plummer-Vinson syndrome; predisposes to post-cricoid squamous cell carcinoma; treat with iron supplementation, endoscopic web dilatation/disruption, and surveillance",
+          "B) Schatzki ring; predisposes to adenocarcinoma; treat with laparoscopic myotomy",
+          "C) Zenker's diverticulum; predisposes to lymphoma; treat with distal gastrectomy",
+          "D) Boerhaave syndrome; predisposes to sarcoma; treat with thoracotomy"
+        ],
+        "correct": 0,
+        "hint": "Iron deficiency + post-cricoid web + dysphagia = Plummer-Vinson syndrome -> iron, web disruption, surveillance.",
+        "explanation": "The constellation of iron deficiency anemia, microcytic anemia, koilonychia, angular stomatitis, and a post-cricoid web defines Plummer-Vinson syndrome. It is a premalignant condition for post-cricoid esophageal SCC. Treatment includes iron repletion, endoscopic disruption of the web, and long-term surveillance."
+      },
+      {
+        "q": "A 55-year-old man presents to the emergency department with severe, episodic retrosternal chest pain radiating to his back, triggered by drinking cold liquids. Cardiac evaluation (ECG, troponins) is completely normal. Barium swallow shows a classic 'corkscrew' appearance of the esophageal body. High-resolution manometry shows premature contractions in 25% of swallows with normal IRP. What is the diagnosis and first-line medical therapy?",
+        "options": [
+          "A) Achalasia Type I; treat with immediate Heller myotomy",
+          "B) Distal Esophageal Spasm (DES); treat with calcium channel blockers or nitrates after cardiac disease is excluded",
+          "C) Gastro-esophageal reflux disease; treat with surgical Nissen fundoplication",
+          "D) Esophageal adenocarcinoma; treat with emergency esophagectomy"
+        ],
+        "correct": 1,
+        "hint": "'Corkscrew' esophagus + premature contractions -> Distal Esophageal Spasm -> CCBs or nitrates.",
+        "explanation": "Chest pain mimicking angina combined with 'corkscrew' esophagus on barium swallow and premature contractions (distal latency <4.5 s in ≥ 20% of swallows) on manometry defines Distal Esophageal Spasm. Once cardiac pain is ruled out, first-line medical treatment includes smooth muscle relaxants (calcium channel blockers, nitrates)."
+      },
+      {
+        "q": "A 38-year-old male with Type III (spastic) achalasia undergoes a successful Peroral Endoscopic Myotomy (POEM). At 6-month follow-up, his dysphagia is completely resolved (Eckardt score 1), but he reports severe heartburn. Endoscopy reveals Grade C reflux esophagitis. What mechanism explains this post-POEM outcome, and how is it managed?",
+        "options": [
+          "A) POEM fails to disrupt the lower sphincter; perform repeat POEM",
+          "B) POEM disrupts the lower sphincter without creating a surgical antireflux wrap, resulting in GERD in up to 50% of patients; manage with proton pump inhibitors (PPIs) and surveillance",
+          "C) The patient has developed stomach cancer; perform emergency gastrectomy",
+          "D) Bacterial overgrowth in the submucosal tunnel; treat with oral metronidazole"
+        ],
+        "correct": 1,
+        "hint": "POEM has no antireflux wrap -> GERD is common; manage with PPIs and surveillance.",
+        "explanation": "Unlike laparoscopic Heller myotomy (which includes a Dor or Toupet partial wrap), POEM performs an isolated endoscopic myotomy without an antireflux barrier. Consequently, post-procedure GERD occurs in up to 50% of patients, requiring medical management with PPIs and endoscopic monitoring."
+      },
+      {
+        "q": "A 58-year-old male presents with a 2-month history of progressive solid food dysphagia. He reports accidental lye ingestion at age 18 that caused an esophageal stricture, requiring dilations during his twenties. Upper GI endoscopy reveals an irregular, friable stricture in the middle third of the esophagus. What diagnosis must be suspected, what tissue sampling protocol must be followed, and what is the underlying risk factor?",
+        "options": [
+          "A) Peptic stricture; take 1 biopsy; GERD is the risk factor",
+          "B) Squamous cell carcinoma arising in a chronic caustic ingestion stricture (1000-fold risk); take 6 to 8 biopsies from the irregular stricture margins (not necrotic base) and arrange CT staging",
+          "C) Achalasia; take no biopsies; viral infection is the risk factor",
+          "D) Esophageal leiomyoma; take deep incisional biopsies; genetic mutation is the risk factor"
+        ],
+        "correct": 1,
+        "hint": "Prior lye stricture + irregular stricture -> SCC; biopsy margins (6–8 samples) and stage with CT.",
+        "explanation": "Long-standing caustic (lye) strictures carry up to a 1000-fold increased risk of developing esophageal squamous cell carcinoma 20 to 40 years post-injury. Any change in symptoms mandates endoscopy with 6 to 8 biopsies taken from the suspicious, irregular stricture edges, followed by staging CT."
+      }
+    ]
+  }
+]
