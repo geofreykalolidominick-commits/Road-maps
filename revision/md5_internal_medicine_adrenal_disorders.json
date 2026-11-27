@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Adrenal Disorders",
+    "questions": [
+      {
+        "q": "Which specific anatomical zone of the adrenal cortex is responsible for synthesizing and secreting the primary mineralocorticoid aldosterone?",
+        "options": [
+          "A) Zona fasciculata",
+          "B) Zona reticularis",
+          "C) Zona glomerulosa",
+          "D) Adrenal medulla"
+        ],
+        "correct": 2,
+        "hint": "Outer layer of the adrenal cortex.",
+        "explanation": "The adrenal cortex consists of three distinct functional layers: the outer zona glomerulosa, the middle zona fasciculata, and the inner zona reticularis. The zona glomerulosa specifically synthesizes mineralocorticoids, predominantly aldosterone, under the control of the renin–angiotensin system and serum potassium."
+      },
+      {
+        "q": "What primary hormone is produced by the zona fasciculata of the adrenal cortex under the physiological regulation of the hypothalamic–pituitary–adrenal (HPA) axis?",
+        "options": [
+          "A) Aldosterone",
+          "B) Cortisol",
+          "C) Dehydroepiandrosterone (DHEA)",
+          "D) Epinephrine"
+        ],
+        "correct": 1,
+        "hint": "Middle zone of the adrenal cortex, regulated by CRH and ACTH.",
+        "explanation": "The zona fasciculata constitutes the middle and widest zone of the adrenal cortex and is responsible for synthesizing glucocorticoids, primarily cortisol, regulated by hypothalamic CRH and anterior pituitary ACTH."
+      },
+      {
+        "q": "Which functional zone of the adrenal cortex produces adrenal androgen precursors such as dehydroepiandrosterone (DHEA) and androstenedione?",
+        "options": [
+          "A) Zona glomerulosa",
+          "B) Zona fasciculata",
+          "C) Zona reticularis",
+          "D) Adrenal medulla"
+        ],
+        "correct": 2,
+        "hint": "Innermost zone of the adrenal cortex.",
+        "explanation": "The innermost layer of the adrenal cortex, the zona reticularis, produces adrenal androgen precursors (DHEA and androstenedione) under ACTH stimulation, contributing to pubic and axillary hair growth and the systemic sex steroid pool."
+      },
+      {
+        "q": "Chromaffin cells of the adrenal medulla originate from which embryological tissue and are responsible for secreting which category of hormones?",
+        "options": [
+          "A) Mesoderm; steroid hormones",
+          "B) Neural crest tissue; catecholamines (epinephrine and norepinephrine)",
+          "C) Endoderm; peptide tropic hormones",
+          "D) Surface ectoderm; mineralocorticoids"
+        ],
+        "correct": 1,
+        "hint": "Neural crest origin; epinephrine and norepinephrine.",
+        "explanation": "The adrenal medulla is derived from neural crest tissue and contains chromaffin cells, which function as neuroendocrine cells synthesizing and secreting catecholamines—primarily epinephrine and norepinephrine—in response to sympathetic nervous system stimulation."
+      },
+      {
+        "q": "What are the primary physiological regulators controlling aldosterone secretion from the adrenal cortex?",
+        "options": [
+          "A) Hypothalamic Corticotropin-Releasing Hormone (CRH) and serum cortisol",
+          "B) Angiotensin II and serum potassium concentration",
+          "C) Circulating blood glucose and insulin levels",
+          "D) Thyroid-Stimulating Hormone (TSH) and atrial natriuretic peptide"
+        ],
+        "correct": 1,
+        "hint": "RAAS (angiotensin II) and serum potassium.",
+        "explanation": "Unlike cortisol, aldosterone secretion is regulated primarily by the renin–angiotensin–aldosterone system (RAAS), via angiotensin II, and by direct sensing of serum potassium concentration. ACTH plays only a minor, transient permissive role."
+      },
+      {
+        "q": "Which hypothalamic hormone acts directly on anterior pituitary corticotrophs to stimulate the synthesis and release of Adrenocorticotropic Hormone (ACTH)?",
+        "options": [
+          "A) Thyrotropin-Releasing Hormone (TRH)",
+          "B) Corticotropin-Releasing Hormone (CRH)",
+          "C) Somatostatin",
+          "D) Gonadotropin-Releasing Hormone (GnRH)"
+        ],
+        "correct": 1,
+        "hint": "Hypothalamic releasing hormone for ACTH.",
+        "explanation": "Corticotropin-Releasing Hormone (CRH), released from the paraventricular nucleus of the hypothalamus into the hypophyseal portal system, binds to corticotroph receptors in the anterior pituitary to stimulate ACTH synthesis and release."
+      },
+      {
+        "q": "What is the defining biochemical and clinical feature of primary adrenal insufficiency (Addison disease)?",
+        "options": [
+          "A) Pituitary ACTH deficiency causing low cortisol with preserved mineralocorticoid secretion",
+          "B) Intrinsic failure of the adrenal cortex causing cortisol and mineralocorticoid deficiency alongside compensatory ACTH elevation",
+          "C) Hypothalamic CRH suppression leading to isolated aldosterone deficiency",
+          "D) Autonomous adrenocortical hypersecretion of cortisol independent of ACTH"
+        ],
+        "correct": 1,
+        "hint": "Adrenal cortex failure -> low cortisol and aldosterone, with high ACTH.",
+        "explanation": "Primary adrenal insufficiency (Addison disease) results from intrinsic destruction or dysfunction of the adrenal cortex. This leads to deficient production of cortisol and aldosterone, triggering a loss of negative feedback that causes a marked compensatory elevation in plasma ACTH."
+      },
+      {
+        "q": "What specific medical term defines hypercortisolism caused explicitly by a pituitary ACTH-secreting adenoma?",
+        "options": [
+          "A) Cushing syndrome",
+          "B) Cushing disease",
+          "C) Conn syndrome",
+          "D) Nelson syndrome"
+        ],
+        "correct": 1,
+        "hint": "Pituitary ACTH-secreting adenoma cause of Cushing syndrome.",
+        "explanation": "While 'Cushing syndrome' refers broadly to chronic exposure to excess glucocorticoids from any source, 'Cushing disease' refers specifically to endogenous hypercortisolism caused by a pituitary ACTH-secreting adenoma."
+      },
+      {
+        "q": "Which statement correctly distinguishes a phaeochromocytoma from a paraganglioma?",
+        "options": [
+          "A) Phaeochromocytoma arises from the zona glomerulosa, whereas paraganglioma arises from the adrenal medulla",
+          "B) Phaeochromocytoma is a catecholamine-secreting tumor of the adrenal medulla, whereas paraganglioma arises from extra-adrenal chromaffin tissue",
+          "C) Phaeochromocytoma secretes only aldosterone, whereas paraganglioma secretes cortisol",
+          "D) Phaeochromocytoma is always malignant, whereas paraganglioma is always benign"
+        ],
+        "correct": 1,
+        "hint": "Adrenal medulla vs. extra-adrenal chromaffin tissue.",
+        "explanation": "Phaeochromocytoma is specifically defined as a catecholamine-producing tumor arising from chromaffin cells within the adrenal medulla. Paraganglioma is a closely related tumor arising from extra-adrenal sympathetic or parasympathetic paraganglia."
+      },
+      {
+        "q": "Deficiency of which enzyme accounts for over 90% of all cases of Congenital Adrenal Hyperplasia (CAH)?",
+        "options": [
+          "A) 11-beta-hydroxylase",
+          "B) 17-alpha-hydroxylase",
+          "C) 21-hydroxylase",
+          "D) 3-beta-hydroxysteroid dehydrogenase"
+        ],
+        "correct": 2,
+        "hint": "21-hydroxylase deficiency (>90% of CAH cases).",
+        "explanation": "Congenital Adrenal Hyperplasia (CAH) is a group of autosomal recessive enzyme deficiencies impairing adrenal steroidogenesis. 21-hydroxylase deficiency accounts for more than 90% of cases, impairing cortisol and aldosterone synthesis while shunting precursors into adrenal androgen pathways."
+      },
+      {
+        "q": "What is the most common etiology of primary adrenal insufficiency (Addison disease) in developed countries?",
+        "options": [
+          "A) Adrenal tuberculosis",
+          "B) Autoimmune adrenalitis",
+          "C) Metastatic lung carcinoma",
+          "D) Bilateral adrenal hemorrhage (Waterhouse–Friderichsen syndrome)"
+        ],
+        "correct": 1,
+        "hint": "Autoimmune destruction of the adrenal cortex.",
+        "explanation": "Autoimmune adrenalitis (autoimmune destruction of the adrenal cortex, often associated with 21-hydroxylase antibodies) accounts for approximately 70–90% of primary adrenal insufficiency cases in developed countries. Infectious causes like tuberculosis remain common in endemic regions."
+      },
+      {
+        "q": "What is the single most common cause of Cushing syndrome encountered in clinical practice overall?",
+        "options": [
+          "A) Pituitary ACTH-secreting macroadenoma",
+          "B) Unilateral cortisol-secreting adrenal adenoma",
+          "C) Exogenous glucocorticoid administration",
+          "D) Ectopic ACTH secretion by small cell lung carcinoma"
+        ],
+        "correct": 2,
+        "hint": "Exogenous steroids from outside the body.",
+        "explanation": "Prolonged therapeutic use of exogenous glucocorticoids (oral, inhaled, topical, or intra-articular) is the most common cause of Cushing syndrome overall. Endogenous causes are less frequent."
+      },
+      {
+        "q": "Which physiological feature explains why mineralocorticoid (aldosterone) secretion and serum potassium levels are typically preserved in secondary adrenal insufficiency?",
+        "options": [
+          "A) Pituitary ACTH directly inhibits renal aldosterone clearance",
+          "B) Zona glomerulosa function and aldosterone production are governed primarily by the renin–angiotensin system, not pituitary ACTH",
+          "C) The hypothalamus secretes aldosterone directly during pituitary failure",
+          "D) Cortisol converts into aldosterone in peripheral subcutaneous fat"
+        ],
+        "correct": 1,
+        "hint": "Aldosterone is controlled mainly by RAAS and potassium, not ACTH.",
+        "explanation": "In secondary (pituitary) or tertiary (hypothalamic) adrenal insufficiency, ACTH deficiency causes glucocorticoid and androgen failure. However, the zona glomerulosa remains structurally intact and responsive to the renin–angiotensin system and serum potassium, preserving aldosterone secretion and normokalemia."
+      },
+      {
+        "q": "Which etiology of Cushing syndrome is categorized as ACTH-independent?",
+        "options": [
+          "A) Pituitary corticotroph microadenoma",
+          "B) Ectopic ACTH-secreting bronchial carcinoid tumor",
+          "C) Cortisol-producing unilateral adrenal adenoma",
+          "D) Ectopic CRH-secreting neuroendocrine tumor"
+        ],
+        "correct": 2,
+        "hint": "Autonomous cortisol secretion directly from an adrenal tumor.",
+        "explanation": "ACTH-independent Cushing syndrome arises directly from autonomous adrenocortical overproduction of cortisol (adrenal adenoma, carcinoma, or bilateral nodular hyperplasia), which exerts negative feedback that suppresses pituitary ACTH release. Pituitary adenomas and ectopic tumors are ACTH-dependent."
+      },
+      {
+        "q": "What are the two most common underlying pathological causes of primary aldosteronism (Conn syndrome)?",
+        "options": [
+          "A) Adrenal carcinoma and pituitary macroadenoma",
+          "B) Bilateral adrenal glomerulosa hyperplasia and unilateral aldosterone-producing adenoma",
+          "C) Renin-secreting juxtaglomerular tumor and renal artery stenosis",
+          "D) 21-hydroxylase deficiency and adrenal tuberculosis"
+        ],
+        "correct": 1,
+        "hint": "Bilateral adrenal hyperplasia and unilateral aldosterone-producing adenoma.",
+        "explanation": "Primary aldosteronism is caused by autonomous aldosterone overproduction from the adrenal cortex. Bilateral idiopathic adrenal hyperplasia (~60%) and unilateral aldosterone-producing adrenal adenoma (~30–40%) account for the vast majority of cases."
+      },
+      {
+        "q": "Which hereditary neuroendocrine cancer syndrome is strongly associated with the development of phaeochromocytoma?",
+        "options": [
+          "A) Multiple Endocrine Neoplasia Type 1 (MEN1)",
+          "B) Multiple Endocrine Neoplasia Type 2 (MEN2A and MEN2B)",
+          "C) Familial Adenomatous Polyposis (FAP)",
+          "D) Li–Fraumeni syndrome"
+        ],
+        "correct": 1,
+        "hint": "MEN2A and MEN2B (RET mutations).",
+        "explanation": "Phaeochromocytoma is a classical feature of MEN2A and MEN2B (caused by germline RET mutations), as well as Von Hippel–Lindau (VHL) disease, Neurofibromatosis Type 1 (NF1), and Succinate Dehydrogenase (SDHx) gene mutation syndromes."
+      },
+      {
+        "q": "What cutaneous manifestation distinguishes primary adrenal insufficiency from secondary adrenal insufficiency on physical examination?",
+        "options": [
+          "A) Generalized vitiligo occurring only in secondary disease",
+          "B) Skin hyperpigmentation of palmar creases and mucosa in primary disease versus pale 'alabaster' skin in secondary disease",
+          "C) Purple abdominal striae present exclusively in secondary disease",
+          "D) Pretibial dermopathy present exclusively in primary disease"
+        ],
+        "correct": 1,
+        "hint": "High ACTH/POMC drives hyperpigmentation in primary failure; low ACTH leaves pale skin in secondary failure.",
+        "explanation": "In primary adrenal failure, low cortisol triggers marked pituitary ACTH elevation; POMC cleavage yields ACTH and MSH peptides that drive melanocyte stimulation, causing hyperpigmentation. In secondary disease, ACTH and POMC are deficient, resulting in pale, 'alabaster' skin without hyperpigmentation."
+      },
+      {
+        "q": "Which physiological state describes tertiary adrenal insufficiency?",
+        "options": [
+          "A) Primary autoimmune destruction of the adrenal cortex",
+          "B) Pituitary macroadenoma compression of corticotroph cells",
+          "C) Hypothalamic CRH suppression, most commonly caused by abrupt withdrawal of chronic exogenous glucocorticoid therapy",
+          "D) Inborn error of steroidogenesis involving aldosterone synthase"
+        ],
+        "correct": 2,
+        "hint": "Hypothalamic CRH suppression, often after stopping long-term steroids.",
+        "explanation": "Tertiary adrenal insufficiency originates at the level of the hypothalamus. Chronic systemic glucocorticoid therapy suppresses hypothalamic CRH release. Abrupt cessation leaves the HPA axis suppressed, leading to transient or prolonged adrenal insufficiency."
+      },
+      {
+        "q": "Which intercurrent event is a common precipitant for acute adrenal crisis in a patient with diagnosed primary adrenal insufficiency?",
+        "options": [
+          "A) Excessive dietary sodium ingestion",
+          "B) Systemic infection, trauma, surgery, or gastroenteritis with severe vomiting",
+          "C) High-dose vitamin C supplementation",
+          "D) Uncontrolled essential hypertension"
+        ],
+        "correct": 1,
+        "hint": "Acute stress like infection/surgery or vomiting preventing medication intake.",
+        "explanation": "Adrenal crisis occurs when cortisol requirements spike during acute physiological stress (infection, fever, trauma, surgery, gastroenteritis) or when replacement medication is missed or unabsorbed due to vomiting/diarrhea."
+      },
+      {
+        "q": "What defines an adrenal incidentaloma?",
+        "options": [
+          "A) A palpable abdominal mass presenting with overt Cushing syndrome",
+          "B) An adrenal mass discovered unexpectedly on diagnostic imaging performed for an indication unrelated to suspected adrenal disease",
+          "C) A confirmed metastatic lesion arising from primary lung carcinoma",
+          "D) A congenital adrenal cyst identified on prenatal ultrasound"
+        ],
+        "correct": 1,
+        "hint": "Found unexpectedly on imaging done for another reason.",
+        "explanation": "An adrenal incidentaloma is defined as an adrenal mass (≥1 cm) detected incidentally during cross-sectional imaging (CT or MRI) conducted for clinical reasons unrelated to suspected adrenal disease."
+      },
+      {
+        "q": "Which pathognomonic physical examination finding strongly points toward primary adrenal insufficiency (Addison disease)?",
+        "options": [
+          "A) Central obesity with buffalo hump",
+          "B) Dark brown to black hyperpigmentation of the buccal mucosa, palmar creases, and recent scars",
+          "C) Exophthalmos and lid lag",
+          "D) Proximal muscle hypertrophy and striae"
+        ],
+        "correct": 1,
+        "hint": "Pigmentation of palmar creases, buccal mucosa, and scars.",
+        "explanation": "Diffuse skin bronzing and localized dark brown/black hyperpigmentation of mucosal surfaces (buccal mucosa, tongue, gingiva), palmar creases, recent scars, and friction points (knuckles, elbows) is a pathognomonic feature of primary adrenal insufficiency driven by high ACTH/POMC levels."
+      },
+      {
+        "q": "What classic clinical symptom triad strongly raises diagnostic suspicion for a phaeochromocytoma?",
+        "options": [
+          "A) Weight gain, constipation, and cold intolerance",
+          "B) Episodic headache, profuse sweating (diaphoresis), and palpitations",
+          "C) Polyuria, polydipsia, and polyphagia",
+          "D) Tremor, diarrhea, and exophthalmos"
+        ],
+        "correct": 1,
+        "hint": "Episodic headache, sweating, and palpitations.",
+        "explanation": "The classic symptomatic triad of phaeochromocytoma consists of paroxysmal severe headaches, sudden generalized diaphoresis (sweating), and tachycardia/palpitations, usually accompanied by paroxysmal or sustained hypertension."
+      },
+      {
+        "q": "Which laboratory test is explicitly NOT recommended as an initial screening test for endogenous Cushing syndrome due to physiological circadian variation?",
+        "options": [
+          "A) 1 mg overnight dexamethasone suppression test (DST)",
+          "B) 24-hour urinary free cortisol (UFC) excretion",
+          "C) Late-night salivary cortisol concentration",
+          "D) Single random daytime serum cortisol level"
+        ],
+        "correct": 3,
+        "hint": "Random daytime cortisol varies too much across the day.",
+        "explanation": "Single random cortisol measurements are uninformative for screening Cushing syndrome because cortisol secretion fluctuates significantly throughout the day. Standard initial screening tests include the 1 mg overnight DST, late-night salivary cortisol, or 24-hour UFC."
+      },
+      {
+        "q": "In evaluating a patient with suspected adrenal insufficiency, which paired morning laboratory test pattern confirms primary adrenal failure?",
+        "options": [
+          "A) Low morning serum cortisol (<100 nmol/L) paired with markedly elevated plasma ACTH",
+          "B) Low morning serum cortisol paired with suppressed/low plasma ACTH",
+          "C) Elevated morning serum cortisol paired with elevated plasma ACTH",
+          "D) Normal morning serum cortisol paired with undetectable aldosterone"
+        ],
+        "correct": 0,
+        "hint": "Low morning cortisol with high ACTH.",
+        "explanation": "Pairing an early-morning (8–9 AM) serum cortisol with plasma ACTH differentiates the site of failure. A low cortisol accompanied by a high ACTH confirms primary adrenal failure. Low cortisol with low or inappropriately normal ACTH indicates central (pituitary/hypothalamic) disease."
+      },
+      {
+        "q": "What is the first-line biochemical investigation recommended to confirm or exclude a phaeochromocytoma?",
+        "options": [
+          "A) 24-hour urinary vanillylmandelic acid (VMA) alone",
+          "B) Measurement of plasma free metanephrines or 24-hour urinary fractionated metanephrines",
+          "C) Serum chromogranin A concentration",
+          "D) Glucagon stimulation test measuring plasma catecholamines"
+        ],
+        "correct": 1,
+        "hint": "Plasma free metanephrines or 24-hour urinary fractionated metanephrines.",
+        "explanation": "Fractionated metanephrines (free metanephrine and normetanephrine) in plasma or 24-hour urine are the most sensitive first-line screening tests for phaeochromocytoma because catecholamines are continuously metabolized into metanephrines within chromaffin tumor cells."
+      },
+      {
+        "q": "Which screening test ratio is recommended to evaluate for primary aldosteronism in a hypertensive patient?",
+        "options": [
+          "A) Cortisol-to-ACTH ratio",
+          "B) Plasma Aldosterone-to-Renin Ratio (ARR)",
+          "C) Metanephrine-to-Normetanephrine ratio",
+          "D) DHEA-S-to-Cortisol ratio"
+        ],
+        "correct": 1,
+        "hint": "Aldosterone-to-Renin Ratio (ARR).",
+        "explanation": "The initial screening test of choice for primary aldosteronism is the Aldosterone-to-Renin Ratio (ARR), calculated from paired plasma aldosterone concentration (PAC) and plasma renin activity (PRA) or direct renin concentration (DRC). Autonomous aldosterone production suppresses renin, resulting in a high ARR."
+      },
+      {
+        "q": "Measurement of which baseline serum steroid precursor is key for diagnosing Congenital Adrenal Hyperplasia (CAH) due to 21-hydroxylase deficiency?",
+        "options": [
+          "A) 17-hydroxyprogesterone (17-OHP)",
+          "B) Deoxycorticosterone (DOC)",
+          "C) 11-deoxycortisol",
+          "D) Aldosterone"
+        ],
+        "correct": 0,
+        "hint": "17-hydroxyprogesterone (17-OHP).",
+        "explanation": "21-hydroxylase deficiency blocks the conversion of 17-hydroxyprogesterone (17-OHP) to 11-deoxycortisol. As a result, 17-OHP accumulates in large quantities; measuring early-morning serum 17-OHP levels is the primary diagnostic test for 21-hydroxylase deficiency."
+      },
+      {
+        "q": "Which set of physical features is highly characteristic of severe glucocorticoid excess (Cushing syndrome)?",
+        "options": [
+          "A) Hyperpigmentation, vitiligo, and postural hypotension",
+          "B) Wide (>1 cm) reddish-purple abdominal striae, proximal muscle weakness, dorsocervical fat pad, and easy bruising",
+          "C) Exophthalmos, pretibial dermopathy, and fine hand tremor",
+          "D) Macroglossia, interdental spacing, and prognathism"
+        ],
+        "correct": 1,
+        "hint": "Wide purple striae, proximal weakness, buffalo hump, and easy bruising.",
+        "explanation": "Hypercortisolism causes catabolism of subcutaneous collagen and muscle tissue, producing thin skin, easy bruising, violaceous abdominal striae (>1 cm wide), proximal myopathy, central adiposity, and a buffalo hump (dorsocervical pad)."
+      },
+      {
+        "q": "On unenhanced computed tomography (CT), which radiologic feature strongly indicates that an adrenal incidentaloma is a benign lipid-rich adenoma?",
+        "options": [
+          "A) Unenhanced CT attenuation value ≤10 Hounsfield Units (HU)",
+          "B) Size >6 cm with internal necrosis and calcification",
+          "C) Irregular, invasive margins extending into the inferior vena cava",
+          "D) Delayed contrast medium washout <40%"
+        ],
+        "correct": 0,
+        "hint": "Unenhanced attenuation ≤10 Hounsfield Units.",
+        "explanation": "Benign adrenocortical adenomas typically contain high intracellular lipid content. On unenhanced CT, lipid-rich adenomas demonstrate low attenuation, defined as ≤10 Hounsfield Units (HU), which reliably distinguishes them from malignant lesions or metastases."
+      },
+      {
+        "q": "A patient confirmed to have endogenous Cushing syndrome undergoes plasma ACTH measurement. The plasma ACTH level is completely suppressed (<1.1 pmol/L). What does this biochemical result indicate?",
+        "options": [
+          "A) Pituitary corticotroph microadenoma (Cushing disease)",
+          "B) Ectopic ACTH secretion from a neuroendocrine tumor",
+          "C) ACTH-independent Cushing syndrome (adrenal origin: adenoma, carcinoma, or hyperplasia)",
+          "D) Tertiary hypothalamic failure"
+        ],
+        "correct": 2,
+        "hint": "Low/suppressed ACTH points to an autonomous adrenal source.",
+        "explanation": "A suppressed plasma ACTH level in a patient with confirmed hypercortisolism indicates an ACTH-independent etiology. Autonomous cortisol production by an adrenal tumor suppresses hypothalamic CRH and pituitary ACTH via negative feedback. Imaging should focus on the adrenal glands."
+      },
+      {
+        "q": "Prior to surgical excision of a phaeochromocytoma, what mandatory pharmacological rule governs the sequence of adrenergic blockade?",
+        "options": [
+          "A) Initiate beta-blockade first for 14 days, then add alpha-blockers 24 hours before surgery",
+          "B) Establish adequate alpha-adrenergic blockade (e.g., phenoxybenzamine or doxazosin) for 7–14 days BEFORE initiating any beta-blockers",
+          "C) Administer high-dose IV hydrocortisone concurrently with beta-blockers",
+          "D) Administer spironolactone for 7 days without alpha-blockers"
+        ],
+        "correct": 1,
+        "hint": "Alpha-blockade first for 7–14 days, then beta-blockers.",
+        "explanation": "Preoperative alpha-adrenergic blockade (e.g., phenoxybenzamine or doxazosin) must always precede beta-blocker initiation. Starting beta-blockers first blocks vasodilatory beta-2 receptors while leaving alpha-1 vasoconstrictor receptors unopposed, which can trigger a severe, life-threatening hypertensive crisis."
+      },
+      {
+        "q": "What is the immediate first-line pharmacological treatment for an adult presenting in acute adrenal crisis?",
+        "options": [
+          "A) Oral Dexamethasone 0.5 mg daily",
+          "B) Immediate intravenous or intramuscular bolus of 100 mg Hydrocortisone",
+          "C) Oral Fludrocortisone 200 mcg single dose",
+          "D) Intravenous Aldosterone infusion 1 mg/hour"
+        ],
+        "correct": 1,
+        "hint": "Immediate 100 mg IV/IM hydrocortisone bolus.",
+        "explanation": "Adrenal crisis is an immediate life-threatening emergency. The primary drug intervention is an immediate IV or IM bolus of 100 mg Hydrocortisone, followed by 200 mg over 24 hours (continuous infusion or 50 mg IV/IM every 6 hours)."
+      },
+      {
+        "q": "What fluid resuscitation protocol should be initiated alongside steroid administration in an adult presenting in acute adrenal crisis with shock?",
+        "options": [
+          "A) Rapid IV infusion of 5% Dextrose in water (D5W) at 50 mL/hour",
+          "B) Rapid IV fluid resuscitation with isotonic 0.9% Normal Saline (typically 1 L in the first hour)",
+          "C) Strict fluid restriction to less than 500 mL/day",
+          "D) Immediate administration of hypertonic 3% saline bolus over 5 minutes"
+        ],
+        "correct": 1,
+        "hint": "Rapid isotonic 0.9% normal saline.",
+        "explanation": "Severe hypotension and hypovolemic shock in adrenal crisis result from mineralocorticoid-deficient salt wasting and glucocorticoid-deficient vascular collapse. Rapid resuscitation with IV 0.9% Normal Saline is essential to restore intravascular volume, alongside IV glucose if hypoglycemia is present."
+      },
+      {
+        "q": "In the long-term maintenance treatment of primary adrenal insufficiency (Addison disease), which combination of hormone replacement therapy is required?",
+        "options": [
+          "A) Oral Hydrocortisone (glucocorticoid) plus oral Fludrocortisone (mineralocorticoid)",
+          "B) Oral Prednisolone monotherapy without mineralocorticoid replacement",
+          "C) High-dose oral Dexamethasone plus Spironolactone",
+          "D) Intravenous Hydrocortisone plus oral Metformin"
+        ],
+        "correct": 0,
+        "hint": "Glucocorticoid (hydrocortisone) + mineralocorticoid (fludrocortisone).",
+        "explanation": "Primary adrenal failure impairs both cortisol and aldosterone secretion. Maintenance treatment requires replacement of both axes: a glucocorticoid (typically oral Hydrocortisone in divided doses) and a mineralocorticoid (oral Fludrocortisone, titrated to blood pressure, electrolytes, and renin)."
+      },
+      {
+        "q": "What instruction ('sick-day rules') must be given to patients on maintenance glucocorticoid replacement for chronic adrenal insufficiency during mild-to-moderate febrile illness?",
+        "options": [
+          "A) Omit all glucocorticoid doses until the fever resolves",
+          "B) Double or triple the oral glucocorticoid dose for the duration of the illness and increase fluid intake",
+          "C) Take an extra dose of Fludrocortisone while keeping the hydrocortisone dose unchanged",
+          "D) Switch immediately to high-dose oral Spironolactone"
+        ],
+        "correct": 1,
+        "hint": "Double or triple the oral steroid dose during illness/stress.",
+        "explanation": "Physiological cortisol requirements increase during stress. Sick-day rules dictate that patients double or triple their oral hydrocortisone dose during febrile illness or stress. If severe vomiting or diarrhea prevents oral absorption, emergency parenteral hydrocortisone must be administered."
+      },
+      {
+        "q": "What is the medical treatment of choice for primary aldosteronism caused by bilateral adrenal hyperplasia or in non-surgical candidates?",
+        "options": [
+          "A) High-dose Loop diuretics (e.g., Furosemide)",
+          "B) Mineralocorticoid receptor antagonists (Spironolactone or Eplerenone)",
+          "C) Alpha-1 adrenergic blockers (e.g., Phenoxybenzamine)",
+          "D) Glucocorticoid receptor antagonists (Mifepristone)"
+        ],
+        "correct": 1,
+        "hint": "Spironolactone or eplerenone.",
+        "explanation": "For patients with bilateral adrenal glomerulosa hyperplasia or those unfit for surgery, medical management with a mineralocorticoid receptor antagonist—such as Spironolactone or Eplerenone—blocks aldosterone action, controlling blood pressure and restoring normokalemia."
+      },
+      {
+        "q": "Why is percutaneous fine-needle aspiration (FNA) biopsy strictly contraindicated as an initial test for an adrenal mass until phaeochromocytoma is excluded?",
+        "options": [
+          "A) Biopsy triggers rapid malignant transformation of benign adenomas",
+          "B) Biopsy of an unsuspected phaeochromocytoma can precipitate a fatal hypertensive crisis, arrhythmia, or fatal hemorrhage",
+          "C) Biopsy destroys surrounding zona glomerulosa tissue, causing permanent Addison disease",
+          "D) FNA biopsy cannot distinguish cortical tissue from medullary tissue under microscopic examination"
+        ],
+        "correct": 1,
+        "hint": "Risk of triggering catecholamine surge and hypertensive crisis.",
+        "explanation": "Adrenal biopsy should never be performed until phaeochromocytoma has been excluded biochemically. Needle puncture of a catecholamine-secreting tumor can provoke massive catecholamine release, causing severe hypertensive crisis, malignant arrhythmia, hemorrhage, or death."
+      },
+      {
+        "q": "How should prolonged systemic glucocorticoid therapy be discontinued to prevent precipitating tertiary adrenal insufficiency?",
+        "options": [
+          "A) Discontinued abruptly as soon as the primary disease resolves",
+          "B) Tapered gradually over weeks to months to allow recovery of the suppressed hypothalamic–pituitary–adrenal axis",
+          "C) Replaced immediately with high-dose fludrocortisone for 24 hours",
+          "D) Switched directly to oral spironolactone for 2 weeks"
+        ],
+        "correct": 1,
+        "hint": "Taper gradually so the HPA axis can recover.",
+        "explanation": "Chronic glucocorticoid administration suppresses hypothalamic CRH and pituitary ACTH, leading to adrenocortical atrophy. Exogenous steroids must be tapered gradually to give the HPA axis and adrenal cortex time to recover endogenous hormone production."
+      },
+      {
+        "q": "What is the first-line definitive treatment for most patients with pituitary Cushing disease caused by a resectable microadenoma?",
+        "options": [
+          "A) Bilateral laparoscopic adrenalectomy",
+          "B) Transsphenoidal pituitary surgery",
+          "C) Primary pituitary radiation therapy",
+          "D) Long-term oral Ketoconazole monotherapy"
+        ],
+        "correct": 1,
+        "hint": "Transsphenoidal removal of the pituitary adenoma.",
+        "explanation": "Transsphenoidal resection of the pituitary ACTH-secreting adenoma is the established first-line treatment for Cushing disease, offering high rates of surgical remission while preserving remaining anterior pituitary function."
+      },
+      {
+        "q": "What clinical advantage does Eplerenone offer over Spironolactone in the medical management of primary aldosteronism?",
+        "options": [
+          "A) Eplerenone has a much stronger mineralocorticoid binding potency",
+          "B) Eplerenone is a selective mineralocorticoid receptor antagonist with significantly lower affinity for progesterone and androgen receptors, avoiding anti-androgenic side effects",
+          "C) Eplerenone does not require monitoring of serum potassium or renal function",
+          "D) Eplerenone can be administered as a single monthly intramuscular injection"
+        ],
+        "correct": 1,
+        "hint": "More selective for mineralocorticoid receptors; fewer anti-androgenic effects.",
+        "explanation": "Spironolactone antagonizes androgen and progesterone receptors, frequently causing gynecomastia, mastodynia, decreased libido, and menstrual irregularities. Eplerenone is a selective mineralocorticoid antagonist that minimizes sex-steroid-related adverse effects."
+      },
+      {
+        "q": "A 32-year-old woman with known Addison disease is brought to the Emergency Department with a 2-day history of viral gastroenteritis and severe vomiting. She is confused and lethargic. Vital signs: BP 70/40 mmHg, HR 128 bpm, temp 38.2°C. Laboratory results: serum sodium 125 mmol/L, potassium 6.2 mmol/L, blood glucose 2.7 mmol/L. What is the immediate, life-saving critical care action?",
+        "options": [
+          "A) Delay steroid administration while performing a 24-hour ACTH stimulation test and order oral fludrocortisone",
+          "B) Administer an immediate IV bolus of 100 mg Hydrocortisone, initiate rapid IV infusion of 0.9% Normal Saline, and give IV concentrated Dextrose for hypoglycemia without waiting for laboratory results",
+          "C) Administer oral Prednisolone 5 mg, prescribe Spironolactone for hyperkalemia, and restrict IV fluids",
+          "D) Administer IV broad-spectrum antibiotics and oral Levothyroxine while maintaining strict fluid restriction"
+        ],
+        "correct": 1,
+        "hint": "Adrenal crisis: 100 mg IV hydrocortisone + rapid 0.9% saline + dextrose for low glucose.",
+        "explanation": "The patient is in acute adrenal crisis with hypovolemic shock, hyponatremia, hyperkalemia, and hypoglycemia triggered by gastroenteritis. Treatment is time-critical: immediate IV hydrocortisone 100 mg bolus, rapid volume expansion with IV 0.9% normal saline, and IV dextrose for hypoglycemia. Diagnostic tests must never delay emergency therapy."
+      },
+      {
+        "q": "A 44-year-old man presents with paroxysmal episodes of severe headache, sweating, and palpitations. His office blood pressure is 210/115 mmHg. Abdominal CT reveals a 4.2 cm heterogeneous left adrenal mass with an unenhanced attenuation of 38 Hounsfield Units (HU). Which sequence of management decisions is correct?",
+        "options": [
+          "A) Perform immediate CT-guided percutaneous fine-needle aspiration (FNA) biopsy of the mass to rule out malignancy",
+          "B) Measure plasma free metanephrines to confirm phaeochromocytoma; if positive, establish alpha-adrenergic blockade for 7–14 days before adding beta-blockers prior to surgical excision, and strictly avoid needle biopsy",
+          "C) Initiate immediate IV propranolol monotherapy to control tachycardia, followed by laparoscopic adrenalectomy within 24 hours",
+          "D) Order an oral dexamethasone suppression test and start spironolactone monotherapy"
+        ],
+        "correct": 1,
+        "hint": "Check metanephrines, avoid biopsy, alpha-block for 7–14 days before beta-blockers/surgery.",
+        "explanation": "The clinical triad and high CT attenuation (>10 HU) strongly suggest phaeochromocytoma. Biochemical evaluation with metanephrines must precede imaging interpretation and surgery. Biopsy is strictly contraindicated due to risk of fatal crisis. Preoperative alpha-blockade (phenoxybenzamine/doxazosin) for 7–14 days is mandatory before starting beta-blockers or proceeding to surgery."
+      },
+      {
+        "q": "A 48-year-old woman is evaluated for resistant hypertension (BP 168/102 mmHg despite 3 antihypertensive drugs). Serum potassium is 3.1 mmol/L (spontaneous hypokalemia). Screening displays an elevated Plasma Aldosterone-to-Renin Ratio (ARR). An IV saline infusion test confirms non-suppressible aldosterone output. Abdominal CT demonstrates a 1.4 cm left adrenal nodule and a normal right gland. What is the mandatory next diagnostic step before scheduling surgery?",
+        "options": [
+          "A) Immediate left laparoscopic adrenalectomy based on CT finding alone",
+          "B) Adrenal Vein Sampling (AVS) to confirm functional lateralization of aldosterone hypersecretion to the left gland",
+          "C) Fine-needle aspiration biopsy of the left adrenal nodule",
+          "D) 24-hour urinary free cortisol measurement"
+        ],
+        "correct": 1,
+        "hint": "Confirm lateralization with adrenal vein sampling before unilateral adrenalectomy.",
+        "explanation": "Non-functioning adrenal incidentalomas are common. Cross-sectional imaging (CT/MRI) cannot reliably distinguish a unilateral aldosterone-producing adenoma from bilateral adrenal hyperplasia with a non-functioning nodule. In surgical candidates, Adrenal Vein Sampling (AVS) is required to confirm functional lateralization before unilateral adrenalectomy."
+      },
+      {
+        "q": "A 35-year-old woman presents with rapid 15 kg weight gain, facial rounding, prominent purple abdominal striae (1.5 cm wide), and proximal muscle weakness. A 1 mg overnight dexamethasone suppression test fails to suppress cortisol (morning cortisol 450 nmol/L). 24-hour urinary free cortisol is markedly elevated. Subsequent testing shows a plasma ACTH concentration of <1.1 pmol/L (suppressed). What is the next diagnostic investigation of choice?",
+        "options": [
+          "A) Contrast-enhanced pituitary MRI",
+          "B) High-resolution CT scan of the adrenal glands",
+          "C) Corticotropin-Releasing Hormone (CRH) stimulation test",
+          "D) Inferior petrosal sinus sampling (IPSS)"
+        ],
+        "correct": 1,
+        "hint": "Suppressed ACTH means adrenal cause -> image the adrenals with CT.",
+        "explanation": "The patient has confirmed hypercortisolism. Suppressed plasma ACTH (<1.1 pmol/L) establishes an ACTH-independent cause (adrenal source). Pituitary MRI and IPSS are indicated only for ACTH-dependent Cushing syndrome. The correct next step is adrenal CT to evaluate for an adrenal adenoma, carcinoma, or bilateral hyperplasia."
+      },
+      {
+        "q": "A 29-year-old woman presents with moon facies, hypertension, purple striae, and secondary amenorrhea. Lab tests confirm hypercortisolism (1 mg DST cortisol 520 nmol/L). Plasma ACTH is 18 pmol/L (elevated). High-dose (8 mg) dexamethasone suppression testing demonstrates >50% suppression of serum cortisol. What is the underlying diagnosis and primary treatment approach?",
+        "options": [
+          "A) Adrenal cortical carcinoma; perform total unilateral adrenalectomy",
+          "B) Pituitary Cushing disease (ACTH-secreting pituitary adenoma); perform pituitary MRI and transsphenoidal surgery",
+          "C) Ectopic ACTH syndrome from small cell lung cancer; initiate systemic chemotherapy",
+          "D) Primary aldosteronism; start spironolactone"
+        ],
+        "correct": 1,
+        "hint": "High ACTH + suppression on 8 mg DST = pituitary Cushing disease -> pituitary MRI & transsphenoidal surgery.",
+        "explanation": "Elevated ACTH confirms ACTH-dependent Cushing syndrome. Suppression of cortisol by >50% following high-dose (8 mg) dexamethasone is characteristic of pituitary Cushing disease (corticotroph adenomas retain partial sensitivity to glucocorticoid feedback). Ectopic ACTH tumors typically do not suppress. Pituitary MRI and transsphenoidal surgery are indicated."
+      },
+      {
+        "q": "A 12-day-old 46,XX infant is admitted with poor feeding, severe vomiting, dehydration, and lethargy. Physical exam reveals marked clitoromegaly and labial fusion (ambiguous genitalia). Lab tests: sodium 122 mmol/L, potassium 7.1 mmol/L, blood glucose 2.4 mmol/L. Serum 17-hydroxyprogesterone (17-OHP) is markedly elevated. What is the diagnosis and emergency management priority?",
+        "options": [
+          "A) Salt-wasting 21-hydroxylase deficiency CAH; administer IV 0.9% Normal Saline, IV Dextrose, stress-dose Hydrocortisone, and Fludrocortisone",
+          "B) Simple virilizing CAH; reassure parents and arrange elective outpatient surgical consultation",
+          "C) Isolated aldosterone synthase deficiency; treat with oral spironolactone monotherapy",
+          "D) Turner syndrome; initiate recombinant growth hormone therapy"
+        ],
+        "correct": 0,
+        "hint": "High 17-OHP + salt wasting + virilization -> 21-hydroxylase CAH -> saline, glucose, hydrocortisone, fludrocortisone.",
+        "explanation": "Severe 21-hydroxylase deficiency causes classic salt-wasting CAH: deficient cortisol and aldosterone synthesis leads to neonatal adrenal crisis (hyponatremia, hyperkalemia, dehydration, hypoglycemia), while excess adrenal androgen synthesis causes prenatal virilization of 46,XX infants. Emergency resuscitation requires IV saline, glucose, hydrocortisone, and mineralocorticoid replacement."
+      },
+      {
+        "q": "A 58-year-old normotensive man undergoes abdominal CT for non-cardiac chest workup, revealing a 2.5 cm left adrenal mass. It is smooth, homogeneous, with an unenhanced attenuation value of 6 Hounsfield Units (HU). What complete evaluation is required for this adrenal incidentaloma?",
+        "options": [
+          "A) Perform immediate percutaneous FNA biopsy without lab testing",
+          "B) Perform clinical evaluation, 1 mg overnight dexamethasone suppression test, plasma metanephrines (if indicated), and follow local imaging guidelines; biopsy is strictly avoided",
+          "C) Schedule immediate bilateral open adrenalectomy",
+          "D) Reassure patient and discharge without any biochemical evaluation or follow-up"
+        ],
+        "correct": 1,
+        "hint": "Check hormone function (e.g., 1 mg DST, metanephrines) and follow imaging guidance; avoid biopsy.",
+        "explanation": "All adrenal incidentalomas require systematic assessment for autonomous hormone excess (at minimum, 1 mg DST to exclude autonomous cortisol secretion, plus metanephrines/ARR as clinically indicated). Unenhanced attenuation ≤10 HU confirms a benign lipid-rich adenoma. Biopsy is contraindicated unless phaeochromocytoma is excluded and metastatic disease is suspected."
+      },
+      {
+        "q": "A 52-year-old man with severe asthma managed on oral Prednisolone 40 mg daily for 8 months stops taking his medication abruptly because he feels better. Three days later, he presents with severe fatigue, dizziness, nausea, and BP 85/50 mmHg. Serum sodium is 130 mmol/L, and potassium is 4.1 mmol/L. What is the pathophysiological mechanism responsible for his condition?",
+        "options": [
+          "A) Intrinsic autoimmune destruction of the zona glomerulosa causing hyperkalemia",
+          "B) Tertiary adrenal insufficiency caused by prolonged exogenous glucocorticoid suppression of hypothalamic CRH and pituitary ACTH, leaving aldosterone/RAAS function intact",
+          "C) Autonomous overproduction of catecholamines causing receptor downregulation",
+          "D) Acute bacterial pyelonephritis causing renal aldosterone resistance"
+        ],
+        "correct": 1,
+        "hint": "Stopping long-term steroids suppresses CRH/ACTH (tertiary insufficiency); K+ stays normal via RAAS.",
+        "explanation": "Chronic high-dose systemic glucocorticoid therapy suppresses CRH and ACTH, causing adrenocortical atrophy. Abrupt steroid cessation induces tertiary adrenal insufficiency (cortisol deficiency, hypotension, hyponatremia). Serum potassium and aldosterone remain normal because mineralocorticoid production via RAAS is preserved."
+      },
+      {
+        "q": "A 40-year-old man with a history of untreated pulmonary tuberculosis presents with progressive generalized skin bronzing, dark pigmentation on his buccal mucosa and palmar creases, postural dizziness, and fatigue. Lab evaluation: serum sodium 129 mmol/L, potassium 5.8 mmol/L, 8 AM serum cortisol 80 nmol/L (low), and plasma ACTH 450 pg/mL (elevated). What is the underlying diagnosis and management plan?",
+        "options": [
+          "A) Secondary adrenal insufficiency due to pituitary tuberculoma; treat with pituitary radiation",
+          "B) Primary adrenal insufficiency (Addison disease) due to tuberculous adrenalitis; initiate Hydrocortisone, Fludrocortisone, and anti-tuberculosis therapy",
+          "C) Cushing disease due to ACTH-secreting lung tumor; schedule surgical tumor resection",
+          "D) Primary aldosteronism; treat with spironolactone and fluid restriction"
+        ],
+        "correct": 1,
+        "hint": "Low cortisol + high ACTH + hyperpigmentation + TB -> tuberculous Addison disease -> hydrocortisone, fludrocortisone, anti-TB therapy.",
+        "explanation": "Tuberculosis is a classic infectious cause of primary adrenal failure (tuberculous adrenalitis). Destruction of the adrenal cortex causes cortisol and mineralocorticoid deficiency (hyponatremia, hyperkalemia, hypotension) and elevated ACTH (hyperpigmentation). Management requires glucocorticoid and mineralocorticoid replacement alongside anti-TB treatment."
+      },
+      {
+        "q": "A 45-year-old man evaluated for Cushing syndrome has confirmed hypercortisolism. His plasma ACTH concentration is 28 pmol/L (markedly elevated). Administration of a high-dose (8 mg) dexamethasone suppression test demonstrates NO suppression of serum cortisol. Chest CT reveals a 3.0 cm spiculated lung mass. What is the diagnosis and underlying mechanism?",
+        "options": [
+          "A) Pituitary Cushing disease with normal glucocorticoid receptor sensitivity",
+          "B) Ectopic ACTH syndrome (likely neuroendocrine tumor/small cell lung carcinoma) producing autonomous ACTH secretion resistant to dexamethasone feedback",
+          "C) ACTH-independent cortisol-producing adrenal carcinoma",
+          "D) Primary adrenal insufficiency complicated by lung carcinoma"
+        ],
+        "correct": 1,
+        "hint": "High ACTH + no suppression on 8 mg DST + lung mass = ectopic ACTH syndrome.",
+        "explanation": "Markedly elevated plasma ACTH with complete failure of cortisol suppression on high-dose (8 mg) dexamethasone testing is typical of ectopic ACTH syndrome. Non-pituitary tumors (such as small cell lung carcinoma or bronchial carcinoids) secrete ACTH autonomously, driving severe hypercortisolism without responding to negative feedback control."
+      }
+    ]
+  }
+]
