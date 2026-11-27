@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Nephroblastoma & Neuroblastoma",
+    "questions": [
+      {
+        "q": "What is the peak age of incidence for Nephroblastoma (Wilms tumor) in pediatric patients?",
+        "options": [
+          "A) 2 to 5 years of age (with a peak incidence at 3 years)",
+          "B) Less than 6 months of age",
+          "C) 10 to 14 years of age",
+          "D) 15 to 18 years of age"
+        ],
+        "correct": 0,
+        "hint": "Most common between 2 and 5 years, peaking at age 3.",
+        "explanation": "Nephroblastoma (Wilms tumor) is predominantly diagnosed in early childhood, with the vast majority of cases occurring between 2 and 5 years of age and peaking at age 3."
+      },
+      {
+        "q": "From which embryological tissue origin does Nephroblastoma arise within the kidney?",
+        "options": [
+          "A) Adrenal cortical zona fasciculata",
+          "B) Persistent nephrogenic blastema (metanephric blastema)",
+          "C) Transformed vascular endothelial cells of Bowman's capsule",
+          "D) Transitional cell epithelium of the renal pelvis"
+        ],
+        "correct": 1,
+        "hint": "Persistent nephrogenic (metanephric) blastema.",
+        "explanation": "Nephroblastoma is an embryonal malignant renal tumor arising from persistent, dysplastic embryonal renal tissue known as metanephric blastema."
+      },
+      {
+        "q": "What cell line of origin gives rise to Neuroblastoma?",
+        "options": [
+          "A) Renal tubular epithelial cells",
+          "B) Splenic reticuloendothelial macrophages",
+          "C) Neural crest cells of the sympathetic nervous system",
+          "D) Skeletal muscle satellite cells"
+        ],
+        "correct": 2,
+        "hint": "Neural crest cells of the sympathetic nervous system.",
+        "explanation": "Neuroblastoma is an embryonal neoplasm that originates from primordial neural crest cells destined to form the sympathetic ganglia and adrenal medulla."
+      },
+      {
+        "q": "What is the single most frequent anatomical primary site for Neuroblastoma development in children?",
+        "options": [
+          "A) Posterior fossa of the brain",
+          "B) Distal anterior mediastinum",
+          "C) Subcutaneous tissue of the thigh",
+          "D) Adrenal medulla (accounting for ~50% of primary cases)"
+        ],
+        "correct": 3,
+        "hint": "Adrenal medulla (~50% of primary cases).",
+        "explanation": "The adrenal medulla is the most common anatomical site of origin for neuroblastoma, giving rise to approximately 50% of all primary tumors, followed by the retroperitoneal sympathetic chain."
+      },
+      {
+        "q": "What is the classic physical presentation of an abdominal mass in a child with Nephroblastoma (Wilms tumor)?",
+        "options": [
+          "A) A smooth, firm, non-tender intra-renal mass that stays strictly unilateral and does NOT cross the midline",
+          "B) A hard, nodular, fixed abdominal mass that freely crosses the aortic midline",
+          "C) A soft, diffusely tender, fluctuating mass extending into the inguinal canal",
+          "D) A small hyper-pulsatile vascular mass located in the epigastrium"
+        ],
+        "correct": 0,
+        "hint": "Smooth, firm, unilateral intra-renal mass that does not cross the midline.",
+        "explanation": "Wilms tumor typically presents as a smooth, firm, non-tender flank mass originating within the renal capsule that expands unilaterally without crossing the abdominal midline."
+      },
+      {
+        "q": "In contrast to Wilms tumor, what are the physical examination characteristics of the abdominal mass in Neuroblastoma?",
+        "options": [
+          "A) Soft, cystic, mobile, and non-palpable",
+          "B) Hard, irregular, nodular, fixed, and frequently crossing the abdominal midline",
+          "C) Smooth, uniform, non-fixed, and strictly localized to the pelvis",
+          "D) Bounding, compressible, and localized to the anterior abdominal wall"
+        ],
+        "correct": 1,
+        "hint": "Hard, irregular/nodular, fixed, and frequently crosses the midline.",
+        "explanation": "Neuroblastoma masses originate from retroperitoneal sympathetic chain or adrenal tissue, typically presenting as hard, fixed, irregular/nodular structures that cross the anatomical midline."
+      },
+      {
+        "q": "Which diagnostic tumor suppressor gene, located on chromosome 11p13, is directly linked to the development of Wilms tumor?",
+        "options": [
+          "A) MYCN gene",
+          "B) RB1 gene",
+          "C) WT1 gene",
+          "D) TP53 gene"
+        ],
+        "correct": 2,
+        "hint": "WT1 on chromosome 11p13.",
+        "explanation": "The WT1 gene (Wilms Tumor 1), mapped to chromosome 11p13, plays a critical role in normal renal and gonadal embryogenesis and is mutated or deleted in Wilms tumor cases."
+      },
+      {
+        "q": "What percentage of children with Neuroblastoma present with metastatic disease at the time of initial diagnosis?",
+        "options": [
+          "A) Less than 5%",
+          "B) Approximately 15%",
+          "C) Approximately 35%",
+          "D) Over 70%"
+        ],
+        "correct": 3,
+        "hint": "Over 70% already have metastases at diagnosis.",
+        "explanation": "Neuroblastoma is a biologically aggressive malignancy; more than 70% of affected children present with widespread metastatic disease (to bone marrow, bones, liver, or lymph nodes) at initial presentation."
+      },
+      {
+        "q": "What urinary catecholamine metabolites are pathognomonic markers elevated in over 90% of Neuroblastoma patients?",
+        "options": [
+          "A) Homovanillic acid (HVA) and Vanillylmandelic acid (VMA)",
+          "B) 5-Hydroxyindoleacetic acid (5-HIAA) and Serotonin",
+          "C) Uric acid and Creatinine",
+          "D) Alpha-fetoprotein (AFP) and Beta-hCG"
+        ],
+        "correct": 0,
+        "hint": "Urinary HVA and VMA.",
+        "explanation": "Because neuroblastoma cells synthesize and metabolize catecholamines, >90% of patients excrete elevated urinary levels of Homovanillic Acid (HVA) and Vanillylmandelic Acid (VMA)."
+      },
+      {
+        "q": "What is the overall cure rate for children diagnosed with Favorable Histology Wilms Tumor under modern multi-disciplinary protocols?",
+        "options": [
+          "A) Less than 20%",
+          "B) Greater than 90%",
+          "C) Exactly 50%",
+          "D) 35%"
+        ],
+        "correct": 1,
+        "hint": "Over 90% cure rate for favorable histology.",
+        "explanation": "Favorable histology Wilms tumor has one of the highest cure rates in pediatric oncology, exceeding 90% when managed with combined surgery and chemotherapy."
+      },
+      {
+        "q": "Which congenital syndrome features the combination of Wilms tumor, Aniridia, Genitourinary malformations, and Range of mental retardation (intellectual disability)?",
+        "options": [
+          "A) Beckwith-Wiedemann syndrome",
+          "B) Denys-Drash syndrome",
+          "C) WAGR syndrome",
+          "D) Li-Fraumeni syndrome"
+        ],
+        "correct": 2,
+        "hint": "Wilms tumor, Aniridia, Genitourinary anomalies, and Range of mental retardation = WAGR.",
+        "explanation": "WAGR syndrome is a classic contiguous gene deletion syndrome on chromosome 11p13 characterized by Wilms tumor, Aniridia, Genitourinary anomalies, and Range of mental retardation."
+      },
+      {
+        "q": "What clinical triad of features characterizes Beckwith-Wiedemann syndrome, a genetic condition predisposing to Wilms tumor?",
+        "options": [
+          "A) Microcephaly, cleft lip, and polydactyly",
+          "B) Aniridia, hypospadias, and renal failure",
+          "C) Cataracts, sensorineural deafness, and congenital heart defect",
+          "D) Macrosomia, Omphalocele (exomphalos), and Macroglossia (often with hemihypertrophy and neonatal hypoglycemia)"
+        ],
+        "correct": 3,
+        "hint": "Macrosomia, omphalocele, and macroglossia.",
+        "explanation": "Beckwith-Wiedemann syndrome (11p15 locus) presents with overgrowth features: macrosomia, omphalocele, macroglossia, ear creases, hemihypertrophy, and an increased risk of Wilms tumor and hepatoblastoma."
+      },
+      {
+        "q": "Which oncogene amplification (located on chromosome 2p24) serves as the most critical independent marker of poor prognosis in Neuroblastoma?",
+        "options": [
+          "A) MYCN amplification",
+          "B) BCR::ABL1 fusion",
+          "C) FLT3-ITD mutation",
+          "D) ETV6::RUNX1 translocation"
+        ],
+        "correct": 0,
+        "hint": "MYCN amplification (chromosome 2p24).",
+        "explanation": "MYCN gene amplification (>10 copies) occurs in ~20% of neuroblastomas and strongly correlates with rapid tumor progression, treatment resistance, and poor prognosis regardless of patient age or stage."
+      },
+      {
+        "q": "What physical examination sign describes periorbital ecchymosis and proptosis secondary to orbital bone metastases in Neuroblastoma?",
+        "options": [
+          "A) 'Blueberry muffin' skin lesions",
+          "B) 'Raccoon eyes'",
+          "C) 'Dewdrops on a rose petal'",
+          "D) 'Strawberry nevus'"
+        ],
+        "correct": 1,
+        "hint": "Orbital metastases cause 'raccoon eyes'.",
+        "explanation": "Metastatic neuroblastoma infiltration into the retrobulbar orbital bones and surrounding tissues causes periorbital ecchymosis and proptosis, clinically recognized as 'raccoon eyes'."
+      },
+      {
+        "q": "What is Pepper Syndrome in neonatal/infantile Neuroblastoma?",
+        "options": [
+          "A) Bilateral adrenal calcification causing acute Addisonian crisis",
+          "B) Intra-spinal extension causing acute paraplegia",
+          "C) Massive liver metastasis in infants causing severe hepatomegaly and respiratory compromise",
+          "D) Chronic secretory diarrhea secondary to VIP secretion"
+        ],
+        "correct": 2,
+        "hint": "Massive liver metastasis in infants.",
+        "explanation": "Pepper syndrome describes extensive metastatic dissemination of neuroblastoma to the liver in infants, causing massive hepatomegaly that compresses the lungs and inferior vena cava."
+      },
+      {
+        "q": "What paraneoplastic autoimmune syndrome associated with Neuroblastoma presents with rapid chaotic eye movements, rhythmic muscle twitching, and ataxia?",
+        "options": [
+          "A) Horner syndrome",
+          "B) Cushing syndrome",
+          "C) WAGR syndrome",
+          "D) Opsoclonus-Myoclonus-Ataxia Syndrome (OMAS)"
+        ],
+        "correct": 3,
+        "hint": "Opsoclonus-myoclonus-ataxia syndrome (OMAS).",
+        "explanation": "Opsoclonus-Myoclonus-Ataxia Syndrome (OMAS / 'dancing eyes, dancing feet') is a paraneoplastic autoimmune condition triggered by neuroblastoma, featuring opsoclonus, myoclonus, and cerebellar ataxia."
+      },
+      {
+        "q": "Under the SIOP (International Society of Paediatric Oncology) protocol used in Tanzania and Europe for Wilms tumor, what is the mandatory initial management step?",
+        "options": [
+          "A) Pre-operative chemotherapy (Vincristine + Actinomycin D) for 4 to 6 weeks FIRST to shrink the tumor before surgery",
+          "B) Immediate radical nephrectomy on the day of admission",
+          "C) Immediate total body irradiation",
+          "D) High-dose oral corticosteroids for 6 months"
+        ],
+        "correct": 0,
+        "hint": "Pre-operative chemotherapy (vincristine + actinomycin D) before nephrectomy.",
+        "explanation": "The SIOP protocol administers pre-operative chemotherapy (Vincristine + Actinomycin D) to reduce tumor volume and downstage the lesion prior to nephrectomy, minimizing the risk of intraoperative tumor rupture."
+      },
+      {
+        "q": "How is Unfavorable Histology Wilms tumor defined microscopically?",
+        "options": [
+          "A) Presence of uniform mature tubular structures",
+          "B) Presence of nuclear Anaplasia (marked nuclear enlargement, hyperchromasia, and multipolar mitotic figures)",
+          "C) Abundant fibroblastic stroma without epithelial cells",
+          "D) Complete absence of cell mitosis"
+        ],
+        "correct": 1,
+        "hint": "Nuclear anaplasia defines unfavorable histology.",
+        "explanation": "Unfavorable histology in Wilms tumor is defined by the presence of nuclear anaplasia (bizarre pleomorphic giant nuclei, hyperchromasia, atypical multipolar mitoses), which confers chemoresistance."
+      },
+      {
+        "q": "Which rare clinical manifestation of Neuroblastoma occurs due to tumor secretion of Vasoactive Intestinal Peptide (VIP)?",
+        "options": [
+          "A) Severe hypertension and bradycardia",
+          "B) Polycythemia and facial flushing",
+          "C) Kerner-Morrison syndrome (profuse, watery secretory diarrhea with severe hypokalemia)",
+          "D) Acute renal failure with hyperuricemia"
+        ],
+        "correct": 2,
+        "hint": "VIP secretion causes watery diarrhea and hypokalemia (Kerner-Morrison syndrome).",
+        "explanation": "Neuroblastoma tumor cells can secrete Vasoactive Intestinal Peptide (VIP), causing intractable watery diarrhea, electrolyte depletion (hypokalemia), and metabolic acidosis (Kerner-Morrison syndrome)."
+      },
+      {
+        "q": "What specific neurological sign occurs when a thoracic or cervical Neuroblastoma involves the sympathetic stellate ganglion?",
+        "options": [
+          "A) Bell's palsy",
+          "B) Parotid enlargement",
+          "C) Nystagmus and papilledema",
+          "D) Horner syndrome (ptosis, miosis, anhidrosis, and enophthalmos)"
+        ],
+        "correct": 3,
+        "hint": "Sympathetic chain involvement causes Horner syndrome.",
+        "explanation": "Compression or invasion of the cervical/thoracic sympathetic chain by neuroblastoma produces ipsilateral Horner syndrome, characterized by ptosis, miosis, anhidrosis, and enophthalmos."
+      },
+      {
+        "q": "According to the SIOP / NWTSG staging systems for Wilms Tumor, what defines Stage I disease?",
+        "options": [
+          "A) Tumor limited strictly to the kidney, intact capsule, completely resected without rupture or residual tumor",
+          "B) Tumor extending beyond the kidney into retroperitoneal fat but completely excised",
+          "C) Tumor spillage into the abdominal cavity during surgery or regional lymph node involvement",
+          "D) Presence of hematogenous metastases to the lungs or liver"
+        ],
+        "correct": 0,
+        "hint": "Confined to the kidney with an intact capsule and complete excision.",
+        "explanation": "Stage I Wilms tumor is strictly limited to the kidney, with an intact pseudo-capsule, no vessel invasion, and complete surgical excision with clear margins."
+      },
+      {
+        "q": "What defines Stage III Wilms Tumor in surgical staging?",
+        "options": [
+          "A) Unilateral tumor completely excised with negative margins",
+          "B) Residual non-hematogenous tumor confined to the abdomen (e.g., regional lymph node involvement, tumor spillage during surgery, or peritoneal implants)",
+          "C) Distant blood-borne metastases to lungs, liver, or bone",
+          "D) Synchronous bilateral renal involvement"
+        ],
+        "correct": 1,
+        "hint": "Residual non-hematogenous abdominal tumor (lymph nodes, spillage, or implants).",
+        "explanation": "Stage III Wilms tumor involves residual non-hematogenous tumor within the abdomen, including positive regional lymph nodes, intraoperative spillage, peritoneal seeding, or incomplete surgical resection."
+      },
+      {
+        "q": "What defines Stage V Wilms Tumor at initial presentation?",
+        "options": [
+          "A) Unresectable retroperitoneal tumor crossing the midline",
+          "B) Solitary lung metastasis",
+          "C) Bilateral renal involvement at the time of initial diagnosis",
+          "D) Recurrent tumor 2 years post-treatment"
+        ],
+        "correct": 2,
+        "hint": "Bilateral renal involvement at diagnosis.",
+        "explanation": "Stage V Wilms tumor is defined by synchronous or metachronous involvement of both kidneys at initial diagnosis, requiring renal-sparing treatment strategies."
+      },
+      {
+        "q": "Why do approximately 25% of children with Nephroblastoma develop systemic Hypertension at presentation?",
+        "options": [
+          "A) Excess secretion of epinephrine by metanephric blastema",
+          "B) Direct tumor invasion into the adrenal cortex",
+          "C) Co-existing coarctation of the aorta",
+          "D) Renal ischemia caused by tumor compression of intra-renal arteries, stimulating the Renin-Angiotensin-Aldosterone Axis"
+        ],
+        "correct": 3,
+        "hint": "Renal ischemia activates the renin-angiotensin-aldosterone system.",
+        "explanation": "Wilms tumor expansion compresses adjacent renal parenchyma and blood vessels, inducing intra-renal ischemia that triggers excessive renin secretion and hypertension."
+      },
+      {
+        "q": "Under the International Neuroblastoma Staging System (INSS), how is Stage 3 Neuroblastoma defined?",
+        "options": [
+          "A) Unresectable unilateral tumor crossing the midline, or localized unilateral tumor with contralateral regional lymph node involvement",
+          "B) Completely resected localized tumor with negative lymph nodes",
+          "C) Metastases restricted to skin and liver in infants <1 year",
+          "D) Distant bone marrow involvement in a 5-year-old"
+        ],
+        "correct": 0,
+        "hint": "Unresectable tumor crossing midline or contralateral regional lymph nodes.",
+        "explanation": "INSS Stage 3 Neuroblastoma includes unresectable primary tumors extending across the midline (with or without regional lymph node involvement) or unilateral tumors with positive contralateral lymph nodes."
+      },
+      {
+        "q": "What unique clinical behavior defines Stage 4S (INSS) / Stage MS (INRG) Neuroblastoma in infants under 12–18 months of age?",
+        "options": [
+          "A) Rapid fatal progression despite intensive multi-agent chemotherapy",
+          "B) High rate of spontaneous regression with minimal or no cytotoxic chemotherapy",
+          "C) Universal transformation into high-grade osteosarcoma",
+          "D) Exclusive metastasis to the central nervous system parenchyma"
+        ],
+        "correct": 1,
+        "hint": "High rate of spontaneous regression.",
+        "explanation": "Stage 4S (special) neuroblastoma occurs in infants <1 year with localized primary tumor and metastases limited to liver, skin, and/or <10% bone marrow. It uniquely undergoes high rates of spontaneous regression, yielding survival >80–90%."
+      },
+      {
+        "q": "What physical finding indicates intra-spinal extension ('dumbbell tumor') of a paraspinal Neuroblastoma?",
+        "options": [
+          "A) Palpable thrill over the epigastrium",
+          "B) Macroglossia and omphalocele",
+          "C) Neurological deficits such as progressive lower extremity weakness, loss of bowel/bladder control, or paraplegia",
+          "D) Bilateral undescended testes"
+        ],
+        "correct": 2,
+        "hint": "Spinal cord compression causes leg weakness, sensory/sphincter changes, or paraplegia.",
+        "explanation": "Paraspinal neuroblastomas can grow through neural foramina into the spinal canal ('dumbbell tumor'), compressing the spinal cord and causing nerve root pain, leg weakness, and sphincter dysfunction."
+      },
+      {
+        "q": "What microscopic appearance characterizes the classic histopathology of triphasic Wilms Tumor?",
+        "options": [
+          "A) Uniform sheet of mature histiocytes with lipid vacuoles",
+          "B) Multinucleated Reed-Sternberg cells surrounded by lymphocytes",
+          "C) Interlocking bundles of smooth muscle fibers without mitosis",
+          "D) Triphasic combination of Blastemal, Epithelial (tubules/glomeruloid structures), and Stromal elements"
+        ],
+        "correct": 3,
+        "hint": "Blastemal, epithelial, and stromal components.",
+        "explanation": "Classic Wilms tumor exhibits a triphasic histologic pattern composed of undifferentiated blastema, epithelial structures (primitive tubules or glomeruli), and mesenchymal stroma."
+      },
+      {
+        "q": "What histological feature is characteristic of Neuroblastoma tissue on routine microscopic examination?",
+        "options": [
+          "A) Homer-Wright pseudorosettes (tumor cells arranged around a central meshwork of neural fibers)",
+          "B) 'Starry sky' pattern of macrophages ingesting apoptotic debris",
+          "C) Auer rods inside cell cytoplasm",
+          "D) Concentric calcified psammoma bodies"
+        ],
+        "correct": 0,
+        "hint": "Homer-Wright pseudorosettes.",
+        "explanation": "Neuroblastoma microscopy shows small round blue cells forming Homer-Wright pseudorosettes (rings of tumor cell nuclei surrounding a central fibrillar neuropil core)."
+      },
+      {
+        "q": "Which serum laboratory markers correlate with high tumor burden and poor prognosis in Neuroblastoma?",
+        "options": [
+          "A) Elevated serum amylase and lipase",
+          "B) Elevated Lactate Dehydrogenase (LDH) and serum Ferritin",
+          "C) Decreased serum uric acid",
+          "D) Elevated alkaline phosphatase alone"
+        ],
+        "correct": 1,
+        "hint": "Elevated LDH and serum ferritin.",
+        "explanation": "High serum Ferritin (>145 ng/mL) and elevated Serum LDH (>1500 U/L) reflect massive tumor cell turnover and high body tumor burden in neuroblastoma, correlating with advanced stage and inferior survival."
+      },
+      {
+        "q": "On abdominal Cross-Sectional CT imaging, what characteristic sign differentiates Wilms Tumor from Neuroblastoma?",
+        "options": [
+          "A) Neuroblastoma originates inside the renal cortex; Wilms tumor originates in the spleen",
+          "B) Neuroblastoma never contains calcifications; Wilms tumor contains calcifications in 100% of cases",
+          "C) Wilms tumor produces the 'Claw Sign' (compressed normal renal parenchyma wrapping around the intra-renal mass), whereas Neuroblastoma encases and displaces major blood vessels",
+          "D) Wilms tumor always crosses the midline and invades the contralateral adrenal gland"
+        ],
+        "correct": 2,
+        "hint": "Wilms shows the 'claw sign' of renal tissue; neuroblastoma encases vessels.",
+        "explanation": "CT imaging distinguishes intra-renal Wilms tumor (which stretches normal renal tissue into a 'claw sign') from extra-renal Neuroblastoma (which encases major abdominal vessels and crosses the midline)."
+      },
+      {
+        "q": "What nuclear medicine functional imaging scan is highly specific for staging and detecting metastatic Neuroblastoma lesions?",
+        "options": [
+          "A) Technetium-99m bone scan only",
+          "B) Gallium-67 scan",
+          "C) Positron emission tomography with glucose only",
+          "D) Iodine-123 Metaiodobenzylguanidine (123I-MIBG) scan"
+        ],
+        "correct": 3,
+        "hint": "Iodine-123 MIBG scan.",
+        "explanation": "MIBG is a structural analog of norepinephrine that is selectively taken up by sympathetic adrenergic tissues, making Iodine-123 MIBG scintigraphy the gold-standard imaging modality for neuroblastoma."
+      },
+      {
+        "q": "What imaging modality is superior for evaluating suspected intra-spinal extension ('dumbbell tumor') in Neuroblastoma?",
+        "options": [
+          "A) Magnetic Resonance Imaging (MRI)",
+          "B) Plain abdominal radiograph",
+          "C) Renal ultrasound",
+          "D) Intravenous pyelogram (IVP)"
+        ],
+        "correct": 0,
+        "hint": "MRI best shows spinal canal and soft-tissue extension.",
+        "explanation": "MRI provides superior soft-tissue contrast resolution, making it the definitive modality to evaluate spinal canal patency and spinal cord compression in paraspinal neuroblastoma."
+      },
+      {
+        "q": "What chemotherapy agents constitute the standard pre-operative regimen for Low/Intermediate-Risk Wilms Tumor under the SIOP protocol?",
+        "options": [
+          "A) Cisplatin and Etoposide",
+          "B) Vincristine and Actinomycin D",
+          "C) Cyclophosphamide and Doxorubicin",
+          "D) Methotrexate and Cytarabine"
+        ],
+        "correct": 1,
+        "hint": "Vincristine and actinomycin D.",
+        "explanation": "The standard SIOP pre-operative chemotherapy for localized Wilms tumor consists of 4 weeks of Vincristine and Actinomycin D (doxorubicin is added for metastatic or high-risk disease)."
+      },
+      {
+        "q": "Why is palpation of the abdomen performed with extreme gentleness or restricted during pre-operative clinical evaluation of suspected Wilms Tumor?",
+        "options": [
+          "A) Palpation causes severe hypokalemia",
+          "B) To avoid triggering excessive catecholamine release",
+          "C) To prevent accidental rupture of the renal tumor capsule and intra-abdominal tumor spillage (which upgrades stage to Stage III)",
+          "D) To prevent dislodgement of cardiac pacemakers"
+        ],
+        "correct": 2,
+        "hint": "Avoid tumor rupture and spillage, which upgrades the stage to Stage III.",
+        "explanation": "Vigorous abdominal palpation can rupture the delicate capsule of a Wilms tumor, spilling tumor cells into the peritoneal cavity and upgrading the patient's stage from Stage I/II to Stage III."
+      },
+      {
+        "q": "What biological differentiation therapy agent is administered post-chemotherapy in high-risk Neuroblastoma to eliminate residual microscopic disease?",
+        "options": [
+          "A) All-trans retinoic acid (ATRA)",
+          "B) Interferon-alpha",
+          "C) Levamisole",
+          "D) 13-cis-retinoic acid (Isotretinoin)"
+        ],
+        "correct": 3,
+        "hint": "13-cis-retinoic acid (isotretinoin).",
+        "explanation": "Oral 13-cis-retinoic acid (Isotretinoin) induces terminal differentiation of neuroblastoma blasts and is standard consolidation therapy following high-dose chemotherapy and autologous stem cell rescue."
+      },
+      {
+        "q": "What imaging finding on plain abdominal radiography is present in over 80% of Neuroblastoma cases?",
+        "options": [
+          "A) Fine stippled intratumoral calcifications",
+          "B) Double-bubble sign",
+          "C) Pneumoperitoneum",
+          "D) Ground-glass opacity of the lungs"
+        ],
+        "correct": 0,
+        "hint": "Fine stippled calcifications inside the tumor.",
+        "explanation": "Dystrophic calcification within necrotic tumor tissue produces fine, stippled calcifications visible on plain radiographs and CT scans in >80% of neuroblastomas."
+      },
+      {
+        "q": "What is the surgical management strategy for Stage V (Bilateral) Wilms Tumor?",
+        "options": [
+          "A) Bilateral total nephrectomy with immediate lifelong dialysis on Day 1",
+          "B) Pre-operative chemotherapy followed by bilateral nephron-sparing (partial) surgery to preserve functional renal parenchyma",
+          "C) Radiation therapy to both kidneys without surgery",
+          "D) Immediate bilateral renal transplantation"
+        ],
+        "correct": 1,
+        "hint": "Pre-op chemotherapy followed by nephron-sparing (partial) surgery.",
+        "explanation": "Stage V Wilms tumor management focuses on preserving renal function: pre-operative chemotherapy shrinks both tumors, followed by partial nephrectomy (nephron-sparing surgery) on both kidneys."
+      },
+      {
+        "q": "Which clinical syndrome predisposing to Wilms tumor features pseudohermaphroditism, early-onset progressive renal failure (diffuse mesangial sclerosis), and Wilms tumor?",
+        "options": [
+          "A) WAGR syndrome",
+          "B) Li-Fraumeni syndrome",
+          "C) Denys-Drash syndrome",
+          "D) Sotos syndrome"
+        ],
+        "correct": 2,
+        "hint": "Denys-Drash syndrome (WT1 mutation).",
+        "explanation": "Denys-Drash syndrome (point mutation in WT1) is characterized by the triad of Wilms tumor, male pseudohermaphroditism (genital ambiguity), and progressive nephrotic syndrome due to diffuse mesangial sclerosis."
+      },
+      {
+        "q": "What monoclonal antibody targeting the GD2 disialoganglioside surface antigen is used in modern immunotherapy protocols for high-risk Neuroblastoma?",
+        "options": [
+          "A) Rituximab",
+          "B) Blinatumomab",
+          "C) Infliximab",
+          "D) Dinutuximab (anti-GD2)"
+        ],
+        "correct": 3,
+        "hint": "Dinutuximab targets GD2.",
+        "explanation": "Dinutuximab is a monoclonal antibody that targets GD2, a glycolipid heavily expressed on neuroblastoma cells, significantly improving event-free and overall survival in high-risk neuroblastoma."
+      },
+      {
+        "q": "A 3-year-old boy presents with a painless, smooth, firm left flank mass, BP 135/85 mmHg, microscopic hematuria, and an intra-renal mass on CT with a positive 'claw sign' (no calcifications, does not cross midline). Identify the diagnosis, mechanism of hypertension, and initial SIOP management.",
+        "options": [
+          "A) Nephroblastoma (Wilms tumor); Intra-renal ischemia stimulating Renin secretion; Administer 4–6 weeks of pre-operative Vincristine + Actinomycin D followed by radical nephrectomy",
+          "B) Neuroblastoma; Epinephrine hypersecretion; Perform immediate emergency total hepatectomy",
+          "C) Polycystic Kidney Disease; Salt retention; Give high-dose loop diuretics",
+          "D) Renal Cell Carcinoma; Erythropoietin surge; Immediate radiation therapy"
+        ],
+        "correct": 0,
+        "hint": "Smooth intra-renal mass + 'claw sign' + hypertension = Wilms tumor (renin-mediated); SIOP uses pre-op vincristine + actinomycin D before nephrectomy.",
+        "explanation": "A smooth intra-renal mass in a 3-year-old with hematuria, hypertension (renin-mediated), and a CT 'claw sign' without crossing the midline is classic for Wilms tumor. SIOP protocol initiates treatment with pre-operative Vincristine + Actinomycin D prior to nephrectomy."
+      },
+      {
+        "q": "A 14-month-old infant presents with fever, weight loss, a hard, fixed, nodular abdominal mass crossing the midline, 'raccoon eyes', opsoclonus-myoclonus, high urinary HVA/VMA, and a calcified retroperitoneal mass encasing vessels on CT. Diagnose the condition, tissue of origin, and eye/movement disorder.",
+        "options": [
+          "A) Wilms tumor; Metanephric blastema; WAGR syndrome",
+          "B) Neuroblastoma; Neural crest cells of sympathetic ganglia/adrenal medulla; Opsoclonus-Myoclonus-Ataxia Syndrome (paraneoplastic autoimmune response)",
+          "C) Burkitt Lymphoma; Mature B-cells; Epstein-Barr virus reaction",
+          "D) Retinoblastoma; Retinal progenitor cells; Horner syndrome"
+        ],
+        "correct": 1,
+        "hint": "Hard midline-crossing mass + raccoon eyes + high HVA/VMA = neuroblastoma from neural crest cells with OMAS.",
+        "explanation": "An infant with a hard abdominal mass crossing the midline, raccoon eyes, elevated VMA/HVA, and opsoclonus-myoclonus has Neuroblastoma (arising from neural crest cells). Opsoclonus-myoclonus is a pathognomonic paraneoplastic autoimmune syndrome."
+      },
+      {
+        "q": "A 6-month-old infant presents with massive hepatomegaly causing retractions, bluish skin nodules ('blueberry muffin' spots), a 1.5 cm left adrenal mass, and 6% neuroblastoma cells in bone marrow. What INSS/INRG stage is this, what is the expected outcome, and what is the primary management?",
+        "options": [
+          "A) Stage 1; Requires total bilateral adrenalectomy",
+          "B) Stage 4; Requires intensive multi-agent chemotherapy and stem cell rescue",
+          "C) Stage 4S (INSS) / Stage MS (INRG); High rate of spontaneous regression with excellent overall survival (>80–90%); Managed conservatively with supportive care/observation",
+          "D) Stage 3; Requires emergency total body irradiation"
+        ],
+        "correct": 2,
+        "hint": "Infant <1 year with localized tumor + liver/skin/<10% marrow = Stage 4S/MS; high spontaneous regression, mainly observation.",
+        "explanation": "An infant <1 year with localized primary neuroblastoma and metastases limited to liver, skin, and <10% marrow has Stage 4S / MS. This stage has a remarkable rate of spontaneous regression and is managed primarily with observation."
+      },
+      {
+        "q": "A newborn male has a large omphalocele, macroglossia, birth weight 4.8 kg (macrosomia), right hemihypertrophy, and neonatal hypoglycemia. Name the syndrome, the abdominal tumor to screen for every 3 months until age 8, and the affected chromosome region.",
+        "options": [
+          "A) WAGR syndrome; Retinoblastoma; Chromosome 13q14",
+          "B) Denys-Drash syndrome; Neuroblastoma; Chromosome 1p36",
+          "C) Sotos syndrome; Medulloblastoma; Chromosome 5q",
+          "D) Beckwith-Wiedemann syndrome; Nephroblastoma (Wilms tumor); Chromosome 11p15"
+        ],
+        "correct": 3,
+        "hint": "Omphalocele, macroglossia, macrosomia (11p15) = Beckwith-Wiedemann; screen for Wilms tumor.",
+        "explanation": "Omphalocele, macroglossia, macrosomia, hemihypertrophy, and hypoglycemia define Beckwith-Wiedemann syndrome (11p15 locus). Children require 3-monthly abdominal ultrasounds to screen for Wilms tumor."
+      },
+      {
+        "q": "A 4-year-old undergoes radical nephrectomy for a right flank mass with an intact capsule and clear renal margins, but 2 regional para-aortic lymph nodes contain Wilms tumor cells. What is the surgical stage, and is post-operative therapy required?",
+        "options": [
+          "A) Stage III (due to positive regional lymph nodes); Yes, mandates post-operative multi-agent chemotherapy and flank radiation therapy",
+          "B) Stage I; No treatment required",
+          "C) Stage II; Chemotherapy alone without radiation",
+          "D) Stage IV; Palliative care only"
+        ],
+        "correct": 0,
+        "hint": "Positive regional lymph nodes = Stage III, requiring post-op chemotherapy and flank irradiation.",
+        "explanation": "Presence of tumor in regional lymph nodes upgrades Wilms tumor to Stage III (regardless of complete local excision), which requires post-operative multi-agent chemotherapy and abdominal radiation therapy."
+      },
+      {
+        "q": "A 2-year-old girl with a thoracic paraspinal Neuroblastoma develops progressive leg weakness, hyperreflexia, and urinary retention over 48 hours, with spine MRI showing extension through the T6-T7 foramen compressing the spinal cord. What is this configuration called, and what is the immediate medical treatment?",
+        "options": [
+          "A) 'Blueberry muffin' tumor; Intravenous high-dose furosemide",
+          "B) 'Dumbbell tumor' (intra-spinal extension); High-dose Intravenous Corticosteroids (Dexamethasone) and emergency neurosurgical decompression or chemotherapy",
+          "C) 'Claw sign' tumor; Oral aspirin",
+          "D) 'Raccoon' tumor; Lumbar puncture"
+        ],
+        "correct": 1,
+        "hint": "Foraminal/spinal canal extension = 'dumbbell tumor'; urgent IV dexamethasone and decompression/chemotherapy.",
+        "explanation": "Paraspinal tumors extending through neural foramina into the spinal canal are termed 'dumbbell tumors'. Acute spinal cord compression is a medical emergency managed with high-dose IV Dexamethasone and urgent decompression/chemotherapy."
+      },
+      {
+        "q": "In comparing Wilms Tumor vs Neuroblastoma: which originates from metanephric blastema as a smooth unilateral mass with >90% cure rate, and which originates from neural crest cells as a hard midline-crossing mass with HVA/VMA secretion and MYCN risk?",
+        "options": [
+          "A) 1. Neuroblastoma; 2. Wilms tumor",
+          "B) 1. Rhabdomyosarcoma; 2. Hepatoblastoma",
+          "C) 1. Wilms tumor (Nephroblastoma); 2. Neuroblastoma",
+          "D) 1. Lymphoma; 2. Leukemia"
+        ],
+        "correct": 2,
+        "hint": "1. Wilms tumor; 2. Neuroblastoma.",
+        "explanation": "Wilms tumor originates from metanephric blastema, presents as a smooth unilateral mass not crossing the midline, and has a cure rate >90%. Neuroblastoma originates from neural crest cells, presents as a hard nodular mass crossing the midline, secretes HVA/VMA, and is driven by MYCN amplification."
+      },
+      {
+        "q": "A 3-year-old with high-risk MYCN-amplified abdominal Neuroblastoma completes induction chemotherapy and resection. What consolidation therapy is used, and what differentiation/immunotherapy agents follow?",
+        "options": [
+          "A) Observation alone; Oral amoxicillin",
+          "B) Bilateral nephrectomy; Intravenous insulin",
+          "C) Low-dose aspirin; Topical hydrocortisone",
+          "D) High-dose chemotherapy with Autologous Stem Cell Rescue (ASCT), followed by 13-cis-retinoic acid (Isotretinoin) and Dinutuximab (anti-GD2) immunotherapy"
+        ],
+        "correct": 3,
+        "hint": "High-dose chemo + autologous stem cell rescue, followed by 13-cis-retinoic acid and dinutuximab.",
+        "explanation": "High-risk neuroblastoma (MYCN amplified) requires myeloablative consolidation with Autologous Stem Cell Rescue (ASCT), followed by differentiation therapy (13-cis-retinoic acid) and targeted immunotherapy (Dinutuximab / anti-GD2)."
+      },
+      {
+        "q": "A 2-year-old boy has chronic watery diarrhea, muscle weakness from serum potassium 2.1 mmol/L, metabolic acidosis, and a 3 cm right adrenal mass. Which paraneoplastic hormone is hyper-secreted, and what is the diagnosis?",
+        "options": [
+          "A) Vasoactive Intestinal Peptide (VIP) hypersecretion; Neuroblastoma (Kerner-Morrison syndrome)",
+          "B) Renin hypersecretion; Wilms tumor",
+          "C) Insulin hypersecretion; Nesidioblastosis",
+          "D) Parathyroid hormone hypersecretion; Parathyroid adenoma"
+        ],
+        "correct": 0,
+        "hint": "VIP hypersecretion causing watery diarrhea and hypokalemia = neuroblastoma (Kerner-Morrison syndrome).",
+        "explanation": "Secretion of Vasoactive Intestinal Peptide (VIP) by neuroblastoma causes severe watery diarrhea, hypokalemia, and achlorhydria (Kerner-Morrison syndrome), which resolves upon tumor resection."
+      },
+      {
+        "q": "For a 3-year-old with a retroperitoneal abdominal mass: what initial imaging confirms location/origin, what urine tests are ordered, and what tissue evaluation finalizes risk classification?",
+        "options": [
+          "A) 1. Plain X-ray of skull; 2. Stool reducing sugars; 3. Skin prick test",
+          "B) 1. Chest radiograph only; 2. Serum creatinine; 3. Lumbar puncture",
+          "C) 1. Abdominal Ultrasound followed by contrast-enhanced CT/MRI; 2. 24-hour urinary catecholamines (HVA and VMA); 3. Histopathological examination (favorable vs anaplastic histology, MYCN status, WT1 status)",
+          "D) 1. Barium swallow; 2. Urine dipstick for glucose; 3. Sputum acid-fast bacilli smear"
+        ],
+        "correct": 2,
+        "hint": "Ultrasound + CT/MRI, urinary HVA/VMA, and histopathology/molecular testing (anaplasia, MYCN, WT1).",
+        "explanation": "Definitive evaluation of an abdominal embryonal mass requires Ultrasound and CT/MRI (organ of origin, vascular relations), urinary HVA/VMA (catecholamines for neuroblastoma), and tissue histopathology (evaluating anaplasia, MYCN amplification, or WT1 mutations)."
+      }
+    ]
+  }
+]
