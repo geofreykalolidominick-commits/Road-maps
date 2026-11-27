@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Gastric Malignancies",
+    "questions": [
+      {
+        "q": "What is the global epidemiological impact and rank of gastric cancer among cancer-related deaths worldwide?",
+        "options": [
+          "A) 1st commonest cancer and 1st cause of cancer death (~2 million deaths annually)",
+          "B) 5th commonest cancer worldwide (~970,000 new cases/year) and the 5th leading cause of cancer death (~660,000 deaths/year)",
+          "C) 10th commonest cancer worldwide with a 1:5 male-to-female ratio",
+          "D) 15th commonest cancer with a 95% overall 5-year survival rate in Africa"
+        ],
+        "correct": 1,
+        "hint": "5th most common cancer and 5th leading cause of cancer death globally.",
+        "explanation": "Gastric cancer is the 5th most common cancer worldwide (~970,000 new cases in 2022) and the 5th leading cause of cancer death (~660,000 deaths annually). It exhibits a 2:1 male-to-female ratio, with peak incidence occurring between 60 and 80 years of age."
+      },
+      {
+        "q": "Which histological tumor type accounts for approximately 90% to 95% of all primary gastric malignancies?",
+        "options": [
+          "A) Gastrointestinal Stromal Tumor (GIST)",
+          "B) Primary gastric lymphoma",
+          "C) Gastric adenocarcinoma",
+          "D) Gastric neuroendocrine tumor (carcinoid)"
+        ],
+        "correct": 2,
+        "hint": "Gastric adenocarcinoma (~90%–95% of primary gastric malignancies).",
+        "explanation": "Adenocarcinoma accounts for approximately 90% to 95% of all primary malignant tumors of the stomach. The remaining proportion consists of gastrointestinal stromal tumors (GISTs), primary gastric lymphomas, neuroendocrine tumors (NETs), and rare sarcomas."
+      },
+      {
+        "q": "Which infectious microorganism is classified as an IARC Group 1 carcinogen and is responsible for approximately 90% of non-cardia gastric cancers?",
+        "options": [
+          "A) Cytomegalovirus (CMV)",
+          "B) Helicobacter pylori",
+          "C) Epstein-Barr Virus (EBV)",
+          "D) Mycobacterium tuberculosis"
+        ],
+        "correct": 1,
+        "hint": "Helicobacter pylori (IARC Group 1 carcinogen).",
+        "explanation": "Helicobacter pylori (especially CagA-positive strains) is an IARC Group 1 human carcinogen that causes chronic active mucosal inflammation, initiating the Correa cascade that accounts for ~90% of non-cardia gastric adenocarcinomas."
+      },
+      {
+        "q": "How is Early Gastric Cancer (EGC) strictly defined, regardless of lymph node status?",
+        "options": [
+          "A) A tumor that is smaller than 1 cm in maximum diameter",
+          "B) A tumor confined to the mucosa or submucosa (T1 layer), regardless of regional lymph node metastasis",
+          "C) A tumor that has not invaded through the muscularis propria and has zero lymph node metastases (N0)",
+          "D) A carcinoma that is completely cured by oral proton pump inhibitor therapy"
+        ],
+        "correct": 1,
+        "hint": "Confined to mucosa or submucosa (T1), regardless of nodal status.",
+        "explanation": "Early Gastric Cancer (EGC) is defined pathologically as a carcinoma limited to the mucosa (T1a) or submucosa (T1b), regardless of whether regional lymph node metastases are present or absent. In Japan, EGC carries a 5-year survival rate exceeding 90%."
+      },
+      {
+        "q": "What is the classic histological sequence of the Correa cascade leading to intestinal-type gastric adenocarcinoma?",
+        "options": [
+          "A) Normal mucosa -> Submucosal hematoma -> GIST -> Lymphoma",
+          "B) Normal mucosa -> Chronic active H. pylori gastritis -> Atrophic gastritis -> Intestinal metaplasia -> Dysplasia -> Adenocarcinoma",
+          "C) Normal mucosa -> Hyperchlorhydria -> Parietal cell hyperplasia -> Squamous cell carcinoma",
+          "D) Normal mucosa -> Granulomatous gastritis -> Leiomyosarcoma"
+        ],
+        "correct": 1,
+        "hint": "Chronic gastritis -> atrophic gastritis -> intestinal metaplasia -> dysplasia -> adenocarcinoma.",
+        "explanation": "The Correa cascade describes a multi-step inflammatory pathway for intestinal-type gastric cancer: chronic H. pylori infection drives decades of chronic active gastritis, leading to glandular loss (atrophic gastritis), goblet cell transformation (intestinal metaplasia), low- to high-grade dysplasia, and ultimately invasive adenocarcinoma."
+      },
+      {
+        "q": "What defining cellular feature characterizes signet-ring cell carcinoma (Lauren diffuse type)?",
+        "options": [
+          "A) Well-formed glandular tubules lined by columnar epithelial cells",
+          "B) Poorly cohesive cells packed with intracellular mucin that displaces the nucleus to the cell periphery",
+          "C) Multinucleated giant cells containing asteroid bodies",
+          "D) Spindle-shaped mesenchymal cells expressing S100 protein"
+        ],
+        "correct": 1,
+        "hint": "Intracellular mucin pushes the nucleus to the periphery ('signet ring').",
+        "explanation": "Signet-ring cell carcinoma (a subtype of Lauren diffuse-type cancer) consists of poorly cohesive, non-gland-forming malignant cells filled with large cytoplasmic mucin vacuoles that compress and push the nucleus to the cell membrane, creating a classic 'signet ring' appearance."
+      },
+      {
+        "q": "What macroscopic appearance defines linitis plastica (Borrmann Type IV gastric cancer)?",
+        "options": [
+          "A) A single pedunculated polypoid mass protruding into the lumen",
+          "B) A circumscribed ulcer with sharp, elevated, rolled margins",
+          "C) Diffusely infiltrating tumor that thickens and stiffens the entire gastric wall, creating a rigid 'leather-bottle' stomach",
+          "D) Multiple superficial erosions confined to the antral mucosa"
+        ],
+        "correct": 2,
+        "hint": "Diffusely infiltrating wall thickening -> rigid 'leather-bottle' stomach.",
+        "explanation": "Linitis plastica (Borrmann Type IV) is an advanced, diffusely infiltrating cancer (usually Lauren diffuse / signet-ring cell type) that spreads extensively through the submucosa and muscularis propria. It transforms the stomach into a thick, non-distensible, rigid 'leather-bottle' structure."
+      },
+      {
+        "q": "Gastrointestinal Stromal Tumors (GISTs) arise from which specialized cell type, and what is their primary diagnostic immunohistochemical marker?",
+        "options": [
+          "A) Parietal cells; cytokeratin 20",
+          "B) Interstitial cells of Cajal (pacemaker cells); CD117 (KIT protein)",
+          "C) Enterochromaffin-like (ECL) cells; chromogranin A",
+          "D) Smooth muscle myocytes; desmin"
+        ],
+        "correct": 1,
+        "hint": "Interstitial cells of Cajal; CD117 (c-KIT).",
+        "explanation": "GISTs arise from the interstitial cells of Cajal (the autonomic pacemaker cells of the gastrointestinal tract). Over 95% of GISTs express the CD117 cell-surface antigen (a receptor tyrosine kinase encoded by the c-KIT gene), which serves as the key diagnostic marker and therapeutic target for imatinib."
+      },
+      {
+        "q": "What is the commonest extranodal site for non-Hodgkin lymphoma in the human body?",
+        "options": [
+          "A) Liver",
+          "B) Stomach",
+          "C) Thyroid gland",
+          "D) Spleen"
+        ],
+        "correct": 1,
+        "hint": "The stomach (~50% of primary GI lymphomas).",
+        "explanation": "The stomach is the single commonest extranodal site for non-Hodgkin lymphoma, accounting for ~50% of all primary gastrointestinal lymphomas. The majority are either low-grade MALT lymphomas (driven by H. pylori) or diffuse large B-cell lymphomas (DLBCL)."
+      },
+      {
+        "q": "How is a D2 lymphadenectomy defined in radical gastrectomy for gastric cancer?",
+        "options": [
+          "A) Removal of perigastric lymph nodes only (stations 1 to 6)",
+          "B) Removal of perigastric nodes (stations 1 to 6) PLUS nodes along the left gastric (7), common hepatic (8a), coeliac (9), splenic hilum (10), splenic artery (11p/11d), and proper hepatic artery (12a)",
+          "C) Excision of para-aortic lymph nodes (station 16) and mesenteric root nodes",
+          "D) Incomplete clearance of perigastric lymph nodes (fewer than station 1 to 6)"
+        ],
+        "correct": 1,
+        "hint": "D1 (stations 1–6) + coeliac axis/branch nodes (7, 8a, 9, 11p/11d, 12a, and 10 if total gastrectomy).",
+        "explanation": "A D1 lymphadenectomy removes perigastric stations 1 to 6. A standard D2 lymphadenectomy removes all D1 stations plus the extra-perigastric stations along the branches of the coeliac axis (stations 7, 8a, 9, 11p, 11d, 12a, and 10 for total gastrectomy). D2 dissection is the international gold standard for curable advanced gastric cancer."
+      },
+      {
+        "q": "According to the Lauren histological classification, how do intestinal-type and diffuse-type gastric carcinomas differ regarding epidemiology, genetics, and spread?",
+        "options": [
+          "A) Intestinal type occurs in young women with CDH1 mutations; Diffuse type occurs in older men with H. pylori",
+          "B) Intestinal type forms glandular tubules, affects older men in high-risk zones (via Correa cascade), and spreads via blood to the liver; Diffuse type lacks glands (signet-ring cells), affects younger patients equally, involves CDH1/E-cadherin loss, and spreads via peritoneum/ovaries",
+          "C) Intestinal type carries a much worse prognosis than diffuse type",
+          "D) Intestinal type requires a 5 cm resection margin, whereas diffuse type requires a 1 cm margin"
+        ],
+        "correct": 1,
+        "hint": "Intestinal = glands, older men, liver spread; Diffuse = signet-ring/CDH1, younger/equal sex, peritoneal/ovarian spread.",
+        "explanation": "Lauren intestinal-type forms glands, arises in older men via the H. pylori Correa cascade, and metastasizes hematogenously (liver). Lauren diffuse-type consists of non-cohesive signet-ring cells, occurs in younger patients/women, involves CDH1 (E-cadherin) loss, causes linitis plastica, spreads transcoelomically (peritoneum/Krukenberg tumors), and requires wider surgical margins (5 cm vs 3 cm)."
+      },
+      {
+        "q": "Under the Borrmann classification of advanced gastric cancer, which type represents an ulcerated tumor with well-defined, sharp, raised margins that can closely mimic a benign gastric ulcer?",
+        "options": [
+          "A) Borrmann Type I",
+          "B) Borrmann Type II",
+          "C) Borrmann Type III",
+          "D) Borrmann Type IV"
+        ],
+        "correct": 1,
+        "hint": "Borrmann Type II = sharp, raised margins mimicking a benign ulcer.",
+        "explanation": "Borrmann Type II is an ulcerated mass with sharply demarcated, raised, rolled edges and little wall infiltration, closely resembling a benign peptic ulcer (mandating biopsy of every gastric ulcer). Borrmann Type I is polypoid/fungating; Type III is ulcerated with infiltrative borders (commonest overall); Type IV is linitis plastica."
+      },
+      {
+        "q": "Under the Paris (and Japanese) classification of early gastric cancer (Type 0), which macroscopic subtype is the most common overall?",
+        "options": [
+          "A) Type 0-Ip (protruded, pedunculated)",
+          "B) Type 0-IIa (superficial elevated)",
+          "C) Type 0-IIc (superficial depressed)",
+          "D) Type 0-III (excavated/ulcerated)"
+        ],
+        "correct": 2,
+        "hint": "Type 0-IIc (superficial depressed).",
+        "explanation": "Type 0-IIc (superficial depressed) is the most frequent macroscopic presentation of early gastric cancer, often occurring in combination with Type 0-III (ulcerated) as mixed 0-IIc+III lesions."
+      },
+      {
+        "q": "Inactivation or germline mutation of which specific tumor suppressor gene is responsible for Hereditary Diffuse Gastric Cancer (HDGC), carrying up to a 70% lifetime risk of gastric cancer?",
+        "options": [
+          "A) TP53",
+          "B) CDH1 (encoding E-cadherin)",
+          "C) APC",
+          "D) KRAS"
+        ],
+        "correct": 1,
+        "hint": "CDH1 gene (E-cadherin).",
+        "explanation": "Germline mutation of the CDH1 gene (which encodes the cell-adhesion protein E-cadherin) causes Hereditary Diffuse Gastric Cancer (HDGC). Carriers face up to a 70% lifetime risk of diffuse gastric cancer and lobular breast cancer, warranting prophylactic total gastrectomy in early adulthood."
+      },
+      {
+        "q": "Which dietary factors are strongly associated with an increased risk of developing intestinal-type gastric adenocarcinoma?",
+        "options": [
+          "A) High intake of fresh citrus fruits and green leafy vegetables",
+          "B) High consumption of salted, smoked, and pickled foods rich in N-nitroso compounds (nitrosamines)",
+          "C) High intake of dietary fiber and dairy products",
+          "D) Strict vegetarian diets"
+        ],
+        "correct": 1,
+        "hint": "Salted, smoked, and pickled foods (N-nitroso compounds / salt mucosal injury).",
+        "explanation": "Diets high in salt, smoked foods, and pickled items contain high levels of nitrates and nitrites, which bacterial action converts into carcinogenic N-nitroso compounds (nitrosamines). Salt also directly damages the mucosal barrier, accelerating H. pylori carcinogenesis."
+      },
+      {
+        "q": "Under the Siewert classification of esophagogastric junction (EGJ) tumors, how is a Siewert Type III tumor defined and managed?",
+        "options": [
+          "A) Tumor center located 1 to 5 cm above the GOJ; treated as esophageal cancer",
+          "B) Tumor center located 1 cm above to 2 cm below the GOJ; treated as true cardia cancer",
+          "C) Tumor center located 2 to 5 cm below the GOJ (subcardial gastric cancer invading the junction from below); staged and treated as gastric cancer with total gastrectomy",
+          "D) Tumor located in the pylorus; treated with distal gastrectomy"
+        ],
+        "correct": 2,
+        "hint": "Siewert Type III = center 2–5 cm below GOJ; staged/treated as gastric cancer (total gastrectomy).",
+        "explanation": "Siewert Type III tumors have their epicenter 2 to 5 cm below the anatomical cardia (subcardial gastric cancers). Per AJCC 8th edition, tumors centered >2 cm into the stomach are staged and treated as primary gastric cancers (requiring total gastrectomy with distal esophagectomy)."
+      },
+      {
+        "q": "Which subtype of gastric Neuroendocrine Tumor (NET) accounts for 70% to 80% of cases, arises in the background of autoimmune atrophic gastritis / pernicious anemia with hypergastrinemia, and exhibits an indolent clinical course?",
+        "options": [
+          "A) Type 1 gastric NET",
+          "B) Type 2 gastric NET",
+          "C) Type 3 gastric NET",
+          "D) High-grade neuroendocrine carcinoma (small cell)"
+        ],
+        "correct": 0,
+        "hint": "Type 1 gastric NET (70%–80%, autoimmune atrophic gastritis, hypergastrinemia, indolent).",
+        "explanation": "Type 1 gastric NETs account for 70%–80% of all gastric NETs. They arise from ECL cells driven by hypergastrinemia secondary to autoimmune atrophic gastritis / pernicious anemia (achlorhydria). They present as small, multiple, benign/indolent polyps in the fundus/body and are managed with endoscopic resection and surveillance."
+      },
+      {
+        "q": "How does the Ming histological classification distinguish gastric carcinomas based on growth pattern at the tumor border?",
+        "options": [
+          "A) Papillary versus follicular",
+          "B) Expanding type (cells grow en masse with pushing borders; better prognosis) versus Infiltrative type (single cells invade widely beyond visible borders; worse prognosis)",
+          "C) Mucosal versus submucosal",
+          "D) Medullary versus scirrhous"
+        ],
+        "correct": 1,
+        "hint": "Expanding (pushing border) vs. Infiltrative (single cells invading widely).",
+        "explanation": "Ming classified gastric cancers by border growth pattern: Expanding type (~two-thirds; grows in nodules with pushing margins, similar to Lauren intestinal type) vs Infiltrative type (~one-third; single cells penetrate widely far beyond visible borders, similar to Lauren diffuse type, requiring wider resection margins)."
+      },
+      {
+        "q": "Which type of gastric mucosal polyp carries a significant risk of malignant transformation (especially when >2 cm in size or containing dysplasia) and mandates complete polypectomy?",
+        "options": [
+          "A) Fundic gland polyp",
+          "B) Hyperplastic polyp",
+          "C) Gastric adenomatous polyp (adenoma)",
+          "D) Inflammatory fibroid polyp"
+        ],
+        "correct": 2,
+        "hint": "Gastric adenomatous polyp (adenoma).",
+        "explanation": "Gastric adenomatous polyps are true neoplastic precursor lesions carrying a high risk of malignant transformation, which rises significantly with polyp size (>2 cm) and high-grade dysplasia. All adenomas must be excised (polypectomy) and the remaining mucosa surveyed. (Fundic gland polyps on PPIs carry near-zero malignant risk)."
+      },
+      {
+        "q": "Gastric remnant carcinoma (stump cancer) typically develops how many years after partial gastrectomy, and what is the primary driving mechanism?",
+        "options": [
+          "A) 1 to 2 years post-op; driven by suture reaction",
+          "B) 15 to 20 years post-op; driven by chronic alkaline enterogastric (bile) reflux causing severe mucosal atrophy and dysplasia",
+          "C) 30 years post-op; driven by dietary vitamin deficiency",
+          "D) Immediately post-op; driven by tissue ischemia"
+        ],
+        "correct": 1,
+        "hint": "15–20 years post-gastrectomy; chronic alkaline bile reflux.",
+        "explanation": "Gastric stump carcinoma develops in the remnant stomach 15 to 20 years after partial gastrectomy (especially Billroth II). Chronic unbuffered alkaline bile and pancreatic reflux damages the gastric mucosa, inducing severe chronic gastritis, atrophy, intestinal metaplasia, and eventual malignant transformation."
+      },
+      {
+        "q": "Match the following eponymous clinical physical examination signs of metastatic gastric cancer to their correct anatomical sites: 1. Virchow's node (Troisier sign), 2. Sister Mary Joseph nodule, 3. Blumer's shelf, 4. Krukenberg tumor.",
+        "options": [
+          "A) 1: Umbilicus; 2: Left supraclavicular fossa; 3: Ovary; 4: Rectal pouch",
+          "B) 1: Left supraclavicular fossa; 2: Umbilicus; 3: Pelvic pouch of Douglas (rectal exam); 4: Bilateral ovaries",
+          "C) 1: Left axilla; 2: Right groin; 3: Liver; 4: Spleen",
+          "D) 1: Right supraclavicular fossa; 2: Periumbilical skin; 3: Prostate; 4: Uterus"
+        ],
+        "correct": 1,
+        "hint": "Virchow = left supraclavicular; Sister Mary Joseph = umbilicus; Blumer = pouch of Douglas; Krukenberg = ovaries.",
+        "explanation": "Classic signs of metastatic (incurable) gastric cancer: Virchow's node (Troisier sign) = left supraclavicular lymph node enlargement; Sister Mary Joseph nodule = metastatic umbilical mass; Blumer's shelf = rigid tumor shelf in the rectouterine/rectovesical pouch on DRE; Krukenberg tumor = transcoelomic metastasis to bilateral ovaries (showing signet-ring cells)."
+      },
+      {
+        "q": "Which paraneoplastic dermatological sign is classically associated with underlying gastric adenocarcinoma and presents as the sudden appearance of multiple eruptive seborrheic keratoses?",
+        "options": [
+          "A) Trousseau's sign",
+          "B) Leser-Trélat sign",
+          "C) Acanthosis nigricans",
+          "D) Sweet syndrome"
+        ],
+        "correct": 1,
+        "hint": "Leser-Trélat sign (sudden eruptive seborrheic keratoses).",
+        "explanation": "The sign of Leser-Trélat is a classic paraneoplastic cutaneous marker of visceral malignancy (most commonly gastric adenocarcinoma), characterized by the sudden onset of numerous eruptive seborrheic keratoses with pruritus. Acanthosis nigricans (hyperpigmented velvety plaques) is another recognized paraneoplastic skin sign."
+      },
+      {
+        "q": "Under the AJCC 8th edition TNM staging for gastric carcinoma, how is T3 depth of invasion defined?",
+        "options": [
+          "A) Tumor invades the submucosa",
+          "B) Tumor invades the muscularis propria",
+          "C) Tumor invades the subserosa without perforating the visceral peritoneum",
+          "D) Tumor directly invades the pancreas or liver"
+        ],
+        "correct": 2,
+        "hint": "T3 = subserosa (T2 = muscularis propria; T4a = perforates serosa).",
+        "explanation": "AJCC 8th edition T staging: T1a = lamina propria / muscularis mucosae; T1b = submucosa; T2 = muscularis propria; T3 = subserosa; T4a = perforates visceral peritoneum (serosa); T4b = invades adjacent structures (pancreas, liver, colon, diaphragm)."
+      },
+      {
+        "q": "Under the AJCC 8th edition N-staging for gastric cancer, how many regional lymph nodes must contain metastases for an N3a classification?",
+        "options": [
+          "A) 1 to 2 nodes",
+          "B) 3 to 6 nodes",
+          "C) 7 to 15 nodes",
+          "D) 16 or more nodes"
+        ],
+        "correct": 2,
+        "hint": "N3a = 7 to 15 regional lymph nodes (N3b = ≥16).",
+        "explanation": "AJCC 8th edition N staging: N0 = 0 nodes; N1 = 1 to 2 regional nodes; N2 = 3 to 6 regional nodes; N3a = 7 to 15 regional nodes; N3b = 16 or more regional nodes. (At least 16 nodes must be pathologically examined for accurate N staging)."
+      },
+      {
+        "q": "Why is staging laparoscopy with peritoneal washings (cytology) strongly recommended prior to radical surgery in patients with resectable T1b or deeper gastric cancers?",
+        "options": [
+          "A) Laparoscopy is required to perform gastric biopsy",
+          "B) Contrast CT misses small-volume radiographically occult peritoneal metastases in up to 25% of patients, and positive peritoneal cytology (CY1) counts as distant metastatic disease (M1)",
+          "C) Laparoscopy measures gastric acid output",
+          "D) CT cannot visualize the stomach wall"
+        ],
+        "correct": 1,
+        "hint": "CT misses occult peritoneal disease; positive cytology (CY1) = M1.",
+        "explanation": "Staging CT fails to detect microscopic or small-volume peritoneal carcinomatosis in ~20%–25% of patients. Staging laparoscopy directly inspects the peritoneum/omentum and obtains pelvic washings. Positive peritoneal cytology (CY1), even without macroscopic flakes, is classified as M1 disease, sparing the patient an unbeneficial major gastrectomy."
+      },
+      {
+        "q": "What tissue sampling protocol must be followed when performing upper GI endoscopy on a suspicious gastric ulcer?",
+        "options": [
+          "A) Take 1 biopsy from the center of the necrotic ulcer base",
+          "B) Take at least 6 to 8 biopsies from all four quadrants of the raised ulcer margin",
+          "C) Perform brush cytology only",
+          "D) Biopsy normal mucosa 10 cm away from the ulcer"
+        ],
+        "correct": 1,
+        "hint": "6–8 biopsies from all four quadrants of the raised ulcer margin.",
+        "explanation": "Ulcerated gastric cancers have a necrotic central base where biopsies often yield only slough or false-negative results. Endoscopists must take 6 to 8 biopsies from all four quadrants of the raised, rolled ulcer edges where viable malignant tissue resides."
+      },
+      {
+        "q": "What endoscopic and diagnostic features are characteristic of a Gastrointestinal Stromal Tumor (GIST) during upper GI endoscopy and Endoscopic Ultrasound (EUS)?",
+        "options": [
+          "A) Irregular fungating mucosal mass that bleeds on touch",
+          "B) Smooth, submucosal (intramural) bulge covered by normal intact mucosa (often with a central ulceration/umbilication); EUS reveals a hypoechoic mass arising from the 4th layer (muscularis propria)",
+          "C) Diffuse mucosal erythema with loss of rugal folds",
+          "D) Multiple shallow aphthous ulcers in the duodenal bulb"
+        ],
+        "correct": 1,
+        "hint": "Smooth submucosal bulge with normal overlying mucosa; EUS shows hypoechoic 4th-layer mass.",
+        "explanation": "GISTs are submucosal tumors. Endoscopy shows a smooth hemispherical bulge with normal overlying mucosa (sometimes with central 'volcano' ulceration causing bleeding). EUS identifies a well-circumscribed hypoechoic mass originating from the muscularis propria (4th layer) or muscularis mucosae (2nd layer)."
+      },
+      {
+        "q": "In primary gastric low-grade MALT lymphoma, the presence of which genetic translocation predicts resistance to Helicobacter pylori eradication therapy?",
+        "options": [
+          "A) t(8;14)",
+          "B) t(11;18)(q21;q21)",
+          "C) t(14;18)",
+          "D) t(9;22)"
+        ],
+        "correct": 1,
+        "hint": "t(11;18)(q21;q21) translocation.",
+        "explanation": "Low-grade gastric MALT lymphoma is driven by H. pylori and regresses after antibiotic eradication in ~75% of cases. However, tumors harboring the t(11;18)(q21;q21) translocation (API2-MALT1 fusion) are autonomous, fail to respond to H. pylori eradication, and require radiotherapy or chemotherapy."
+      },
+      {
+        "q": "Which modern molecular biomarkers must be routinely tested on gastric adenocarcinoma tissue to guide systemic targeted and immunotherapy selection in advanced/metastatic disease?",
+        "options": [
+          "A) BRAF V600E and KRAS G12D only",
+          "B) HER2 status, Mismatch Repair / Microsatellite Instability (MMR/MSI), PD-L1 CPS score, and Claudin 18.2 expression",
+          "C) Prostate Specific Antigen (PSA) and CA-125",
+          "D) Alpha-fetoprotein (AFP) and S100"
+        ],
+        "correct": 1,
+        "hint": "HER2, MMR/MSI, PD-L1 CPS, and Claudin 18.2.",
+        "explanation": "Molecular profiling of advanced gastric cancer determines targeted therapy: HER2 positivity guides trastuzumab; MSI-High / dMMR or high PD-L1 CPS guides immune checkpoint inhibitors (pembrolizumab/nivolumab); Claudin 18.2 expression guides zolbetuximab."
+      },
+      {
+        "q": "Under the Kodama micro-architectural classification of early gastric cancer, which growth pattern pushes through the muscularis mucosae on a broad front and carries the worst prognosis?",
+        "options": [
+          "A) Pen A (Penetrating A type)",
+          "B) Pen B (Penetrating B type)",
+          "C) Small mucosal type",
+          "D) Superficial spreading type"
+        ],
+        "correct": 0,
+        "hint": "Pen A (broad pushing front destroying muscularis mucosae).",
+        "explanation": "Kodama classified early gastric cancer growth patterns: Pen A (penetrating A) penetrates the submucosa on a broad pushing front, destroying the muscularis mucosae, and carries a high vascular invasion rate and the worst prognosis among EGC subtypes."
+      },
+      {
+        "q": "According to Japanese consensus guidelines, what are the absolute criteria for curative Endoscopic Submucosal Dissection (ESD) in Early Gastric Cancer?",
+        "options": [
+          "A) Any undifferentiated tumor larger than 5 cm invading the submucosa",
+          "B) Well-differentiated, cT1a (intramucosal) carcinoma without ulceration regardless of size, OR non-ulcerated cT1a <= 3 cm if ulcerated",
+          "C) Submucosal tumor with positive regional lymph nodes",
+          "D) Diffuse signet-ring cell carcinoma invading muscularis propria"
+        ],
+        "correct": 1,
+        "hint": "Differentiated cT1a: any size if non-ulcerated, or <=3 cm if ulcerated.",
+        "explanation": "ESD is safe for EGC only when nodal metastasis risk is near zero. Absolute indications: differentiated adenocarcinoma, cT1a (mucosal), non-ulcerated of any size, OR <= 3 cm if ulcerated. Submucosal invasion >500 um (T1b2) or lymphovascular invasion mandates radical gastrectomy."
+      },
+      {
+        "q": "What are the recommended surgical resection margins during gastrectomy for T2 or deeper expansive (Borrmann I/II) versus infiltrative (Borrmann III/IV / diffuse) gastric cancers?",
+        "options": [
+          "A) 1 cm for expansive; 2 cm for infiltrative",
+          "B) At least 3 cm for expansive tumors (Borrmann I, II) and at least 5 cm for infiltrative/diffuse tumors (Borrmann III, IV)",
+          "C) 10 cm for all tumors regardless of histology",
+          "D) No gross margin is required if frozen section is negative"
+        ],
+        "correct": 1,
+        "hint": ">=3 cm for expansive (Borrmann I/II); >=5 cm for infiltrative/diffuse (Borrmann III/IV).",
+        "explanation": "To achieve an R0 resection, Japanese guidelines dictate proximal macroscopic clear margins of at least 3 cm for expansive/well-demarcated tumors (Borrmann I and II) and at least 5 cm for infiltrative/diffuse tumors (Borrmann III and IV). Frozen section of margins is used if margins are close."
+      },
+      {
+        "q": "What is the standard perioperative chemotherapy regimen for resectable locally advanced gastric adenocarcinoma (T2 or deeper, or N+), based on the FLOT4 trial?",
+        "options": [
+          "A) Single-agent oral capecitabine for 2 weeks",
+          "B) Perioperative FLOT (5-fluorouracil, leucovorin, oxaliplatin, docetaxel) for 4 cycles before surgery and 4 cycles after surgery",
+          "C) Intravenous cyclophosphamide, doxorubicin, and vincristine",
+          "D) Gemcitabine monotherapy for 6 months"
+        ],
+        "correct": 1,
+        "hint": "Perioperative FLOT (4 cycles pre-op + 4 cycles post-op).",
+        "explanation": "Perioperative FLOT chemotherapy (4 preoperative cycles + 4 postoperative cycles) is the international standard of care for resectable stage >= IB gastric/GEJ adenocarcinoma, demonstrating significant overall survival superiority over older ECF/ECX regimens in the FLOT4 trial."
+      },
+      {
+        "q": "How is the choice between subtotal (distal) gastrectomy and total gastrectomy determined for gastric adenocarcinoma?",
+        "options": [
+          "A) Total gastrectomy is mandatory for all gastric cancers regardless of site",
+          "B) Subtotal gastrectomy is performed for antral or distal lesion where a 3 to 5 cm clear proximal margin can be achieved; Total gastrectomy is required for proximal, body, or diffuse/linitis plastica tumors",
+          "C) Subtotal gastrectomy is reserved only for GIST tumors",
+          "D) Total gastrectomy is performed only if splenectomy is required"
+        ],
+        "correct": 1,
+        "hint": "Distal lesions with 3–5 cm clear proximal margin -> subtotal; proximal/body/diffuse/linitis plastica -> total.",
+        "explanation": "Subtotal (distal) gastrectomy provides equivalent oncological survival with superior post-op quality of life and nutrition for distal (antral/prepyloric) tumors, provided a 3–5 cm proximal margin is achieved. Total gastrectomy is required for middle/upper third tumors, diffuse/signet-ring cancers, and linitis plastica."
+      },
+      {
+        "q": "What is the correct surgical management of a localized, resectable Gastrointestinal Stromal Tumor (GIST) of the stomach?",
+        "options": [
+          "A) Total gastrectomy with D2 lymphadenectomy",
+          "B) Complete R0 wedge resection of the tumor with clear margins without routine lymphadenectomy",
+          "C) Endoscopic mucosal cautery alone",
+          "D) Whipple procedure (pancreaticoduodenectomy)"
+        ],
+        "correct": 1,
+        "hint": "R0 wedge resection with clear margins; no routine lymphadenectomy.",
+        "explanation": "GISTs spread hematogenously and peritoneally, metastasizing to regional lymph nodes in <1%–2% of cases. Therefore, standard surgery is an R0 wedge resection with clear margins. Formal lymphadenectomy is unnecessary and not performed. (Rupture must be avoided to prevent seeding)."
+      },
+      {
+        "q": "What is the established first-line therapeutic intervention for localized low-grade gastric MALT lymphoma?",
+        "options": [
+          "A) Immediate total gastrectomy",
+          "B) Helicobacter pylori eradication therapy (14-day regimen), regardless of whether H. pylori is positive on biopsy",
+          "C) High-dose abdominal radiation therapy",
+          "D) Systemic CHOP chemotherapy"
+        ],
+        "correct": 1,
+        "hint": "14-day H. pylori eradication therapy.",
+        "explanation": "Localized low-grade gastric MALT lymphoma is antigen-driven by H. pylori. Eradicating H. pylori with antibiotic therapy induces complete, durable lymphoma regression in ~75% of stage I/II cases, making antibiotics the primary curative first-line treatment."
+      },
+      {
+        "q": "How are sporadic Type 3 gastric neuroendocrine tumors (NETs) managed surgically compared to Type 1 NETs?",
+        "options": [
+          "A) Type 3 NETs are observed with diet; Type 1 NETs require total gastrectomy",
+          "B) Type 3 NETs are solitary, aggressive tumors treated like gastric adenocarcinoma with radical gastrectomy and D2 lymphadenectomy; Type 1 NETs are indolent and managed with endoscopic resection and surveillance",
+          "C) Both types require emergency splenectomy",
+          "D) Type 3 NETs are treated exclusively with oral PPIs"
+        ],
+        "correct": 1,
+        "hint": "Type 3 = aggressive, treated like adenocarcinoma (gastrectomy + D2); Type 1 = indolent, endoscopic management.",
+        "explanation": "Type 3 gastric NETs are sporadic, gastrin-independent, solitary, aggressive tumors with a high rate of lymph node and liver metastases. They are managed radically like gastric adenocarcinoma (gastrectomy + D2 lymphadenectomy). Type 1 NETs are indolent hypergastrinemic lesions managed endoscopically."
+      },
+      {
+        "q": "Which GI reconstruction method is the standard of choice following total gastrectomy to restore alimentary continuity and prevent severe bile reflux esophagitis?",
+        "options": [
+          "A) Billroth I gastroduodenostomy",
+          "B) Loop gastrojejunostomy (Billroth II)",
+          "C) Roux-en-Y esophagojejunostomy (with a 40 to 60 cm Roux limb)",
+          "D) Pyloroplasty with vagotomy"
+        ],
+        "correct": 2,
+        "hint": "Roux-en-Y esophagojejunostomy (40–60 cm Roux limb).",
+        "explanation": "Following total gastrectomy, Roux-en-Y esophagojejunostomy is the gold standard reconstruction. Constructing an isolated Roux limb of 40 to 60 cm diverts alkaline bile and pancreatic secretions away from the esophagus, preventing devastating bile reflux esophagitis."
+      },
+      {
+        "q": "For a patient with incurable, metastatic gastric cancer presenting with severe gastric outlet obstruction (antral mass) and a life expectancy >2 to 3 months, what palliative intervention provides the most durable symptom relief?",
+        "options": [
+          "A) Total gastrectomy with D2 dissection",
+          "B) Palliative gastrojejunostomy (open or laparoscopic)",
+          "C) External beam radiotherapy alone",
+          "D) High-dose oral opioids"
+        ],
+        "correct": 1,
+        "hint": "Palliative gastrojejunostomy when life expectancy >2–3 months.",
+        "explanation": "For patients with incurable gastric outlet obstruction and good performance status (life expectancy >2–3 months), a surgical gastrojejunostomy provides more durable oral intake relief with fewer re-interventions than endoscopic enteral stenting (which is preferred for short life expectancy)."
+      },
+      {
+        "q": "What is the minimum number of regional lymph nodes that must be pathologically examined for accurate TNM staging of a gastrectomy specimen?",
+        "options": [
+          "A) At least 5 nodes",
+          "B) At least 12 nodes",
+          "C) At least 16 nodes",
+          "D) Exactly 50 nodes"
+        ],
+        "correct": 2,
+        "hint": "At least 16 regional lymph nodes.",
+        "explanation": "Pathological AJCC TNM staging mandates that at least 16 regional lymph nodes be harvested and pathologically examined in the gastrectomy specimen to avoid stage migration (under-staging). A standard D2 lymphadenectomy routinely yields >25 nodes."
+      },
+      {
+        "q": "A 58-year-old man presents with a 4-month history of epigastric discomfort, early satiety, weight loss of 9 kg, and progressive vomiting of food eaten 24 to 48 hours prior. Examination reveals a succussion splash and pallor (Hb 8.2 g/dL). He was previously treated with antacids for 'peptic ulcer disease'. Endoscopy reveals an ulcerated, friable, obstructing mass in the antrum. Biopsy confirms moderately differentiated gastric adenocarcinoma. What diagnostic step must be completed before surgery, and what is the definitive management plan if curable?",
+        "options": [
+          "A) Perform emergency distal gastrectomy without staging; give oral antacids",
+          "B) Perform contrast CT of chest/abdomen/pelvis and staging laparoscopy with washings; if resectable (cT3 N1 M0, CY0), administer 4 cycles of neoadjuvant FLOT chemotherapy, perform subtotal gastrectomy with D2 lymphadenectomy and Roux-en-Y reconstruction, followed by 4 cycles of adjuvant FLOT",
+          "C) Perform barium swallow only; discharge on long-term oral amoxicillin",
+          "D) Perform immediate endoscopic balloon dilatation of the antrum"
+        ],
+        "correct": 1,
+        "hint": "CT + staging laparoscopy/washings first; if resectable cT3 N1 M0 CY0 -> perioperative FLOT + subtotal gastrectomy with D2.",
+        "explanation": "An obstructing antral ulcer is cancer until proven otherwise. Initial management requires full staging: contrast CT plus staging laparoscopy with peritoneal washings to rule out occult M1/CY1 disease. For resectable locally advanced cancer (cT3 N1 M0), the standard protocol is perioperative FLOT (4 cycles neoadjuvant -> subtotal gastrectomy with D2 lymphadenectomy -> 4 cycles adjuvant)."
+      },
+      {
+        "q": "A 38-year-old woman presents with pelvic pressure and abdominal distension. Ultrasound reveals large, bilateral, solid ovarian masses. CA-125 is elevated. Ovarian biopsy demonstrates mucin-filled signet-ring cells surrounded by cellular ovarian stroma. What is the clinical diagnosis, where is the primary lesion located, and what diagnostic test is required next?",
+        "options": [
+          "A) Primary ovarian cystadenocarcinoma; manage with bilateral oophorectomy alone",
+          "B) Krukenberg tumor (transcoelomic metastasis from a primary gastrointestinal tract carcinoma, classically Lauren diffuse-type gastric cancer); perform urgent upper GI endoscopy to locate the primary gastric tumor",
+          "C) Ovarian fibroma (Meigs syndrome); perform chest CT",
+          "D) Primary uterine sarcoma; perform hysterectomy"
+        ],
+        "correct": 1,
+        "hint": "Bilateral ovarian signet-ring metastases = Krukenberg tumor -> urgent upper GI endoscopy to find primary gastric cancer.",
+        "explanation": "Bilateral ovarian masses containing signet-ring cells represent Krukenberg tumors, resulting from transcoelomic shedding of a gastrointestinal cancer (most commonly primary gastric diffuse-type adenocarcinoma). Upper GI endoscopy is mandatory to identify the hidden gastric primary."
+      },
+      {
+        "q": "A 62-year-old male undergoes routine screening endoscopy. A 2.2 cm, well-differentiated, non-ulcerated flat lesion (Paris Type 0-IIa) is identified in the gastric antrum. Biopsy confirms adenocarcinoma confined to the mucosa. The patient undergoes successful Endoscopic Submucosal Dissection (ESD). Histopathological evaluation of the resected specimen reveals en-bloc resection with clear horizontal margins, but demonstrates deep submucosal invasion to 800 um (T1b2) and lymphatic vessel invasion. What is the correct interpretation and next management step?",
+        "options": [
+          "A) Curative ESD resection achieved; discharge with routine endoscopic surveillance in 5 years",
+          "B) Non-curative ESD due to deep submucosal invasion (T1b >500 um) and lymphovascular invasion, carrying a 20% risk of lymph node metastasis; recommend formal surgical gastrectomy with lymphadenectomy",
+          "C) Prescribe oral triple therapy for H. pylori and stop endoscopy",
+          "D) Perform immediate radiofrequency ablation of the gastric fundus"
+        ],
+        "correct": 1,
+        "hint": "Submucosal invasion >500 um (T1b2) + lymphovascular invasion = non-curative ESD -> surgical gastrectomy + lymphadenectomy.",
+        "explanation": "ESD is curative for EGC only if the tumor is confined to the mucosa (T1a) or shallow submucosa (T1b <500 um) without lymphovascular invasion. Submucosal invasion >500 um (T1b2) or positive lymphovascular channels increases regional lymph node metastasis risk to ~20%, classifying ESD as non-curative and mandating surgical gastrectomy with lymphadenectomy."
+      },
+      {
+        "q": "A 28-year-old healthy male presents for genetic counseling after his mother and maternal aunt died of diffuse gastric cancer in their thirties. Genetic testing confirms a pathogenic germline CDH1 gene mutation. Endoscopy with random mapping biopsies reveals no macroscopic mucosal lesions. What is the definitive evidence-based recommendation for this patient?",
+        "options": [
+          "A) Reassure the patient and perform annual barium swallows",
+          "B) Recommend prophylactic total gastrectomy with Roux-en-Y reconstruction in early adulthood (age 20–30), due to a lifetime diffuse gastric cancer risk of up to 70%",
+          "C) Prescribe lifelong high-dose proton pump inhibitors",
+          "D) Perform subtotal distal gastrectomy only"
+        ],
+        "correct": 1,
+        "hint": "Pathogenic CDH1 mutation (HDGC) -> prophylactic total gastrectomy in early adulthood (ages 20–30).",
+        "explanation": "Pathogenic CDH1 germline mutations define Hereditary Diffuse Gastric Cancer (HDGC), carrying a lifetime risk of diffuse gastric cancer up to 70%. Because early signet-ring cell lesions develop subepithelially without macroscopic mucosal abnormality, surveillance endoscopy frequently misses early disease. Prophylactic total gastrectomy in early adulthood (ages 20–30) is the standard recommendation."
+      },
+      {
+        "q": "A 55-year-old man presents with melaena and fatigue. Endoscopy reveals a 6 cm smooth submucosal mass along the greater curvature of the gastric body with a central focal ulceration. Biopsy shows spindle cell morphology. Immunohistochemistry is strongly positive for CD117 (c-KIT) and DOG1, with 8 mitoses per 5 mm^2. CT scan shows an exophytic gastric mass without liver or peritoneal metastases. What is the diagnosis, risk stratification, and management plan?",
+        "options": [
+          "A) Gastric adenocarcinoma; high risk; perform total gastrectomy with D2 dissection",
+          "B) Gastrointestinal Stromal Tumor (GIST); high risk (size >5 cm and mitoses >5/5 mm^2); perform R0 surgical wedge resection without lymphadenectomy, followed by 3 years of adjuvant Imatinib therapy",
+          "C) Primary gastric lymphoma; treat with R-CHOP chemotherapy alone",
+          "D) Gastric leiomyoma; benign; no treatment required"
+        ],
+        "correct": 1,
+        "hint": "CD117/DOG1+ GIST (>5 cm and >5 mitoses/5 mm^2 = high risk) -> R0 wedge resection + 3 years adjuvant imatinib.",
+        "explanation": "CD117/DOG1 positivity confirms a GIST. Size >5 cm combined with >5 mitoses/5 mm^2 places this tumor in the high-risk category for recurrence. Management requires an R0 surgical wedge resection (preserving organ function without lymphadenectomy) followed by 3 years of adjuvant tyrosine kinase inhibitor therapy (imatinib)."
+      },
+      {
+        "q": "A 42-year-old woman undergoes endoscopy for persistent dyspepsia. Gastric mucosal biopsies demonstrate low-grade B-cell MALT lymphoma confined to the mucosa. Testing for H. pylori (rapid urease and histology) is positive. Cytogenetic FISH analysis is negative for the t(11;18) translocation. CT scan of abdomen/chest and bone marrow biopsy show no distant disease (Stage IE). What is the initial treatment of choice?",
+        "options": [
+          "A) Immediate total gastrectomy with splenectomy",
+          "B) First-line 14-day H. pylori eradication therapy (e.g., Bismuth Quadruple therapy), followed by repeat endoscopy and biopsy at 3 to 6 months to evaluate lymphoma regression",
+          "C) External beam gastric radiotherapy",
+          "D) Systemic CHOP chemotherapy"
+        ],
+        "correct": 1,
+        "hint": "Localized low-grade MALT lymphoma without t(11;18) -> 14-day H. pylori eradication first.",
+        "explanation": "Localized low-grade gastric MALT lymphoma without the t(11;18) translocation is driven by H. pylori antigen stimulation. Eradicating H. pylori with standard 14-day quadruple antibiotic therapy leads to complete lymphoma remission in ~75% of cases, avoiding surgery, radiation, or chemotherapy."
+      },
+      {
+        "q": "A 65-year-old man presents with anorexia, weight loss of 12 kg, and early satiety. Endoscopy demonstrates a rigid, thickened, non-distensible stomach (linitis plastica / Borrmann IV). Superficial mucosal biopsies return non-diagnostic/inflammatory. Repeat deep EUS-guided biopsies confirm diffuse signet-ring cell carcinoma. Staging CT shows wall thickening without distant organ metastases. Staging laparoscopy reveals no macroscopic liver or peritoneal flakes, but peritoneal washing cytology is positive for malignant cells (CY1). What is the stage and correct management pathway?",
+        "options": [
+          "A) Stage I; perform immediate total gastrectomy",
+          "B) Classified as Stage IV (M1) due to positive peritoneal cytology (CY1); radical gastrectomy is contraindicated; manage with systemic chemotherapy / palliative care",
+          "C) Stage II; perform subtotal gastrectomy with D1 lymphadenectomy",
+          "D) Normal variant; discharge on oral prokinetics"
+        ],
+        "correct": 1,
+        "hint": "Positive peritoneal cytology (CY1) = M1 (Stage IV) -> systemic palliative chemotherapy rather than radical gastrectomy.",
+        "explanation": "Positive peritoneal washing cytology (CY1) is classified as distant metastatic disease (M1 / Stage IV) under AJCC 8th edition rules, even in the absence of macroscopic peritoneal flakes. Radical gastrectomy provides no survival advantage in M1/CY1 disease; treatment shifts to systemic palliative chemotherapy and symptom support."
+      },
+      {
+        "q": "A 60-year-old man is 10 days post-op following a total gastrectomy with Roux-en-Y esophagojejunostomy for gastric adenocarcinoma. He suddenly develops a fever of 38.9 °C, tachycardia (128 bpm), severe left upper quadrant and left shoulder pain, and a sudden rise in C-reactive protein. What life-threatening surgical complication must be suspected immediately, and what is the diagnostic test of choice?",
+        "options": [
+          "A) Early dumping syndrome; order hydrogen breath test",
+          "B) Esophagojejunal anastomotic leak; perform CT scan of the abdomen/chest with oral water-soluble contrast",
+          "C) Acute myocardial infarction; order liver function tests",
+          "D) Normal post-op recovery; administer oral antipyretics"
+        ],
+        "correct": 1,
+        "hint": "Fever + tachycardia + LUQ/left shoulder pain post-total gastrectomy -> esophagojejunal leak; CT with oral water-soluble contrast.",
+        "explanation": "Unexplained fever, tachycardia, shoulder tip pain, and elevated inflammatory markers post-total gastrectomy signal an esophagojejunal anastomotic leak. Chest leaks cause devastating mediastinitis and sepsis. Prompt diagnosis requires a CT scan with oral water-soluble contrast (never barium)."
+      },
+      {
+        "q": "A 50-year-old male who underwent a total gastrectomy 3 years ago presents with progressive fatigue, glossitis, numbness and tingling in both feet, and memory loss. Laboratory tests show Hb 7.8 g/dL with an elevated Mean Corpuscular Volume (MCV 112 fL) and hypersegmented neutrophils on blood film. What condition has developed, what physiological loss caused it, and how is it managed?",
+        "options": [
+          "A) Iron deficiency anemia due to blood loss; give oral iron tablets",
+          "B) Vitamin B12 deficiency (megaloblastic) anemia with subacute combined degeneration of the cord, caused by total loss of gastric parietal cells and Intrinsic Factor; managed with lifelong parenteral (IM) Vitamin B12 injections",
+          "C) Folate deficiency due to poor intake; give oral folic acid",
+          "D) Hemolytic anemia; perform splenectomy"
+        ],
+        "correct": 1,
+        "hint": "Post-total gastrectomy + macrocytic anemia + neuropathy -> B12/Intrinsic Factor loss; lifelong IM Vitamin B12.",
+        "explanation": "Total gastrectomy removes 100% of parietal cells, eliminating Intrinsic Factor production. Without Intrinsic Factor, dietary Vitamin B12 cannot be absorbed in the terminal ileum. Once hepatic B12 stores deplete (2–5 years post-op), severe megaloblastic anemia and peripheral neuropathy / spinal cord degeneration ensue. Lifelong intramuscular Vitamin B12 replacement is mandatory."
+      },
+      {
+        "q": "A 64-year-old female undergoing routine endoscopy for heartburn is found to have four 5 mm smooth, yellowish sessile polyps in the gastric fundus. Biopsies confirm Type 1 gastric Neuroendocrine Tumors (NETs) confined to the mucosa. Serum gastrin is markedly elevated (850 pg/mL) and gastric pH is 6.8. Gastric body biopsies reveal severe autoimmune atrophic gastritis. What is the correct management strategy?",
+        "options": [
+          "A) Emergency total gastrectomy with D2 lymphadenectomy",
+          "B) Complete endoscopic resection (polypectomy) of the polyps followed by periodic surveillance endoscopy every 1 to 2 years",
+          "C) Systemic chemotherapy with cisplatin and etoposide",
+          "D) Immediate radiofrequency ablation of the liver"
+        ],
+        "correct": 1,
+        "hint": "Type 1 gastric NETs -> endoscopic polypectomy + surveillance endoscopy every 1–2 years.",
+        "explanation": "Type 1 gastric NETs are small, indolent, hypergastrinemic lesions arising in autoimmune atrophic gastritis. They carry a very low risk of metastasis (<1%–2%). Standard management consists of endoscopic resection of polyps >5–10 mm combined with endoscopic surveillance every 1 to 2 years. Radical gastrectomy is not indicated."
+      }
+    ]
+  }
+]
