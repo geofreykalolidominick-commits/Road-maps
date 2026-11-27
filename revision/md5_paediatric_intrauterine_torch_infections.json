@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Intrauterine (TORCH) Infections",
+    "questions": [
+      {
+        "q": "What does the medical acronym TORCH stand for in pediatric infectious diseases?",
+        "options": [
+          "A) Tuberculosis, Onchocerciasis, Rotavirus, Cholera, Hepatitis",
+          "B) Toxoplasmosis, Others (Syphilis, HIV, Varicella, Hepatitis), Rubella, Cytomegalovirus (CMV), Herpes Simplex Virus (HSV)",
+          "C) Typhoid, Otitis, Rickettsia, Candidiasis, Human Papillomavirus",
+          "D) Tetanus, Oxyuriasis, Rabies, Cryptosporidiosis, Histoplasmosis"
+        ],
+        "correct": 1,
+        "hint": "Toxoplasmosis, Others (such as syphilis, HIV, varicella, hepatitis), Rubella, CMV, and HSV.",
+        "explanation": "TORCH syndrome represents a group of congenital infections comprising Toxoplasmosis, Others (Syphilis, HIV, Varicella, Enteroviruses, Hepatitis), Rubella, Cytomegalovirus, and Herpes Simplex Virus."
+      },
+      {
+        "q": "Which TORCH infections can be actively treated with targeted antimicrobial or antiviral pharmacotherapy according to the text?",
+        "options": [
+          "A) Rubella and Cytomegalovirus only",
+          "B) Toxoplasmosis, Syphilis, Herpes Simplex, and HIV",
+          "C) Rubella and Coxsackie B virus",
+          "D) Parvovirus B19 and Hepatitis A"
+        ],
+        "correct": 1,
+        "hint": "Look for toxoplasmosis, syphilis, herpes simplex, and HIV.",
+        "explanation": "Among the TORCH group, specific effective treatments exist for Toxoplasmosis, Syphilis, Herpes Simplex, and HIV, whereas Rubella lacks specific antiviral therapy."
+      },
+      {
+        "q": "What three routes of maternal-fetal transmission are specified for intrauterine and perinatal infections?",
+        "options": [
+          "A) Aerosol, Vector-borne, and Waterborne",
+          "B) Antepartum (Intrauterine/transplacental or ascending), Intrapartum (birth canal contact), and Postpartum (breastfeeding or direct contact)",
+          "C) Direct skin inoculation, Fecal-oral, and Fomite transmission",
+          "D) Paternal sperm transmission, Trans-scleral, and Trans-urethral"
+        ],
+        "correct": 1,
+        "hint": "Before birth (antepartum), during birth (intrapartum), and after birth (postpartum).",
+        "explanation": "Maternal-fetal pathogen transfer occurs antepartum (transplacental/ascending), intrapartum (exposure to infected cervical secretions/blood), or postpartum (via breast milk or direct physical contact)."
+      },
+      {
+        "q": "Which TORCH agent is identified as the single MOST COMMON cause of congenital viral infection worldwide?",
+        "options": [
+          "A) Rubella Virus",
+          "B) Cytomegalovirus (CMV)",
+          "C) Herpes Simplex Virus Type 2",
+          "D) Toxoplasma gondii"
+        ],
+        "correct": 1,
+        "hint": "Cytomegalovirus (CMV) is the leading congenital viral infection globally.",
+        "explanation": "Cytomegalovirus (CMV) is a DNA herpesvirus and represents the most common congenital infection globally, affecting 0.2% to 2.5% of all live births."
+      },
+      {
+        "q": "What proportion of infants born with congenital CMV demonstrate clinical symptoms at birth?",
+        "options": [
+          "A) 100% of infected infants",
+          "B) 50% to 60%",
+          "C) 1% to 10%",
+          "D) 0% (always asymptomatic at birth)"
+        ],
+        "correct": 2,
+        "hint": "Only a small minority (1%–10%) are symptomatic right at birth.",
+        "explanation": "Only 1% to 10% of infants with congenital CMV present with overt symptoms at birth; however, another 10% to 15% of asymptomatic newborns develop delayed sequelae such as hearing loss later in life."
+      },
+      {
+        "q": "How is the causative organism of Toxoplasmosis (Toxoplasma gondii) transmitted to human hosts?",
+        "options": [
+          "A) Respiratory droplets from infected dogs",
+          "B) Ingestion of oocysts excreted in cat feces, or undercooked meat containing tissue cysts",
+          "C) Bite of the Anopheles mosquito",
+          "D) Direct contact with infected poultry feathers"
+        ],
+        "correct": 1,
+        "hint": "Cat feces oocysts or undercooked meat with tissue cysts.",
+        "explanation": "Toxoplasma gondii is an obligate intracellular protozoan parasite whose primary hosts are felids; infectious oocysts are shed in cat feces or ingested via undercooked meat."
+      },
+      {
+        "q": "What is the classic clinical presentation of primary Toxoplasmosis infection in immunocompetent pregnant women?",
+        "options": [
+          "A) Severe vesiculobullous rash on the palms and soles",
+          "B) Unnoticed/asymptomatic in 90% of cases, or a self-limiting illness with painless cervical lymphadenopathy",
+          "C) Fulminant acute liver failure",
+          "D) Sudden sensorineural hearing loss"
+        ],
+        "correct": 1,
+        "hint": "Asymptomatic in ~90%, or mild self-limiting illness with painless cervical lymph nodes.",
+        "explanation": "Primary maternal toxoplasmosis is asymptomatic in ~90% of immunocompetent individuals; approximately 10% experience a mild, self-limiting illness characterized by painless cervical lymphadenopathy."
+      },
+      {
+        "q": "What viral family and genus does the Rubella virus belong to?",
+        "options": [
+          "A) Herpesviridae; Cytomegalovirus genus",
+          "B) Togaviridae family; Rubivirus genus",
+          "C) Retroviridae; Lentivirus genus",
+          "D) Paramyxoviridae; Rubulavirus genus"
+        ],
+        "correct": 1,
+        "hint": "Togaviridae family and Rubivirus genus.",
+        "explanation": "Rubella (German Measles) is an enveloped, single-stranded RNA virus belonging to the family Togaviridae and genus Rubivirus."
+      },
+      {
+        "q": "Which route accounts for the vast majority (85%) of neonatal Herpes Simplex Virus (HSV) transmission?",
+        "options": [
+          "A) Transplacental transfer during the 1st trimester",
+          "B) Intrapartum exposure during passage through an infected birth canal or ascending infection following membrane rupture",
+          "C) Postpartum transmission via breast milk",
+          "D) Vector transmission by ticks"
+        ],
+        "correct": 1,
+        "hint": "Most neonatal HSV is acquired during delivery/birth canal exposure.",
+        "explanation": "Approximately 85% of neonatal HSV infections are acquired intrapartum through contact with active viral shedding in the maternal genital tract during labor."
+      },
+      {
+        "q": "What spirochetal bacterium causes Congenital Syphilis?",
+        "options": [
+          "A) Borrelia burgdorferi",
+          "B) Treponema pallidum",
+          "C) Leptospira interrogans",
+          "D) Spirillum minus"
+        ],
+        "correct": 1,
+        "hint": "Treponema pallidum is the causative spirochete.",
+        "explanation": "Congenital syphilis results from transplacental infection of the developing fetus by the spirochete Treponema pallidum."
+      },
+      {
+        "q": "What classic ophthalmic appearance describes the retinitis seen in congenital Cytomegalovirus (CMV) infection?",
+        "options": [
+          "A) 'Salt and pepper' type chorioretinitis",
+          "B) 'Cottage cheese with ketchup' type peripheral chorioretinitis with sparing of the macula",
+          "C) Cherry-red spot on the macula",
+          "D) Roth spots with retinal hemorrhages"
+        ],
+        "correct": 1,
+        "hint": "Exudates and hemorrhages give a 'cottage cheese with ketchup' look, sparing the macula.",
+        "explanation": "Congenital CMV chorioretinitis classically manifests as diffuse white perivascular exudative infiltrates with necrotic hemorrhages, yielding a 'cottage cheese with ketchup' appearance that typically spares the macula."
+      },
+      {
+        "q": "What key neuroimaging finding distinguishes congenital Cytomegalovirus (CMV) from congenital Toxoplasmosis?",
+        "options": [
+          "A) CMV causes periventricular intracranial calcifications; Toxoplasmosis causes diffuse/scattered parenchymal calcifications",
+          "B) CMV causes spinal cord syrinx; Toxoplasmosis causes cerebellar atrophy",
+          "C) CMV causes basal ganglia destruction; Toxoplasmosis causes optic nerve glioma",
+          "D) Neither infection produces intracranial calcifications"
+        ],
+        "correct": 0,
+        "hint": "Periventricular calcifications in CMV vs. diffuse/scattered parenchymal calcifications in toxoplasmosis.",
+        "explanation": "Neuroimaging in CMV characteristically reveals periventricular calcifications lining the subependymal brain regions, whereas Toxoplasmosis produces widely scattered parenchymal calcifications."
+      },
+      {
+        "q": "What constitutes the CLASSIC TRIAD of Congenital Rubella Syndrome (CRS)?",
+        "options": [
+          "A) Chorioretinitis, Hydrocephalus, and Intracranial calcification",
+          "B) Eye lesions (Cataracts), Ear lesions (Sensorineural hearing loss), and Heart defects (Patent Ductus Arteriosus)",
+          "C) Snuffles, Saber shins, and Hutchinson teeth",
+          "D) Vesicular skin lesions, Keratoconjunctivitis, and Seizures"
+        ],
+        "correct": 1,
+        "hint": "Cataracts, sensorineural hearing loss, and heart defects (such as PDA).",
+        "explanation": "The classic triad of Congenital Rubella Syndrome comprises Cataracts (eye), Sensorineural Hearing Loss (ear - the most common sequela at 80%), and Cardiac malformations (PDA and pulmonary artery stenosis)."
+      },
+      {
+        "q": "What retinal pattern is characteristic of Congenital Rubella infection?",
+        "options": [
+          "A) 'Cottage cheese with ketchup' infiltrates",
+          "B) 'Salt and pepper' type chorioretinitis",
+          "C) Subretinal drusen deposits",
+          "D) Retinal arteriolar silver-wiring"
+        ],
+        "correct": 1,
+        "hint": "Patchy retinal pigment changes give a 'salt and pepper' appearance.",
+        "explanation": "Congenital rubella ocular involvement is classically described as 'salt and pepper' chorioretinitis, characterized by patchy pigmentary alterations of the retina."
+      },
+      {
+        "q": "What constitutes the CLASSIC TRIAD of Congenital Toxoplasmosis (present in <10% of cases)?",
+        "options": [
+          "A) Microcephaly, PDA, and Cataracts",
+          "B) Chorioretinitis, Intracranial calcifications, and Hydrocephalus",
+          "C) Interstitial keratitis, 8th nerve deafness, and Hutchinson incisors",
+          "D) Blueberry muffin rash, Jaundice, and Hepatosplenomegaly"
+        ],
+        "correct": 1,
+        "hint": "Chorioretinitis, intracranial calcifications, and hydrocephalus.",
+        "explanation": "Although present in less than 10% of infected infants at birth, the classic triad of congenital toxoplasmosis consists of Chorioretinitis, Hydrocephalus, and Intracranial Calcifications."
+      },
+      {
+        "q": "How is the timing of maternal Rubella infection during pregnancy directly related to the risk of fetal malformation?",
+        "options": [
+          "A) 1st trimester infection carries 90% malformation risk; 2nd trimester 34%; 3rd trimester 0–10%",
+          "B) Risk of malformation is highest (100%) during the 3rd trimester",
+          "C) Malformations occur exclusively during labor and delivery",
+          "D) Gestational timing has no impact on teratogenicity"
+        ],
+        "correct": 0,
+        "hint": "Highest in the 1st trimester (~90%), lower in the 2nd (~34%), and lowest in the 3rd (0–10%).",
+        "explanation": "Rubella teratogenicity is highest in early organogenesis: 1st-trimester infection results in a 90% risk of congenital malformation, dropping to 34% in the 2nd trimester and 0–10% in the 3rd trimester."
+      },
+      {
+        "q": "What skin manifestation, known as 'Blueberry Muffin Spots', is observed in congenital CMV and Rubella, and what is its underlying histology?",
+        "options": [
+          "A) Epidermal hyperkeratosis due to fungal invasion",
+          "B) Dermal extramedullary hematopoiesis causing purpuric skin lesions",
+          "C) Subcutaneous fat necrosis from hypothermia",
+          "D) Capillary hemangiomas triggered by viral toxins"
+        ],
+        "correct": 1,
+        "hint": "Dermal extramedullary hematopoiesis creates bluish-purple skin spots.",
+        "explanation": "'Blueberry muffin' skin spots represent sites of persistent dermal extramedullary hematopoiesis responding to intrauterine anemia or viral infection."
+      },
+      {
+        "q": "What specific characteristic mucocutaneous and skeletal signs define EARLY Congenital Syphilis (manifesting before 2 years of age)?",
+        "options": [
+          "A) 'Snuffles' (blood-tinged mucopurulent nasal discharge), copper-colored maculopapular/vesiculobullous rash on palms/soles, and osteochondritis ('celery stalking' on X-ray)",
+          "B) Interstitial keratitis, saber shins, and saddle nose",
+          "C) Periventricular calcifications and chorioretinitis",
+          "D) Cataracts, PDA, and sensorineural deafness"
+        ],
+        "correct": 0,
+        "hint": "Look for 'snuffles', palm/sole rash, and osteochondritis in early disease (<2 years).",
+        "explanation": "Early congenital syphilis features profuse rhinitis ('snuffles'), desquamating copper-colored palm/sole lesions, hepatosplenomegaly, and long-bone osteochondritis causing painful pseudoparalysis of Parrot."
+      },
+      {
+        "q": "What features constitute the 'HUTCHINSON TRIAD' in LATE Congenital Syphilis (manifesting after 2 years of age)?",
+        "options": [
+          "A) Cataracts, PDA, and Sensorineural deafness",
+          "B) Hutchinson incisors, Interstitial keratitis, and Eighth nerve (sensorineural) deafness",
+          "C) Chorioretinitis, Hydrocephalus, and Intracranial calcifications",
+          "D) Saddle nose, Saber shins, and Clutton joints"
+        ],
+        "correct": 1,
+        "hint": "Hutchinson teeth, interstitial keratitis, and 8th cranial nerve deafness.",
+        "explanation": "Late congenital syphilis features the classic Hutchinson Triad: notched peg-shaped upper central incisors (Hutchinson teeth), Interstitial Keratitis, and 8th Cranial Nerve Sensorineural Deafness."
+      },
+      {
+        "q": "What are the three distinct clinical presentation patterns of intrapartum-acquired neonatal Herpes Simplex Virus (HSV) infection?",
+        "options": [
+          "A) Asymptomatic, Mild fever, and Chronic paralysis",
+          "B) Disseminated disease (involving liver/lungs), CNS disease (encephalitis/seizures), and Localized SEM disease (limited to Skin, Eyes, or Mouth)",
+          "C) Hydrops fetalis, Osteochondritis, and Snuffles",
+          "D) Cataracts, Glaucoma, and Microphthalmia"
+        ],
+        "correct": 1,
+        "hint": "Disseminated disease, CNS disease, and localized Skin, Eyes, or Mouth (SEM) disease.",
+        "explanation": "Neonatal HSV presents as one of three clinical entities: 1) Disseminated disease (40%), 2) CNS disease/encephalitis (30%), or 3) Localized SEM disease (Skin, Eyes, Mouth - 30%) featuring cutaneous clusters of vesicles on an erythematous base."
+      },
+      {
+        "q": "What is the GOLD STANDARD diagnostic method for confirming Congenital Cytomegalovirus (CMV) infection in a newborn, and within what timeframe must it be performed?",
+        "options": [
+          "A) Serum IgG levels at 6 months of age",
+          "B) Detection of CMV DNA by PCR or viral culture from neonatal urine or saliva within the FIRST 3 WEEKS of life",
+          "C) Skull radiography at 1 year",
+          "D) Maternal serology during the 3rd trimester"
+        ],
+        "correct": 1,
+        "hint": "Urine or saliva PCR/culture within the first 3 weeks (21 days) of life.",
+        "explanation": "Neonatal CMV confirmation requires proving viral presence (PCR or shell-vial culture) in urine or saliva collected within the first 21 days of life; positive tests after 3 weeks may indicate postnatally acquired infection."
+      },
+      {
+        "q": "What classic cytological finding in an infant's urine specimen is historically associated with Cytomegalovirus infection?",
+        "options": [
+          "A) Multinucleated giant cells with Cowdry A inclusions",
+          "B) 'Owl's eye' cytomegalic intranuclear inclusion cells",
+          "C) Treponemal spirochetes on darkfield microscopy",
+          "D) Toxoplasma tachyzoites in urinary casts"
+        ],
+        "correct": 1,
+        "hint": "'Owl's eye' intranuclear inclusions in enlarged cells.",
+        "explanation": "Exfoliative urinary cytology in CMV shows enlarged cells containing large basophilic intranuclear inclusion bodies surrounded by a clear halo, classically termed 'owl's eye' inclusions."
+      },
+      {
+        "q": "What diagnostic finding in an infant at 12 months of age serves as the GOLD STANDARD for confirming Congenital Toxoplasmosis?",
+        "options": [
+          "A) Positive Toxoplasma-specific IgG antibodies persisting at 12 months of age",
+          "B) Complete disappearance of all Toxoplasma antibodies by 3 months",
+          "C) Positive stool culture for oocysts",
+          "D) Elevated alkaline phosphatase"
+        ],
+        "correct": 0,
+        "hint": "Persistence of Toxoplasma-specific IgG at 12 months confirms congenital infection.",
+        "explanation": "Transplacentally transferred maternal IgG wanes by 6–12 months; persistence of Toxoplasma IgG in the infant at 12 months confirms endogenous antibody production and congenital infection."
+      },
+      {
+        "q": "What characteristic abnormality on Cerebrospinal Fluid (CSF) analysis strongly points toward Congenital Toxoplasmosis with active CNS involvement?",
+        "options": [
+          "A) Normal protein with zero white blood cells",
+          "B) Marked CSF eosinophilia or extremely high CSF protein levels (>1000 mg/dL)",
+          "C) High glucose with negative PCR",
+          "D) Xanthochromia with normal cell count"
+        ],
+        "correct": 1,
+        "hint": "CSF eosinophilia or marked CSF protein elevation (>1000 mg/dL).",
+        "explanation": "Active congenital neuro-toxoplasmosis produces severe CSF inflammation, characteristically causing CSF eosinophilia and massive elevation of CSF protein exceeding 1000 mg/dL (10 g/L)."
+      },
+      {
+        "q": "In the diagnostic evaluation of suspected neonatal HSV, what cytological test performed on skin vesicle scrapings reveals multinucleated giant cells?",
+        "options": [
+          "A) Tzanck smear",
+          "B) Gram stain",
+          "C) Wright-Giemsa stain for Donovan bodies",
+          "D) Ziehl-Neelsen stain"
+        ],
+        "correct": 0,
+        "hint": "A Tzanck smear of vesicle scrapings looks for multinucleated giant cells.",
+        "explanation": "A Tzanck smear prepared from the base of fresh cutaneous vesicles demonstrates characteristic multinucleated giant cells and ballooning degeneration (~50% sensitive for herpesvirus infection)."
+      },
+      {
+        "q": "In evaluating Congenital Syphilis, what two distinct categories of serological tests are required?",
+        "options": [
+          "A) Direct fluorescent antibody and Western Blot",
+          "B) Non-Treponemal tests (VDRL, RPR, ART) for screening/monitoring response, and Treponemal tests (FTA-ABS, TP-PA, EIA, CIA) for confirmation",
+          "C) Blood glucose and Serum creatinine",
+          "D) Viral culture and PCR"
+        ],
+        "correct": 1,
+        "hint": "Non-treponemal (VDRL/RPR) plus specific treponemal tests (FTA-ABS/TP-PA).",
+        "explanation": "Syphilis evaluation utilizes Non-Treponemal reaginic tests (VDRL/RPR) to gauge disease activity and treatment response, and specific Treponemal tests (FTA-ABS/TP-PA) to confirm antibody specificity."
+      },
+      {
+        "q": "What specific laboratory finding in neonatal Cerebrospinal Fluid (CSF) is diagnostic of Neurosyphilis?",
+        "options": [
+          "A) Positive CSF-VDRL test, CSF pleocytosis (>18–25 WBC/µL), and elevated protein (>150 mg/dL)",
+          "B) Low CSF glucose with negative treponemal antibodies",
+          "C) Eosinophilic meningitis with normal protein",
+          "D) Isolation of cytomegalic inclusion cells"
+        ],
+        "correct": 0,
+        "hint": "Reactive CSF-VDRL along with elevated CSF WBCs and protein.",
+        "explanation": "Neurosyphilis is confirmed by a reactive VDRL in CSF, accompanied by CSF pleocytosis (>18–25 WBC/µL) and elevated CSF protein (>150 mg/dL in term infants, >170 mg/dL in preterms)."
+      },
+      {
+        "q": "When monitoring a newborn treated for Congenital Syphilis, how should Non-Treponemal antibody titers (VDRL/RPR) behave if treatment is successful?",
+        "options": [
+          "A) Titers should remain elevated indefinitely",
+          "B) Non-treponemal titers should decline by 3 months of age and become non-reactive (negative) by 6 months",
+          "C) Titers double every 2 weeks",
+          "D) Non-treponemal tests turn positive only after 2 years"
+        ],
+        "correct": 1,
+        "hint": "Titers drop by 3 months and turn non-reactive by 6 months with effective therapy.",
+        "explanation": "Effective antitreponemal therapy causes non-treponemal reaginic antibody titers to decline rapidly, becoming negative by 6 months of age; persistent or rising titers require retreatment."
+      },
+      {
+        "q": "Why is an initial negative non-treponemal blood test (VDRL/RPR) in a newborn insufficient to completely rule out Congenital Syphilis if maternal infection occurred late in pregnancy?",
+        "options": [
+          "A) Spirochetes do not stimulate any immune response in infants",
+          "B) It takes 10 to 45 days after infection for serological blood tests to become positive",
+          "C) Non-treponemal tests only detect viral RNA",
+          "D) Fetal antibodies block the VDRL antigen"
+        ],
+        "correct": 1,
+        "hint": "Seroconversion can take 10 to 45 days after infection.",
+        "explanation": "Following T. pallidum infection, a serological incubation period of 10 to 45 days is required before non-treponemal tests convert to positive."
+      },
+      {
+        "q": "What diagnostic investigation is MANDATORY in ALL suspected cases of neonatal Herpes Simplex Virus (HSV) infection, regardless of whether skin lesions are present?",
+        "options": [
+          "A) Skull X-ray",
+          "B) Lumbar Puncture (for CSF PCR, cell count, and protein)",
+          "C) Renal biopsy",
+          "D) Stool culture"
+        ],
+        "correct": 1,
+        "hint": "Lumbar puncture for CSF PCR, cells, and protein is mandatory in all suspected neonatal HSV cases.",
+        "explanation": "Lumbar puncture is mandatory in all infants suspected of neonatal HSV to detect subclinical encephalitis, characterized by hemorrhagic CSF, pleocytosis, elevated protein, and positive HSV PCR."
+      },
+      {
+        "q": "What is the WHO-recommended first-line antiviral regimen for symptomatic Congenital Cytomegalovirus (CMV) infection in newborns?",
+        "options": [
+          "A) Oral Acyclovir for 14 days",
+          "B) A 6-month course of oral Valganciclovir (16 mg/kg twice daily)",
+          "C) Single-dose Intravenous Immunoglobulin",
+          "D) Oral Ribavirin for 1 year"
+        ],
+        "correct": 1,
+        "hint": "Oral valganciclovir 16 mg/kg twice daily for 6 months.",
+        "explanation": "Current WHO guidelines recommend a 6-month course of oral Valganciclovir (16 mg/kg BID) for symptomatic congenital CMV to preserve hearing and neurodevelopment."
+      },
+      {
+        "q": "In severely ill neonates with Congenital CMV, how is antiviral therapy initiated before transitioning to oral Valganciclovir?",
+        "options": [
+          "A) Intravenous Ganciclovir (6 mg/kg q12h) for 2 to 6 weeks, then switch to oral Valganciclovir to complete 6 months",
+          "B) Intravenous Foscarnet for 6 months",
+          "C) Oral Cidofovir for 3 weeks",
+          "D) High-dose Interferon alpha"
+        ],
+        "correct": 0,
+        "hint": "Start with IV ganciclovir (6 mg/kg q12h) for 2–6 weeks, then transition to oral valganciclovir to complete 6 months.",
+        "explanation": "Severely ill neonates begin treatment with IV Ganciclovir (6 mg/kg q12h) for 2–6 weeks, switching to oral Valganciclovir once stable to complete a total 6-month treatment duration."
+      },
+      {
+        "q": "What three-drug oral regimen administered for a total duration of 12 MONTHS is indicated for Congenital Toxoplasmosis?",
+        "options": [
+          "A) Amoxicillin, Clarithromycin, and Omeprazole",
+          "B) Pyrimethamine, Sulfadiazine, and Folinic Acid (Leucovorin)",
+          "C) Metronidazole, Doxycycline, and Prednisone",
+          "D) Acyclovir, Valganciclovir, and Penicillin"
+        ],
+        "correct": 1,
+        "hint": "Pyrimethamine, sulfadiazine, and folinic acid (leucovorin) for 12 months.",
+        "explanation": "Standard antiparasitic therapy for congenital toxoplasmosis consists of oral Pyrimethamine, Sulfadiazine, and Folinic Acid (Leucovorin to prevent bone marrow toxicity) continued for 12 months."
+      },
+      {
+        "q": "Why is Folinic Acid (Leucovorin) mandatory during Pyrimethamine-Sulfadiazine therapy for Congenital Toxoplasmosis, and what laboratory parameter requires regular monitoring?",
+        "options": [
+          "A) To prevent severe renal calculus formation; monitor serum creatinine",
+          "B) To mitigate dihydrofolate reductase inhibition-induced bone marrow suppression; monitor regularly for Neutropenia",
+          "C) To prevent ototoxicity; monitor audiograms",
+          "D) To enhance hepatic clearance; monitor ALT/AST"
+        ],
+        "correct": 1,
+        "hint": "Protects against bone marrow suppression; monitor neutrophil counts for neutropenia.",
+        "explanation": "Pyrimethamine inhibits folic acid synthesis, predisposing to bone marrow toxicity; Folinic acid is co-administered to protect hematopoiesis, and absolute neutrophil counts must be monitored regularly."
+      },
+      {
+        "q": "Under what specific clinical circumstances during Congenital Toxoplasmosis treatment is the addition of Corticosteroids indicated?",
+        "options": [
+          "A) In all infants at birth routinely",
+          "B) Active chorioretinitis threatening vision or CSF protein concentration ≥1.0 g/dL (1000 mg/dL)",
+          "C) When neutropenia develops",
+          "D) To eliminate cat oocysts from the gut"
+        ],
+        "correct": 1,
+        "hint": "Vision-threatening chorioretinitis or high CSF protein (≥1.0 g/dL).",
+        "explanation": "Corticosteroids are added to antiparasitic therapy on a case-by-case basis when active inflammatory chorioretinitis threatens macular vision or when CSF protein is ≥1.0 g/dL."
+      },
+      {
+        "q": "What is the DRUG OF CHOICE, dosage, and duration for treating localized (Skin, Eyes, Mouth - SEM) neonatal Herpes Simplex Virus?",
+        "options": [
+          "A) Oral Valganciclovir 16 mg/kg for 7 days",
+          "B) Intravenous Acyclovir 20 mg/kg/dose every 8 hours for 14 DAYS",
+          "C) Intravenous Penicillin G for 10 days",
+          "D) Topical Acyclovir ointment alone"
+        ],
+        "correct": 1,
+        "hint": "IV acyclovir 20 mg/kg q8h for 14 days in localized SEM disease.",
+        "explanation": "Localized SEM herpes simplex disease is treated with High-Dose IV Acyclovir (20 mg/kg q8h) for 14 days."
+      },
+      {
+        "q": "What is the required treatment DURATION of High-Dose IV Acyclovir (20 mg/kg q8h) for Disseminated or Central Nervous System (CNS) neonatal HSV?",
+        "options": [
+          "A) 5 days",
+          "B) 10 days",
+          "C) 21 DAYS",
+          "D) 6 months"
+        ],
+        "correct": 2,
+        "hint": "Disseminated or CNS neonatal HSV requires 21 days of IV acyclovir.",
+        "explanation": "Disseminated or CNS herpes simplex disease requires high-dose IV Acyclovir (20 mg/kg q8h) for a minimum duration of 21 days."
+      },
+      {
+        "q": "Following completion of acute IV Acyclovir therapy for neonatal HSV, what suppressive oral antiviral regimen is continued for 6 months, and what is its clinical benefit?",
+        "options": [
+          "A) Oral Acyclovir for 6 months; improves neurodevelopmental outcomes at 1 year of age (monitor for neutropenia)",
+          "B) Oral Ganciclovir for 6 months; prevents cardiac arrest",
+          "C) Oral Erythromycin for 6 months; prevents dental discoloration",
+          "D) No further therapy is required"
+        ],
+        "correct": 0,
+        "hint": "6 months of oral acyclovir suppression improves 1-year neurodevelopmental outcomes.",
+        "explanation": "Following IV acyclovir, long-term suppressive oral Acyclovir for 6 months significantly improves 1-year neurodevelopmental outcomes and prevents cutaneous recurrences."
+      },
+      {
+        "q": "What single intramuscular dose is administered to ALL infants born to seropositive mothers with Congenital Syphilis regardless of maternal pregnancy treatment history?",
+        "options": [
+          "A) Benzathine Benzylpenicillin 50,000 IU/kg IM single dose",
+          "B) Oral Amoxicillin 100 mg/kg for 3 days",
+          "C) IV Gentamicin 7.5 mg/kg",
+          "D) Subcutaneous Heparin 100 IU/kg"
+        ],
+        "correct": 0,
+        "hint": "Benzathine benzylpenicillin 50,000 IU/kg IM single dose.",
+        "explanation": "As an immediate baseline intervention, all infants born to seropositive mothers receive a single IM dose of Benzathine Benzylpenicillin 50,000 IU/kg."
+      },
+      {
+        "q": "What intravenous regimen is indicated for Early Congenital Syphilis (up to 2 years of age) or infants with abnormal CSF (Neurosyphilis)?",
+        "options": [
+          "A) Intravenous Benzylpenicillin 100,000 to 150,000 IU/kg/day (administered as 50,000 IU/kg/dose 12-hourly for first 7 days, then 8-hourly thereafter for a total of 10 DAYS)",
+          "B) Oral Erythromycin for 3 days",
+          "C) Single IV dose of Ceftriaxone",
+          "D) Intravenous Vancomycin for 30 days"
+        ],
+        "correct": 0,
+        "hint": "IV benzylpenicillin 100,000–150,000 IU/kg/day (50,000 IU/kg q12h for 7 days, then q8h) for 10 days.",
+        "explanation": "Early congenital syphilis and neurosyphilis are treated with aqueous crystalline IV Benzylpenicillin 100,000–150,000 IU/kg/day (given as 50,000 IU/kg q12h for 7 days, then q8h) for 10 days."
+      },
+      {
+        "q": "What alternative oral antibiotic regimen is recommended for Congenital Syphilis in Penicillin-ALLERGIC children after 1 month of life?",
+        "options": [
+          "A) Oral Erythromycin 7.5 to 12.5 mg/kg 6-hourly for 30 DAYS",
+          "B) Oral Tetracycline for 5 days",
+          "C) Single-dose oral Azithromycin",
+          "D) Oral Chloramphenicol for 60 days"
+        ],
+        "correct": 0,
+        "hint": "Oral erythromycin 7.5–12.5 mg/kg every 6 hours for 30 days.",
+        "explanation": "In penicillin-allergic infants past the neonatal period (>1 month of age), oral Erythromycin (7.5–12.5 mg/kg q6h) for 30 days serves as the alternative antitreponemal regimen."
+      },
+      {
+        "q": "What primary obstetric intervention significantly reduces intrapartum transmission of HSV when active genital lesions or prodromal symptoms are present at labor?",
+        "options": [
+          "A) Emergency Cesarean section, preferably performed within <4 hours of membrane rupture",
+          "B) Continuous intrapartum vaginal douching with chlorhexidine",
+          "C) High-dose oral ampicillin to the mother during labor",
+          "D) Immediate induction of labor with oxytocin"
+        ],
+        "correct": 0,
+        "hint": "Cesarean delivery, ideally within <4 hours of membrane rupture.",
+        "explanation": "Performing a Cesarean delivery prior to or within 4 hours of membrane rupture in women with active genital HSV lesions avoids infant contact with infected lower genital secretions."
+      },
+      {
+        "q": "Is maternal breastfeeding strictly contraindicated in a mother with active genital Herpes Simplex Virus?",
+        "options": [
+          "A) Yes, HSV is secreted in high levels in all breast milk",
+          "B) No, breastfeeding is NOT contraindicated unless active herpetic lesions are present directly on the breast, provided strict hand hygiene is maintained",
+          "C) Breastfeeding is prohibited for 5 years",
+          "D) Breastfeeding is allowed only if milk is boiled"
+        ],
+        "correct": 1,
+        "hint": "Not contraindicated unless lesions are on the breast itself, with good hand hygiene.",
+        "explanation": "HSV is not transmitted through breast milk itself; breastfeeding is safe as long as no active herpetic lesions exist on the breasts and proper hand washing is observed."
+      },
+      {
+        "q": "What is the mortality rate of UNTREATED Disseminated Neonatal Herpes Simplex Virus, and what proportion of untreated survivors suffer severe neurological sequelae?",
+        "options": [
+          "A) 10% mortality; 5% sequelae",
+          "B) 85% mortality rate; at least 65% of survivors suffer severe neurological sequelae",
+          "C) 0% mortality; 100% sequelae",
+          "D) 50% mortality; 0% sequelae"
+        ],
+        "correct": 1,
+        "hint": "85% mortality rate and ≥65% severe neurological sequelae in survivors if untreated.",
+        "explanation": "Untreated disseminated neonatal HSV carries an 85% mortality rate, and over 65% of rare survivors suffer catastrophic permanent neurodevelopmental impairment."
+      },
+      {
+        "q": "What dietary and hygienic precautions should be provided to non-immune pregnant women to prevent primary Toxoplasma gondii infection?",
+        "options": [
+          "A) Avoid cat litter boxes/feces contact, consume only thoroughly cooked meat, thoroughly wash/peel fruits and vegetables, and practice immediate handwashing after food preparation",
+          "B) Avoid drinking unpasteurized cow milk only",
+          "C) Boil all drinking water and avoid seafood",
+          "D) Eliminate all pet dogs from the home"
+        ],
+        "correct": 0,
+        "hint": "Avoid cat litter/feces, cook meat thoroughly, wash produce, and wash hands.",
+        "explanation": "Prevention of primary gestational toxoplasmosis centers on avoiding cat litter, preventing soil/feces ingestion, cooking meat thoroughly, and washing produce."
+      },
+      {
+        "q": "In an infant treated for Neurosyphilis, what follow-up monitoring protocol is required to confirm disease cure?",
+        "options": [
+          "A) Annual skull X-rays for 10 years",
+          "B) Follow-up CSF examination every 6 months for 3 years (or until cell count and VDRL normalize); retreatment if CSF cell count remains elevated at 6 months",
+          "C) Repeat blood culture every month",
+          "D) No follow-up is necessary if the child looks healthy"
+        ],
+        "correct": 1,
+        "hint": "Repeat CSF checks every 6 months for up to 3 years or until normal; retreat if elevated at 6 months.",
+        "explanation": "Infants with neurosyphilis require serial LP evaluations every 6 months until CSF pleocytosis and reactive VDRL completely resolve; persistent elevation at 6 months mandates retreatment."
+      },
+      {
+        "q": "Which viral intrauterine infection is recognized as a specific cause of non-immune Hydrops Fetalis?",
+        "options": [
+          "A) Coxsackie B3",
+          "B) Parvovirus B19",
+          "C) Hepatitis A",
+          "D) Epstein-Barr Virus"
+        ],
+        "correct": 1,
+        "hint": "Parvovirus B19 targets fetal erythroid precursors and can cause hydrops fetalis.",
+        "explanation": "Gestational Parvovirus B19 infection selectively infects fetal erythroid progenitor cells, causing severe aplastic anemia, high-output heart failure, and non-immune hydrops fetalis."
+      },
+      {
+        "q": "Which intrauterine viral infections are specifically linked to congenital heart defects such as PDA and pulmonary artery stenosis?",
+        "options": [
+          "A) Rubella virus and Coxsackie B3/B4 viruses",
+          "B) Hepatitis E virus",
+          "C) Herpes Simplex Virus 1",
+          "D) Human Papillomavirus"
+        ],
+        "correct": 0,
+        "hint": "Rubella virus and Coxsackie B3/B4 viruses.",
+        "explanation": "Congenital heart lesions (especially PDA and pulmonary artery coarctation) are characteristically induced by first-trimester Rubella virus infection and Coxsackie B3/B4 viral infections."
+      },
+      {
+        "q": "What primary immunizations administered to women of reproductive age effectively prevent Congenital Rubella Syndrome and fetal Hepatitis infection?",
+        "options": [
+          "A) BCG and DTP vaccines",
+          "B) Measles-Rubella (MR / MMR) and Hepatitis B vaccines prior to pregnancy",
+          "C) Oral Polio Vaccine during labor",
+          "D) Rotavirus vaccine in 3rd trimester"
+        ],
+        "correct": 1,
+        "hint": "Pre-pregnancy Measles-Rubella (MR/MMR) and Hepatitis B vaccination.",
+        "explanation": "Pre-pregnancy administration of live-attenuated Measles-Rubella (MR/MMR) vaccine and Hepatitis B vaccination in reproductive-age females provides effective herd and maternal immunity."
+      },
+      {
+        "q": "A newborn infant presents at 10 days of life with poor feeding, jaundice, hepatosplenomegaly, petechial rash ('blueberry muffin' skin), microcephaly, and bilateral sensorineural hearing loss. Head CT reveals prominent periventricular intracranial calcifications. Identify the likely TORCH infection, the diagnostic test/timeframe, and the WHO-recommended antiviral regimen.",
+        "options": [
+          "A) Congenital Toxoplasmosis; Confirm with stool culture; Treat with oral Acyclovir for 10 days",
+          "B) 1. Congenital Cytomegalovirus (CMV) infection. 2. Diagnostic test: Quantitative CMV DNA PCR or viral culture from urine or saliva performed within the first 3 weeks of life. 3. Treatment: Oral Valganciclovir 16 mg/kg twice daily for 6 months (or IV Ganciclovir 6 mg/kg q12h for 2–6 weeks switched to oral Valganciclovir to complete 6 months if severely ill).",
+          "C) Congenital Syphilis; Confirm with VDRL; Treat with single dose Benzathine Penicillin",
+          "D) Congenital Rubella; Confirm with skin biopsy; Treat with Corticosteroids alone"
+        ],
+        "correct": 1,
+        "hint": "Periventricular calcifications + microcephaly/hearing loss/blueberry muffin rash = congenital CMV; urine/saliva PCR within 3 weeks; oral valganciclovir 16 mg/kg BID for 6 months.",
+        "explanation": "1) Microcephaly, hearing loss, blueberry muffin spots, jaundice, and periventricular calcifications point to Congenital CMV. 2) Confirm via urine or saliva CMV PCR within the first 3 weeks of life. 3) Treat with oral Valganciclovir 16 mg/kg twice daily for 6 months (starting with IV Ganciclovir if severe)."
+      }
+    ]
+  }
+]
