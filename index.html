@@ -1,1616 +1,2875 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Six7 — Clinical Board & Deep Revision Mode</title>
-<style>
-  :root {
-    --bg: #0b0e14;
-    --surface: #121722;
-    --surface-2: #181f2e;
-    --card: #141923;
-    --card-hover: #1b2230;
-    --border: rgba(255, 255, 255, 0.08);
-    --border-strong: rgba(255, 255, 255, 0.16);
-    --text: #eef2f7;
-    --muted: #94a3b8;
-    --accent: #3b82f6;
-    --accent-hover: #2563eb;
-    --accent-soft: rgba(59, 130, 246, 0.16);
-    --success: #22c55e;
-    --success-soft: rgba(34, 197, 94, 0.16);
-    --danger: #ef4444;
-    --danger-soft: rgba(239, 68, 68, 0.16);
-    --warn: #f59e0b;
-    --warn-soft: rgba(245, 158, 11, 0.16);
-    --radius-sm: 10px;
-    --radius-md: 14px;
-    --radius-lg: 20px;
-    --radius-pill: 999px;
-  }
-
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-
-  html, body {
-    min-height: 100%;
-    background: var(--bg);
-    color: var(--text);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    -webkit-font-smoothing: antialiased;
-  }
-
-  button {
-    font-family: inherit;
-    color: inherit;
-    background: none;
-    border: none;
-    cursor: pointer;
-  }
-
-  button:disabled {
-    opacity: 0.45;
-    cursor: not-allowed;
-  }
-
-  .hidden {
-    display: none !important;
-  }
-
-  /* Top Header */
-  .topbar {
-    position: sticky;
-    top: 0;
-    z-index: 40;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    padding: 12px 16px;
-    background: rgba(11, 14, 20, 0.88);
-    backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .topbar-left {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-  }
-
-  .hamburger-btn {
-    width: 42px;
-    height: 42px;
-    border-radius: 12px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    display: grid;
-    place-items: center;
-    font-size: 1.15rem;
-    transition: background 0.15s ease, border-color 0.15s ease;
-  }
-
-  .hamburger-btn:hover {
-    background: var(--surface-2);
-    border-color: var(--border-strong);
-  }
-
-  .brand-title {
-    font-size: 1rem;
-    font-weight: 700;
-    letter-spacing: 0.2px;
-  }
-
-  .brand-sub {
-    font-size: 0.75rem;
-    color: var(--muted);
-  }
-
-  .topbar-right {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-
-  .mode-pill {
-    padding: 6px 12px;
-    border-radius: var(--radius-pill);
-    font-size: 0.78rem;
-    font-weight: 600;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--muted);
-  }
-
-  .mode-pill.active {
-    background: var(--accent-soft);
-    border-color: rgba(59, 130, 246, 0.4);
-    color: #93c5fd;
-  }
-
-  /* Slide-out Left Drawer */
-  .drawer-backdrop {
-    position: fixed;
-    inset: 0;
-    z-index: 70;
-    background: rgba(0, 0, 0, 0.65);
-    backdrop-filter: blur(2px);
-  }
-
-  .drawer {
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 80;
-    width: min(320px, 86vw);
-    background: var(--surface);
-    border-right: 1px solid var(--border-strong);
-    padding: 20px 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 18px;
-    overflow-y: auto;
-    transition: transform 0.22s ease;
-  }
-
-  .drawer.closed {
-    transform: translateX(-100%);
-  }
-
-  .drawer-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 12px;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .drawer-section-label {
-    font-size: 0.72rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-    color: var(--muted);
-    margin-bottom: 8px;
-  }
-
-  .drawer-list {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-
-  .drawer-item {
-    width: 100%;
-    text-align: left;
-    padding: 11px 12px;
-    border-radius: var(--radius-sm);
-    font-size: 0.92rem;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: transparent;
-    transition: background 0.15s ease;
-  }
-
-  .drawer-item:hover {
-    background: var(--surface-2);
-  }
-
-  .drawer-item.active {
-    background: var(--accent-soft);
-    color: #93c5fd;
-    font-weight: 600;
-  }
-
-  .drawer-item.danger {
-    color: #fca5a5;
-  }
-
-  .drawer-item.danger:hover {
-    background: var(--danger-soft);
-  }
-
-  .setting-row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px 12px;
-    border-radius: var(--radius-sm);
-    background: var(--bg);
-    border: 1px solid var(--border);
-    font-size: 0.88rem;
-  }
-
-  /* Main Container */
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 20px 16px 48px;
-  }
-
-  /* Clean Home / Setup View */
-  .hero-card {
-    background: linear-gradient(145deg, rgba(59, 130, 246, 0.14), rgba(18, 23, 34, 0.96));
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius-lg);
-    padding: 24px 20px;
-    margin-bottom: 20px;
-  }
-
-  .hero-badge {
-    display: inline-block;
-    padding: 4px 10px;
-    border-radius: var(--radius-pill);
-    background: var(--accent-soft);
-    color: #93c5fd;
-    font-size: 0.75rem;
-    font-weight: 600;
-    margin-bottom: 10px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-    font-weight: 800;
-    margin-bottom: 6px;
-  }
-
-  .hero-copy {
-    color: var(--muted);
-    font-size: 0.94rem;
-    max-width: 640px;
-    margin-bottom: 18px;
-  }
-
-  .hero-actions {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  .btn-primary {
-    padding: 12px 18px;
-    border-radius: var(--radius-pill);
-    background: var(--accent);
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 0.92rem;
-    transition: background 0.15s ease;
-  }
-
-  .btn-primary:hover {
-    background: var(--accent-hover);
-  }
-
-  .btn-secondary {
-    padding: 12px 18px;
-    border-radius: var(--radius-pill);
-    background: var(--surface-2);
-    border: 1px solid var(--border-strong);
-    color: var(--text);
-    font-weight: 600;
-    font-size: 0.92rem;
-    transition: background 0.15s ease;
-  }
-
-  .btn-secondary:hover {
-    background: var(--card-hover);
-  }
-
-  .section-card {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    padding: 18px;
-    margin-bottom: 18px;
-  }
-
-  .section-heading {
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 12px;
-  }
-
-  .subject-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-    gap: 12px;
-  }
-
-  .subject-tile {
-    text-align: left;
-    padding: 16px;
-    border-radius: var(--radius-md);
-    background: var(--card);
-    border: 1px solid var(--border);
-    transition: border-color 0.15s ease, transform 0.15s ease, background 0.15s ease;
-  }
-
-  .subject-tile:hover {
-    background: var(--card-hover);
-    border-color: rgba(59, 130, 246, 0.5);
-    transform: translateY(-1px);
-  }
-
-  .subject-tile.selected {
-    border-color: var(--accent);
-    background: var(--accent-soft);
-  }
-
-  .subject-tile-title {
-    font-weight: 700;
-    font-size: 0.98rem;
-    margin-bottom: 4px;
-  }
-
-  .subject-tile-meta {
-    font-size: 0.8rem;
-    color: var(--muted);
-  }
-
-  /* Board View */
-  .board-top-bar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 16px;
-  }
-
-  .score-strip {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .player-chip {
-    padding: 7px 12px;
-    border-radius: var(--radius-pill);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    font-size: 0.84rem;
-    font-weight: 600;
-  }
-
-  .player-chip.active-turn {
-    border-color: var(--accent);
-    background: var(--accent-soft);
-    color: #bfdbfe;
-  }
-
-  .board-scroll {
-    overflow-x: auto;
-    padding-bottom: 8px;
-  }
-
-  .jeopardy-grid {
-    display: grid;
-    gap: 8px;
-    min-width: 760px;
-  }
-
-  .topic-header {
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    padding: 10px 8px;
-    text-align: center;
-    font-size: 0.78rem;
-    font-weight: 700;
-    display: grid;
-    place-items: center;
-  }
-
-  .pts-cell {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    padding: 14px 8px;
-    text-align: center;
-    font-weight: 800;
-    font-size: 1rem;
-    color: #93c5fd;
-    transition: background 0.15s ease, border-color 0.15s ease;
-  }
-
-  .pts-cell:hover:not(:disabled) {
-    background: var(--card-hover);
-    border-color: var(--accent);
-  }
-
-  .pts-cell.used {
-    background: rgba(255, 255, 255, 0.02);
-    color: #475569;
-    border-color: rgba(255, 255, 255, 0.04);
-  }
-
-  /* Deep Revision Selector */
-  .revision-wrap {
-    max-width: 720px;
-    margin: 0 auto;
-  }
-
-  .step-indicator {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 16px;
-  }
-
-  .step-pill {
-    padding: 6px 12px;
-    border-radius: var(--radius-pill);
-    font-size: 0.78rem;
-    font-weight: 600;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    color: var(--muted);
-  }
-
-  .step-pill.current {
-    background: var(--accent-soft);
-    border-color: rgba(59, 130, 246, 0.45);
-    color: #93c5fd;
-  }
-
-  .step-pill.done {
-    background: var(--success-soft);
-    border-color: rgba(34, 197, 94, 0.4);
-    color: #86efac;
-  }
-
-  .md-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 10px;
-  }
-
-  @media (max-width: 520px) {
-    .md-grid {
-      grid-template-columns: repeat(3, 1fr);
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sixseven game</title>
+  <style>
+    :root {
+      --bg: #07111f;
+      --surface: #0e1e34;
+      --surface-2: #152946;
+      --border: rgba(148, 163, 184, 0.22);
+      --text: #f8fafc;
+      --muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-2: #22c55e;
+      --warn: #f59e0b;
+      --danger: #ef4444;
+      --p1: #38bdf8;
+      --p2: #a855f7;
     }
-  }
 
-  .md-btn {
-    padding: 16px 10px;
-    border-radius: var(--radius-md);
-    background: var(--card);
-    border: 1px solid var(--border);
-    font-weight: 800;
-    font-size: 1rem;
-    text-align: center;
-    transition: border-color 0.15s ease, background 0.15s ease;
-  }
+    * {
+      box-sizing: border-box;
+    }
 
-  .md-btn:hover {
-    background: var(--card-hover);
-    border-color: var(--accent);
-  }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: radial-gradient(circle at top, #122847 0%, var(--bg) 60%);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 14px;
+    }
 
-  .md-btn.selected {
-    background: var(--accent-soft);
-    border-color: var(--accent);
-    color: #93c5fd;
-  }
+    .app {
+      max-width: 1180px;
+      margin: 0 auto;
+    }
 
-  .choice-list {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
+    .hidden {
+      display: none !important;
+    }
 
-  .choice-card {
-    width: 100%;
-    text-align: left;
-    padding: 14px 16px;
-    border-radius: var(--radius-md);
-    background: var(--card);
-    border: 1px solid var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    transition: border-color 0.15s ease, background 0.15s ease;
-  }
+    /* Top-Left Hamburger Drawer */
+    .drawer-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.72);
+      z-index: 60;
+      display: none;
+    }
 
-  .choice-card:hover {
-    background: var(--card-hover);
-    border-color: var(--border-strong);
-  }
+    .drawer-backdrop.open {
+      display: block;
+    }
 
-  .choice-card.selected {
-    background: var(--accent-soft);
-    border-color: var(--accent);
-  }
+    .nav-drawer {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: min(340px, 88vw);
+      height: 100vh;
+      background: #0b192d;
+      border-right: 1px solid var(--border);
+      z-index: 70;
+      padding: 18px 16px;
+      overflow-y: auto;
+      transform: translateX(-100%);
+      transition: transform 0.22s ease;
+      box-shadow: 16px 0 36px rgba(2, 6, 23, 0.7);
+    }
 
-  .badge-count {
-    padding: 4px 10px;
-    border-radius: var(--radius-pill);
-    background: var(--surface-2);
-    border: 1px solid var(--border);
-    font-size: 0.78rem;
-    color: var(--muted);
-    white-space: nowrap;
-  }
+    .nav-drawer.open {
+      transform: translateX(0);
+    }
 
-  .confirm-box {
-    margin-top: 16px;
-    padding: 16px;
-    border-radius: var(--radius-md);
-    background: var(--bg);
-    border: 1px solid var(--border-strong);
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-  }
+    .drawer-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+      border-bottom: 1px solid var(--border);
+    }
 
-  /* Dark Mobile Quiz Runner (Matched to Screenshot) */
-  .quiz-runner {
-    max-width: 640px;
-    margin: 0 auto;
-    padding-bottom: 36px;
-  }
+    .drawer-head h2 {
+      margin: 0;
+      font-size: 1.05rem;
+    }
 
-  .quiz-hud {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-    margin-bottom: 22px;
-  }
+    .drawer-section {
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid rgba(148, 163, 184, 0.14);
+    }
 
-  .progress-track-wrap {
-    position: relative;
-    flex: 1;
-    height: 4px;
-    background: #272c38;
-    border-radius: 999px;
-    display: flex;
-    align-items: center;
-  }
+    .drawer-section:last-child {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
 
-  .progress-fill {
-    height: 100%;
-    background: #8ab4f8;
-    border-radius: 999px;
-    transition: width 0.2s ease;
-  }
+    .drawer-label {
+      font-size: 0.74rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
 
-  .progress-thumb {
-    position: absolute;
-    left: 0%;
-    transform: translate(-50%, 0);
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: #12151c;
-    border: 2px solid #cbd5e1;
-    transition: left 0.2s ease;
-  }
+    .drawer-stack {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
 
-  .hud-stats {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.85rem;
-    font-weight: 600;
-  }
+    .drawer-btn {
+      width: 100%;
+      text-align: left;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-size: 0.9rem;
+      font-weight: 600;
+    }
 
-  .hud-counter {
-    color: #cbd5e1;
-    margin-right: 2px;
-  }
+    .drawer-btn.active-mode {
+      background: var(--accent);
+      color: #04101d;
+      border-color: var(--accent);
+    }
 
-  .pill-wrong {
-    padding: 4px 10px;
-    border-radius: var(--radius-pill);
-    background: rgba(242, 139, 130, 0.16);
-    color: #f28b82;
-    font-size: 0.8rem;
-    font-weight: 700;
-  }
+    .drawer-btn.danger-btn {
+      border-color: rgba(239, 68, 68, 0.45);
+      color: #fecaca;
+      background: rgba(127, 29, 29, 0.28);
+    }
 
-  .pill-right {
-    padding: 4px 10px;
-    border-radius: var(--radius-pill);
-    background: rgba(129, 201, 149, 0.18);
-    color: #81c995;
-    font-size: 0.8rem;
-    font-weight: 700;
-  }
+    /* Floating Top Chatbox */
+    .floating-chat {
+      position: sticky;
+      top: 10px;
+      z-index: 40;
+      width: 100%;
+      max-width: 540px;
+      margin: 0 auto 14px;
+      background: rgba(10, 23, 42, 0.96);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      border-radius: 14px;
+      box-shadow: 0 12px 28px rgba(2, 6, 23, 0.65);
+      overflow: hidden;
+      backdrop-filter: blur(8px);
+    }
 
-  .q-label {
-    font-size: 0.9rem;
-    font-weight: 600;
-    color: #9aa0a6;
-    margin-bottom: 8px;
-  }
+    .chat-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding: 9px 12px;
+      background: rgba(21, 41, 70, 0.95);
+      border-bottom: 1px solid var(--border);
+    }
 
-  .q-prompt {
-    font-size: 1.12rem;
-    font-weight: 500;
-    color: #e8eaed;
-    line-height: 1.5;
-    margin-bottom: 20px;
-  }
+    .chat-title-wrap {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 700;
+      font-size: 0.9rem;
+    }
 
-  .options-stack {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 18px;
-  }
+    .chat-badge {
+      font-size: 0.75rem;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.16);
+      color: #bae6fd;
+      border: 1px solid rgba(56, 189, 248, 0.35);
+    }
 
-  .option-card {
-    width: 100%;
-    text-align: left;
-    padding: 15px 16px;
-    border-radius: 14px;
-    background: #17191f;
-    border: 1px solid #262932;
-    color: #e8eaed;
-    font-size: 0.96rem;
-    line-height: 1.42;
-    display: flex;
-    align-items: flex-start;
-    gap: 12px;
-    transition: background 0.14s ease, border-color 0.14s ease;
-  }
+    .chat-toggle-btn {
+      padding: 4px 10px;
+      font-size: 0.8rem;
+      border-radius: 8px;
+    }
 
-  .option-card:hover:not(:disabled) {
-    background: #1e212a;
-    border-color: #3a3f4d;
-  }
+    .chat-body {
+      padding: 10px 12px;
+    }
 
-  .option-card.picked-wrong {
-    background: rgba(242, 139, 130, 0.12);
-    border-color: rgba(242, 139, 130, 0.55);
-  }
+    .floating-chat.minimized .chat-body {
+      display: none;
+    }
 
-  .option-card.picked-right {
-    background: rgba(129, 201, 149, 0.14);
-    border-color: rgba(129, 201, 149, 0.6);
-  }
+    .floating-chat.minimized .chat-header {
+      border-bottom: none;
+    }
 
-  .option-letter {
-    font-weight: 700;
-    color: #cbd5e1;
-    min-width: 22px;
-  }
+    .chat-messages {
+      max-height: 150px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      padding-right: 4px;
+      margin-bottom: 8px;
+    }
 
-  .hint-toggle {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    color: #e8eaed;
-    font-size: 0.92rem;
-    font-weight: 600;
-    padding: 6px 2px;
-    margin-bottom: 10px;
-  }
+    .chat-msg {
+      background: rgba(21, 41, 70, 0.75);
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 9px;
+      padding: 6px 9px;
+      font-size: 0.85rem;
+      line-height: 1.35;
+      word-break: break-word;
+    }
 
-  .hint-box, .explanation-box {
-    padding: 13px 15px;
-    border-radius: 12px;
-    font-size: 0.9rem;
-    line-height: 1.48;
-    margin-bottom: 12px;
-  }
+    .chat-msg-meta {
+      font-size: 0.74rem;
+      color: var(--accent);
+      font-weight: 700;
+      margin-bottom: 2px;
+    }
 
-  .hint-box {
-    background: rgba(138, 180, 248, 0.1);
-    border: 1px solid rgba(138, 180, 248, 0.25);
-    color: #d2e3fc;
-  }
+    .chat-empty {
+      color: var(--muted);
+      font-size: 0.82rem;
+      text-align: center;
+      padding: 8px 4px;
+    }
 
-  .explanation-box {
-    background: #17191f;
-    border: 1px solid #2c313d;
-    color: #d1d5db;
-  }
+    .chat-form {
+      display: flex;
+      gap: 6px;
+      align-items: center;
+    }
 
-  .quiz-nav-row {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    margin-top: 24px;
-  }
+    .chat-input {
+      flex: 1;
+      min-width: 0;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 9px;
+      padding: 8px 10px;
+      font-size: 0.86rem;
+    }
 
-  .nav-pill-back {
-    padding: 11px 24px;
-    border-radius: var(--radius-pill);
-    background: #1e2028;
-    color: #e8eaed;
-    font-size: 0.92rem;
-    font-weight: 600;
-  }
+    .chat-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
 
-  .nav-pill-next {
-    padding: 11px 28px;
-    border-radius: var(--radius-pill);
-    background: #1a56db;
-    color: #ffffff;
-    font-size: 0.92rem;
-    font-weight: 600;
-  }
+    header {
+      background: rgba(14, 30, 52, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 14px;
+    }
 
-  .nav-pill-next:hover:not(:disabled) {
-    background: #1d4ed8;
-  }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
 
-  /* Modal (Board Question / Settings) */
-  .modal-backdrop {
-    position: fixed;
-    inset: 0;
-    z-index: 90;
-    background: rgba(0, 0, 0, 0.72);
-    display: grid;
-    place-items: center;
-    padding: 16px;
-  }
+    .hamburger-btn {
+      width: 44px;
+      height: 44px;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.3rem;
+      border-radius: 11px;
+      background: var(--surface-2);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      flex-shrink: 0;
+    }
 
-  .modal-card {
-    width: min(560px, 100%);
-    max-height: 88vh;
-    overflow-y: auto;
-    background: var(--surface);
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius-lg);
-    padding: 20px;
-  }
+    .brand h1 {
+      margin: 0;
+      font-size: clamp(1.3rem, 3vw, 1.85rem);
+      letter-spacing: 0.02em;
+    }
 
-  .modal-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 14px;
-  }
+    .brand p {
+      margin: 3px 0 0;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
 
-  .status-banner {
-    padding: 10px 14px;
-    border-radius: var(--radius-sm);
-    background: var(--warn-soft);
-    border: 1px solid rgba(245, 158, 11, 0.35);
-    color: #fde68a;
-    font-size: 0.85rem;
-    margin-bottom: 14px;
-  }
-</style>
+    .top-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    button, input, select {
+      font-family: inherit;
+      color: var(--text);
+    }
+
+    button {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 9px 14px;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.12s ease, background 0.15s ease, border-color 0.15s ease;
+    }
+
+    button:hover:not(:disabled) {
+      transform: translateY(-1px);
+      border-color: var(--accent);
+    }
+
+    button:disabled {
+      opacity: 0.45;
+      cursor: not-allowed;
+    }
+
+    button.primary {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      border-color: transparent;
+    }
+
+    button.success {
+      background: linear-gradient(135deg, #16a34a, #059669);
+      border-color: transparent;
+    }
+
+    button.active-mode {
+      background: var(--accent);
+      color: #04101d;
+      border-color: var(--accent);
+    }
+
+    /* MD1 - MD5 Landing Flow */
+    .landing-card {
+      background: rgba(14, 30, 52, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 18px;
+      margin-bottom: 14px;
+    }
+
+    .card {
+      background: rgba(14, 30, 52, 0.9);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+    }
+
+    .card-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 10px;
+      font-weight: 700;
+    }
+
+    .md-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(96px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .md-btn {
+      padding: 14px 10px;
+      font-size: 1.05rem;
+      font-weight: 800;
+      border-radius: 12px;
+      background: linear-gradient(180deg, #1b365d 0%, #10213a 100%);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      text-align: center;
+    }
+
+    .md-btn.selected-md {
+      background: linear-gradient(135deg, #0284c7, #2563eb);
+      border-color: #7dd3fc;
+      color: #ffffff;
+    }
+
+    .subjects-panel {
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .subject-tiles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .subject-tile {
+      background: linear-gradient(180deg, #1b365d 0%, #11223b 100%);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 12px;
+      padding: 14px 12px;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .subject-tile.selected-subject {
+      border-color: var(--accent-2);
+      background: linear-gradient(180deg, #14532d 0%, #0d2b1a 100%);
+    }
+
+    .subject-tile-name {
+      font-size: 0.98rem;
+      font-weight: 800;
+      color: #f8fafc;
+    }
+
+    .subject-tile-sub {
+      font-size: 0.78rem;
+      color: #cbd5e1;
+      font-weight: 500;
+    }
+
+    .mode-row, .turns-row, .room-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .turn-pill {
+      padding: 6px 10px;
+      border-radius: 999px;
+      font-size: 0.84rem;
+      font-weight: 700;
+      border: 1px solid var(--border);
+      background: var(--surface-2);
+    }
+
+    .turn-pill.p1 {
+      border-color: var(--p1);
+      color: #bae6fd;
+    }
+
+    .turn-pill.p2 {
+      border-color: var(--p2);
+      color: #e9d5ff;
+    }
+
+    .turn-pill.multi {
+      border-color: var(--accent);
+      color: #e0f2fe;
+    }
+
+    .room-code-input {
+      width: 96px;
+      text-align: center;
+      font-size: 1.15rem;
+      font-weight: 800;
+      letter-spacing: 0.2em;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid var(--accent);
+      background: var(--bg);
+    }
+
+    .status-line {
+      margin-top: 8px;
+      font-size: 0.84rem;
+      color: var(--muted);
+    }
+
+    .seat-bar {
+      margin-top: 8px;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .seat-bar.visible {
+      display: flex;
+    }
+
+    .seat-chip {
+      font-size: 0.8rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: rgba(56, 189, 248, 0.14);
+      border: 1px solid rgba(56, 189, 248, 0.4);
+      color: #bae6fd;
+      font-weight: 700;
+    }
+
+    .host-chip {
+      font-size: 0.78rem;
+      padding: 4px 9px;
+      border-radius: 999px;
+      background: rgba(34, 197, 94, 0.14);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      color: #86efac;
+      font-weight: 700;
+    }
+
+    .seat-select {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 5px 8px;
+      font-size: 0.84rem;
+      font-weight: 600;
+    }
+
+    .roster-controls {
+      margin-top: 10px;
+      display: none;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    .roster-controls.visible {
+      display: flex;
+    }
+
+    .permission-row {
+      margin-top: 8px;
+      display: none;
+      align-items: center;
+      gap: 8px;
+      flex-wrap: wrap;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .permission-row.visible {
+      display: flex;
+    }
+
+    .scores-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .score-card {
+      background: var(--surface);
+      border: 2px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 14px;
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .score-card.active-turn {
+      border-color: var(--accent);
+      box-shadow: 0 0 0 2px rgba(56, 189, 248, 0.2);
+    }
+
+    .score-card.p2-card.active-turn {
+      border-color: var(--p2);
+      box-shadow: 0 0 0 2px rgba(168, 85, 247, 0.22);
+    }
+
+    .score-card.multi-card.active-turn {
+      border-color: var(--accent-2);
+      box-shadow: 0 0 0 2px rgba(34, 197, 94, 0.22);
+    }
+
+    .name-input {
+      width: 100%;
+      background: rgba(7, 17, 31, 0.65);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 8px;
+      padding: 5px 8px;
+      font-size: 1rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+
+    .name-input:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    .name-input:read-only {
+      background: rgba(7, 17, 31, 0.35);
+      border-color: transparent;
+      color: #cbd5e1;
+      cursor: not-allowed;
+    }
+
+    .owner-tag {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    .score-value {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #4ade80;
+    }
+
+    .board-banner {
+      margin-bottom: 10px;
+      padding: 10px 14px;
+      border-radius: 12px;
+      background: rgba(21, 41, 70, 0.85);
+      border: 1px solid var(--border);
+      font-size: 0.9rem;
+      font-weight: 600;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .board-banner.waiting {
+      border-color: var(--warn);
+      color: #fde68a;
+    }
+
+    .board-banner.your-turn {
+      border-color: var(--accent-2);
+      color: #bbf7d0;
+    }
+
+    .board-wrapper {
+      background: rgba(14, 30, 52, 0.92);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 14px;
+      overflow-x: auto;
+    }
+
+    .board-rows {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-width: 620px;
+    }
+
+    .topic-row {
+      display: grid;
+      grid-template-columns: 200px repeat(5, minmax(92px, 1fr));
+      gap: 8px;
+      align-items: stretch;
+    }
+
+    .topic-label {
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      font-weight: 700;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .q-btn {
+      width: 100%;
+      min-height: 54px;
+      background: linear-gradient(180deg, #1d3b66 0%, #132744 100%);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: 10px;
+      font-weight: 800;
+      font-size: 0.95rem;
+      color: #e0f2fe;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2px;
+    }
+
+    .q-btn span.pts {
+      font-size: 0.75rem;
+      color: #7dd3fc;
+      font-weight: 600;
+    }
+
+    .q-btn.used {
+      background: rgba(15, 23, 42, 0.55);
+      border-color: rgba(148, 163, 184, 0.14);
+      color: #64748b;
+      text-decoration: line-through;
+    }
+
+    .q-btn.used span.pts {
+      color: #475569;
+    }
+
+    /* Deep Revision Mode (Dark Distraction-Free Mobile Quiz View) */
+    .revision-shell {
+      max-width: 680px;
+      margin: 0 auto;
+      background: #0d1117;
+      border: 1px solid rgba(148, 163, 184, 0.18);
+      border-radius: 18px;
+      padding: 18px;
+      box-shadow: 0 18px 40px rgba(2, 6, 23, 0.65);
+    }
+
+    .rev-step-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+    }
+
+    .rev-topic-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .rev-topic-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      text-align: left;
+      padding: 12px 14px;
+      border-radius: 12px;
+      background: #161b22;
+      border: 1px solid rgba(148, 163, 184, 0.2);
+    }
+
+    .rev-topic-item.active-topic {
+      border-color: var(--accent);
+      background: rgba(56, 189, 248, 0.14);
+    }
+
+    .rev-top-hud {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+
+    .rev-progress-wrap {
+      flex: 1;
+      min-width: 150px;
+      position: relative;
+      height: 18px;
+      display: flex;
+      align-items: center;
+    }
+
+    .rev-progress-track {
+      width: 100%;
+      height: 5px;
+      background: #262c36;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+
+    .rev-progress-fill {
+      height: 100%;
+      background: #e2e8f0;
+      width: 0%;
+      transition: width 0.2s ease;
+    }
+
+    .rev-scrubber-dot {
+      position: absolute;
+      left: 0%;
+      transform: translateX(-50%);
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      background: #0d1117;
+      border: 2.5px solid #e2e8f0;
+      transition: left 0.2s ease;
+      pointer-events: none;
+    }
+
+    .rev-counter-text {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #cbd5e1;
+    }
+
+    .rev-pill-wrong {
+      background: #f87171;
+      color: #1f0909;
+      font-weight: 800;
+      font-size: 0.84rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .rev-pill-right {
+      background: #86efac;
+      color: #082412;
+      font-weight: 800;
+      font-size: 0.84rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+
+    .rev-q-label {
+      color: #94a3b8;
+      font-size: 0.95rem;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .rev-q-prompt {
+      font-size: 1.15rem;
+      line-height: 1.5;
+      color: #e2e8f0;
+      margin: 0 0 18px;
+    }
+
+    .rev-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .rev-opt-btn {
+      width: 100%;
+      text-align: left;
+      background: #161b22;
+      border: 1px solid rgba(148, 163, 184, 0.16);
+      border-radius: 14px;
+      padding: 14px 16px;
+      font-size: 0.96rem;
+      line-height: 1.45;
+      color: #e2e8f0;
+      font-weight: 500;
+    }
+
+    .rev-opt-btn.correct {
+      border-color: #4ade80;
+      background: rgba(34, 197, 94, 0.18);
+      color: #dcfce7;
+    }
+
+    .rev-opt-btn.wrong {
+      border-color: #f87171;
+      background: rgba(239, 68, 68, 0.18);
+      color: #fee2e2;
+    }
+
+    .rev-hint-toggle {
+      background: transparent;
+      border: none;
+      color: #cbd5e1;
+      padding: 6px 2px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .rev-hint-toggle:hover:not(:disabled) {
+      transform: none;
+      color: var(--accent);
+    }
+
+    .rev-nav-row {
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 22px;
+      padding-top: 12px;
+    }
+
+    .rev-nav-btn {
+      min-width: 104px;
+      padding: 10px 22px;
+      border-radius: 999px;
+      font-size: 0.92rem;
+      font-weight: 700;
+    }
+
+    .rev-next-btn {
+      background: #2563eb;
+      border-color: #3b82f6;
+      color: #ffffff;
+    }
+
+    .modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(2, 6, 23, 0.82);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+      z-index: 50;
+    }
+
+    .modal-backdrop.open {
+      display: flex;
+    }
+
+    .modal {
+      width: 100%;
+      max-width: 650px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 20px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .modal-header h2 {
+      margin: 0;
+      font-size: 1.2rem;
+    }
+
+    .timer-badge {
+      background: rgba(245, 158, 11, 0.16);
+      border: 1px solid var(--warn);
+      color: #fcd34d;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.9rem;
+    }
+
+    .question-text {
+      font-size: 1.05rem;
+      line-height: 1.5;
+      margin: 12px 0;
+    }
+
+    .mcq-options {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      margin: 12px 0;
+    }
+
+    .mcq-option-btn {
+      width: 100%;
+      text-align: left;
+      padding: 11px 14px;
+      border-radius: 10px;
+      background: var(--surface-2);
+      border: 1px solid var(--border);
+      font-size: 0.94rem;
+      font-weight: 600;
+      line-height: 1.4;
+    }
+
+    .mcq-option-btn.selected {
+      border-color: var(--accent);
+      background: rgba(56, 189, 248, 0.16);
+    }
+
+    .mcq-option-btn.correct-choice {
+      border-color: var(--accent-2);
+      background: rgba(34, 197, 94, 0.22);
+      color: #dcfce7;
+    }
+
+    .mcq-option-btn.wrong-choice {
+      border-color: var(--danger);
+      background: rgba(239, 68, 68, 0.22);
+      color: #fee2e2;
+    }
+
+    .hint-box {
+      background: rgba(56, 189, 248, 0.1);
+      border-left: 3px solid var(--accent);
+      padding: 10px 12px;
+      border-radius: 8px;
+      margin: 10px 0;
+      font-size: 0.92rem;
+      color: #bae6fd;
+      display: none;
+    }
+
+    .hint-box.visible {
+      display: block;
+    }
+
+    .answer-box {
+      background: rgba(34, 197, 94, 0.12);
+      border: 1px solid rgba(34, 197, 94, 0.4);
+      padding: 12px;
+      border-radius: 10px;
+      margin: 12px 0;
+      font-size: 0.94rem;
+      line-height: 1.45;
+      display: none;
+    }
+
+    .answer-box.visible {
+      display: block;
+    }
+
+    .modal-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .winner-banner {
+      text-align: center;
+      padding: 18px;
+      background: rgba(34, 197, 94, 0.12);
+      border: 1px solid rgba(34, 197, 94, 0.45);
+      border-radius: 14px;
+      margin: 12px 0;
+    }
+
+    .winner-banner h3 {
+      margin: 6px 0;
+      font-size: 1.5rem;
+      color: #86efac;
+    }
+  </style>
 </head>
 <body>
-
-  <!-- Top Bar with Top-Left Hamburger -->
-  <header class="topbar">
-    <div class="topbar-left">
-      <button id="hamburgerBtn" class="hamburger-btn" aria-label="Open menu">☰</button>
-      <div>
-        <div class="brand-title">Six7 Clinical Arena</div>
-        <div id="topbarSub" class="brand-sub">Board & Deep Revision</div>
-      </div>
-    </div>
-    <div class="topbar-right">
-      <span id="modeBadge" class="mode-pill active">Home</span>
-    </div>
-  </header>
-
-  <!-- Drawer Backdrop & Left Navigation Drawer -->
-  <div id="drawerBackdrop" class="drawer-backdrop hidden"></div>
-  <aside id="navDrawer" class="drawer closed" aria-label="Navigation Drawer">
-    <div class="drawer-header">
-      <div>
-        <div class="brand-title">Six7 Menu</div>
-        <div class="brand-sub">Modes & Settings</div>
-      </div>
-      <button id="closeDrawerBtn" class="hamburger-btn" aria-label="Close menu">✕</button>
+  <!-- Top-Left Slide-Out Drawer -->
+  <div id="drawerBackdrop" class="drawer-backdrop"></div>
+  <nav id="navDrawer" class="nav-drawer" aria-label="Game Menu">
+    <div class="drawer-head">
+      <h2>Sixseven Menu</h2>
+      <button id="closeDrawerBtn" type="button" style="padding: 6px 10px;">✕</button>
     </div>
 
-    <div>
-      <div class="drawer-section-label">Navigation & Modes</div>
-      <div class="drawer-list">
-        <button class="drawer-item" data-nav="home">🏠 Home & Subjects</button>
-        <button class="drawer-item" data-nav="single">🎯 Single Player Board</button>
-        <button class="drawer-item" data-nav="multi">👥 Multiplayer Board</button>
-        <button class="drawer-item" data-nav="revision">📘 Deep Revision Mode</button>
+    <div class="drawer-section">
+      <div class="drawer-label">Navigation &amp; Modes</div>
+      <div class="drawer-stack">
+        <button id="menuHomeBtn" type="button" class="drawer-btn">Home (MD1–MD5)</button>
+        <button id="menu1pBtn" type="button" class="drawer-btn">Single Player</button>
+        <button id="menuMultiBtn" type="button" class="drawer-btn">Multiple Player</button>
+        <button id="menuRevisionBtn" type="button" class="drawer-btn">Deep Revision Mode</button>
       </div>
     </div>
 
-    <div>
-      <div class="drawer-section-label">Game Controls</div>
-      <div class="drawer-list">
-        <button class="drawer-item" data-nav="settings">⚙️ Settings & Players</button>
-        <button class="drawer-item" id="resetBoardBtn">🔄 Reset Board Tiles</button>
-        <button class="drawer-item danger" id="quitGameBtn">🚪 Quit to Home</button>
+    <div class="drawer-section">
+      <div class="drawer-label">Multiplayer Room &amp; Roster (2–6)</div>
+      <div class="room-row">
+        <input
+          id="roomCodeInput"
+          class="room-code-input"
+          type="text"
+          inputmode="numeric"
+          maxlength="4"
+          placeholder="0000"
+          aria-label="4-digit room code"
+        />
+        <button id="generateRoomBtn" type="button">New Code</button>
+        <button id="joinRoomBtn" type="button" class="success">Join</button>
+      </div>
+      <div id="roomStatusText" class="status-line">
+        Select Multiple Player to auto-generate a 4-digit room code and sync devices (2–6 players).
+      </div>
+      <div id="seatBar" class="seat-bar">
+        <span id="mySeatChip" class="seat-chip">This Device: Player 1</span>
+        <span id="hostBadgeChip" class="host-chip">Host: Seat 1</span>
+        <label for="seatSelect" class="status-line" style="margin: 0;">Seat:</label>
+        <select id="seatSelect" class="seat-select" aria-label="Select device player seat"></select>
+      </div>
+      <div id="rosterControls" class="roster-controls">
+        <span id="rosterCountText">Players in game: 2 / 6 (Min 2 to start)</span>
+        <button id="addPlayerBtn" type="button">+ Add</button>
+        <button id="removePlayerBtn" type="button">- Remove</button>
+      </div>
+      <div id="permissionRow" class="permission-row">
+        <button id="allowAddToggleBtn" type="button">Allow Others to Add: OFF</button>
+        <span id="addPermissionHint">Only Host can add players</span>
       </div>
     </div>
 
-    <div>
-      <div class="drawer-section-label">Quick Preferences</div>
-      <div class="setting-row">
-        <span>Auto-reveal explanation</span>
-        <input type="checkbox" id="autoExplainToggle" />
+    <div class="drawer-section">
+      <div class="drawer-label">Settings &amp; Session</div>
+      <div class="turns-row" id="turnLimitButtons" style="margin-bottom: 10px;">
+        <button type="button" data-turns="5">5 Turns</button>
+        <button type="button" data-turns="8">8 Turns</button>
+        <button type="button" data-turns="10" class="active-mode">10 Turns</button>
+        <button type="button" data-turns="15">15 Turns</button>
+        <button type="button" data-turns="0">All (50)</button>
+      </div>
+      <div id="turnProgressText" class="status-line" style="margin-bottom: 10px;">Completed turns: 0 / 10</div>
+      <div class="drawer-stack">
+        <button id="menuEndNowBtn" type="button" class="drawer-btn">Finish &amp; Show Winner</button>
+        <button id="menuResetBtn" type="button" class="drawer-btn">Reset Board</button>
+        <button id="menuQuitBtn" type="button" class="drawer-btn danger-btn">Quit to Start</button>
       </div>
     </div>
-  </aside>
+  </nav>
 
-  <!-- Main Content -->
-  <main class="container">
-    <div id="statusNotice" class="status-banner hidden"></div>
+  <div class="app">
+    <!-- Floating Top Chatbox -->
+    <aside id="floatingChat" class="floating-chat" aria-label="Room Chat">
+      <div class="chat-header">
+        <div class="chat-title-wrap">
+          <span>Player Chat</span>
+          <span id="chatCountBadge" class="chat-badge">0 msgs</span>
+        </div>
+        <button id="toggleChatBtn" class="chat-toggle-btn" type="button" aria-expanded="true">Minimize</button>
+      </div>
+      <div id="chatBody" class="chat-body">
+        <div id="chatMessages" class="chat-messages">
+          <div class="chat-empty">No messages yet. Send a quick note to players in the room!</div>
+        </div>
+        <form id="chatForm" class="chat-form">
+          <input
+            id="chatInput"
+            class="chat-input"
+            type="text"
+            maxlength="240"
+            placeholder="Write a message to everyone..."
+            aria-label="Chat message"
+          />
+          <button type="submit" class="primary" style="padding: 8px 12px;">Send</button>
+        </form>
+      </div>
+    </aside>
 
-    <!-- 1. HOME / SETUP VIEW -->
-    <section id="homeView">
-      <div class="hero-card">
-        <span class="hero-badge">Six7 Medical Study Suite</span>
-        <h1 class="hero-title">Board Challenge & Deep Revision</h1>
-        <p class="hero-copy">
-          Jump straight into a subject board, or open <strong>Deep Revision Mode</strong> to drill by year (MD1–MD5), subject, and topic with instant hints and explanations.
-        </p>
-        <div class="hero-actions">
-          <button id="openRevisionHeroBtn" class="btn-primary">📘 Open Deep Revision Mode</button>
-          <button id="startBoardHeroBtn" class="btn-secondary">🎲 Launch Selected Board</button>
+    <header>
+      <div class="header-left">
+        <button id="openDrawerBtn" class="hamburger-btn" type="button" aria-label="Open menu">☰</button>
+        <div class="brand">
+          <h1>Sixseven game</h1>
+          <p id="headerSubtitle">Select MD1–MD5 to choose a subject</p>
+        </div>
+      </div>
+      <div class="top-actions">
+        <span id="activeTurnBadge" class="turn-pill p1">Turn: Player 1</span>
+        <button id="backToHomeBtn" type="button" class="hidden">MD1–MD5 Home</button>
+      </div>
+    </header>
+
+    <!-- PAGE 1: MD1 - MD5 LANDING & SUBJECT SELECTION -->
+    <section id="setupPage">
+      <div class="landing-card">
+        <div class="card-title">Select Academic Year</div>
+        <div class="status-line" style="margin-top: 0;">
+          Tap a year below to view its subjects, then tap a subject and confirm <strong>Yes</strong> to open the topics &amp; marks board.
+        </div>
+        <div id="mdYearButtons" class="md-grid">
+          <button type="button" class="md-btn" data-md="MD1">MD1</button>
+          <button type="button" class="md-btn" data-md="MD2">MD2</button>
+          <button type="button" class="md-btn" data-md="MD3">MD3</button>
+          <button type="button" class="md-btn" data-md="MD4">MD4</button>
+          <button type="button" class="md-btn selected-md" data-md="MD5">MD5</button>
+        </div>
+
+        <div id="yearSubjectsPanel" class="subjects-panel">
+          <div class="card-title" id="yearSubjectsTitle">MD5 Subjects</div>
+          <div id="yearSubjectsStatus" class="status-line" style="margin-top: 0;"></div>
+          <div id="subjectTilesGrid" class="subject-tiles-grid"></div>
         </div>
       </div>
 
-      <div class="section-card">
-        <h2 class="section-heading">Select Board Subject</h2>
-        <div id="subjectGrid" class="subject-grid"></div>
-      </div>
+      <section id="scoresGrid" class="scores-grid"></section>
     </section>
 
-    <!-- 2. BOARD GAME VIEW -->
-    <section id="boardView" class="hidden">
-      <div class="board-top-bar">
-        <div>
-          <h2 id="boardSubjectTitle" class="section-heading" style="margin-bottom:2px;">Subject Board</h2>
-          <div id="turnIndicator" class="brand-sub">Active Turn: Player 1</div>
-        </div>
-        <div id="scoreStrip" class="score-strip"></div>
+    <!-- PAGE 2: TOPICS & MARKS BOARD -->
+    <section id="boardPage" class="hidden">
+      <div id="boardBanner" class="board-banner your-turn">
+        <span id="boardBannerText">Player 1's turn — select any available question tile. Opening a question uses your turn.</span>
+        <span id="boardBannerRule">Rule: Selecting a question locks your turn until resolved.</span>
       </div>
 
-      <div class="board-scroll">
-        <div id="jeopardyGrid" class="jeopardy-grid"></div>
-      </div>
+      <main class="board-wrapper">
+        <div id="boardRows" class="board-rows"></div>
+      </main>
     </section>
 
-    <!-- 3. DEEP REVISION VIEW -->
-    <section id="revisionView" class="hidden">
-      <div class="revision-wrap">
-        <div class="step-indicator">
-          <span id="stepPill1" class="step-pill current">1. MD1–MD5</span>
-          <span id="stepPill2" class="step-pill">2. Subject</span>
-          <span id="stepPill3" class="step-pill">3. Topic & Start</span>
+    <!-- PAGE 3: DEEP REVISION MODE -->
+    <section id="revisionPage" class="hidden">
+      <div class="revision-shell">
+        <div class="rev-step-bar">
+          <div>
+            <div class="card-title" style="margin-bottom: 2px;">Deep Revision Mode</div>
+            <div id="revBreadcrumb" class="status-line" style="margin-top: 0;">Step 1: Choose Year (MD1–MD5)</div>
+          </div>
+          <button id="revExitToHomeBtn" type="button">Back to Home</button>
         </div>
 
-        <!-- Selector Stepper -->
-        <div id="revisionSelector">
-          <div class="section-card">
-            <h2 class="section-heading">Step 1: Choose Medical Year</h2>
-            <div id="mdButtonsGrid" class="md-grid"></div>
+        <!-- Step 1: Year Selection -->
+        <div id="revStepYear">
+          <div class="md-grid">
+            <button type="button" class="md-btn" data-rev-md="MD1">MD1</button>
+            <button type="button" class="md-btn" data-rev-md="MD2">MD2</button>
+            <button type="button" class="md-btn" data-rev-md="MD3">MD3</button>
+            <button type="button" class="md-btn" data-rev-md="MD4">MD4</button>
+            <button type="button" class="md-btn selected-md" data-rev-md="MD5">MD5</button>
           </div>
+        </div>
 
-          <div id="revSubjectCard" class="section-card hidden">
-            <h2 id="revSubjectHeading" class="section-heading">Step 2: Choose Subject</h2>
-            <div id="revSubjectList" class="choice-list"></div>
+        <!-- Step 2: Subject Selection -->
+        <div id="revStepSubject" class="hidden">
+          <div class="card-title">Select Subject</div>
+          <div id="revSubjectGrid" class="subject-tiles-grid"></div>
+          <div class="modal-actions">
+            <button id="revBackToYearBtn" type="button">← Years</button>
           </div>
+        </div>
 
-          <div id="revTopicCard" class="section-card hidden">
-            <h2 id="revTopicHeading" class="section-heading">Step 3: Choose Topic</h2>
-            <div id="revTopicList" class="choice-list"></div>
+        <!-- Step 3: Topic Selection & Confirm -->
+        <div id="revStepTopic" class="hidden">
+          <div class="card-title">Select Topic &amp; Confirm Start</div>
+          <div id="revTopicList" class="rev-topic-list"></div>
+          <div class="modal-actions">
+            <button id="revConfirmStartBtn" type="button" class="success" disabled>Start Revision Quiz</button>
+            <button id="revBackToSubjectBtn" type="button">← Subjects</button>
+          </div>
+        </div>
 
-            <div id="revConfirmBox" class="confirm-box hidden">
-              <div>
-                <div id="confirmSelectionTitle" style="font-weight:700;"></div>
-                <div id="confirmSelectionMeta" class="brand-sub"></div>
+        <!-- Step 4: Active Dark Mobile Quiz -->
+        <div id="revQuizStage" class="hidden">
+          <div class="rev-top-hud">
+            <div class="rev-progress-wrap">
+              <div class="rev-progress-track">
+                <div id="revProgressFill" class="rev-progress-fill"></div>
               </div>
-              <button id="confirmStartQuizBtn" class="btn-primary">Confirm & Start Quiz</button>
+              <div id="revScrubberDot" class="rev-scrubber-dot"></div>
             </div>
-          </div>
-        </div>
-
-        <!-- Quiz Runner (Dark Mobile Layout) -->
-        <div id="revisionQuizRunner" class="quiz-runner hidden">
-          <div class="quiz-hud">
-            <div class="progress-track-wrap">
-              <div id="quizProgressFill" class="progress-fill" style="width: 0%;"></div>
-              <div id="quizProgressThumb" class="progress-thumb" style="left: 0%;"></div>
-            </div>
-            <div class="hud-stats">
-              <span id="quizCounter" class="hud-counter">1 / 1</span>
-              <span id="wrongCountPill" class="pill-wrong">✕ 0</span>
-              <span id="rightCountPill" class="pill-right">✓ 0</span>
-            </div>
+            <span id="revCounterText" class="rev-counter-text">1 / 1</span>
+            <span id="revWrongPill" class="rev-pill-wrong">✕ 0</span>
+            <span id="revRightPill" class="rev-pill-right">✓ 0</span>
           </div>
 
-          <div id="quizQuestionLabel" class="q-label">Question 1</div>
-          <div id="quizQuestionText" class="q-prompt"></div>
+          <div id="revQuestionLabel" class="rev-q-label">Question 1</div>
+          <p id="revQuestionText" class="rev-q-prompt"></p>
+          <div id="revOptionsBox" class="rev-options"></div>
 
-          <div id="quizOptionsStack" class="options-stack"></div>
+          <button id="revHintToggleBtn" type="button" class="rev-hint-toggle">Hint ⌄</button>
+          <div id="revHintBox" class="hint-box"></div>
+          <div id="revExplanationBox" class="answer-box"></div>
 
-          <button id="quizHintBtn" class="hint-toggle" type="button">
-            <span>Hint</span>
-            <span id="quizHintChevron">⌄</span>
-          </button>
-          <div id="quizHintBox" class="hint-box hidden"></div>
-          <div id="quizExplanationBox" class="explanation-box hidden"></div>
-
-          <div class="quiz-nav-row">
-            <button id="quizBackBtn" class="nav-pill-back" type="button">Back</button>
-            <button id="quizNextBtn" class="nav-pill-next" type="button">Next</button>
+          <div class="rev-nav-row">
+            <button id="revPrevBtn" type="button" class="rev-nav-btn">Back</button>
+            <button id="revNextBtn" type="button" class="rev-nav-btn rev-next-btn">Next</button>
           </div>
         </div>
       </div>
     </section>
-  </main>
+  </div>
 
-  <!-- Board Question / Settings Modal -->
-  <div id="modalBackdrop" class="modal-backdrop hidden">
-    <div class="modal-card">
-      <div class="modal-head">
-        <h3 id="modalTitle" style="font-size:1rem; font-weight:700;">Modal</h3>
-        <button id="closeModalBtn" class="hamburger-btn" aria-label="Close modal">✕</button>
+  <!-- Subject Confirmation Popup Modal ("Yes" starts the game) -->
+  <div id="subjectConfirmModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="subjectConfirmTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="subjectConfirmTitle">Start the Game?</h2>
       </div>
-      <div id="modalBody"></div>
+      <p id="subjectConfirmMessage" class="question-text"></p>
+      <div class="modal-actions">
+        <button id="startGameYesBtn" type="button" class="success">Yes</button>
+        <button id="cancelSubjectModalBtn" type="button">Cancel</button>
+      </div>
     </div>
   </div>
 
-<script>
-(function () {
-  const FALLBACK_SUBJECTS = [
-    { id: "paediatric", name: "Paediatrics", file: "paediatric.json" },
-    { id: "radiology", name: "Radiology", file: "radiology.json" },
-    { id: "orthopedic", name: "Orthopedics", file: "orthopedic.json" }
-  ];
+  <!-- Question Modal -->
+  <div id="questionModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="qModalTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="qModalTitle">Topic • 10 Marks</h2>
+        <span id="timerBadge" class="timer-badge">01:30</span>
+      </div>
+      <div id="qModalTurnInfo" class="status-line"></div>
+      <p id="qModalText" class="question-text"></p>
+      <div id="mcqOptions" class="mcq-options"></div>
+      <div id="qHintBox" class="hint-box"></div>
+      <div id="qAnswerBox" class="answer-box"></div>
+      <div class="modal-actions">
+        <button id="hintBtn" type="button">Clinical Hint</button>
+        <button id="submitMcqBtn" type="button" class="success" disabled>Submit Selected Answer</button>
+        <button id="closeQBtn" type="button">End Turn / Close (0 pts)</button>
+      </div>
+    </div>
+  </div>
 
-  const FALLBACK_REVISION_INDEX = {
-    MD1: [],
-    MD2: [],
-    MD3: [],
-    MD4: [],
-    MD5: [
-      { id: "paediatric", title: "Paediatrics", file: "paediatric.json" },
-      { id: "radiology", title: "Radiology", file: "radiology.json" },
-      { id: "orthopedic", title: "Orthopedics", file: "orthopedic.json" }
-    ]
-  };
+  <!-- Winner Summary Modal -->
+  <div id="winnerModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="winnerTitle">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 id="winnerTitle">Game Over — Final Results</h2>
+      </div>
+      <div id="winnerBanner" class="winner-banner">
+        <div>Winner</div>
+        <h3 id="winnerNameText">Player 1</h3>
+        <div id="winnerScoreSummary">0 pts</div>
+      </div>
+      <div id="finalBreakdownText" class="status-line"></div>
+      <div class="modal-actions">
+        <button id="playAgainBtn" type="button" class="primary">Play Again</button>
+        <button id="closeWinnerBtn" type="button">Review Board</button>
+      </div>
+    </div>
+  </div>
 
-  const state = {
-    view: "home", // "home" | "board" | "revision"
-    playerMode: "single", // "single" | "multi"
-    players: [
-      { name: "Player 1", score: 0 },
-      { name: "Player 2", score: 0 }
-    ],
-    activePlayerIdx: 0,
-    autoExplain: false,
+  <script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-app.js";
+    import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/11.6.0/firebase-database.js";
 
-    subjects: [],
-    selectedSubject: null,
-    boardTopics: [],
-    usedCells: new Set(),
+    const FIREBASE_CONFIG = {
+      apiKey: "AIzaSyBEWFSqAw3edzSJrLxPfreOkfwONfv8khc",
+      authDomain: "sixseven-game.firebaseapp.com",
+      databaseURL: "https://sixseven-game-default-rtdb.firebaseio.com",
+      projectId: "sixseven-game",
+      storageBucket: "sixseven-game.firebasestorage.app",
+      messagingSenderId: "739124193878",
+      appId: "1:739124193878:web:853b5c597f067b4181e9f7",
+      measurementId: "G-Z1N4FLJTTJ"
+    };
 
-    revisionIndex: null,
-    revYear: null,
-    revSubject: null,
-    revSubjectData: [],
-    revTopicIdx: null,
-    revQuestions: [],
-    revIndex: 0,
-    revAnswers: {} // qIdx -> { picked: number, isCorrect: boolean }
-  };
+    const MIN_MULTI_PLAYERS = 2;
+    const MAX_MULTI_PLAYERS = 6;
+    const QUESTION_DURATION_SECONDS = 90;
+    const LOCAL_SESSION_KEY = "sixseven_active_session_v1";
 
-  const el = {
-    hamburgerBtn: document.getElementById("hamburgerBtn"),
-    closeDrawerBtn: document.getElementById("closeDrawerBtn"),
-    drawerBackdrop: document.getElementById("drawerBackdrop"),
-    navDrawer: document.getElementById("navDrawer"),
-    modeBadge: document.getElementById("modeBadge"),
-    topbarSub: document.getElementById("topbarSub"),
-    statusNotice: document.getElementById("statusNotice"),
+    let SUBJECTS = [
+      { id: "surgery", label: "Surgery" },
+      { id: "obgy", label: "OBGY" },
+      { id: "internal_medicine", label: "Internal Medicine" },
+      { id: "paediatric", label: "Paediatric" },
+      { id: "radiology", label: "Radiology" },
+      { id: "orthopedic", label: "Orthopedic" }
+    ];
 
-    homeView: document.getElementById("homeView"),
-    boardView: document.getElementById("boardView"),
-    revisionView: document.getElementById("revisionView"),
+    let YEAR_SUBJECT_MAP = {
+      MD1: [],
+      MD2: [],
+      MD3: [],
+      MD4: [],
+      MD5: SUBJECTS
+    };
 
-    openRevisionHeroBtn: document.getElementById("openRevisionHeroBtn"),
-    startBoardHeroBtn: document.getElementById("startBoardHeroBtn"),
-    subjectGrid: document.getElementById("subjectGrid"),
+    let QUESTION_BANK = {};
 
-    boardSubjectTitle: document.getElementById("boardSubjectTitle"),
-    turnIndicator: document.getElementById("turnIndicator"),
-    scoreStrip: document.getElementById("scoreStrip"),
-    jeopardyGrid: document.getElementById("jeopardyGrid"),
-
-    stepPill1: document.getElementById("stepPill1"),
-    stepPill2: document.getElementById("stepPill2"),
-    stepPill3: document.getElementById("stepPill3"),
-    revisionSelector: document.getElementById("revisionSelector"),
-    mdButtonsGrid: document.getElementById("mdButtonsGrid"),
-    revSubjectCard: document.getElementById("revSubjectCard"),
-    revSubjectHeading: document.getElementById("revSubjectHeading"),
-    revSubjectList: document.getElementById("revSubjectList"),
-    revTopicCard: document.getElementById("revTopicCard"),
-    revTopicHeading: document.getElementById("revTopicHeading"),
-    revTopicList: document.getElementById("revTopicList"),
-    revConfirmBox: document.getElementById("revConfirmBox"),
-    confirmSelectionTitle: document.getElementById("confirmSelectionTitle"),
-    confirmSelectionMeta: document.getElementById("confirmSelectionMeta"),
-    confirmStartQuizBtn: document.getElementById("confirmStartQuizBtn"),
-
-    revisionQuizRunner: document.getElementById("revisionQuizRunner"),
-    quizProgressFill: document.getElementById("quizProgressFill"),
-    quizProgressThumb: document.getElementById("quizProgressThumb"),
-    quizCounter: document.getElementById("quizCounter"),
-    wrongCountPill: document.getElementById("wrongCountPill"),
-    rightCountPill: document.getElementById("rightCountPill"),
-    quizQuestionLabel: document.getElementById("quizQuestionLabel"),
-    quizQuestionText: document.getElementById("quizQuestionText"),
-    quizOptionsStack: document.getElementById("quizOptionsStack"),
-    quizHintBtn: document.getElementById("quizHintBtn"),
-    quizHintChevron: document.getElementById("quizHintChevron"),
-    quizHintBox: document.getElementById("quizHintBox"),
-    quizExplanationBox: document.getElementById("quizExplanationBox"),
-    quizBackBtn: document.getElementById("quizBackBtn"),
-    quizNextBtn: document.getElementById("quizNextBtn"),
-
-    resetBoardBtn: document.getElementById("resetBoardBtn"),
-    quitGameBtn: document.getElementById("quitGameBtn"),
-    autoExplainToggle: document.getElementById("autoExplainToggle"),
-
-    modalBackdrop: document.getElementById("modalBackdrop"),
-    modalTitle: document.getElementById("modalTitle"),
-    modalBody: document.getElementById("modalBody"),
-    closeModalBtn: document.getElementById("closeModalBtn")
-  };
-
-  function showNotice(msg) {
-    if (!msg) {
-      el.statusNotice.classList.add("hidden");
-      el.statusNotice.textContent = "";
-      return;
+    function buildStarterTopicsForSubject(subjectLabel) {
+      const pointLevels = [10, 20, 30, 40, 50];
+      return [1, 2, 3, 4].map((tNum) => ({
+        name: `${subjectLabel} — Topic ${tNum}`,
+        questions: pointLevels.map((pts) => ({
+          pts,
+          q: `Edit this ${subjectLabel} (${pts} marks) question in ${subjectLabel.toLowerCase().replace(/[^a-z0-9]+/g, "_")}.json under "Topic ${tNum}".`,
+          options: [
+            `A) Primary ${subjectLabel} option A`,
+            `B) Primary ${subjectLabel} option B`,
+            `C) Primary ${subjectLabel} option C`,
+            `D) Primary ${subjectLabel} option D`
+          ],
+          correct: 0,
+          hint: `Clinical cue for ${subjectLabel} (${pts} marks).`,
+          explanation: `Explanation for ${subjectLabel} (${pts} marks).`
+        }))
+      }));
     }
-    el.statusNotice.textContent = msg;
-    el.statusNotice.classList.remove("hidden");
-  }
 
-  function openDrawer() {
-    el.drawerBackdrop.classList.remove("hidden");
-    el.navDrawer.classList.remove("closed");
-  }
-
-  function closeDrawer() {
-    el.navDrawer.classList.add("closed");
-    el.drawerBackdrop.classList.add("hidden");
-  }
-
-  function setView(nextView) {
-    state.view = nextView;
-    el.homeView.classList.toggle("hidden", nextView !== "home");
-    el.boardView.classList.toggle("hidden", nextView !== "board");
-    el.revisionView.classList.toggle("hidden", nextView !== "revision");
-
-    document.querySelectorAll(".drawer-item[data-nav]").forEach((btn) => {
-      const target = btn.getAttribute("data-nav");
-      const isActive =
-        (nextView === "home" && target === "home") ||
-        (nextView === "board" && target === state.playerMode) ||
-        (nextView === "revision" && target === "revision");
-      btn.classList.toggle("active", isActive);
-    });
-
-    if (nextView === "home") {
-      el.modeBadge.textContent = "Home";
-      el.topbarSub.textContent = "Select Subject or Deep Revision";
-    } else if (nextView === "board") {
-      el.modeBadge.textContent = state.playerMode === "multi" ? "Multiplayer" : "Single Player";
-      el.topbarSub.textContent = state.selectedSubject ? state.selectedSubject.name : "Board";
-    } else if (nextView === "revision") {
-      el.modeBadge.textContent = "Deep Revision";
-      el.topbarSub.textContent = state.revSubject ? state.revSubject.title : "MD1–MD5 Selector";
-      ensureRevisionIndexLoaded();
+    function getTopicsForSubject(subjectId) {
+      const subjObj = SUBJECTS.find((s) => s.id === subjectId) || SUBJECTS[0];
+      const bankList = QUESTION_BANK[subjectId];
+      if (Array.isArray(bankList) && bankList.length > 0) {
+        return bankList;
+      }
+      return buildStarterTopicsForSubject(subjObj ? subjObj.label : "Subject");
     }
-  }
 
-  async function safeFetchJson(url, fallback) {
-    try {
-      const res = await fetch(url, { cache: "no-store" });
-      if (!res.ok) throw new Error("HTTP " + res.status);
-      return await res.json();
-    } catch (_) {
-      return fallback;
-    }
-  }
-
-  async function initSubjects() {
-    const data = await safeFetchJson("subjects.json", FALLBACK_SUBJECTS);
-    state.subjects = Array.isArray(data) && data.length ? data : FALLBACK_SUBJECTS;
-    if (!state.selectedSubject) {
-      state.selectedSubject = state.subjects[0];
-    }
-    renderSubjectGrid();
-  }
-
-  function renderSubjectGrid() {
-    el.subjectGrid.innerHTML = "";
-    state.subjects.forEach((subj) => {
-      const tile = document.createElement("button");
-      tile.type = "button";
-      tile.className = "subject-tile" + (state.selectedSubject && state.selectedSubject.id === subj.id ? " selected" : "");
-      tile.innerHTML = `
-        <div class="subject-tile-title">${escapeHtml(subj.name)}</div>
-        <div class="subject-tile-meta">Board Source: ${escapeHtml(subj.file)}</div>
-      `;
-      tile.addEventListener("click", () => {
-        state.selectedSubject = subj;
-        renderSubjectGrid();
+    function makePlayers(count, existingPlayers = []) {
+      const clamped = Math.min(MAX_MULTI_PLAYERS, Math.max(1, count));
+      return Array.from({ length: clamped }, (_, idx) => {
+        const prev = existingPlayers[idx];
+        return {
+          index: idx + 1,
+          name: prev && prev.name ? prev.name : `Player ${idx + 1}`,
+          score: prev && typeof prev.score === "number" ? prev.score : 0
+        };
       });
-      el.subjectGrid.appendChild(tile);
-    });
-  }
-
-  async function launchBoard(mode) {
-    if (mode) state.playerMode = mode;
-    if (!state.selectedSubject) state.selectedSubject = state.subjects[0];
-
-    const topics = await safeFetchJson(state.selectedSubject.file, []);
-    if (!Array.isArray(topics) || !topics.length) {
-      showNotice(`Could not load board questions from "${state.selectedSubject.file}".`);
-      return;
     }
-    showNotice("");
-    state.boardTopics = topics;
-    state.usedCells = new Set();
-    state.activePlayerIdx = 0;
-    state.players.forEach((p) => { p.score = 0; });
 
-    setView("board");
-    renderBoard();
-  }
+    const state = {
+      page: "setup", // "setup" | "board" | "revision"
+      selectedYear: "MD5",
+      selectedSubject: "surgery",
+      pendingSubject: null,
+      mode: "1p", // "1p" | "multi"
+      players: makePlayers(MIN_MULTI_PLAYERS),
+      hostSeat: 1,
+      allowOthersToAdd: false,
+      currentTurn: 1,
+      roundPlays: 0,
+      completedTurns: 0,
+      maxTurns: 10,
+      used: {},
+      roomCode: "",
+      gameOver: false,
+      activeLock: null,
+      lastAdvancedLockId: null,
+      chatMessages: []
+    };
 
-  function renderBoard() {
-    el.boardSubjectTitle.textContent = state.selectedSubject ? state.selectedSubject.name : "Board";
-    const activeP = state.players[state.activePlayerIdx] || state.players[0];
-    el.turnIndicator.textContent =
-      state.playerMode === "multi"
-        ? `Active Turn: ${activeP.name}`
-        : `Solo Practice • ${activeP.name}`;
+    let mySeat = 1;
+    let chatMinimized = false;
+    let timerInterval = null;
+    let secondsLeft = QUESTION_DURATION_SECONDS;
+    let db = null;
+    let unsubscribeRoom = null;
+    let suppressBroadcast = false;
+    const channel = typeof BroadcastChannel !== "undefined" ? new BroadcastChannel("sixseven-game-room") : null;
 
-    el.scoreStrip.innerHTML = "";
-    const visiblePlayers = state.playerMode === "multi" ? state.players : [state.players[0]];
-    visiblePlayers.forEach((p, idx) => {
-      const chip = document.createElement("div");
-      chip.className = "player-chip" + (state.playerMode === "multi" && idx === state.activePlayerIdx ? " active-turn" : "");
-      chip.textContent = `${p.name}: ${p.score} pts`;
-      el.scoreStrip.appendChild(chip);
-    });
+    // Deep Revision local quiz state
+    const revState = {
+      step: "year", // "year" | "subject" | "topic" | "quiz"
+      year: "MD5",
+      subjectId: null,
+      topicIndex: null,
+      questions: [],
+      currentIndex: 0,
+      answers: {},
+      hintOpen: false
+    };
 
-    const cols = state.boardTopics.length;
-    const maxRows = Math.max(0, ...state.boardTopics.map((t) => (t.questions || []).length));
-    el.jeopardyGrid.style.gridTemplateColumns = `repeat(${cols}, minmax(130px, 1fr))`;
-    el.jeopardyGrid.innerHTML = "";
+    try {
+      const app = initializeApp(FIREBASE_CONFIG);
+      db = getDatabase(app);
+    } catch (err) {
+      console.warn("Firebase init fallback:", err);
+    }
 
-    state.boardTopics.forEach((topic) => {
-      const hdr = document.createElement("div");
-      hdr.className = "topic-header";
-      hdr.textContent = topic.name || "Topic";
-      el.jeopardyGrid.appendChild(hdr);
-    });
+    const els = {
+      openDrawerBtn: document.getElementById("openDrawerBtn"),
+      closeDrawerBtn: document.getElementById("closeDrawerBtn"),
+      drawerBackdrop: document.getElementById("drawerBackdrop"),
+      navDrawer: document.getElementById("navDrawer"),
+      menuHomeBtn: document.getElementById("menuHomeBtn"),
+      menu1pBtn: document.getElementById("menu1pBtn"),
+      menuMultiBtn: document.getElementById("menuMultiBtn"),
+      menuRevisionBtn: document.getElementById("menuRevisionBtn"),
+      menuEndNowBtn: document.getElementById("menuEndNowBtn"),
+      menuResetBtn: document.getElementById("menuResetBtn"),
+      menuQuitBtn: document.getElementById("menuQuitBtn"),
+      floatingChat: document.getElementById("floatingChat"),
+      toggleChatBtn: document.getElementById("toggleChatBtn"),
+      chatCountBadge: document.getElementById("chatCountBadge"),
+      chatMessages: document.getElementById("chatMessages"),
+      chatForm: document.getElementById("chatForm"),
+      chatInput: document.getElementById("chatInput"),
+      headerSubtitle: document.getElementById("headerSubtitle"),
+      activeTurnBadge: document.getElementById("activeTurnBadge"),
+      backToHomeBtn: document.getElementById("backToHomeBtn"),
+      setupPage: document.getElementById("setupPage"),
+      boardPage: document.getElementById("boardPage"),
+      revisionPage: document.getElementById("revisionPage"),
+      mdYearButtons: document.getElementById("mdYearButtons"),
+      yearSubjectsPanel: document.getElementById("yearSubjectsPanel"),
+      yearSubjectsTitle: document.getElementById("yearSubjectsTitle"),
+      yearSubjectsStatus: document.getElementById("yearSubjectsStatus"),
+      subjectTilesGrid: document.getElementById("subjectTilesGrid"),
+      subjectConfirmModal: document.getElementById("subjectConfirmModal"),
+      subjectConfirmTitle: document.getElementById("subjectConfirmTitle"),
+      subjectConfirmMessage: document.getElementById("subjectConfirmMessage"),
+      startGameYesBtn: document.getElementById("startGameYesBtn"),
+      cancelSubjectModalBtn: document.getElementById("cancelSubjectModalBtn"),
+      boardRows: document.getElementById("boardRows"),
+      boardBanner: document.getElementById("boardBanner"),
+      boardBannerText: document.getElementById("boardBannerText"),
+      boardBannerRule: document.getElementById("boardBannerRule"),
+      rosterControls: document.getElementById("rosterControls"),
+      rosterCountText: document.getElementById("rosterCountText"),
+      addPlayerBtn: document.getElementById("addPlayerBtn"),
+      removePlayerBtn: document.getElementById("removePlayerBtn"),
+      permissionRow: document.getElementById("permissionRow"),
+      allowAddToggleBtn: document.getElementById("allowAddToggleBtn"),
+      addPermissionHint: document.getElementById("addPermissionHint"),
+      turnLimitButtons: document.getElementById("turnLimitButtons"),
+      turnProgressText: document.getElementById("turnProgressText"),
+      roomCodeInput: document.getElementById("roomCodeInput"),
+      generateRoomBtn: document.getElementById("generateRoomBtn"),
+      joinRoomBtn: document.getElementById("joinRoomBtn"),
+      roomStatusText: document.getElementById("roomStatusText"),
+      seatBar: document.getElementById("seatBar"),
+      mySeatChip: document.getElementById("mySeatChip"),
+      hostBadgeChip: document.getElementById("hostBadgeChip"),
+      seatSelect: document.getElementById("seatSelect"),
+      scoresGrid: document.getElementById("scoresGrid"),
+      questionModal: document.getElementById("questionModal"),
+      qModalTitle: document.getElementById("qModalTitle"),
+      qModalTurnInfo: document.getElementById("qModalTurnInfo"),
+      qModalText: document.getElementById("qModalText"),
+      mcqOptions: document.getElementById("mcqOptions"),
+      qHintBox: document.getElementById("qHintBox"),
+      qAnswerBox: document.getElementById("qAnswerBox"),
+      timerBadge: document.getElementById("timerBadge"),
+      hintBtn: document.getElementById("hintBtn"),
+      submitMcqBtn: document.getElementById("submitMcqBtn"),
+      closeQBtn: document.getElementById("closeQBtn"),
+      winnerModal: document.getElementById("winnerModal"),
+      winnerNameText: document.getElementById("winnerNameText"),
+      winnerScoreSummary: document.getElementById("winnerScoreSummary"),
+      finalBreakdownText: document.getElementById("finalBreakdownText"),
+      playAgainBtn: document.getElementById("playAgainBtn"),
+      closeWinnerBtn: document.getElementById("closeWinnerBtn"),
+      // Revision elements
+      revBreadcrumb: document.getElementById("revBreadcrumb"),
+      revExitToHomeBtn: document.getElementById("revExitToHomeBtn"),
+      revStepYear: document.getElementById("revStepYear"),
+      revStepSubject: document.getElementById("revStepSubject"),
+      revStepTopic: document.getElementById("revStepTopic"),
+      revQuizStage: document.getElementById("revQuizStage"),
+      revSubjectGrid: document.getElementById("revSubjectGrid"),
+      revTopicList: document.getElementById("revTopicList"),
+      revConfirmStartBtn: document.getElementById("revConfirmStartBtn"),
+      revBackToYearBtn: document.getElementById("revBackToYearBtn"),
+      revBackToSubjectBtn: document.getElementById("revBackToSubjectBtn"),
+      revProgressFill: document.getElementById("revProgressFill"),
+      revScrubberDot: document.getElementById("revScrubberDot"),
+      revCounterText: document.getElementById("revCounterText"),
+      revWrongPill: document.getElementById("revWrongPill"),
+      revRightPill: document.getElementById("revRightPill"),
+      revQuestionLabel: document.getElementById("revQuestionLabel"),
+      revQuestionText: document.getElementById("revQuestionText"),
+      revOptionsBox: document.getElementById("revOptionsBox"),
+      revHintToggleBtn: document.getElementById("revHintToggleBtn"),
+      revHintBox: document.getElementById("revHintBox"),
+      revExplanationBox: document.getElementById("revExplanationBox"),
+      revPrevBtn: document.getElementById("revPrevBtn"),
+      revNextBtn: document.getElementById("revNextBtn")
+    };
 
-    for (let r = 0; r < maxRows; r++) {
-      for (let c = 0; c < cols; c++) {
-        const qObj = (state.boardTopics[c].questions || [])[r];
-        const cellKey = `${c}-${r}`;
+    function setDrawerOpen(open) {
+      els.navDrawer.classList.toggle("open", open);
+      els.drawerBackdrop.classList.toggle("open", open);
+    }
+
+    function random4DigitCode() {
+      return String(Math.floor(1000 + Math.random() * 9000));
+    }
+
+    function normalizeCode(val) {
+      return String(val || "").replace(/\D/g, "").slice(0, 4);
+    }
+
+    function getSubjectLabel(id) {
+      return SUBJECTS.find((s) => s.id === id)?.label || "Subject";
+    }
+
+    function getSubjectsForYear(yearCode) {
+      const list = YEAR_SUBJECT_MAP[yearCode];
+      return Array.isArray(list) ? list : [];
+    }
+
+    function getActiveRoster() {
+      if (state.mode === "1p") {
+        return [state.players[0] || { index: 1, name: "Player 1", score: 0 }];
+      }
+      const count = Math.min(MAX_MULTI_PLAYERS, Math.max(MIN_MULTI_PLAYERS, state.players.length));
+      return makePlayers(count, state.players);
+    }
+
+    function getPlayerByIndex(idx) {
+      const roster = getActiveRoster();
+      return roster.find((p) => p.index === idx) || roster[0];
+    }
+
+    function isHostOnThisDevice() {
+      return state.mode === "multi" && mySeat === state.hostSeat;
+    }
+
+    function canAddPlayerOnThisDevice() {
+      if (state.mode !== "multi") return false;
+      const roster = getActiveRoster();
+      if (roster.length >= MAX_MULTI_PLAYERS) return false;
+      return isHostOnThisDevice() || Boolean(state.allowOthersToAdd);
+    }
+
+    function canEditPlayerUsername(playerIndex) {
+      if (state.mode === "1p") return playerIndex === 1;
+      return playerIndex === mySeat;
+    }
+
+    function getSenderName() {
+      if (state.mode === "1p") {
+        return getActiveRoster()[0]?.name || "Player 1";
+      }
+      const seatPlayer = getPlayerByIndex(mySeat);
+      return seatPlayer ? seatPlayer.name : `Player ${mySeat}`;
+    }
+
+    function persistLocalSession() {
+      try {
+        const payload = {
+          mySeat,
+          chatMinimized,
+          snapshot: getSnapshot()
+        };
+        localStorage.setItem(LOCAL_SESSION_KEY, JSON.stringify(payload));
+      } catch (_) {}
+    }
+
+    function restoreLocalSession() {
+      try {
+        const raw = localStorage.getItem(LOCAL_SESSION_KEY);
+        if (!raw) return false;
+        const parsed = JSON.parse(raw);
+        if (!parsed || !parsed.snapshot) return false;
+
+        if (typeof parsed.mySeat === "number" && parsed.mySeat >= 1 && parsed.mySeat <= MAX_MULTI_PLAYERS) {
+          mySeat = parsed.mySeat;
+        }
+        if (typeof parsed.chatMinimized === "boolean") {
+          chatMinimized = parsed.chatMinimized;
+          els.floatingChat.classList.toggle("minimized", chatMinimized);
+          els.toggleChatBtn.textContent = chatMinimized ? "Expand" : "Minimize";
+          els.toggleChatBtn.setAttribute("aria-expanded", String(!chatMinimized));
+        }
+
+        applyRemoteState(parsed.snapshot, { skipSync: true });
+        if (state.mode === "multi" && state.roomCode && state.roomCode.length === 4) {
+          subscribeToRoom(state.roomCode, false, { preserveLocalSeat: true });
+        }
+        return true;
+      } catch (_) {
+        return false;
+      }
+    }
+
+    function renderChat() {
+      const msgs = Array.isArray(state.chatMessages) ? state.chatMessages : [];
+      els.chatCountBadge.textContent = `${msgs.length} ${msgs.length === 1 ? "msg" : "msgs"}`;
+
+      if (msgs.length === 0) {
+        els.chatMessages.innerHTML = `<div class="chat-empty">No messages yet. Send a quick note to players in the room!</div>`;
+        return;
+      }
+
+      els.chatMessages.innerHTML = "";
+      msgs.slice(-40).forEach((m) => {
+        const box = document.createElement("div");
+        box.className = "chat-msg";
+
+        const meta = document.createElement("div");
+        meta.className = "chat-msg-meta";
+        meta.textContent = `${m.sender || "Player"} • ${m.time || ""}`;
+
+        const text = document.createElement("div");
+        text.textContent = m.text || "";
+
+        box.appendChild(meta);
+        box.appendChild(text);
+        els.chatMessages.appendChild(box);
+      });
+
+      els.chatMessages.scrollTop = els.chatMessages.scrollHeight;
+    }
+
+    function renderLandingYearsAndSubjects() {
+      els.mdYearButtons.querySelectorAll("button[data-md]").forEach((btn) => {
+        btn.classList.toggle("selected-md", btn.dataset.md === state.selectedYear);
+      });
+
+      const yearSubjects = getSubjectsForYear(state.selectedYear);
+      els.yearSubjectsTitle.textContent = `${state.selectedYear} Subjects`;
+      els.subjectTilesGrid.innerHTML = "";
+
+      if (yearSubjects.length === 0) {
+        els.yearSubjectsStatus.textContent = `No subjects added for ${state.selectedYear} yet. Select MD5 to play available clinical subjects.`;
+        return;
+      }
+
+      els.yearSubjectsStatus.textContent = `Tap a subject under ${state.selectedYear} to confirm starting the game.`;
+
+      yearSubjects.forEach((subj) => {
+        const tile = document.createElement("button");
+        tile.type = "button";
+        tile.className = `subject-tile${state.selectedSubject === subj.id ? " selected-subject" : ""}`;
+        const hasCustom = Array.isArray(QUESTION_BANK[subj.id]) && QUESTION_BANK[subj.id].length > 0;
+        tile.innerHTML = `
+          <span class="subject-tile-name">${subj.label}</span>
+          <span class="subject-tile-sub">${hasCustom ? `${subj.id}.json ready` : "Starter board ready"}</span>
+        `;
+        tile.addEventListener("click", () => {
+          state.pendingSubject = subj.id;
+          state.selectedSubject = subj.id;
+          renderLandingYearsAndSubjects();
+          els.subjectConfirmTitle.textContent = `Start ${subj.label}?`;
+          els.subjectConfirmMessage.textContent = `You selected ${subj.label} (${state.selectedYear}). Start the game now?`;
+          els.subjectConfirmModal.classList.add("open");
+          syncOut();
+        });
+        els.subjectTilesGrid.appendChild(tile);
+      });
+    }
+
+    function isMyTurnToPick() {
+      if (state.gameOver || state.page !== "board") return false;
+      if (state.activeLock) return false;
+      if (state.mode === "1p") return true;
+      return Number(state.currentTurn) === Number(mySeat);
+    }
+
+    function isActivePlayerOnThisDevice() {
+      if (state.mode === "1p") return true;
+      const activePlayer = state.activeLock ? state.activeLock.player : state.currentTurn;
+      return Number(activePlayer) === Number(mySeat);
+    }
+
+    function renderScoresGrid() {
+      const roster = getActiveRoster();
+      const activeIdx = state.activeLock ? state.activeLock.player : state.currentTurn;
+      els.scoresGrid.innerHTML = "";
+
+      roster.forEach((p, idx) => {
+        const card = document.createElement("div");
+        const isCurrent = state.mode === "1p" ? idx === 0 : p.index === activeIdx;
+        let extraClass = "";
+        if (state.mode === "multi") {
+          extraClass = p.index === 2 ? " p2-card" : " multi-card";
+        }
+        card.className = `score-card${extraClass}${isCurrent ? " active-turn" : ""}`;
+
+        const editable = canEditPlayerUsername(p.index);
+        const ownerTag = document.createElement("div");
+        ownerTag.className = "owner-tag";
+        if (state.mode === "1p") {
+          ownerTag.textContent = "Your Username";
+        } else if (editable) {
+          ownerTag.textContent = p.index === state.hostSeat ? "Your Username (Host)" : "Your Username (Editable)";
+        } else {
+          ownerTag.textContent = p.index === state.hostSeat ? "Host Username (Locked)" : "Locked (Only owner can edit)";
+        }
+
+        const input = document.createElement("input");
+        input.type = "text";
+        input.className = "name-input";
+        input.value = p.name;
+        input.readOnly = !editable;
+        input.maxLength = 28;
+        input.setAttribute("aria-label", `${p.name} Name`);
+        input.addEventListener("change", () => {
+          if (!canEditPlayerUsername(p.index)) return;
+          const cleanName = input.value.trim() || `Player ${p.index}`;
+          state.players[idx] = { ...state.players[idx], name: cleanName };
+          updateUI();
+          syncOut();
+        });
+
+        const val = document.createElement("div");
+        val.className = "score-value";
+        val.textContent = `${p.score} pts`;
+
+        card.appendChild(ownerTag);
+        card.appendChild(input);
+        card.appendChild(val);
+        els.scoresGrid.appendChild(card);
+      });
+    }
+
+    function renderBoard() {
+      const topics = getTopicsForSubject(state.selectedSubject);
+      const canPick = isMyTurnToPick();
+      els.boardRows.innerHTML = "";
+
+      topics.forEach((topic, rIdx) => {
+        const row = document.createElement("div");
+        row.className = "topic-row";
+
+        const label = document.createElement("div");
+        label.className = "topic-label";
+        label.textContent = topic.name;
+        row.appendChild(label);
+
+        (topic.questions || []).forEach((item, cIdx) => {
+          const key = `${state.selectedSubject}_${rIdx}-${cIdx}`;
+          const isUsed = Boolean(state.used[key]);
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = `q-btn${isUsed ? " used" : ""}`;
+          btn.disabled = isUsed || !canPick;
+          btn.innerHTML = `<span>${item.pts} Marks</span><span class="pts">${isUsed ? "Used" : (canPick ? "Select" : "Locked")}</span>`;
+          btn.addEventListener("click", () => openQuestion(rIdx, cIdx));
+          row.appendChild(btn);
+        });
+
+        els.boardRows.appendChild(row);
+      });
+    }
+
+    function updateTimerLabel() {
+      const mins = String(Math.floor(Math.max(0, secondsLeft) / 60)).padStart(2, "0");
+      const secs = String(Math.max(0, secondsLeft) % 60).padStart(2, "0");
+      els.timerBadge.textContent = `${mins}:${secs}`;
+    }
+
+    function stopTimer() {
+      if (timerInterval) {
+        clearInterval(timerInterval);
+        timerInterval = null;
+      }
+    }
+
+    function startSyncedTimer(openedAt) {
+      stopTimer();
+      const baseTime = openedAt || Date.now();
+      const tick = () => {
+        const elapsedSec = Math.floor((Date.now() - baseTime) / 1000);
+        secondsLeft = Math.max(0, QUESTION_DURATION_SECONDS - elapsedSec);
+        updateTimerLabel();
+        if (secondsLeft <= 0) {
+          stopTimer();
+          if (state.activeLock && !state.activeLock.answerSubmitted) {
+            handleTurnTimeout();
+          } else if (state.activeLock) {
+            syncQuestionModalFromState();
+          }
+        }
+      };
+      tick();
+      timerInterval = setInterval(tick, 1000);
+    }
+
+    function forceAdvanceStuckTurn() {
+      stopTimer();
+      els.questionModal.classList.remove("open");
+
+      const currentLock = state.activeLock;
+      if (currentLock) {
+        const lid = currentLock.lockId || `${currentLock.openedAt}_${currentLock.player}_${currentLock.rIdx}_${currentLock.cIdx}`;
+        state.activeLock = null;
+
+        if (state.lastAdvancedLockId !== lid) {
+          state.lastAdvancedLockId = lid;
+          if (state.mode === "multi") {
+            const count = getActiveRoster().length;
+            state.roundPlays = (Number(state.roundPlays) || 0) + 1;
+            if (state.roundPlays >= count) {
+              state.completedTurns += 1;
+              state.roundPlays = 0;
+            }
+            state.currentTurn = (Number(state.currentTurn) % count) + 1;
+          } else {
+            state.completedTurns += 1;
+          }
+        }
+      }
+
+      checkTurnLimitAndWinner();
+      updateUI();
+      syncOut();
+    }
+
+    function syncQuestionModalFromState() {
+      if (
+        state.page !== "board" ||
+        !state.activeLock ||
+        typeof state.activeLock.rIdx !== "number" ||
+        typeof state.activeLock.cIdx !== "number"
+      ) {
+        stopTimer();
+        els.questionModal.classList.remove("open");
+        return;
+      }
+
+      const topics = getTopicsForSubject(state.selectedSubject);
+      const { rIdx, cIdx, player, hintShown, selectedOption, answerSubmitted, chosenOption, openedAt } = state.activeLock;
+      const topic = topics[rIdx];
+      const item = topic?.questions?.[cIdx];
+      if (!topic || !item) return;
+
+      const canControl = isActivePlayerOnThisDevice();
+      const turnPlayer = getPlayerByIndex(player);
+      const turnPlayerName = turnPlayer ? turnPlayer.name : `Player ${player}`;
+      const elapsedSec = Math.floor((Date.now() - (openedAt || Date.now())) / 1000);
+      const countdownFinished = elapsedSec >= QUESTION_DURATION_SECONDS;
+      const resolvedState = Boolean(answerSubmitted) || countdownFinished;
+
+      els.qModalTitle.textContent = `${topic.name} • ${item.pts} Marks`;
+      els.qModalTurnInfo.textContent = countdownFinished && !answerSubmitted
+        ? `Time's up! Any player can click "Continue to Next Turn" to proceed.`
+        : (canControl
+            ? `${turnPlayerName}'s Turn — Select an option and submit within 1:30.`
+            : `Viewing ${turnPlayerName}'s selected question live on this device.`);
+      els.qModalText.textContent = item.q;
+
+      els.mcqOptions.innerHTML = "";
+      (item.options || []).forEach((optText, idx) => {
         const btn = document.createElement("button");
         btn.type = "button";
-        if (!qObj) {
-          btn.className = "pts-cell used";
-          btn.disabled = true;
-          btn.textContent = "—";
-        } else {
-          const isUsed = state.usedCells.has(cellKey);
-          btn.className = "pts-cell" + (isUsed ? " used" : "");
-          btn.disabled = isUsed;
-          btn.textContent = isUsed ? "✓" : `${qObj.pts || (r + 1) * 10}`;
-          btn.addEventListener("click", () => openBoardQuestionModal(c, r, qObj));
-        }
-        el.jeopardyGrid.appendChild(btn);
-      }
-    }
-  }
+        btn.className = "mcq-option-btn";
+        btn.textContent = optText;
 
-  function openBoardQuestionModal(colIdx, rowIdx, qObj) {
-    const pts = Number(qObj.pts) || (rowIdx + 1) * 10;
-    const cellKey = `${colIdx}-${rowIdx}`;
-    el.modalTitle.textContent = `${state.boardTopics[colIdx].name} • ${pts} pts`;
-
-    let html = `<p style="margin-bottom:14px; font-weight:500;">${escapeHtml(qObj.q)}</p>`;
-    html += `<div class="options-stack" id="modalOpts">`;
-    (qObj.options || []).forEach((opt, i) => {
-      html += `<button type="button" class="option-card" data-opt="${i}">${escapeHtml(opt)}</button>`;
-    });
-    html += `</div><div id="modalFeedback"></div>`;
-    el.modalBody.innerHTML = html;
-    el.modalBackdrop.classList.remove("hidden");
-
-    el.modalBody.querySelectorAll("[data-opt]").forEach((optBtn) => {
-      optBtn.addEventListener("click", () => {
-        const picked = Number(optBtn.getAttribute("data-opt"));
-        const right = picked === Number(qObj.correct);
-        state.usedCells.add(cellKey);
-
-        const currentPlayer = state.players[state.activePlayerIdx];
-        if (right) currentPlayer.score += pts;
-
-        el.modalBody.querySelectorAll("[data-opt]").forEach((b) => { b.disabled = true; });
-        optBtn.classList.add(right ? "picked-right" : "picked-wrong");
-
-        const fb = document.getElementById("modalFeedback");
-        fb.innerHTML = `
-          <div class="explanation-box">
-            <strong>${right ? `Correct (+${pts} pts)` : `Incorrect (0 pts)`}</strong><br/>
-            ${escapeHtml(qObj.explanation || "")}
-          </div>
-          <button type="button" id="continueBoardBtn" class="btn-primary">Continue Board</button>
-        `;
-
-        document.getElementById("continueBoardBtn").addEventListener("click", () => {
-          if (state.playerMode === "multi") {
-            state.activePlayerIdx = (state.activePlayerIdx + 1) % state.players.length;
+        if (!resolvedState) {
+          btn.disabled = !canControl;
+          if (selectedOption === idx) {
+            btn.classList.add("selected");
           }
-          closeModal();
-          renderBoard();
-        });
+          btn.addEventListener("click", () => {
+            if (!canControl || !state.activeLock || state.activeLock.answerSubmitted || countdownFinished) return;
+            state.activeLock.selectedOption = idx;
+            syncQuestionModalFromState();
+            syncOut();
+          });
+        } else {
+          btn.disabled = true;
+          if (idx === item.correct) {
+            btn.classList.add("correct-choice");
+          } else if (idx === chosenOption && chosenOption !== item.correct) {
+            btn.classList.add("wrong-choice");
+          }
+        }
+
+        els.mcqOptions.appendChild(btn);
       });
-    });
-  }
 
-  function openSettingsModal() {
-    el.modalTitle.textContent = "Settings & Players";
-    el.modalBody.innerHTML = `
-      <div style="display:flex; flex-direction:column; gap:12px;">
-        <label style="font-size:0.85rem; color:var(--muted);">
-          Player 1 Name
-          <input id="p1Input" type="text" value="${escapeAttr(state.players[0].name)}"
-            style="width:100%; margin-top:6px; padding:10px; border-radius:10px; background:var(--bg); border:1px solid var(--border-strong); color:var(--text);" />
-        </label>
-        <label style="font-size:0.85rem; color:var(--muted);">
-          Player 2 Name (Multiplayer)
-          <input id="p2Input" type="text" value="${escapeAttr(state.players[1].name)}"
-            style="width:100%; margin-top:6px; padding:10px; border-radius:10px; background:var(--bg); border:1px solid var(--border-strong); color:var(--text);" />
-        </label>
-        <button id="saveSettingsBtn" class="btn-primary" type="button">Save Changes</button>
-      </div>
-    `;
-    el.modalBackdrop.classList.remove("hidden");
+      els.qHintBox.textContent = `Clinical Hint: ${item.hint}`;
+      els.qHintBox.classList.toggle("visible", Boolean(hintShown));
+      els.hintBtn.disabled = !canControl || Boolean(hintShown) || resolvedState;
 
-    document.getElementById("saveSettingsBtn").addEventListener("click", () => {
-      const n1 = document.getElementById("p1Input").value.trim() || "Player 1";
-      const n2 = document.getElementById("p2Input").value.trim() || "Player 2";
-      state.players[0].name = n1;
-      state.players[1].name = n2;
-      closeModal();
-      if (state.view === "board") renderBoard();
-    });
-  }
+      if (resolvedState) {
+        const isCorrect = answerSubmitted && chosenOption === item.correct;
+        const prefix = (!answerSubmitted || chosenOption === null || chosenOption === undefined)
+          ? "Time expired! "
+          : (isCorrect ? `Correct (+${item.pts} pts)! ` : "Incorrect (0 pts). ");
+        els.qAnswerBox.textContent = `${prefix}Correct Answer: ${item.options[item.correct]} — ${item.explanation}`;
+        els.qAnswerBox.classList.add("visible");
+        els.submitMcqBtn.style.display = "none";
+        els.closeQBtn.style.display = "inline-block";
+        els.closeQBtn.disabled = false;
+        els.closeQBtn.textContent = "Continue to Next Turn";
+      } else {
+        els.qAnswerBox.textContent = "";
+        els.qAnswerBox.classList.remove("visible");
+        els.submitMcqBtn.style.display = canControl ? "inline-block" : "none";
+        els.submitMcqBtn.disabled = !canControl || typeof selectedOption !== "number";
+        els.closeQBtn.style.display = canControl ? "inline-block" : "none";
+        els.closeQBtn.disabled = false;
+        els.closeQBtn.textContent = "End Turn / Close (0 pts)";
+      }
 
-  function closeModal() {
-    el.modalBackdrop.classList.add("hidden");
-    el.modalBody.innerHTML = "";
-  }
-
-  /* Deep Revision Mode */
-  async function ensureRevisionIndexLoaded() {
-    if (!state.revisionIndex) {
-      const idx = await safeFetchJson("revision/index.json", FALLBACK_REVISION_INDEX);
-      state.revisionIndex = idx && typeof idx === "object" ? idx : FALLBACK_REVISION_INDEX;
-    }
-    resetRevisionToSelector();
-    renderMdButtons();
-  }
-
-  function resetRevisionToSelector() {
-    el.revisionQuizRunner.classList.add("hidden");
-    el.revisionSelector.classList.remove("hidden");
-    updateRevisionStepPills(1);
-  }
-
-  function updateRevisionStepPills(step) {
-    el.stepPill1.className = "step-pill" + (step === 1 ? " current" : step > 1 ? " done" : "");
-    el.stepPill2.className = "step-pill" + (step === 2 ? " current" : step > 2 ? " done" : "");
-    el.stepPill3.className = "step-pill" + (step === 3 ? " current" : "");
-  }
-
-  function renderMdButtons() {
-    const years = ["MD1", "MD2", "MD3", "MD4", "MD5"];
-    el.mdButtonsGrid.innerHTML = "";
-    el.revSubjectCard.classList.add("hidden");
-    el.revTopicCard.classList.add("hidden");
-    el.revConfirmBox.classList.add("hidden");
-
-    years.forEach((yr) => {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "md-btn" + (state.revYear === yr ? " selected" : "");
-      btn.textContent = yr;
-      btn.addEventListener("click", () => selectRevisionYear(yr));
-      el.mdButtonsGrid.appendChild(btn);
-    });
-  }
-
-  function selectRevisionYear(yr) {
-    state.revYear = yr;
-    state.revSubject = null;
-    state.revSubjectData = [];
-    state.revTopicIdx = null;
-    renderMdButtons();
-    updateRevisionStepPills(2);
-
-    const list = (state.revisionIndex && state.revisionIndex[yr]) || [];
-    el.revSubjectHeading.textContent = `Step 2: Choose Subject (${yr})`;
-    el.revSubjectList.innerHTML = "";
-    el.revTopicCard.classList.add("hidden");
-    el.revConfirmBox.classList.add("hidden");
-    el.revSubjectCard.classList.remove("hidden");
-
-    if (!list.length) {
-      el.revSubjectList.innerHTML = `<div class="brand-sub">No subjects configured yet for ${yr}.</div>`;
-      return;
+      els.questionModal.classList.add("open");
+      startSyncedTimer(openedAt);
     }
 
-    list.forEach((subj) => {
-      const card = document.createElement("button");
-      card.type = "button";
-      card.className = "choice-card";
-      card.innerHTML = `
-        <span style="font-weight:700;">${escapeHtml(subj.title || subj.name || subj.id)}</span>
-        <span class="badge-count">Select</span>
-      `;
-      card.addEventListener("click", () => selectRevisionSubject(subj, card));
-      el.revSubjectList.appendChild(card);
-    });
-  }
+    function updateUI() {
+      const isMulti = state.mode === "multi";
+      const isSetupPage = state.page === "setup";
+      const isBoardPage = state.page === "board";
+      const isRevisionPage = state.page === "revision";
+      const subjLabel = getSubjectLabel(state.selectedSubject);
+      const roster = getActiveRoster();
+      const playerCount = roster.length;
 
-  async function selectRevisionSubject(subj, cardEl) {
-    el.revSubjectList.querySelectorAll(".choice-card").forEach((c) => c.classList.remove("selected"));
-    if (cardEl) cardEl.classList.add("selected");
+      els.setupPage.classList.toggle("hidden", !isSetupPage);
+      els.boardPage.classList.toggle("hidden", !isBoardPage);
+      els.revisionPage.classList.toggle("hidden", !isRevisionPage);
+      els.backToHomeBtn.classList.toggle("hidden", isSetupPage);
 
-    state.revSubject = subj;
-    state.revTopicIdx = null;
-    el.revConfirmBox.classList.add("hidden");
-    el.topbarSub.textContent = subj.title || subj.id;
-    updateRevisionStepPills(3);
+      els.menuHomeBtn.classList.toggle("active-mode", isSetupPage);
+      els.menuRevisionBtn.classList.toggle("active-mode", isRevisionPage);
 
-    const data = await safeFetchJson(subj.file, []);
-    state.revSubjectData = Array.isArray(data) ? data : [];
+      if (isBoardPage) {
+        els.headerSubtitle.textContent = `${state.selectedYear} • ${subjLabel} • Marks Board`;
+        els.boardPage.prepend(els.scoresGrid);
+      } else if (isRevisionPage) {
+        els.headerSubtitle.textContent = `Deep Revision Mode • ${revState.year}`;
+      } else {
+        els.headerSubtitle.textContent = "Select MD1–MD5 to choose a subject";
+        els.setupPage.appendChild(els.scoresGrid);
+      }
 
-    el.revTopicHeading.textContent = `Step 3: Choose Topic (${subj.title || subj.id})`;
-    el.revTopicList.innerHTML = "";
-    el.revTopicCard.classList.remove("hidden");
+      if (isMulti && (state.currentTurn < 1 || state.currentTurn > playerCount)) {
+        state.currentTurn = 1;
+      }
+      if (isMulti && (mySeat < 1 || mySeat > playerCount)) {
+        mySeat = 1;
+      }
 
-    if (!state.revSubjectData.length) {
-      el.revTopicList.innerHTML = `<div class="brand-sub">No topics found in ${escapeHtml(subj.file)}.</div>`;
-      return;
+      els.menu1pBtn.classList.toggle("active-mode", !isMulti);
+      els.menuMultiBtn.classList.toggle("active-mode", isMulti);
+      els.rosterControls.classList.toggle("visible", isMulti);
+      els.rosterCountText.textContent = `Players in game: ${playerCount} / ${MAX_MULTI_PLAYERS} (Min ${MIN_MULTI_PLAYERS} to start)`;
+      els.addPlayerBtn.disabled = !canAddPlayerOnThisDevice();
+      els.removePlayerBtn.disabled = !isMulti || !isHostOnThisDevice() || playerCount <= MIN_MULTI_PLAYERS;
+
+      els.permissionRow.classList.toggle("visible", isMulti);
+      els.allowAddToggleBtn.disabled = !isHostOnThisDevice();
+      els.allowAddToggleBtn.classList.toggle("active-mode", Boolean(state.allowOthersToAdd));
+      els.allowAddToggleBtn.textContent = `Allow Others to Add: ${state.allowOthersToAdd ? "ON" : "OFF"}`;
+      if (isHostOnThisDevice()) {
+        els.addPermissionHint.textContent = state.allowOthersToAdd
+          ? "Other players can add players right now"
+          : "Only you (Host) can add players";
+      } else {
+        els.addPermissionHint.textContent = state.allowOthersToAdd
+          ? "Host allowed others to add players"
+          : "Only Host can add players";
+      }
+
+      const currentPlayerObj = isMulti ? getPlayerByIndex(state.currentTurn) : roster[0];
+      const currentName = currentPlayerObj ? currentPlayerObj.name : "Player 1";
+      const mySeatPlayerObj = getPlayerByIndex(mySeat);
+      const mySeatName = mySeatPlayerObj ? mySeatPlayerObj.name : `Player ${mySeat}`;
+      const hostPlayerObj = getPlayerByIndex(state.hostSeat);
+      const hostName = hostPlayerObj ? hostPlayerObj.name : `Player ${state.hostSeat}`;
+
+      els.activeTurnBadge.textContent = isMulti ? `Turn: ${currentName}` : `Solo: ${roster[0].name}`;
+      if (!isMulti) {
+        els.activeTurnBadge.className = "turn-pill p1";
+      } else if (state.currentTurn === 1) {
+        els.activeTurnBadge.className = "turn-pill p1";
+      } else if (state.currentTurn === 2) {
+        els.activeTurnBadge.className = "turn-pill p2";
+      } else {
+        els.activeTurnBadge.className = "turn-pill multi";
+      }
+
+      els.turnLimitButtons.querySelectorAll("button").forEach((btn) => {
+        const val = Number(btn.dataset.turns);
+        btn.classList.toggle("active-mode", val === state.maxTurns);
+      });
+
+      const limitLabel = state.maxTurns === 0 ? "All" : `${state.maxTurns}`;
+      if (isMulti) {
+        els.turnProgressText.textContent = `Completed turns: ${state.completedTurns} / ${limitLabel} • Round plays: ${state.roundPlays} / ${playerCount}`;
+      } else {
+        els.turnProgressText.textContent = `Completed turns: ${state.completedTurns} / ${limitLabel}`;
+      }
+
+      if (isMulti) {
+        els.seatBar.classList.add("visible");
+        els.mySeatChip.textContent = `This Device: ${mySeatName} (Seat ${mySeat})`;
+        els.hostBadgeChip.textContent = isHostOnThisDevice() ? "You Are Host" : `Host: ${hostName} (Seat ${state.hostSeat})`;
+        els.seatSelect.innerHTML = "";
+        roster.forEach((p) => {
+          const opt = document.createElement("option");
+          opt.value = String(p.index);
+          opt.textContent = `Seat ${p.index} — ${p.name}`;
+          if (p.index === mySeat) opt.selected = true;
+          els.seatSelect.appendChild(opt);
+        });
+      } else {
+        els.seatBar.classList.remove("visible");
+      }
+
+      if (state.roomCode) {
+        els.roomCodeInput.value = state.roomCode;
+        els.roomStatusText.textContent = `Room ${state.roomCode} active (${playerCount}/${MAX_MULTI_PLAYERS} players) • Host: ${hostName}.`;
+      } else if (isMulti) {
+        els.roomStatusText.textContent = "Generating 4-digit room code...";
+      } else {
+        els.roomStatusText.textContent = "Select Multiple Player to auto-generate a 4-digit room code and sync devices (2–6 players).";
+      }
+
+      if (state.gameOver) {
+        els.boardBanner.className = "board-banner";
+        els.boardBannerText.textContent = `${subjLabel} match finished! Review the board or open menu to reset.`;
+        els.boardBannerRule.textContent = "Game Over";
+      } else if (state.activeLock) {
+        const lockerObj = getPlayerByIndex(state.activeLock.player);
+        const lockerName = lockerObj ? lockerObj.name : `Player ${state.activeLock.player}`;
+        els.boardBanner.className = "board-banner waiting";
+        els.boardBannerText.textContent = `${lockerName} selected a ${subjLabel} question — displayed across connected devices.`;
+        els.boardBannerRule.textContent = "Question Open";
+      } else if (isMulti && Number(state.currentTurn) !== Number(mySeat)) {
+        els.boardBanner.className = "board-banner waiting";
+        els.boardBannerText.textContent = `Waiting for ${currentName}'s turn in ${subjLabel}. Your tiles unlock automatically once ${currentName} finishes.`;
+        els.boardBannerRule.textContent = "Opponent's Turn";
+      } else {
+        els.boardBanner.className = "board-banner your-turn";
+        els.boardBannerText.textContent = `${currentName}'s turn (${subjLabel}) — tap a question tile to open it on all devices.`;
+        els.boardBannerRule.textContent = "Your Turn";
+      }
+
+      renderChat();
+      renderLandingYearsAndSubjects();
+      renderScoresGrid();
+      renderBoard();
+      renderRevisionView();
+      syncQuestionModalFromState();
+      persistLocalSession();
     }
 
-    state.revSubjectData.forEach((topicObj, idx) => {
-      const qCount = (topicObj.questions || []).length;
-      const tCard = document.createElement("button");
-      tCard.type = "button";
-      tCard.className = "choice-card";
-      tCard.innerHTML = `
-        <span style="font-weight:600;">${escapeHtml(topicObj.name || topicObj.topic || `Topic ${idx + 1}`)}</span>
-        <span class="badge-count">${qCount} Qs</span>
-      `;
-      tCard.addEventListener("click", () => selectRevisionTopic(idx, tCard));
-      el.revTopicList.appendChild(tCard);
-    });
-  }
+    function checkTurnLimitAndWinner() {
+      const topics = getTopicsForSubject(state.selectedSubject);
+      const totalQuestions = topics.reduce((sum, t) => sum + (t.questions?.length || 0), 0);
+      const usedForSubject = Object.keys(state.used).filter((k) => k.startsWith(`${state.selectedSubject}_`)).length;
+      const reachedTurnCap = state.maxTurns > 0 && state.completedTurns >= state.maxTurns;
+      const allUsed = totalQuestions > 0 && usedForSubject >= totalQuestions;
 
-  function selectRevisionTopic(topicIdx, tCardEl) {
-    el.revTopicList.querySelectorAll(".choice-card").forEach((c) => c.classList.remove("selected"));
-    if (tCardEl) tCardEl.classList.add("selected");
-
-    state.revTopicIdx = topicIdx;
-    const topicObj = state.revSubjectData[topicIdx];
-    const qList = topicObj.questions || [];
-
-    el.confirmSelectionTitle.textContent = topicObj.name || topicObj.topic || "Selected Topic";
-    el.confirmSelectionMeta.textContent = `${state.revYear} • ${state.revSubject.title || state.revSubject.id} • ${qList.length} Questions`;
-    el.revConfirmBox.classList.remove("hidden");
-  }
-
-  function startRevisionQuiz() {
-    if (state.revTopicIdx === null) return;
-    const topicObj = state.revSubjectData[state.revTopicIdx];
-    const qList = topicObj.questions || [];
-    if (!qList.length) {
-      showNotice("This topic has no questions yet.");
-      return;
+      if (reachedTurnCap || allUsed) {
+        state.gameOver = true;
+        showWinnerModal();
+      }
     }
-    showNotice("");
 
-    state.revQuestions = qList;
-    state.revIndex = 0;
-    state.revAnswers = {};
+    function showWinnerModal() {
+      stopTimer();
+      els.questionModal.classList.remove("open");
+      const roster = getActiveRoster();
 
-    el.revisionSelector.classList.add("hidden");
-    el.revisionQuizRunner.classList.remove("hidden");
-    renderRevisionQuestion();
-  }
+      if (state.mode === "1p") {
+        const solo = roster[0];
+        els.winnerNameText.textContent = solo.name;
+        els.winnerScoreSummary.textContent = `Final Score: ${solo.score} pts (${state.completedTurns} turns completed)`;
+        els.finalBreakdownText.textContent = `Subject: ${getSubjectLabel(state.selectedSubject)}. Tap Play Again for a fresh match.`;
+      } else {
+        const sorted = [...roster].sort((a, b) => b.score - a.score);
+        const topScore = sorted[0].score;
+        const leaders = sorted.filter((p) => p.score === topScore);
+        if (leaders.length > 1) {
+          els.winnerNameText.textContent = "It's a Tie!";
+          els.winnerScoreSummary.textContent = `${leaders.map((p) => p.name).join(" & ")} tied at ${topScore} pts`;
+        } else {
+          els.winnerNameText.textContent = leaders[0].name;
+          els.winnerScoreSummary.textContent = `Winning Score: ${leaders[0].score} pts`;
+        }
+        els.finalBreakdownText.textContent = `Standings (${state.completedTurns} full turns): ${sorted.map((p) => `${p.name}: ${p.score} pts`).join(" • ")}`;
+      }
 
-  function renderRevisionQuestion() {
-    const total = state.revQuestions.length;
-    const idx = state.revIndex;
-    const item = state.revQuestions[idx];
-    const saved = state.revAnswers[idx];
+      els.winnerModal.classList.add("open");
+    }
 
-    let wrongTotal = 0;
-    let rightTotal = 0;
-    Object.values(state.revAnswers).forEach((a) => {
-      if (a.isCorrect) rightTotal++;
-      else wrongTotal++;
-    });
+    function openQuestion(rIdx, cIdx) {
+      if (!isMyTurnToPick()) return;
+      const key = `${state.selectedSubject}_${rIdx}-${cIdx}`;
+      if (state.used[key]) return;
 
-    const pct = total > 1 ? (idx / (total - 1)) * 100 : 100;
-    el.quizProgressFill.style.width = `${pct}%`;
-    el.quizProgressThumb.style.left = `${pct}%`;
-    el.quizCounter.textContent = `${idx + 1} / ${total}`;
-    el.wrongCountPill.textContent = `✕ ${wrongTotal}`;
-    el.rightCountPill.textContent = `✓ ${rightTotal}`;
+      const openedAt = Date.now();
+      const lockId = `${openedAt}_${state.currentTurn}_${rIdx}_${cIdx}`;
 
-    el.quizQuestionLabel.textContent = `Question ${idx + 1}`;
-    el.quizQuestionText.textContent = item.q || "";
+      state.used[key] = true;
+      state.activeLock = {
+        lockId,
+        player: state.currentTurn,
+        rIdx,
+        cIdx,
+        key,
+        openedAt,
+        hintShown: false,
+        selectedOption: null,
+        answerSubmitted: false,
+        chosenOption: null
+      };
 
-    el.quizHintBox.classList.add("hidden");
-    el.quizHintChevron.textContent = "⌄";
-    el.quizHintBox.textContent = item.hint || "No hint provided for this question.";
+      updateUI();
+      syncOut();
+    }
 
-    el.quizOptionsStack.innerHTML = "";
-    const letters = ["A.", "B.", "C.", "D.", "E."];
+    function submitSelectedMcq() {
+      if (!state.activeLock || !isActivePlayerOnThisDevice() || state.activeLock.answerSubmitted) return;
+      const chosen = state.activeLock.selectedOption;
+      if (typeof chosen !== "number") return;
 
-    (item.options || []).forEach((rawOpt, optIdx) => {
-      const cleaned = String(rawOpt).replace(/^[A-E]\)\s*/i, "");
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "option-card";
+      const topics = getTopicsForSubject(state.selectedSubject);
+      const item = topics[state.activeLock.rIdx]?.questions?.[state.activeLock.cIdx];
+      if (!item) return;
 
-      if (saved) {
-        btn.disabled = true;
-        if (optIdx === saved.picked) {
-          btn.classList.add(saved.isCorrect ? "picked-right" : "picked-wrong");
-        } else if (!saved.isCorrect && optIdx === Number(item.correct)) {
-          btn.classList.add("picked-right");
+      stopTimer();
+      state.activeLock.answerSubmitted = true;
+      state.activeLock.chosenOption = chosen;
+
+      if (chosen === item.correct) {
+        const pIdx = state.activeLock.player || state.currentTurn;
+        const target = state.players.find((p) => p.index === pIdx);
+        if (target) {
+          target.score = (Number(target.score) || 0) + item.pts;
         }
       }
 
-      btn.innerHTML = `
-        <span class="option-letter">${letters[optIdx] || ""}</span>
-        <span>${escapeHtml(cleaned)}</span>
-      `;
-      btn.addEventListener("click", () => handleRevisionAnswer(optIdx));
-      el.quizOptionsStack.appendChild(btn);
-    });
-
-    if (saved && (state.autoExplain || item.explanation)) {
-      el.quizExplanationBox.textContent = item.explanation || "";
-      el.quizExplanationBox.classList.toggle("hidden", !item.explanation);
-    } else {
-      el.quizExplanationBox.classList.add("hidden");
+      updateUI();
+      syncOut();
     }
 
-    el.quizBackBtn.disabled = idx === 0;
-    el.quizNextBtn.textContent = idx === total - 1 ? "Topics" : "Next";
-  }
+    function handleTurnTimeout() {
+      if (!state.activeLock || state.activeLock.answerSubmitted) return;
+      stopTimer();
+      state.activeLock.answerSubmitted = true;
+      state.activeLock.chosenOption = null;
+      updateUI();
+      if (isActivePlayerOnThisDevice()) {
+        syncOut();
+      }
+    }
 
-  function handleRevisionAnswer(optIdx) {
-    const idx = state.revIndex;
-    if (state.revAnswers[idx]) return;
-    const item = state.revQuestions[idx];
-    const isCorrect = optIdx === Number(item.correct);
-    state.revAnswers[idx] = { picked: optIdx, isCorrect };
-    renderRevisionQuestion();
-  }
+    function completeTurnAndCloseModal() {
+      const elapsedSec = state.activeLock?.openedAt
+        ? Math.floor((Date.now() - state.activeLock.openedAt) / 1000)
+        : 0;
+      const countdownFinished = elapsedSec >= QUESTION_DURATION_SECONDS;
+      const canAdvance = isActivePlayerOnThisDevice() ||
+        Boolean(state.activeLock?.answerSubmitted) ||
+        countdownFinished;
+      if (!canAdvance && state.activeLock) return;
+      forceAdvanceStuckTurn();
+    }
 
-  function escapeHtml(str) {
-    return String(str)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;");
-  }
+    // Deep Revision Mode Logic
+    function renderRevisionView() {
+      if (state.page !== "revision") return;
 
-  function escapeAttr(str) {
-    return escapeHtml(str).replace(/'/g, "&#39;");
-  }
+      els.revStepYear.classList.toggle("hidden", revState.step !== "year");
+      els.revStepSubject.classList.toggle("hidden", revState.step !== "subject");
+      els.revStepTopic.classList.toggle("hidden", revState.step !== "topic");
+      els.revQuizStage.classList.toggle("hidden", revState.step !== "quiz");
 
-  // Event Listeners
-  el.hamburgerBtn.addEventListener("click", openDrawer);
-  el.closeDrawerBtn.addEventListener("click", closeDrawer);
-  el.drawerBackdrop.addEventListener("click", closeDrawer);
+      if (revState.step === "year") {
+        els.revBreadcrumb.textContent = "Step 1: Choose Year (MD1–MD5)";
+        els.revStepYear.querySelectorAll("button[data-rev-md]").forEach((btn) => {
+          btn.classList.toggle("selected-md", btn.dataset.revMd === revState.year);
+        });
+      } else if (revState.step === "subject") {
+        els.revBreadcrumb.textContent = `${revState.year} → Choose Subject`;
+        const subs = getSubjectsForYear(revState.year);
+        els.revSubjectGrid.innerHTML = "";
+        if (subs.length === 0) {
+          els.revSubjectGrid.innerHTML = `<div class="status-line">No subjects configured for ${revState.year} yet. Select MD5 to study available subjects.</div>`;
+        } else {
+          subs.forEach((s) => {
+            const btn = document.createElement("button");
+            btn.type = "button";
+            btn.className = "subject-tile";
+            btn.innerHTML = `<span class="subject-tile-name">${s.label}</span><span class="subject-tile-sub">Tap to select topics</span>`;
+            btn.addEventListener("click", () => {
+              revState.subjectId = s.id;
+              revState.topicIndex = null;
+              revState.step = "topic";
+              renderRevisionView();
+            });
+            els.revSubjectGrid.appendChild(btn);
+          });
+        }
+      } else if (revState.step === "topic") {
+        const subjName = getSubjectLabel(revState.subjectId);
+        els.revBreadcrumb.textContent = `${revState.year} → ${subjName} → Choose Topic`;
+        const topics = getTopicsForSubject(revState.subjectId);
+        els.revTopicList.innerHTML = "";
+        els.revConfirmStartBtn.disabled = revState.topicIndex === null;
 
-  document.querySelectorAll(".drawer-item[data-nav]").forEach((btn) => {
-    btn.addEventListener("click", () => {
-      const target = btn.getAttribute("data-nav");
-      closeDrawer();
-      if (target === "home") {
-        setView("home");
-      } else if (target === "single") {
-        launchBoard("single");
-      } else if (target === "multi") {
-        launchBoard("multi");
-      } else if (target === "revision") {
-        setView("revision");
-      } else if (target === "settings") {
-        openSettingsModal();
+        topics.forEach((t, idx) => {
+          const qCount = Array.isArray(t.questions) ? t.questions.length : 0;
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = `rev-topic-item${revState.topicIndex === idx ? " active-topic" : ""}`;
+          btn.innerHTML = `<span>${t.name}</span><span class="chat-badge">${qCount} Qs</span>`;
+          btn.addEventListener("click", () => {
+            revState.topicIndex = idx;
+            renderRevisionView();
+          });
+          els.revTopicList.appendChild(btn);
+        });
+      } else if (revState.step === "quiz") {
+        const topics = getTopicsForSubject(revState.subjectId);
+        const topicObj = topics[revState.topicIndex] || topics[0];
+        const qs = revState.questions || [];
+        const total = Math.max(1, qs.length);
+        const idx = Math.min(Math.max(0, revState.currentIndex), qs.length - 1);
+        const item = qs[idx];
+
+        let rightCount = 0;
+        let wrongCount = 0;
+        Object.entries(revState.answers).forEach(([qIdxStr, chosenIdx]) => {
+          const qObj = qs[Number(qIdxStr)];
+          if (qObj && typeof chosenIdx === "number") {
+            if (chosenIdx === qObj.correct) rightCount += 1;
+            else wrongCount += 1;
+          }
+        });
+
+        const pct = Math.round(((idx + 1) / total) * 100);
+        els.revBreadcrumb.textContent = `${revState.year} • ${topicObj ? topicObj.name : "Quiz"}`;
+        els.revProgressFill.style.width = `${pct}%`;
+        els.revScrubberDot.style.left = `${pct}%`;
+        els.revCounterText.textContent = `${idx + 1} / ${total}`;
+        els.revWrongPill.textContent = `✕ ${wrongCount}`;
+        els.revRightPill.textContent = `✓ ${rightCount}`;
+
+        if (!item) return;
+        els.revQuestionLabel.textContent = `Question ${idx + 1}`;
+        els.revQuestionText.textContent = item.q;
+
+        const chosenAns = revState.answers[idx];
+        const hasAnswered = typeof chosenAns === "number";
+
+        els.revOptionsBox.innerHTML = "";
+        (item.options || []).forEach((optText, oIdx) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.className = "rev-opt-btn";
+          btn.textContent = optText;
+
+          if (hasAnswered) {
+            if (oIdx === item.correct) btn.classList.add("correct");
+            else if (oIdx === chosenAns && chosenAns !== item.correct) btn.classList.add("wrong");
+          }
+
+          btn.addEventListener("click", () => {
+            if (typeof revState.answers[idx] === "number") return;
+            revState.answers[idx] = oIdx;
+            renderRevisionView();
+          });
+
+          els.revOptionsBox.appendChild(btn);
+        });
+
+        els.revHintBox.textContent = `Hint: ${item.hint || "Think through the core clinical mechanism."}`;
+        els.revHintBox.classList.toggle("visible", Boolean(revState.hintOpen));
+
+        if (hasAnswered) {
+          const isRight = chosenAns === item.correct;
+          els.revExplanationBox.textContent = `${isRight ? "Correct!" : "Incorrect."} ${item.explanation || ""}`;
+          els.revExplanationBox.classList.add("visible");
+        } else {
+          els.revExplanationBox.textContent = "";
+          els.revExplanationBox.classList.remove("visible");
+        }
+
+        els.revPrevBtn.disabled = idx <= 0;
+        els.revNextBtn.textContent = idx >= qs.length - 1 ? "Topics" : "Next";
+      }
+    }
+
+    function applyRemoteState(incoming, options = {}) {
+      if (!incoming || typeof incoming !== "object") return;
+      suppressBroadcast = true;
+      if (incoming.page === "board" || incoming.page === "setup" || incoming.page === "revision") {
+        state.page = incoming.page;
+      }
+      if (incoming.selectedYear && ["MD1", "MD2", "MD3", "MD4", "MD5"].includes(incoming.selectedYear)) {
+        state.selectedYear = incoming.selectedYear;
+      }
+      if (incoming.selectedSubject && SUBJECTS.some((s) => s.id === incoming.selectedSubject)) {
+        state.selectedSubject = incoming.selectedSubject;
+      }
+      state.mode = incoming.mode === "multi" ? "multi" : "1p";
+
+      if (typeof incoming.hostSeat === "number" && incoming.hostSeat >= 1 && incoming.hostSeat <= MAX_MULTI_PLAYERS) {
+        state.hostSeat = incoming.hostSeat;
+      }
+      state.allowOthersToAdd = Boolean(incoming.allowOthersToAdd);
+
+      if (Array.isArray(incoming.players) && incoming.players.length > 0) {
+        const incomingCount = state.mode === "multi"
+          ? Math.min(MAX_MULTI_PLAYERS, Math.max(MIN_MULTI_PLAYERS, incoming.players.length))
+          : 1;
+        state.players = makePlayers(incomingCount, incoming.players);
+      }
+
+      state.currentTurn = Number(incoming.currentTurn) || 1;
+      state.roundPlays = Number(incoming.roundPlays) || 0;
+      state.completedTurns = Number(incoming.completedTurns) || 0;
+      state.maxTurns = incoming.maxTurns === 0 ? 0 : (Number(incoming.maxTurns) || 10);
+      state.used = incoming.used && typeof incoming.used === "object" ? incoming.used : {};
+      state.gameOver = Boolean(incoming.gameOver);
+      state.lastAdvancedLockId = incoming.lastAdvancedLockId || state.lastAdvancedLockId;
+      state.activeLock = incoming.activeLock && typeof incoming.activeLock === "object"
+        ? { ...incoming.activeLock }
+        : null;
+
+      if (Array.isArray(incoming.chatMessages)) {
+        state.chatMessages = incoming.chatMessages.slice(-40);
+      }
+
+      updateUI();
+      if (state.gameOver) {
+        showWinnerModal();
+      }
+      suppressBroadcast = false;
+      if (!options.skipSync) {
+        persistLocalSession();
+      }
+    }
+
+    function getSnapshot() {
+      return {
+        page: state.page,
+        selectedYear: state.selectedYear,
+        selectedSubject: state.selectedSubject,
+        mode: state.mode,
+        players: getActiveRoster().map((p) => ({ ...p })),
+        hostSeat: state.hostSeat,
+        allowOthersToAdd: Boolean(state.allowOthersToAdd),
+        currentTurn: state.currentTurn,
+        roundPlays: state.roundPlays,
+        completedTurns: state.completedTurns,
+        maxTurns: state.maxTurns,
+        used: { ...state.used },
+        roomCode: state.roomCode,
+        gameOver: state.gameOver,
+        lastAdvancedLockId: state.lastAdvancedLockId,
+        activeLock: state.activeLock ? { ...state.activeLock } : null,
+        chatMessages: Array.isArray(state.chatMessages) ? state.chatMessages.slice(-40) : [],
+        updatedAt: Date.now()
+      };
+    }
+
+    function syncOut() {
+      persistLocalSession();
+      if (suppressBroadcast) return;
+      const snap = getSnapshot();
+      const keyCode = state.roomCode || "solo";
+      try {
+        localStorage.setItem(`sixseven_room_${keyCode}`, JSON.stringify(snap));
+      } catch (_) {}
+      if (channel) {
+        channel.postMessage({ roomCode: keyCode, payload: snap });
+      }
+      if (db && state.roomCode) {
+        set(ref(db, `rooms/${state.roomCode}`), snap).catch((err) => {
+          console.warn("Firebase write error:", err);
+        });
+      }
+    }
+
+    function subscribeToRoom(code, isJoiningExisting = false, opts = {}) {
+      const clean = normalizeCode(code);
+      if (clean.length !== 4) return;
+      state.roomCode = clean;
+      els.roomCodeInput.value = clean;
+
+      if (typeof unsubscribeRoom === "function") {
+        unsubscribeRoom();
+        unsubscribeRoom = null;
+      }
+
+      let remoteFound = false;
+      try {
+        const cached = localStorage.getItem(`sixseven_room_${clean}`);
+        if (cached) {
+          remoteFound = true;
+          applyRemoteState(JSON.parse(cached), { skipSync: true });
+        }
+      } catch (_) {}
+
+      if (!opts.preserveLocalSeat && isJoiningExisting) {
+        const roster = getActiveRoster();
+        if (!remoteFound && roster.length < MIN_MULTI_PLAYERS) {
+          state.players = makePlayers(MIN_MULTI_PLAYERS, state.players);
+        }
+        mySeat = Number(state.hostSeat) === 1 ? 2 : 1;
+        if (mySeat > getActiveRoster().length) {
+          mySeat = getActiveRoster().length;
+        }
+      }
+
+      if (db) {
+        const roomRef = ref(db, `rooms/${clean}`);
+        unsubscribeRoom = onValue(roomRef, (snapshot) => {
+          const val = snapshot.val();
+          if (val) {
+            applyRemoteState(val);
+          } else {
+            syncOut();
+          }
+        });
+      } else {
+        syncOut();
+      }
+
+      updateUI();
+    }
+
+    function selectMultiplePlayerModeAutoCode() {
+      state.mode = "multi";
+      const currentCount = state.players.length;
+      if (currentCount < MIN_MULTI_PLAYERS || currentCount > MAX_MULTI_PLAYERS) {
+        state.players = makePlayers(MIN_MULTI_PLAYERS, state.players);
+      }
+      state.hostSeat = 1;
+      state.allowOthersToAdd = false;
+      state.currentTurn = 1;
+      state.roundPlays = 0;
+      mySeat = 1;
+      if (!state.roomCode || state.roomCode.length !== 4) {
+        state.roomCode = random4DigitCode();
+      }
+      subscribeToRoom(state.roomCode, false);
+      syncOut();
+    }
+
+    function resetGame(keepRoom = true) {
+      stopTimer();
+      els.questionModal.classList.remove("open");
+      els.winnerModal.classList.remove("open");
+      state.completedTurns = 0;
+      state.roundPlays = 0;
+      state.currentTurn = 1;
+      state.lastAdvancedLockId = null;
+      state.players = state.players.map((p) => ({ ...p, score: 0 }));
+      state.used = {};
+      state.gameOver = false;
+      state.activeLock = null;
+      if (!keepRoom) {
+        state.roomCode = "";
+      }
+      updateUI();
+      syncOut();
+    }
+
+    // Drawer & Navigation Events
+    els.openDrawerBtn.addEventListener("click", () => setDrawerOpen(true));
+    els.closeDrawerBtn.addEventListener("click", () => setDrawerOpen(false));
+    els.drawerBackdrop.addEventListener("click", () => setDrawerOpen(false));
+
+    els.menuHomeBtn.addEventListener("click", () => {
+      stopTimer();
+      els.questionModal.classList.remove("open");
+      state.page = "setup";
+      setDrawerOpen(false);
+      updateUI();
+      syncOut();
+    });
+
+    els.menu1pBtn.addEventListener("click", () => {
+      state.mode = "1p";
+      state.currentTurn = 1;
+      state.roundPlays = 0;
+      mySeat = 1;
+      setDrawerOpen(false);
+      updateUI();
+      syncOut();
+    });
+
+    els.menuMultiBtn.addEventListener("click", () => {
+      selectMultiplePlayerModeAutoCode();
+      setDrawerOpen(false);
+    });
+
+    els.menuRevisionBtn.addEventListener("click", () => {
+      stopTimer();
+      els.questionModal.classList.remove("open");
+      state.page = "revision";
+      revState.step = "year";
+      revState.year = state.selectedYear || "MD5";
+      setDrawerOpen(false);
+      updateUI();
+      syncOut();
+    });
+
+    els.menuEndNowBtn.addEventListener("click", () => {
+      setDrawerOpen(false);
+      state.gameOver = true;
+      state.activeLock = null;
+      updateUI();
+      syncOut();
+      showWinnerModal();
+    });
+
+    els.menuResetBtn.addEventListener("click", () => {
+      setDrawerOpen(false);
+      resetGame(true);
+    });
+
+    els.menuQuitBtn.addEventListener("click", () => {
+      setDrawerOpen(false);
+      resetGame(true);
+      state.page = "setup";
+      updateUI();
+      syncOut();
+    });
+
+    els.backToHomeBtn.addEventListener("click", () => {
+      stopTimer();
+      els.questionModal.classList.remove("open");
+      state.page = "setup";
+      updateUI();
+      syncOut();
+    });
+
+    // MD1 - MD5 Selection & Confirmation Modal
+    els.mdYearButtons.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-md]");
+      if (!btn) return;
+      state.selectedYear = btn.dataset.md;
+      renderLandingYearsAndSubjects();
+      persistLocalSession();
+    });
+
+    els.startGameYesBtn.addEventListener("click", () => {
+      if (state.pendingSubject) {
+        state.selectedSubject = state.pendingSubject;
+      }
+      state.page = "board";
+      state.gameOver = false;
+      state.completedTurns = 0;
+      state.roundPlays = 0;
+      state.currentTurn = 1;
+      state.lastAdvancedLockId = null;
+      state.activeLock = null;
+      els.subjectConfirmModal.classList.remove("open");
+      updateUI();
+      syncOut();
+    });
+
+    els.cancelSubjectModalBtn.addEventListener("click", () => {
+      els.subjectConfirmModal.classList.remove("open");
+    });
+
+    // Chat Events
+    els.toggleChatBtn.addEventListener("click", () => {
+      chatMinimized = !chatMinimized;
+      els.floatingChat.classList.toggle("minimized", chatMinimized);
+      els.toggleChatBtn.textContent = chatMinimized ? "Expand" : "Minimize";
+      els.toggleChatBtn.setAttribute("aria-expanded", String(!chatMinimized));
+      persistLocalSession();
+    });
+
+    els.chatForm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const text = els.chatInput.value.trim();
+      if (!text) return;
+
+      const now = new Date();
+      const timeLabel = now.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
+      state.chatMessages.push({
+        id: `${Date.now()}_${Math.random().toString(36).slice(2, 6)}`,
+        sender: getSenderName(),
+        text,
+        time: timeLabel
+      });
+      state.chatMessages = state.chatMessages.slice(-40);
+      els.chatInput.value = "";
+      renderChat();
+      syncOut();
+    });
+
+    // Roster, Room & Turn Limit Events
+    els.allowAddToggleBtn.addEventListener("click", () => {
+      if (!isHostOnThisDevice()) return;
+      state.allowOthersToAdd = !state.allowOthersToAdd;
+      updateUI();
+      syncOut();
+    });
+
+    els.addPlayerBtn.addEventListener("click", () => {
+      if (!canAddPlayerOnThisDevice()) return;
+      const roster = getActiveRoster();
+      if (roster.length >= MAX_MULTI_PLAYERS) return;
+      state.players = makePlayers(roster.length + 1, roster);
+      state.roundPlays = 0;
+      updateUI();
+      syncOut();
+    });
+
+    els.removePlayerBtn.addEventListener("click", () => {
+      if (state.mode !== "multi" || !isHostOnThisDevice()) return;
+      const roster = getActiveRoster();
+      if (roster.length <= MIN_MULTI_PLAYERS) return;
+      state.players = makePlayers(roster.length - 1, roster);
+      state.roundPlays = 0;
+      if (state.currentTurn > state.players.length) {
+        state.currentTurn = 1;
+      }
+      if (mySeat > state.players.length) {
+        mySeat = 1;
+      }
+      updateUI();
+      syncOut();
+    });
+
+    els.turnLimitButtons.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-turns]");
+      if (!btn) return;
+      state.maxTurns = Number(btn.dataset.turns);
+      checkTurnLimitAndWinner();
+      updateUI();
+      syncOut();
+    });
+
+    els.generateRoomBtn.addEventListener("click", () => {
+      state.mode = "multi";
+      if (state.players.length < MIN_MULTI_PLAYERS) {
+        state.players = makePlayers(MIN_MULTI_PLAYERS, state.players);
+      }
+      state.hostSeat = 1;
+      state.allowOthersToAdd = false;
+      mySeat = 1;
+      state.currentTurn = 1;
+      state.roundPlays = 0;
+      state.roomCode = random4DigitCode();
+      subscribeToRoom(state.roomCode, false);
+      syncOut();
+    });
+
+    els.joinRoomBtn.addEventListener("click", () => {
+      const clean = normalizeCode(els.roomCodeInput.value);
+      if (clean.length !== 4) {
+        els.roomStatusText.textContent = "Enter a valid 4-digit room code (example: 4829).";
+        return;
+      }
+      state.mode = "multi";
+      if (state.players.length < MIN_MULTI_PLAYERS) {
+        state.players = makePlayers(MIN_MULTI_PLAYERS, state.players);
+      }
+      subscribeToRoom(clean, true);
+    });
+
+    els.seatSelect.addEventListener("change", () => {
+      const chosenSeat = Number(els.seatSelect.value);
+      const maxSeats = getActiveRoster().length;
+      if (chosenSeat >= 1 && chosenSeat <= maxSeats) {
+        mySeat = chosenSeat;
+        updateUI();
       }
     });
-  });
 
-  el.resetBoardBtn.addEventListener("click", () => {
-    closeDrawer();
-    if (state.view === "board") {
-      launchBoard(state.playerMode);
-    } else {
-      state.usedCells = new Set();
-      showNotice("Board tiles reset.");
+    els.roomCodeInput.addEventListener("input", () => {
+      els.roomCodeInput.value = normalizeCode(els.roomCodeInput.value);
+    });
+
+    // Question Modal Events
+    els.hintBtn.addEventListener("click", () => {
+      if (!state.activeLock || !isActivePlayerOnThisDevice()) return;
+      state.activeLock.hintShown = true;
+      updateUI();
+      syncOut();
+    });
+
+    els.submitMcqBtn.addEventListener("click", submitSelectedMcq);
+    els.closeQBtn.addEventListener("click", completeTurnAndCloseModal);
+
+    els.playAgainBtn.addEventListener("click", () => resetGame(true));
+    els.closeWinnerBtn.addEventListener("click", () => {
+      els.winnerModal.classList.remove("open");
+    });
+
+    // Deep Revision Mode Events
+    els.revExitToHomeBtn.addEventListener("click", () => {
+      state.page = "setup";
+      updateUI();
+      syncOut();
+    });
+
+    els.revStepYear.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-rev-md]");
+      if (!btn) return;
+      revState.year = btn.dataset.revMd;
+      revState.subjectId = null;
+      revState.topicIndex = null;
+      revState.step = "subject";
+      renderRevisionView();
+    });
+
+    els.revBackToYearBtn.addEventListener("click", () => {
+      revState.step = "year";
+      renderRevisionView();
+    });
+
+    els.revBackToSubjectBtn.addEventListener("click", () => {
+      revState.step = "subject";
+      renderRevisionView();
+    });
+
+    els.revConfirmStartBtn.addEventListener("click", () => {
+      if (revState.topicIndex === null) return;
+      const topics = getTopicsForSubject(revState.subjectId);
+      const topicObj = topics[revState.topicIndex];
+      revState.questions = Array.isArray(topicObj?.questions) ? topicObj.questions : [];
+      revState.currentIndex = 0;
+      revState.answers = {};
+      revState.hintOpen = false;
+      revState.step = "quiz";
+      renderRevisionView();
+    });
+
+    els.revHintToggleBtn.addEventListener("click", () => {
+      revState.hintOpen = !revState.hintOpen;
+      renderRevisionView();
+    });
+
+    els.revPrevBtn.addEventListener("click", () => {
+      if (revState.currentIndex > 0) {
+        revState.currentIndex -= 1;
+        revState.hintOpen = false;
+        renderRevisionView();
+      }
+    });
+
+    els.revNextBtn.addEventListener("click", () => {
+      if (revState.currentIndex < revState.questions.length - 1) {
+        revState.currentIndex += 1;
+        revState.hintOpen = false;
+        renderRevisionView();
+      } else {
+        revState.step = "topic";
+        renderRevisionView();
+      }
+    });
+
+    if (channel) {
+      channel.addEventListener("message", (event) => {
+        const msg = event.data;
+        const activeKey = state.roomCode || "solo";
+        if (msg && msg.roomCode === activeKey && msg.payload) {
+          applyRemoteState(msg.payload);
+        }
+      });
     }
-  });
 
-  el.quitGameBtn.addEventListener("click", () => {
-    closeDrawer();
-    setView("home");
-  });
-
-  el.autoExplainToggle.addEventListener("change", (e) => {
-    state.autoExplain = e.target.checked;
-    if (state.view === "revision" && !el.revisionQuizRunner.classList.contains("hidden")) {
-      renderRevisionQuestion();
+    async function loadSubjectsManifest() {
+      try {
+        const res = await fetch("./subjects.json", { cache: "no-store" });
+        if (res.ok) {
+          const manifest = await res.json();
+          if (Array.isArray(manifest) && manifest.length > 0) {
+            const valid = manifest.filter((item) => item && typeof item.id === "string" && typeof item.label === "string");
+            if (valid.length > 0) {
+              SUBJECTS = valid;
+              YEAR_SUBJECT_MAP.MD5 = SUBJECTS;
+              if (!SUBJECTS.some((s) => s.id === state.selectedSubject)) {
+                state.selectedSubject = SUBJECTS[0].id;
+              }
+            }
+          }
+        }
+      } catch (_) {}
     }
-  });
 
-  el.openRevisionHeroBtn.addEventListener("click", () => setView("revision"));
-  el.startBoardHeroBtn.addEventListener("click", () => launchBoard(state.playerMode));
-
-  el.confirmStartQuizBtn.addEventListener("click", startRevisionQuiz);
-
-  el.quizHintBtn.addEventListener("click", () => {
-    const isHidden = el.quizHintBox.classList.contains("hidden");
-    el.quizHintBox.classList.toggle("hidden", !isHidden);
-    el.quizHintChevron.textContent = isHidden ? "⌃" : "⌄";
-  });
-
-  el.quizBackBtn.addEventListener("click", () => {
-    if (state.revIndex > 0) {
-      state.revIndex--;
-      renderRevisionQuestion();
+    async function loadAllSubjectQuestionFiles() {
+      await Promise.all(
+        SUBJECTS.map(async (subj) => {
+          try {
+            const res = await fetch(`./${subj.id}.json`, { cache: "no-store" });
+            if (res.ok) {
+              const data = await res.json();
+              if (Array.isArray(data) && data.length > 0) {
+                QUESTION_BANK[subj.id] = data;
+              }
+            }
+          } catch (_) {}
+        })
+      );
     }
-  });
 
-  el.quizNextBtn.addEventListener("click", () => {
-    if (state.revIndex < state.revQuestions.length - 1) {
-      state.revIndex++;
-      renderRevisionQuestion();
-    } else {
-      resetRevisionToSelector();
+    async function initGame() {
+      restoreLocalSession();
+      await loadSubjectsManifest();
+      await loadAllSubjectQuestionFiles();
+      updateUI();
     }
-  });
 
-  el.closeModalBtn.addEventListener("click", closeModal);
-  el.modalBackdrop.addEventListener("click", (e) => {
-    if (e.target === el.modalBackdrop) closeModal();
-  });
-
-  initSubjects();
-})();
-</script>
+    initGame();
+  </script>
 </body>
-  </html>
+</html>
