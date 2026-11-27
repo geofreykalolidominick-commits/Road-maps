@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Immunological Disorders",
+    "questions": [
+      {
+        "q": "How is Immunity defined in the uploaded presentation?",
+        "options": [
+          "A) The resistance of an organism to infection, disease, or other unwanted biological invasion.",
+          "B) The passive, temporary transfer of preformed monoclonal antibodies across the blood-brain barrier.",
+          "C) The non-specific breakdown of dietary proteins in the gastrointestinal tract.",
+          "D) The irreversible suppression of bone marrow stem cells following viral exposure."
+        ],
+        "correct": 0,
+        "hint": "Resistance of an organism to infection, disease, or unwanted biological invasion.",
+        "explanation": "Immunity is defined as the resistance of an organism to infection, disease, or other unwanted biological invasion."
+      },
+      {
+        "q": "What are the primary functions of the immune system regarding self and non-self molecules?",
+        "options": [
+          "A) It synthesizes non-essential amino acids and filters metabolic waste from renal tubules.",
+          "B) It distinguishes self from non-self, eliminates potentially harmful non-self molecules/cells, and recognizes and destroys abnormal cells derived from host tissues.",
+          "C) It promotes autoimmune destruction of vascular endothelium to regulate blood pressure.",
+          "D) It prevents all leukocyte migration during active bacterial infections."
+        ],
+        "correct": 1,
+        "hint": "Distinguish self from non-self, eliminate harmful non-self, and destroy abnormal host cells.",
+        "explanation": "The immune system distinguishes self from non-self, eliminates harmful non-self entities, and recognizes and destroys abnormal host-derived cells."
+      },
+      {
+        "q": "According to the source, how is an Antigen (Ag) defined?",
+        "options": [
+          "A) An enzyme produced by B-lymphocytes that neutralizes bacterial toxins.",
+          "B) A lipid hormone secreted by the adrenal cortex to suppress fever.",
+          "C) Any molecule capable of being recognized by the immune system.",
+          "D) A structural protein found exclusively on the inner nuclear membrane of erythrocytes."
+        ],
+        "correct": 2,
+        "hint": "Any molecule that can be recognized by the immune system.",
+        "explanation": "An antigen is defined as any molecule capable of being recognized by the immune system."
+      },
+      {
+        "q": "Which components constitute the FIRST line of defense in non-specific (innate) immunity?",
+        "options": [
+          "A) T-lymphocytes, B-lymphocytes, and memory cells.",
+          "B) Phagocytic leukocytes, fever, and the complement cascade.",
+          "C) Monoclonal immunoglobulins and plasma cells.",
+          "D) Skin, mucous membranes, and secretions of skin and mucous membranes."
+        ],
+        "correct": 3,
+        "hint": "Physical and chemical surface barriers: skin, mucous membranes, and their secretions.",
+        "explanation": "The first line of innate defense consists of anatomical and chemical barriers: skin, mucous membranes, and their secretions."
+      },
+      {
+        "q": "Which components form the SECOND line of defense within non-specific (innate) mechanisms?",
+        "options": [
+          "A) Phagocytic leukocytes, antimicrobial proteins, inflammatory response, and fever.",
+          "B) Skin, cerumen wax, and gastric hydrochloric acid.",
+          "C) Sensitized CD4+ and CD8+ T-lymphocytes.",
+          "D) Natural active contact with disease pathogens."
+        ],
+        "correct": 0,
+        "hint": "Phagocytic leukocytes, antimicrobial proteins, inflammation, and fever.",
+        "explanation": "The second line of innate defense comprises phagocytic leukocytes, antimicrobial proteins, the inflammatory reaction, and fever."
+      },
+      {
+        "q": "What elements represent the THIRD line of defense (specific/adaptive immunity)?",
+        "options": [
+          "A) Lysozymes, properdin, and stomach acid.",
+          "B) Lymphocytes, antibodies, and memory cells.",
+          "C) Epithelial surfaces of the respiratory and vaginal tracts.",
+          "D) Neutrophils, eosinophils, and basophils."
+        ],
+        "correct": 1,
+        "hint": "Adaptive immunity relies on lymphocytes, antibodies, and memory cells.",
+        "explanation": "Specific (adaptive) immunity constitutes the third line of defense and relies on lymphocytes, antibodies, and memory cells."
+      },
+      {
+        "q": "What is an example of Natural Passive Acquired Immunity?",
+        "options": [
+          "A) Active infection with a wild pathogen.",
+          "B) Administration of routine viral vaccines.",
+          "C) Maternal antibody transfer across the placenta or through mother's milk.",
+          "D) Infusion of hyperimmune serum."
+        ],
+        "correct": 2,
+        "hint": "Antibodies transferred naturally via the placenta or breast milk.",
+        "explanation": "Natural passive acquired immunity occurs naturally via transplacental IgG transfer or ingestion of IgA in colostrum/mother's milk."
+      },
+      {
+        "q": "Which chemical secretions are listed as mechanisms of innate immunity?",
+        "options": [
+          "A) Interleukin-2 and Interferon-gamma.",
+          "B) Monoclonal IgG and IgE antibodies.",
+          "C) Antinuclear antibodies and rheumatoid factor.",
+          "D) Oils and sweat, lysozymes, properdine, leukins, beta lysine, HCl, bile, and cerumen wax."
+        ],
+        "correct": 3,
+        "hint": "Look for oils/sweat, lysozymes, properdine, leukins, beta lysine, HCl, bile, and cerumen.",
+        "explanation": "Innate chemical barriers include cutaneous oils/sweat, lysozymes, properdine, leukins, beta lysine, gastric HCl, bile, and cerumen wax."
+      },
+      {
+        "q": "How is an Antibody defined in the provided source?",
+        "options": [
+          "A) A specific substance produced by the body in response to an antigen to defend the body.",
+          "B) A foreign structural polysaccharide that triggers tissue damage.",
+          "C) A hormone secreted by the thymus to stimulate granulopoiesis.",
+          "D) An intracellular receptor that blocks viral mRNA transcription."
+        ],
+        "correct": 0,
+        "hint": "A protective substance made by the body in response to an antigen.",
+        "explanation": "An antibody is a substance synthesized by the body in response to a specific antigen to defend the host."
+      },
+      {
+        "q": "Into what four major clinical categories are immune system disorders classified?",
+        "options": [
+          "A) Anemia, Leukopenia, Thrombocytopenia, and Pancytopenia.",
+          "B) Immunodeficiency, Gammapathy, Hypersensitivity, and Autoimmunity.",
+          "C) Rhinitis, Asthma, Urticaria, and Anaphylaxis.",
+          "D) Primary, Secondary, Tertiary, and Quaternary dysfunctions."
+        ],
+        "correct": 1,
+        "hint": "Immunodeficiency, gammapathy, hypersensitivity, and autoimmunity.",
+        "explanation": "Immune system dysfunctions are categorized into four major types: Immunodeficiency, Gammapathy, Hypersensitivity, and Autoimmunity."
+      },
+      {
+        "q": "What characterizes the PRIMARY Immune Response when the body encounters an invader for the FIRST time?",
+        "options": [
+          "A) Immediate, maximal antibody production within 30 seconds.",
+          "B) Instantaneous destruction of all antigens by memory T-cells.",
+          "C) No measurable immune response for the first few days, followed by steady antibody growth over the next 10–15 days.",
+          "D) Complete absence of lymphocyte involvement."
+        ],
+        "correct": 2,
+        "hint": "A lag of a few days with no measurable response, then steady rise over 10–15 days.",
+        "explanation": "During a primary immune response, there is a lag period with no measurable response for the first few days, followed by steady antibody synthesis over 10–15 days."
+      },
+      {
+        "q": "What distinguishes the SECONDARY Immune Response from the primary response upon re-exposure to an antigen?",
+        "options": [
+          "A) It is significantly slower and generates fewer antibodies.",
+          "B) It relies exclusively on innate epithelial barriers.",
+          "C) It causes immediate atrophy of secondary lymphoid organs.",
+          "D) It is a more rapid response where antibody production increases dramatically in a much shorter time period."
+        ],
+        "correct": 3,
+        "hint": "Faster onset and a dramatic surge in antibodies over a shorter period.",
+        "explanation": "The secondary immune response is rapid and produces dramatically higher antibody titers over a shorter duration due to immunological memory."
+      },
+      {
+        "q": "What defines Immunodeficiency?",
+        "options": [
+          "A) A state in which the ability of the immune system to fight infectious disease and cancer is compromised or entirely absent.",
+          "B) An overactive immune response directed exclusively against ingested food proteins.",
+          "C) The physiological elevation of blood white blood cells during exercise.",
+          "D) A benign, temporary accumulation of plasma cells in the spleen."
+        ],
+        "correct": 0,
+        "hint": "Compromised or absent ability of the immune system to fight infection and cancer.",
+        "explanation": "Immunodeficiency is a state where immune capacity to combat pathogens and malignant neoplasms is impaired or absent."
+      },
+      {
+        "q": "What is the fundamental origin of PRIMARY Immunodeficiency disorders?",
+        "options": [
+          "A) Environmental toxin exposure in geriatric populations.",
+          "B) Intrinsic, inherited defects in the immune system (often gene mutations), usually manifesting in infants and young children.",
+          "C) High-dose antineoplastic chemotherapy for solid tumors.",
+          "D) Chronic end-stage renal disease."
+        ],
+        "correct": 1,
+        "hint": "Intrinsic, inherited gene defects usually seen in infants and young children.",
+        "explanation": "Primary immunodeficiencies stem from intrinsic, inherited gene defects/mutations and typically present during infancy or early childhood."
+      },
+      {
+        "q": "Which conditions are listed as specific genetic examples of PRIMARY Immunodeficiency?",
+        "options": [
+          "A) AIDS, Multiple Myeloma, and Leukemia.",
+          "B) Diabetes mellitus, Severe burns, and Malnutrition.",
+          "C) X-linked agammaglobulinemia (XLA), Common variable immunodeficiency (CVID), and Severe combined immunodeficiency (SCID).",
+          "D) Goodpasture syndrome, Graves disease, and Myasthenia gravis."
+        ],
+        "correct": 2,
+        "hint": "XLA, CVID, and SCID.",
+        "explanation": "X-linked agammaglobulinemia, CVID, and SCID are classic primary immunodeficiencies caused by intrinsic genetic mutations."
+      },
+      {
+        "q": "What causes SECONDARY Immunodeficiency disorders?",
+        "options": [
+          "A) Congenital chromosomal deletions present at conception.",
+          "B) Overproduction of polyclonal IgM immunoglobulins.",
+          "C) Inborn errors of amino acid metabolism.",
+          "D) Outside sources or underlying chronic illnesses that interfere with the normal growth or expression of the immune system later in life."
+        ],
+        "correct": 3,
+        "hint": "External factors or chronic illnesses acquired later in life.",
+        "explanation": "Secondary immunodeficiencies develop later in life secondary to external factors (chemotherapy, radiation, toxins) or chronic systemic diseases."
+      },
+      {
+        "q": "Which underlying causes and diseases are categorized as SECONDARY Immunodeficiencies?",
+        "options": [
+          "A) Severe burns, chemotherapy, radiation, diabetes, malnutrition, AIDS, leukemia, and multiple myeloma.",
+          "B) XLA, CVID, and SCID.",
+          "C) Post-streptococcal glomerulonephritis and serum sickness.",
+          "D) Atopy, allergic rhinitis, and asthma."
+        ],
+        "correct": 0,
+        "hint": "Burns, chemotherapy, radiation, diabetes, malnutrition, AIDS, leukemia, and multiple myeloma.",
+        "explanation": "Extrinsic insults like burns, chemotherapy, radiation, malnutrition, HIV/AIDS, and hematological malignancies cause secondary immunodeficiency."
+      },
+      {
+        "q": "What key feature distinguishes Monoclonal Gammapathy from Polyclonal Gammapathy?",
+        "options": [
+          "A) Monoclonal involves T-cell apoptosis; Polyclonal involves neutrophil lysis.",
+          "B) Monoclonal involves overproduction of ONE class of immunoglobulins; Polyclonal involves overproduction of VIRTUALLY ALL classes of immunoglobulins.",
+          "C) Monoclonal occurs only in neonates; Polyclonal occurs only in the elderly.",
+          "D) Monoclonal is caused by fungal infection; Polyclonal is caused by helminths."
+        ],
+        "correct": 1,
+        "hint": "Monoclonal = one class of immunoglobulins; Polyclonal = virtually all classes.",
+        "explanation": "Monoclonal gammapathy is the single-clone overproduction of one immunoglobulin class, whereas polyclonal gammapathy exhibits elevation across virtually all classes."
+      },
+      {
+        "q": "How is Hypersensitivity defined in the text?",
+        "options": [
+          "A) Complete absence of antibody production following antigen exposure.",
+          "B) Normal physiological inflammation restricted to wound healing.",
+          "C) An exaggerated and/or pathological immune response to exogenous or endogenous substances.",
+          "D) Passive neutralization of bacterial toxins by complement proteins."
+        ],
+        "correct": 2,
+        "hint": "An exaggerated or pathological immune response to foreign or self substances.",
+        "explanation": "Hypersensitivity is defined as an exaggerated or pathological immune response to foreign or self substances."
+      },
+      {
+        "q": "What is the definition of Allergy provided in the source?",
+        "options": [
+          "A) An autoimmune reaction against nuclear DNA-protein complexes.",
+          "B) A congenital absence of phagocytic leukocytes.",
+          "C) A bacterial bloodstream invasion leading to septic shock.",
+          "D) An abnormal immunological response to an otherwise harmless environmental stimulus (e.g., food, pollen, animal dander)."
+        ],
+        "correct": 3,
+        "hint": "An abnormal immune response to an otherwise harmless environmental antigen.",
+        "explanation": "Allergy is specifically defined as an abnormal immune response to an otherwise harmless environmental antigen."
+      },
+      {
+        "q": "Which clinical manifestations are characteristic signs of Immunodeficiency in pediatric patients?",
+        "options": [
+          "A) Opportunistic infections, recurrent pneumonia, bronchitis, sinus/ear infections, growth/developmental delay, oral ulcers, and digestive problems.",
+          "B) Isolated hypertension, obesity, and hyperkeratosis.",
+          "C) Polycythemia, splenomegaly, and bounding pulses.",
+          "D) Rapid hair growth and joint hypermobility."
+        ],
+        "correct": 0,
+        "hint": "Recurrent or opportunistic infections, growth/developmental delay, oral ulcers, and GI problems.",
+        "explanation": "Immunodeficiency presents with recurrent or opportunistic sinopulmonary infections, delayed growth, blood disorders, and mucocutaneous lesions."
+      },
+      {
+        "q": "What therapeutic modalities are listed for managing and boosting the immune system in Immunodeficiency disorders?",
+        "options": [
+          "A) High-dose antimetabolites and radiation therapy.",
+          "B) Immunoglobulin therapy, Interferon-gamma therapy, Growth factors, and Stem cell transplantation.",
+          "C) Long-term oral antihistamines and decongestants exclusively.",
+          "D) Surgical splenectomy and phlebotomy."
+        ],
+        "correct": 1,
+        "hint": "Immunoglobulin therapy, interferon-gamma, growth factors, and stem cell transplantation.",
+        "explanation": "Immunodeficiency management includes infection control, immunoglobulin replacement, interferon-gamma, hematopoietic growth factors, and stem cell transplantation."
+      },
+      {
+        "q": "In the context of hypersensitivity, what defines the 'Sensitization' phase?",
+        "options": [
+          "A) Severe anaphylactic shock occurring upon initial antigen contact.",
+          "B) The rapid degranulation of basophils without prior antibody production.",
+          "C) The initial, asymptomatic contact with an antigen that produces an immune response.",
+          "D) Delayed tissue necrosis mediated by cytotoxic T-cells 10 years after exposure."
+        ],
+        "correct": 2,
+        "hint": "The initial, asymptomatic contact with an antigen that primes an immune response.",
+        "explanation": "Sensitization is the initial, clinically silent exposure to an antigen that induces antibody formation or T-cell priming."
+      },
+      {
+        "q": "What is the cellular mechanism and antibody type driving TYPE I (Immediate) Hypersensitivity?",
+        "options": [
+          "A) IgM binding to cell surface antigens leading to complement lysis.",
+          "B) Circulating IgG-antigen immune complexes depositing in blood vessels.",
+          "C) Presensitized CD4+ T-cells releasing inflammatory cytokines.",
+          "D) Preformed IgE antibodies coating mast cells and basophils that are crosslinked by free antigen, causing cell degranulation and histamine release."
+        ],
+        "correct": 3,
+        "hint": "Antigen crosslinks IgE on mast cells/basophils, triggering histamine release.",
+        "explanation": "Type I hypersensitivity is mediated by antigen crosslinking of IgE on mast cells/basophils, triggering immediate degranulation of histamine and mediators."
+      },
+      {
+        "q": "Which clinical conditions are classic examples of TYPE I (Immediate) Hypersensitivity?",
+        "options": [
+          "A) Asthma, Allergic rhinitis, Atopy, Anaphylaxis, Food allergies, and Insect venom allergies.",
+          "B) Autoimmune hemolytic anemia, ITP, and Goodpasture syndrome.",
+          "C) Serum sickness, Post-streptococcal glomerulonephritis, and SLE.",
+          "D) Contact dermatitis, Mantoux tuberculin test, and Type 1 Diabetes."
+        ],
+        "correct": 0,
+        "hint": "Asthma, allergic rhinitis, atopy, anaphylaxis, food allergies, and insect stings.",
+        "explanation": "Type I reactions include allergic asthma, allergic rhinitis, systemic anaphylaxis, food allergies, and insect sting reactions."
+      },
+      {
+        "q": "What immunologic mechanism defines TYPE II (Cytotoxic / Antibody-Mediated) Hypersensitivity?",
+        "options": [
+          "A) IgE-mediated histamine release from basophils.",
+          "B) IgM or IgG antibodies binding to cell surface/tissue antigens, causing complement activation, phagocytosis, ADCC, or cellular dysfunction.",
+          "C) Deposition of circulating soluble immune complexes in small capillaries.",
+          "D) Direct CD8+ T-cell killing of uninfected somatic cells."
+        ],
+        "correct": 1,
+        "hint": "IgM or IgG binding to cell/tissue antigens.",
+        "explanation": "Type II hypersensitivity involves IgG/IgM binding to tissue/cell surface antigens, activating complement or cell-mediated destruction."
+      },
+      {
+        "q": "Which diseases represent TYPE II Hypersensitivity involving DIRECT CELL DESTRUCTION?",
+        "options": [
+          "A) Asthma and allergic rhinitis.",
+          "B) Serum sickness and hypersensitivity pneumonitis.",
+          "C) Acute hemolytic transfusion reaction, Autoimmune hemolytic anemia (AIHA), Hemolytic disease of the newborn, ITP, and Pernicious anemia.",
+          "D) Contact dermatitis and Stevens-Johnson syndrome."
+        ],
+        "correct": 2,
+        "hint": "Hemolytic transfusion reactions, AIHA, hemolytic disease of the newborn, ITP, and pernicious anemia.",
+        "explanation": "Cytotoxic Type II cell-destructive examples include hemolytic transfusion reactions, AIHA, fetal/neonatal hemolytic disease, ITP, and pernicious anemia."
+      },
+      {
+        "q": "Which conditions are examples of TYPE II Hypersensitivity leading to INFLAMMATION or IMPAIRED CELLULAR FUNCTION?",
+        "options": [
+          "A) Anaphylaxis and latex allergy.",
+          "B) Polyarteritis nodosa and IgA nephropathy.",
+          "C) Mantoux tuberculin test and Graft-versus-host disease.",
+          "D) Goodpasture syndrome, Rheumatic fever, Graves disease, Bullous pemphigoid, Pemphigus vulgaris, and Myasthenia gravis."
+        ],
+        "correct": 3,
+        "hint": "Goodpasture syndrome, rheumatic fever, Graves disease, pemphigoid/pemphigus, and myasthenia gravis.",
+        "explanation": "Type II inflammatory (Goodpasture, Rheumatic fever) and functional impairment disorders (Graves, Myasthenia gravis, Pemphigus) target tissue receptors/antigens."
+      },
+      {
+        "q": "What sequence of events drives TYPE III (Immune Complex) Hypersensitivity?",
+        "options": [
+          "A) IgG antibodies bind circulating antigens to form immune complexes that deposit in tissues, activate complement, attract neutrophils, and cause tissue lysis.",
+          "B) IgE crosslinks on mast cells causing localized edema.",
+          "C) CD4+ T-cells release IL-2 to stimulate epidermal hyperkeratosis.",
+          "D) Direct autoantibody destruction of thyroid follicular cells."
+        ],
+        "correct": 0,
+        "hint": "Circulating IgG-antigen immune complexes deposit in tissues, activate complement, and recruit neutrophils.",
+        "explanation": "Type III reactions occur when soluble circulating antigen-IgG complexes deposit in microvasculature, activating complement and recruiting destructive neutrophils."
+      },
+      {
+        "q": "Which clinical entities are categorized as TYPE III (Immune Complex) Hypersensitivity?",
+        "options": [
+          "A) Food allergy and anaphylaxis.",
+          "B) Serum sickness, Drug-induced vasculitis, Hypersensitivity pneumonitis, Polyarteritis Nodosa (PAN), Post-streptococcal glomerulonephritis (PSGN), IgA nephropathy, and Systemic Lupus Erythematosus (SLE).",
+          "C) Pernicious anemia and Myasthenia gravis.",
+          "D) Nickel contact dermatitis and Multiple Sclerosis."
+        ],
+        "correct": 1,
+        "hint": "Serum sickness, vasculitis, hypersensitivity pneumonitis, PAN, PSGN, IgA nephropathy, and SLE.",
+        "explanation": "Type III immune complex-mediated diseases include serum sickness, vasculitis, PSGN, IgA nephropathy, PAN, and SLE."
+      },
+      {
+        "q": "What pathophysiological mechanism defines TYPE IV (Delayed / T-Cell Mediated) Hypersensitivity?",
+        "options": [
+          "A) Preformed IgE antibodies triggering immediate histamine release.",
+          "B) Complement activation by cell-bound IgM antibodies.",
+          "C) Contact of antigen with presensitized T-lymphocytes (CD4+ cells releasing cytokines to activate macrophages, or CD8+ cells causing direct cell cytotoxicity).",
+          "D) Accumulation of circulating antibody-antigen aggregates in glomeruli."
+        ],
+        "correct": 2,
+        "hint": "Presensitized T-cells (CD4+ activating macrophages or CD8+ direct cytotoxicity).",
+        "explanation": "Type IV hypersensitivity is cell-mediated: presensitized CD4+ T-cells activate macrophages via cytokines, while CD8+ T-cells exert direct cytotoxicity."
+      },
+      {
+        "q": "Which clinical conditions and diagnostic tests represent TYPE IV (Delayed) Hypersensitivity?",
+        "options": [
+          "A) Atopy and allergic transfusion reactions.",
+          "B) Autoimmune hemolytic anemia and Rheumatic fever.",
+          "C) Polyarteritis nodosa and Membranous nephropathy.",
+          "D) Acute/chronic transplant rejection, Contact dermatitis (nickel, poison ivy), Mantoux tuberculin skin test, SJS/TEN, DRESS, Multiple Sclerosis, Hashimoto's Thyroiditis, Rheumatoid Arthritis, and Type 1 Diabetes."
+        ],
+        "correct": 3,
+        "hint": "Transplant rejection, contact dermatitis, Mantoux test, SJS/TEN, DRESS, MS, Hashimoto's, RA, and Type 1 DM.",
+        "explanation": "Type IV cell-mediated reactions include contact dermatitis, tuberculin skin testing, transplant rejection, SJS/TEN, DRESS, and cell-mediated autoimmune diseases (MS, Type 1 DM, RA)."
+      },
+      {
+        "q": "Which respiratory signs and symptoms are listed as clinical manifestations of severe Hypersensitivity?",
+        "options": [
+          "A) Rhinorrhea, sneezing, sinusitis, bronchospasm, dyspnea, tachypnea, wheezing, cyanosis, nasal flaring, and use of accessory muscles.",
+          "B) Isolated stridor with normal lung sounds.",
+          "C) Bradypnea and central apnea.",
+          "D) Productive cough with rusty sputum."
+        ],
+        "correct": 0,
+        "hint": "Rhinorrhea, sneezing, sinusitis, bronchospasm, dyspnea, tachypnea, wheezing, cyanosis, flaring, accessory muscles.",
+        "explanation": "Respiratory signs of hypersensitivity encompass upper mucosal symptoms (rhinorrhea, sneezing) and lower airway obstruction (bronchospasm, wheezing, accessory muscle use, cyanosis)."
+      },
+      {
+        "q": "What tegumentary (skin) clinical manifestations occur during Hypersensitivity reactions?",
+        "options": [
+          "A) Hyperpigmentation and hyperkeratosis.",
+          "B) Edema, rashes, urticaria, angioedema, itching, diaphoresis, cyanosis, and skin discoloration.",
+          "C) Telangiectasias and jaundice.",
+          "D) Alopecia totalis and petechiae."
+        ],
+        "correct": 1,
+        "hint": "Edema, rashes, urticaria, angioedema, itching, diaphoresis, cyanosis, and discoloration.",
+        "explanation": "Cutaneous hypersensitivity features urticaria, angioedema, generalized pruritus, rash, and localized swelling."
+      },
+      {
+        "q": "What specialized diagnostic tests are used specifically to identify environmental or food ALLERGENS in hypersensitivity evaluations?",
+        "options": [
+          "A) Antinuclear antibody (ANA) and Lumbar puncture.",
+          "B) Bone marrow biopsy and Renal ultrasound.",
+          "C) Skin prick test, Intradermal test, Patch testing, Provocation testing, Eosinophil count, and Oral food challenges.",
+          "D) Direct Coombs test and Blood cultures."
+        ],
+        "correct": 2,
+        "hint": "Skin prick, intradermal, patch, provocation, eosinophil count, and oral food challenges.",
+        "explanation": "Allergen testing utilizes skin prick tests, intradermal/patch testing, provocation tests, eosinophil counts, and oral challenges."
+      },
+      {
+        "q": "Which diagnostic blood tests are ordered in the laboratory evaluation of Hypersensitivity?",
+        "options": [
+          "A) Blood urea nitrogen and Creatinine clearance.",
+          "B) Thyroid stimulating hormone and Thyroxine.",
+          "C) Cerebrospinal fluid protein and Glucose.",
+          "D) Complete blood count, Allergen-specific IgE blood tests, Histamine and Tryptase tests, Cytotoxic tests, and Genetic testing."
+        ],
+        "correct": 3,
+        "hint": "CBC, allergen-specific IgE, histamine and tryptase, cytotoxic tests, and genetic testing.",
+        "explanation": "Lab evaluation of hypersensitivity includes CBC (for eosinophilia), allergen-specific IgE, serum tryptase/histamine levels, and cytotoxic assays."
+      },
+      {
+        "q": "What pharmacological classes and specific agents are listed for the GENERAL MANAGEMENT of Hypersensitivity reactions?",
+        "options": [
+          "A) Antihistamines (Benadryl), Decongestants (Phenylephrine), Mast cell stabilizers (Cromolyn Sodium), Corticosteroids (Prednisolone, Dexamethasone), Adrenaline/Epinephrine, and Aminophylline/Theophylline.",
+          "B) Penicillin, Gentamicin, and Vancomycin.",
+          "C) Methotrexate, Cyclophosphamide, and Cisplatin.",
+          "D) Insulin, Glucagon, and Metformin."
+        ],
+        "correct": 0,
+        "hint": "Benadryl, phenylephrine, cromolyn sodium, prednisolone/dexamethasone, adrenaline/epinephrine, aminophylline/theophylline.",
+        "explanation": "Hypersensitivity management relies on H1-blockers, decongestants, mast cell stabilizers, corticosteroids, epinephrine, and bronchodilators."
+      },
+      {
+        "q": "How is an Autoimmune Disorder defined in the provided source?",
+        "options": [
+          "A) A primary genetic inability to produce functioning T-cell receptors.",
+          "B) A group of disorders in which tissue injury is caused by a humoral or cell-mediated immune response to self tissues (self antigens).",
+          "C) An acute bacterial infection of the lymphatic vessels.",
+          "D) A transient allergic response triggered by cold weather exposure."
+        ],
+        "correct": 1,
+        "hint": "Tissue injury caused by a humoral or cell-mediated immune response to self antigens.",
+        "explanation": "Autoimmune disorders occur when humoral or cellular immune effector mechanisms target and damage healthy self-tissues."
+      },
+      {
+        "q": "What proposed etiology is discussed regarding the trigger for Autoimmune Disorders?",
+        "options": [
+          "A) Ingestion of excessively pasteurized dairy products.",
+          "B) High exposure to ultraviolet radiation in neonates.",
+          "C) Microorganisms (bacteria or viruses) or drugs triggering changes that confuse the immune system in genetically susceptible individuals.",
+          "D) Complete absence of memory B-lymphocytes."
+        ],
+        "correct": 2,
+        "hint": "Microorganisms (bacteria/viruses) or drugs in genetically susceptible people.",
+        "explanation": "Autoimmunity is thought to be triggered by infectious pathogens or medications that alter self-antigens or induce molecular mimicry in genetically predisposed hosts."
+      },
+      {
+        "q": "What three primary pathological consequences can result from an Autoimmune Disorder?",
+        "options": [
+          "A) Intravascular hemolysis, systemic hypertension, and renal calculus formation.",
+          "B) Hyperthermia, muscle hypertrophy, and bone hyperostosis.",
+          "C) Hyperinsulinemia, hypocalcemia, and polycythemia.",
+          "D) Destruction of body tissue, abnormal growth of an organ, and changes in organ function."
+        ],
+        "correct": 3,
+        "hint": "Destruction of body tissue, abnormal organ growth, and changes in organ function.",
+        "explanation": "Autoimmune responses manifest pathologically via tissue destruction, dysregulated organ growth, or functional organ alterations."
+      },
+      {
+        "q": "Which conditions are listed among the COMMON Autoimmune Disorders in the text?",
+        "options": [
+          "A) Addison disease, Celiac disease, Dermatomyositis, Graves disease, Hashimoto Thyroiditis, IBD, Multiple sclerosis, Myasthenia gravis, Pernicious anemia, Reactive arthritis, Rheumatoid arthritis, Sjögren syndrome, SLE, and Type 1 Diabetes.",
+          "B) XLA, CVID, SCID, and Wiskott-Aldrich syndrome.",
+          "C) Asthma, Atopy, Urticaria, and Anaphylaxis.",
+          "D) Multiple Myeloma, Hodgkin Lymphoma, and Leukemia."
+        ],
+        "correct": 0,
+        "hint": "Addison, celiac, dermatomyositis, Graves, Hashimoto's, IBD, MS, myasthenia gravis, pernicious anemia, RA, Sjögren's, SLE, Type 1 DM.",
+        "explanation": "The source lists a comprehensive panel of systemic and organ-specific autoimmune disorders including Lupus, RA, MS, Celiac, Graves, and Type 1 DM."
+      },
+      {
+        "q": "How are Autoimmune Diseases sub-classified based on the location of the autoimmune attack?",
+        "options": [
+          "A) Acute vs Chronic.",
+          "B) Systemic (affecting many organs) vs Organ-Specific (affecting one main organ).",
+          "C) Congenital vs Neonatal.",
+          "D) Benign vs Malignant."
+        ],
+        "correct": 1,
+        "hint": "Systemic vs. organ-specific.",
+        "explanation": "Autoimmune diseases are anatomically classified as Systemic (multi-organ) or Organ-Specific (targeting a single organ/tissue)."
+      },
+      {
+        "q": "What defines SYSTEMIC Autoimmune Diseases, and what are typical examples?",
+        "options": [
+          "A) Disorders where autoantigens are restricted to skin keratinocytes alone.",
+          "B) Disorders caused by acute bacterial toxin production in the gut.",
+          "C) Disorders where autoantigens (e.g., DNA-protein complexes) are found in almost any cell type, causing pathological damage across many organs; examples include Rheumatoid Arthritis, SLE, Scleroderma, and Dermatomyositis.",
+          "D) Conditions that resolve spontaneously within 48 hours without therapy."
+        ],
+        "correct": 2,
+        "hint": "Widespread autoantigens (like DNA-protein complexes) affecting many organs; e.g., RA, SLE, scleroderma, dermatomyositis.",
+        "explanation": "Systemic autoimmune diseases target ubiquitously expressed autoantigens (like nuclear complexes), resulting in widespread multi-organ injury (e.g., SLE, RA, Scleroderma)."
+      },
+      {
+        "q": "What defines ORGAN-SPECIFIC Autoimmune Diseases, and what specific organ-target pairs are listed?",
+        "options": [
+          "A) Disorders involving generalized vasculitis of all large arteries.",
+          "B) Disorders where autoantibodies deposit exclusively in cardiac valves.",
+          "C) Disorders affecting only the central nervous system reticular activating system.",
+          "D) Disorders where a particular organ or tissue is preferentially targeted; examples include the Thyroid gland in Graves disease, Beta cells of the endocrine pancreas in Type 1 Diabetes, and Skin in Vitiligo."
+        ],
+        "correct": 3,
+        "hint": "Targets a specific organ/tissue, such as thyroid in Graves, pancreatic beta cells in Type 1 DM, or skin in vitiligo.",
+        "explanation": "Organ-specific autoimmunity focuses immune destruction on a single tissue/organ, such as thyroid tissue in Graves, pancreatic beta cells in Type 1 DM, or melanocytes in Vitiligo."
+      },
+      {
+        "q": "Which general clinical manifestations are common across Autoimmune Diseases?",
+        "options": [
+          "A) Fatigue, low-grade fever, hair loss, skin rashes, achy muscles, trouble concentrating, tissue overgrowth (psoriasis), swelling/redness, numbness/tingling in hands/feet, and general weakness.",
+          "B) High-grade fever with purpuric rash and neck stiffness exclusively.",
+          "C) Bounding peripheral pulses and severe hypertension.",
+          "D) Rapid weight gain and massive muscle hypertrophy."
+        ],
+        "correct": 0,
+        "hint": "Fatigue, low fever, hair loss, rashes, achy muscles, trouble concentrating, psoriasis, swelling/redness, numbness/tingling, weakness.",
+        "explanation": "Constitutional and neuromuscular features of autoimmunity include fatigue, low fever, myalgias, arthralgias, rashes, alopecia, and peripheral neuropathic symptoms."
+      },
+      {
+        "q": "Which key LABORATORY tests are ordered during the diagnostic evaluation of suspected Autoimmune Diseases?",
+        "options": [
+          "A) Serum IgE, Histamine levels, and Skin prick test.",
+          "B) Antinuclear antibody (ANA) tests, Autoantibody tests, FBP with WBC differential, Metabolic panel, CRP, ESR, and Urinalysis.",
+          "C) Blood cultures, Stool culture, and Viral PCR.",
+          "D) Sweat chloride test and Fractional excretion of sodium."
+        ],
+        "correct": 1,
+        "hint": "ANA, autoantibody tests, FBP with WBC differential, metabolic panel, CRP, ESR, and urinalysis.",
+        "explanation": "Autoimmune diagnostic panels rely on ANA screening, specific autoantibody titers, inflammatory markers (ESR, CRP), complete blood counts, metabolic profiles, and urinalysis."
+      },
+      {
+        "q": "A 7-year-old boy presents with recurrent bacterial sinopulmonary infections, chronic diarrhea, and poor weight gain, with low serum IgG, IgA, and IgM and a mutation affecting B-cell development. Classify this immunodeficiency, state whether it is intrinsic or extrinsic, and name the primary treatment.",
+        "options": [
+          "A) Secondary Immunodeficiency; Extrinsic; Give systemic chemotherapy.",
+          "B) Monoclonal Gammapathy; Intrinsic; Perform immediate splenectomy.",
+          "C) Primary Immunodeficiency; Intrinsic (inherited gene defect); Manage with Immunoglobulin Therapy (and infection control).",
+          "D) Type I Hypersensitivity; Extrinsic; Administer oral cromolyn sodium."
+        ],
+        "correct": 2,
+        "hint": "Genetic B-cell defect with low immunoglobulins = Primary (intrinsic) immunodeficiency; treat with immunoglobulin therapy.",
+        "explanation": "Recurrent infections with pan-hypogammaglobulinemia due to a genetic mutation represent a Primary (intrinsic) Immunodeficiency, treated with Immunoglobulin replacement therapy."
+      },
+      {
+        "q": "A 10-year-old girl develops generalized hives, facial angioedema, wheezing, and hypotension 15 minutes after eating peanuts. Identify the hypersensitivity type, the key antibody/cell involved, and the emergency drug of choice.",
+        "options": [
+          "A) Type II Cytotoxic Hypersensitivity; IgG and Neutrophils; Intravenous Penicillin.",
+          "B) Type III Immune Complex Hypersensitivity; Circulating IgM; Oral Prednisolone.",
+          "C) Type IV Delayed Hypersensitivity; Sensitized T-cells; Topical Cromolyn.",
+          "D) Type I Immediate Hypersensitivity; Preformed IgE on Mast cells/Basophils; Intramuscular Adrenaline / Epinephrine."
+        ],
+        "correct": 3,
+        "hint": "Rapid anaphylaxis after food = Type I immediate hypersensitivity (IgE + mast cells/basophils); give adrenaline/epinephrine.",
+        "explanation": "Rapid onset IgE-mediated anaphylaxis to food is a Type I Immediate reaction, requiring immediate Adrenaline/Epinephrine."
+      },
+      {
+        "q": "A 12-year-old girl presents with persistent fatigue, low-grade fever, malar skin rash, arthralgias, proteinuria, positive ANA, and elevated ESR. Classify this condition, state whether it is systemic or organ-specific, and name the specific disease.",
+        "options": [
+          "A) Autoimmune Disorder; Systemic; Systemic Lupus Erythematosus (SLE).",
+          "B) Primary Immunodeficiency; Organ-specific; SCID.",
+          "C) Polyclonal Gammapathy; Systemic; Multiple Myeloma.",
+          "D) Type II Hypersensitivity; Organ-specific; Graves disease."
+        ],
+        "correct": 0,
+        "hint": "Multi-organ features with positive ANA = Systemic autoimmune disorder, Systemic Lupus Erythematosus (SLE).",
+        "explanation": "Multi-organ involvement with nuclear autoantigens (ANA positive) defines Systemic Lupus Erythematosus (SLE), a classic systemic autoimmune disease."
+      },
+      {
+        "q": "A patient develops acute intravascular hemolysis within 30 minutes of an ABO-incompatible blood transfusion. What type of hypersensitivity is this, what mechanism destroys RBCs, and what condition shares this mechanism?",
+        "options": [
+          "A) Type I Hypersensitivity; IgE degranulation; Allergic rhinitis.",
+          "B) Type III Hypersensitivity; Immune complex deposition in joints; Rheumatoid arthritis.",
+          "C) Type II (Cytotoxic) Hypersensitivity; IgM/IgG binding to RBC surface antigens activating complement lysis; Autoimmune Hemolytic Anemia (AIHA) or Hemolytic Disease of the Newborn.",
+          "D) Type IV Hypersensitivity; Sensitized CD8+ T-cell destruction; Contact dermatitis."
+        ],
+        "correct": 2,
+        "hint": "Antibody-mediated RBC destruction = Type II cytotoxic hypersensitivity; shared with AIHA and hemolytic disease of the newborn.",
+        "explanation": "Acute ABO transfusion mismatch is a Type II cytotoxic reaction (antibody binding + complement lysis), sharing mechanisms with AIHA and Hemolytic Disease of the Newborn."
+      }
+    ]
+  }
+]
