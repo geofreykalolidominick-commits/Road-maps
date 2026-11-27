@@ -1,0 +1,607 @@
+[
+  {
+    "topic": "Acute Abdomen General Overview",
+    "questions": [
+      {
+        "q": "How is the acute abdomen defined in surgical practice?",
+        "options": [
+          "A) Any chronic abdominal discomfort lasting longer than 4 weeks requiring elective surgical workup",
+          "B) A clinical situation characterized by the sudden onset of severe, non-traumatic abdominal pain, usually under one week in duration",
+          "C) Traumatic intra-abdominal injury requiring immediate damage-control laparotomy",
+          "D) A definitive histopathological diagnosis of acute appendicitis or perforated peptic ulcer"
+        ],
+        "correct": 1,
+        "hint": "Sudden-onset severe non-traumatic abdominal pain, usually <1 week.",
+        "explanation": "The acute abdomen is defined as a clinical situation—not a single disease diagnosis—characterized by the sudden onset of severe abdominal pain of non-traumatic origin, usually lasting under one week (most presenting within hours to days), that may require urgent medical or surgical intervention."
+      },
+      {
+        "q": "What proportion of emergency department attendances is accounted for by acute abdominal pain?",
+        "options": [
+          "A) 1% to 2%",
+          "B) 5% to 10%",
+          "C) 15% to 20%",
+          "D) 25% to 30%"
+        ],
+        "correct": 1,
+        "hint": "Roughly 5% to 10% of emergency visits.",
+        "explanation": "Abdominal pain is a common and dangerous presentation, accounting for approximately 5% to 10% of all emergency attendances."
+      },
+      {
+        "q": "Among patients admitted to the hospital with acute abdominal pain, what percentage typically settles without a specific diagnosis (Non-Specific Abdominal Pain)?",
+        "options": [
+          "A) About 1 in 10 (10%)",
+          "B) About 1 in 5 (20%)",
+          "C) About 1 in 3 (33%)",
+          "D) About 2 in 3 (66%)"
+        ],
+        "correct": 2,
+        "hint": "About one-third (1 in 3) of admitted patients.",
+        "explanation": "In most clinical series, about one-third (1 in 3) of admitted patients have non-specific abdominal pain (NSAP), which settles without a specific surgical or medical diagnosis."
+      },
+      {
+        "q": "What is the single most common surgical cause of the acute abdomen worldwide?",
+        "options": [
+          "A) Acute cholecystitis",
+          "B) Perforated peptic ulcer",
+          "C) Acute appendicitis",
+          "D) Strangulated groin hernia"
+        ],
+        "correct": 2,
+        "hint": "The #1 surgical cause of acute abdomen.",
+        "explanation": "Acute appendicitis is recorded as the number one surgical cause of the acute abdomen."
+      },
+      {
+        "q": "What is the fundamental clinical distinction between the terms 'surgical abdomen' and 'acute abdominal pain'?",
+        "options": [
+          "A) 'Surgical abdomen' applies only to traumatic injuries, whereas 'acute abdominal pain' refers to medical conditions",
+          "B) 'Surgical abdomen' is used when the cause clearly requires an operation, whereas 'acute abdominal pain' is the broader complaint with many medical causes",
+          "C) 'Surgical abdomen' is limited to elderly patients, while 'acute abdominal pain' occurs in pediatric populations",
+          "D) There is no clinical distinction; the terms are completely interchangeable in emergency protocols"
+        ],
+        "correct": 1,
+        "hint": "Surgical abdomen requires operative intervention; acute abdominal pain is the broader symptom.",
+        "explanation": "The term 'surgical abdomen' is reserved for clinical presentations where the cause clearly requires an operative intervention, whereas 'acute abdominal pain' is the broader presenting symptom, many causes of which are managed non-operatively or medically."
+      },
+      {
+        "q": "Which type of nerve fibers primarily transmits slow, dull, poorly localized visceral pain from abdominal organs?",
+        "options": [
+          "A) Heavy myelinated A-alpha fibers",
+          "B) Fast myelinated A-delta fibers",
+          "C) Unmyelinated C fibers",
+          "D) Somatosensory motor fibers"
+        ],
+        "correct": 2,
+        "hint": "Slow, unmyelinated C fibers traveling with sympathetic nerves.",
+        "explanation": "Visceral pain receptors in organ walls and mesentery transmit impulses via sparse, unmyelinated C fibers traveling backwards with sympathetic nerves, resulting in slow, dull, deep, and poorly localized pain."
+      },
+      {
+        "q": "Which sensory nerve fibers transmit sharp, constant, precisely localized parietal (somatic) pain when the parietal peritoneum is irritated?",
+        "options": [
+          "A) Unmyelinated C fibers only",
+          "B) Dense A-delta and C fibers",
+          "C) Sympathetic postganglionic efferents",
+          "D) Vagal parasympathetic afferents"
+        ],
+        "correct": 1,
+        "hint": "Dense somatic A-delta and C fibers.",
+        "explanation": "Parietal (somatic) pain receptors in the parietal peritoneum and abdominal wall transmit signals through dense A-delta and C fibers within spinal somatic nerves, producing sharp, constant, and precisely localized pain."
+      },
+      {
+        "q": "At which spinal cord segments do visceral pain afferents from abdominal organs enter the central nervous system?",
+        "options": [
+          "A) C1 to C4",
+          "B) T1 to T4",
+          "C) T5 to L2",
+          "D) S2 to S5"
+        ],
+        "correct": 2,
+        "hint": "Thoracolumbar sympathetic outflow segments (T5–L2).",
+        "explanation": "Visceral pain afferents travel backwards with sympathetic nerves through periarterial plexuses and splanchnic nerves to enter the dorsal root ganglia of spinal cord segments T5 to L2 bilaterally across multiple segments."
+      },
+      {
+        "q": "Sensory fibers from the central portion of the diaphragm travel via the phrenic nerve to enter which spinal cord segments?",
+        "options": [
+          "A) C1 to C2",
+          "B) C3 to C5",
+          "C) T7 to T9",
+          "D) T10 to T12"
+        ],
+        "correct": 1,
+        "hint": "C3, C4, C5 keep the diaphragm alive.",
+        "explanation": "Somatic sensory innervation of the central diaphragm is supplied by the phrenic nerve, which arises from spinal cord segments C3, C4, and C5."
+      },
+      {
+        "q": "What is the core primary objective of the surgeon during the initial assessment of a patient with an acute abdomen?",
+        "options": [
+          "A) To perform immediate diagnostic laparotomy on every patient",
+          "B) To identify the exact microbiological etiology before initiating treatment",
+          "C) Not necessarily to name the exact disease immediately, but to decide who needs an operation and when",
+          "D) To delay all analgesia until a definitive radiological diagnosis is established"
+        ],
+        "correct": 2,
+        "hint": "Decide stability, who needs surgery, and how urgently.",
+        "explanation": "The primary task of the emergency clinician or surgeon is not always to immediately name the underlying disease, but to rapidly determine whether the patient is stable, who requires surgery, and how urgently that operation must occur."
+      },
+      {
+        "q": "Which clinical history clue is most characteristic of an intra-abdominal perforation?",
+        "options": [
+          "A) Gradual onset of pain over several days with low-grade fever",
+          "B) Rhythmic waves of severe pain with pain-free intervals",
+          "C) Sudden onset of severe, rapidly spreading pain associated with abdominal rigidity",
+          "D) Severe pain completely out of proportion to physical examination signs"
+        ],
+        "correct": 2,
+        "hint": "Sudden, severe, rapidly spreading pain with rigidity.",
+        "explanation": "Perforation of a hollow viscus presents with a sudden onset of severe, rapidly spreading abdominal pain accompanied by peritoneal rigidity, as gastrointestinal contents spill into the peritoneal cavity."
+      },
+      {
+        "q": "What is the classic diagnostic hallmark of acute mesenteric ischemia during early physical examination?",
+        "options": [
+          "A) Board-like abdominal rigidity and absent bowel sounds",
+          "B) Severe abdominal pain out of proportion to physical examination signs",
+          "C) Palpable pulsatile mass in the epigastrium",
+          "D) High-pitched tinkling bowel sounds and visible peristalsis"
+        ],
+        "correct": 1,
+        "hint": "Agonizing pain with a soft, minimally tender abdomen early on.",
+        "explanation": "Early acute mesenteric ischemia causes severe, agonizing visceral pain while the abdominal wall remains soft and un-tender on palpation because the parietal peritoneum is not yet inflamed ('pain out of proportion to physical signs')."
+      },
+      {
+        "q": "According to the embryological rule of visceral pain, pain originating from foregut structures (stomach, duodenum, hepatobiliary system, pancreas, spleen) is localized to which region?",
+        "options": [
+          "A) Epigastrium",
+          "B) Periumbilical region",
+          "C) Suprapubic region",
+          "D) Left iliac fossa"
+        ],
+        "correct": 0,
+        "hint": "Foregut -> epigastrium.",
+        "explanation": "Foregut structures receive sympathetic innervation via the coeliac axis (T5 to T9), causing visceral pain to be felt centrally in the epigastrium."
+      },
+      {
+        "q": "Visceral pain originating from midgut structures (small bowel, appendix, cecum, ascending colon) is perceived in which anatomical region?",
+        "options": [
+          "A) Epigastrium",
+          "B) Periumbilical region",
+          "C) Right hypochondrium",
+          "D) Hypogastrium"
+        ],
+        "correct": 1,
+        "hint": "Midgut -> periumbilical region (T10–T11).",
+        "explanation": "Midgut organs are innervated via the superior mesenteric artery plexus (T10 to T11), referring visceral pain to the periumbilical region."
+      },
+      {
+        "q": "Hindgut structures (distal transverse colon, descending colon, sigmoid colon, upper rectum) refer visceral pain to which anatomical site?",
+        "options": [
+          "A) Epigastrium",
+          "B) Right lower quadrant",
+          "C) Suprapubic (hypogastric) region",
+          "D) Right shoulder tip"
+        ],
+        "correct": 2,
+        "hint": "Hindgut -> suprapubic/hypogastric region (T11–L1).",
+        "explanation": "Hindgut structures are innervated via the inferior mesenteric artery plexus (T11 to L1), causing visceral pain to be localized to the suprapubic or hypogastric region."
+      },
+      {
+        "q": "Why does early acute appendicitis present with dull periumbilical pain rather than right iliac fossa pain?",
+        "options": [
+          "A) The appendix is anatomically located directly beneath the umbilicus during early inflammation",
+          "B) Visceral afferent fibers from the appendicular wall enter the spinal cord at the T10 segment, regardless of the anatomical position of the appendix",
+          "C) Bacteria migrate along the falciform ligament to the anterior abdominal wall",
+          "D) Parietal peritoneal irritation occurs immediately at the umbilicus before shifting"
+        ],
+        "correct": 1,
+        "hint": "Visceral afferents enter at T10 (periumbilical dermatome).",
+        "explanation": "Early appendiceal distension stimulates visceral C fibers entering the spinal cord at T10. Because visceral sensory input is multisegmental and bilateral, pain is initially registered in the midline periumbilical dermatome (T10), even if the appendix is retrocaecal or pelvic."
+      },
+      {
+        "q": "What classic clinical triad should immediately arouse suspicion of a ruptured abdominal aortic aneurysm (AAA) in an elderly male?",
+        "options": [
+          "A) Epigastric pain, jaundice, and fever",
+          "B) Severe pain radiating to the back, hemodynamic collapse, and a pulsatile abdominal mass",
+          "C) Right iliac fossa pain, diarrhea, and hypokalemia",
+          "D) Colicky flank pain, hematuria, and dysuria"
+        ],
+        "correct": 1,
+        "hint": "Back/abdominal pain, shock/collapse, and a pulsatile mass.",
+        "explanation": "A ruptured abdominal aortic aneurysm is a catastrophic condition that kills if missed, classically presenting in an elderly male with pain radiating to the back, collapse/shock, and a tender pulsatile abdominal mass."
+      },
+      {
+        "q": "Which bedside diagnostic test is mandatory in every woman of reproductive age presenting with acute abdominal pain?",
+        "options": [
+          "A) Erect chest X-ray",
+          "B) Urine pregnancy test",
+          "C) Serum amylase assay",
+          "D) Abdominal ultrasound"
+        ],
+        "correct": 1,
+        "hint": "Exclude ectopic pregnancy first.",
+        "explanation": "A pregnancy test is mandatory in every woman of reproductive age with acute abdominal pain to exclude a ruptured ectopic pregnancy prior to imaging or surgical intervention."
+      },
+      {
+        "q": "In neonates and infants presenting with an acute abdomen, which life-threatening condition must be ruled out immediately when bilious vomiting occurs?",
+        "options": [
+          "A) Acute appendicitis",
+          "B) Malrotation with volvulus",
+          "C) Sigmoid volvulus",
+          "D) Typhoid perforation"
+        ],
+        "correct": 1,
+        "hint": "Bilious vomiting in a neonate = malrotation with midgut volvulus until proven otherwise.",
+        "explanation": "In neonates and infants, bilious vomiting represents a surgical emergency and is considered malrotation with midgut volvulus until proven otherwise."
+      },
+      {
+        "q": "Which etiology of acute abdomen is significantly more prevalent in elderly populations compared to younger adults?",
+        "options": [
+          "A) Mesenteric ischemia and ruptured abdominal aortic aneurysm",
+          "B) Acute appendicitis and mesenteric adenitis",
+          "C) Dysmenorrhea and pelvic inflammatory disease",
+          "D) Congenital Meckel's diverticulitis"
+        ],
+        "correct": 0,
+        "hint": "Vascular catastrophes (mesenteric ischemia, ruptured AAA).",
+        "explanation": "Elderly patients have a high prevalence of vascular catastrophes (mesenteric ischemia, ruptured AAA), diverticular perforation, and colorectal cancer, accompanied by several-fold higher mortality."
+      },
+      {
+        "q": "What is the underlying neuroanatomical mechanism responsible for Kehr's sign (left shoulder tip pain in splenic rupture or diaphragmatic irritation)?",
+        "options": [
+          "A) Irritation of the lower intercostal nerves (T7–T11) radiating down the anterior abdominal wall",
+          "B) Sensory convergence in the dorsal horn between phrenic nerve afferents (C3–C5) from the central diaphragm and cutaneous supraclavicular nerve afferents (C3–C4)",
+          "C) Direct compression of the brachial plexus by intra-abdominal blood collections",
+          "D) Sympathetic chain reflexes originating from the coeliac ganglion"
+        ],
+        "correct": 1,
+        "hint": "Phrenic nerve (C3–C5) shares spinal segments with supraclavicular nerves (C3–C4).",
+        "explanation": "Inflammatory fluid, pus, or blood irritating the central diaphragmatic peritoneum stimulates sensory fibers of the phrenic nerve (C3–C5). These fibers converge in the dorsal horn with somatic sensory fibers supplying the shoulder tip dermatome (C3–C4), causing referred shoulder pain."
+      },
+      {
+        "q": "What physiological process explains why sudden release of deep palpation produces severe pain in rebound tenderness (Blumberg's sign)?",
+        "options": [
+          "A) Inflammatory cytokines paralyze abdominal wall skeletal muscle motor units",
+          "B) Inflammatory mediators lower the threshold of parietal somatic nerve endings; slow compression is tolerated, but sudden release causes inflamed peritoneal layers to spring back and slide rapidly against each other",
+          "C) Visceral C fibers undergo rapid repolarization during pressure release",
+          "D) Intra-abdominal vascular pressure drops suddenly, causing transient ischemia"
+        ],
+        "correct": 1,
+        "hint": "Sensitized parietal peritoneum snaps back abruptly upon release.",
+        "explanation": "Inflammatory mediators (bradykinin, prostaglandins, histamine) sensitize somatic nerve endings in the parietal peritoneum. While gradual inward pressure moves the peritoneum slowly, sudden hand release causes the abdominal wall and inflamed peritoneal layers to snap back abruptly, firing sensitised nerve endings."
+      },
+      {
+        "q": "How does Carnett's test distinguish between abdominal wall pain and deep visceral pain?",
+        "options": [
+          "A) Pain increases with deep inspiration in visceral disease but decreases in abdominal wall disease",
+          "B) Pain decreases or disappears when the patient tenses their abdominal muscles in visceral disease, whereas abdominal wall pain persists or worsens",
+          "C) Tensing the abdominal muscles abolishes pain originating from rectus sheath hematoma",
+          "D) Carnett's test evaluates rebound tenderness via heel drop"
+        ],
+        "correct": 1,
+        "hint": "Tensing abdominal muscles protects viscera (pain improves) vs. worsens abdominal wall pain.",
+        "explanation": "In Carnett's sign, the patient tenses their abdominal muscles (e.g., by lifting their head or legs). Tensed muscle shields underlying inflamed viscera, diminishing visceral pain; if the pain originates within the abdominal wall itself (e.g., rectus sheath hematoma), tensing the muscle exacerbates or maintains the tenderness."
+      },
+      {
+        "q": "How is Rovsing's sign performed, and what condition does a positive sign suggest?",
+        "options": [
+          "A) Direct pressure over McBurney's point causing left lower quadrant pain; suggests acute diverticulitis",
+          "B) Palpation of the left iliac fossa eliciting pain in the right iliac fossa; suggests acute appendicitis",
+          "C) Hyperextension of the right hip causing epigastric pain; suggests acute pancreatitis",
+          "D) Internal rotation of the flexed right hip causing pelvic pain; suggests obturator hernia"
+        ],
+        "correct": 1,
+        "hint": "Pressing the left iliac fossa causes pain in the right iliac fossa.",
+        "explanation": "Rovsing's sign is elicited by pressing deeply on the left iliac fossa. In positive cases, retrograde displacement of bowel gas or peritoneal movement evokes pain in the right iliac fossa, indicating acute appendicitis."
+      },
+      {
+        "q": "Which clinical maneuver elicits the Psoas sign, and what anatomical variation of appendicitis does it typically indicate?",
+        "options": [
+          "A) Flexion of the right hip against resistance; indicates a pelvic appendix",
+          "B) Passive extension of the right hip while the patient lies on their left side; indicates a retrocaecal appendix or psoas abscess",
+          "C) Internal rotation of the flexed right thigh; indicates a subhepatic appendix",
+          "D) External rotation of the flexed left hip; indicates sigmoid diverticulitis"
+        ],
+        "correct": 1,
+        "hint": "Passive right hip extension stretches the iliopsoas -> retrocaecal appendix.",
+        "explanation": "The Psoas sign is performed by passively extending the right hip (stretching the iliopsoas muscle). Pain occurs when an inflamed retrocaecal appendix or psoas abscess lies directly over the muscle."
+      },
+      {
+        "q": "Ecchymosis involving the periumbilical region (Cullen's sign) or the flanks (Grey Turner's sign) indicates which pathological process?",
+        "options": [
+          "A) Acute mechanical small bowel obstruction",
+          "B) Severe retroperitoneal hemorrhage (e.g., necrotizing pancreatitis, ruptured ectopic pregnancy, ruptured AAA)",
+          "C) Spontaneous bacterial peritonitis",
+          "D) Perforated diverticular disease"
+        ],
+        "correct": 1,
+        "hint": "Retroperitoneal blood tracking along fascial planes.",
+        "explanation": "Cullen's sign (periumbilical bruising), Grey Turner's sign (flank bruising), and Fox's sign (bruising below the inguinal ligament) reflect retroperitoneal blood tracking through fascial planes."
+      },
+      {
+        "q": "How is the Shock Index calculated, and what threshold value suggests significant blood or fluid loss even if blood pressure appears normal?",
+        "options": [
+          "A) Systolic BP divided by Diastolic BP; threshold > 1.5",
+          "B) Heart Rate divided by Systolic BP; threshold > 0.9",
+          "C) Pulse pressure divided by Heart Rate; threshold < 0.5",
+          "D) Mean Arterial Pressure divided by Respiratory Rate; threshold > 2.0"
+        ],
+        "correct": 1,
+        "hint": "HR / SBP > 0.9.",
+        "explanation": "The Shock Index is calculated by dividing heart rate by systolic blood pressure. A value greater than 0.9 to 1.0 indicates significant occult blood or volume loss and impending hemodynamic collapse."
+      },
+      {
+        "q": "What is the sensitivity of an erect chest X-ray for detecting pneumoperitoneum in hollow viscus perforation, and how long should the patient ideally remain upright before the film?",
+        "options": [
+          "A) 100% sensitivity; film taken immediately upon standing",
+          "B) Detects free gas in about 75% of perforations; patient upright for 10 minutes",
+          "C) Detects free gas in 25% of cases; patient upright for 1 hour",
+          "D) 50% sensitivity; patient placed in right lateral decubitus for 30 minutes"
+        ],
+        "correct": 1,
+        "hint": "~75% sensitivity; upright for ~10 minutes so free air rises.",
+        "explanation": "An erect chest X-ray detects free subdiaphragmatic gas in approximately 75% of hollow viscus perforations (missing about one-quarter). The patient should remain upright for about 10 minutes prior to exposure to allow free air to drift under the diaphragm."
+      },
+      {
+        "q": "Which diagnostic imaging modality offers the highest overall diagnostic accuracy (>90%) for evaluating acute abdominal pain of uncertain cause?",
+        "options": [
+          "A) Plain abdominal X-ray (supine and erect)",
+          "B) Transabdominal ultrasound",
+          "C) Contrast-enhanced Computed Tomography (CT) scan of chest, abdomen, and pelvis",
+          "D) Magnetic Resonance Cholangiopancreatography (MRCP)"
+        ],
+        "correct": 2,
+        "hint": "IV contrast-enhanced CT (>90% accuracy).",
+        "explanation": "CT with intravenous contrast is the most accurate diagnostic imaging modality (>90% accuracy) for defining perforation, bowel obstruction, diverticulitis, mesenteric ischemia, and abscesses."
+      },
+      {
+        "q": "Serum amylase or lipase elevation above what threshold is considered diagnostic for acute pancreatitis?",
+        "options": [
+          "A) Slightly above the upper limit of normal",
+          "B) Greater than 2 times the upper limit of normal",
+          "C) Greater than 3 times the upper limit of normal",
+          "D) Greater than 10 times the upper limit of normal"
+        ],
+        "correct": 2,
+        "hint": "> 3 times the upper limit of normal.",
+        "explanation": "A serum amylase or lipase level greater than 3 times the upper limit of normal is diagnostic for acute pancreatitis. Modest elevations can occur in perforated ulcer, mesenteric ischemia, intestinal obstruction, or ectopic pregnancy."
+      },
+      {
+        "q": "What is the target peripheral oxygen saturation (SpO2) range during initial resuscitation of the acute abdomen patient?",
+        "options": [
+          "A) 85% to 88%",
+          "B) 90% to 92%",
+          "C) 94% to 98%",
+          "D) 100% exclusively"
+        ],
+        "correct": 2,
+        "hint": "Standard target SpO2 94%–98%.",
+        "explanation": "During the first hour of resuscitation, supplemental oxygen should be administered to maintain a target SpO2 of 94% to 98% (or 88–92% if at risk of hypercapnic respiratory failure)."
+      },
+      {
+        "q": "Within what time frame should intravenous broad-spectrum antibiotics be administered to a patient presenting with septic shock or generalized peritonitis?",
+        "options": [
+          "A) Within 1 hour",
+          "B) Within 4 hours",
+          "C) Only after intra-abdominal pus cultures are obtained in theatre",
+          "D) Within 12 hours post-op"
+        ],
+        "correct": 0,
+        "hint": "Within 1 hour of presentation.",
+        "explanation": "Broad-spectrum IV antibiotics (e.g., ceftriaxone plus metronidazole) must be administered within 1 hour of presentation in any patient with suspected sepsis or acute peritonitis."
+      },
+      {
+        "q": "What is the established evidence-based consensus regarding early opioid analgesia administration in patients with acute abdominal pain?",
+        "options": [
+          "A) Opioids must be strictly withheld until a consultant surgeon examines the patient and signs the operation consent",
+          "B) Titrated intravenous opioids provide effective pain relief and do NOT mask physical examination findings or delay surgical decisions",
+          "C) Opioids should only be given orally to prevent ileus",
+          "D) Opioids completely abolish all physical signs of generalized peritonitis"
+        ],
+        "correct": 1,
+        "hint": "Titrated IV opioids relieve pain without masking signs or delaying surgery.",
+        "explanation": "Adequate IV opioid analgesia does not mask clinical signs, alter physical examination accuracy, or delay necessary surgical decisions; withholding analgesia is an obsolete and unethical pitfall."
+      },
+      {
+        "q": "According to the NCEPOD classification of surgical timing, which condition falls into the 'IMMEDIATE' category (requiring surgery within minutes alongside resuscitation)?",
+        "options": [
+          "A) Uncomplicated acute appendicitis",
+          "B) Perforated duodenal ulcer with stable vitals",
+          "C) Ruptured abdominal aortic aneurysm or ruptured ectopic pregnancy with shock",
+          "D) Subacute adhesive small bowel obstruction"
+        ],
+        "correct": 2,
+        "hint": "Life-saving surgery within minutes alongside active resuscitation.",
+        "explanation": "NCEPOD 'Immediate' timing applies to life-saving operations required within minutes, where surgery must take place alongside active fluid resuscitation (e.g., ruptured AAA or ruptured ectopic pregnancy with hemodynamic collapse)."
+      },
+      {
+        "q": "Which surgical presentation belongs in the NCEPOD 'URGENT' category (requiring surgery within hours following initial fluid resuscitation)?",
+        "options": [
+          "A) Ruptured abdominal aortic aneurysm",
+          "B) Perforated viscus with peritonitis, strangulated hernia, or intestinal ischemia",
+          "C) Interval appendectomy",
+          "D) Asymptomatic cholelithiasis"
+        ],
+        "correct": 1,
+        "hint": "Surgery within hours after initial resuscitation.",
+        "explanation": "NCEPOD 'Urgent' procedures require operation within hours after initial resuscitation and source control optimization (e.g., perforated peptic ulcer with peritonitis, strangulated hernia, mesenteric ischemia)."
+      },
+      {
+        "q": "Which presentation is correctly categorized under NCEPOD 'EXPEDITED' timing (surgery planned within days of admission in a stable patient)?",
+        "options": [
+          "A) Ruptured ectopic pregnancy with BP 70/40",
+          "B) Perforated diverticulitis with fecal peritonitis",
+          "C) Acute appendicitis without generalized peritonitis or acute cholecystitis not settling",
+          "D) Strangulated femoral hernia with septic shock"
+        ],
+        "correct": 2,
+        "hint": "Early operation within days in a stable patient.",
+        "explanation": "NCEPOD 'Expedited' timing applies to stable patients requiring early operation within days of admission (e.g., uncomplicated appendicitis, acute cholecystitis, or adhesive bowel obstruction failing to settle)."
+      },
+      {
+        "q": "What is the core diagnostic management strategy for a hemodynamically stable patient with an uncertain abdominal diagnosis during 'active observation'?",
+        "options": [
+          "A) Immediate exploratory laparotomy",
+          "B) Serial physical examinations every few hours by the same clinician, accompanied by hydration and selective imaging",
+          "C) Administration of high-dose oral laxatives",
+          "D) Discharge home with instructions to return if pain worsens"
+        ],
+        "correct": 1,
+        "hint": "Serial exams by the same clinician with fluids and selective imaging.",
+        "explanation": "Active observation involves serial physical examinations every few hours by the same clinician, maintaining NPO status, administering IV fluids/analgesia, and using re-imaging or laparoscopy if the clinical state evolves."
+      },
+      {
+        "q": "What specific follow-up precaution is required for patients over 50 years of age discharged with a diagnosis of Non-Specific Abdominal Pain (NSAP)?",
+        "options": [
+          "A) Immediate repeat CT scanning at 24 hours",
+          "B) Planned outpatient follow-up because older patients with NSAP have a higher rate of underlying occult malignancy",
+          "C) Continuous broad-spectrum oral antibiotics for 30 days",
+          "D) Permanent restriction from solid food diets"
+        ],
+        "correct": 1,
+        "hint": "Higher risk of missed underlying malignancy in patients >50 years.",
+        "explanation": "NSAP is a diagnosis of exclusion. Patients over 50 years discharged with NSAP have a higher long-term rate of underlying missed malignancy (e.g., colon cancer) and mandate structured outpatient follow-up."
+      },
+      {
+        "q": "Which metabolic condition is a classic medical mimic of the acute surgical abdomen that can cause severe abdominal pain, vomiting, and leukocytosis?",
+        "options": [
+          "A) Diabetic Ketoacidosis (DKA)",
+          "B) Primary hyperaldosteronism",
+          "C) Hypothyroidism",
+          "D) Essential thrombocythemia"
+        ],
+        "correct": 0,
+        "hint": "Check capillary glucose and ketones to exclude DKA.",
+        "explanation": "DKA is a critical metabolic mimic of the surgical abdomen, presenting with severe pseudoperitoneal abdominal pain, vomiting, and dehydration. Performing an unnecessary laparotomy in DKA can prove fatal; capillary glucose and ketones must always be checked."
+      },
+      {
+        "q": "Which of the following represents a dangerous clinical pitfall in the evaluation of an acute abdomen?",
+        "options": [
+          "A) Checking capillary blood glucose in a febrile patient",
+          "B) Performing a pregnancy test in a 22-year-old female",
+          "C) Failing to examine hernial orifices and testes in an elderly or shocked patient",
+          "D) Administering IV paracetamol for abdominal pain"
+        ],
+        "correct": 2,
+        "hint": "Always check hernial orifices and testes so strangulated hernias or torsion aren't missed.",
+        "explanation": "Common dangerous pitfalls include omitting a pregnancy test, failing to examine hernial orifices and testes (easily missing strangulated femoral hernias or testicular torsion), withholding analgesia, and mislabeling surgical pain as gastroenteritis without diarrhea."
+      },
+      {
+        "q": "A 45-year-old man presents 6 hours after the sudden onset of agonizing epigastric pain that rapidly spread across his entire abdomen. He lies completely motionless with shallow breathing. Vital signs: pulse 118 bpm, BP 96/60 mmHg, temp 37.9 °C. Abdominal exam reveals board-like rigidity and absent bowel sounds. What is the definitive initial diagnostic test, immediate first-hour management, and NCEPOD surgical timing?",
+        "options": [
+          "A) Perform abdominal ultrasound; administer oral analgesia; schedule elective surgery in 48 hours",
+          "B) Request erect chest X-ray to look for free gas; institute oxygen, 2 large-bore IV lines, crystalloids, IV opioids, NG tube, urinary catheter, IV antibiotics; plan urgent laparotomy within hours post-resuscitation",
+          "C) Perform emergency colonoscopy; administer IV heparin; perform immediate surgery within minutes without fluid resuscitation",
+          "D) Perform barium swallow; administer IV proton pump inhibitor only; observe actively for 24 hours"
+        ],
+        "correct": 1,
+        "hint": "Perforated viscus with generalized peritonitis -> erect CXR, full resuscitation + IV antibiotics, NCEPOD Urgent surgery.",
+        "explanation": "The case describes classic generalized peritonitis secondary to a perforated hollow viscus (perforated peptic ulcer). First-hour resuscitation requires oxygen, dual large-bore IV access, fluid resuscitation, IV opioids, NG tube decompression, urinary catheterization, and IV broad-spectrum antibiotics. An erect CXR identifies pneumoperitoneum (~75%). The operation belongs to NCEPOD Urgent timing (within hours following resuscitation for omental patch repair and lavage)."
+      },
+      {
+        "q": "A 70-year-old man with a history of atrial fibrillation presents with a 4-hour history of severe periumbilical abdominal pain. On examination, his abdomen is soft, non-distended, and only mildly tender to palpation. Vital signs show HR 112 bpm (irregularly irregular) and BP 130/80 mmHg. Laboratory testing reveals a normal serum lactate. What is the mandatory provisional diagnosis, the definitive diagnostic modality of choice, and the key diagnostic interpretation rule?",
+        "options": [
+          "A) Acute diverticulitis; barium enema; normal lactate excludes diverticulitis",
+          "B) Acute mesenteric ischemia; CT angiography of abdomen/pelvis; a normal lactate early in the disease does NOT exclude mesenteric ischemia",
+          "C) Acute appendicitis; abdominal ultrasound; normal lactate rules out bowel ischemia",
+          "D) Perforated duodenal ulcer; erect abdominal X-ray; soft abdomen rules out mesenteric vascular occlusion"
+        ],
+        "correct": 1,
+        "hint": "AF + pain out of proportion to exam = acute mesenteric ischemia -> CT angiography (normal early lactate doesn't exclude it).",
+        "explanation": "Severe pain out of proportion to physical exam signs in a patient with atrial fibrillation is acute mesenteric ischemia until proven otherwise. CT angiography is the diagnostic modality of choice. Serum lactate can be entirely normal in early bowel ischemia before transmural necrosis develops; a normal lactate must never delay CT or surgical consultation."
+      },
+      {
+        "q": "A 24-year-old woman presents to the emergency department after a syncopal episode at home. She complains of severe right iliac fossa pain radiating to her left shoulder tip. Vital signs: pulse 124 bpm, BP 88/54 mmHg, cold clammy extremities. Abdominal exam demonstrates localized RIF guarding and rebound tenderness. What is the immediate diagnostic action and surgical management classification?",
+        "options": [
+          "A) Perform contrast CT of the abdomen; transfer to ward for active observation",
+          "B) Perform immediate urine/serum pregnancy test; if positive, establish immediate large-bore IV access, initiate fluid resuscitation, and take immediately to theatre (NCEPOD Immediate) for ruptured ectopic pregnancy",
+          "C) Administer IV antibiotics; perform diagnostic laparoscopy on an expedited list in 2 days",
+          "D) Order plain abdominal X-ray; perform urgent barium enema"
+        ],
+        "correct": 1,
+        "hint": "Shock + shoulder-tip pain in reproductive-age woman -> immediate pregnancy test & NCEPOD Immediate surgery.",
+        "explanation": "A woman of reproductive age presenting with acute lower abdominal pain, shock, syncopal collapse, and shoulder tip pain (Kehr's sign from hemoperitoneum) has a ruptured ectopic pregnancy until proven otherwise. A bedside pregnancy test must be performed immediately. Surgery is categorized as NCEPOD Immediate (operating alongside active resuscitation)."
+      },
+      {
+        "q": "A 78-year-old female presents with a 2-day history of colicky lower abdominal pain, progressive abdominal distension, bilious vomiting, and absolute constipation. On general examination, she is dehydrated and tachycardic. Systematic examination reveals a small, firm, exquisitely tender swelling in the right groin located below and lateral to the pubic tubercle. What is the diagnosis, the primary anatomical risk, and the management strategy?",
+        "options": [
+          "A) Direct inguinal hernia; low risk of strangulation; elective outpatient repair",
+          "B) Strangulated femoral hernia causing mechanical small bowel obstruction; high risk of bowel necrosis; urgent fluid resuscitation and emergency surgical exploration (NCEPOD Urgent)",
+          "C) Incarcerated obturator hernia; perform manual reduction in ED",
+          "D) Saphena varix; discharge with oral analgesia"
+        ],
+        "correct": 1,
+        "hint": "Tender mass below/lateral to pubic tubercle + bowel obstruction -> strangulated femoral hernia -> NCEPOD Urgent surgery.",
+        "explanation": "A tender groin mass below the inguinal ligament (femoral canal) in an elderly female presenting with mechanical bowel obstruction represents a strangulated femoral hernia. Femoral hernias have a high propensity for strangulation. Treatment requires urgent fluid resuscitation and emergency surgical exploration/repair (NCEPOD Urgent)."
+      },
+      {
+        "q": "A 62-year-old male presents with severe right upper quadrant pain, high-grade fever with rigors (temp 39.2 °C), and visible scleral icterus. Vital signs show HR 122 bpm, BP 84/50 mmHg, and he is confused. Abdominal exam reveals RUQ tenderness without generalized peritonitis. What clinical entity is present, what is the immediate resuscitation sequence, and what definitive intervention is required?",
+        "options": [
+          "A) Acute cholecystitis; perform immediate open cholecystectomy without IV fluids",
+          "B) Severe acute cholangitis with septic shock (Reynold's pentad); institute rapid IV crystalloid resuscitation, IV broad-spectrum antibiotics within 1 hour, blood cultures, and arrange urgent biliary decompression (ERCP)",
+          "C) Amebic liver abscess; prescribe oral metronidazole and discharge",
+          "D) Acute pancreatitis; perform immediate diagnostic laparotomy"
+        ],
+        "correct": 1,
+        "hint": "Charcot's triad + hypotension + confusion = Reynold's pentad (severe cholangitis) -> fluids, IV antibiotics <1h, urgent ERCP.",
+        "explanation": "The presence of Charcot's triad (fever, jaundice, RUQ pain) plus hypotension and altered mental status constitutes Reynold's pentad, signaling septic shock secondary to acute obstructive cholangitis. Initial management requires resuscitation, IV broad-spectrum antibiotics within 1 hour, blood cultures, and urgent biliary decompression (typically via ERCP)."
+      },
+      {
+        "q": "A 19-year-old male with Type 1 Diabetes Mellitus presents with a 12-hour history of severe generalized abdominal pain, repeated vomiting, and deep rapid breathing (Kussmaul respiration). Vital signs: pulse 116 bpm, BP 102/66 mmHg, temp 37.1 °C. Abdominal exam shows diffuse tenderness on deep palpation, but no involuntary guarding or rigidity. What diagnostic workup must be completed before considering any surgical intervention?",
+        "options": [
+          "A) Emergency exploratory laparotomy to rule out perforated appendix",
+          "B) Immediate blood glucose, blood gas/lactate, and urine/blood ketone assay to evaluate for Diabetic Ketoacidosis (DKA)",
+          "C) Diagnostic peritoneal lavage",
+          "D) Barium meal and follow-through"
+        ],
+        "correct": 1,
+        "hint": "Type 1 DM + abdominal pain + Kussmaul breathing -> check glucose, blood gas, and ketones for DKA.",
+        "explanation": "DKA is a prime medical mimic of the surgical acute abdomen. It induces severe pseudoperitoneal abdominal pain and vomiting. Performing an unnecessary laparotomy on a patient in DKA carries high mortality. Capillary blood glucose, arterial/venous blood gas, and ketone testing must be performed to confirm DKA and initiate medical therapy."
+      },
+      {
+        "q": "A 32-year-old pregnant woman at 28 weeks gestation presents with persistent abdominal pain, low-grade fever, and anorexia. Physical exam reveals point tenderness in the right upper to mid-abdomen rather than the classic McBurney's point. Laboratory results show a white blood cell count of 15.5 x 10^9/L. What anatomical alteration explains the pain location, and what is the preferred initial imaging modality?",
+        "options": [
+          "A) The appendix is displaced superiorly and laterally by the enlarging gravid uterus; perform abdominal ultrasound as the first-line imaging",
+          "B) The appendix migrates into the left iliac fossa; perform contrast CT scan of abdomen",
+          "C) Pregnancy abolishes appendiceal pain afferents; perform plain abdominal X-ray",
+          "D) The stomach moves into the pelvis; perform upper GI endoscopy"
+        ],
+        "correct": 0,
+        "hint": "Gravid uterus displaces appendix upward/laterally; ultrasound is first-line imaging.",
+        "explanation": "During pregnancy, the expanding gravid uterus pushes the cecum and appendix superiorly and laterally toward the right flank/RUQ. Physiological leukocytosis also occurs in pregnancy. Ultrasound is the safest first-line imaging modality to avoid ionizing radiation."
+      },
+      {
+        "q": "A 68-year-old renal transplant recipient taking high-dose oral corticosteroids presents with mild, vague abdominal discomfort and low-grade pyrexia (37.5 °C). Abdominal exam demonstrates a soft abdomen with mild lower abdominal tenderness, but no overt rigidity or rebound tenderness. CT scan reveals extensive free air and fluid in the pelvis secondary to perforated diverticulitis. What key clinical lesson does this case illustrate?",
+        "options": [
+          "A) Corticosteroids completely prevent hollow viscus perforation",
+          "B) Immunosuppression and steroid therapy blunt classical inflammatory responses, masking guarding and rigidity; a soft abdomen does NOT exclude intra-abdominal disaster",
+          "C) Free gas on CT in steroid-treated patients does not require operation",
+          "D) Steroids convert visceral pain directly into parietal pain"
+        ],
+        "correct": 1,
+        "hint": "Steroids/immunosuppression mask peritonism; a soft abdomen doesn't exclude perforation.",
+        "explanation": "Corticosteroids, immunosuppressants, extreme age, and diabetes blunt somatic inflammatory responses, masking signs of peritonism (guarding, rigidity, fever). A 'soft' abdomen in these patient groups does not exclude a life-threatening catastrophe, requiring a low threshold for CT imaging."
+      },
+      {
+        "q": "A 55-year-old male is 4 days post-op following an emergency resection and anastomosis for sigmoid volvulus. He develops progressive tachycardia (HR 118 bpm), low-grade fever (38.1 °C), and vague abdominal distension. His nurse attributes the tachycardia to post-operative pain and suggests extra IV opioids. What is the correct surgical management interpretation?",
+        "options": [
+          "A) Agree with the nurse and increase the opioid dose",
+          "B) Never attribute persistent post-operative tachycardia simply to pain; suspect an anastomotic leak or intra-abdominal collection, perform urgent CT scan with IV contrast, and re-assess vitals",
+          "C) Perform immediate bedside wound debridement",
+          "D) Discharge the patient home on oral antibiotics"
+        ],
+        "correct": 1,
+        "hint": "Persistent post-op tachycardia + fever = suspect anastomotic leak -> urgent IV contrast CT.",
+        "explanation": "Persistent tachycardia after recent abdominal surgery is an early red flag for an anastomotic leak, intra-abdominal sepsis, or collection. Attributing persistent tachycardia to pain is a dangerous pitfall; prompt investigation with contrast CT is required."
+      },
+      {
+        "q": "A 5-day-old full-term neonate develops sudden onset bilious (green) vomiting, abdominal distension, and lethargy. The baby is irritable and crying. What mandatory surgical diagnostic rule applies to this scenario, and what immediate action is required?",
+        "options": [
+          "A) Bilious vomiting in a neonate is malrotation with midgut volvulus until proven otherwise; establish IV access, decompress with NG tube, obtain urgent upper GI contrast study or perform immediate emergency laparotomy to prevent total small bowel necrosis",
+          "B) Bilious vomiting is physiological in neonates; initiate oral formula feeds",
+          "C) Suspect infantile hypertrophic pyloric stenosis; schedule elective pyloromyotomy next week",
+          "D) Diagnose Hirschsprung disease; give rectal glycerin suppositories and observe"
+        ],
+        "correct": 0,
+        "hint": "Bilious vomiting in a neonate = malrotation with midgut volvulus -> urgent IV/NG + upper GI contrast or immediate surgery.",
+        "explanation": "Bilious vomiting in a neonate is a surgical emergency representing malrotation with midgut volvulus until proven otherwise. Delay leads to superior mesenteric artery occlusion and catastrophic entire midgut necrosis. Immediate fluid resuscitation, NG decompression, and urgent imaging or surgery are mandatory."
+      }
+    ]
+  }
+]
