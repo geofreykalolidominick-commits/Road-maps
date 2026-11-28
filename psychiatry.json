@@ -1,0 +1,1848 @@
+[
+  {
+    "topic": "Contribution of Neuroscience and sociocultural",
+    "name": "Contribution of Neuroscience and sociocultural",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What is the current medical understanding regarding the etiology of functional gastrointestinal and psychiatric symptom presentations, such as Irritable Bowel Syndrome (IBS)?",
+        "options": [
+          "A) They are purely anatomical structural defects caused by trauma.",
+          "B) They are best understood as a combination of physiological/neuroscientific and psychosocial factors.",
+          "C) They are purely imaginary disorders with no physiological or neurochemical correlates.",
+          "D) They are caused exclusively by acute bacterial invasion of the mucosa."
+        ],
+        "correct": 1,
+        "hint": "Consider the modern biopsychosocial integration of physiological and psychosocial influences.",
+        "explanation": "According to the sources, functional illnesses like IBS are best understood not as purely psychosomatic or purely structural, but as a combination of psychosocial and physiological factors."
+      },
+      {
+        "pts": 20,
+        "q": "In Functional Abdominal Pain Syndrome (FAPS), altered nociception and perception of pain involve which central neuroscientific mechanism?",
+        "options": [
+          "A) Complete destruction of peripheral motor neurons.",
+          "B) Abnormally excitable and hyperalgesic sensory neurons in the dorsal horn of the spinal cord amplified by cognitive/psychological stress.",
+          "C) Acute demyelination of the optic nerve.",
+          "D) Excess production of thyroid-stimulating hormone."
+        ],
+        "correct": 1,
+        "hint": "Focus on dorsal horn sensory neuron excitability and central pain amplification.",
+        "explanation": "FAPS involves altered nociception where sensory neurons in the dorsal horn of the spinal cord become abnormally excitable and hyperalgesic, with cognitive and psychological factors causing efferent stimulation that amplifies pain signals."
+      },
+      {
+        "pts": 30,
+        "q": "How do sociocultural factors and personality traits influence the reporting of somatic symptoms like nausea and vomiting?",
+        "options": [
+          "A) Symptoms are reported identically across all personalities and cultures.",
+          "B) Histrionic personalities may present symptoms with dramatic urgency, whereas severely depressed patients may minimize or report them indirectly.",
+          "C) Sociocultural influences only affect blood pressure readings.",
+          "D) Severely depressed patients always exaggerate physical symptoms compared to histrionic patients."
+        ],
+        "correct": 1,
+        "hint": "Recall how histrionic versus depressed personalities express distress.",
+        "explanation": "Patients report symptoms differently depending on personality and sociocultural influences; for example, nausea and vomiting may be minimized or reported indirectly by a severely depressed patient but presented with dramatic urgency by a histrionic one."
+      },
+      {
+        "pts": 40,
+        "q": "What is meant by 'learned aberrant illness behavior' in the context of psychosocial contributions to mental health and functional complaints?",
+        "options": [
+          "A) Expressing emotional conflict as a physical/gastrointestinal complaint, such as abdominal pain.",
+          "B) Refusing to adhere to prescribed antibiotic regimens.",
+          "C) Developing a cutaneous photosensitivity rash after sun exposure.",
+          "D) Experiencing genetic enzyme failure in the heme pathway."
+        ],
+        "correct": 0,
+        "hint": "Focus on the physical expression of unresolved emotional conflict.",
+        "explanation": "Learned aberrant illness behavior refers to a pattern where patients express underlying emotional conflict as a physical or gastrointestinal complaint, commonly abdominal pain."
+      },
+      {
+        "pts": 50,
+        "q": "In portal-systemic encephalopathy, how do metabolic breakdown products interact with central neurotransmission to cause neuropsychiatric symptoms?",
+        "options": [
+          "A) Direct bacterial infection of cortical tissue forming localized brain abscesses.",
+          "B) Shunted toxic products like ammonia alter cerebral GABAergic neurotransmission and benzodiazepine receptors, leading to confusion, agitation, and asterixis.",
+          "C) Sudden drop in serum thyroxine (T4) causing acute myxedema coma.",
+          "D) Deposition of copper in the basal ganglia causing Kayser-Fleischer rings."
+        ],
+        "correct": 1,
+        "hint": "Look for liver bypass products affecting GABA receptors and ammonia toxicity.",
+        "explanation": "In portal-systemic encephalopathy, toxic products like ammonia that bypass the liver alter cerebral benzodiazepine receptors and GABAergic neurotransmission, producing neuropsychiatric disturbances including confusion, apraxia, and flapping tremor (asterixis)."
+      }
+    ]
+  },
+  {
+    "topic": "Classification systems in mental health disorder",
+    "name": "Classification systems in mental health disorder",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Standardized symptom-based criteria (such as the Rome criteria) are primarily utilized in clinical psychiatry and medicine to:",
+        "options": [
+          "A) Eliminate the need for taking a clinical history.",
+          "B) Establish standardized diagnostic criteria and classification for functional disorders based on specific symptom patterns and duration.",
+          "C) Measure hepatic transaminase levels accurately.",
+          "D) Replace physical examination in surgical patients."
+        ],
+        "correct": 1,
+        "hint": "Think of standardized diagnostic criteria sets like Rome or DSM.",
+        "explanation": "Standardized criteria sets (like the Rome criteria) provide clear, symptom-based classifications for diagnosing functional disorders based on specific clinical features and duration thresholds."
+      },
+      {
+        "pts": 20,
+        "q": "Under the Rome diagnostic classification for Irritable Bowel Syndrome (IBS), what is the required threshold for symptom frequency?",
+        "options": [
+          "A) Abdominal pain or discomfort for at least 1 day per year.",
+          "B) Abdominal pain or discomfort for at least 3 days per month in the last 3 months.",
+          "C) Continuous 24-hour abdominal pain following a single meal.",
+          "D) Daily pain for 6 consecutive weeks with no defecation changes."
+        ],
+        "correct": 1,
+        "hint": "Recall the standardized monthly time threshold for Rome criteria.",
+        "explanation": "The Rome criteria require the presence of abdominal pain or discomfort for at least 3 days per month in the last 3 months, associated with defecation or bowel habit changes."
+      },
+      {
+        "pts": 30,
+        "q": "Why is diagnostic classification based on standardized symptom criteria valuable in clinical practice?",
+        "options": [
+          "A) It allows clinicians to order unnecessary diagnostic testing repeatedly.",
+          "B) It provides clear diagnostic boundaries while requiring clinicians to exclude 'red flag' organic signs before confirming a functional condition.",
+          "C) It proves that all patient complaints are imaginary.",
+          "D) It guarantees immediate surgical cure."
+        ],
+        "correct": 1,
+        "hint": "Focus on diagnostic safety and ruling out underlying red flag pathology.",
+        "explanation": "Classification criteria allow reliable diagnosis of functional disorders while ensuring clinicians screen for and exclude organic 'red flag' findings (such as fever, weight loss, or bleeding)."
+      },
+      {
+        "pts": 40,
+        "q": "When evaluating a patient who meets classification criteria for a functional somatic or psychiatric disorder, what is the significance of 'red flag' findings?",
+        "options": [
+          "A) They confirm that the disorder is purely functional and requires no further testing.",
+          "B) They indicate the potential presence of an underlying organic disease requiring intensive investigation.",
+          "C) They indicate that treatment should be stopped immediately.",
+          "D) They confirm a diagnosis of genetic copper storage disease."
+        ],
+        "correct": 1,
+        "hint": "Red flags alert the clinician to structural or organic disease.",
+        "explanation": "Red flag findings (e.g., fever, weight loss, blood in stool, acute neurological deficits) indicate that symptoms may be caused by an underlying organic condition rather than a functional disorder, mandating thorough diagnostic testing."
+      },
+      {
+        "pts": 50,
+        "q": "In the clinical classification of functional and psychiatric disorders, why must clinicians assess for 'secondary gain'?",
+        "options": [
+          "A) Secondary gain causes acute bacterial inflammation.",
+          "B) Secondary gain involves benefits derived from being sick, which can maintain symptoms or cause new symptoms to develop if original ones are successfully treated.",
+          "C) Secondary gain is a genetic chromosomal duplication.",
+          "D) Secondary gain only occurs in pediatric emergency cases."
+        ],
+        "correct": 1,
+        "hint": "Consider how sick-role benefits can perpetuate chronic illness.",
+        "explanation": "Psychological theories note that functional symptoms may satisfy psychological needs such as secondary gain (benefits derived from being ill); in such patients, treating one symptom may cause new symptoms to emerge unless the underlying psychological dynamics are addressed."
+      }
+    ]
+  },
+  {
+    "topic": "Biological and Psychological causes of common",
+    "name": "Biological and Psychological causes of common",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Which specific physiological disruption is implicated as a key biological factor contributing to fibromyalgia?",
+        "options": [
+          "A) Hypersecretion of gastric intrinsic factor.",
+          "B) Disruption of stage 4 sleep.",
+          "C) Excessive iron accumulation in the liver.",
+          "D) Primary destruction of adrenal cortical tissue."
+        ],
+        "correct": 1,
+        "hint": "Focus on deep non-REM sleep stage disruption.",
+        "explanation": "According to the sources, the cause of fibromyalgia is unknown, but disruption of stage 4 sleep may contribute to its development and symptom severity."
+      },
+      {
+        "pts": 20,
+        "q": "In Lichen Simplex Chronicus (neurodermatitis), what interaction between psychological and physical factors maintains the disorder?",
+        "options": [
+          "A) Primary autoimmune destruction of epidermal melanocytes.",
+          "B) Perceived pruritus combined with anxiety or emotional stress, provoking repetitive scratching that causes secondary skin thickening and further itching.",
+          "C) Direct fungal infection of the deep dermis.",
+          "D) Acute allergic reaction to systemic vitamin B6."
+        ],
+        "correct": 1,
+        "hint": "Think of the self-perpetuating itch-scratch cycle linked with emotional stress.",
+        "explanation": "Lichen simplex chronicus arises secondary to repetitive scratching or rubbing; perceived pruritus (often linked to anxiety or stress) provokes mechanical trauma, causing skin thickening and perpetuating a vicious itch-scratch cycle."
+      },
+      {
+        "pts": 30,
+        "q": "How do psychological stress and anxiety precipitate somatic complaints such as non-vestibular dizziness or hyperventilation?",
+        "options": [
+          "A) By causing irreversible physical erosion of the inner ear semicircular canals.",
+          "B) Through psychogenic pathways and stress-induced autonomic/sympathetic nervous system activation.",
+          "C) By permanently lowering serum ceruloplasmin levels.",
+          "D) By inducing acute viral labyrinthitis."
+        ],
+        "correct": 1,
+        "hint": "Look for autonomic nervous system arousal during stress and panic.",
+        "explanation": "Dizziness and somatic distress can be psychogenic; patients with panic disorder, hyperventilation syndrome, anxiety, or depression often present with complaints of dizziness driven by autonomic nervous system activation."
+      },
+      {
+        "pts": 40,
+        "q": "What is 'visceral hypersensitivity' in the etiology of common functional gastrointestinal symptoms?",
+        "options": [
+          "A) Complete loss of abdominal cutaneous sensation.",
+          "B) A disturbance of nociception where normal intestinal sensations (e.g., luminal distention, peristalsis) are experienced as painful or distressing.",
+          "C) An allergic reaction to dietary proteins.",
+          "D) Excessive breakdown of red blood cells in the spleen."
+        ],
+        "correct": 1,
+        "hint": "Consider heightened perception of normal physiological bowel events.",
+        "explanation": "Visceral hypersensitivity is a disturbance of nociception in which patients experience discomfort caused by normal physiological sensations (like luminal distention or peristalsis) that healthy individuals do not find distressing."
+      },
+      {
+        "pts": 50,
+        "q": "How do biological predispositions and exogenous psychological/environmental triggers interact to cause acute neurovisceral attacks in acute porphyrias?",
+        "options": [
+          "A) Genetic enzyme defects cause attacks spontaneously without any precipitating factors.",
+          "B) A genetic defect in a heme synthesis enzyme combines with precipitating factors (drugs, fasting, mental stress, or hormonal changes) to accelerate porphyrin precursor accumulation.",
+          "C) Psychological stress directly corrects the enzyme defect.",
+          "D) Acute attacks are caused entirely by poor dental hygiene."
+        ],
+        "correct": 1,
+        "hint": "Think of a gene-environment interaction triggering porphyrin precursor buildup.",
+        "explanation": "Acute porphyric crises occur when an underlying genetic enzyme deficiency in the heme biosynthetic pathway interacts with precipitating factors—such as porphyrogenic drugs, low-calorie diets, hormonal changes, or mental problems/stress—leading to toxic accumulation of ALA and PBG."
+      }
+    ]
+  },
+  {
+    "topic": "Examination and diagnosis of the psychiatric",
+    "name": "Examination and diagnosis of the psychiatric",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "When conducting an initial evaluation for a patient presenting with mental or psychiatric symptoms, what is a primary clinical responsibility?",
+        "options": [
+          "A) Proceeding directly to invasive brain surgery.",
+          "B) Obtaining a complete history and mental status examination while systematically evaluating and ruling out general medical causes.",
+          "C) Prescribing high-dose corticosteroids before completing the history.",
+          "D) Ordering a 24-hour urine collection for all patients regardless of symptoms."
+        ],
+        "correct": 1,
+        "hint": "Always combine clinical history with ruling out medical mimics.",
+        "explanation": "Evaluating psychiatric symptoms requires a careful history, mental status assessment, physical examination, and appropriate testing to rule out underlying general medical or toxic causes."
+      },
+      {
+        "pts": 20,
+        "q": "In evaluating an elderly patient presenting with new-onset cognitive decline, confusion, or depression, which medical/nutritional conditions must be investigated?",
+        "options": [
+          "A) Essential hypertension only.",
+          "B) Reversible organic conditions such as Vitamin B12 deficiency, thyroid dysfunction, and drug adverse effects.",
+          "C) Uncomplicated dental caries.",
+          "D) Mild otitis externa."
+        ],
+        "correct": 1,
+        "hint": "Look for reversible systemic, metabolic, or drug-induced causes in geriatrics.",
+        "explanation": "In older adults, cognitive decline, confusion, or depression can be caused or exacerbated by drug adverse effects, thyroid disease, Vitamin B12 deficiency, or other systemic medical disorders."
+      },
+      {
+        "pts": 30,
+        "q": "During physical and neurological examination of a patient with chronic liver disease, which early physical sign indicates developing portal-systemic encephalopathy?",
+        "options": [
+          "A) Kayser-Fleischer rings on slit-lamp exam.",
+          "B) Constructional apraxia (inability to reproduce simple designs like a star) and a flapping tremor (asterixis).",
+          "C) Nuchal rigidity with positive Brudzinski sign.",
+          "D) Fixed dilated pupils."
+        ],
+        "correct": 1,
+        "hint": "Look for motor apraxia and wrist flapping tremor.",
+        "explanation": "Constructional apraxia (inability to reproduce simple drawings) and asterixis (flapping tremor when holding arms outstretched with dorsiflexed wrists) are characteristic early physical exam findings in portal-systemic encephalopathy."
+      },
+      {
+        "pts": 40,
+        "q": "During the examination of a patient with acute vomiting, why are headache, stiff neck, or altered mental status classified as 'red flag' findings?",
+        "options": [
+          "A) They confirm a benign psychogenic origin.",
+          "B) They indicate potential life-threatening intracranial or central nervous system pathology requiring urgent investigation.",
+          "C) They indicate that only dietary adjustments are needed.",
+          "D) They rule out any neurological involvement."
+        ],
+        "correct": 1,
+        "hint": "Red flags alert the clinician to acute central nervous system emergencies.",
+        "explanation": "In patients presenting with vomiting, red flag findings such as headache, stiff neck, or mental status changes indicate possible serious intracranial pathology (such as increased ICP, meningitis, or hemorrhage) requiring immediate medical investigation."
+      },
+      {
+        "pts": 50,
+        "q": "How do clinicians differentiate Wernicke's encephalopathy from Korsakoff's psychosis during examination of alcohol-dependent patients?",
+        "options": [
+          "A) Wernicke's presents acutely with psychomotor slowing, ataxia, nystagmus, and ophthalmoplegia; Korsakoff's presents with chronic mental confusion, confabulation, and impaired recent memory.",
+          "B) Wernicke's is caused by copper toxicity, whereas Korsakoff's is caused by iron overload.",
+          "C) Korsakoff's is an acute surgical emergency, whereas Wernicke's is a mild skin condition.",
+          "D) Both disorders present identically and cannot be clinically distinguished."
+        ],
+        "correct": 0,
+        "hint": "Distinguish the acute neurological triad of Wernicke's from chronic confabulatory memory loss in Korsakoff's.",
+        "explanation": "Wernicke's encephalopathy consists of acute psychomotor slowing/apathy, nystagmus, ataxia, and ophthalmoplegia due to acute thiamin deficiency; Korsakoff's psychosis consists of chronic confusion, confabulation, and severe recent memory impairment."
+      }
+    ]
+  },
+  {
+    "topic": "Schizophrenia spectrum and other Psychiatric",
+    "name": "Schizophrenia spectrum and other Psychiatric",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In delusional parasitosis, what characteristic behavioral presentation is classic on examination?",
+        "options": [
+          "A) The Dix-Hallpike maneuver.",
+          "B) The 'matchbox sign' (patients bringing containers filled with skin debris, lint, or scabs to prove infestation).",
+          "C) Nikolsky's sign.",
+          "D) Asterixis."
+        ],
+        "correct": 1,
+        "hint": "Think of patients bringing physical 'proof' of skin organisms in small boxes.",
+        "explanation": "In delusional parasitosis, patients have an unshakable belief that they are infested and frequently bring samples of skin, debris, lint, or scabs in small containers or slides ('matchbox sign') to prove their claim."
+      },
+      {
+        "pts": 20,
+        "q": "What is the recommended primary medical management for a patient diagnosed with delusional parasitosis?",
+        "options": [
+          "A) High-potency topical corticosteroids under occlusion.",
+          "B) Antipsychotic drug therapy delivered with clinical diplomacy and empathy.",
+          "C) Extensive surgical skin debridement.",
+          "D) Long-term systemic oral antibiotics."
+        ],
+        "correct": 1,
+        "hint": "Consider the drug class used for hypochondriacal psychoses.",
+        "explanation": "Delusional parasitosis is considered a hypochondriacal psychosis and is treated with antipsychotic drugs, requiring clinical diplomacy to establish a therapeutic relationship."
+      },
+      {
+        "pts": 30,
+        "q": "Which nutritional deficiency can cause 'megaloblastic madness' featuring paranoia, delirium, and confusion that mimics a primary psychotic disorder?",
+        "options": [
+          "A) Vitamin C deficiency.",
+          "B) Vitamin B12 deficiency.",
+          "C) Hypervitaminosis A.",
+          "D) Calcium deficiency."
+        ],
+        "correct": 1,
+        "hint": "Focus on the vitamin deficiency associated with megaloblastic anemia and neurological deficits.",
+        "explanation": "Severe Vitamin B12 deficiency can cause neurological and psychiatric disturbances including paranoia ('megaloblastic madness'), delirium, confusion, and mild depression, which may occur even without anemia."
+      },
+      {
+        "pts": 40,
+        "q": "During an acute porphyric attack, which central nervous system manifestations may mimic a primary psychotic or psychiatric disorder?",
+        "options": [
+          "A) Isolated conductive hearing loss.",
+          "B) Apathy, depression, agitation, frank psychosis, and hallucinations (often compounded by hyponatremia).",
+          "C) Pure palmar hyperkeratosis.",
+          "D) Isolated cataract formation."
+        ],
+        "correct": 1,
+        "hint": "Look for neurovisceral CNS involvement with hallucinations and mood shifts during porphyria crises.",
+        "explanation": "Acute porphyrias can involve the central nervous system, causing psychiatric disturbances such as apathy, depression, agitation, frank psychosis, and hallucinations, which are often complicated by electrolyte abnormalities like hyponatremia."
+      },
+      {
+        "pts": 50,
+        "q": "In severe Niacin deficiency (Pellagra), what range of central nervous system and psychotic symptoms can develop?",
+        "options": [
+          "A) Memory impairment, disorientation, confusion, confabulation, excitement, depression, mania, delirium, or paranoia.",
+          "B) Isolated intention tremor of the upper extremities without cognitive change.",
+          "C) Complete loss of pain sensation in the lower limbs without emotional shifts.",
+          "D) Exclusive auditory hallucinations with completely normal orientation and memory."
+        ],
+        "correct": 0,
+        "hint": "Recall the dementia/psychosis spectrum in severe pellagra.",
+        "explanation": "Niacin deficiency (pellagra) causes CNS changes including psychosis, encephalopathy, and cognitive decline (dementia); psychosis is characterized by memory impairment, disorientation, confusion, confabulation, excitement, depression, mania, delirium, or paranoia."
+      }
+    ]
+  },
+  {
+    "topic": "Anxiety disorders",
+    "name": "Anxiety disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Patients presenting with panic disorder, hyperventilation syndrome, or severe anxiety frequently report which somatic complaint?",
+        "options": [
+          "A) Scleral icterus.",
+          "B) Dizziness or light-headedness.",
+          "C) Kayser-Fleischer rings.",
+          "D) Splenomegaly."
+        ],
+        "correct": 1,
+        "hint": "Think of common non-vestibular psychogenic sensations experienced during anxiety.",
+        "explanation": "Dizziness and light-headedness are frequently psychogenic; patients with panic disorder, hyperventilation syndrome, anxiety, or depression commonly present with complaints of dizziness."
+      },
+      {
+        "pts": 20,
+        "q": "Emotional stress and anxiety are frequent triggers for focal hyperhidrosis (excessive sweating) in which body regions?",
+        "options": [
+          "A) Scalp and ears only.",
+          "B) Palms, soles, axillae, and forehead.",
+          "C) Shin and pretibial areas only.",
+          "D) Lower back and knees."
+        ],
+        "correct": 1,
+        "hint": "Focus on areas with high sympathetic response to fear or stress.",
+        "explanation": "Focal sweating commonly has emotional causes, producing excessive perspiration on the palms, soles, axillae, and forehead during periods of anxiety, fear, or stress due to sympathetic outflow."
+      },
+      {
+        "pts": 30,
+        "q": "What is the relationship between anxiety, emotional stress, and nocturnal bruxism in myofascial pain syndrome?",
+        "options": [
+          "A) Stress causes permanent paralysis of the masticatory muscles.",
+          "B) Anxiety and emotional stress contribute to nocturnal clenching/grinding (bruxism), leading to masticatory muscle tension, spasm, and jaw pain.",
+          "C) Bruxism is an inherited fungal infection unaffected by emotional state.",
+          "D) Stress eliminates all jaw muscle contractions during sleep."
+        ],
+        "correct": 1,
+        "hint": "Consider stress-induced nocturnal jaw clenching.",
+        "explanation": "Myofascial pain syndrome is caused by tension, fatigue, or spasm in the masticatory muscles; the muscle spasm usually results from nocturnal bruxism (clenching/grinding), which is strongly linked to emotional stress and anxiety."
+      },
+      {
+        "pts": 40,
+        "q": "How do anxiety and emotional stress perpetuate the 'itch-scratch cycle' in Lichen Simplex Chronicus?",
+        "options": [
+          "A) Anxiety eliminates skin sensation, preventing scratching.",
+          "B) Anxiety and stress heighten perceived pruritus, provoking repetitive rubbing/scratching that causes secondary skin thickening and further itching.",
+          "C) Anxiety cures chronic dermatitis spontaneously.",
+          "D) Anxiety leads to immediate epidermal sloughing via Nikolsky sign."
+        ],
+        "correct": 1,
+        "hint": "Focus on stress amplifying perceived pruritus and mechanical trauma.",
+        "explanation": "Lichen simplex chronicus frequently occurs in people with anxiety disorders and emotional stress; perceived pruritus provokes scratching and mechanical trauma, producing secondary lichenification that triggers further itching."
+      },
+      {
+        "pts": 50,
+        "q": "What conservative management strategy is recommended for acute exacerbations of myofascial pain syndrome driven by stress and bruxism?",
+        "options": [
+          "A) Permanent surgical resection of the masseter muscle.",
+          "B) Short-term low-dose bedtime anxiolytics/benzodiazepines, bite splinting, mild analgesics, and relaxation/physical therapy.",
+          "C) High-dose opioid therapy for 5 continuous years.",
+          "D) High-dose systemic corticosteroids for 12 months."
+        ],
+        "correct": 1,
+        "hint": "Think of bite protection, temporary anxiolytics, and relaxation techniques.",
+        "explanation": "Management of myofascial pain syndrome includes bite splinting to prevent bruxism damage, short-term low doses of a bedtime benzodiazepine/anxiolytic for acute exacerbations, mild non-opioid analgesics, physical therapy, and biofeedback/counseling for stress."
+      }
+    ]
+  },
+  {
+    "topic": "Bipolar Disorders",
+    "name": "Bipolar Disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Which mood-stabilizing medication commonly used in bipolar disorder is explicitly highlighted as a cause of significant weight gain?",
+        "options": [
+          "A) Cetirizine.",
+          "B) Lithium.",
+          "C) Aspirin.",
+          "D) Penicillamine."
+        ],
+        "correct": 1,
+        "hint": "Identify the classic elemental mood stabilizer associated with weight gain.",
+        "explanation": "According to the sources, drugs including lithium, antipsychotic agents, and traditional antidepressants frequently cause weight gain as a side effect."
+      },
+      {
+        "pts": 20,
+        "q": "High-dose systemic corticosteroid therapy can precipitate which psychiatric adverse reactions?",
+        "options": [
+          "A) Isolated loss of taste.",
+          "B) Psychotic reactions, mania, or severe mood disturbances.",
+          "C) Progressive sensorineural hearing loss.",
+          "D) Primary hyperparathyroidism."
+        ],
+        "correct": 1,
+        "hint": "Consider steroid-induced psychiatric complications.",
+        "explanation": "Complications of corticosteroid therapy may include severe psychiatric disturbances, such as psychotic reactions, mania, or severe mood alterations."
+      },
+      {
+        "pts": 30,
+        "q": "In severe nutritional deficiency such as Pellagra (niacin deficiency), which manic-like or affective symptom may appear as part of the psychiatric presentation?",
+        "options": [
+          "A) Mania, excitement, or paranoia.",
+          "B) Isolated intention tremor.",
+          "C) Anisocoria.",
+          "D) Fixed pinpoint pupils."
+        ],
+        "correct": 0,
+        "hint": "Look for mood elevation/excitement in severe niacin deficiency.",
+        "explanation": "In niacin deficiency (pellagra), the predominant psychiatric presentation may include mania, excitement, depression, delirium, or paranoia."
+      },
+      {
+        "pts": 40,
+        "q": "Although uncommon, agitation and mania can develop in patients with which metabolic/hepatic neuropsychiatric condition?",
+        "options": [
+          "A) Primary hypothyroidism.",
+          "B) Portal-systemic (hepatic) encephalopathy.",
+          "C) Osteoarthritis of the knee.",
+          "D) Otitis media with effusion."
+        ],
+        "correct": 1,
+        "hint": "Recall neuropsychiatric manifestations of acute liver failure/shunting.",
+        "explanation": "In portal-systemic encephalopathy, neuropsychiatric symptoms develop in progressive stages; while confusion and apathy are most common, agitation and mania can also develop."
+      },
+      {
+        "pts": 50,
+        "q": "What clinical management step is indicated if a patient receiving high-dose corticosteroids for an acute crisis develops corticosteroid-induced psychotic or manic symptoms?",
+        "options": [
+          "A) Abruptly stopping all corticosteroids immediately without tapering.",
+          "B) Reducing the corticosteroid dosage to the lowest level consistent with maintaining cardiovascular stability and temporarily administering an antipsychotic if necessary.",
+          "C) Doubling the corticosteroid dose immediately.",
+          "D) Administering high-dose thyroid hormone replacement."
+        ],
+        "correct": 1,
+        "hint": "Focus on tapering steroids to the minimum necessary and adding temporary antipsychotics.",
+        "explanation": "If psychotic or manic reactions occur during corticosteroid therapy, the hydrocortisone/prednisone dose should be reduced to the lowest level consistent with maintaining blood pressure and cardiovascular function, and antipsychotics may be temporarily required."
+      }
+    ]
+  },
+  {
+    "topic": "Depressive disorders",
+    "name": "Depressive disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In general medical and geriatric clinical evaluations, why is mental status screening for depression essential when assessing unexplained weight loss?",
+        "options": [
+          "A) Depression causes rapid muscle hypertrophy.",
+          "B) Depression and cognitive impairment can cause poor appetite and significant weight loss.",
+          "C) Depression eliminates physical fatigue.",
+          "D) Depression improves caloric absorption automatically."
+        ],
+        "correct": 1,
+        "hint": "Consider how mood disorders affect appetite and nutritional status.",
+        "explanation": "Mental status should be routinely assessed during nutritional evaluations because depression and cognitive impairment can lead to decreased food intake and significant weight loss."
+      },
+      {
+        "pts": 20,
+        "q": "How might a severely depressed patient report physical symptoms (such as nausea or abdominal pain) during clinical history taking compared to a histrionic patient?",
+        "options": [
+          "A) Depressed patients always report symptoms with dramatic urgency.",
+          "B) Depressed patients may minimize or report physical symptoms indirectly.",
+          "C) Depressed patients never experience physical complaints.",
+          "D) Depressed patients only report ocular pain."
+        ],
+        "correct": 1,
+        "hint": "Recall the subtle or indirect presentation of physical complaints in severe depression.",
+        "explanation": "Patients report symptoms differently based on personality; for example, nausea and vomiting may be minimized or reported indirectly by a severely depressed patient, whereas a histrionic patient presents them with dramatic urgency."
+      },
+      {
+        "pts": 30,
+        "q": "In patients with Fibromyalgia, what cluster of psychological and somatic symptoms frequently co-occurs alongside generalized muscle pain and fatigue?",
+        "options": [
+          "A) Anxiety, stress, poor sleep, and depressive symptoms.",
+          "B) High fever, bloody diarrhea, and jaundice.",
+          "C) Unilateral facial paralysis and vesicles on the pinna.",
+          "D) Acute crushing chest pain radiating to the jaw."
+        ],
+        "correct": 0,
+        "hint": "Focus on the mood, sleep, and stress comorbidities of fibromyalgia.",
+        "explanation": "Patients with fibromyalgia tend to be stressed, tense, anxious, fatigued, and sometimes depressed, with poor sleep exacerbating their symptoms."
+      },
+      {
+        "pts": 40,
+        "q": "What mechanism explains why low-dose tricyclic antidepressants (TCAs) are effective in managing chronic functional abdominal pain and fibromyalgia?",
+        "options": [
+          "A) They function solely as strong osmotic laxatives.",
+          "B) They down-regulate spinal cord and cortical afferent pain pathways, improve sleep architecture, and reduce visceral pain perception.",
+          "C) They eliminate underlying bacterial infections.",
+          "D) They dissolve gallstones."
+        ],
+        "correct": 1,
+        "hint": "Consider pain pathway modulation in the central nervous system.",
+        "explanation": "Low-dose tricyclic antidepressants help relieve chronic functional pain and fibromyalgia symptoms by altering sensory perception and down-regulating the activity of spinal cord and cortical afferent pain pathways arriving from peripheral tissues."
+      },
+      {
+        "pts": 50,
+        "q": "In Vitamin B12 deficiency, what mood and cognitive disturbances can manifest before or alongside anemia?",
+        "options": [
+          "A) Irritability, mild depression, paranoia ('megaloblastic madness'), delirium, and confusion.",
+          "B) Severe mania with hyper-reflexia only.",
+          "C) Complete loss of long-term memory with intact short-term memory.",
+          "D) Isolated panic attacks with no cognitive change."
+        ],
+        "correct": 0,
+        "hint": "Recall the neuropsychiatric spectrum of B12 deficiency.",
+        "explanation": "Vitamin B12 deficiency can present with irritability, mild depression, paranoia ('megaloblastic madness'), delirium, and confusion; notably, severe neurological and psychiatric disease may occur without anemia or macrocytosis."
+      }
+    ]
+  },
+  {
+    "topic": "Somatic symptoms and related disorders",
+    "name": "Somatic symptoms and related disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Globus sensation (globus hystericus) is clinically defined as:",
+        "options": [
+          "A) True mechanical obstruction of the lower esophageal sphincter.",
+          "B) The perception of a lump or mass in the throat unrelated to swallowing when no physical mass is present.",
+          "C) Acute bacterial infection of the tonsils.",
+          "D) A malignant tumor of the larynx."
+        ],
+        "correct": 1,
+        "hint": "Think of the sensation of a throat lump without structural obstruction.",
+        "explanation": "Globus sensation (globus hystericus) is the sensation of a lump or mass in the throat, unrelated to swallowing, when no physical mass is present."
+      },
+      {
+        "pts": 20,
+        "q": "What key clinical feature distinguishes globus sensation from true mechanical dysphagia?",
+        "options": [
+          "A) Globus sensation causes severe pain during swallowing of solid food.",
+          "B) Globus sensation is unrelated to swallowing and occurs without difficulty passing food or liquids.",
+          "C) True mechanical dysphagia resolves completely when eating dry crackers.",
+          "D) Globus sensation is accompanied by fever and rapid weight loss."
+        ],
+        "correct": 1,
+        "hint": "Focus on the absence of difficulty or pain during actual swallowing.",
+        "explanation": "The main goal is to distinguish globus sensation from true dysphagia; globus sensation is unrelated to swallowing and lacks difficulty with transport of food or liquid, whereas true dysphagia involves structural or motor impediment."
+      },
+      {
+        "pts": 30,
+        "q": "What proportion of referrals to gastroenterologists are accounted for by functional illness (where no organic physiological cause is found after evaluation)?",
+        "options": [
+          "A) Less than 1%.",
+          "B) 30 to 50%.",
+          "C) Exactly 95%.",
+          "D) 0%."
+        ],
+        "correct": 1,
+        "hint": "Recall the high percentage of gastroenterology consultations for functional symptoms.",
+        "explanation": "According to the sources, functional illness (where no physiological cause for GI complaints is found after extensive evaluation) accounts for 30 to 50% of referrals to gastroenterologists."
+      },
+      {
+        "pts": 40,
+        "q": "In functional somatic and gastrointestinal disorders, what is 'secondary gain'?",
+        "options": [
+          "A) Financial profit from selling prescription medications.",
+          "B) Psychological or social benefits derived from being sick, which may maintain or perpetuate physical complaints.",
+          "C) Weight gain following abdominal surgery.",
+          "D) Improved liver function test results."
+        ],
+        "correct": 1,
+        "hint": "Consider the subconscious psychological advantages of maintaining a sick role.",
+        "explanation": "Psychological theories hold that functional symptoms may satisfy certain psychological needs, such as secondary benefits (secondary gain) derived from being sick, which can perpetuate illness behavior."
+      },
+      {
+        "pts": 50,
+        "q": "What is the recommended clinical management approach for a patient with confirmed globus sensation or functional abdominal pain after organic pathology has been excluded?",
+        "options": [
+          "A) Performing repeated weekly invasive endoscopic procedures.",
+          "B) Reassurance, sympathetic concern, explaining the link between mood/stress and symptoms, and avoiding unnecessary repeated diagnostic testing.",
+          "C) Immediate long-term administration of high-dose opioid analgesics.",
+          "D) Surgical resection of the upper esophagus."
+        ],
+        "correct": 1,
+        "hint": "Focus on empathetic reassurance, psychoeducation, and avoiding counterproductive repeated testing.",
+        "explanation": "Management of functional somatic complaints like globus sensation or functional abdominal pain rests on a foundation of reassurance, sympathetic concern, explaining how symptoms relate to stress/mood, and avoiding frequent repeated examinations/tests that magnify complaints."
+      }
+    ]
+  },
+  {
+    "topic": "10. Trauma and stressor related disorders",
+    "name": "10. Trauma and stressor related disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What is the primary duration threshold that clinically distinguishes Acute Stress Disorder from Posttraumatic Stress Disorder (PTSD) in DSM-5-TR?",
+        "options": [
+          "A) Acute Stress Disorder lasts for at least 6 months, whereas PTSD resolves within 2 weeks.",
+          "B) Acute Stress Disorder symptoms occur between 3 days and 1 month post-trauma, whereas PTSD requires symptoms to persist for more than 1 month.",
+          "C) Acute Stress Disorder requires physical brain injury, whereas PTSD is strictly a psychological reaction.",
+          "D) Acute Stress Disorder cannot feature intrusive memories, while PTSD consists exclusively of sleep disturbances."
+        ],
+        "correct": 1,
+        "hint": "Focus on the 1-month duration threshold following trauma exposure.",
+        "explanation": "According to DSM-5-TR, Acute Stress Disorder requires symptoms lasting from 3 days to 1 month after trauma exposure. If symptoms persist beyond 1 month and meet criteria, the diagnosis is changed to PTSD."
+      },
+      {
+        "pts": 20,
+        "q": "A 28-year-old survivor of a severe motor vehicle collision presents 2 weeks after the accident with intrusive distressing memories, severe hypervigilance, sleep disruption, and persistent feelings of detachment from her body (depersonalization). She meets 10 Criterion B symptoms. What is the most accurate diagnosis?",
+        "options": [
+          "A) Posttraumatic Stress Disorder with delayed expression.",
+          "B) Generalized Anxiety Disorder.",
+          "C) Acute Stress Disorder.",
+          "D) Adjustment Disorder with anxiety."
+        ],
+        "correct": 2,
+        "hint": "Consider the timeframe of 2 weeks post-trauma and the presence of severe posttraumatic symptoms.",
+        "explanation": "Because the presentation occurs 2 weeks after a qualifying traumatic event and features severe intrusion, arousal, and dissociative symptoms lasting between 3 days and 1 month, Acute Stress Disorder is the correct diagnosis."
+      },
+      {
+        "pts": 30,
+        "q": "In DSM-5-TR, which exposure scenario satisfies Criterion A (traumatic stressor) for Posttraumatic Stress Disorder in adults?",
+        "options": [
+          "A) Learning that a close relative died of natural age-related illness.",
+          "B) Watching non-work-related violent news coverage on television or social media.",
+          "C) Experiencing a non-violent marital separation or sudden job loss.",
+          "D) Exposure to actual or threatened death, serious injury, or sexual violence via direct experience, witnessing in person, or work-related repeated exposure to aversive details."
+        ],
+        "correct": 3,
+        "hint": "Recall the qualifying trauma categories and the specific exclusion regarding media exposure.",
+        "explanation": "PTSD Criterion A requires exposure to actual or threatened death, serious injury, or sexual violence through direct experience, witnessing in person, learning of violent/accidental trauma to a close relative/friend, or repeated work-related exposure to aversive details."
+      },
+      {
+        "pts": 40,
+        "q": "When assessing a 5-year-old child exposed to domestic violence for PTSD using DSM-5-TR child-specific criteria (6 years and younger), how do diagnostic requirements differ from adult criteria?",
+        "options": [
+          "A) Intrusive memories must be expressed in verbal reports only and cannot occur in play reenactment.",
+          "B) Avoidance symptoms or negative alterations in cognitions/mood require only 1 symptom combined (rather than separate higher thresholds), and play reenactment/constriction of play is recognized.",
+          "C) Children under 6 years can only be diagnosed if they experience dissociative fugue states.",
+          "D) Hallucinations must be present for at least 3 months continuously."
+        ],
+        "correct": 1,
+        "hint": "Focus on developmental adaptations in play, mood expression, and criterion thresholds for young children.",
+        "explanation": "In children 6 years and younger, DSM-5-TR specifies that intrusive memories may be expressed via play reenactment, frightening dreams without recognizable content may occur, and Criterion C combines avoidance and negative cognitive/mood alterations, requiring at least 1 symptom."
+      },
+      {
+        "pts": 50,
+        "q": "According to the Tanzania Standard Treatment Guidelines (STG 2026), what is the recommended pharmacological management for acute severe anxiety or agitation in a patient diagnosed with Acute Stress Disorder?",
+        "options": [
+          "A) High-dose Haloperidol 20 mg IV daily for 6 months.",
+          "B) Continuous IV infusion of Sodium Bicarbonate for 72 hours.",
+          "C) Short-term Clonazepam (PO) 0.5–2 mg 12 to 24 hourly for a maximum of 2 weeks, combined with supportive psychotherapy and CBT.",
+          "D) Immediate maintenance therapy with Naltrexone 50 mg PO daily."
+        ],
+        "correct": 2,
+        "hint": "Look for short-term anxiolytic guidance in STG Chapter 23.",
+        "explanation": "STG 2026 specifies that for acute anxiety or agitation in Acute Stress Disorder, oral Clonazepam 0.5–2 mg 12–24 hourly may be given for a maximum of 2 weeks (tapered off over 2–6 weeks) alongside supportive psychotherapy/CBT."
+      }
+    ]
+  },
+  {
+    "topic": "11. Obsessive-Compulsive and related disorders",
+    "name": "11. Obsessive-Compulsive and related disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In DSM-5-TR, how are obsessions clinically distinguished from compulsions in Obsessive-Compulsive Disorder (OCD)?",
+        "options": [
+          "A) Obsessions are physical actions; compulsions are pleasurable daydreams.",
+          "B) Obsessions are recurrent, intrusive, unwanted thoughts/urges causing anxiety; compulsions are repetitive behaviors or mental acts performed to reduce distress or according to rigid rules.",
+          "C) Compulsions are voluntary pleasurable activities; obsessions occur strictly during sleep.",
+          "D) Obsessions require dermatopathological biopsy; compulsions require EEG slowing."
+        ],
+        "correct": 1,
+        "hint": "Differentiate intrusive mental phenomena from repetitive neutralizing actions.",
+        "explanation": "Obsessions are recurrent, intrusive, unwanted thoughts, urges, or images that cause anxiety or distress; compulsions are repetitive behaviors or mental acts an individual feels driven to perform to reduce anxiety or prevent a dreaded event."
+      },
+      {
+        "pts": 20,
+        "q": "A 24-year-old male spends 4 hours every day examining his skin in the mirror, convinced that a slight, unnoticeable blemish makes him look 'hideous.' He repeatedly applies makeup, checks mirrors, and seeks reassurance. He acknowledges that his defect might appear minor to others, but he cannot stop worrying. What is the most appropriate diagnosis?",
+        "options": [
+          "A) Excoriation (skin-picking) disorder.",
+          "B) Delusional Disorder, somatic type.",
+          "C) Body Dysmorphic Disorder, with good or fair insight.",
+          "D) Trichotillomania."
+        ],
+        "correct": 2,
+        "hint": "Focus on preoccupation with slight or unnoticeable appearance flaws accompanied by repetitive grooming behaviors.",
+        "explanation": "Body Dysmorphic Disorder is characterized by preoccupation with one or more perceived defects or flaws in physical appearance that are not observable or appear slight to others, accompanied by repetitive behaviors (mirror checking, grooming, reassurance seeking)."
+      },
+      {
+        "pts": 30,
+        "q": "A patient presents with severe hair pulling resulting in visible scalp alopecia and repeated attempts to stop. What clinical feature distinguishes Trichotillomania from hair removal in Body Dysmorphic Disorder (BDD)?",
+        "options": [
+          "A) Hair pulling in Trichotillomania is driven by attempts to improve a perceived appearance defect.",
+          "B) In Trichotillomania, hair pulling is not triggered by obsessions or preoccupations with perceived appearance defects, whereas BDD hair removal is specifically intended to fix a perceived flaw.",
+          "C) Trichotillomania requires the presence of persecutory delusions.",
+          "D) Trichotillomania can only be diagnosed if the patient also exhibits hoarding of trash."
+        ],
+        "correct": 1,
+        "hint": "Consider the presence or absence of appearance preoccupations underlying the hair removal.",
+        "explanation": "In Trichotillomania, hair pulling is not driven by appearance preoccupations or perceived defects; when hair removal is performed solely to improve a perceived flaw in appearance, Body Dysmorphic Disorder is diagnosed instead."
+      },
+      {
+        "pts": 40,
+        "q": "Under DSM-5-TR, what is the diagnostic coding rule when an individual with OCD is completely convinced that their obsessive beliefs are 100% true (e.g., that their house will burn down if they do not check the stove 50 times)?",
+        "options": [
+          "A) The diagnosis should be changed to Schizophrenia, Paranoid Type.",
+          "B) The diagnosis should be changed to Delusional Disorder.",
+          "C) The diagnosis remains OCD, but with the specifier 'with absent insight/delusional beliefs'.",
+          "D) The patient should be diagnosed with Brief Psychotic Disorder."
+        ],
+        "correct": 2,
+        "hint": "Look for the specific insight specifiers built into the OCD diagnostic criteria.",
+        "explanation": "DSM-5-TR includes insight specifiers for OCD; when an individual is completely convinced that OCD beliefs are true, the diagnosis remains OCD with the 'with absent insight/delusional beliefs' specifier, rather than a primary psychotic disorder."
+      },
+      {
+        "pts": 50,
+        "q": "A 30-year-old female presents with severe contamination obsessions and hand-washing rituals taking 5 hours daily, causing marked social and occupational impairment. According to evidence-based management (Kaplan & Sadock / STG 2026), what is the first-line treatment approach?",
+        "options": [
+          "A) Typical antipsychotic monotherapy with Haloperidol and electroconvulsive therapy.",
+          "B) Cognitive Behavioral Therapy (CBT) featuring Exposure and Response Prevention (ERP), combined with high-dose SSRI pharmacotherapy.",
+          "C) Short-term oral Lorazepam for 12 months with immediate neurosurgical cingulotomy.",
+          "D) Intralesional corticosteroid injection every 2 weeks."
+        ],
+        "correct": 1,
+        "hint": "Combine specialized cognitive-behavioral exposure therapy with serotonergic antidepressants.",
+        "explanation": "First-line, evidence-based management for moderate-to-severe OCD consists of Cognitive Behavioral Therapy (CBT) utilizing Exposure and Response Prevention (ERP), often combined with high-dose SSRI antidepressant therapy."
+      }
+    ]
+  },
+  {
+    "topic": "12. Dissociative disorders",
+    "name": "12. Dissociative disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What is the core defining clinical feature of Dissociative Amnesia in DSM-5-TR?",
+        "options": [
+          "A) Immediate loss of long-term procedural motor skills with preserved registration.",
+          "B) Inability to recall important autobiographical information, usually of a traumatic or stressful nature, that is inconsistent with ordinary forgetting.",
+          "C) Permanent structural cell loss in the cerebellum confirmed by brain imaging.",
+          "D) Chronic inability to encode new memories (anterograde amnesia) following head trauma."
+        ],
+        "correct": 1,
+        "hint": "Focus on reversible autobiographical memory loss related to trauma or stress.",
+        "explanation": "Dissociative Amnesia is defined by an inability to recall important autobiographical information, usually of a traumatic or stressful nature, that is inconsistent with ordinary forgetting."
+      },
+      {
+        "pts": 20,
+        "q": "A 32-year-old man is brought to the emergency department after being found wandering in a distant city, unable to recall his identity or personal history following a severe financial collapse. Physical, neurological, and toxicological examinations are completely normal. What specifier applies to his Dissociative Amnesia?",
+        "options": [
+          "A) With acute stress disorder.",
+          "B) With depersonalization.",
+          "C) With dissociative fugue.",
+          "D) With psychotic features."
+        ],
+        "correct": 2,
+        "hint": "Identify the specifier for purposeful travel or bewildered wandering associated with identity amnesia.",
+        "explanation": "The specifier 'with dissociative fugue' is applied when dissociative amnesia involves apparently purposeful travel or bewildered wandering associated with amnesia for identity or other important autobiographical information."
+      },
+      {
+        "pts": 30,
+        "q": "How is Depersonalization/Derealization Disorder distinguished from a primary Psychotic Disorder during mental status examination?",
+        "options": [
+          "A) Reality testing remains intact during depersonalization/derealization experiences in Depersonalization/Derealization Disorder.",
+          "B) Depersonalization/Derealization Disorder always features formal thought disorder and auditory command hallucinations.",
+          "C) Reality testing is completely lost in Depersonalization/Derealization Disorder.",
+          "D) Patients with Depersonalization/Derealization Disorder hold a fixed delusional conviction that they are dead."
+        ],
+        "correct": 0,
+        "hint": "Recall Criterion B regarding awareness of unreality vs delusional belief.",
+        "explanation": "Criterion B of Depersonalization/Derealization Disorder explicitly requires that during depersonalization or derealization experiences, reality testing remains intact, distinguishing it from psychotic disorders."
+      },
+      {
+        "pts": 40,
+        "q": "A 26-year-old female presents with recurrent gaps in everyday memory and reports hearing internal voices. Her family observes distinct shifts in her posture, vocal accent, and behavior, where she adopts two alternate, distinct personality states. What key feature distinguishes Dissociative Identity Disorder (DID) from Borderline Personality Disorder (BPD)?",
+        "options": [
+          "A) BPD features complete identity fragmentation into separate distinct personality states with recurrent autobiographical amnesia gaps.",
+          "B) DID is characterized by two or more distinct personality states with recurrent dissociative amnesia gaps, whereas BPD features persistent affect instability and impulsivity without alternate personality states.",
+          "C) DID only occurs in males over 65 years of age.",
+          "D) BPD is caused exclusively by acute thiamin deficiency."
+        ],
+        "correct": 1,
+        "hint": "Focus on identity fragmentation into distinct personality states and recurrent amnesia.",
+        "explanation": "DID is defined by the presence of two or more distinct personality states (or an experience of possession) and recurrent gaps in recall of everyday events/personal information, whereas BPD involves affective lability and interpersonal instability without separate personality states."
+      },
+      {
+        "pts": 50,
+        "q": "A patient presenting with severe generalized dissociative amnesia and fugue after surviving an assault is undergoing evaluation. What crucial risk must clinicians monitor as the amnesia begins to remit?",
+        "options": [
+          "A) Immediate risk of developing acute liver failure.",
+          "B) Sudden respiratory arrest due to autonomic collapse.",
+          "C) High risk of severe suicidal ideation or self-harm when overwhelming traumatic memories suddenly enter conscious awareness.",
+          "D) Total loss of pupillary light reflexes requiring emergency surgery."
+        ],
+        "correct": 2,
+        "hint": "Consider the psychological impact when repressed traumatic memories abruptly flood awareness.",
+        "explanation": "Literature notes that suicidal behavior and severe distress represent a critical risk when generalized or localized dissociative amnesia remits suddenly, overwhelming the individual with intolerable traumatic memories."
+      }
+    ]
+  },
+  {
+    "topic": "13. Substance use and addictive disorders",
+    "name": "13. Substance use and addictive disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In DSM-5-TR, how does the classification of Substance Use Disorders differ from previous multiaxial/DSM-IV categories?",
+        "options": [
+          "A) The separate categories of substance 'abuse' and substance 'dependence' were eliminated and combined into a single Substance Use Disorder category across severity levels.",
+          "B) Caffeine use disorder is classified as a severe psychotic emergency.",
+          "C) Tolerance and withdrawal criteria were completely removed for all substances.",
+          "D) Substance use disorders require mandatory brain CT imaging for diagnosis."
+        ],
+        "correct": 0,
+        "hint": "Recall the major structural change combining abuse and dependence.",
+        "explanation": "In DSM-5 and DSM-5-TR, the former separate categories of substance abuse and substance dependence were combined into a single overarching category of Substance Use Disorder, with severity measured by the number of criteria met."
+      },
+      {
+        "pts": 20,
+        "q": "A 45-year-old chronic heavy drinker presents 48 hours after his last drink with severe hand tremors, diaphoresis, blood pressure 160/100 mmHg, pulse 115 bpm, intense anxiety, and transient visual illusions of insects on the wall while fully aware they are drug-induced effects. What is the diagnosis?",
+        "options": [
+          "A) Alcohol Intoxication Delirium.",
+          "B) Schizophrenia, Catatonic Type.",
+          "C) Alcohol Withdrawal, with perceptual disturbances.",
+          "D) Mild Alcohol Use Disorder in sustained remission."
+        ],
+        "correct": 2,
+        "hint": "Identify the withdrawal specifier used when hallucinations/illusions occur with intact reality testing.",
+        "explanation": "The patient exhibits autonomic hyperactivity and tremors following alcohol cessation, alongside visual illusions with intact reality testing (clear sensorium), warranting the diagnosis of Alcohol Withdrawal, with perceptual disturbances."
+      },
+      {
+        "pts": 30,
+        "q": "According to DSM-5-TR rules, when are physiological tolerance or withdrawal symptoms NOT counted toward diagnosing a Substance Use Disorder?",
+        "options": [
+          "A) When the patient is under 18 years of age.",
+          "B) When tolerance or withdrawal occurs during appropriate medical treatment with prescribed medications (e.g., opioid analgesics taken as prescribed for pain).",
+          "C) When the substance involved is alcohol or cannabis.",
+          "D) When the patient has a comorbid mood disorder."
+        ],
+        "correct": 1,
+        "hint": "Consider legitimate medical prescriptions and prescribed therapeutic use.",
+        "explanation": "DSM-5-TR explicitly states that tolerance and withdrawal criteria are not counted for diagnosing a substance use disorder if the medication (e.g., opioid analgesics, sedatives) is taken solely under appropriate medical supervision."
+      },
+      {
+        "pts": 40,
+        "q": "A 22-year-old male is brought to the emergency department after a party. He exhibits extreme agitation, paranoia, vertical and horizontal nystagmus, hypertension, tachycardia, ataxia, and diminished responsiveness to pain. What substance intoxication toxidrome is represented?",
+        "options": [
+          "A) Cannabis intoxication.",
+          "B) Opioid overdose.",
+          "C) Phencyclidine (PCP) intoxication.",
+          "D) Sedative-hypnotic withdrawal."
+        ],
+        "correct": 2,
+        "hint": "Look for nystagmus (vertical/horizontal), ataxia, analgesia, and acute behavioral agitation.",
+        "explanation": "Phencyclidine (PCP) intoxication is characteristically distinguished by vertical or horizontal nystagmus, hypertension/tachycardia, numbness/diminished pain response, ataxia, dysarthria, and impulsive/agitated behavior."
+      },
+      {
+        "pts": 50,
+        "q": "According to the Tanzania Standard Treatment Guidelines (STG 2026), what is the recommended pharmacological regimen for managing severe Alcohol Withdrawal Delirium (Delirium Tremens) and preventing Wernicke's encephalopathy?",
+        "options": [
+          "A) High-dose oral Chlorpromazine monotherapy without IV fluids.",
+          "B) Titrated Benzodiazepines (e.g., Diazepam PO/IV/IM 10–20 mg or Lorazepam) alongside Thiamine 300 mg daily / Vitamin B Complex IV.",
+          "C) Immediate Naltrexone 50 mg IV push as a single dose.",
+          "D) Sublingual Buprenorphine 16 mg combined with Naloxone."
+        ],
+        "correct": 1,
+        "hint": "Combine GABAergic cross-tolerant sedatives with high-dose B vitamins.",
+        "explanation": "STG 2026 specifies titrated Benzodiazepine therapy (Diazepam or Lorazepam) to control withdrawal delirium and seizures, combined with Thiamine 300 mg daily (or IV Vitamin B Complex) when administering glucose-containing fluids to prevent Wernicke's encephalopathy."
+      }
+    ]
+  },
+  {
+    "topic": "14. Personality disorders",
+    "name": "14. Personality disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "According to DSM-5-TR, what general criteria define a Personality Disorder?",
+        "options": [
+          "A) Transient emotional shifts lasting less than 24 hours during acute fever.",
+          "B) An enduring pattern of inner experience and behavior that deviates markedly from cultural expectations, is pervasive and inflexible, has onset in adolescence/early adulthood, is stable over time, and causes distress or impairment.",
+          "C) Temporary memory loss occurring strictly during heavy alcohol intoxication.",
+          "D) Acute auditory command hallucinations occurring for 3 days after head injury."
+        ],
+        "correct": 1,
+        "hint": "Focus on long-standing, pervasive, inflexible patterns originating in adolescence/young adulthood.",
+        "explanation": "A personality disorder is defined as an enduring, pervasive, inflexible pattern of inner experience and behavior deviating markedly from cultural expectations, beginning in adolescence or early adulthood, stable over time, and leading to distress or impairment."
+      },
+      {
+        "pts": 20,
+        "q": "A 25-year-old male avoids all social interactions, lives alone, chooses solitary hobbies, has no close friends, and appears completely indifferent to both praise and criticism from others. His affect is constricted, but he denies eccentric beliefs or paranoid delusions. Which Cluster A personality disorder is described?",
+        "options": [
+          "A) Schizotypal Personality Disorder.",
+          "B) Antisocial Personality Disorder.",
+          "C) Schizoid Personality Disorder.",
+          "D) Avoidant Personality Disorder."
+        ],
+        "correct": 2,
+        "hint": "Identify the personality disorder marked by detachment from social relationships and restricted emotional expression.",
+        "explanation": "Schizoid Personality Disorder is characterized by a pervasive pattern of detachment from social relationships and a restricted range of expression of emotions in interpersonal settings, lacking the magical thinking of schizotypal disorder."
+      },
+      {
+        "pts": 30,
+        "q": "A 22-year-old female presents with chronic feelings of emptiness, frantic efforts to avoid real or imagined abandonment, unstable intense interpersonal relationships alternating between idealization and devaluation, recurrent suicidal gestures, and marked affect reactivity. What is the diagnosis?",
+        "options": [
+          "A) Borderline Personality Disorder.",
+          "B) Dependent Personality Disorder.",
+          "C) Histrionic Personality Disorder.",
+          "D) Narcissistic Personality Disorder."
+        ],
+        "correct": 0,
+        "hint": "Look for emotional instability, identity disturbance, fear of abandonment, and self-harm behavior.",
+        "explanation": "Borderline Personality Disorder is defined by instability of interpersonal relationships, self-image, and affects, alongside marked impulsivity, fear of abandonment, recurrent suicidal/self-harm behavior, and chronic feelings of emptiness."
+      },
+      {
+        "pts": 40,
+        "q": "How is Obsessive-Compulsive Personality Disorder (OCPD) clinically distinguished from Obsessive-Compulsive Disorder (OCD)?",
+        "options": [
+          "A) OCPD is defined by intrusive contamination obsessions and repetitive hand-washing rituals.",
+          "B) OCD involves widespread disinhibition and illegal conduct, whereas OCPD involves visual hallucinations.",
+          "C) OCPD is characterized by a pervasive pattern of perfectionism, orderliness, and rigid control without intrusive ego-dystonic obsessions/compulsions; OCD involves intrusive unwanted obsessions and repetitive rituals.",
+          "D) OCPD can only be diagnosed if the patient experiences acute seizures."
+        ],
+        "correct": 2,
+        "hint": "Differentiate pervasive personality traits of perfectionism/control from ego-dystonic intrusive thoughts and rituals.",
+        "explanation": "OCPD is a personality pattern characterized by preoccupation with orderliness, perfectionism, and mental/interpersonal control in the absence of the intrusive thoughts, images, urges, or repetitive rituals that define OCD."
+      },
+      {
+        "pts": 50,
+        "q": "In managing a patient with severe Borderline Personality Disorder presenting with repeated non-suicidal self-injury and emotional dysregulation, which evidence-based psychotherapy is specifically highlighted for reducing self-harm and crisis visits?",
+        "options": [
+          "A) Psychoanalytic free association monotherapy.",
+          "B) Dialectical Behavior Therapy (DBT).",
+          "C) Involuntary long-term institutionalization without skill training.",
+          "D) High-dose stimulant therapy with Methylphenidate."
+        ],
+        "correct": 1,
+        "hint": "Identify the specialized CBT variant designed by Marsha Linehan for emotional dysregulation and parasuicidality.",
+        "explanation": "Dialectical Behavior Therapy (DBT) is an evidence-based psychotherapy specifically developed and validated to treat Borderline Personality Disorder, targeting emotional dysregulation, self-harm, and suicidal behaviors."
+      }
+    ]
+  },
+  {
+    "topic": "15. Neurocognitive disorders",
+    "name": "15. Neurocognitive disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In DSM-5-TR, what key clinical feature distinguishes Delirium from Major Neurocognitive Disorder (Dementia)?",
+        "options": [
+          "A) Delirium has a sudden/acute onset with fluctuating disturbance in attention and awareness, whereas Major Neurocognitive Disorder features progressive cognitive decline over months or years.",
+          "B) Delirium is permanent and irreversible, whereas Dementia resolves within 2 hours.",
+          "C) Delirium never occurs in hospitalized elderly patients.",
+          "D) Dementia is caused exclusively by acute bacterial meningitis."
+        ],
+        "correct": 0,
+        "hint": "Focus on the acute onset and fluctuating attentional disturbance of delirium.",
+        "explanation": "Delirium is characterized by a disturbance in attention and awareness that develops over a short period (hours to days) and fluctuates in severity, whereas Major Neurocognitive Disorder involves chronic, progressive decline in cognitive domains."
+      },
+      {
+        "pts": 20,
+        "q": "A 74-year-old man presents with progressive cognitive decline, recurrent well-formed visual hallucinations of small animals in his room, fluctuating alertness, and mild spontaneous parkinsonian tremors. What neurocognitive disorder subtype is most likely?",
+        "options": [
+          "A) Vascular Neurocognitive Disorder.",
+          "B) Frontotemporal Neurocognitive Disorder.",
+          "C) Neurocognitive Disorder with Lewy Bodies.",
+          "D) Neurocognitive Disorder due to Alzheimer's Disease."
+        ],
+        "correct": 2,
+        "hint": "Recall the triad of fluctuating cognition, visual hallucinations, and parkinsonism.",
+        "explanation": "Neurocognitive Disorder with Lewy Bodies is defined by core diagnostic features including fluctuating cognition/attention, recurrent well-formed visual hallucinations, and spontaneous parkinsonism."
+      },
+      {
+        "pts": 30,
+        "q": "What clinical and neuroimaging presentation is characteristic of Vascular Neurocognitive Disorder?",
+        "options": [
+          "A) Insidious onset with early prominent loss of short-term memory and amyloid plaque pathology.",
+          "B) Stepwise cognitive decline, focal neurological deficits (e.g., hemiparesis, hyperreflexia), and cerebrovascular disease (infarcts or white matter lesions) on neuroimaging.",
+          "C) Severe hyperphagia and early onset dysphasia with frontal lobe atrophy.",
+          "D) Rapidly progressive dementia over 2 weeks caused by prions."
+        ],
+        "correct": 1,
+        "hint": "Look for step-wise decline linked temporally to cerebrovascular events and focal neurological signs.",
+        "explanation": "Vascular Neurocognitive Disorder is characterized by cognitive deficits temporally related to cerebrovascular events, stepwise decline, focal neurological signs, and neuroimaging evidence of cerebrovascular injury."
+      },
+      {
+        "pts": 40,
+        "q": "A 58-year-old patient presents with marked early personality changes, social disinhibition, loss of empathy, hyperorality, and apathy, with relative preservation of visuospatial skills and memory early in the disease. What is the diagnosis?",
+        "options": [
+          "A) Major Neurocognitive Disorder due to Alzheimer's Disease.",
+          "B) Major Neurocognitive Disorder due to Prion Disease.",
+          "C) Major Frontotemporal Neurocognitive Disorder (Behavioral Variant).",
+          "D) Neurocognitive Disorder due to Normal Pressure Hydrocephalus."
+        ],
+        "correct": 2,
+        "hint": "Focus on early frontal behavioral changes (disinhibition, apathy, hyperorality) sparing memory.",
+        "explanation": "Behavioral variant Frontotemporal Neurocognitive Disorder presents with early behavioral disinhibition, apathy/inertia, loss of sympathy/empathy, hyperorality, and executive dysfunction, with relative sparing of memory and visuospatial function."
+      },
+      {
+        "pts": 50,
+        "q": "An 80-year-old post-operative patient develops acute agitation, disorientation, visual illusions, and sleep-wake cycle reversal 2 days after hip surgery. According to STG 2026 and clinical guidelines, what is the primary management strategy for Delirium?",
+        "options": [
+          "A) Immediate long-term sedation with high-dose Phenobarbital.",
+          "B) Identification and treatment of underlying medical causes (infection, hypoxia, electrolyte imbalance, drug toxicity) alongside environmental support and low-dose short-term Antipsychotics (e.g., Haloperidol) if severely agitated.",
+          "C) Permanent transfer to a nursing home without medical workup.",
+          "D) Administration of high-dose intravenous corticosteroids for 6 months."
+        ],
+        "correct": 1,
+        "hint": "Prioritize treating underlying somatic etiology while using environmental supportive measures and low-dose antipsychotics for severe distress.",
+        "explanation": "Delirium management requires prompt identification and correction of underlying medical precipitants (infections, hypoxia, medications), non-pharmacological reorientation/environmental support, and low-dose short-term antipsychotics (like Haloperidol) if agitation poses safety risks."
+      }
+    ]
+  },
+  {
+    "topic": "16. Feeding and Eating disorders",
+    "name": "16. Feeding and Eating disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What are the core diagnostic features of Anorexia Nervosa under DSM-5-TR?",
+        "options": [
+          "A) Normal body weight, recurrent binge eating, and compensatory purging twice weekly.",
+          "B) Restriction of energy intake leading to significantly low body weight, intense fear of gaining weight, and disturbance in body weight/shape perception.",
+          "C) Ingestion of non-nutritive non-food items like chalk and paper for at least 1 week.",
+          "D) Nighttime sleepwalking with continuous food consumption."
+        ],
+        "correct": 1,
+        "hint": "Combine restriction of intake leading to low body weight with intense fear of weight gain.",
+        "explanation": "Anorexia Nervosa requires restriction of energy intake relative to requirements leading to significantly low body weight, intense fear of gaining weight or becoming fat, and disturbance in the experience of body weight or shape."
+      },
+      {
+        "pts": 20,
+        "q": "A 19-year-old female university student presents with recurrent episodes of eating abnormally large quantities of food in short periods with a sense of loss of control, followed by self-induced vomiting and misuse of laxatives to prevent weight gain. Her BMI is 22.5 kg/m² (normal). What is the diagnosis?",
+        "options": [
+          "A) Anorexia Nervosa, binge-eating/purging type.",
+          "B) Pica.",
+          "C) Bulimia Nervosa.",
+          "D) Binge-Eating Disorder."
+        ],
+        "correct": 2,
+        "hint": "Consider the combination of recurrent binge eating, inappropriate compensatory purging, and normal/above-normal body weight.",
+        "explanation": "Bulimia Nervosa is characterized by recurrent episodes of binge eating combined with inappropriate compensatory behaviors (self-induced vomiting, laxative misuse, fasting) in individuals who maintain a normal or elevated body weight (unlike Anorexia Nervosa)."
+      },
+      {
+        "pts": 30,
+        "q": "How does Binge-Eating Disorder differ from Bulimia Nervosa in DSM-5-TR?",
+        "options": [
+          "A) Binge-Eating Disorder features recurrent binge eating episodes WITHOUT inappropriate compensatory behaviors (e.g., purging, fasting, or excessive exercise).",
+          "B) Binge-Eating Disorder requires significantly low body weight below BMI 17 kg/m².",
+          "C) Bulimia Nervosa never features a feeling of loss of control during binge eating.",
+          "D) Binge-Eating Disorder occurs exclusively in children under 2 years of age."
+        ],
+        "correct": 0,
+        "hint": "Focus on the absence of compensatory purging or fasting after binge episodes.",
+        "explanation": "Binge-Eating Disorder involves recurrent episodes of binge eating with marked distress and loss of control, but unlike Bulimia Nervosa, it does NOT include regular inappropriate compensatory behaviors (such as purging or excessive exercising)."
+      },
+      {
+        "pts": 40,
+        "q": "A 4-year-old child persistently eats soil, chalk, paint chips, and paper for 3 months, despite adequate access to food and normal parental feeding practices. What diagnostic requirement must be verified before confirming a diagnosis of Pica?",
+        "options": [
+          "A) The eating behavior must be developmentally inappropriate (minimum age of 2 years) and not part of a culturally supported or socially normative practice.",
+          "B) The child must show severe tooth decay and bone fractures.",
+          "C) The child must express a desire to lose weight and refuse to eat food.",
+          "D) The child must experience nocturnal enuresis at least 5 times per week."
+        ],
+        "correct": 0,
+        "hint": "Consider developmental appropriateness and cultural normativity.",
+        "explanation": "Pica requires persistent eating of non-nutritive non-food substances for at least 1 month that is developmentally inappropriate (minimum age of 2 years to rule out normal infant mouthing) and not culturally or socially normative."
+      },
+      {
+        "pts": 50,
+        "q": "During medical stabilization of a severely malnourished patient with Anorexia Nervosa (BMI 12.5 kg/m²) undergoing refeeding, what life-threatening metabolic complication must be closely monitored by measuring serum phosphate, potassium, and magnesium?",
+        "options": [
+          "A) Neuroleptic Malignant Syndrome.",
+          "B) Serotonin Syndrome.",
+          "C) Refeeding Syndrome (severe hypophosphatemia leading to cardiac failure and respiratory arrest).",
+          "D) Diabetic Ketoacidosis."
+        ],
+        "correct": 2,
+        "hint": "Recall the electrolyte shift (especially phosphate) triggered by carbohydrate re-feeding in severe starvation.",
+        "explanation": "Refeeding Syndrome occurs when reintroducing carbohydrates in severe starvation causes insulin surge, driving phosphate, potassium, and magnesium intracellularly; severe hypophosphatemia can precipitate fatal cardiac arrhythmias, heart failure, and respiratory arrest."
+      }
+    ]
+  },
+  {
+    "topic": "17. Elimination disorders",
+    "name": "17. Elimination disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What is the minimum developmental age and duration threshold required for diagnosing Enuresis under DSM-5-TR?",
+        "options": [
+          "A) Minimum chronological age of 2 years; duration of 1 week.",
+          "B) Minimum chronological age of 5 years (or equivalent developmental level); frequency of at least twice weekly for 3 consecutive months.",
+          "C) Minimum chronological age of 18 years; frequency of once per year.",
+          "D) Minimum chronological age of 10 years; continuous daily bedwetting for 12 months."
+        ],
+        "correct": 1,
+        "hint": "Identify the age 5 threshold and 3-month duration criteria.",
+        "explanation": "DSM-5-TR specifies that for Enuresis, the child must have a chronological or developmental age of at least 5 years, with voiding occurring at least twice weekly for at least 3 consecutive months."
+      },
+      {
+        "pts": 20,
+        "q": "A 6-year-old boy repeatedly voids urine into his bed during sleep 3 times per week. Medical evaluation (including urinalysis and renal ultrasound) rules out urinary tract infection, diabetes mellitus, or neurological conditions. What subtype of Enuresis is diagnosed?",
+        "options": [
+          "A) Diurnal only.",
+          "B) Nocturnal only.",
+          "C) Nocturnal and diurnal.",
+          "D) Encopresis with constipation."
+        ],
+        "correct": 1,
+        "hint": "Specify the timing of involuntary voiding occurring exclusively during sleep.",
+        "explanation": "Involuntary voiding of urine occurring exclusively during nighttime sleep is classified under the 'Nocturnal only' subtype of Enuresis."
+      },
+      {
+        "pts": 30,
+        "q": "What are the diagnostic age and frequency criteria for Encopresis in DSM-5-TR?",
+        "options": [
+          "A) Involuntary or intentional passage of feces into inappropriate places by a child with a developmental age of at least 4 years, occurring at least once a month for 3 months.",
+          "B) Involuntary urination during daytime in a 2-year-old child.",
+          "C) Passage of feces into the toilet by a 12-year-old child once per week.",
+          "D) Inability to pass stool for 6 consecutive months in an adult."
+        ],
+        "correct": 0,
+        "hint": "Recall the age 4 threshold and monthly frequency criterion for fecal soilage.",
+        "explanation": "Encopresis is defined as repeated passage of feces into inappropriate places (whether involuntary or intentional) by an individual with a developmental age of at least 4 years, occurring at least once each month for 3 months."
+      },
+      {
+        "pts": 40,
+        "q": "Encopresis is specified into two subtypes based on physiological mechanism. What are these two subtypes?",
+        "options": [
+          "A) Primary vs Secondary.",
+          "B) Nocturnal vs Diurnal.",
+          "C) With constipation and overflow incontinence vs. Without constipation and overflow incontinence.",
+          "D) Stress-induced vs Urge-induced."
+        ],
+        "correct": 2,
+        "hint": "Differentiate constipation/impaction overflow from non-constipated fecal soiling.",
+        "explanation": "DSM-5-TR specifies Encopresis into two subtypes: 'With constipation and overflow incontinence' (where fecal impaction and liquid leakage are present) and 'Without constipation and overflow incontinence'."
+      },
+      {
+        "pts": 50,
+        "q": "In managing primary nocturnal enuresis in a 7-year-old child after ruling out organic pathology, what combined behavioral and pharmacological approach is recommended?",
+        "options": [
+          "A) Immediate surgical bladder neck resection.",
+          "B) High-dose Antipsychotics and permanent fluid restriction.",
+          "C) Enuresis moisture alarm therapy (first-line behavioral treatment), positive reinforcement, motivational counseling, and short-term Desmopressin or Tricyclics if needed.",
+          "D) High-dose oral Corticosteroids for 6 months."
+        ],
+        "correct": 2,
+        "hint": "Combine behavioral conditioning alarms with positive reinforcement and vasopressin analogues.",
+        "explanation": "First-line management for primary nocturnal enuresis includes behavioral interventions (enuresis moisture alarms, fluid schedule management, star charts/positive reinforcement) and pharmacotherapy (such as Desmopressin) if short-term control is required."
+      }
+    ]
+  },
+  {
+    "topic": "18. Human sexuality and sexual dysfunction",
+    "name": "18. Human sexuality and sexual dysfunction",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In DSM-5-TR, what general duration requirement applies to most Sexual Dysfunctions (e.g., Erectile Disorder, Premature Ejaculation, Female Sexual Interest/Arousal Disorder)?",
+        "options": [
+          "A) Symptoms must persist for a minimum duration of approximately 6 months and cause significant distress.",
+          "B) Symptoms must occur for at least 1 day following acute alcohol intake.",
+          "C) Symptoms must be present continuously for 5 years without interruption.",
+          "D) Symptoms must resolve spontaneously within 48 hours."
+        ],
+        "correct": 0,
+        "hint": "Focus on the standard 6-month duration criterion across sexual dysfunctions.",
+        "explanation": "To prevent over-diagnosis of transient sexual difficulties, DSM-5-TR requires that symptoms for most sexual dysfunctions persist for a minimum duration of approximately 6 months and cause clinically significant distress."
+      },
+      {
+        "pts": 20,
+        "q": "A 35-year-old male reports persistent, recurrent ejaculation occurring during partnered sexual activity within approximately 1 minute following vaginal penetration and before he wishes it, occurring in almost all sexual encounters for 8 months. What is the diagnosis?",
+        "options": [
+          "A) Delayed Ejaculation.",
+          "B) Male Hypoactive Sexual Desire Disorder.",
+          "C) Premature (Early) Ejaculation.",
+          "D) Erectile Disorder."
+        ],
+        "correct": 2,
+        "hint": "Look for ejaculation occurring within 1 minute of penetration causing distress.",
+        "explanation": "Premature (Early) Ejaculation is defined as a persistent or recurrent pattern of ejaculation occurring during partnered sexual activity within approximately 1 minute following vaginal penetration and before the individual wishes it."
+      },
+      {
+        "pts": 30,
+        "q": "A 28-year-old female presents with persistent difficulty during sexual intercourse involving marked vulvovaginal or pelvic pain, fear/anxiety about pain, and marked tensing or tightening of the pelvic floor muscles during attempted penetration. What is the DSM-5-TR diagnosis?",
+        "options": [
+          "A) Female Orgasmic Disorder.",
+          "B) Genito-Pelvic Pain/Penetration Disorder.",
+          "C) Female Sexual Interest/Arousal Disorder.",
+          "D) Somatic Symptom Disorder with predominant pain."
+        ],
+        "correct": 1,
+        "hint": "Combine dyspareunia, vulvovaginal pain, and pelvic floor muscle spasm into a single diagnostic category.",
+        "explanation": "DSM-5 merged dyspareunia and vaginismus into Genito-Pelvic Pain/Penetration Disorder, characterized by persistent or recurrent difficulties with vaginal penetration, vulvovaginal/pelvic pain, fear of pain, or pelvic floor muscle tensing."
+      },
+      {
+        "pts": 40,
+        "q": "When diagnosing a Sexual Dysfunction under DSM-5-TR, which diagnostic specifiers must be systematically evaluated to characterize the clinical presentation?",
+        "options": [
+          "A) Mild, Moderate, or Severe based on number of visual hallucinations.",
+          "B) Lifelong vs. Acquired, Generalized vs. Situational, and mild/moderate/severe severity based on distress level.",
+          "C) Psychotic vs. Non-psychotic.",
+          "D) Bipolar I vs. Bipolar II."
+        ],
+        "correct": 1,
+        "hint": "Identify onset and context specifiers (Lifelong/Acquired, Generalized/Situational).",
+        "explanation": "DSM-5-TR requires specifying the onset (Lifelong vs. Acquired), context (Generalized vs. Situational), and current severity (Mild, Moderate, Severe) for sexual dysfunction diagnoses."
+      },
+      {
+        "pts": 50,
+        "q": "A 45-year-old male with long-standing hypertension and diabetes presents with persistent inability to attain or maintain an erection adequate for sexual performance for 9 months. What is the comprehensive biopsychosocial assessment and management plan?",
+        "options": [
+          "A) Immediate surgical castration.",
+          "B) Evaluation of vascular, endocrine, and drug-induced factors (e.g., antihypertensives), lifestyle modification, psychosexual therapy (Sensate Focus), and PDE-5 inhibitors (e.g., Sildenafil) if medically safe.",
+          "C) High-dose Haloperidol injection monthly.",
+          "D) Long-term oral Corticosteroids."
+        ],
+        "correct": 1,
+        "hint": "Combine medical risk factor optimization, sex therapy, and phosphodiesterase-5 inhibitors.",
+        "explanation": "Management of Erectile Disorder involves evaluating underlying cardiovascular/endocrine causes and drug side effects, modifying lifestyle risk factors, providing sex therapy/psychological support (Sensate Focus), and prescribing PDE-5 inhibitors (e.g., Sildenafil) when medically appropriate."
+      }
+    ]
+  },
+  {
+    "topic": "19. Sleep - wake disorders",
+    "name": "19. Sleep - wake disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Under DSM-5-TR, what are the primary frequency and duration thresholds required to confirm a diagnosis of Insomnia Disorder?",
+        "options": [
+          "A) Sleep dissatisfaction occurring at least 1 night per week for at least 1 month.",
+          "B) Sleep dissatisfaction occurring at least 3 nights per week for at least 3 months despite adequate opportunity for sleep.",
+          "C) Complete inability to sleep for 7 consecutive days requiring emergency hospital admission.",
+          "D) Irrepressible daytime sleep attacks occurring twice a month for 6 months."
+        ],
+        "correct": 1,
+        "hint": "Focus on the 3 nights per week and 3 months threshold in DSM-5-TR.",
+        "explanation": "DSM-5-TR Criterion C and D for Insomnia Disorder require that sleep difficulty occurs at least 3 nights per week and is present for at least 3 months despite adequate opportunity for sleep."
+      },
+      {
+        "pts": 20,
+        "q": "A 38-year-old corporate executive reports severe daytime fatigue and loud snoring. Polysomnography reveals an Apnea-Hypopnea Index (AHI) of 22 events per hour of sleep. According to DSM-5-TR diagnostic specifiers for Obstructive Sleep Apnea Hypopnea, how is the severity categorized?",
+        "options": [
+          "A) Mild (AHI less than 15).",
+          "B) Severe (AHI greater than 30).",
+          "C) Moderate (AHI 15 to 30).",
+          "D) Transient / Subclinical (AHI less than 5)."
+        ],
+        "correct": 2,
+        "hint": "AHI between 15 and 30 per hour corresponds to moderate severity.",
+        "explanation": "In Obstructive Sleep Apnea Hypopnea, severity is defined by the Apnea-Hypopnea Index (AHI): Mild is less than 15, Moderate is 15–30, and Severe is greater than 30."
+      },
+      {
+        "pts": 30,
+        "q": "A 52-year-old male with early Parkinson's disease is brought by his wife because he violently punches and kicks during sleep, acting out vivid dreams. Upon awakening, he is immediately alert and oriented without post-event confusion. Polysomnography demonstrates REM sleep without atonia. What is the diagnosis?",
+        "options": [
+          "A) Non-REM Sleep Arousal Disorder, sleepwalking type.",
+          "B) Rapid Eye Movement (REM) Sleep Behavior Disorder.",
+          "C) Nightmare Disorder with daytime disorientation.",
+          "D) Sleep Terror Disorder."
+        ],
+        "correct": 1,
+        "hint": "Acting out vivid dreams combined with REM sleep without atonia in an alpha-synucleinopathy setting.",
+        "explanation": "REM Sleep Behavior Disorder is characterized by vocalization and/or complex motor behaviors arising during REM sleep, confirmed by polysomnographic recording of REM sleep without atonia, often acting as an early marker for synucleinopathies like Parkinson's disease."
+      },
+      {
+        "pts": 40,
+        "q": "A 21-year-old college student presents with recurrent periods of an irrepressible need to sleep, falling asleep during lectures and while conversing. She reports sudden brief episodes of bilateral muscle tone loss triggered by laughter (cataplexy). CSF analysis demonstrates hypocretin-1 (orexin) deficiency. What is the diagnosis and required duration under DSM-5-TR?",
+        "options": [
+          "A) Idiopathic Hypersomnolence disorder lasting at least 1 month.",
+          "B) Kleine-Levin Syndrome with recurrent hypersomnia.",
+          "C) Circadian Rhythm Sleep-Wake Disorder, delayed sleep phase type.",
+          "D) Narcolepsy Type 1, occurring at least 3 times per week over the past 3 months."
+        ],
+        "correct": 3,
+        "hint": "Cataplexy and hypocretin deficiency occurring at least 3 times per week for 3 months.",
+        "explanation": "DSM-5-TR defines Narcolepsy by recurrent periods of irrepressible need to sleep occurring at least 3 times per week over the past 3 months, with Type 1 confirmed by the presence of cataplexy and/or low CSF hypocretin-1 levels."
+      },
+      {
+        "pts": 50,
+        "q": "A 45-year-old female presents to an outpatient clinic with chronic insomnia, daytime fatigue, and low mood. According to Tanzania STG 2026, what combined non-pharmacological and initial pharmacological management is recommended for chronic insomnia in primary care?",
+        "options": [
+          "A) Immediate long-term Diazepam 10 mg at night for 12 months with no sleep hygiene education.",
+          "B) Sleep hygiene education, Cognitive Behavioral Therapy (CBT), and nighttime sedating low-dose Amitriptyline (PO 25–50 mg) or sedating SSRI/TCA titration.",
+          "C) High-dose Haloperidol injection IM twice daily.",
+          "D) Continuous nasal oxygen CPAP therapy monotherapy without psychological evaluation."
+        ],
+        "correct": 1,
+        "hint": "Combine sleep hygiene, CBT, and low-dose sedating antidepressants (e.g., Amitriptyline nocte).",
+        "explanation": "STG 2026 recommends non-pharmacological management including sleep hygiene and CBT, alongside pharmacological options like nighttime low-dose Amitriptyline (25–50 mg nocte) or sedating antidepressants to restore sleep architecture."
+      }
+    ]
+  },
+  {
+    "topic": "20. Psychotherapy",
+    "name": "20. Psychotherapy",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What core concept defines Cognitive Behavioral Therapy (CBT) as described in psychiatric literature?",
+        "options": [
+          "A) Analyzing unconscious childhood Oedipal conflicts through free association.",
+          "B) Modifying maladaptive core beliefs and automatic thoughts that directly influence emotional states and behavioral responses.",
+          "C) Inducing hypnotic trance states to uncover suppressed traumatic memories.",
+          "D) Providing unconditional positive regard without setting structured goals."
+        ],
+        "correct": 1,
+        "hint": "Focus on the interplay between automatic thoughts, emotions, and behaviors.",
+        "explanation": "CBT is structured on the principle that thoughts, feelings, and behaviors are interconnected, aiming to identify and reframe maladaptive automatic thoughts and cognitive distortions to alter emotional and behavioral responses."
+      },
+      {
+        "pts": 20,
+        "q": "A 9-year-old child with severe conduct problems and oppositional behavior is enrolled in Kazdin's Problem-Solving Skills Training (PSST). Which component characterizes this evidence-based intervention?",
+        "options": [
+          "A) A 12-week sequential program helping children develop step-by-step problem-solving solutions in conflict situations using practice vignettes ('supersolvers').",
+          "B) Long-term psychoanalytic couch therapy 4 times weekly.",
+          "C) Mandatory high-dose stimulant medication combined with physical restraint.",
+          "D) In vivo flooded exposure to feared phobic animals."
+        ],
+        "correct": 0,
+        "hint": "Kazdin's PSST uses sequential vignettes ('supersolvers') to teach conflict resolution skills.",
+        "explanation": "Kazdin's Problem-Solving Skills Training (PSST) is a 12-week sequential program that helps children develop cognitive problem-solving strategies when faced with conflictual situations, utilizing practice vignettes called 'supersolvers'."
+      },
+      {
+        "pts": 30,
+        "q": "A 29-year-old female with Borderline Personality Disorder has a history of repeated non-suicidal self-injury during interpersonal crises. Her therapist uses a structured form of CBT that incorporates mindfulness, distress tolerance, emotion regulation, and interpersonal effectiveness skills training. What therapy is being applied?",
+        "options": [
+          "A) Interpersonal Psychotherapy (IPT).",
+          "B) Dialectical Behavior Therapy (DBT).",
+          "C) Systematic Desensitization.",
+          "D) Acceptance and Commitment Therapy (ACT) for psychosis."
+        ],
+        "correct": 1,
+        "hint": "Linehan's DBT specifically integrates mindfulness and distress tolerance skills for BPD.",
+        "explanation": "Dialectical Behavior Therapy (DBT) is an evidence-based adaptation of CBT designed specifically for Borderline Personality Disorder, emphasizing mindfulness, emotion regulation, distress tolerance, and interpersonal effectiveness."
+      },
+      {
+        "pts": 40,
+        "q": "A 34-year-old patient with Panic Disorder and agoraphobia is undergoing CBT. The therapist guides the patient to intentionally hyperventilate for 1 minute in the office to produce lightheadedness and tachycardia, helping the patient re-evaluate these bodily sensations as non-dangerous. What technique is being utilized?",
+        "options": [
+          "A) Interoceptive exposure.",
+          "B) Eye Movement Desensitization and Reprocessing (EMDR).",
+          "C) Aversive conditioning.",
+          "D) In vivo flooding for contamination."
+        ],
+        "correct": 0,
+        "hint": "Intentionally provoking internal somatic sensations to reduce fear misinterpretations.",
+        "explanation": "Interoceptive exposure involves deliberately bringing on feared physical sensations (such as breathlessness or dizziness via hyperventilation) in a safe setting to extinguish panic responses and correct catastrophic misinterpretations."
+      },
+      {
+        "pts": 50,
+        "q": "A 42-year-old executive presenting with a major depressive episode following job loss undergoes psychological evaluation. According to STG 2026 and Kaplan & Sadock, which evidence-based psychotherapeutic modalities are recommended alongside pharmacotherapy, and what are their primary targets?",
+        "options": [
+          "A) Hypnotherapy alone to erase memory of job loss.",
+          "B) Psychoanalytic couch analysis focusing exclusively on infantile oral fixation.",
+          "C) Cognitive Behavioral Therapy (CBT) to challenge cognitive distortions and schedule activities, alongside Interpersonal Psychotherapy (IPT) to address role transitions and grief.",
+          "D) Continuous electroconvulsive therapy monotherapy without psychological support."
+        ],
+        "correct": 2,
+        "hint": "CBT targets cognitive distortions/activity scheduling; IPT targets role transitions and interpersonal grief.",
+        "explanation": "STG 2026 and literature highlight CBT (to restructure negative automatic thoughts and schedule positive activities) and Interpersonal Psychotherapy (IPT, to address interpersonal loss and role transitions) as first-line psychotherapies for depression."
+      }
+    ]
+  },
+  {
+    "topic": "21. Antipsychotics",
+    "name": "21. Antipsychotics",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "How do second-generation (atypical) antipsychotics differ pharmacodynamically from first-generation (typical) antipsychotics?",
+        "options": [
+          "A) Atypical antipsychotics selectively block GABA receptors without affecting dopamine.",
+          "B) Atypical antipsychotics combine D2 receptor antagonism with potent 5-HT2A serotonin receptor antagonism, yielding a lower risk of extrapyramidal side effects.",
+          "C) Typical antipsychotics stimulate D2 receptors, whereas atypical antipsychotics block alpha-1 adrenergic receptors only.",
+          "D) Atypical antipsychotics do not cause metabolic side effects or weight gain."
+        ],
+        "correct": 1,
+        "hint": "5-HT2A and D2 dual receptor blockade reduces extrapyramidal symptom (EPS) risk.",
+        "explanation": "Atypical antipsychotics are characterized by combined 5-HT2A serotonin and D2 dopamine receptor antagonism (often with higher affinity for 5-HT2A), which reduces the incidence of extrapyramidal side effects compared to typical D2 antagonists."
+      },
+      {
+        "pts": 20,
+        "q": "A 28-year-old male with schizophrenia started Haloperidol 5 mg twice daily 3 days ago. He presents to the casualty department with painful contraction of the neck muscles (torticollis) and upward deviation of the eyes (oculogyric crisis). What is the acute diagnosis and STG 2026 treatment?",
+        "options": [
+          "A) Tardive dyskinesia; treat with high-dose Haloperidol IV.",
+          "B) Akathisia; treat with Propranolol 80 mg PO.",
+          "C) Acute Dystonia; treat with Promethazine 25–50 mg IM/PO or anticholinergics (e.g., Benzhexol).",
+          "D) Neuroleptic Malignant Syndrome; treat with Chlorpromazine deep IM."
+        ],
+        "correct": 2,
+        "hint": "Acute dystonic reactions (torticollis, oculogyric crisis) respond to anticholinergics or Promethazine.",
+        "explanation": "Acute dystonia is an early extrapyramidal side effect of high-potency D2 antagonists; STG 2026 recommends prompt administration of Promethazine (25–50 mg IM/PO) or an anticholinergic agent (such as Benzhexol)."
+      },
+      {
+        "pts": 30,
+        "q": "A 35-year-old patient with treatment-resistant schizophrenia is started on Clozapine. According to STG 2026 and Kaplan & Sadock, what critical hematological side effect requires baseline and ongoing monitoring, and at what threshold must Clozapine be discontinued?",
+        "options": [
+          "A) Microcytic anemia; discontinue if hemoglobin falls below 10 g/dL.",
+          "B) Neutropenia / Agranulocytosis; monitor Absolute Neutrophil Count (ANC) and withdraw Clozapine if ANC drops below 1.0 x 10^9/L.",
+          "C) Severe thrombocytopenia; withdraw if platelets drop below 200 x 10^9/L.",
+          "D) Polycythemia; withdraw if hematocrit exceeds 55%."
+        ],
+        "correct": 1,
+        "hint": "Clozapine carries a risk of agranulocytosis requiring ANC monitoring (<1.0 x 10^9/L cutoff).",
+        "explanation": "Clozapine causes neutropenia (3%) and agranulocytosis (0.8%); STG 2026 mandates baseline and regular monitoring of absolute neutrophil count (ANC), requiring Clozapine withdrawal if neutrophils fall below 1.0 x 10^9/L."
+      },
+      {
+        "pts": 40,
+        "q": "A 40-year-old male treated with high-dose parenteral Haloperidol develops high fever (39.8°C), severe muscle rigidity ('lead-pipe'), autonomic instability (BP 170/110 mmHg, HR 125 bpm), altered consciousness, and elevated serum creatine kinase (CK). What is the condition and immediate primary action?",
+        "options": [
+          "A) Serotonin Syndrome; increase Haloperidol dose.",
+          "B) Anticholinergic toxicity; administer atropine IM.",
+          "C) Acute Akathisia; give oral Diazepam 10 mg.",
+          "D) Neuroleptic Malignant Syndrome (NMS); immediately discontinue all antipsychotics and institute supportive emergency care."
+        ],
+        "correct": 3,
+        "hint": "High fever, lead-pipe rigidity, autonomic instability, and elevated CK indicate NMS; stop antipsychotics.",
+        "explanation": "Neuroleptic Malignant Syndrome (NMS) is a life-threatening reaction to high-potency antipsychotics characterized by hyperthermia, muscle rigidity, autonomic breakdown, and elevated CK; immediate management requires stopping the offending agent and providing intensive supportive care."
+      },
+      {
+        "pts": 50,
+        "q": "A 55-year-old female patient with a 15-year history of Schizophrenia presents with involuntary choreoathetoid movements of the tongue, facial grimacing, and lip-smacking (tardive dyskinesia). According to STG 2026, which antipsychotics carry the highest risk, and what prescribing adjustments should be made?",
+        "options": [
+          "A) Clozapine carries the highest risk; immediately switch to high-potency Depot Haloperidol.",
+          "B) High-potency typical antipsychotics (e.g., Haloperidol) carry high risk; avoid Haloperidol and antiparkinsonian drugs, and switch to lowest effective dose of Chlorpromazine, Risperidone, Olanzapine, or Clozapine.",
+          "C) Atypical antipsychotics cause 100% tardive dyskinesia; stop all medications permanently without monitoring.",
+          "D) Add Benzhexol 10 mg daily to treat the lip-smacking movements."
+        ],
+        "correct": 1,
+        "hint": "STG 2026 notes Haloperidol has high TD risk (especially in patients >50 years); switch to lower-risk agents and avoid antiparkinsonian drugs.",
+        "explanation": "STG 2026 notes that older patients (>50 years) on typical antipsychotics like Haloperidol have a high risk of tardive dyskinesia; management includes avoiding Haloperidol and antiparkinsonian drugs (which worsen TD), and substituting Chlorpromazine, Risperidone, Olanzapine, or Clozapine at the lowest effective dose."
+      }
+    ]
+  },
+  {
+    "topic": "22. Antidepressants",
+    "name": "22. Antidepressants",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Which class of antidepressant medications functions primarily by inhibiting the presynaptic reuptake of serotonin (5-HT) without significant affinity for adrenergic, histaminic, or cholinergic receptors?",
+        "options": [
+          "A) Tricyclic Antidepressants (TCAs).",
+          "B) Monoamine Oxidase Inhibitors (MAOIs).",
+          "C) Selective Serotonin Reuptake Inhibitors (SSRIs).",
+          "D) First-generation Antipsychotics."
+        ],
+        "correct": 2,
+        "hint": "Selective serotonin reuptake blockade with minimal off-target receptor binding defines SSRIs.",
+        "explanation": "SSRIs (such as Fluoxetine, Sertraline, and Citalopram) selectively inhibit presynaptic serotonin reuptake while lacking the anticholinergic, antihistaminic, and alpha-1 blocking side effects typical of TCAs."
+      },
+      {
+        "pts": 20,
+        "q": "A 62-year-old male taking Amitriptyline 75 mg nocte for depression presents with dry mouth, blurred vision, urinary retention, constipation, and sinus tachycardia. What receptor mechanism accounts for these side effects?",
+        "options": [
+          "A) Central dopaminergic stimulation.",
+          "B) Muscarinic anticholinergic blockade.",
+          "C) Selective alpha-2 adrenergic agonism.",
+          "D) Histamine H2 receptor antagonism."
+        ],
+        "correct": 1,
+        "hint": "TCAs cause prominent anticholinergic side effects (dry mouth, urinary retention, blurred vision, tachycardia).",
+        "explanation": "Tricyclic Antidepressants (TCAs) like Amitriptyline antagonize muscarinic acetylcholine receptors, producing peripheral anticholinergic side effects including dry mouth, blurred vision, urinary retention, constipation, and tachycardia."
+      },
+      {
+        "pts": 30,
+        "q": "In 2004, regulatory authorities instituted a prominent 'black-box' warning regarding the use of SSRIs and other antidepressants in children, adolescents, and young adults (under 25 years). What specific clinical risk prompted this warning?",
+        "options": [
+          "A) Increased risk of acute liver necrosis.",
+          "B) Increased risk of suicidal thoughts and behaviors during initial weeks of therapy, requiring close clinical monitoring.",
+          "C) Sudden cardiac death from QT prolongation.",
+          "D) Permanent blindness from angle-closure glaucoma."
+        ],
+        "correct": 1,
+        "hint": "Black-box warning targets increased risk of suicidal ideation and behavior in youth under 25 during early treatment.",
+        "explanation": "The FDA black-box warning was instituted based on pediatric trial data showing a doubled rate of suicidal thoughts and behaviors (4% vs 2% placebo) during early antidepressant initiation, requiring close monitoring."
+      },
+      {
+        "pts": 40,
+        "q": "A 30-year-old female abruptly stops taking her prescribed Sertraline 100 mg daily after feeling better. Three days later, she presents with dizziness exacerbated by head movement, electric 'shock-like' sensations in her limbs, flu-like symptoms, vivid dreams, and irritability. What is the diagnosis and appropriate STG management?",
+        "options": [
+          "A) Acute psychosis relapse; start Haloperidol 5 mg IM.",
+          "B) Serotonin Reuptake Inhibitor Discontinuation Syndrome; manage by reintroducing the SSRI and tapering slowly over at least 4 weeks.",
+          "C) Neuroleptic Malignant Syndrome; admit to ICU.",
+          "D) Benzodiazepine toxicity; give Flumazenil IV."
+        ],
+        "correct": 1,
+        "hint": "'Shock-like' sensations, dizziness, and flu-like symptoms following abrupt SSRI stop indicate Discontinuation Syndrome.",
+        "explanation": "Abrupt cessation of SSRIs causes receptor rebound/discontinuation syndrome (dizziness, 'shock-like' sensations, insomnia, flu-like symptoms); STG 2026 recommends reintroducing the SSRI and tapering the dose gradually over at least 4 weeks."
+      },
+      {
+        "pts": 50,
+        "q": "A 24-year-old female is brought to the emergency department after ingesting an overdose of Amitriptyline. She is obtunded with blood pressure 85/50 mmHg, pulse 135 bpm, dry warm skin, and an ECG showing QRS widening (>120 ms) and QTc prolongation. What life-threatening cardiotoxic mechanism is occurring, and what specific IV treatment is indicated?",
+        "options": [
+          "A) Severe hypoglycemia; give IV 50% Dextrose.",
+          "B) Acute opiate depression; give IV Naloxone 0.4 mg.",
+          "C) Ventricular dysrhythmias and seizures from cardiac sodium channel blockade; administer intravenous Sodium Bicarbonate to alkalinize serum and narrow QRS.",
+          "D) Hypertensive crisis; give IV Nitroprusside."
+        ],
+        "correct": 2,
+        "hint": "TCA overdose causes QRS widening via sodium channel blockade; IV Sodium Bicarbonate is the specific antidote.",
+        "explanation": "TCA toxicity blocks fast cardiac sodium channels, producing QRS widening, hypotension, and fatal ventricular arrhythmias; IV Sodium Bicarbonate alkalinizes serum and increases extracellular sodium, reversing channel blockade and narrowing the QRS complex."
+      }
+    ]
+  },
+  {
+    "topic": "23. Mood stabilizers and anxiolytics",
+    "name": "23. Mood stabilizers and anxiolytics",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Which elemental medication is historically established as a first-line mood stabilizer for the treatment of acute mania and maintenance in Bipolar I Disorder?",
+        "options": [
+          "A) Diazepam.",
+          "B) Lithium Carbonate.",
+          "C) Chlorpromazine.",
+          "D) Haloperidol."
+        ],
+        "correct": 1,
+        "hint": "Lithium is the classic elemental mood stabilizer for bipolar disorder.",
+        "explanation": "Lithium Carbonate is a foundational mood stabilizer indicated for acute manic episodes and long-term prophylactic maintenance in Bipolar I Disorder."
+      },
+      {
+        "pts": 20,
+        "q": "According to Tanzania STG 2026, what is the recommended duration threshold for prescribing Benzodiazepines (e.g., Diazepam) for acute anxiety, and why is prolonged use restricted?",
+        "options": [
+          "A) Prescribe for a minimum of 2 years continuously.",
+          "B) Prescribe for 6 months continuously without dose monitoring.",
+          "C) Prescribe for acute management up to 2 weeks (tapered off within 6 weeks), because prolonged use leads to tolerance, dependence, and higher rates of PTSD.",
+          "D) Benzodiazepines are strictly banned and never indicated in clinical psychiatry."
+        ],
+        "correct": 2,
+        "hint": "STG 2026 limits acute benzodiazepine use to 2 weeks max (tapered within 6 weeks) to prevent dependence and PTSD complications.",
+        "explanation": "STG 2026 mandates limiting benzodiazepines to short-term acute use (up to 2 weeks, tapering to zero within 6 weeks) because prolonged use (>1 week) impairs psychological adaptation and increases risks of dependence and PTSD."
+      },
+      {
+        "pts": 30,
+        "q": "A 32-year-old female taking Carbamazepine 400 mg twice daily presents for a routine checkup. According to Kaplan & Sadock and STG 2026, pretreatment and periodic laboratory monitoring for Carbamazepine should include CBC, liver enzymes, and serum electrolytes because of what specific potential complications?",
+        "options": [
+          "A) Aplastic anemia, leukopenia, thrombocytopenia, and hyponatremia due to SIADH.",
+          "B) Hyperkalemia and metabolic acidosis.",
+          "C) Hypercalcemia and hyperthyroidism.",
+          "D) Permanent loss of visual acuity from corneal deposits."
+        ],
+        "correct": 0,
+        "hint": "Carbamazepine causes bone marrow suppression (leukopenia/aplastic anemia) and SIADH-induced hyponatremia.",
+        "explanation": "Carbamazepine carries risks of rare aplastic anemia, leukopenia, and thrombocytopenia, as well as hyponatremia caused by the Syndrome of Inappropriate Antidiuretic Hormone (SIADH), requiring CBC and electrolyte monitoring."
+      },
+      {
+        "pts": 40,
+        "q": "A 26-year-old female with Bipolar I Disorder is planning a pregnancy. Which mood-stabilizing anticonvulsants carry well-documented teratogenic risks of neural tube defects (such as spina bifida), requiring specialized preconception counseling?",
+        "options": [
+          "A) Lorazepam and Zolpidem.",
+          "B) Fluoxetine and Sertraline.",
+          "C) Chlorpromazine and Haloperidol.",
+          "D) Sodium Valproate and Carbamazepine."
+        ],
+        "correct": 3,
+        "hint": "Valproate and Carbamazepine are teratogenic, specifically causing spina bifida and neural tube defects.",
+        "explanation": "Both Sodium Valproate and Carbamazepine are major teratogens that increase the risk of neural tube defects (spina bifida), craniofacial defects, and developmental delays when taken during pregnancy."
+      },
+      {
+        "pts": 50,
+        "q": "A 48-year-old male with Bipolar Disorder on chronic Lithium therapy presents with fine hand tremors, polyuria, polydipsia, and weight gain. Lab results confirm a trough lithium level of 0.9 mEq/L, elevated TSH, and low free T4. If his serum lithium level subsequently rises above 2.0 mEq/L due to dehydration, what signs of acute severe toxicity will develop?",
+        "options": [
+          "A) Sudden onset of hypertension, mania, and hyperreflexia.",
+          "B) Isolated hyperkeratosis of palms and soles.",
+          "C) Coarse hand tremor, severe ataxia, dysarthria, confusion, vomiting, muscle weakness, and potentially seizures or coma.",
+          "D) Acute anaphylactic bronchospasm with rash."
+        ],
+        "correct": 2,
+        "hint": "Mild lithium side effects include hypothyroidism and polyuria; toxic levels (>2.0 mEq/L) cause coarse tremor, ataxia, confusion, seizures, and coma.",
+        "explanation": "Lithium therapeutic range is narrow (0.6–1.2 mEq/L); benign side effects include fine tremor and hypothyroidism, but toxic levels (>2.0 mEq/L) produce coarse tremors, severe ataxia, dysarthria, confusion, muscle twitching, seizures, and coma."
+      }
+    ]
+  },
+  {
+    "topic": "24. HIV and Psychiatry",
+    "name": "24. HIV and Psychiatry",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "What diagnostic term encompasses the spectrum of neurocognitive deficits directly attributable to HIV infection in the central nervous system, ranging from mild cognitive impairment to severe dementia?",
+        "options": [
+          "A) Alzheimer's disease in HIV.",
+          "B) Wernicke-Korsakoff Encephalopathy.",
+          "C) Vascular Neurocognitive Disorder.",
+          "D) HIV-Associated Neurocognitive Disorders (HAND)."
+        ],
+        "correct": 3,
+        "hint": "HAND is the overarching diagnostic term for HIV-related neurocognitive decline.",
+        "explanation": "HIV-Associated Neurocognitive Disorders (HAND) is the established diagnostic term covering the spectrum of cognitive, motor, and behavioral deficits caused by HIV CNS involvement, including mild neurocognitive disorder and HIV-associated dementia."
+      },
+      {
+        "pts": 20,
+        "q": "What clinical symptom triad characteristically defines HIV-Associated Dementia (AIDS Dementia Complex) as a subcortical dementia?",
+        "options": [
+          "A) Memory and psychomotor speed impairments, depressive symptoms, and movement disorders (motor slowing/ataxia).",
+          "B) Cortical aphasia, apraxia, and agnosia.",
+          "C) Rapidly progressive chorea, dysarthria, and papilledema.",
+          "D) Isolated visual agnosia with preserved motor control."
+        ],
+        "correct": 0,
+        "hint": "Subcortical triad = memory/cognitive slowing, motor slowing/coordination deficits, and mood shifts.",
+        "explanation": "HIV-associated dementia presents with the typical triad of subcortical dementias: memory/psychomotor speed impairment, depressive/mood disturbances, and movement disorders (motor slowing, ataxia, dysdiadochokinesia)."
+      },
+      {
+        "pts": 30,
+        "q": "A 34-year-old HIV-positive male recently started an ARV regimen containing Efavirenz (EFV). Within 4 days, he develops vivid nightmares, severe insomnia, dizziness, daytime agitation, and feelings of depersonalization. According to STG 2026, what management adjustments are recommended?",
+        "options": [
+          "A) Administer EFV in the morning with a high-fat meal.",
+          "B) Double the dose of EFV immediately.",
+          "C) Dosing EFV at bedtime, lowering dose from 600 mg to 400 mg/day, or substituting with an Integrase Inhibitor (e.g., Dolutegravir/DTG) if severe symptoms persist.",
+          "D) Add high-dose Haloperidol 20 mg IM daily for 6 months."
+        ],
+        "correct": 2,
+        "hint": "EFV causes prominent CNS side effects; bedtime dosing, dose reduction (400 mg), or switching to DTG is recommended by STG.",
+        "explanation": "Efavirenz commonly causes central nervous system side effects; STG 2026 guidelines advise dosing EFV at bedtime, considering a lower dose (400 mg/day), or substituting an integrase inhibitor like Dolutegravir (DTG) if symptoms are severe or persistent."
+      },
+      {
+        "pts": 40,
+        "q": "In late-stage HIV/AIDS, patients may develop 'AIDS Mania.' How does the clinical profile of AIDS Mania differ from classic Bipolar I Manic episodes according to Kaplan & Sadock?",
+        "options": [
+          "A) AIDS Mania features profound euphoria, high energy, and complete absence of cognitive decline.",
+          "B) AIDS Mania is characterized by irritability rather than euphoria, prominent cognitive slowing or dementia, chronic unremitting course, and delusional beliefs of being cured or having discovered an HIV cure.",
+          "C) AIDS Mania occurs exclusively in children under 5 years old.",
+          "D) AIDS Mania resolves spontaneously within 2 hours without treatment."
+        ],
+        "correct": 1,
+        "hint": "AIDS mania features cognitive slowing, irritability (rather than euphoria), a chronic course, and grandiose delusions of curing HIV.",
+        "explanation": "Unlike bipolar mania, AIDS Mania occurs in advanced HIV, is characterized by irritability rather than euphoria, is accompanied by cognitive slowing/dementia, follows a chronic refractory course, and frequently features grandiose delusions regarding HIV cures."
+      },
+      {
+        "pts": 50,
+        "q": "A 38-year-old HIV-positive patient on a Protease Inhibitor (PI)-based ARV regimen presents with severe Major Depressive Disorder and suicidal ideation. When selecting psychotropic medications, what major pharmacokinetic interaction must psychiatrists consider regarding Protease Inhibitors?",
+        "options": [
+          "A) Protease inhibitors inhibit hepatic CYP450 enzymes (e.g., CYP3A4), significantly increasing plasma levels and toxicity of psychotropics such as TCAs, Bupropion, certain Benzodiazepines, and SSRIs.",
+          "B) Protease inhibitors accelerate renal excretion of all drugs, rendering them completely inactive.",
+          "C) Protease inhibitors cause severe agranulocytosis when combined with vitamin C.",
+          "D) Protease inhibitors eliminate all drug-drug interactions automatically."
+        ],
+        "correct": 0,
+        "hint": "Protease inhibitors inhibit CYP enzymes, elevating psychotropic drug blood levels and risking toxicity.",
+        "explanation": "Protease inhibitors (e.g., ritonavir, lopinavir) are potent inhibitors of cytochrome P450 enzymes (especially CYP3A4); co-administration with psychotropics (TCAs, SSRIs, benzodiazepines) leads to elevated psychotropic drug levels and increased risk of adverse reactions."
+      }
+    ]
+  },
+  {
+    "topic": "25. Epilepsy and psychiatric disorders",
+    "name": "25. Epilepsy and psychiatric disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "Which type of seizure disorder is most strongly associated with interictal psychiatric symptoms, including schizophrenia-like psychosis, depression, and anxiety?",
+        "options": [
+          "A) Simple absence seizures (petit mal).",
+          "B) Febrile seizures of early childhood.",
+          "C) Temporal Lobe Epilepsy (Complex Partial Seizures).",
+          "D) Isolated Jacksonian motor focal seizures."
+        ],
+        "correct": 2,
+        "hint": "Temporal lobe epilepsy (complex partial seizures) has the highest association with interictal psychosis and mood disorders.",
+        "explanation": "Temporal Lobe Epilepsy (complex partial seizures) is strongly associated with psychiatric comorbidity; an estimated 10% of patients with complex partial epilepsy experience interictal psychotic symptoms or mood disturbances."
+      },
+      {
+        "pts": 20,
+        "q": "A 30-year-old patient with known epilepsy experiences a cluster of generalized tonic-clonic seizures, followed 24 hours later by acute paranoid delusions and auditory hallucinations lasting 3 days before resolving completely without long-term antipsychotic therapy. How is this presentation classified?",
+        "options": [
+          "A) Postictal Psychosis.",
+          "B) Interictal Schizophrenia.",
+          "C) Preictal Aura.",
+          "D) Anticonvulsant Toxicity Syndrome."
+        ],
+        "correct": 0,
+        "hint": "Psychosis occurring shortly after a seizure cluster that remits spontaneously is Postictal Psychosis.",
+        "explanation": "Postictal psychosis typically arises within 7 days following a seizure or seizure cluster, is short-lived, and often remits spontaneously, distinguishing it from chronic interictal psychotic states."
+      },
+      {
+        "pts": 30,
+        "q": "According to STG 2026 and clinical literature, which traditional antiepileptic drug is well-known for causing or exacerbating depressive symptoms and cognitive slowing in patients with seizure disorders?",
+        "options": [
+          "A) Lamotrigine.",
+          "B) Carbamazepine.",
+          "C) Sodium Valproate.",
+          "D) Phenobarbitone (Phenobarbital)."
+        ],
+        "correct": 3,
+        "hint": "Phenobarbitone is explicitly highlighted in STG 2026 as a cause of depression.",
+        "explanation": "STG 2026 explicitly notes that Phenobarbitone therapy is known to produce or exacerbate depressive symptoms and cognitive slowing in patients treated for epilepsy."
+      },
+      {
+        "pts": 40,
+        "q": "When choosing an antipsychotic or antidepressant for a patient with comorbid epilepsy and psychosis, what critical neuropharmacologic property must clinicians evaluate?",
+        "options": [
+          "A) All psychotropics elevate seizure threshold by 500%.",
+          "B) Many psychotropic medications (especially high-dose Chlorpromazine, Clozapine, or TCAs) lower the seizure threshold, potentially provoking epileptic seizures; atypical antipsychotics and SSRIs are preferred at minimal effective doses.",
+          "C) Psychotropics cure epilepsy permanently within 24 hours.",
+          "D) Antipsychotics can only be administered if the patient is under general anesthesia."
+        ],
+        "correct": 1,
+        "hint": "Certain psychotropics (Clozapine, Chlorpromazine, TCAs) lower seizure threshold; use lower-risk agents at minimal doses.",
+        "explanation": "Psychotropic drugs vary in their effect on seizure susceptibility; agents like Clozapine, Chlorpromazine, and TCAs significantly lower seizure threshold, whereas atypical antipsychotics and SSRIs at minimal effective doses are safer choices."
+      },
+      {
+        "pts": 50,
+        "q": "A 28-year-old female with poorly controlled generalized tonic-clonic seizures presents with severe major depressive disorder and suicidal ideation. According to STG 2026 guidelines, what is the primary clinical priority in managing epilepsy-related depression, and which AEDs offer dual mood-stabilizing/antidepressant benefits?",
+        "options": [
+          "A) Discontinue all AEDs immediately and start high-dose MAOIs.",
+          "B) Perform emergency neurosurgical lobectomy without medication.",
+          "C) Priority is optimizing seizure control (as remission improves psychosocial function); mood-stabilizing AEDs with antidepressant properties include Sodium Valproate, Carbamazepine, and Lamotrigine, combined with low-dose SSRIs.",
+          "D) Administer daily Phenobarbitone 300 mg combined with high-dose Imipramine."
+        ],
+        "correct": 2,
+        "hint": "STG 2026 states optimizing seizure control is priority 1; Valproate, Carbamazepine, and Lamotrigine have mood benefits; combine with low-risk SSRIs.",
+        "explanation": "STG 2026 states that in epilepsy-related depression, priority must be given to optimizing seizure control. Furthermore, AEDs like Valproate, Carbamazepine, and Lamotrigine exert antidepressant/mood-stabilizing effects, and can be augmented with SSRIs (e.g., Fluoxetine)."
+      }
+    ]
+  },
+  {
+    "topic": "26. Voice and speech disorders",
+    "name": "26. Voice and speech disorders",
+    "questions": [
+      {
+        "pts": 10,
+        "q": "In the Mental Status Examination (MSE), how is 'Speech' clinically evaluated and distinguished from 'Thought Content'?",
+        "options": [
+          "A) Speech evaluates delusional themes; thought content evaluates pitch and volume.",
+          "B) Speech evaluates physical parameters (rate, rhythm, volume, tone, fluency, and quantity); thought content evaluates the ideas, beliefs, and preoccupations expressed.",
+          "C) Speech refers exclusively to written essays; thought content refers to eye movements.",
+          "D) Speech and thought content are identical terms in psychiatry."
+        ],
+        "correct": 1,
+        "hint": "Speech assesses physical articulation/rate/volume/fluency; thought content assesses beliefs and ideas.",
+        "explanation": "In MSE, speech evaluation covers quantity, rate, fluency, tone, and volume, whereas thought content assesses what the patient is thinking (e.g., delusions, obsessions, preoccupations)."
+      },
+      {
+        "pts": 20,
+        "q": "What core diagnostic features define Childhood-Onset Fluency Disorder (Stuttering) in DSM-5-TR?",
+        "options": [
+          "A) Complete loss of expressive vocabulary due to stroke.",
+          "B) Selective refusal to speak in school while speaking fluently at home.",
+          "C) Inability to understand spoken grammar in a 15-year-old.",
+          "D) Disturbances in the normal fluency and motor production of speech, characterized by sound/syllable repetitions, prolongations, broken words, blocking, or physical tension during word production."
+        ],
+        "correct": 3,
+        "hint": "Repetitions, prolongations, blocking, and broken words starting in early development define Stuttering.",
+        "explanation": "Childhood-Onset Fluency Disorder (Stuttering) is characterized by frequent disruptions in the normal fluency and motor rhythm of speech, including sound/syllable repetitions, prolongations, broken words, blocking, and physical tension."
+      },
+      {
+        "pts": 30,
+        "q": "A 7-year-old boy presents with slow, slurred speech, drooling, abnormal chewing/swallowing, and difficulty protruding his tongue. Neurological exam reveals motor incoordination of oral musculature. According to Kaplan & Sadock and DSM-5-TR, how is Dysarthria distinguished from a primary Speech Sound Disorder?",
+        "options": [
+          "A) Dysarthria is caused by underlying structural or neurological/motor abnormalities (affecting swallowing, tongue movement, and speech rate), whereas primary Speech Sound Disorder lacks neurological/anatomical motor pathology.",
+          "B) Dysarthria is caused by severe psychological trauma, whereas Speech Sound Disorder is genetic.",
+          "C) Speech Sound Disorder causes drooling and slow tongue protrusion, whereas Dysarthria is normal.",
+          "D) Both conditions are diagnosed identically as Selective Mutism."
+        ],
+        "correct": 0,
+        "hint": "Dysarthria involves neurological/motor structural deficits (drooling, slow speech, chewing issues); Speech Sound Disorder lacks motor pathology.",
+        "explanation": "Dysarthria is a speech sound dysfunction caused by structural, motor, or neurological abnormalities (evident via drooling, abnormal swallowing, and slow speech rate), whereas Speech Sound Disorder involves functional articulation errors without neurological motor deficits."
+      },
+      {
+        "pts": 40,
+        "q": "A 6-year-old girl speaks fluently and uses complex sentences with her parents and siblings at home. However, at school and in public social settings, she consistently fails to speak, causing academic and social impairment. Language comprehension and vocal anatomy are completely normal. What is the diagnosis?",
+        "options": [
+          "A) Language Disorder (Expressive Type).",
+          "B) Childhood-Onset Fluency Disorder.",
+          "C) Selective Mutism.",
+          "D) Social (Pragmatic) Communication Disorder."
+        ],
+        "correct": 2,
+        "hint": "Consistent failure to speak in specific social situations despite speaking normally at home defines Selective Mutism.",
+        "explanation": "Selective Mutism is defined by a persistent failure to speak in specific social situations where there is an expectation to speak (e.g., school), despite speaking in other situations (e.g., at home), not attributable to a communication disorder."
+      },
+      {
+        "pts": 50,
+        "q": "A patient is evaluated for an abnormality in vocal pitch, loudness, quality, and resonance that severely impairs social communication. According to Kaplan & Sadock, speech production relies on five interacting physiological subsystems. What are these 5 subsystems, and under what category are primary voice abnormalities classified in DSM-5-TR?",
+        "options": [
+          "A) Auditory, visual, tactile, olfactory, and gustatory systems; classified as Schizophrenia.",
+          "B) Respiration, phonation, resonance, articulation, and suprasegmentalia; voice quality abnormalities are classified under Unspecified Communication Disorder (or Voice Disorder).",
+          "C) Frontal, parietal, temporal, occipital, and cerebellar lobes; classified as Major NCD.",
+          "D) Sympathetic, parasympathetic, enteric, somatic, and autonomic networks; classified as Conversion Disorder."
+        ],
+        "correct": 1,
+        "hint": "5 subsystems = respiration, phonation, resonance, articulation, suprasegmentalia; voice quality issues fit Unspecified Communication Disorder.",
+        "explanation": "Kaplan & Sadock outlines 5 interacting subsystems of speech production: respiration, phonation, resonance, articulation, and suprasegmentalia. Primary voice abnormalities (pitch, loudness, quality) that cause impairment are categorized under Unspecified Communication Disorder."
+      }
+    ]
+  }
+]
