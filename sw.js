@@ -1,6 +1,7 @@
-const CACHE_NAME = "sixseven-game-v1";
+const CACHE_NAME = "sixseven-game-v2";
 const CORE_ASSETS = [
   "./",
+  "./?v=2",
   "./index.html",
   "./manifest.json",
   "./icon-192.png",
