@@ -1579,11 +1579,7 @@
         const tile = document.createElement("button");
         tile.type = "button";
         tile.className = `subject-tile${state.selectedSubject === subj.id ? " selected-subject" : ""}`;
-        const hasCustom = Array.isArray(QUESTION_BANK[subj.id]) && QUESTION_BANK[subj.id].length > 0;
-        tile.innerHTML = `
-          <span class="subject-tile-name">${subj.label}</span>
-          <span class="subject-tile-sub">${hasCustom ? `${subj.id}.json ready` : "Starter board ready"}</span>
-        `;
+        tile.innerHTML = `<span class="subject-tile-name">${subj.label}</span>`;
         tile.addEventListener("click", () => {
           state.pendingSubject = subj.id;
           state.selectedSubject = subj.id;
