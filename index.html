@@ -2121,8 +2121,7 @@
             const btn = document.createElement("button");
             btn.type = "button";
             btn.className = "subject-tile";
-            const topicCount = getRevisionTopics(revState.year, s.id).length;
-            btn.innerHTML = `<span class="subject-tile-name">${s.label}</span><span class="subject-tile-sub">${topicCount} topics available</span>`;
+            btn.innerHTML = `<span class="subject-tile-name">${s.label}</span>`;
             btn.addEventListener("click", () => {
               revState.subjectId = s.id;
               revState.topicIndex = null;
@@ -2140,11 +2139,10 @@
         els.revConfirmStartBtn.disabled = revState.topicIndex === null;
 
         topics.forEach((t, idx) => {
-          const qCount = Array.isArray(t.questions) ? t.questions.length : 0;
           const btn = document.createElement("button");
           btn.type = "button";
           btn.className = `rev-topic-item${revState.topicIndex === idx ? " active-topic" : ""}`;
-          btn.innerHTML = `<span>${getTopicTitle(t, idx)}</span><span class="rev-count-badge">${qCount} Qs</span>`;
+          btn.innerHTML = `<span>${getTopicTitle(t, idx)}</span>`;
           btn.addEventListener("click", () => {
             revState.topicIndex = idx;
             renderRevisionView();
