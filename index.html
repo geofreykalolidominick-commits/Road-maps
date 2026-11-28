@@ -309,12 +309,6 @@
       color: #f8fafc;
     }
 
-    .subject-tile-sub {
-      font-size: 0.78rem;
-      color: #cbd5e1;
-      font-weight: 500;
-    }
-
     .turns-row, .room-row {
       display: flex;
       flex-wrap: wrap;
@@ -632,15 +626,6 @@
     .rev-topic-item.active-topic {
       border-color: var(--accent);
       background: rgba(56, 189, 248, 0.14);
-    }
-
-    .rev-count-badge {
-      font-size: 0.75rem;
-      padding: 2px 8px;
-      border-radius: 999px;
-      background: rgba(56, 189, 248, 0.16);
-      color: #bae6fd;
-      border: 1px solid rgba(56, 189, 248, 0.35);
     }
 
     .rev-top-hud {
@@ -1243,12 +1228,24 @@
       { id: "orthopedic", label: "Orthopedic" }
     ];
 
+    const MD3_DEFAULT_SUBJECTS = [
+      { id: "radiology", label: "Radiology" }
+    ];
+
+    const MD5_DEFAULT_SUBJECTS = [
+      { id: "surgery", label: "Surgery" },
+      { id: "obgy", label: "OBGY" },
+      { id: "internal_medicine", label: "Internal Medicine" },
+      { id: "paediatric", label: "Paediatric" },
+      { id: "orthopedic", label: "Orthopedic" }
+    ];
+
     let YEAR_SUBJECT_MAP = {
       MD1: [],
       MD2: [],
-      MD3: [],
+      MD3: [...MD3_DEFAULT_SUBJECTS],
       MD4: [],
-      MD5: SUBJECTS
+      MD5: [...MD5_DEFAULT_SUBJECTS]
     };
 
     let QUESTION_BANK = {};
@@ -1569,7 +1566,7 @@
       els.subjectTilesGrid.innerHTML = "";
 
       if (yearSubjects.length === 0) {
-        els.yearSubjectsStatus.textContent = `No subjects added for ${state.selectedYear} yet. Select MD5 to play available clinical subjects.`;
+        els.yearSubjectsStatus.textContent = `No subjects added for ${state.selectedYear} yet. Select MD3 or MD5 to view available clinical subjects.`;
         return;
       }
 
@@ -2115,7 +2112,7 @@
         const subs = getRevisionSubjectsForYear(revState.year);
         els.revSubjectGrid.innerHTML = "";
         if (subs.length === 0) {
-          els.revSubjectGrid.innerHTML = `<div class="status-line">No subjects configured for ${revState.year} yet. Select MD5 to study available subjects.</div>`;
+          els.revSubjectGrid.innerHTML = `<div class="status-line">No subjects configured for ${revState.year} yet. Select MD3 or MD5 to study available subjects.</div>`;
         } else {
           subs.forEach((s) => {
             const btn = document.createElement("button");
@@ -2682,9 +2679,13 @@
             const valid = manifest.filter((item) => item && typeof item.id === "string" && typeof item.label === "string");
             if (valid.length > 0) {
               SUBJECTS = valid;
-              YEAR_SUBJECT_MAP.MD5 = SUBJECTS;
-              if (!SUBJECTS.some((s) => s.id === state.selectedSubject)) {
-                state.selectedSubject = SUBJECTS[0].id;
+              const md3List = valid.filter((item) => item.id === "radiology");
+              const md5List = valid.filter((item) => item.id !== "radiology");
+              YEAR_SUBJECT_MAP.MD3 = md3List.length > 0 ? md3List : [...MD3_DEFAULT_SUBJECTS];
+              YEAR_SUBJECT_MAP.MD5 = md5List;
+              const visiblePool = [...YEAR_SUBJECT_MAP.MD3, ...YEAR_SUBJECT_MAP.MD5];
+              if (visiblePool.length > 0 && !visiblePool.some((s) => s.id === state.selectedSubject)) {
+                state.selectedSubject = visiblePool[0].id;
               }
             }
           }
